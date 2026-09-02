@@ -1,47 +1,47 @@
 {
- "updatedAt": "2026-09-02T12:27:45.592954+00:00",
+ "updatedAt": "2026-09-02T12:35:24.928145+00:00",
  "meta": {
   "defensenews": {
    "name": "Defense News",
    "status": "ok",
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-09-02T12:27:45.592954+00:00"
+   "fetchedAt": "2026-09-02T12:35:24.928145+00:00"
   },
   "airandspaceforces": {
    "name": "Air & Space Forces",
    "status": "ok",
    "count": 9,
    "error": null,
-   "fetchedAt": "2026-09-02T12:27:45.592954+00:00"
+   "fetchedAt": "2026-09-02T12:35:24.928145+00:00"
   },
   "govuk_mod": {
    "name": "英国国防部",
    "status": "ok",
    "count": 10,
    "error": null,
-   "fetchedAt": "2026-09-02T12:27:45.592954+00:00"
+   "fetchedAt": "2026-09-02T12:35:24.928145+00:00"
   },
   "afresearchlab": {
    "name": "AFRL",
    "status": "ok",
-   "count": 0,
+   "count": 2,
    "error": null,
-   "fetchedAt": "2026-09-02T12:27:45.592954+00:00"
+   "fetchedAt": "2026-09-02T12:35:24.928145+00:00"
   },
   "westpoint": {
    "name": "西点军校",
    "status": "error",
    "count": 0,
-   "error": "https://www.westpoint.edu/rss.xml -> HTTP Error 403: Forbidden",
-   "fetchedAt": "2026-09-02T12:27:45.592954+00:00"
+   "error": "all feeds failed: https://www.westpoint.edu/rss.xml -> HTTP Error 403: Forbidden",
+   "fetchedAt": "2026-09-02T12:35:24.928145+00:00"
   },
   "rand": {
    "name": "兰德",
-   "status": "error",
-   "count": 0,
-   "error": "https://www.rand.org/pubs/press.xml -> HTTP Error 404: Not Found",
-   "fetchedAt": "2026-09-02T12:27:45.592954+00:00"
+   "status": "ok",
+   "count": 10,
+   "error": null,
+   "fetchedAt": "2026-09-02T12:35:24.928145+00:00"
   }
  },
  "items": [
@@ -334,6 +334,126 @@
    "body": "Wraparound Childcare\n\nKnown as ‘Out of School Care’ in Wales and ‘School age childcare’ in Scotland.\n\nChildcare is a concern that continues to be raised on behalf of Service families by the Families Federations and other stakeholders. The concern has been reflected in recent surveys carried out by the Families Federations, the wider Armed Forces Continuous Attitude Survey ( AFCAS ) and the Families Continuous Attitude Survey ( FAMCAS ).\n\nFeedback from AFCAS and FAMCAS highlighted that a lack of good-quality, enriching and appropriate childcare has a significant impact on partner employment, which can influence Service personnels’ decisions on whether to stay in or leave the Armed Forces.\n\nIn recognition of the issues that some Service families face when trying to access wraparound childcare and its potential negative impact on retention, Defence launched the Wraparound Childcare ( WAC ) Scheme in September 2022.\n\nEligible Service personnel (Tri-Service) can register for up to 20 hours a week per child during term time only (39 weeks per year) of wraparound childcare funding for 4 to 11-year-old children (4 to 16 years if in receipt of certain disability benefits) attending before and after school childcare in the UK or eligible overseas locations.\n\nWAC funding does not provide childcare spaces, it is funding for costs incurred when eligible families pay for before and after school childcare.\n\nEligibility criteria for WAC\n\nThe scheme is open to regular and full-time reserve service (FTRS) (all commitment types) personnel. Service personnel will be eligible following their completion of Phase 1 training until their termination date.\n\nThe Service person must either be assigned within the UK, overseas within the European Economic Area and Switzerland (EEA&S), overseas using a Defence Children Services (DCS) childcare provider, or unaccompanied in other overseas locations with their family remaining in the UK, the EEA&S or an overseas location using a DCS provider for before and after school childcare.\n\nThe child for whom the Service person has parental responsibility must be aged 4 to 11 years (4 to 16 years if in receipt of certain UK disability benefits), must attend school (including home education) and be living with the serving person for at least 50% of the time unless separated due to Service commitments (deployment, residential courses), or when serving on unaccompanied assignments overseas with the family remaining in the UK, EEA&S or overseas location and using a DCS provider for before and after school childcare.\n\nAn active Tax-Free Childcare ( TFC ) account must be set up with HRMC for each child that a Service person wants to claim funding for. Active means that you reconfirm your account every 3 months and receive the 20% top-up from HMRC when you add money into the account and when using UK or DCS childcare providers, or receive the 20% top-up from the manual TFC process if using host nation childcare providers within the EEA&S.\n\nThe childcare provider must either be: located in the UK and be OFSTED-registered (or equivalent) and accept TFC payments; a DCS childcare setting (if spaces are available) which accepts TFC payments; or located overseas in the EEA&S and is registered, regulated and inspected by host nation authorities.\n\nThe Service person and their partner (or a sole parent in a single parent family) must be in paid employment, self-employed, starting or re-starting work within the next 31 days, and have a weekly income equivalent to at least 16 hours at the UK National Minimum or Living Wage .\n\nBoth parents (or a sole parent in a single parent family) must each have an adjusted net income of £100,000 or less per annum.\n\nPrimary School Aged Childcare Overseas (PSACO) Allowance\n\nThe final phase of the Defence Wraparound Childcare ( WAC ) scheme roll-out. The PSACO Allowance provides a reimbursement of costs for before and after school childcare in overseas locations where due to local rules or regulations it is not possible for WAC eligibility criteria to be met, or because Tax-Free Childcare ( TFC ) accounts are not available.\n\nThe PSACO Allowance does not provide childcare spaces, it provides funding for costs incurred when eligible families pay for before and after school childcare.\n\nEligibility criteria for the PSACO Allowance\n\nThe scheme is open to regular and full-time reserve service (FTRS) (all commitment types) personnel. Service personnel will be eligible following their completion of Phase 1 training until their termination date.\n\nThe child for whom the Service person has parental responsibility must be: aged 4 to 11 years (4 to 16 years if in receipt of certain UK disability benefits) must attend school (including home education) full time be living with the serving person for at least 50% of the time unless separated due to Service commitments.\n\naged 4 to 11 years (4 to 16 years if in receipt of certain UK disability benefits)\n\nmust attend school (including home education) full time\n\nbe living with the serving person for at least 50% of the time unless separated due to Service commitments.\n\nService parent must be financially responsible for the child.\n\nIt is not possible for the parent(s) to have a Tax-Free Childcare ( TFC ) account for their child(ren) either due to, TFC accounts not being available because the provider is outside of the European Economic Area & Switzerland and UK or is not a Defence Children Services (DCS) provider in country rules and regulations that prevent the parents from accessing TFC accounts.\n\nTFC accounts not being available because the provider is outside of the European Economic Area & Switzerland and UK or is not a Defence Children Services (DCS) provider\n\nin country rules and regulations that prevent the parents from accessing TFC accounts.\n\nBoth parents (or sole parent in a lone parent family) must either be in paid employment, working at least 16 hours per week or earning the equivalent of 16 hours per week at the UK National Minimum or Living Wage.\n\nParent(s) are not in receipt of Universal Credit, a childcare bursary or grant.\n\nHigher earning threshold per parent (or sole parent in a lone parent family) is £100,000 adjusted net income.\n\nProvider must be registered, regulated, and inspected by Host Nation authorities or a Defence Children Services (DCS) provider if spaces are available.\n\nParents must not use a salary sacrifice childcare voucher scheme such as Armed Forces Childcare Voucher Scheme (AFCVS) when claiming PSACO.\n\nHow to claim\n\nService families can check if they are eligible for the WAC or PSACO Allowances and find out how claim funding by searching ‘Wraparound Childcare’ or ‘Primary School Aged Childcare Overseas’ on the Discover My Benefits website.\n\nContact\n\nContact your unit HR team or admin office for queries about claims.\n\nFor policy questions, email: PEOPLE-AFFS- WAC -FRO-mailbox@mod.gov.uk\n\nFor more information on WAC or PSACO visit: Defence childcare information (accessible by MOD personnel only) or Defence Connect (sign-in required).\n\nUnited Kingdom (UK)\n\nThere are a number of childcare options for parents to choose from. Parents should go to the Best Start in Life website for further information and guidance on all available government childcare schemes.\n\nCheck to see if you’re eligible for Tax-Free Childcare ( TFC ) . You can get TFC at the same time as Government funded childcare hours if you’re eligible for both.\n\nEngland\n\nWorking families are entitled to 30 hours per week for 38 weeks of the year for children aged 9 months to school starting age.​ All families are entitled to 15 hours per week for 38 weeks of the year for children aged from 3-years-old to school starting age.\n\nFor further information, please visit the Best Start in Life website .\n\nYou can also check to see if you’re eligible for Tax-Free Childcare ( TFC ). You can get TFC at the same time as 15 or 30 hours’ free childcare if you’re eligible for both.\n\nScotland\n\nFunded early learning and childcare is free to all parents and is funded by the Scottish Government. You can get up to 1,140 hours of funded early learning and childcare per year (around 30 hours a week in term time) if your child is 3 or 4 years old. Some 2-year-old children are also eligible.\n\nFor more information, please visit Help paying for childcare .\n\nWales\n\nWales provides a minimum of 10 hours per week of nursery education for all children aged 3 to 4 years; up to an additional 20 hours per week of funded childcare for eligible parents of 3 to 4-year-old children during term-time, rising to 30 hours of funded childcare for up to 9 weeks during school holidays.\n\nFor further information about the childcare offer in Wales, parents should visit the Welsh Government website .\n\nNorthern Ireland\n\nParents of children aged 3 and 4 years old can apply to receive 12.5 hours a week of free, also known as ‘funded’ pre-school education. This allocation can only be taken over 2.5 hours per day, 5 days a week during term time.\n\nPlaces are provided by nursery schools, primary schools with nursery units and some voluntary and private providers. The places cannot be provided by childminders.\n\nFor more information, please visit NI Direct .\n\nFor further information and guidance about the childcare offer in Northern Ireland, parents should contact 38 (Irish) Brigade at RC-AWS-N-38X-0mailbox@mod.gov.uk .\n\nDefence UK Nursery Authority (UKNA)\n\nThe UKNA is a Defence scheme that will reimburse eligible working parents in Scotland, Wales and Northern Ireland for the difference in the costs of Early Years childcare hours, matching the “free” (Government funded) childcare hours they would be entitled to if assigned to England.\n\nUKNA does not provide childcare spaces.\n\nIn England, working families can access 30 hours of Government funded childcare per child for 38 weeks annually. Through the UKNA scheme, from September 2026, eligible Armed Forces families may register to claim back the costs for the difference between English and Devolved Government funded hours.\n\nIn England, working families can access 30 hours of Government funded childcare per child for 38 weeks annually. Through the UKNA scheme, from September 2026, eligible Armed Forces families may register to claim back the costs for the difference between English and Devolved Government funded hours.\n\nEligible families in Scotland and Wales can claim up to 30 hours per week for 38 weeks per year, for children aged 9 months to 3 years old. Subject to ongoing eligibility, UKNA funding stops when the child becomes eligible for Devolved Government childcare funding for 3-year-olds.\n\nEligible families in Scotland and Wales can claim up to 30 hours per week for 38 weeks per year, for children aged 9 months to 3 years old. Subject to ongoing eligibility, UKNA funding stops when the child becomes eligible for Devolved Government childcare funding for 3-year-olds.\n\nEligible families in Northern Ireland with children aged 9 months to 3 years old can claim up to 30 hours per week for 38 weeks per year, while those with 4-year-olds can claim up to 17.5 hours per week for 38 weeks per year. Subject to ongoing eligibility, UKNA funding stops when the child start full-time education (P1 or home education).\n\nEligible families in Northern Ireland with children aged 9 months to 3 years old can claim up to 30 hours per week for 38 weeks per year, while those with 4-year-olds can claim up to 17.5 hours per week for 38 weeks per year. Subject to ongoing eligibility, UKNA funding stops when the child start full-time education (P1 or home education).\n\nService personnel should read the UKNA DIN for information about when eligibility ceases. Search UK Nursery Authority at DINs Search (defnet) or Group: Defence Instruction Notices - DIN’s | Defence Connect . (Service personnel only).\n\nIf you already receive free early years childcare hours from the Government in your location (Scotland, Wales or Northern Ireland), Defence will reimburse you for the cost of extra hours to make the maximum number of funded hours that you will receive up to 30 hours per week. E.g. if you receive 12.5 hours per week for your child, Defence will reimburse you for the cost of 17.5 hours per week for 38 weeks per year.\n\nEligibility criteria for UKNA\n\nEligibility criteria for working parents of children aged between 9 months and 3 years old in Scotland and Wales, and 9 months to 4 years old in Northern Ireland, from September 2026.\n\nRegular or Full Time Reserve Service (Full Commitment) personnel.\n\nBoth parents or a sole parent in a lone parent family, meet the minimum earnings threshold of earning at least the equivalent of 16 hours per week at the UK National Minimum or Living Wage.\n\nEither parent or a sole parent in a lone parent family does not exceed the maximum earning threshold of £100,000 adjusted net income per annum.\n\nChild is recorded and verified on JPA\n\nAn active Tax-Free Childcare ( TFC ) account is in place for the child(ren). Active means that you reconfirm every 3 months and receive the top up from HMRC when you add money to the account.\n\nThe childcare provider accepts TFC payments, all UKNA claims must first be paid via the child’s active TFC account.\n\nChild lives with the Service parent for at least 50% of the time except when separated for service reasons.\n\nHow to register and claim\n\nRegistration and claims information is available on the UKNA section of Discover My Benefits .\n\nContact\n\nFor queries about claims please contact your unit HR team or admin office.\n\nFor policy questions, email: PEOPLE-AFFS-CHILD-EXPENSES@Mod.gov.uk .\n\nFor more information on UKNA visit: Defence childcare information (accessible by MOD personnel only) or Defence Connect (sign-in required).\n\nMoving to England from overseas or within the UK\n\nIf you are returning from overseas or moving within the UK, please visit the Best Start in Life website to find out what is available in your area. The application process and deadlines may vary.\n\nIt’s not possible to apply for additional funded childcare online when you are outside England. If you are due to return to England from overseas or elsewhere in the UK after a term deadline, you can call the Childcare Service Helpline on 0300 123 4097 to apply for a free childcare code and request a manual application. The manual application must be completed before the term deadline.\n\nInformation on term deadlines and when to apply can be found in DIN - Early years funded childcare overseas. Search for the DIN on defnet or Defence Connect (accessible by MOD personnel only).\n\nParents can apply outside of the recommended dates, but they might not receive their code in time. Parents must have a valid code by the end of the month before a new term starts.\n\nOverseas\n\nIn overseas locations, the Ministry of Defence ( MOD ) provides services (or access to services) that, so far as is reasonably practicable, conform in type, scope and standard to that required by legislation in England.\n\n15 and 30 hours’ free childcare\n\nFrom September 2025 in DCS-provided settings overseas, parents with children aged 9 months to school starting age can access 15 or 30 hours’ funded childcare (depending on eligibility).\n\nTo apply for 15 or 30 hours’ funded childcare, search for the DIN: ‘Funded childcare entitlements and processes for overseas Service personnel and UK Based Civil Servants (UKBCs) with accompanying pre-school aged children’ on defnet or Defence Connect (accessible by MOD personnel only).\n\nApplications should be forwarded to the relevant setting or school for approval and recording.\n\nOverseas Nursery Authority ( ONA )\n\nFrom September 2025, parents of children aged 9 months to school starting age in overseas locations where DCS schools and settings are not available can apply for reimbursement of funded childcare hours by means of ONA .\n\nFor more information, please visit Overseas Nursery Authority ( ONA ) .\n\nChildcare vouchers\n\nThe Childcare Voucher Scheme is a salary sacrifice scheme, which closed to new joiners in October 2018.\n\nArmed Forces families can visit the Pluxee website to log into their Childcare Voucher account. DIN - Armed Forces Childcare Voucher Scheme applies.\n\nMOD civilian families can contact Edenred’s customer service team by:\n\nphone: 0800 247 1233\n\nwebsite: Edenred Childcare Vouchers\n\nIn overseas locations, childcare vouchers can only be used at schools and settings that are MOD -approved, regulated and inspected.\n\nTax-Free Childcare\n\nTax-Free Childcare ( TFC ) is a government scheme introduced on 21 April 2017 to help working parents with the cost of childcare and will, over time, replace the Armed Forces Childcare Voucher Scheme. Parents have the option to open an online account, which they can use to pay for childcare from an accredited and registered provider.\n\nParents can visit the the Best Start in Life website to register. For further information, visit Tax-Free Childcare ( TFC ) . You can also use this step by step guide to claiming TFC .\n\nWhile overseas, TFC can only be used at schools or settings that are MOD -provided. DIN - Tax-Free Childcare ( TFC ) Scheme for eligible working parents applies.\n\nClaim for Government TFC top up\n\nIf eligible for TFC and assigned to an overseas location within the European Economic Area (and Switzerland), where there is no access to MOD -provided schools and settings, parents will be able to claim TFC top-up via a manual process.\n\nAn explanation of the process and the application form is contained within DIN - Tax-Free Childcare ( TFC ) Scheme for eligible working parents (accessible by MOD personnel only). A copy of the application form can also be obtained by emailing PEOPLE-AFFS-Child-Expenses@mod.gov.uk .\n\nUniversal Infant Free School Meals\n\nThe Department of Education announced that from September 2014 funding would be made available to enable state funded schools in England to offer a free meal to every primary school pupil in Reception classes, Year 1 and Year 2.\n\nService children in schools overseas in Reception, Year 1 and Year 2 or their national equivalent are entitled to a free school meal. In some locations the schools will provide the meal, but in others this may not be possible due to local conditions or restrictions. This provision is offered in line with English government legislation.\n\nFurther detail can be found on pages 21 and 22 of JSP 342 The education of service children overseas (JSP 342) .\n\nArmed Forces Independence Payment ( AFIP )\n\nTo be eligible for TFC or Free Childcare for Working Parents (FCWP), a person (and their partner if they have one) must be in qualifying paid work - either employed or self-employed. Couples where one partner is in qualifying paid work and the other receives a qualifying benefit for caring, incapacity for work or limited capability for work may also be eligible. A single person getting a qualifying benefit for caring, incapacity for work or limited capability for work won’t be eligible.\n\nAFIP is not a qualifying benefit for caring, incapacity for work or limited capability for work when applying for TFC or FCWP. However, the parent getting AFIP may still be eligible for TFC or FCWP if they apply for contributions-based Employment and Support Allowance and receive a payment or get a nil award.",
    "channel": "govuk_mod",
    "channelName": "英国国防部"
+  },
+  {
+   "url": "https://afresearchlab.com/fights-on-issue-78-summer-2026/",
+   "title": "Fights On! Issue 78: Summer 2026",
+   "author": "Patrick Londergan",
+   "pubDate": "2026-08-11T15:36:56+00:00",
+   "summary": "The summer issue of Fight's On! highlights several research and development initiatives aimed at enhancing warfighter capabilities through advanced technology. Key highlights include the MASH Events, CUJO Study #2, Model of the Opponent, IV&#038;V Role in OP TEMPO Program, Oko/CRAI Pilot Study, MINDSET, and Extended Wear Hearing Aid assessments.",
+   "body": "",
+   "channel": "afresearchlab",
+   "channelName": "AFRL"
+  },
+  {
+   "url": "https://afresearchlab.com/afrl-demonstrates-neural-network-control-of-satellite-bus-in-orbit-2/",
+   "title": "AFRL demonstrates neural network control of satellite bus in orbit",
+   "author": "Patrick Londergan",
+   "pubDate": "2026-07-28T18:08:26+00:00",
+   "summary": "WRIGHT-PATTERSON AIR FORCE BASE, Ohio -- In a show of artificial intelligence in space, the Air Force Research Laboratory (AFRL) recently demonstrated autonomous control of a satellite bus using a neural network. The flight marks a pivotal shift from AI managing sensors and payloads to it directly commanding the critical function of spacecraft orientation. During the mission, an AI agent was uplinked to a CubeSat orbiting hundreds of miles above Earth. Within a single orbit and without human int",
+   "body": "WRIGHT-PATTERSON AIR FORCE BASE, Ohio -- In a show of artificial intelligence in space, the Air Force Research Laboratory (AFRL) recently demonstrated autonomous control of a satellite bus using a neural network. The flight marks a pivotal shift from AI managing sensors and payloads to it directly commanding the critical function of spacecraft orientation.\n\nDuring the mission, an AI agent was uplinked to a CubeSat orbiting hundreds of miles above Earth. Within a single orbit and without human intervention, the neural network autonomously controlled the spacecraft's orientation, precisely steering the vehicle to its mission objective and avoiding hazardous conditions\n\n\"We have a responsibility to translate advances in AI to give our Airmen and Guardians trustworthy autonomous teammates to meet today's fast-moving challenges,” said Department of the Air Force Technology Executive Officer and AFRL Commander Brig. Gen. Douglas P. Wickert . “The AFRL vision is to win the future by executing our mission to discover, develop and deliver war-winning science and technology.\"\n\n~ Brig. Gen. Douglas P. Wickert, Air Force Technology Executive Officer and AFRL Commander\n\nAFRL's Autonomy Capability Team (ACT3) trained the neural network using reinforcement learning and subjected it to extensive pre-flight simulation and laboratory testing, bridging the gap between simulated environments and physical operations ahead of uploading it to the test vehicle.\n\n“We used startup-like agility to take a reinforcement learning model from the lab directly to orbit,” said Dr. Steve “Cap” Rogers , AFRL senior scientist for AI enabled autonomy. “This flight is a perfect example of ACT3's core mission to operationalize AI at scale for the Air and Space Force.”\n\nTo ensure mission safety, the flight also tested a next-generation AI watchdog system and AFRL-designed guardrail runtime assurance systems. Watchdogs detect when AI systems approach unverified situations, enabling them to pivot seamlessly to backup systems. Guardrails monitor vehicle state and neural network outputs, intervening when predefined safety boundaries are approached. These systems ran in “shadow mode” and provided insight to how each would respond to the neural network in real time.\n\nWith the foundational capabilities of neural network control now proven in orbit, AFRL plans to expand the scope and complexity of autonomous operations for future flights.\n\nAbout AFRL The Air Force Research Laboratory is the Department of the Air Force’s primary scientific research and development center and one of six centers within Air Force Materiel Command. AFRL leads the discovery, development and delivery of technologies for air, space and the multidomain. With a workforce spanning seven mission areas at more than 40 locations worldwide, AFRL conducts research ranging from basic science to advanced technology development. For more information, visit: afresearchlab.com .\n\nAbout ACT3 AFRL’s ACT3 is an AI Special Operations organization whose mission is to Operationalize AI at Scale for the Air Force and the Space Force. Commissioned by the AFRL Commander, ACT3 leverages an innovative ‘start-up’ business model as an alternative approach to the traditional AFRL Technical Directorate R&D model by combining the blue sky vision of an academic institution; the flexibility of an AI startup; and the discipline of a production development company. The goal of the ACT3 business model is to define the shortest path to successful transition of solutions using AFRL’s internal expertise and collaborations with the best academic and commercial AI researchers in the world. Successful implementation may mean new technology or new implementation of existing technology. To learn more about ACT3, visit: afrl.af.mil/ACT3/",
+   "channel": "afresearchlab",
+   "channelName": "AFRL"
+  },
+  {
+   "url": "https://www.rand.org/pubs/research_reports/RRA5093-1.html",
+   "title": "Operational reliance on AI in supply chains and emerging insurance risks",
+   "author": "Sasha Romanosky",
+   "pubDate": "2026-09-02T03:00:00+00:00",
+   "summary": "Artificial intelligence (AI) is becoming embedded in supply chains. This report examines how that changes operational reliance, resilience, and insurance risk across logistics, transport, and warehousing.",
+   "body": "",
+   "channel": "rand",
+   "channelName": "兰德"
+  },
+  {
+   "url": "https://www.rand.org/pubs/corporate_pubs/CPA2710-3.html",
+   "title": "An Enduring Partnership to Address the Department of the Air Force’s Greatest Challenges (2026 version)",
+   "author": "",
+   "pubDate": "2026-09-01T09:00:00+00:00",
+   "summary": "RAND Project AIR FORCE's (PAF's) mission is to help the Department of the Air Force (DAF) leaders make informed, research-based decisions to meet its challenges.",
+   "body": "",
+   "channel": "rand",
+   "channelName": "兰德"
+  },
+  {
+   "url": "https://www.rand.org/pubs/research_reports/RRA4333-1.html",
+   "title": "When Counties Invest in Early Childhood",
+   "author": "Adaeze Ibeanu",
+   "pubDate": "2026-09-01T08:00:00+00:00",
+   "summary": "The authors evaluated the implementation of the Early Childhood Impact Fund (ECIF) in Harris County, Texas. ECIF provided $15 million to programs serving children from birth to age 5, their caregivers, and early childhood professionals.",
+   "body": "",
+   "channel": "rand",
+   "channelName": "兰德"
+  },
+  {
+   "url": "https://www.rand.org/pubs/commentary/2026/08/not-all-magic-mushrooms-are-the-same.html",
+   "title": "Not All ‘Magic’ Mushrooms Are the Same",
+   "author": "",
+   "pubDate": "2026-08-31T17:00:00+00:00",
+   "summary": "Millions of U.S. adults use Amanita muscaria mushrooms. But these distinctive fungi aren’t like other psychoactive mushrooms. What do consumers and policymakers need to know about them?",
+   "body": "",
+   "channel": "rand",
+   "channelName": "兰德"
+  },
+  {
+   "url": "https://www.rand.org/pubs/commentary/2026/08/mirror-life-is-theoretical-the-danger-is-anything-but.html",
+   "title": "Mirror Life Is Theoretical. The Danger Is Anything But.",
+   "author": "",
+   "pubDate": "2026-08-31T16:00:00+00:00",
+   "summary": "With mirror life, scientists have given world leaders both the foresight and the time to address the danger. What's needed isn't alarm but action to ensure that mirror life remains just a footnote in human history&mdash;and not its final chapter.",
+   "body": "",
+   "channel": "rand",
+   "channelName": "兰德"
+  },
+  {
+   "url": "https://www.rand.org/pubs/research_reports/RRA5137-1.html",
+   "title": "Preparing Students for What Comes Next",
+   "author": "Elizabeth D. Steiner",
+   "pubDate": "2026-08-31T09:00:00+00:00",
+   "summary": "The authors analyze data from three RAND survey panels to examine career-connected learning in kindergarten through grade 12 schools in academic year 2025–2026 using the perspectives of district leaders, school leaders, and high school students.",
+   "body": "",
+   "channel": "rand",
+   "channelName": "兰德"
+  },
+  {
+   "url": "https://www.rand.org/pubs/external_publications/EP71476.html",
+   "title": "The 988 Lifeline’s Integration Into the Broader Crisis Care Continuum",
+   "author": "Ryan K. McBain",
+   "pubDate": "2026-08-31T08:15:00+00:00",
+   "summary": "The objective of this paper is to understand how 988 Lifeline centers are connected to the broader crisis care continuum, including 911, mobile crisis response, and community-based services.",
+   "body": "",
+   "channel": "rand",
+   "channelName": "兰德"
+  },
+  {
+   "url": "https://www.rand.org/pubs/external_publications/EP71477.html",
+   "title": "From Support to Priority",
+   "author": "AK Keskin",
+   "pubDate": "2026-08-31T08:15:00+00:00",
+   "summary": "This is the second brief in CRPE and RAND’s three-part series on the state of civic learning in U.S. school districts.",
+   "body": "",
+   "channel": "rand",
+   "channelName": "兰德"
+  },
+  {
+   "url": "https://www.rand.org/pubs/external_publications/EP71471.html",
+   "title": "From Occurrence to Consequence",
+   "author": "Thomas Gernay",
+   "pubDate": "2026-08-31T08:15:00+00:00",
+   "summary": "In this work, we analyze more than one million fire incident reports and integrate them with community-level socioeconomic indicators, building inventories, weather conditions, and incident-specific characteristics.",
+   "body": "",
+   "channel": "rand",
+   "channelName": "兰德"
+  },
+  {
+   "url": "https://www.rand.org/pubs/external_publications/EP71474.html",
+   "title": "Illegal Markets",
+   "author": "Peter Reuter",
+   "pubDate": "2026-08-31T08:15:00+00:00",
+   "summary": "This paper introduces a Special Feature analyzing nine illegal markets through a common lens on their structure and operation, arguing that illegal markets warrant sustained scientific study as a distinct field of applied science.",
+   "body": "",
+   "channel": "rand",
+   "channelName": "兰德"
   }
  ]
 }
