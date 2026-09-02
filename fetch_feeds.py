@@ -54,6 +54,7 @@ CHANNELS = [
         "id": "afresearchlab", "name": "AFRL",
         "feeds": ["https://afresearchlab.com/feed/"],
         "full": "content",
+        "lookback": 40,  # 期刊类，更新频率低
     },
     {
         "id": "westpoint", "name": "西点军校",
@@ -67,10 +68,10 @@ CHANNELS = [
             "https://www.rand.org/pubs/new.xml",
             "https://www.rand.org/pubs/commentary.xml",
             "https://www.rand.org/pubs/articles.xml",
-            "https://www.rand.org/pubs/press.xml",
         ],
         "full": "page",
         "selectors": ["div.col-sm-9", "div#main", "article", "main"],
+        "lookback": 30,
     },
 ]
 
@@ -151,17 +152,19 @@ def extract_page(url, selectors):
 
 
 def feed_entries(channel):
-    """拉取一个频道所有 feed 的原始条目，返回 [{...}]。"""
+    """拉取一个频道所有 feed 的原始条目，返回 [{...}]。单 feed 失败不拖垮整频道。"""
     entries = []
     seen = set()
+    errors = []
     for feed_url in channel["feeds"]:
         try:
             raw = http_get(feed_url, timeout=40)
             parsed = feedparser.parse(raw)
             if parsed.bozo and not parsed.entries:
-                raise ValueError(parsed.get("bozo_exception") or "parse error")
+                raise ValueError(str(parsed.get("bozo_exception") or "parse error"))
         except Exception as e:  # noqa: BLE001
-            raise RuntimeError("%s -> %s" % (feed_url, e))
+            errors.append("%s -> %s" % (feed_url, e))
+            continue
         for e in parsed.entries:
             url = (e.get("link") or "").strip()
             if not url or url in seen:
@@ -187,17 +190,20 @@ def feed_entries(channel):
                 "url": url, "title": title, "author": author, "pubDate": pub,
                 "summary": summary[:500], "body": body,
             })
+    if not entries and errors:
+        raise RuntimeError("all feeds failed: %s" % "; ".join(errors)[:400])
     return entries
 
 
 def main():
     now = datetime.now(timezone.utc)
-    cutoff = now - timedelta(days=LOOKBACK_DAYS)
     items = []
     meta = {}
     last_err = None
 
     for ch in CHANNELS:
+        lookback = ch.get("lookback", LOOKBACK_DAYS)
+        cutoff = now - timedelta(days=lookback)
         ch_items = []
         try:
             entries = feed_entries(ch)
