@@ -61,6 +61,7 @@ CHANNELS = [
         "feeds": ["https://www.westpoint.edu/rss.xml"],
         "full": "page",
         "selectors": ["div.field--name-body", "div.node__content", "article", "main"],
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
     },
     {
         "id": "rand", "name": "兰德",
@@ -84,10 +85,10 @@ CHANNELS = [
         "lookback": 10,
     },
     {
-        "id": "us_navy", "name": "美国海军",
+        "id": "us_marines", "name": "美国海军陆战队",
         "feeds": [
-            "https://www.navy.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=148&max=20",
-            "https://www.dvidshub.net/rss/navy",
+            "https://www.marines.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1&max=20",
+            "https://www.dvidshub.net/rss/marines",
         ],
         "full": "page",
         "selectors": ["div.news-article-body", "div.body-content", "div.article-body", "article", "main"],
@@ -109,11 +110,11 @@ STRIP_TAGS = re.compile(r"<[^>]+>")
 WS = re.compile(r"\s+")
 
 
-def http_get(url, timeout=30, retries=2):
+def http_get(url, timeout=30, retries=2, ua=None):
     last = None
     for i in range(retries + 1):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            req = urllib.request.Request(url, headers={"User-Agent": ua or UA})
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 raw = resp.read()
             ctype = resp.headers.get("Content-Type", "") or ""
@@ -156,9 +157,9 @@ def clean_html_to_paragraphs(html):
     return "\n\n".join(paras)[:BODY_MAX_CHARS]
 
 
-def extract_page(url, selectors):
+def extract_page(url, selectors, ua=None):
     """按候选选择器抽取正文段落；都不足则退回全页 <p>。"""
-    html = http_get(url, timeout=40)
+    html = http_get(url, timeout=40, ua=ua)
     soup = BeautifulSoup(html, "lxml")
     for tag in soup.find_all(["script", "style", "nav", "form", "iframe", "noscript"]):
         tag.decompose()
@@ -188,7 +189,7 @@ def feed_entries(channel):
     errors = []
     for feed_url in channel["feeds"]:
         try:
-            raw = http_get(feed_url, timeout=40)
+            raw = http_get(feed_url, timeout=40, ua=channel.get("ua"))
             parsed = feedparser.parse(raw)
             if parsed.bozo and not parsed.entries:
                 raise ValueError(str(parsed.get("bozo_exception") or "parse error"))
@@ -251,7 +252,7 @@ def main():
         if ch["full"] == "page":
             for e in ch_items:
                 try:
-                    body = extract_page(e["url"], ch.get("selectors"))
+                    body = extract_page(e["url"], ch.get("selectors"), ua=ch.get("ua"))
                     if body:
                         e["body"] = body
                         if not e["summary"]:
