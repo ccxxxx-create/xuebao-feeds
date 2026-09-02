@@ -1,0 +1,44 @@
+name: Fetch Xuebao Feeds
+
+on:
+  schedule:
+    # 每天 09:00（北京时间，UTC+8）= UTC 01:00
+    - cron: '0 1 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feeds-mirror
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: pip install -r _mirror/requirements.txt
+
+      - name: Fetch feeds
+        run: python _mirror/fetch_feeds.py
+
+      - name: Commit latest.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add feeds/latest.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: update xuebao feeds"
+            git push
+          fi
