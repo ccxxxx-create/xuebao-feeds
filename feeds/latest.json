@@ -1,47 +1,68 @@
 {
- "updatedAt": "2026-09-02T13:47:51.775931+00:00",
+ "updatedAt": "2026-09-02T14:04:30.094277+00:00",
  "meta": {
   "defensenews": {
    "name": "Defense News",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-02T13:47:51.775931+00:00"
+   "fetchedAt": "2026-09-02T14:04:30.094277+00:00"
   },
   "airandspaceforces": {
    "name": "Air & Space Forces",
    "status": "ok",
    "count": 9,
    "error": null,
-   "fetchedAt": "2026-09-02T13:47:51.775931+00:00"
+   "fetchedAt": "2026-09-02T14:04:30.094277+00:00"
   },
   "govuk_mod": {
    "name": "英国国防部",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-02T13:47:51.775931+00:00"
+   "fetchedAt": "2026-09-02T14:04:30.094277+00:00"
   },
   "afresearchlab": {
    "name": "AFRL",
    "status": "ok",
    "count": 2,
    "error": null,
-   "fetchedAt": "2026-09-02T13:47:51.775931+00:00"
+   "fetchedAt": "2026-09-02T14:04:30.094277+00:00"
   },
   "westpoint": {
    "name": "西点军校",
    "status": "error",
    "count": 0,
    "error": "all feeds failed: https://www.westpoint.edu/rss.xml -> HTTP Error 403: Forbidden",
-   "fetchedAt": "2026-09-02T13:47:51.775931+00:00"
+   "fetchedAt": "2026-09-02T14:04:30.094277+00:00"
   },
   "rand": {
    "name": "兰德",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-02T13:47:51.775931+00:00"
+   "fetchedAt": "2026-09-02T14:04:30.094277+00:00"
+  },
+  "us_dod": {
+   "name": "美国国防部",
+   "status": "ok",
+   "count": 0,
+   "error": null,
+   "fetchedAt": "2026-09-02T14:04:30.094277+00:00"
+  },
+  "us_navy": {
+   "name": "美国海军",
+   "status": "ok",
+   "count": 0,
+   "error": null,
+   "fetchedAt": "2026-09-02T14:04:30.094277+00:00"
+  },
+  "us_airforce": {
+   "name": "美国空军",
+   "status": "ok",
+   "count": 15,
+   "error": null,
+   "fetchedAt": "2026-09-02T14:04:30.094277+00:00"
   }
  },
  "items": [
@@ -556,21 +577,21 @@
    "channelName": "AFRL"
   },
   {
-   "url": "https://www.rand.org/pubs/perspectives/PEA5081-1.html",
-   "title": "Countering Model Distillation",
-   "author": "Brian A. Jackson",
-   "pubDate": "2026-09-02T08:00:00+00:00",
-   "summary": "Artificial intelligence model distillation (training new models on outputs of more capable ones) could affect U.S. frontier model advantage. New policy tools could augment such technical countermeasures as raising costs or reducing model quality.",
-   "body": "",
-   "channel": "rand",
-   "channelName": "兰德"
-  },
-  {
    "url": "https://www.rand.org/pubs/working_papers/WRA5251-1.html",
    "title": "A Standardized Framework for Assessing High-Risk Life Sciences Research",
    "author": "Elizabeth Cameron",
    "pubDate": "2026-09-02T08:00:00+00:00",
    "summary": "Recent federal policies establish funding prohibitions and review requirements for certain high-risk life sciences research. The authors advise that federal agencies adopt an objective decisionmaking framework for dangerous gain-of-function research.",
+   "body": "",
+   "channel": "rand",
+   "channelName": "兰德"
+  },
+  {
+   "url": "https://www.rand.org/pubs/perspectives/PEA5081-1.html",
+   "title": "Countering Model Distillation",
+   "author": "Brian A. Jackson",
+   "pubDate": "2026-09-02T08:00:00+00:00",
+   "summary": "Artificial intelligence model distillation (training new models on outputs of more capable ones) could affect U.S. frontier model advantage. New policy tools could augment such technical countermeasures as raising costs or reducing model quality.",
    "body": "",
    "channel": "rand",
    "channelName": "兰德"
@@ -754,6 +775,156 @@
    "body": "",
    "channel": "rand",
    "channelName": "兰德"
+  },
+  {
+   "url": "https://www.af.mil/News/Article-Display/Article/4587850/csaf-cmsaf-meet-warfighters-in-centcom/",
+   "title": "CSAF, CMSAF meet warfighters in CENTCOM",
+   "author": "Staff Sgt. Zachary Nordheim",
+   "pubDate": "2026-09-01T17:04:00+00:00",
+   "summary": "Air Force senior leaders assessed frontline readiness and force support initiatives during a recent leadership tour. The engagements centered on recognizing deployed service members and deepening coalition airpower partnerships across the theater.",
+   "body": "",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
+   "url": "https://www.af.mil/News/Article-Display/Article/4585826/afas-offers-road-ready-grant-for-spouses-of-deployed-airmen-guardians/",
+   "title": "AFAS offers Road Ready grant for spouses of deployed Airmen, Guardians",
+   "author": "Pentagon News",
+   "pubDate": "2026-09-01T12:00:00+00:00",
+   "summary": "The initiative helps alleviate family burdens during deployments and ensures household transportation remains safe and operational.",
+   "body": "",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
+   "url": "https://www.af.mil/News/Article-Display/Article/4586669/initial-operating-capability-of-mh-139-grey-wolf-announced/",
+   "title": "Initial operating capability of MH-139 Grey Wolf announced",
+   "author": "Capt. Jackie Noffsinger",
+   "pubDate": "2026-08-31T16:11:00+00:00",
+   "summary": "Air Force Global Strike Command announced that the MH-139 Grey Wolf has officially achieved Initial Operational Capability as of August 10, ushering in a new era of modernization for AFGSC’s nuclear security operations. <img alt=\"A 582nd Helicopter Group MH-139 Grey Wolf takes off near Pine Bluffs, Wyoming, Feb. 19, 2026. The 582 HG supports USSTRATCOM’s strategic deterrence mission by enabling airborne security and rapid response capabilities for missile wings across Air Force Global Strike Com",
+   "body": "",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
+   "url": "https://www.af.mil/News/Article-Display/Article/4585029/daf-announces-additional-guidance-implementing-changes-in-response-to-secwar-me/",
+   "title": "DAF announces additional guidance implementing changes in response to SECWAR memorandums",
+   "author": "Pentagon News",
+   "pubDate": "2026-08-31T12:00:00+00:00",
+   "summary": "Key changes address medical shaving profile separations, mandatory CBRN mask fit validation deadlines, religious ministry evaluation criteria for chaplains, and streamlined equal opportunity reporting processes.",
+   "body": "",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
+   "url": "https://www.af.mil/News/Article-Display/Article/4585816/a-first-in-60-years-jb-andrews-stands-up-new-helicopter-squadron/",
+   "title": "A first in 60 years: JB Andrews stands up new helicopter squadron",
+   "author": "Senior Airman Gabriel Jones",
+   "pubDate": "2026-08-28T18:52:06+00:00",
+   "summary": "JBA activated the 5th Helicopter Squadron marking the installation’s first new rotary-wing squadron activation in 60 years. The squadron will lead the phased integration and modernization transition to the HH-60W Jolly Green II alongside the 1st HS.",
+   "body": "",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
+   "url": "https://www.af.mil/News/Article-Display/Article/4585218/af-week-in-photos/",
+   "title": "AF Week in Photos",
+   "author": "Pentagon News",
+   "pubDate": "2026-08-28T13:18:45+00:00",
+   "summary": "This week's photos feature Airmen from around the globe involved in activities supporting expeditionary operations and defending America. This weekly feature showcases the men and women of the Air Force.",
+   "body": "",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
+   "url": "https://www.af.mil/News/Article-Display/Article/4585480/master-your-mind-afgsc-reimagines-readiness-with-mindgym/",
+   "title": "Master your mind: AFGSC reimagines readiness with MindGym",
+   "author": "Tech. Sgt. Shelby Thurman",
+   "pubDate": "2026-08-27T20:00:00+00:00",
+   "summary": "To ensure operational readiness & maintain the tactical edge, Airmen must train their brains with the same rigor as their bodies. AFGSC is looking to accelerate & modernize this effort with a tactical training simulator known as MindGym. <img alt=\"U.S. Air Force Tech. Sgt. Brandie Henrichs, Airman Leadership Instructor, prepares to use the MindGym at Whiteman Air Force Base, Mo., Nov. 20, 2024. The MindGym offers a unique and immersive experience that focuses on reducing stress and promoting rel",
+   "body": "",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
+   "url": "https://www.af.mil/News/Article-Display/Article/4584017/final-denial-air-force-leaders-lean-into-future-of-drone-defense/",
+   "title": "'Final denial': Air Force leaders lean into future of drone defense",
+   "author": "2nd Lt. Daniel White",
+   "pubDate": "2026-08-27T12:23:00+00:00",
+   "summary": "The 31st Air Task Force sharpened and refined a layered counter-small unmanned aerial system defense capability, culminating in a kinetic “final denial” live-fire demonstration.",
+   "body": "",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
+   "url": "https://www.af.mil/News/Article-Display/Article/4584562/operation-trek808-pacaf-hing-rapidly-provide-critical-aid-to-hawaii-island-reco/",
+   "title": "Operation TREK808: PACAF, HING rapidly provide critical aid to Hawaii Island recovery",
+   "author": "Maj. Nicolle Roose",
+   "pubDate": "2026-08-27T11:58:00+00:00",
+   "summary": "PACAF and the Hawaii National Guard partnered with federal and state agencies to execute Operation TREK808, airlifting nearly 144,000 pounds of critical utility infrastructure and repair vehicles to Hawaii Island.",
+   "body": "",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
+   "url": "https://www.af.mil/News/Article-Display/Article/4583523/spin-it-to-win-it-mcconnell-afb-innovation/",
+   "title": "Spin it to win it: McConnell AFB innovation",
+   "author": "Airman Daniel Obi",
+   "pubDate": "2026-08-26T16:27:00+00:00",
+   "summary": "A 3D-printed tool designed by a McConnell AFB maintainer is helping Airmen refinish aircraft wheels faster by allowing them to rotate the wheels while painting, eliminating hours of drying time between coats. <img alt=\"The center of the 22nd Air Refueling Wing Innovation Lab’s wheel paint and mix stand is displayed along with other innovative project proposals at McConnell Air Force Base, Kansas, Aug. 24, 2026. The stand helps Airmen refinish aircraft wheels faster by allowing them to rotate whe",
+   "body": "",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
+   "url": "https://www.af.mil/News/Article-Display/Article/4583423/tyndall-afb-sharpens-air-to-ground-capabilities-during-combat-hammer/",
+   "title": "Tyndall AFB sharpens air-to-ground capabilities during Combat Hammer",
+   "author": "Senior Airman Amanda Alvarez",
+   "pubDate": "2026-08-26T13:00:00+00:00",
+   "summary": "The 325th FW deployed to Hill AFB to test and evaluate the F-35A Lightning II's air-to-ground precision-guided munitions capability using live ordnance.",
+   "body": "",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
+   "url": "https://www.af.mil/News/Article-Display/Article/4582597/eglin-afb-airmen-mobilize-for-life-saving-medical-flight/",
+   "title": "Eglin AFB Airmen mobilize for life-saving medical flight",
+   "author": "Samuel King Jr.",
+   "pubDate": "2026-08-25T18:37:00+00:00",
+   "summary": "When the 413th Flight Test Squadron receives a call from the Air Force Rescue Coordination Center, it's typically the last resort for someone in the community requiring a life-saving critical care flight.",
+   "body": "",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
+   "url": "https://www.af.mil/News/Article-Display/Article/4581795/readout-of-usaf-chief-of-staff-gen-wilsbachs-counterpart-visit-with-bulgarian-a/",
+   "title": "Readout of USAF Chief of Staff Gen. Wilsbach’s counterpart visit with Bulgarian AF Commander Maj. Gen. Nikolay Rusev",
+   "author": "Pentagon News",
+   "pubDate": "2026-08-24T22:03:00+00:00",
+   "summary": "Bilateral talks at the Pentagon focused on NATO burden-sharing, eastern flank collective deterrence and Bulgaria’s acquisition of eight F-16 Block 70 fighter aircraft.",
+   "body": "",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
+   "url": "https://www.af.mil/News/Article-Display/Article/4581308/hernandez-baquero-swears-in-as-department-of-the-air-force-space-acquisition-an/",
+   "title": "Hernandez-Baquero swears in as Department of the Air Force space acquisition and integration lead",
+   "author": "Pentagon News",
+   "pubDate": "2026-08-24T15:40:00+00:00",
+   "summary": "Dr. Erich \"HB\" Hernandez-Baquero was sworn in as the second Assistant Secretary of the Air Force for Space Acquisition and Integration during a Pentagon ceremony this morning, following his confirmation to the role by the U.S. Senate, Aug. 7.",
+   "body": "",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
+   "url": "https://www.af.mil/News/Article-Display/Article/4581349/air-force-awards-production-contract-for-next-gen-aerospace-readiness-enterpris/",
+   "title": "Air Force awards production contract for next-gen Aerospace Readiness Enterprise System",
+   "author": "Dan Hawkins",
+   "pubDate": "2026-08-24T12:00:00+00:00",
+   "summary": "The DAF’s initiative to overhaul its aircrew management systems has reached a critical milestone following extensive operator testing, officially awarding the ARES production contract to VivSoft.",
+   "body": "",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
   }
  ]
 }
