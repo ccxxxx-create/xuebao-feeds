@@ -1,68 +1,68 @@
 {
- "updatedAt": "2026-09-02T14:13:22.803067+00:00",
+ "updatedAt": "2026-09-02T15:05:05.698287+00:00",
  "meta": {
   "defensenews": {
    "name": "Defense News",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-02T14:13:22.803067+00:00"
+   "fetchedAt": "2026-09-02T15:05:05.698287+00:00"
   },
   "airandspaceforces": {
    "name": "Air & Space Forces",
    "status": "ok",
    "count": 9,
    "error": null,
-   "fetchedAt": "2026-09-02T14:13:22.803067+00:00"
+   "fetchedAt": "2026-09-02T15:05:05.698287+00:00"
   },
   "govuk_mod": {
    "name": "英国国防部",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-02T14:13:22.803067+00:00"
+   "fetchedAt": "2026-09-02T15:05:05.698287+00:00"
   },
   "afresearchlab": {
    "name": "AFRL",
    "status": "ok",
    "count": 2,
    "error": null,
-   "fetchedAt": "2026-09-02T14:13:22.803067+00:00"
+   "fetchedAt": "2026-09-02T15:05:05.698287+00:00"
   },
   "westpoint": {
    "name": "西点军校",
    "status": "error",
    "count": 0,
    "error": "all feeds failed: https://www.westpoint.edu/rss.xml -> HTTP Error 403: Forbidden",
-   "fetchedAt": "2026-09-02T14:13:22.803067+00:00"
+   "fetchedAt": "2026-09-02T15:05:05.698287+00:00"
   },
   "rand": {
    "name": "兰德",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-02T14:13:22.803067+00:00"
+   "fetchedAt": "2026-09-02T15:05:05.698287+00:00"
   },
   "us_dod": {
    "name": "美国国防部",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-02T14:13:22.803067+00:00"
+   "fetchedAt": "2026-09-02T15:05:05.698287+00:00"
   },
-  "us_navy": {
-   "name": "美国海军",
+  "us_marines": {
+   "name": "美国海军陆战队",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-02T14:13:22.803067+00:00"
+   "fetchedAt": "2026-09-02T15:05:05.698287+00:00"
   },
   "us_airforce": {
    "name": "美国空军",
    "status": "ok",
    "count": 15,
    "error": null,
-   "fetchedAt": "2026-09-02T14:13:22.803067+00:00"
+   "fetchedAt": "2026-09-02T15:05:05.698287+00:00"
   }
  },
  "items": [
@@ -357,6 +357,26 @@
    "channelName": "Air & Space Forces"
   },
   {
+   "url": "https://www.gov.uk/government/publications/military-low-flying-raf-operational-low-flying-training-timetable",
+   "title": "Guidance: Military low flying: RAF operational low flying training timetable",
+   "author": "",
+   "pubDate": "2026-09-02T14:33:57+00:00",
+   "summary": "Royal Air Force (RAF) operational low flying training timetables in 3 areas of the UK.",
+   "body": "Timetables for operational low flying ( OLF ) training by RAF fast jets and Hercules aircraft. These timetables cover 3 tactical training areas ( TTA ) only. These are:\n\nLFA 7(T): central Wales\n\nLFA 14(T): northern Scotland\n\nLFA 20(T): the borders of southern Scotland and northern England\n\nWhen the TTA is not in use, there may be other flying activity in the area. The MOD is unable to provide a timetable for all low flying activity as the information can very quickly become outdated due to weather conditions and training requirements.\n\nOther low flying schedules\n\nMilitary low flying: MOD sponsored air exercises\n\nMilitary low flying: air weapons ranges activity\n\nRelated information\n\nLow flying military aircraft includes information about how to contact MOD about low flying in your area\n\nMilitary low flying includes detailed information about why we carry out low flying in the UK",
+   "channel": "govuk_mod",
+   "channelName": "英国国防部"
+  },
+  {
+   "url": "https://www.gov.uk/government/publications/military-low-flying-mod-sponsored-air-exercises",
+   "title": "Guidance: Military low flying: MOD sponsored air exercises",
+   "author": "",
+   "pubDate": "2026-09-02T14:32:58+00:00",
+   "summary": "MOD sponsored low flying exercises within the UK low flying system.",
+   "body": "Current planned MOD sponsored low flying exercises by fast jets, rotary and transport aircraft within the UK low flying system.\n\nRelated information\n\nMilitary low flying\n\nPatterns of low flying, including maps of UK Low Flying Areas (LFAs)\n\nLow flying military aircraft in your area\n\nMilitary low flying: RAF operational low flying training timetable\n\nMilitary low flying: air weapons ranges activity",
+   "channel": "govuk_mod",
+   "channelName": "英国国防部"
+  },
+  {
    "url": "https://www.gov.uk/government/statistics/announcements/mod-trade-industry-and-contracts-2026",
    "title": "Official Statistics: MOD trade, industry and contracts: 2026",
    "author": "",
@@ -533,26 +553,6 @@
    "pubDate": "2026-08-28T13:55:50+00:00",
    "summary": "Annual firing schedule for Battle Hill, Bellerby, Feldom and Wathgill Ranges.",
    "body": "Public access to the ranges is permitted on specified tarmac roads, public footpaths and bridleways only when no red flags or red lights are displayed, and outside the scheduled firing times. Public access is governed by the Catterick Training Area byelaws .\n\nDo not enter the danger area when the range is in use, this is a danger to life. If ‘red flags’ or lights are hoisted, regardless of the timings, do not enter the training area. Learn more about accessing MOD training areas safely .\n\nRelated links\n\nUK military firing times for all ranges Public access to military areas",
-   "channel": "govuk_mod",
-   "channelName": "英国国防部"
-  },
-  {
-   "url": "https://www.gov.uk/government/publications/otterburn-firing-times",
-   "title": "Guidance: Otterburn firing times",
-   "author": "",
-   "pubDate": "2026-08-28T13:53:42+00:00",
-   "summary": "Dates and times when Otterburn and Redesdale ranges and Bellshiel demolition range are being used for live firing.",
-   "body": "As seen in the Security Defence Review, the Army are at heightened readiness due to a new era of threat. This has placed greater demands on the Defence Training Estate across the UK, which is being used for training more regularly and at shorter notice.\n\nAs such, the firing time notifications published on Gov.UK have been standardised to show the daily timings for when live-firing is permitted on the UK DTE. This is a change from the previous method of showing when training bookings had been made in advance.\n\nThis to ensure safety of all users, as it is not possible to change Gov.UK notifications at short notice. Broadly, the only guaranteed safe times for access are before or after the firing times provided on this page, however there may be exceptional circumstances where extensions have been requested.\n\nIf you wish to use the DTE for recreation, please always refer to onsite safety warning signals to understand if the site is safe to access before doing so.\n\nYour safety\n\nDanger - When warning signals are displayed, regardless of the timings, do not cross the range boundary.\n\nWarning signals are red flags by day and red lamps by night; range boundaries are marked by red and white poles.\n\nRed flags and red lamps indicate that live firing is taking place within the range boundaries.\n\nDo not enter the danger area when in use, this could result in loss of life.\n\nDo not touch any military debris, it may be dangerous. Please note the location and inform a Training Safety Officer (TSO) via 0191 239 4261 or the police.\n\nLearn more about accessing MOD training areas\n\nPublic access to military areas - GOV.UK",
-   "channel": "govuk_mod",
-   "channelName": "英国国防部"
-  },
-  {
-   "url": "https://www.gov.uk/government/publications/manorbier-range-firingflying-notice",
-   "title": "Guidance: Manorbier range firing/flying notice",
-   "author": "",
-   "pubDate": "2026-08-28T13:51:18+00:00",
-   "summary": "Dates and times of planned live firing for Manorbier firing range.",
-   "body": "Do not enter the danger area when the range is in use, this is a danger to life. Learn more about accessing MOD training areas safely .\n\nTimings are liable to change at short notice.\n\nRelated information\n\nPublic access to military areas\n\nThe Defence Training Estate (Wales and West)",
    "channel": "govuk_mod",
    "channelName": "英国国防部"
   },
@@ -777,6 +777,16 @@
    "channelName": "兰德"
   },
   {
+   "url": "https://www.dvidshub.net/news/573762/watervliet-arsenal-welcomes-new-apprentice-class",
+   "title": "Watervliet Arsenal welcomes a new apprentice class",
+   "author": "Matthew Day",
+   "pubDate": "2026-09-02T14:41:58+00:00",
+   "summary": "WATERVLIET ARSENAL, NEW YORK – Watervliet Arsenal Commander Col. Danilo Green administered the Army Civilian oath of service to a new apprentice class on Aug. 14, 2026. With this oath, the apprentices began a challenging four-year journey to become certified Watervliet Arsenal machinists.",
+   "body": "Photo By Matthew Day | Watervliet Arsenal Machinist Apprentices Joshua Brayton, left, and Jakob Womer... ... read more read more\n\nPhoto By Matthew Day | Watervliet Arsenal Machinist Apprentices Joshua Brayton, left, and Jakob Womer practice setting up a lathe in the newly opened apprentice workshop at the arsenal. Brayton and Womer are members of apprentice class 93 and will complete the four-year apprentice program working at the arsenal while earning an associate degree in CNC machining technology at Hudson Valley Community College. (U.S. Army photo by Matthew I. Day) see less | View Image Page\n\nWATERVLIET ARSENAL, NEW YORK – Watervliet Arsenal Commander Col. Danilo Green administered the Army Civilian oath of service to a new apprentice class on Aug. 14, 2026. With this oath, the apprentices began a challenging four-year journey to become certified Watervliet Arsenal machinists.\n\nThe apprentices, officially designated as Machinist Apprentice Class 93, are the latest to participate in the arsenal’s historic program. Founded in 1905, it is one of the oldest civilian apprentice programs of its kind in the U.S. Army.\n\nOver the next four years, the class will work and train directly on the arsenal floor while earning an associate degree in CNC machining technology through a partnership with Hudson Valley Community College. By graduation, apprentices will accumulate more than 8,000 hours of on-the-job machine time and receive U.S. Department of Labor certification as journeyman machinists. An additional perk: The arsenal fully covers all tuition, books and class materials, making this highly competitive program a debt-free pathway to a career directly supporting America’s warfighters.\n\nWhile previous classes have laid the groundwork, Class 93 is carving out its own path. The new apprentices began arriving at the arsenal in mid-August. In total, nine apprentices make up Class 93, bringing a blend of perspectives that leadership anticipates will make a lasting impact.\n\nFor many in the class, the opportunity to support the nation's military while learning a lifelong trade served as a major draw.\n\n“The ability to learn a new trade and know that the work I am doing makes a difference is what motivated me to join the apprenticeship program,” Apprentice Joshua Brayton said. “I hope to gain as much knowledge as possible about the trade as well as myself while going through the program.”\n\nBrayton added that he feels a sense of responsibility knowing his work directly supports the mission and safety of soldiers using cannon and mortar systems built by the arsenal. “If we don’t do our job right, they can’t do theirs,” Brayton said.\n\nAnother apprentice, Jakob Womer, expressed a similar sentiment about the educational partnership. “I am really grateful for the education at HVCC and building more community with people,” Womer said. “Being able to have a steady income while going to school is a huge benefit.”\n\nAs with previous classes, Class 93 represents the future of manufacturing excellence at Watervliet Arsenal. Over the coming years, the apprentices will transition from hands-on learners into skilled machinists and future leaders at America’s premier cannon and mortar facility.\n\nWatervliet Arsenal is an Army-owned-and-operated manufacturing facility and is the oldest, continuously active arsenal in the United States, having begun operations during the War of 1812. Today's Arsenal relies on a highly skilled workforce to produce high-tech, high-powered weaponry for military systems.\n\nThis work, Watervliet Arsenal welcomes a new apprentice class , by Matthew Day , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_dod",
+   "channelName": "美国国防部"
+  },
+  {
    "url": "https://www.dvidshub.net/news/573760/new-commander-holds-first-fort-mccoy-garrison-town-hall-discusses-installation-priorities-more",
    "title": "New commander holds first Fort McCoy Garrison town hall, discusses installation priorities, more",
    "author": "Scott Sturkol",
@@ -967,94 +977,74 @@
    "channelName": "美国国防部"
   },
   {
-   "url": "https://www.dvidshub.net/image/9905496/nv26-lightfish-usv-training",
-   "title": "NV26 Lightfish USV Training",
-   "author": "PO1 Jasmine Suarez",
-   "pubDate": "2026-09-02T10:19:35+00:00",
-   "summary": "John Gideon, Commander, Task Force (CTF) 66, right, and members of the Icelandic Coast Guard examine parts of a Lightfish USV during exercise Northern Viking 26 (NV26) in Reykjavik, Iceland, Sept. 1, 2026. NV26 strengthens interoperability and force readiness between the U.S., Iceland and Allied nations, enabling multi-domain command and control of joint and coalition forces in the defense of Iceland and sea lines of communication in the Greenland-Iceland-United Kingdom (GIUK) gap. (U.S. Navy Ph",
-   "body": "John Gideon, Commander, Task Force (CTF) 66, right, and members of the Icelandic Coast Guard examine parts of a Lightfish USV during exercise Northern Viking 26 (NV26) in Reykjavik, Iceland, Sept. 1, 2026. NV26 strengthens interoperability and force readiness between the U.S., Iceland and Allied nations, enabling multi-domain command and control of joint and coalition forces in the defense of Iceland and sea lines of communication in the Greenland-Iceland-United Kingdom (GIUK) gap. (U.S. Navy Photo by Mass Communication Specialist 1st Class Jasmine Suarez)\n\nThis work, NV26 Lightfish USV Training [Image 7 of 7] , by PO1 Jasmine Suarez , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/9905675/uss-george-hw-bush-conducts-daily-operations",
-   "title": "USS George H.W. Bush Conducts Daily Operations",
+   "url": "https://www.dvidshub.net/video/1021555/uss-boxer-11th-meu-host-crew-morale-day",
+   "title": "USS Boxer, 11th MEU Host Crew Morale Day",
    "author": "NAVCENT Public Affairs",
-   "pubDate": "2026-09-02T14:10:11+00:00",
-   "summary": "A U.S. Sailor welds a metal fixture aboard Nimitz-class aircraft carrier USS George H.W. Bush (CVN 77), Sept. 1, 2026. George H.W. Bush is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy photo)",
-   "body": "A U.S. Sailor welds a metal fixture aboard Nimitz-class aircraft carrier USS George H.W. Bush (CVN 77), Sept. 1, 2026. George H.W. Bush is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy photo)\n\nThis work, USS George H.W. Bush Conducts Daily Operations [Image 5 of 5] , by NAVCENT Public Affairs , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
+   "pubDate": "2026-09-02T14:45:58+00:00",
+   "summary": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document. U.S. Sailors and Marines assigned to Wasp-class amphibious assault ship USS Boxer (LHD 4) and 11th Marine Expeditionary Unit, enjoy a morale day on the ship’s flight deck, Aug. 30, 2026. Boxer is deployed to the U.S. 5th Fleet area of operations to support maritime s",
+   "body": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document.\n\nU.S. Sailors and Marines assigned to Wasp-class amphibious assault ship USS Boxer (LHD 4) and 11th Marine Expeditionary Unit, enjoy a morale day on the ship’s flight deck, Aug. 30, 2026. Boxer is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy video)\n\nThis work, USS Boxer, 11th MEU Host Crew Morale Day , by NAVCENT Public Affairs , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
-   "url": "https://www.dvidshub.net/image/9905659/uss-george-hw-bush-conducts-daily-operations",
-   "title": "USS George H.W. Bush Conducts Daily Operations",
+   "url": "https://www.dvidshub.net/video/1021557/us-marines-conduct-aircraft-maintenance-aboard-uss-boxer",
+   "title": "U.S. Marines Conduct Aircraft Maintenance Aboard USS Boxer",
    "author": "NAVCENT Public Affairs",
-   "pubDate": "2026-09-02T14:10:10+00:00",
-   "summary": "A U.S. Sailor paints aboard Nimitz-class aircraft carrier USS George H.W. Bush (CVN 77), Sept. 1, 2026. George H.W. Bush is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy photo)",
-   "body": "A U.S. Sailor paints aboard Nimitz-class aircraft carrier USS George H.W. Bush (CVN 77), Sept. 1, 2026. George H.W. Bush is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy photo)\n\nThis work, USS George H.W. Bush Conducts Daily Operations [Image 5 of 5] , by NAVCENT Public Affairs , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
+   "pubDate": "2026-09-02T14:45:24+00:00",
+   "summary": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document. U.S. Marines assigned to Wasp-class amphibious assault ship USS Boxer (LHD 4) and 11th Marine Expeditionary conduct aircraft maintenance in the ship’s hangar bay, Aug. 25, 2026. Boxer is deployed to the U.S. 5th Fleet area of operations to support maritime security a",
+   "body": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document.\n\nU.S. Marines assigned to Wasp-class amphibious assault ship USS Boxer (LHD 4) and 11th Marine Expeditionary conduct aircraft maintenance in the ship’s hangar bay, Aug. 25, 2026. Boxer is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy video)\n\nThis work, U.S. Marines Conduct Aircraft Maintenance Aboard USS Boxer , by NAVCENT Public Affairs , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
-   "url": "https://www.dvidshub.net/image/9905651/uss-george-hw-bush-conducts-daily-operations",
-   "title": "USS George H.W. Bush Conducts Daily Operations",
+   "url": "https://www.dvidshub.net/video/1021558/uss-boxer-usns-cesar-chavez-conduct-ras",
+   "title": "USS Boxer, USNS Cesar Chavez Conduct RAS",
    "author": "NAVCENT Public Affairs",
-   "pubDate": "2026-09-02T14:10:09+00:00",
-   "summary": "U.S. Sailors inspect aircraft parts aboard Nimitz-class aircraft carrier USS George H.W. Bush (CVN 77), Sept. 1, 2026. George H.W. Bush is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy photo)",
-   "body": "U.S. Sailors inspect aircraft parts aboard Nimitz-class aircraft carrier USS George H.W. Bush (CVN 77), Sept. 1, 2026. George H.W. Bush is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy photo)\n\nThis work, USS George H.W. Bush Conducts Daily Operations [Image 5 of 5] , by NAVCENT Public Affairs , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
+   "pubDate": "2026-09-02T14:44:48+00:00",
+   "summary": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document. U.S. Sailors and Marines assigned to Wasp-class amphibious assault ship USS Boxer (LHD 4) and 11th Marine Expeditionary transport supplies and cargo during a replenishment-at-sea with Lewis and Clark-class dry cargo ship USNS Cesar Chavez (T-AKE 14), Aug. 26, 2026. B",
+   "body": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document.\n\nU.S. Sailors and Marines assigned to Wasp-class amphibious assault ship USS Boxer (LHD 4) and 11th Marine Expeditionary transport supplies and cargo during a replenishment-at-sea with Lewis and Clark-class dry cargo ship USNS Cesar Chavez (T-AKE 14), Aug. 26, 2026. Boxer is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy video)\n\nThis work, USS Boxer, USNS Cesar Chavez Conduct RAS , by NAVCENT Public Affairs , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
-   "url": "https://www.dvidshub.net/image/9905881/uss-farragut-ddg-99-participates-tfex",
-   "title": "USS Farragut (DDG 99) Participates in TFEX",
-   "author": "LTJG Kobe Nguyen",
-   "pubDate": "2026-09-02T13:59:50+00:00",
-   "summary": "The Arleigh Burke-class guided-missile destroyer USS Farragut (DDG 99) fires on a high-speed maneuvering surface target (HSMST) using an MK 38 25mm gun during a live-fire exercise in the Atlantic Ocean, Sep. 1, 2026. Farragut is underway participating in Task Force Exercise (TFEX). Led by Carrier Strike Group 4, TFEX serves as a certification exercise for independently-deploying units to test mission readiness and ensure sustained combat capability within Joint Force and Allied command structure",
-   "body": "The Arleigh Burke-class guided-missile destroyer USS Farragut (DDG 99) fires on a high-speed maneuvering surface target (HSMST) using an MK 38 25mm gun during a live-fire exercise in the Atlantic Ocean, Sep. 1, 2026. Farragut is underway participating in Task Force Exercise (TFEX). Led by Carrier Strike Group 4, TFEX serves as a certification exercise for independently-deploying units to test mission readiness and ensure sustained combat capability within Joint Force and Allied command structures. (U.S. Navy photo by Logistics Specialist 3rd Class Lawrence C. Nepomuceno)\n\nThis work, USS Farragut (DDG 99) Participates in TFEX [Image 4 of 4] , by LTJG Kobe Nguyen , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
+   "url": "https://www.marines.mil/Photos/Article/4588722/daf-releases-final-results-of-m18-mhs-supplemental-inspection/",
+   "title": "DAF releases final results of M18 MHS supplemental inspection",
+   "author": "Pentagon News",
+   "pubDate": "2026-09-02T14:26:51+00:00",
+   "summary": "DAF officials released the final results of a directed supplemental safety inspection to verify the operational readiness of the M18 Modular Handgun System.",
+   "body": "",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
-   "url": "https://www.dvidshub.net/image/9905880/uss-farragut-ddg-99-participates-tfex",
-   "title": "USS Farragut (DDG 99) Participates in TFEX",
-   "author": "LTJG Kobe Nguyen",
-   "pubDate": "2026-09-02T13:59:49+00:00",
-   "summary": "Fire Controlman 1st Class Rigoberto Vergara, center, supervises Fire Controlman 2nd Class Emily Jacobson, right, and Fire Controlman 3rd Class Cameron Henderson as they load the Phalanx close in weapon system (CIWS) in preparation for a live-fire exercise aboard the Arleigh Burke-class guided-missile destroyer USS Farragut (DDG 99) in the Atlantic Ocean, Sep. 1, 2026. Farragut is underway participating in Task Force Exercise (TFEX). Led by Carrier Strike Group 4, TFEX serves as a certification e",
-   "body": "Fire Controlman 1st Class Rigoberto Vergara, center, supervises Fire Controlman 2nd Class Emily Jacobson, right, and Fire Controlman 3rd Class Cameron Henderson as they load the Phalanx close in weapon system (CIWS) in preparation for a live-fire exercise aboard the Arleigh Burke-class guided-missile destroyer USS Farragut (DDG 99) in the Atlantic Ocean, Sep. 1, 2026. Farragut is underway participating in Task Force Exercise (TFEX). Led by Carrier Strike Group 4, TFEX serves as a certification exercise for independently-deploying units to test mission readiness and ensure sustained combat capability within Joint Force and Allied command structures. (U.S. Navy photo by Boatswains Mate 2nd Class Sahzeia A. Jahangir)\n\nThis work, USS Farragut (DDG 99) Participates in TFEX [Image 4 of 4] , by LTJG Kobe Nguyen , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
+   "url": "https://www.dvidshub.net/image/9904706/headquarters-battalion-inventory-ammo-combat-center",
+   "title": "Headquarters Battalion inventory ammo at the Combat Center",
+   "author": "LCpl Grant Gatlin",
+   "pubDate": "2026-09-02T14:19:07+00:00",
+   "summary": "U.S. Marine Corps Cpl. Wilber Montessanchez, a California native, ammunition technician, with Combat Logistics Battalion 1, Combat Logistics Regiment 1, 1st Marine Logistics Group, prepares ammunition at the Central Magazine Area, Marine Corps Air Ground Combat Center, Twentynine Palms, California, Sept. 1, 2026.",
+   "body": "U.S. Marine Corps Cpl. Wilber Montessanchez, a California native, ammunition technician, with Combat Logistics Battalion 1, Combat Logistics Regiment 1, 1st Marine Logistics Group, prepares ammunition at the Central Magazine Area, Marine Corps Air Ground Combat Center, Twentynine Palms, California, Sept. 1, 2026.\n\nThis work, Headquarters Battalion inventory ammo at the Combat Center [Image 8 of 8] , by LCpl Grant Gatlin , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
-   "url": "https://www.dvidshub.net/image/9905878/uss-farragut-ddg-99-participates-tfex",
-   "title": "USS Farragut (DDG 99) Participates in TFEX",
-   "author": "LTJG Kobe Nguyen",
-   "pubDate": "2026-09-02T13:59:48+00:00",
-   "summary": "Damage Controlman 3rd Class John Putnam, right, and Seaman Apprentice Omar Khan lower a flight deck net in preparation for flight quarters aboard the Arleigh Burke-class guided-missile destroyer USS Farragut (DDG 99) in the Atlantic Ocean, Sep. 1, 2026. Farragut is underway participating in Task Force Exercise (TFEX). Led by Carrier Strike Group 4, TFEX serves as a certification exercise for independently-deploying units to test mission readiness and ensure sustained combat capability within Joi",
-   "body": "Damage Controlman 3rd Class John Putnam, right, and Seaman Apprentice Omar Khan lower a flight deck net in preparation for flight quarters aboard the Arleigh Burke-class guided-missile destroyer USS Farragut (DDG 99) in the Atlantic Ocean, Sep. 1, 2026. Farragut is underway participating in Task Force Exercise (TFEX). Led by Carrier Strike Group 4, TFEX serves as a certification exercise for independently-deploying units to test mission readiness and ensure sustained combat capability within Joint Force and Allied command structures. (U.S. Navy photo by Boatswains Mate 2nd Class Sahzeia A. Jahangir)\n\nThis work, USS Farragut (DDG 99) Participates in TFEX [Image 4 of 4] , by LTJG Kobe Nguyen , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
+   "url": "https://www.dvidshub.net/image/9904677/headquarters-battalion-inventory-ammo-combat-center",
+   "title": "Headquarters Battalion inventory ammo at the Combat Center",
+   "author": "LCpl Grant Gatlin",
+   "pubDate": "2026-09-02T14:19:06+00:00",
+   "summary": "U.S. Marines with Headquarters Battalion, Marine Corps Air Ground Combat Center, prepare ammunition at the Central Magazine Area, MCAGCC, Twentynine Palms, California, Sept. 1, 2026.",
+   "body": "U.S. Marines with Headquarters Battalion, Marine Corps Air Ground Combat Center, prepare ammunition at the Central Magazine Area, MCAGCC, Twentynine Palms, California, Sept. 1, 2026.\n\nThis work, Headquarters Battalion inventory ammo at the Combat Center [Image 8 of 8] , by LCpl Grant Gatlin , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
-   "url": "https://www.dvidshub.net/image/9905874/uss-farragut-ddg-99-participates-tfex",
-   "title": "USS Farragut (DDG 99) Participates in TFEX",
-   "author": "LTJG Kobe Nguyen",
-   "pubDate": "2026-09-02T13:59:46+00:00",
-   "summary": "Sailors aboard the Arleigh Burke-class guided-missile destroyer USS Farragut (DDG 99) conduct a foreign object debris (FOD) walk down in preparation for flight quarters in the Atlantic Ocean, Sep. 1, 2026. Farragut is underway participating in Task Force Exercise (TFEX). Led by Carrier Strike Group 4, TFEX serves as a certification exercise for independently-deploying units to test mission readiness and ensure sustained combat capability within Joint Force and Allied command structures. (U.S. Na",
-   "body": "Sailors aboard the Arleigh Burke-class guided-missile destroyer USS Farragut (DDG 99) conduct a foreign object debris (FOD) walk down in preparation for flight quarters in the Atlantic Ocean, Sep. 1, 2026. Farragut is underway participating in Task Force Exercise (TFEX). Led by Carrier Strike Group 4, TFEX serves as a certification exercise for independently-deploying units to test mission readiness and ensure sustained combat capability within Joint Force and Allied command structures. (U.S. Navy photo by Boatswains Mate 2nd Class Sahzeia A. Jahangir)\n\nThis work, USS Farragut (DDG 99) Participates in TFEX [Image 4 of 4] , by LTJG Kobe Nguyen , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/9905870/ntag-chief-selects-visit-navy-recruiting-command-pcpo-training-seminar",
-   "title": "NTAG Chief Selects visit Navy Recruiting Command for PCPO training seminar",
-   "author": "PO2 Thaddeus Berry",
-   "pubDate": "2026-09-02T13:52:24+00:00",
-   "summary": "250901-N-XB641-1006 Chief selects from Navy Talent Acquisition Groups across the nation attend leadership training at Navy Recruiting Command headquarters, in Millington, Tennessee, Sept. 1. The training is part of the Prospective Chief Petty Officer Training Seminar, held from Aug. 31 to Sept. 4. (U.S. Navy photo by Mass Communication Specialist 2nd Class Thaddeus Berry)",
-   "body": "250901-N-XB641-1006 Chief selects from Navy Talent Acquisition Groups across the nation attend leadership training at Navy Recruiting Command headquarters, in Millington, Tennessee, Sept. 1. The training is part of the Prospective Chief Petty Officer Training Seminar, held from Aug. 31 to Sept. 4. (U.S. Navy photo by Mass Communication Specialist 2nd Class Thaddeus Berry)\n\nThis work, NTAG Chief Selects visit Navy Recruiting Command for PCPO training seminar [Image 4 of 4] , by PO2 Thaddeus Berry , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
+   "url": "https://www.dvidshub.net/image/9904656/headquarters-battalion-inventory-ammo-combat-center",
+   "title": "Headquarters Battalion inventory ammo at the Combat Center",
+   "author": "LCpl Grant Gatlin",
+   "pubDate": "2026-09-02T14:19:05+00:00",
+   "summary": "U.S. Marine Corps PFC. Paul Risdal, a California native and an ammunition technician with Combat Logistics Battalion 1, Combat Logistics Regiment 1, 1st Marine Logistics Group, prepares ammunition at the Central Magazine Area, Marine Corps Air Ground Combat Center, Twentynine Palms, California, Sept. 1, 2026.",
+   "body": "U.S. Marine Corps PFC. Paul Risdal, a California native and an ammunition technician with Combat Logistics Battalion 1, Combat Logistics Regiment 1, 1st Marine Logistics Group, prepares ammunition at the Central Magazine Area, Marine Corps Air Ground Combat Center, Twentynine Palms, California, Sept. 1, 2026.\n\nThis work, Headquarters Battalion inventory ammo at the Combat Center [Image 8 of 8] , by LCpl Grant Gatlin , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.dvidshub.net/image/9905861/nmrtc-cherry-point-officer-promotes-lt-cmdr",
@@ -1063,8 +1053,8 @@
    "pubDate": "2026-09-02T13:48:41+00:00",
    "summary": "Lauren Petry, left, assists her son as he places shoulder boards on Stefen Petry, right, during his promotion ceremony to Lt. Cmdr. at Navy Medicine Readiness and Training Command Cherry Point on September 1, 2026, as Stefen’s father, Thomas, looks on. Lt. Cmdr. Petry leads NMRTC Cherry Point’s Physical and Occupational Therapy departments, which are responsible for assisting in the physical rehabilitation of injured Marines and Sailors stationed at Marine Corps Air Station Cherry Point, facilit",
    "body": "Lauren Petry, left, assists her son as he places shoulder boards on Stefen Petry, right, during his promotion ceremony to Lt. Cmdr. at Navy Medicine Readiness and Training Command Cherry Point on September 1, 2026, as Stefen’s father, Thomas, looks on. Lt. Cmdr. Petry leads NMRTC Cherry Point’s Physical and Occupational Therapy departments, which are responsible for assisting in the physical rehabilitation of injured Marines and Sailors stationed at Marine Corps Air Station Cherry Point, facilitating their swift return to full-duty status. Navy Medicine’s 44,000+ talented and ready forces optimize health readiness, deliver quality healthcare, and provide global expeditionary medical support to warfighters.\n\nThis work, NMRTC Cherry Point Officer Promotes to Lt. Cmdr. , by Thomas Cieslak , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.dvidshub.net/news/573757/nmrtc-cherry-point-officer-promotes-lt-cmdr",
@@ -1073,8 +1063,38 @@
    "pubDate": "2026-09-02T13:48:31+00:00",
    "summary": "Lt. Cmdr. Stefen Petry head of Navy Medicine Readiness and Training Command Cherry Point’s Physical and Occupational Therapy departments, promoted to the rank during a ceremony on Monday, September 1, 2026.",
    "body": "Photo By Thomas Cieslak | Lauren Petry, left, assists her son as he places shoulder boards on Stefen Petry,... ... read more read more\n\nPhoto By Thomas Cieslak | Lauren Petry, left, assists her son as he places shoulder boards on Stefen Petry, right, during his promotion ceremony to Lt. Cmdr. at Navy Medicine Readiness and Training Command Cherry Point on September 1, 2026, as Stefen’s father, Thomas, looks on. Lt. Cmdr. Petry leads NMRTC Cherry Point’s Physical and Occupational Therapy departments, which are responsible for assisting in the physical rehabilitation of injured Marines and Sailors stationed at Marine Corps Air Station Cherry Point, facilitating their swift return to full-duty status. Navy Medicine’s 44,000+ talented and ready forces optimize health readiness, deliver quality healthcare, and provide global expeditionary medical support to warfighters. see less | View Image Page\n\nThis work, NMRTC Cherry Point Officer Promotes to Lt. Cmdr. , by Thomas Cieslak , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
+  },
+  {
+   "url": "https://www.dvidshub.net/news/573750/usace-jacksonville-district-hosts-regulatory-transformation-workshop-fort-lauderdale",
+   "title": "USACE Jacksonville District hosts Regulatory Transformation Workshop in Fort Lauderdale",
+   "author": "Peggy Bebb",
+   "pubDate": "2026-09-02T13:09:51+00:00",
+   "summary": "FORT LAUDERDALE, Fla. — More than 150 people joined the U.S. Army Corps of Engineers Jacksonville District Regulatory Division on Aug. 4 for a Regulatory Transformation Workshop at the Renaissance Fort Lauderdale.",
+   "body": "Courtesy Photo | U.S. Army Corps of Engineers Jacksonville District Regulatory Division Deputy Chief,... ... read more read more\n\nCourtesy Photo | U.S. Army Corps of Engineers Jacksonville District Regulatory Division Deputy Chief, Krista Sabin, addresses attendees during an outreach workshop in Fort Lauderdale on August 4, 2026. The event provided updates on the Regulatory Program, application requirements, the Regulatory Request System (RSS), Section 408 approvals, jurisdiction, environmental compliance and mitigation. (USACE photo) see less | View Image Page\n\nFORT LAUDERDALE, Fla. — More than 150 people joined the U.S. Army Corps of Engineers (USACE) Jacksonville District Regulatory Division on Aug. 4 for a Regulatory Transformation Workshop at the Renaissance Fort Lauderdale.\n\nThe one-day event brought together people who work with—or simply want to better understand—the USACE Regulatory Program. Participants included permittees, applicants, environmental consultants, federal, state and local agencies, and other members of the public with an interest in the program.\n\nAbout 80 people attended the workshop in person, with another 70 joining virtually. Representatives from South Florida county and city governments, state regulatory agencies, the Federal Emergency Management Agency (FEMA) and the National Marine Fisheries Service (NMFS) took part, along with applicants and consultants from across the region.\n\nJacksonville District Regulatory staff led the sessions, sharing updates and practical guidance based on their experience managing one of USACE's busiest Regulatory Programs. Project managers also spoke about reviewing complex permit applications and what applicants can do to help move the process forward.\n\nThe workshop covered a range of topics, including program updates, jurisdiction, mitigation, Section 408 of the Rivers and Harbors Act, and requirements under the Endangered Species Act and Essential Fish Habitat.\n\nPresenters also discussed what makes an “A+” application and offered examples drawn from common permitting situations.\n\nA live demonstration of the Regulatory Request System (RSS) gave participants a closer look at the online tool, which can be used to submit applications, report violations, request pre-application meetings and complete other regulatory requests.\n\nThe Regulatory Program continues to change as policies evolve and jurisdictional issues are addressed through the courts. The workshop gave USACE a chance to help people understand those changes and explain how to use available tools and processes more effectively.\n\n“We hope people left with something they can use,” said Kelly Unger, Jacksonville District's West Permits Branch Chief. “Whether that is a better understanding of the Regulatory Request System, clearer expectations for an application or an answer to a question, the goal is to help people work through the process more smoothly.”\n\nAlthough participants had only a few clarification questions during the event, the workshop created space for direct conversation between USACE staff and those who regularly work with the Regulatory Program.\n\n“We want people to leave with the information they need to submit stronger applications and respond more effectively when additional information is needed,” Unger said. “That helps everyone.”\n\nThere are no additional Regulatory Transformation Workshops scheduled at this time. Those who were unable to attend may request workshop materials by emailing mailto:OutreachWorkshop@usace.army.mil.\n\nThis work, USACE Jacksonville District hosts Regulatory Transformation Workshop in Fort Lauderdale , by Peggy Bebb , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/9903772/us-marines-and-airmen-conduct-martial-arts-instructor-course-culminating-event-centcom-aor",
+   "title": "U.S. Marines and Airmen Conduct a Martial Arts Instructor Course Culminating Event in the CENTCOM AOR",
+   "author": "Sgt Antonino Mazzamuto",
+   "pubDate": "2026-09-02T13:02:19+00:00",
+   "summary": "U.S. Marines climb ropes during a Martial Arts Instructor course culminating event in the U.S. Central Command area of responsibility, Aug. 27, 2026. (U.S. Marine Corps photo by Sgt. Antonino Mazzamuto)",
+   "body": "U.S. Marines climb ropes during a Martial Arts Instructor course culminating event in the U.S. Central Command area of responsibility, Aug. 27, 2026. (U.S. Marine Corps photo by Sgt. Antonino Mazzamuto)\n\nThis work, U.S. Marines and Airmen Conduct a Martial Arts Instructor Course Culminating Event in the CENTCOM AOR [Image 15 of 15] , by Sgt Antonino Mazzamuto , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/9904828/us-marines-conduct-flight-operations",
+   "title": "U.S. Marines conduct Flight Operations",
+   "author": "LCpl Samantha Devine",
+   "pubDate": "2026-09-02T13:01:12+00:00",
+   "summary": "A U.S. Marine Corps F-35C Lightning II taxis in the U.S. Central Command area of responsibility, Aug. 14, 2026. (U.S. Marine Corps photo by Lance Cpl. Samantha Devine)",
+   "body": "A U.S. Marine Corps F-35C Lightning II taxis in the U.S. Central Command area of responsibility, Aug. 14, 2026. (U.S. Marine Corps photo by Lance Cpl. Samantha Devine)\n\nThis work, U.S. Marines conduct Flight Operations [Image 7 of 7] , by LCpl Samantha Devine , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.dvidshub.net/news/573749/fair-winds-and-following-seas-hospital-corpsman-2nd-class-calloway",
@@ -1083,8 +1103,8 @@
    "pubDate": "2026-09-02T12:41:32+00:00",
    "summary": "Navy Medicine Readiness and Training Command Cherry Point bid Fair Winds and Following Seas to Hospital Corpsman 2nd Class Dru Calloway in early September 2026. Calloway served as the leading petty officer of the facility’s Laboratory Department.",
    "body": "Photo By Thomas Cieslak | During his time at Marine Corps Air Station Cherry Point, Hospital Corpsman 2nd Class... ... read more read more\n\nPhoto By Thomas Cieslak | During his time at Marine Corps Air Station Cherry Point, Hospital Corpsman 2nd Class Dru Calloway led a team responsible for ensuring the medical readiness of Marines assigned to the base through the collection of more than 250,000 blood and other biological samples, resulting in quick, accurate diagnoses and prompt treatment. He also led the department through two College of American Pathologists re-accreditations with a 99.9% pass rate. see less | View Image Page\n\nNavy Medicine Readiness and Training Command Cherry Point bid Fair Winds and Following Seas to Hospital Corpsman 2nd Class Dru Calloway in early September 2026. Calloway served as the leading petty officer of the facility’s Laboratory Department.\n\nDuring his time at Marine Corps Air Station Cherry Point, he led a team responsible for ensuring the medical readiness of Marines assigned to the base through the collection of more than 250,000 blood and other biological samples, resulting in quick, accurate diagnoses and prompt treatment. He also led the department through two College of American Pathologists re-accreditations with a 99.9% pass rate.\n\nCalloway received the Navy and Marine Corps Achievement Medal in recognition of his accomplishments.\n\nNavy Medicine’s 44,000+ talented and ready forces optimize health readiness, deliver quality healthcare, and provide global expeditionary medical support to warfighters.\n\nThis work, Fair Winds and Following Seas to Hospital Corpsman 2nd Class Calloway , by Thomas Cieslak , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.dvidshub.net/image/9905723/fair-winds-and-following-seas-hospital-corpsman-2nd-class-calloway",
@@ -1093,88 +1113,68 @@
    "pubDate": "2026-09-02T12:41:22+00:00",
    "summary": "During his time at Marine Corps Air Station Cherry Point, Hospital Corpsman 2nd Class Dru Calloway led a team responsible for ensuring the medical readiness of Marines assigned to the base through the collection of more than 250,000 blood and other biological samples, resulting in quick, accurate diagnoses and prompt treatment. He also led the department through two College of American Pathologists re-accreditations with a 99.9% pass rate.",
    "body": "During his time at Marine Corps Air Station Cherry Point, Hospital Corpsman 2nd Class Dru Calloway led a team responsible for ensuring the medical readiness of Marines assigned to the base through the collection of more than 250,000 blood and other biological samples, resulting in quick, accurate diagnoses and prompt treatment. He also led the department through two College of American Pathologists re-accreditations with a 99.9% pass rate.\n\nThis work, Fair Winds and Following Seas to Hospital Corpsman 2nd Class Calloway , by Thomas Cieslak , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .\n\nFair Winds and Following Seas to Hospital Corpsman 2nd Class Calloway",
-   "channel": "us_navy",
-   "channelName": "美国海军"
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
-   "url": "https://www.dvidshub.net/image/9904958/john-finn-conducts-maintenance",
-   "title": "John Finn Conducts Maintenance",
-   "author": "NAVCENT Public Affairs",
-   "pubDate": "2026-09-02T11:33:49+00:00",
-   "summary": "260901-N-NO146-5031 A U.S. Sailor conducts maintenance on an MH-60R Sea Hawk, assigned to Helicopter Maritime Strike Squadron (HSM) 51, in the hangar bay aboard Arleigh Burke-class guided-missile destroyer USS John Finn (DDG 113), Sep. 1, 2026. John Finn is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy photo)",
-   "body": "260901-N-NO146-5031 A U.S. Sailor conducts maintenance on an MH-60R Sea Hawk, assigned to Helicopter Maritime Strike Squadron (HSM) 51, in the hangar bay aboard Arleigh Burke-class guided-missile destroyer USS John Finn (DDG 113), Sep. 1, 2026. John Finn is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy photo)\n\nThis work, John Finn Conducts Maintenance [Image 3 of 3] , by NAVCENT Public Affairs , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
+   "url": "https://www.dvidshub.net/video/1021541/b-roll-super-garuda-shield-26-mrf-d-marines-observe-jgsdf-soldiers-indonesian-marines-conduct-mortar-live-fire-range",
+   "title": "B-Roll: Super Garuda Shield 26: MRF-D Marines observe JGSDF soldiers, Indonesian marines conduct mortar live-fire range",
+   "author": "Sgt Kyle Chan",
+   "pubDate": "2026-09-02T12:26:27+00:00",
+   "summary": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document. U.S. Marines with Alpha Company, 1st Battalion, 5th Marine Regiment, Marine Rotational Force – Darwin 26, observe Indonesian marines with 7th Infantry Battalion, 4th Infantry Brigade, and Japan Ground Self-Defense Force service members with 2nd Amphibious Rapid Deplo",
+   "body": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document.\n\nU.S. Marines with Alpha Company, 1st Battalion, 5th Marine Regiment, Marine Rotational Force – Darwin 26, observe Indonesian marines with 7th Infantry Battalion, 4th Infantry Brigade, and Japan Ground Self-Defense Force service members with 2nd Amphibious Rapid Deployment Regiment, Amphibious Rapid Deployment Brigade, conducting a live-fire mortar range as part of Exercise Super Garuda Shield 26 near Lampung, Indonesia, Sept. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. Military designed to strengthen bilateral interoperability, capabilities, and cooperation. (U.S. Marine Corps video by Sgt. Kyle Chan)\n\nThis work, B-Roll: Super Garuda Shield 26: MRF-D Marines observe JGSDF soldiers, Indonesian marines conduct mortar live-fire range , by Sgt Kyle Chan , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
-   "url": "https://www.dvidshub.net/audio/93572/afn-naples-radio-news-train-modern-conflict-europe-and-nato-visit-chisinau",
-   "title": "AFN Naples Radio News - Train for Modern Conflict in Europe and NATO visit to Chișinău",
-   "author": "PO2 Andrew McPeek",
-   "pubDate": "2026-09-02T11:31:29+00:00",
-   "summary": "260831-N-YQ428-1001 NAPLES, Italy (Aug. 31st, 2026) AFN Naples radio news highlighting 173rd Airborne Brigade participated in Exercise Saber Junction 26 and NATO Political Committee first visit to Chișinău, Republic of Moldova. (U.S. Navy audio by Mass Communication Specialist 2nd Class Andrew McPeek)",
-   "body": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document.\n\n260831-N-YQ428-1001 NAPLES, Italy (Aug. 31st, 2026) AFN Naples radio news highlighting 173rd Airborne Brigade participated in Exercise Saber Junction 26 and NATO Political Committee first visit to Chișinău, Republic of Moldova. (U.S. Navy audio by Mass Communication Specialist 2nd Class Andrew McPeek)\n\nThis work, AFN Naples Radio News - Train for Modern Conflict in Europe and NATO visit to Chișinău , by PO2 Andrew McPeek , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
+   "url": "https://www.dvidshub.net/image/9905670/super-garuda-shield-mrf-d-marines-observe-japanese-soldiers-indonesian-marines-perform-mortar-live-fire-range",
+   "title": "Super Garuda Shield: MRF-D Marines observe Japanese soldiers, Indonesian marines perform mortar live-fire range",
+   "author": "Sgt Kyle Chan",
+   "pubDate": "2026-09-02T12:02:09+00:00",
+   "summary": "Japan Ground Self-Defense Force service members with 2nd Amphibious Rapid Deployment Regiment, Amphibious Rapid Deployment Brigade, fire a Hirtenberger M6C-640T 60mm mortar during a live-fire mortar range as part of Exercise Super Garuda Shield 26 near Lampung, Indonesia, Sept. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. Military designed to strengthen bilateral interoperability, capabilities, and cooperation. (U.S. Marine Corps photo ",
+   "body": "Japan Ground Self-Defense Force service members with 2nd Amphibious Rapid Deployment Regiment, Amphibious Rapid Deployment Brigade, fire a Hirtenberger M6C-640T 60mm mortar during a live-fire mortar range as part of Exercise Super Garuda Shield 26 near Lampung, Indonesia, Sept. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. Military designed to strengthen bilateral interoperability, capabilities, and cooperation. (U.S. Marine Corps photo by Sgt. Kyle Chan)\n\nThis work, Super Garuda Shield: MRF-D Marines observe Japanese soldiers, Indonesian marines perform mortar live-fire range [Image 13 of 13] , by Sgt Kyle Chan , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
-   "url": "https://www.dvidshub.net/audio/93588/afn-naples-radio-news-86th-airwing-joint-air-training-and-nato-battle-group-poland",
-   "title": "AFN Naples Radio News - 86th airwing joint air training and NATO Battle group Poland",
-   "author": "PO2 Andrew McPeek",
-   "pubDate": "2026-09-02T11:29:02+00:00",
-   "summary": "260901-N-YQ428-1001 NAPLES, Italy (Sep. 1st, 2026) AFN Naples radio news highlighting 86th Airlift Wing supported exercise Saber Junction 26 and 37th Armored Regiment mission of the NATO Forward Land Forces Battle Group-Poland . (U.S. Navy audio by Mass Communication Specialist 2nd Class Andrew McPeek)",
-   "body": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document.\n\n260901-N-YQ428-1001 NAPLES, Italy (Sep. 1st, 2026) AFN Naples radio news highlighting 86th Airlift Wing supported exercise Saber Junction 26 and 37th Armored Regiment mission of the NATO Forward Land Forces Battle Group-Poland . (U.S. Navy audio by Mass Communication Specialist 2nd Class Andrew McPeek)\n\nThis work, AFN Naples Radio News - 86th airwing joint air training and NATO Battle group Poland , by PO2 Andrew McPeek , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
+   "url": "https://www.dvidshub.net/image/9905665/super-garuda-shield-mrf-d-marines-observe-japanese-soldiers-indonesian-marines-perform-mortar-live-fire-range",
+   "title": "Super Garuda Shield: MRF-D Marines observe Japanese soldiers, Indonesian marines perform mortar live-fire range",
+   "author": "Sgt Kyle Chan",
+   "pubDate": "2026-09-02T12:02:08+00:00",
+   "summary": "An Indonesian marine with 7th Infantry Battalion, 4th Infantry Brigade, explains the capabilities of a MO-2 60mm mortar to U.S. Marines with Alpha Company, 1st Battalion, 5th Marine Regiment, Marine Rotational Force – Darwin 26, before a live-fire mortar range as part of Exercise Super Garuda Shield 26 near Lampung, Indonesia, Sept. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. Military designed to strengthen bilateral interoperability, ",
+   "body": "An Indonesian marine with 7th Infantry Battalion, 4th Infantry Brigade, explains the capabilities of a MO-2 60mm mortar to U.S. Marines with Alpha Company, 1st Battalion, 5th Marine Regiment, Marine Rotational Force – Darwin 26, before a live-fire mortar range as part of Exercise Super Garuda Shield 26 near Lampung, Indonesia, Sept. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. Military designed to strengthen bilateral interoperability, capabilities, and cooperation. (U.S. Marine Corps photo by Sgt. Kyle Chan)\n\nThis work, Super Garuda Shield: MRF-D Marines observe Japanese soldiers, Indonesian marines perform mortar live-fire range [Image 13 of 13] , by Sgt Kyle Chan , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
-   "url": "https://www.dvidshub.net/audio/93627/afn-naples-regional-news-joint-artillery-fire-control-qualification-and-raf-mildenhalls-new-mwd",
-   "title": "AFN Naples Regional News - Joint Artillery Fire Control Qualification and RAF Mildenhall's New MWD",
-   "author": "SA Christy Valenzuela",
-   "pubDate": "2026-09-02T11:27:55+00:00",
-   "summary": "260901-N-GL546-1001 NAPLES, Italy (Sept. 01, 2026) AFN Naples radio news highlighting Joint Air Defense Artillery Fire Control qualification event at the U.S. Air Forces in Europe Air Forces Africa Air Warfare Center, and Royal Air Force's new addition to the MWD pack in Mildenhall. (U.S. Navy audio by Mass Communication Specialist Seaman Apprentice Christy Valenzuela.)",
-   "body": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document.\n\n260901-N-GL546-1001 NAPLES, Italy (Sept. 01, 2026) AFN Naples radio news highlighting Joint Air Defense Artillery Fire Control qualification event at the U.S. Air Forces in Europe Air Forces Africa Air Warfare Center, and Royal Air Force's new addition to the MWD pack in Mildenhall. (U.S. Navy audio by Mass Communication Specialist Seaman Apprentice Christy Valenzuela.)\n\nThis work, AFN Naples Regional News - Joint Artillery Fire Control Qualification and RAF Mildenhall's New MWD , by SA Christy Valenzuela , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
+   "url": "https://www.dvidshub.net/image/9905661/super-garuda-shield-mrf-d-marines-observe-japanese-soldiers-indonesian-marines-perform-mortar-live-fire-range",
+   "title": "Super Garuda Shield: MRF-D Marines observe Japanese soldiers, Indonesian marines perform mortar live-fire range",
+   "author": "Sgt Kyle Chan",
+   "pubDate": "2026-09-02T12:02:07+00:00",
+   "summary": "U.S. Marine Corps Sgt. Owen Miller, a section leader with Alpha Company, 1st Battalion, 5th Marine Regiment, Marine Rotational Force – Darwin 26, looks through a pair of binoculars before a live-fire mortar range as part of Exercise Super Garuda Shield 26 near Lampung, Indonesia, Sept. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. Military designed to strengthen bilateral interoperability, capabilities, and cooperation. Miller is a nativ",
+   "body": "U.S. Marine Corps Sgt. Owen Miller, a section leader with Alpha Company, 1st Battalion, 5th Marine Regiment, Marine Rotational Force – Darwin 26, looks through a pair of binoculars before a live-fire mortar range as part of Exercise Super Garuda Shield 26 near Lampung, Indonesia, Sept. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. Military designed to strengthen bilateral interoperability, capabilities, and cooperation. Miller is a native of Wyoming. (U.S. Marine Corps photo by Sgt. Kyle Chan)\n\nThis work, Super Garuda Shield: MRF-D Marines observe Japanese soldiers, Indonesian marines perform mortar live-fire range [Image 13 of 13] , by Sgt Kyle Chan , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
-   "url": "https://www.dvidshub.net/image/9904147/mccog-presents-awards-during-monthly-formation",
+   "url": "https://www.dvidshub.net/video/1021457/2026-mcm-quantico-12k-highlight-reel",
+   "title": "2026 MCM Quantico 12K: Highlight Reel",
+   "author": "Cpl Hannah Kear",
+   "pubDate": "2026-09-02T11:11:47+00:00",
+   "summary": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document. Participants run in the Marine Corps Marathon Quantico 12K race on Marine Corps Base Quantico, Virginia, Aug. 22, 2026. The event challenges runners and their individual tenacity as they ran 7.46 miles of trails through the woods of MCB Quantico's Officer Candidate S",
+   "body": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document.\n\nParticipants run in the Marine Corps Marathon Quantico 12K race on Marine Corps Base Quantico, Virginia, Aug. 22, 2026. The event challenges runners and their individual tenacity as they ran 7.46 miles of trails through the woods of MCB Quantico's Officer Candidate School. (U.S. Marine Corps video by Cpl. Hannah Kear)\n\nThis work, 2026 MCM Quantico 12K: Highlight Reel , by Cpl Hannah Kear , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/9904151/mccog-presents-awards-during-monthly-formation",
    "title": "MCCOG presents Awards during Monthly Formation",
    "author": "LCpl Federico Marquez",
-   "pubDate": "2026-09-02T11:04:50+00:00",
-   "summary": "U.S. Marine Corps Col. Juliet Calvin, left, the commanding officer of Marine Corps Cyberspace Operations Group, awards a Navy and Marine Corps Achievement Medal to Gunnery Sgt. Tyler Trout, a data systems chief with MCCOG, during an award ceremony at Code Talker Hall on Marine Corps Base Quantico, Virginia, Sept. 1, 2026. The ceremony was held during MCCOG’s monthly formation to surprise and recognize Marine and civilian personnel for their exceptional performance, leadership, and dedication to ",
-   "body": "U.S. Marine Corps Col. Juliet Calvin, left, the commanding officer of Marine Corps Cyberspace Operations Group, awards a Navy and Marine Corps Achievement Medal to Gunnery Sgt. Tyler Trout, a data systems chief with MCCOG, during an award ceremony at Code Talker Hall on Marine Corps Base Quantico, Virginia, Sept. 1, 2026. The ceremony was held during MCCOG’s monthly formation to surprise and recognize Marine and civilian personnel for their exceptional performance, leadership, and dedication to the command's cyberspace mission. (U.S. Marine Corps photo by Lance Cpl. Federico Marquez)\n\nThis work, MCCOG presents Awards during Monthly Formation [Image 6 of 6] , by LCpl Federico Marquez , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/9905557/super-garuda-shield-2026-cyberex",
-   "title": "Super Garuda Shield 2026 - CYBEREX",
-   "author": "TSgt Orlando Corpuz",
-   "pubDate": "2026-09-02T10:40:00+00:00",
-   "summary": "Royal Navy sailors listen to a technical brief during a cyber exercise held at the Indonesian Armed Forces Staff and Command School during Super Garuda Shield 26 in Bandung, Indonesia, Sep. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. military designed to strengthen bilateral interoperability, capabilities and cooperation. (U.S. Air National Guard photo by Tech. Sgt. Orlando Corpuz)",
-   "body": "Royal Navy sailors listen to a technical brief during a cyber exercise held at the Indonesian Armed Forces Staff and Command School during Super Garuda Shield 26 in Bandung, Indonesia, Sep. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. military designed to strengthen bilateral interoperability, capabilities and cooperation. (U.S. Air National Guard photo by Tech. Sgt. Orlando Corpuz)\n\nThis work, Super Garuda Shield 2026 - CYBEREX [Image 13 of 13] , by TSgt Orlando Corpuz , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
-  },
-  {
-   "url": "https://www.dvidshub.net/video/1021532/captain-heather-shattuck-buffalo-bills-shout-out",
-   "title": "Captain Heather A. Shattuck - Buffalo Bills Shout-out",
-   "author": "LT Gabriela Santesteban",
-   "pubDate": "2026-09-02T10:27:46+00:00",
-   "summary": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document. Captain Heather A. Shattuck, Commanding Officer of NMRTC Sigonella shares her team spirit and sends a special shout-out to the Buffalo Bills while representing the Navy overseas. Go Bills! This work, Captain Heather A. Shattuck - Buffalo Bills Shout-out , by LT Gabr",
-   "body": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document.\n\nCaptain Heather A. Shattuck, Commanding Officer of NMRTC Sigonella shares her team spirit and sends a special shout-out to the Buffalo Bills while representing the Navy overseas. Go Bills!\n\nThis work, Captain Heather A. Shattuck - Buffalo Bills Shout-out , by LT Gabriela Santesteban , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/9905492/nv26-lightfish-usv-training",
-   "title": "NV26 Lightfish USV Training",
-   "author": "PO1 Jasmine Suarez",
-   "pubDate": "2026-09-02T10:20:11+00:00",
-   "summary": "A member of the Icelandic Coast Guard takes a photo of a Lightfish USV during exercise Northern Viking 26 (NV26) in Reykjavik, Iceland, Sept. 1, 2026. NV26 strengthens interoperability and force readiness between the U.S., Iceland and Allied nations, enabling multi-domain command and control of joint and coalition forces in the defense of Iceland and sea lines of communication in the Greenland-Iceland-United Kingdom (GIUK) gap. (U.S. Navy Photo by Mass Communication Specialist 1st Class Jasmine ",
-   "body": "A member of the Icelandic Coast Guard takes a photo of a Lightfish USV during exercise Northern Viking 26 (NV26) in Reykjavik, Iceland, Sept. 1, 2026. NV26 strengthens interoperability and force readiness between the U.S., Iceland and Allied nations, enabling multi-domain command and control of joint and coalition forces in the defense of Iceland and sea lines of communication in the Greenland-Iceland-United Kingdom (GIUK) gap. (U.S. Navy Photo by Mass Communication Specialist 1st Class Jasmine Suarez)\n\nThis work, NV26 Lightfish USV Training [Image 7 of 7] , by PO1 Jasmine Suarez , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_navy",
-   "channelName": "美国海军"
+   "pubDate": "2026-09-02T11:04:52+00:00",
+   "summary": "Heidy Laboy, left, a cyber network operator with Marine Corps Cyberspace Operations Group, and Mario Vaughan, right, the acting logistics officer with MCCOG, poses for a photo with U.S. Marine Corps Col. Juliet Calvin, center left, the commanding officer of MCCOG, and Sgt. Maj. Brian Woodruff, center right, the sergeant major of MCCOG, after an award ceremony at Code Talker Hall on Marine Corps Base Quantico, Virginia, Sept. 1, 2026. The ceremony was held during MCCOG’s monthly formation to surp",
+   "body": "Heidy Laboy, left, a cyber network operator with Marine Corps Cyberspace Operations Group, and Mario Vaughan, right, the acting logistics officer with MCCOG, poses for a photo with U.S. Marine Corps Col. Juliet Calvin, center left, the commanding officer of MCCOG, and Sgt. Maj. Brian Woodruff, center right, the sergeant major of MCCOG, after an award ceremony at Code Talker Hall on Marine Corps Base Quantico, Virginia, Sept. 1, 2026. The ceremony was held during MCCOG’s monthly formation to surprise and recognize Marine and civilian personnel for their exceptional performance, leadership, and dedication to the command's cyberspace mission. (U.S. Marine Corps photo by Lance Cpl. Federico Marquez)\n\nThis work, MCCOG presents Awards during Monthly Formation [Image 6 of 6] , by LCpl Federico Marquez , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.af.mil/News/Article-Display/Article/4587850/csaf-cmsaf-meet-warfighters-in-centcom/",
