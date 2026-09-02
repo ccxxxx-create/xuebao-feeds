@@ -29,9 +29,9 @@ from bs4 import BeautifulSoup
 UA = "xuebao-mirror/1.0 (official rss reader; personal archive only)"
 THROTTLE = 2.0          # 频道间请求间隔（秒）
 BODY_THROTTLE = 2.5     # 正文页请求间隔（秒）
-MAX_PER_CHANNEL = 10    # 每频道每轮上限
+MAX_PER_CHANNEL = 20    # 每频道每轮上限
 LOOKBACK_DAYS = 7
-BODY_MAX_CHARS = 20000
+BODY_MAX_CHARS = 15000
 KEEP_TOP = 20000        # 保留字段总上限（防止单文件过大）
 
 CHANNELS = [
