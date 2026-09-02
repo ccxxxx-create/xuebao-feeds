@@ -77,7 +77,7 @@ CHANNELS = [
         "id": "us_dod", "name": "美国国防部",
         "feeds": [
             "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=808&max=20",
-            "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=808",
+            "https://www.dvidshub.net/rss/department-of-defense",
         ],
         "full": "page",
         "selectors": ["div.news-item-body", "div.body-content", "div.article-body", "article", "main"],
@@ -87,7 +87,7 @@ CHANNELS = [
         "id": "us_navy", "name": "美国海军",
         "feeds": [
             "https://www.navy.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=148&max=20",
-            "https://www.navy.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=148",
+            "https://www.dvidshub.net/rss/navy",
         ],
         "full": "page",
         "selectors": ["div.news-article-body", "div.body-content", "div.article-body", "article", "main"],
@@ -238,7 +238,8 @@ def main():
         try:
             entries = feed_entries(ch)
             entries.sort(key=lambda x: x["pubDate"] or "", reverse=True)
-            ch_items = [e for e in entries if e["pubDate"] and e["pubDate"] >= cutoff.isoformat()][:MAX_PER_CHANNEL]
+            # 无日期条目（部分官方 feed 缺失）也保留，避免静默归零
+            ch_items = [e for e in entries if (not e["pubDate"]) or e["pubDate"] >= cutoff.isoformat()][:MAX_PER_CHANNEL]
             meta[ch["id"]] = {"name": ch["name"], "status": "ok", "count": len(ch_items), "error": None, "fetchedAt": now.isoformat()}
         except Exception as e:  # noqa: BLE001
             last_err = e
