@@ -1,68 +1,68 @@
 {
- "updatedAt": "2026-09-02T15:05:05.698287+00:00",
+ "updatedAt": "2026-09-02T15:36:37.538563+00:00",
  "meta": {
   "defensenews": {
    "name": "Defense News",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-02T15:05:05.698287+00:00"
+   "fetchedAt": "2026-09-02T15:36:37.538563+00:00"
   },
   "airandspaceforces": {
    "name": "Air & Space Forces",
    "status": "ok",
    "count": 9,
    "error": null,
-   "fetchedAt": "2026-09-02T15:05:05.698287+00:00"
+   "fetchedAt": "2026-09-02T15:36:37.538563+00:00"
   },
   "govuk_mod": {
    "name": "英国国防部",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-02T15:05:05.698287+00:00"
+   "fetchedAt": "2026-09-02T15:36:37.538563+00:00"
   },
   "afresearchlab": {
    "name": "AFRL",
    "status": "ok",
    "count": 2,
    "error": null,
-   "fetchedAt": "2026-09-02T15:05:05.698287+00:00"
+   "fetchedAt": "2026-09-02T15:36:37.538563+00:00"
   },
   "westpoint": {
    "name": "西点军校",
    "status": "error",
    "count": 0,
    "error": "all feeds failed: https://www.westpoint.edu/rss.xml -> HTTP Error 403: Forbidden",
-   "fetchedAt": "2026-09-02T15:05:05.698287+00:00"
+   "fetchedAt": "2026-09-02T15:36:37.538563+00:00"
   },
   "rand": {
    "name": "兰德",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-02T15:05:05.698287+00:00"
+   "fetchedAt": "2026-09-02T15:36:37.538563+00:00"
   },
   "us_dod": {
    "name": "美国国防部",
    "status": "ok",
-   "count": 20,
+   "count": 16,
    "error": null,
-   "fetchedAt": "2026-09-02T15:05:05.698287+00:00"
+   "fetchedAt": "2026-09-02T15:36:37.538563+00:00"
   },
   "us_marines": {
    "name": "美国海军陆战队",
    "status": "ok",
-   "count": 20,
+   "count": 9,
    "error": null,
-   "fetchedAt": "2026-09-02T15:05:05.698287+00:00"
+   "fetchedAt": "2026-09-02T15:36:37.538563+00:00"
   },
   "us_airforce": {
    "name": "美国空军",
    "status": "ok",
    "count": 15,
    "error": null,
-   "fetchedAt": "2026-09-02T15:05:05.698287+00:00"
+   "fetchedAt": "2026-09-02T15:36:37.538563+00:00"
   }
  },
  "items": [
@@ -88,11 +88,11 @@
   },
   {
    "url": "https://www.defensenews.com/news/your-military/2026/09/02/after-over-200-days-at-sea-uss-abraham-lincoln-arrives-in-thailand/",
-   "title": "After over 200 days at sea, USS Abraham Lincoln arrives in Thailand",
-   "author": "Reuters",
+   "title": "After 286 days at sea, USS Abraham Lincoln arrives in Thailand",
+   "author": "Thomas Suen and Chalinee Thirasupa, Reuters",
    "pubDate": "2026-09-02T04:16:40+00:00",
-   "summary": "U.S. Navy aircraft carrier Abraham Lincoln steamed into Thailand’s Laem Chabang on Wednesday morning after more than 200 days at sea, including a long deployment in the Middle East, amid reports of mental health concerns and deteriorating conditions aboard. The Lincoln, with roughly ​5,000 sailors and Marines aboard, has set a modern-day record for consecutive days at sea, according to ​Democratic lawmakers. Typically, naval deployments last between six and nine months, but during times of confl",
-   "body": "U.S. Navy aircraft carrier Abraham Lincoln steamed into Thailand’s Laem Chabang on Wednesday morning after more than 200 days at sea, including a long deployment in the Middle East, amid reports of mental health concerns and deteriorating conditions aboard.\n\nThe Lincoln, with roughly ​5,000 sailors and Marines aboard, has set a modern-day record for consecutive days at sea, according to ​Democratic lawmakers.\n\nTypically, naval deployments last between six and nine months, but during times of conflict that can be extended.\n\nAccompanied by other U.S. naval vessels, the aircraft carrier will stop in Thailand — the United States’ only treaty partner in mainland Southeast Asia — for rest and recuperation for five days, according to Thai officials.\n\nThe arrival of thousands of military personnel has raised hopes of an economic boost in the nearby ‌resort city of Pattaya, which also has a long-standing reputation as a sex tourism destination.\n\nUSS Abraham Lincoln’s visit to Thailand lifts hope and sex-tourism risk\n\nA fleet of around 40 buses will ferry the military personnel between Pattaya and the port at Laem Chabang where the vessels will dock, Pattaya Mayor Poramase Ngampiches said.\n\n“There are certain places and activities that the personnel are prohibited from participating in, such as all kinds of water sports, jet skiing, bungee jumping, wrestling, and boxing,” he told Reuters.\n\nPolice will deploy additional patrols around Pattaya’s main beachfront and nightlife district, following raids ​over the weekend that led to 40 to 50 people being detained for suspected prostitution, officials said.\n\nAlthough illegal in Thailand, the sex industry is openly visible in major tourism ​hubs, including parts of Bangkok and Pattaya, despite occasional crackdowns.",
+   "summary": "U.S. Navy aircraft carrier Abraham Lincoln arrived in port in eastern Thailand on Wednesday after 286 days at sea, including a lengthy deployment in the Middle East, amid reports of mental health concerns and deteriorating conditions on board. The nuclear-powered Lincoln, with roughly ​5,000 personnel, was involved in the U.S. naval blockade and combat operations in the war with Iran and — according to ​Democratic lawmakers — set a modern-day record for consecutive days at sea. Accompanied by ot",
+   "body": "U.S. Navy aircraft carrier Abraham Lincoln arrived in port in eastern Thailand on Wednesday after 286 days at sea, including a lengthy deployment in the Middle East, amid reports of mental health concerns and deteriorating conditions on board.\n\nThe nuclear-powered Lincoln, with roughly ​5,000 personnel, was involved in the U.S. naval blockade and combat operations in the war with Iran and — according to ​Democratic lawmakers — set a modern-day record for consecutive days at sea.\n\nAccompanied by other U.S. naval vessels, the Lincoln arrived early Wednesday in Thailand, the United States’ only treaty partner in mainland Southeast Asia, for rest and recuperation during a visit that Thai officials said would last five days.\n\nBy afternoon, busloads of sailors and Marines wearing civilian clothes, many smiling and waving, started arriving at a hotel in the resort city of Pattaya, about 150 km (93 miles) southeast of Bangkok.\n\n‘Truly historic accomplishments’\n\n“Our arrival in Laem Chabang provides a well-deserved opportunity for our Sailors and Marines to rest and recharge,” the commander of Carrier Strike Group 3, Rear Admiral Robert E. Loughran, said in a statement.\n\n“What this strike group has accomplished is truly historic. I could not be prouder of the exceptional professionalism and expertise demonstrated by every member of this team during our operations.”\n\nThe Lincoln was deployed last November. Typically naval deployments are for between six and nine months, but those can be extended during times of conflict.\n\nShakeira Fairfax flew in from New Jersey and was waiting outside the Pattaya hotel to meet her 25-year-old daughter Jade, a crew member on the Lincoln.\n\nFairfax said there were moments during the long deployment after the start of the Iran war when morale was low, when contact was limited and she feared for her daughter’s safety.\n\n“There was a period of silence,” she said. “It was an uncertain time, it was a scary time. It was difficult, it was definitely difficult, but she has a support system,” she told reporters.\n\n“I just can’t wait to see her smile. I can’t wait to hear ‘Mom’, I know that’s the first thing she’s gonna say.”\n\nEastern Thailand is long accustomed to port visits by the U.S. Navy and has a relationship going back to the Vietnam War, when Pattaya was a sleepy beach town close to a naval base and an airfield used by U.S. bombers, with thousands of U.S. personnel based in the area.\n\nThailand became a U.S. treaty ally in 1954 before being designated a major non-NATO ally in 2003. The two countries’ militaries maintain strong ties and hold joint exercises every year.\n\nThe Lincoln, its broad flight deck packed with helicopters and warplanes, including the latest F-35 fighter jets, arrived in Laem Chabang early on Wednesday and the guided-missile destroyer USS Frank E. Petersen Jr. docked in nearby Sri Racha.\n\nBoth vessels were streaked with rust and showed mottled paint along the waterlines. A third ship, the guided-missile cruiser USS Robert Smalls, arrived in the port of Map Tha Phut.\n\n‘Drinks, having fun, and letting loose’\n\nThe port visit has raised hopes of an economic boost for Pattaya, which also has a long-standing reputation as a sex tourism destination.\n\nThe city’s mayor, Poramase Ngampiches, met the commander of the Lincoln on Wednesday and said U.S. officials had placed restrictions on the crew’s activities during the stay, including on water sports and visiting certain entertainment zones after sunset, which he said could present a negative image.\n\nPolice will deploy additional patrols around Pattaya’s main beachfront and nightlife district, following raids ​over the weekend and the arrest of 40 to 50 people for suspected prostitution.\n\nAlthough illegal in Thailand, the sex industry operates openly in tourism ​hubs, including in Bangkok, Phuket and Pattaya, despite occasional crackdowns.\n\nOn the eve of the Lincoln’s arrival, Pattaya street vendors near the city’s infamous “Walking Street” nightlife zone were excited by the prospect of a boost in sales.\n\n“It’s been so quiet these days,” said clothes seller Kadsalin Ketpa, 43. “I hope with their arrival they would drive my sales up.”\n\nFood seller Saroch, 45, said port visits by the U.S. military were good for business.\n\n“They’re here for drinks, having fun, and letting loose,” Saroch said.",
    "channel": "defensenews",
    "channelName": "Defense News"
   },
@@ -357,6 +357,16 @@
    "channelName": "Air & Space Forces"
   },
   {
+   "url": "https://www.gov.uk/government/statistics/announcements/mod-trade-industry-and-contracts-2027",
+   "title": "Official Statistics: MOD trade, industry and contracts: 2027",
+   "author": "",
+   "pubDate": "2026-09-02T15:11:41+00:00",
+   "summary": "Information on Ministry of Defence spending with industry and commerce.",
+   "body": "We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services.\n\nWe also use cookies set by other sites to help us deliver content from their services.\n\nYou have accepted additional cookies. You can change your cookie settings at any time.\n\nYou have rejected additional cookies. You can change your cookie settings at any time.\n\nInformation on Ministry of Defence spending with industry and commerce.\n\nTo help us improve GOV.UK, we’d like to know more about your visit today. Please fill in this survey (opens in a new tab ) .",
+   "channel": "govuk_mod",
+   "channelName": "英国国防部"
+  },
+  {
    "url": "https://www.gov.uk/government/publications/military-low-flying-raf-operational-low-flying-training-timetable",
    "title": "Guidance: Military low flying: RAF operational low flying training timetable",
    "author": "",
@@ -543,16 +553,6 @@
    "pubDate": "2026-08-28T14:00:20+00:00",
    "summary": "Warning notice of firing at Tregantle ranges.",
    "body": "Do not enter the danger area when the range is in use, this is a danger to life. If ‘red flags’ or lights are hoisted, regardless of the timings, do not enter the training area. Learn more about accessing MOD training areas safely .\n\nThe full perimeter of the range danger area is signed to warn the public of danger.\n\nRelated information\n\nPublic access to military areas\n\nThe Defence Training Estate: DTE South West (including Salisbury Plain)",
-   "channel": "govuk_mod",
-   "channelName": "英国国防部"
-  },
-  {
-   "url": "https://www.gov.uk/government/publications/catterick-training-area-firing-and-activity-forecast",
-   "title": "Guidance: Catterick Training Area firing and activity forecast",
-   "author": "",
-   "pubDate": "2026-08-28T13:55:50+00:00",
-   "summary": "Annual firing schedule for Battle Hill, Bellerby, Feldom and Wathgill Ranges.",
-   "body": "Public access to the ranges is permitted on specified tarmac roads, public footpaths and bridleways only when no red flags or red lights are displayed, and outside the scheduled firing times. Public access is governed by the Catterick Training Area byelaws .\n\nDo not enter the danger area when the range is in use, this is a danger to life. If ‘red flags’ or lights are hoisted, regardless of the timings, do not enter the training area. Learn more about accessing MOD training areas safely .\n\nRelated links\n\nUK military firing times for all ranges Public access to military areas",
    "channel": "govuk_mod",
    "channelName": "英国国防部"
   },
@@ -777,6 +777,76 @@
    "channelName": "兰德"
   },
   {
+   "url": "https://www.dvidshub.net/video/1021583/team-logistics-we-do",
+   "title": "Team Logistics: What We Do",
+   "author": "SFC Jeron Walker",
+   "pubDate": "2026-09-02T15:39:35+00:00",
+   "summary": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document. U.S. Soldiers, 1st Lt. Tim Ryan and Spc. David Cruz, both with the District of Columbia National Guard, assigned to Joint Task Force-District of Columbia (JTF-DC) in support the DC Safe and Beautiful mission, speak about how the 547th Transportation Company operates",
+   "body": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document.\n\nU.S. Soldiers, 1st Lt. Tim Ryan and Spc. David Cruz, both with the District of Columbia National Guard, assigned to Joint Task Force-District of Columbia (JTF-DC) in support the DC Safe and Beautiful mission, speak about how the 547th Transportation Company operates and how the unit contributes to the success of the JTF-DC mission. About 3500 National Guard members are supporting the mission, providing critical assistance to the Metropolitan Police Department to help ensure the safety of residents, commuters, and visitors throughout the District. (U.S. Army National Guard photo by Sgt. 1st Class Jeron Walker)\n\nThis work, Team Logistics: What We Do , by SFC Jeron Walker , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_dod",
+   "channelName": "美国国防部"
+  },
+  {
+   "url": "https://www.dvidshub.net/news/573770/virtual-flag-26-4-dmoc-forges-joint-and-coalition-c2-readiness-high-end-conflict",
+   "title": "Virtual Flag 26-4: DMOC Forges Joint and Coalition C2 Readiness for High-End Conflict",
+   "author": "Debora Henley",
+   "pubDate": "2026-09-02T15:29:28+00:00",
+   "summary": "To prepare the joint force for high-end conflict, the 705th Combat Training Squadron hosted Virtual Flag 26-4 from August 4-7, 2026. bringing together co-located and distributed players in a large-scale, simulated command and control exercise that successfully integrated tactical and operational-level C2.",
+   "body": "Photo By Debora Henley | A U.S. Air Force pilot flys an MQ-9 simulator during exercise Virtual Flag 26-4 at the... ... read more read more\n\nPhoto By Debora Henley | A U.S. Air Force pilot flys an MQ-9 simulator during exercise Virtual Flag 26-4 at the 705th Combat Training Squadron, also known as the Distributed Mission Operations Center, at Kirtland Air Force Base, New Mexico, Aug. 6, 2026. Integrating MQ-9 Reaper crews into the DMOC’s simulated battlespace allows tactical operators to practice real-time target identification and coordinate vital personnel recovery efforts under highly contested conditions. (Image was cropped to focus on subject and areas blacked out/blurred for security reasons.) (U.S. Air Force photo by Debora Henley) see less | View Image Page\n\nTo prepare the joint force for high-end conflict, the 705th Combat Training Squadron hosted Virtual Flag 26-4 from August 4-7, 2026. bringing together co-located and distributed players in a large-scale, simulated command and control exercise that successfully integrated tactical and operational-level C2.\n\nThe exercise brought together operators from the U.S. Air Force, Space Force, Army, and Marine Corps, alongside key coalition partners from the United Kingdom and Australia, to practice executing war-winning airpower in a realistic, virtual battlespace.\n\n“The foundation of joint warfighting is built in exercises like Virtual Flag,” said U.S. Air Force Col. James Fields II, 505th Command and Control Wing commander. “This event is where we prove that we are the Air Force's premier organization for operational command and control. By bringing together operators from every service and our key allies, we are not just testing systems; we are building the integrated, combat-ready teams required to succeed in any environment.”\n\nA key focus of VF 26-4 was replicating the realistic friction between the tactical and operational levels of C2, a challenge that requires deep integration across the joint force.\n\n“For this exercise,Marine Air Support Squadron 1was instrumental,” said U.S. Air Force Maj. James McCarthy, 705th CTS director of operations. “They provided the critical expertise needed to ensure every single participant, from our pilots in the virtual simulators to our commanders in the AOC, was looking at the exact same, accurate common tactical picture. That shared view of the battlespace is the absolute foundation of joint C2.”\n\nAnother major objective was to challenge battle managers with a robust, realistic intelligence picture, requiring the deep integration of the intelligence, surveillance, and reconnaissance enterprise.\n\n“In a peer conflict, identifying tracks and targets is going to require a robust ISR enterprise,” McCarthy explained. “Rather than just white-carding the answers, we had actual operators from theMQ-9 ReaperandRC-135 Rivet Jointcommunities participating. This is extremely valuable because it helps our C2 community understand what the ISR enterprise can and cannot provide in a high-tempo fight.”\n\nThe exercise provided a unique training opportunity for the ISR crews as well. The MQ-9 operators were tasked with not only identifying targets but also aiding in personnel recovery efforts for simulated downed pilots. Simultaneously, the RC-135 crews were critical in helping to identify key targets for strike packages.\n\n“It gives these communities an opportunity to participate in a mission set that they may not be able to get after back home,” McCarthy added.\n\nServing as the exercise's operational-level C2 hub, the 505th Combat Training Squadron provided a robust and realistic Air Operations Center replication, driving the scenario for the entire joint and coalition team.\n\n“Our team provided realistic AOC replication, serving as the operational-level C2 hub for the joint training audience,” said U.S. Air Force Lt. Col. Jason Guest, 505th CTS commander. “This high-fidelity environment was especially critical for our Air Expeditionary Wing participants, as it provided the realistic operational C2 link they needed to validate their distributed command and control training.”\n\nThe exercise provided a critical training environment for two Air Expeditionary Wings challenging their C2 Force Elements to execute distributed C2 in a contested, simulated agile combat employment scenario. This forced commanders to make difficult decisions regarding both mission execution and survival under realistic constraints.\n\n“Stepping into a Wing Operations Center to manage six Mission Generation Force Elements across three simulated bases is a massive departure from our Airmen's daily tactical routines, and Virtual Flag 26-4 provided the proving ground,” said a U.S. Air Force major serving as the VF 26-4 exercise deputy offensive director.“What started as an uncomfortable learning curve quickly turned into operational confidence as our team synchronized our offensive and defensive sections from home station. They streamlined our internal reporting, integrated real-time logistics and base defense with sortie generation, and proved our forces are ready to execute distributed command and control under contested conditions.”\n\nIntegrating coalition partners from the U.K. and Australia was another key objective.\n\n“There are immense benefits from connecting the Air Battlespace Training Centre at Royal Air Force Waddington and the DMOC’s systems,” said RAF Wing Commander Richard Kinniburgh, 505th Test and Training Group Deputy Commander and RAF Exchange Officer. “With the increasing dependency on virtual training for major exercises, this partnership is more critical than ever for ensuring our forces are ready to operate together.”\n\nUltimately, the DMOC provides a cost-effective, repeatable, and highly flexible training venue that live-fly exercises cannot match.\n\n“The virtual environment allows us to provide high-quality, high-repetition training in a fiscally responsible manner,” McCarthy concluded. “More importantly, it allows us to present our warfighters with a scale of conflict that would be impossible to replicate in a live-fly exercise. We also remove many of the real-world friction points that can cancel live-fly training, ensuring our warfighters get the maximum training value out of every event.”\n\nThis work, Virtual Flag 26-4: DMOC Forges Joint and Coalition C2 Readiness for High-End Conflict , by Debora Henley , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_dod",
+   "channelName": "美国国防部"
+  },
+  {
+   "url": "https://www.dvidshub.net/video/1021572/my-dcma-remember-9-11-david-fagan",
+   "title": "My DCMA Remember 9/11: David Fagan",
+   "author": "Elizabeth Szoke",
+   "pubDate": "2026-09-02T15:27:02+00:00",
+   "summary": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document. My DCMA Remember 9/11 edition showcases the Defense Contract Management Agency's experienced and dedicated workforce as they reflect on the events of Sept. 11, 2001. The campaign highlights that tragiv day's personal and professional impact on agency team members. To",
+   "body": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document.\n\nMy DCMA Remember 9/11 edition showcases the Defense Contract Management Agency's experienced and dedicated workforce as they reflect on the events of Sept. 11, 2001. The campaign highlights that tragiv day's personal and professional impact on agency team members. Today, David Fagan shares his story.\n\nThis work, My DCMA Remember 9/11: David Fagan , by Elizabeth Szoke , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_dod",
+   "channelName": "美国国防部"
+  },
+  {
+   "url": "https://www.dvidshub.net/news/573769/nas-meridian-hosts-joint-mwd-homemade-explosive-training",
+   "title": "NAS Meridian Hosts Joint MWD Homemade Explosive Training",
+   "author": "Evelyn Reese",
+   "pubDate": "2026-09-02T15:21:57+00:00",
+   "summary": "Naval Air Station (NAS) Meridian hosts a Homemade Explosives (HME) Training for local and state civilian agencies as well as fellow military installation’s canine units, August 28. The goal of the training was to broaden and sharpen the canine’s ability to detect explosive materials.",
+   "body": "This work, NAS Meridian Hosts Joint MWD Homemade Explosive Training , by Evelyn Reese , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_dod",
+   "channelName": "美国国防部"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/9905969/flight-line-operations-training-air-wing-tw-2",
+   "title": "Flight Line Operations at Training Air Wing (TW) 2",
+   "author": "ENS Geoffrey Gumport",
+   "pubDate": "2026-09-02T15:11:39+00:00",
+   "summary": "Two T-45C Goshawk aircraft assigned to Training Air Wing (TW) 2 prepare to depart Naval Air Station (NAS) Kingsville, September 1, 2026. Chief of Naval Air Training oversees the Naval Air Training Command which trains, mentors, and delivers the highest quality Naval Aviators that win in competition, crisis, and conflict. (U.S. Navy photo by Ensign Geoffrey Gumport)",
+   "body": "Two T-45C Goshawk aircraft assigned to Training Air Wing (TW) 2 prepare to depart Naval Air Station (NAS) Kingsville, September 1, 2026. Chief of Naval Air Training oversees the Naval Air Training Command which trains, mentors, and delivers the highest quality Naval Aviators that win in competition, crisis, and conflict. (U.S. Navy photo by Ensign Geoffrey Gumport)\n\nThis work, Flight Line Operations at Training Air Wing (TW) 2 [Image 5 of 5] , by ENS Geoffrey Gumport , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_dod",
+   "channelName": "美国国防部"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/9906016/vanguard-battalion-food-drive-02",
+   "title": "Vanguard Battalion Food Drive 02",
+   "author": "Courtesy",
+   "pubDate": "2026-09-02T15:07:03+00:00",
+   "summary": "FORT GEORGE G. MEADE, Md. – Soldiers and Civilians representing the 781st Military Intelligence Battalion (Cyber), Vanguard, donated more than 20,000 pounds of food and water to the Department of Veterans Affairs Community Resource and Referral Center Coordinator in Baltimore. The 781st MI Battalion accomplished this food drive over the past two months to assist Veterans in the local area.",
+   "body": "FORT GEORGE G. MEADE, Md. – Soldiers and Civilians representing the 781st Military Intelligence Battalion (Cyber), Vanguard, donated more than 20,000 pounds of food and water to the Department of Veterans Affairs Community Resource and Referral Center Coordinator in Baltimore. The 781st MI Battalion accomplished this food drive over the past two months to assist Veterans in the local area.\n\nThis work, Vanguard Battalion Food Drive 02 [Image 4 of 4] , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_dod",
+   "channelName": "美国国防部"
+  },
+  {
+   "url": "https://www.dvidshub.net/news/573766/womens-army-corps-sergeant-inspired-her-familys-legacy-serve",
+   "title": "Women’s Army Corps Sergeant Inspired by her Family’s Legacy to Serve",
+   "author": "Kevin Hymel",
+   "pubDate": "2026-09-02T14:59:35+00:00",
+   "summary": "Janice Montalto wanted to be a part of something bigger than herself. With her father serving in the U.S. Navy, her brother serving in the U.S. Marine Corps, and the war in Vietnam still raging, she volunteered for the Women’s Army Corps (WAC) on Sept. 19, 1972.",
+   "body": "Photo By Elizabeth Fraser | U.S. Space Force Col. retired Nicholas Montalto receives the U.S. flag from the... ... read more read more\n\nPhoto By Elizabeth Fraser | U.S. Space Force Col. retired Nicholas Montalto receives the U.S. flag from the funeral service of his mother, U.S. Army Sgt. Janice Montalto, in Section 60 of Arlington National Cemetery, Arlington, Virginia, Aug. 14, 2026. In Sept. 1972, Sgt. Montalto volunteered for the Women’s Army Corps (WAC) which was created during World War II to bring women into the all-male Army, placing women in noncombat roles to free men for combat duty. The WAC was part of the Army through the Korean War and Vietnam War until the Army disbanded the Corps in 1978 to better assimilate women into the ranks. Sgt. Montalto made the most of her WAC career, receiving an accelerated advancement to private E-2 within her first two months. An honor graduate from her Advanced Individual Training class, Montalto became one of the first women to serve in the Army’s Air Defense Artillery branch. As she rose in rank to sergeant, the Army gave her more responsibility. In April 1973, Sgt. Montalto was put in charge of WAC barracks. In May 1976, she earned the Soldier of the Year award for the 69th Air Defense Artillery Group. Two months later, she earned the Army Commendation Medal. During a tour of West Germany, Sgt. Montalto met her future husband – Sgt. Jack Montalto. They married one month after her separation from WAC and went on to have three children: twins Nicholas and Michelle, and Jack Jr. Jack Sr. passed away in December 1994 and was laid to rest in Section 60 of Arlington National Cemetery that same month. Sgt. Montalto was laid to rest with him following her funeral service this day. (U.S. Army photo by Elizabeth Fraser / Arlington National Cemetery / released) see less | View Image Page\n\nJanice Montalto wanted to be a part of something bigger than herself. With her father serving in the U.S. Navy, her brother serving in the U.S. Marine Corps, and the war in Vietnam still raging, she volunteered for the Women’s Army Corps (WAC) on Sept. 19, 1972.\n\nCreated during World War II to bring women into the all-male Army, the WAC placed women in noncombat roles to free men for combat duty. It replaced the Women’s Army Auxiliary Corps (WAAC), which had no military status. The WAC was part of the Army through the Korean War and Vietnam War until the Army disbanded the Corps in 1978 to better assimilate women into the ranks.\n\nMontalto made the most of her WAC career. Within two months of joining, she received an accelerated advancement to the rank of private E-2. She was also an honor graduate from her Advanced Individual Training class and later became one of the first women to serve in the Army’s Air Defense Artillery branch.\n\nAs she rose in rank to sergeant, the Army gave her more responsibility and recognized her skills and devotion to duty. In April 1973, she was put in charge of WAC barracks. In May of 1976, she earned the Soldier of the Year award for the 69th Air Defense Artillery Group. Two months later, she earned the Army Commendation Medal for “consistent exceptional performance, selflessness and devotion to duty.”\n\n“She said she had to do it better than everybody else to prove that she could be in the positions that she was in,” her son, U.S. Space Force Col. (Ret.) Nicholas Montalto, said. “Her ability to accelerate through the ranks was pretty tremendous.”\n\nDuring a tour of West Germany, Montalto met a sergeant named Jack and fell in love. They married on Sept. 2, 1976, a month after she departed from the WAC, and settled in Wilmington, Massachusetts, where they had three children: twins Nicholas and Michelle, and Jack Jr.\n\nMontalto raised her children with the skills she had learned in the Army. “My friends called her ‘Sarge,’” Michelle Montalto said. She attended her children’s sporting events and band performances, often shouting from the sidelines or following alongside the marching band at parades. “She did a lot of fun things with us,” Michelle added.\n\nWhen Jack Sr. was laid to rest at Arlington National Cemetery on Dec. 20, 1994, Montalto knew she wanted to eventually join him. On a warm Aug. 14, 2026, Montalto’s children and extended family gathered in Section 60 to bid their mother a final goodbye. U.S. Army Chaplain (Capt.) Michael Palmer told the family that Montalto had “faithfully and honorably served her nation, to include the Vietnam era.”\n\nAfter a firing party fired three volleys and a bugler sounded Taps, Sgt. 1st Class Joshua Morrison presented a tri-folded flag to Col. Montalto. “It’s the fabric of the nation,” Montalto later said of the flag, “so it carries a lot of weight.”\n\nAfter the service, Montalto’s three children gathered to remember their mother. They spoke about her parenting and character, but the conversation returned to her time in uniform. “She felt the duty to serve,” Col. Montalto said, “and she was proud of being in the Women’s Army Corps.”\n\nThis work, Women’s Army Corps Sergeant Inspired by her Family’s Legacy to Serve , by Kevin Hymel , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_dod",
+   "channelName": "美国国防部"
+  },
+  {
    "url": "https://www.dvidshub.net/news/573762/watervliet-arsenal-welcomes-new-apprentice-class",
    "title": "Watervliet Arsenal welcomes a new apprentice class",
    "author": "Matthew Day",
@@ -803,16 +873,6 @@
    "pubDate": "2026-09-02T13:48:41+00:00",
    "summary": "Lauren Petry, left, assists her son as he places shoulder boards on Stefen Petry, right, during his promotion ceremony to Lt. Cmdr. at Navy Medicine Readiness and Training Command Cherry Point on September 1, 2026, as Stefen’s father, Thomas, looks on. Lt. Cmdr. Petry leads NMRTC Cherry Point’s Physical and Occupational Therapy departments, which are responsible for assisting in the physical rehabilitation of injured Marines and Sailors stationed at Marine Corps Air Station Cherry Point, facilit",
    "body": "Lauren Petry, left, assists her son as he places shoulder boards on Stefen Petry, right, during his promotion ceremony to Lt. Cmdr. at Navy Medicine Readiness and Training Command Cherry Point on September 1, 2026, as Stefen’s father, Thomas, looks on. Lt. Cmdr. Petry leads NMRTC Cherry Point’s Physical and Occupational Therapy departments, which are responsible for assisting in the physical rehabilitation of injured Marines and Sailors stationed at Marine Corps Air Station Cherry Point, facilitating their swift return to full-duty status. Navy Medicine’s 44,000+ talented and ready forces optimize health readiness, deliver quality healthcare, and provide global expeditionary medical support to warfighters.\n\nThis work, NMRTC Cherry Point Officer Promotes to Lt. Cmdr. , by Thomas Cieslak , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
-  },
-  {
-   "url": "https://www.dvidshub.net/news/573757/nmrtc-cherry-point-officer-promotes-lt-cmdr",
-   "title": "NMRTC Cherry Point Officer Promotes to Lt. Cmdr.",
-   "author": "Thomas Cieslak",
-   "pubDate": "2026-09-02T13:48:31+00:00",
-   "summary": "Lt. Cmdr. Stefen Petry head of Navy Medicine Readiness and Training Command Cherry Point’s Physical and Occupational Therapy departments, promoted to the rank during a ceremony on Monday, September 1, 2026.",
-   "body": "Photo By Thomas Cieslak | Lauren Petry, left, assists her son as he places shoulder boards on Stefen Petry,... ... read more read more\n\nPhoto By Thomas Cieslak | Lauren Petry, left, assists her son as he places shoulder boards on Stefen Petry, right, during his promotion ceremony to Lt. Cmdr. at Navy Medicine Readiness and Training Command Cherry Point on September 1, 2026, as Stefen’s father, Thomas, looks on. Lt. Cmdr. Petry leads NMRTC Cherry Point’s Physical and Occupational Therapy departments, which are responsible for assisting in the physical rehabilitation of injured Marines and Sailors stationed at Marine Corps Air Station Cherry Point, facilitating their swift return to full-duty status. Navy Medicine’s 44,000+ talented and ready forces optimize health readiness, deliver quality healthcare, and provide global expeditionary medical support to warfighters. see less | View Image Page\n\nThis work, NMRTC Cherry Point Officer Promotes to Lt. Cmdr. , by Thomas Cieslak , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
    "channel": "us_dod",
    "channelName": "美国国防部"
   },
@@ -857,16 +917,6 @@
    "channelName": "美国国防部"
   },
   {
-   "url": "https://www.dvidshub.net/image/9905723/fair-winds-and-following-seas-hospital-corpsman-2nd-class-calloway",
-   "title": "Fair Winds and Following Seas to Hospital Corpsman 2nd Class Calloway",
-   "author": "Thomas Cieslak",
-   "pubDate": "2026-09-02T12:41:22+00:00",
-   "summary": "During his time at Marine Corps Air Station Cherry Point, Hospital Corpsman 2nd Class Dru Calloway led a team responsible for ensuring the medical readiness of Marines assigned to the base through the collection of more than 250,000 blood and other biological samples, resulting in quick, accurate diagnoses and prompt treatment. He also led the department through two College of American Pathologists re-accreditations with a 99.9% pass rate.",
-   "body": "During his time at Marine Corps Air Station Cherry Point, Hospital Corpsman 2nd Class Dru Calloway led a team responsible for ensuring the medical readiness of Marines assigned to the base through the collection of more than 250,000 blood and other biological samples, resulting in quick, accurate diagnoses and prompt treatment. He also led the department through two College of American Pathologists re-accreditations with a 99.9% pass rate.\n\nThis work, Fair Winds and Following Seas to Hospital Corpsman 2nd Class Calloway , by Thomas Cieslak , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .\n\nFair Winds and Following Seas to Hospital Corpsman 2nd Class Calloway",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
-  },
-  {
    "url": "https://www.dvidshub.net/video/1021541/b-roll-super-garuda-shield-26-mrf-d-marines-observe-jgsdf-soldiers-indonesian-marines-conduct-mortar-live-fire-range",
    "title": "B-Roll: Super Garuda Shield 26: MRF-D Marines observe JGSDF soldiers, Indonesian marines conduct mortar live-fire range",
    "author": "Sgt Kyle Chan",
@@ -887,100 +937,20 @@
    "channelName": "美国国防部"
   },
   {
-   "url": "https://www.dvidshub.net/image/9905668/super-garuda-shield-mrf-d-marines-observe-japanese-soldiers-indonesian-marines-perform-mortar-live-fire-range",
-   "title": "Super Garuda Shield: MRF-D Marines observe Japanese soldiers, Indonesian marines perform mortar live-fire range",
-   "author": "Sgt Kyle Chan",
-   "pubDate": "2026-09-02T12:02:08+00:00",
-   "summary": "U.S. Marine Corps 1st Lt. Lucas Schatz, a platoon commander with Alpha Company, 1st Battalion, 5th Marine Regiment, Marine Rotational Force – Darwin 26, speaks to a Japan Ground Self-Defense Force service member with 2nd Amphibious Rapid Deployment Regiment, Amphibious Rapid Deployment Brigade, before a live-fire mortar range as part of Exercise Super Garuda Shield 26 near Lampung, Indonesia, Sept. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces an",
-   "body": "U.S. Marine Corps 1st Lt. Lucas Schatz, a platoon commander with Alpha Company, 1st Battalion, 5th Marine Regiment, Marine Rotational Force – Darwin 26, speaks to a Japan Ground Self-Defense Force service member with 2nd Amphibious Rapid Deployment Regiment, Amphibious Rapid Deployment Brigade, before a live-fire mortar range as part of Exercise Super Garuda Shield 26 near Lampung, Indonesia, Sept. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. Military designed to strengthen bilateral interoperability, capabilities, and cooperation. Schatz is a native of California. (U.S. Marine Corps photo by Sgt. Kyle Chan)\n\nThis work, Super Garuda Shield: MRF-D Marines observe Japanese soldiers, Indonesian marines perform mortar live-fire range [Image 13 of 13] , by Sgt Kyle Chan , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
-  },
-  {
-   "url": "https://www.dvidshub.net/video/1021530/interview-us-army-1st-lt-ashley-duke-discusses-her-experience-treating-patients-during-burundi-medrex",
-   "title": "Interview: US Army 1st Lt. Ashley Duke discusses her experience treating patients during Burundi MEDREX",
+   "url": "https://www.dvidshub.net/news/573621/naval-justice-school-marks-80th-anniversary",
+   "title": "Naval Justice School Marks 80th Anniversary",
    "author": "Courtesy",
-   "pubDate": "2026-09-02T11:31:45+00:00",
-   "summary": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document. U.S. Army 1st Lt. Ashley Duke, a medical-surgical nurse with 30th Medical Brigade, discusses her experience treating patients during a medical readiness exercise at Kamenge Military Hospital, Bujumbura, Burundi, Aug. 17-28, 2026. The MEDREX embedded U.S. medical pers",
-   "body": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document.\n\nU.S. Army 1st Lt. Ashley Duke, a medical-surgical nurse with 30th Medical Brigade, discusses her experience treating patients during a medical readiness exercise at Kamenge Military Hospital, Bujumbura, Burundi, Aug. 17-28, 2026. The MEDREX embedded U.S. medical personnel in a Burundian military hospital, where they treated trauma, surgical and infectious disease cases at a volume and complexity rarely seen at their home stations. The engagement built U.S. readiness, strengthened crisis response capabilities, and sharpened medical skills needed to sustain combat power. (Courtesy video by 30th Medical Brigade)\n\nThis work, Interview: US Army 1st Lt. Ashley Duke discusses her experience treating patients during Burundi MEDREX , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
+   "pubDate": "2026-09-02T15:02:51+00:00",
+   "summary": "On July 20, 2026, the Naval Justice School (NJS) celebrated its 80th anniversary at Naval Station Newport, Rhode Island, bringing together nearly 70 current students, staff, and distinguished alumni for a ceremonial reunion and traditional cake-cutting. Founded on July 1, 1946, in Port Hueneme, California, NJS originally provided a single seven-week course taught by a tiny staff before relocating to Newport in 1950. Over the decades, the school steadily expanded its curriculum to include leaders",
+   "body": "This work, Naval Justice School Marks 80th Anniversary , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
-   "url": "https://www.dvidshub.net/video/1021534/interview-us-army-lt-col-nate-boyer-discusses-his-experience-treating-patients-during-burundi-medrex",
-   "title": "Interview: US Army Lt. Col. Nate Boyer discusses his experience treating patients during Burundi MEDREX",
-   "author": "Courtesy",
-   "pubDate": "2026-09-02T11:30:42+00:00",
-   "summary": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document. U.S. Army Lt. Col. Nate Boyer, a pulmonary and critical care physician with the 30th Medical Brigade, discusses his experience treating patients during a medical readiness exercise at Kamenge Military Hospital, Bujumbura, Burundi, Aug. 17-28, 2026. The MEDREX embedde",
-   "body": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document.\n\nU.S. Army Lt. Col. Nate Boyer, a pulmonary and critical care physician with the 30th Medical Brigade, discusses his experience treating patients during a medical readiness exercise at Kamenge Military Hospital, Bujumbura, Burundi, Aug. 17-28, 2026. The MEDREX embedded U.S. medical personnel in a Burundian military hospital, where they treated trauma, surgical and infectious disease cases at a volume and complexity rarely seen at their home stations. The engagement built U.S. readiness, strengthened crisis response capabilities, and sharpened medical skills needed to sustain combat power. (Courtesy video by 30th Medical Brigade)\n\nThis work, Interview: US Army Lt. Col. Nate Boyer discusses his experience treating patients during Burundi MEDREX , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
-  },
-  {
-   "url": "https://www.dvidshub.net/audio/93627/afn-naples-regional-news-joint-artillery-fire-control-qualification-and-raf-mildenhalls-new-mwd",
-   "title": "AFN Naples Regional News - Joint Artillery Fire Control Qualification and RAF Mildenhall's New MWD",
-   "author": "SA Christy Valenzuela",
-   "pubDate": "2026-09-02T11:27:55+00:00",
-   "summary": "260901-N-GL546-1001 NAPLES, Italy (Sept. 01, 2026) AFN Naples radio news highlighting Joint Air Defense Artillery Fire Control qualification event at the U.S. Air Forces in Europe Air Forces Africa Air Warfare Center, and Royal Air Force's new addition to the MWD pack in Mildenhall. (U.S. Navy audio by Mass Communication Specialist Seaman Apprentice Christy Valenzuela.)",
-   "body": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document.\n\n260901-N-GL546-1001 NAPLES, Italy (Sept. 01, 2026) AFN Naples radio news highlighting Joint Air Defense Artillery Fire Control qualification event at the U.S. Air Forces in Europe Air Forces Africa Air Warfare Center, and Royal Air Force's new addition to the MWD pack in Mildenhall. (U.S. Navy audio by Mass Communication Specialist Seaman Apprentice Christy Valenzuela.)\n\nThis work, AFN Naples Regional News - Joint Artillery Fire Control Qualification and RAF Mildenhall's New MWD , by SA Christy Valenzuela , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
-  },
-  {
-   "url": "https://www.dvidshub.net/news/573745/shipyard-spotlight-gordon-wilder-code-938n-nuclear-internal-shop-manager",
-   "title": "Shipyard Spotlight: Gordon Wilder, Code 938N Nuclear Internal Shop Manager",
-   "author": "Susanne Greene",
-   "pubDate": "2026-09-02T11:09:56+00:00",
-   "summary": "Norfolk Naval Shipyard (NNSY) Mechanical Department Nuclear (Code 938N) Internal Shop Manager Gordon Wilder has worked at NNSY for 23 years. Growing up in northeast North Carolina, Wilder spent his summers working at a slaughterhouse and started his shipbuilding career at Newport News Shipbuilding right out of high school as an Outside Nuclear Machinist.",
-   "body": "Photo By Petty Officer 1st Class Christian Victor Bautista | Norfolk Naval Shipyard (NNSY) Code 938 Nuclear Internal Shop Manager Gordon Wilder has... ... read more read more\n\nPhoto By Petty Officer 1st Class Christian Victor Bautista | Norfolk Naval Shipyard (NNSY) Code 938 Nuclear Internal Shop Manager Gordon Wilder has worked at NNSY for 23 years. Currently, he is determining the tooling and equipment needed to support the deactivation of the Moored Training Ship Daniel Webster (MTS 626), supporting off-yard work for Kesselring Site Operations and Nuclear Power Training Unit Charleston, and developing tooling and equipment for the new Virginia-class submarines and Ford-class carriers. see less | View Image Page\n\nNorfolk Naval Shipyard (NNSY) Mechanical Department Nuclear (Code 938N) Internal Shop Manager Gordon Wilder has worked at NNSY for 23 years. Growing up in northeast North Carolina, Wilder spent his summers working at a slaughterhouse and started his shipbuilding career at Newport News Shipbuilding right out of high school as an Outside Nuclear Machinist.\n\n“Everyone knew in northeast North Carolina during this time if you wanted a good paying job you would need to go to one of the shipyards or the Ford plant,” said Wilder. “One day myself and a couple of friends skipped school and came to Virginia and put in applications at all the shipyards and the Ford plant.”\n\nWilder continued, “A few weeks later, I was called by Newport News Shipbuilding and given a job right out of high school making $5.10 an hour, compared to the minimum wage of $3.25 at the slaughterhouse. It was a good increase.”\n\nHis first new construction job was aboard the USS Theodore Roosevelt (CVN 71).\n\n“When you build a carrier, you really get to know where every component is located and the function it performs,” said Wilder. “A lot has changed in technology since the early Nimitz class carriers.”\n\nWilder understood quickly that new construction was difficult work and required being in the elements every day throughout the year.\n\n“During the summer months, you would make you up a wand and plug it to an air hose to try to get some relief from the heat and, in the winter, you would check out two drop lights which were regular light bulbs back in those days. One drop light was to see by and the other you stuck in your coveralls to keep warm,” said Wilder. “And then when it rained you could be in the bottom of the ship with no idea it’s raining and out of nowhere the waterfalls would flow down to your level.”\n\nIn 2003, Wilder started his career at NNSY as a WG-10 mechanic and worked his way up the ranks.\n\n“I develop written processes as needed to provide instructions for nuclear repairs; develop new tooling and equipment needed to perform these repairs; modify existing tooling and equipment to be used in other aspects of our work, and research and purchase new equipment as needed for our shop to perform work; designing of mock-ups to use as a training aid for our mechanics; train our mechanics and supervisors on how to perform these repairs; and follow up with jobsite oversight to make sure everything comes together,” said Wilder.\n\nNNSY Inside Machine Shop Mechanical Group (Code 931) Tool Designer Jonathan Mason works with Wilder on tool designs.\n\n“As a tool designer, I love working with him,” said Mason. “He never just drops off a problem for us to figure out—by the time he walks into our shop, he usually already has a custom tool design worked out in his head or sketched on paper.”\n\nMason continued, “I have personally learned a lot from Wilder, but beyond being an incredible mechanic and a natural mentor, he’s honestly just a genuinely good guy. You really couldn't ask for a better coworker. The fact that he is now passing down all that hands-on experience is a huge win for the shipyard.”\n\nCurrently, Wilder is determining the tooling and equipment needed to support the deactivation of the Moored Training Ship Daniel Webster (MTS 626), supporting off-yard work for Kesselring Site Operations (KSO) and Nuclear Power Training Unit (NPTU) Charleston, and developing tooling and equipment for the new Virginia-class submarines and Ford-class carriers.\n\n“Wilder has consistently distinguished himself as one of the most outstanding General Foremen in Code 938N,” said NNSY Code 938 Nuclear Director William Marchant. “He leads by example in every aspect of his work, embodying a level of professionalism, dedication, and integrity that sets the standard for others to follow.”\n\nMarchant continued, “Wilder is also proactive in his approach to future work, consistently taking the initiative to organize and prepare tooling well in advance of upcoming projects. His attention to detail and forward-thinking mindset ensures that the team is set up for success from the start.”\n\nWhen it comes to leadership, Wilder believes trust is key to success.\n\n“To me, a good leader is someone that can be trusted to do the right thing all the time by leading by example, be willing to listen to other individuals’ ideas and provide positive feedback, make sure that your team has everything they need to be successful, such as equipment, tooling, training, etc.,” said Wilder. “Be a part of the team, get in and help them when you can even if it’s only helping get equipment to and from the ships, get to know your team.”\n\nWilder added, “Always be calm and control your emotions and treat everyone as you would like to be treated.”\n\nThe best career advice he ever received was to come to work with a positive attitude and do your job to the best of your ability. He also has advice for anyone considering a career at NNSY.\n\n“I will tell anyone very quickly this has been the best job I’ve ever had; it has provided for my family. I have traveled around the world while on Temporary Duty (TDY) and seen and done things I wouldn’t have from any other jobs,” said Wilder.\n\nWhen Wilder is away from the office, he enjoys fishing, boating, carpentry, gardening, and traveling.\n\nThis work, Shipyard Spotlight: Gordon Wilder, Code 938N Nuclear Internal Shop Manager , by Susanne Greene , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
-  },
-  {
-   "url": "https://www.dvidshub.net/news/573663/time-distance-wingman-concept-why-lethal-means-safety-our-strongest-defense",
-   "title": "Time, distance, the wingman concept: Why lethal means safety is our strongest defense",
-   "author": "Courtesy",
-   "pubDate": "2026-09-02T10:59:11+00:00",
-   "summary": "As we observe Suicide Prevention Month, the statistics surrounding military suicides remain a sobering call to action. Suicide is a public health issue impacting our military community leaving lasting harmful effects on individuals, families, communities and military readiness.",
-   "body": "Photo By Jazmine Gutter-Robbins | Graphic outlining easy storage tips for firearms. (U.S. Air Force graphic by Jazmine... ... read more read more\n\nPhoto By Jazmine Gutter-Robbins | Graphic outlining easy storage tips for firearms. (U.S. Air Force graphic by Jazmine Gutter-Robbins) see less | View Image Page\n\nAs we observe Suicide Prevention Month, the statistics surrounding military suicides remain a sobering call to action. Suicide is a public health issue impacting our military community leaving lasting harmful effects on individuals, families, communities and military readiness.\n\nThrough my lens as the Air Force Director of Psychological Health and a mental health provider for over 20 years, sitting across from service members in crisis, a singular, powerful truth consistently emerges: We cannot always predict a suicidal crisis, but we can profoundly impact its outcome by controlling the environment.\n\nFirearms are the primary method of suicide death for service members and family members. Research supports that putting time and distance between an at-risk individual and a lethal means of suicide is an effective way to prevent death by suicide.\n\nThe concept of lethal means safety is about creating a critical buffer of time and distance that saves lives for at risk individuals. Research shows a 91% reduction in suicides from initiatives that focus on limiting access to firearms, medications and other potentially dangerous items.\n\nBased on research from the Department of Defense Suicide Prevention Office , the Department of Veterans Affairs , and the National Action Alliance for Suicide Prevention, here is what every Airman, Guardian, supervisor, and leader needs to understand about lethal means safety.\n\nMental health research clearly indicates suicidal crises are often intensely acute and terrifyingly brief. The period between making the decision to attempt suicide and acting on it can sometimes be measured in minutes.\n\nIf a highly lethal method, such as a loaded, unsecured firearm or a stockpile of prescription medications is immediately available during this brief window, the risk of a tragic outcome skyrockets. Putting time and distance between a person in crisis and a lethal method allows the impulse to pass and creates an opportunity for intervention.\n\nWe train for every other physical threat. Lethal means safety is the equivalent of tactical defense against an internal adversary.\n\nFor individual Airmen and Guardians, practicing lethal means safety is a standard component of overall readiness and responsible ownership.\n\nConcepts for leaders and supervisors Leaders are the center of gravity for shifting the culture around mental health and lethal means. Policy alone does not save lives; engaged leadership does.\n\nSuicide prevention is complex and lethal means safety offers a straightforward, evidence-based solution. By securely storing firearms, managing medications responsibly, and fostering a command climate where checking on an Airman or Guardian’s environment is standard practice, we buy the most precious resource a person in crisis needs: Time.\n\nTime for the crisis to subside. Time for a wingman to intervene. Time for a life to be saved.\n\nEvery second counts in suicide prevention. Educating our service members on lethal means safety practices, asking the hard questions when you notice someone struggling, and leaders being proactive in offering support can give someone an extra moment to change their mind about suicide.\n\nCourtesy article by Col. Elisha P. Pippin, Air Force Director of Psychological Health\n\nThis work, Time, distance, the wingman concept: Why lethal means safety is our strongest defense , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/9905564/super-garuda-shield-2026-staffex",
-   "title": "Super Garuda Shield 2026 - STAFFEX",
-   "author": "TSgt Orlando Corpuz",
-   "pubDate": "2026-09-02T10:40:01+00:00",
-   "summary": "Canadian Armed Forces and New Zealand Defense Force service members sit next to each other during a staff exercise held at the Indonesian Armed Forces Staff and Command School during Super Garuda Shield 26 in Bandung, Indonesia, Sep. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. military designed to strengthen bilateral interoperability, capabilities and cooperation. (U.S. Air National Guard photo by Tech. Sgt. Orlando Corpuz)",
-   "body": "Canadian Armed Forces and New Zealand Defense Force service members sit next to each other during a staff exercise held at the Indonesian Armed Forces Staff and Command School during Super Garuda Shield 26 in Bandung, Indonesia, Sep. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. military designed to strengthen bilateral interoperability, capabilities and cooperation. (U.S. Air National Guard photo by Tech. Sgt. Orlando Corpuz)\n\nThis work, Super Garuda Shield 2026 - STAFFEX [Image 13 of 13] , by TSgt Orlando Corpuz , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/9905492/nv26-lightfish-usv-training",
-   "title": "NV26 Lightfish USV Training",
-   "author": "PO1 Jasmine Suarez",
-   "pubDate": "2026-09-02T10:20:11+00:00",
-   "summary": "A member of the Icelandic Coast Guard takes a photo of a Lightfish USV during exercise Northern Viking 26 (NV26) in Reykjavik, Iceland, Sept. 1, 2026. NV26 strengthens interoperability and force readiness between the U.S., Iceland and Allied nations, enabling multi-domain command and control of joint and coalition forces in the defense of Iceland and sea lines of communication in the Greenland-Iceland-United Kingdom (GIUK) gap. (U.S. Navy Photo by Mass Communication Specialist 1st Class Jasmine ",
-   "body": "A member of the Icelandic Coast Guard takes a photo of a Lightfish USV during exercise Northern Viking 26 (NV26) in Reykjavik, Iceland, Sept. 1, 2026. NV26 strengthens interoperability and force readiness between the U.S., Iceland and Allied nations, enabling multi-domain command and control of joint and coalition forces in the defense of Iceland and sea lines of communication in the Greenland-Iceland-United Kingdom (GIUK) gap. (U.S. Navy Photo by Mass Communication Specialist 1st Class Jasmine Suarez)\n\nThis work, NV26 Lightfish USV Training [Image 7 of 7] , by PO1 Jasmine Suarez , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/9905495/nv26-lightfish-usv-training",
-   "title": "NV26 Lightfish USV Training",
-   "author": "PO1 Jasmine Suarez",
-   "pubDate": "2026-09-02T10:19:52+00:00",
-   "summary": "John Gideon, Commander ,Task Force (CTF) 66, demonstrates the capabilities of a Lightfish USV to a member of the Icelandic Coast Guard during exercise Northern Viking 26 (NV26) in Reykjavik, Iceland, Sept. 1, 2026. NV26 strengthens interoperability and force readiness between the U.S., Iceland and Allied nations, enabling multi-domain command and control of joint and coalition forces in the defense of Iceland and sea lines of communication in the Greenland-Iceland-United Kingdom (GIUK) gap. (U.S",
-   "body": "John Gideon, Commander ,Task Force (CTF) 66, demonstrates the capabilities of a Lightfish USV to a member of the Icelandic Coast Guard during exercise Northern Viking 26 (NV26) in Reykjavik, Iceland, Sept. 1, 2026. NV26 strengthens interoperability and force readiness between the U.S., Iceland and Allied nations, enabling multi-domain command and control of joint and coalition forces in the defense of Iceland and sea lines of communication in the Greenland-Iceland-United Kingdom (GIUK) gap. (U.S. Navy Photo by Mass Communication Specialist 1st Class Jasmine Suarez)\n\nThis work, NV26 Lightfish USV Training [Image 7 of 7] , by PO1 Jasmine Suarez , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
-  },
-  {
-   "url": "https://www.dvidshub.net/video/1021555/uss-boxer-11th-meu-host-crew-morale-day",
+   "url": "https://www.dvidshub.net/video/1021554/uss-boxer-11th-meu-host-crew-morale-day",
    "title": "USS Boxer, 11th MEU Host Crew Morale Day",
    "author": "NAVCENT Public Affairs",
-   "pubDate": "2026-09-02T14:45:58+00:00",
+   "pubDate": "2026-09-02T14:51:38+00:00",
    "summary": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document. U.S. Sailors and Marines assigned to Wasp-class amphibious assault ship USS Boxer (LHD 4) and 11th Marine Expeditionary Unit, enjoy a morale day on the ship’s flight deck, Aug. 30, 2026. Boxer is deployed to the U.S. 5th Fleet area of operations to support maritime s",
    "body": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document.\n\nU.S. Sailors and Marines assigned to Wasp-class amphibious assault ship USS Boxer (LHD 4) and 11th Marine Expeditionary Unit, enjoy a morale day on the ship’s flight deck, Aug. 30, 2026. Boxer is deployed to the U.S. 5th Fleet area of operations to support maritime security and stability in the Middle East. (U.S. Navy video)\n\nThis work, USS Boxer, 11th MEU Host Crew Morale Day , by NAVCENT Public Affairs , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
    "channel": "us_marines",
@@ -1027,46 +997,6 @@
    "channelName": "美国海军陆战队"
   },
   {
-   "url": "https://www.dvidshub.net/image/9904677/headquarters-battalion-inventory-ammo-combat-center",
-   "title": "Headquarters Battalion inventory ammo at the Combat Center",
-   "author": "LCpl Grant Gatlin",
-   "pubDate": "2026-09-02T14:19:06+00:00",
-   "summary": "U.S. Marines with Headquarters Battalion, Marine Corps Air Ground Combat Center, prepare ammunition at the Central Magazine Area, MCAGCC, Twentynine Palms, California, Sept. 1, 2026.",
-   "body": "U.S. Marines with Headquarters Battalion, Marine Corps Air Ground Combat Center, prepare ammunition at the Central Magazine Area, MCAGCC, Twentynine Palms, California, Sept. 1, 2026.\n\nThis work, Headquarters Battalion inventory ammo at the Combat Center [Image 8 of 8] , by LCpl Grant Gatlin , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/9904656/headquarters-battalion-inventory-ammo-combat-center",
-   "title": "Headquarters Battalion inventory ammo at the Combat Center",
-   "author": "LCpl Grant Gatlin",
-   "pubDate": "2026-09-02T14:19:05+00:00",
-   "summary": "U.S. Marine Corps PFC. Paul Risdal, a California native and an ammunition technician with Combat Logistics Battalion 1, Combat Logistics Regiment 1, 1st Marine Logistics Group, prepares ammunition at the Central Magazine Area, Marine Corps Air Ground Combat Center, Twentynine Palms, California, Sept. 1, 2026.",
-   "body": "U.S. Marine Corps PFC. Paul Risdal, a California native and an ammunition technician with Combat Logistics Battalion 1, Combat Logistics Regiment 1, 1st Marine Logistics Group, prepares ammunition at the Central Magazine Area, Marine Corps Air Ground Combat Center, Twentynine Palms, California, Sept. 1, 2026.\n\nThis work, Headquarters Battalion inventory ammo at the Combat Center [Image 8 of 8] , by LCpl Grant Gatlin , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/9905861/nmrtc-cherry-point-officer-promotes-lt-cmdr",
-   "title": "NMRTC Cherry Point Officer Promotes to Lt. Cmdr.",
-   "author": "Thomas Cieslak",
-   "pubDate": "2026-09-02T13:48:41+00:00",
-   "summary": "Lauren Petry, left, assists her son as he places shoulder boards on Stefen Petry, right, during his promotion ceremony to Lt. Cmdr. at Navy Medicine Readiness and Training Command Cherry Point on September 1, 2026, as Stefen’s father, Thomas, looks on. Lt. Cmdr. Petry leads NMRTC Cherry Point’s Physical and Occupational Therapy departments, which are responsible for assisting in the physical rehabilitation of injured Marines and Sailors stationed at Marine Corps Air Station Cherry Point, facilit",
-   "body": "Lauren Petry, left, assists her son as he places shoulder boards on Stefen Petry, right, during his promotion ceremony to Lt. Cmdr. at Navy Medicine Readiness and Training Command Cherry Point on September 1, 2026, as Stefen’s father, Thomas, looks on. Lt. Cmdr. Petry leads NMRTC Cherry Point’s Physical and Occupational Therapy departments, which are responsible for assisting in the physical rehabilitation of injured Marines and Sailors stationed at Marine Corps Air Station Cherry Point, facilitating their swift return to full-duty status. Navy Medicine’s 44,000+ talented and ready forces optimize health readiness, deliver quality healthcare, and provide global expeditionary medical support to warfighters.\n\nThis work, NMRTC Cherry Point Officer Promotes to Lt. Cmdr. , by Thomas Cieslak , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
-  },
-  {
-   "url": "https://www.dvidshub.net/news/573757/nmrtc-cherry-point-officer-promotes-lt-cmdr",
-   "title": "NMRTC Cherry Point Officer Promotes to Lt. Cmdr.",
-   "author": "Thomas Cieslak",
-   "pubDate": "2026-09-02T13:48:31+00:00",
-   "summary": "Lt. Cmdr. Stefen Petry head of Navy Medicine Readiness and Training Command Cherry Point’s Physical and Occupational Therapy departments, promoted to the rank during a ceremony on Monday, September 1, 2026.",
-   "body": "Photo By Thomas Cieslak | Lauren Petry, left, assists her son as he places shoulder boards on Stefen Petry,... ... read more read more\n\nPhoto By Thomas Cieslak | Lauren Petry, left, assists her son as he places shoulder boards on Stefen Petry, right, during his promotion ceremony to Lt. Cmdr. at Navy Medicine Readiness and Training Command Cherry Point on September 1, 2026, as Stefen’s father, Thomas, looks on. Lt. Cmdr. Petry leads NMRTC Cherry Point’s Physical and Occupational Therapy departments, which are responsible for assisting in the physical rehabilitation of injured Marines and Sailors stationed at Marine Corps Air Station Cherry Point, facilitating their swift return to full-duty status. Navy Medicine’s 44,000+ talented and ready forces optimize health readiness, deliver quality healthcare, and provide global expeditionary medical support to warfighters. see less | View Image Page\n\nThis work, NMRTC Cherry Point Officer Promotes to Lt. Cmdr. , by Thomas Cieslak , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
-  },
-  {
    "url": "https://www.dvidshub.net/news/573750/usace-jacksonville-district-hosts-regulatory-transformation-workshop-fort-lauderdale",
    "title": "USACE Jacksonville District hosts Regulatory Transformation Workshop in Fort Lauderdale",
    "author": "Peggy Bebb",
@@ -1093,86 +1023,6 @@
    "pubDate": "2026-09-02T13:01:12+00:00",
    "summary": "A U.S. Marine Corps F-35C Lightning II taxis in the U.S. Central Command area of responsibility, Aug. 14, 2026. (U.S. Marine Corps photo by Lance Cpl. Samantha Devine)",
    "body": "A U.S. Marine Corps F-35C Lightning II taxis in the U.S. Central Command area of responsibility, Aug. 14, 2026. (U.S. Marine Corps photo by Lance Cpl. Samantha Devine)\n\nThis work, U.S. Marines conduct Flight Operations [Image 7 of 7] , by LCpl Samantha Devine , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
-  },
-  {
-   "url": "https://www.dvidshub.net/news/573749/fair-winds-and-following-seas-hospital-corpsman-2nd-class-calloway",
-   "title": "Fair Winds and Following Seas to Hospital Corpsman 2nd Class Calloway",
-   "author": "Thomas Cieslak",
-   "pubDate": "2026-09-02T12:41:32+00:00",
-   "summary": "Navy Medicine Readiness and Training Command Cherry Point bid Fair Winds and Following Seas to Hospital Corpsman 2nd Class Dru Calloway in early September 2026. Calloway served as the leading petty officer of the facility’s Laboratory Department.",
-   "body": "Photo By Thomas Cieslak | During his time at Marine Corps Air Station Cherry Point, Hospital Corpsman 2nd Class... ... read more read more\n\nPhoto By Thomas Cieslak | During his time at Marine Corps Air Station Cherry Point, Hospital Corpsman 2nd Class Dru Calloway led a team responsible for ensuring the medical readiness of Marines assigned to the base through the collection of more than 250,000 blood and other biological samples, resulting in quick, accurate diagnoses and prompt treatment. He also led the department through two College of American Pathologists re-accreditations with a 99.9% pass rate. see less | View Image Page\n\nNavy Medicine Readiness and Training Command Cherry Point bid Fair Winds and Following Seas to Hospital Corpsman 2nd Class Dru Calloway in early September 2026. Calloway served as the leading petty officer of the facility’s Laboratory Department.\n\nDuring his time at Marine Corps Air Station Cherry Point, he led a team responsible for ensuring the medical readiness of Marines assigned to the base through the collection of more than 250,000 blood and other biological samples, resulting in quick, accurate diagnoses and prompt treatment. He also led the department through two College of American Pathologists re-accreditations with a 99.9% pass rate.\n\nCalloway received the Navy and Marine Corps Achievement Medal in recognition of his accomplishments.\n\nNavy Medicine’s 44,000+ talented and ready forces optimize health readiness, deliver quality healthcare, and provide global expeditionary medical support to warfighters.\n\nThis work, Fair Winds and Following Seas to Hospital Corpsman 2nd Class Calloway , by Thomas Cieslak , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/9905723/fair-winds-and-following-seas-hospital-corpsman-2nd-class-calloway",
-   "title": "Fair Winds and Following Seas to Hospital Corpsman 2nd Class Calloway",
-   "author": "Thomas Cieslak",
-   "pubDate": "2026-09-02T12:41:22+00:00",
-   "summary": "During his time at Marine Corps Air Station Cherry Point, Hospital Corpsman 2nd Class Dru Calloway led a team responsible for ensuring the medical readiness of Marines assigned to the base through the collection of more than 250,000 blood and other biological samples, resulting in quick, accurate diagnoses and prompt treatment. He also led the department through two College of American Pathologists re-accreditations with a 99.9% pass rate.",
-   "body": "During his time at Marine Corps Air Station Cherry Point, Hospital Corpsman 2nd Class Dru Calloway led a team responsible for ensuring the medical readiness of Marines assigned to the base through the collection of more than 250,000 blood and other biological samples, resulting in quick, accurate diagnoses and prompt treatment. He also led the department through two College of American Pathologists re-accreditations with a 99.9% pass rate.\n\nThis work, Fair Winds and Following Seas to Hospital Corpsman 2nd Class Calloway , by Thomas Cieslak , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .\n\nFair Winds and Following Seas to Hospital Corpsman 2nd Class Calloway",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
-  },
-  {
-   "url": "https://www.dvidshub.net/video/1021541/b-roll-super-garuda-shield-26-mrf-d-marines-observe-jgsdf-soldiers-indonesian-marines-conduct-mortar-live-fire-range",
-   "title": "B-Roll: Super Garuda Shield 26: MRF-D Marines observe JGSDF soldiers, Indonesian marines conduct mortar live-fire range",
-   "author": "Sgt Kyle Chan",
-   "pubDate": "2026-09-02T12:26:27+00:00",
-   "summary": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document. U.S. Marines with Alpha Company, 1st Battalion, 5th Marine Regiment, Marine Rotational Force – Darwin 26, observe Indonesian marines with 7th Infantry Battalion, 4th Infantry Brigade, and Japan Ground Self-Defense Force service members with 2nd Amphibious Rapid Deplo",
-   "body": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document.\n\nU.S. Marines with Alpha Company, 1st Battalion, 5th Marine Regiment, Marine Rotational Force – Darwin 26, observe Indonesian marines with 7th Infantry Battalion, 4th Infantry Brigade, and Japan Ground Self-Defense Force service members with 2nd Amphibious Rapid Deployment Regiment, Amphibious Rapid Deployment Brigade, conducting a live-fire mortar range as part of Exercise Super Garuda Shield 26 near Lampung, Indonesia, Sept. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. Military designed to strengthen bilateral interoperability, capabilities, and cooperation. (U.S. Marine Corps video by Sgt. Kyle Chan)\n\nThis work, B-Roll: Super Garuda Shield 26: MRF-D Marines observe JGSDF soldiers, Indonesian marines conduct mortar live-fire range , by Sgt Kyle Chan , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/9905670/super-garuda-shield-mrf-d-marines-observe-japanese-soldiers-indonesian-marines-perform-mortar-live-fire-range",
-   "title": "Super Garuda Shield: MRF-D Marines observe Japanese soldiers, Indonesian marines perform mortar live-fire range",
-   "author": "Sgt Kyle Chan",
-   "pubDate": "2026-09-02T12:02:09+00:00",
-   "summary": "Japan Ground Self-Defense Force service members with 2nd Amphibious Rapid Deployment Regiment, Amphibious Rapid Deployment Brigade, fire a Hirtenberger M6C-640T 60mm mortar during a live-fire mortar range as part of Exercise Super Garuda Shield 26 near Lampung, Indonesia, Sept. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. Military designed to strengthen bilateral interoperability, capabilities, and cooperation. (U.S. Marine Corps photo ",
-   "body": "Japan Ground Self-Defense Force service members with 2nd Amphibious Rapid Deployment Regiment, Amphibious Rapid Deployment Brigade, fire a Hirtenberger M6C-640T 60mm mortar during a live-fire mortar range as part of Exercise Super Garuda Shield 26 near Lampung, Indonesia, Sept. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. Military designed to strengthen bilateral interoperability, capabilities, and cooperation. (U.S. Marine Corps photo by Sgt. Kyle Chan)\n\nThis work, Super Garuda Shield: MRF-D Marines observe Japanese soldiers, Indonesian marines perform mortar live-fire range [Image 13 of 13] , by Sgt Kyle Chan , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/9905665/super-garuda-shield-mrf-d-marines-observe-japanese-soldiers-indonesian-marines-perform-mortar-live-fire-range",
-   "title": "Super Garuda Shield: MRF-D Marines observe Japanese soldiers, Indonesian marines perform mortar live-fire range",
-   "author": "Sgt Kyle Chan",
-   "pubDate": "2026-09-02T12:02:08+00:00",
-   "summary": "An Indonesian marine with 7th Infantry Battalion, 4th Infantry Brigade, explains the capabilities of a MO-2 60mm mortar to U.S. Marines with Alpha Company, 1st Battalion, 5th Marine Regiment, Marine Rotational Force – Darwin 26, before a live-fire mortar range as part of Exercise Super Garuda Shield 26 near Lampung, Indonesia, Sept. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. Military designed to strengthen bilateral interoperability, ",
-   "body": "An Indonesian marine with 7th Infantry Battalion, 4th Infantry Brigade, explains the capabilities of a MO-2 60mm mortar to U.S. Marines with Alpha Company, 1st Battalion, 5th Marine Regiment, Marine Rotational Force – Darwin 26, before a live-fire mortar range as part of Exercise Super Garuda Shield 26 near Lampung, Indonesia, Sept. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. Military designed to strengthen bilateral interoperability, capabilities, and cooperation. (U.S. Marine Corps photo by Sgt. Kyle Chan)\n\nThis work, Super Garuda Shield: MRF-D Marines observe Japanese soldiers, Indonesian marines perform mortar live-fire range [Image 13 of 13] , by Sgt Kyle Chan , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/9905661/super-garuda-shield-mrf-d-marines-observe-japanese-soldiers-indonesian-marines-perform-mortar-live-fire-range",
-   "title": "Super Garuda Shield: MRF-D Marines observe Japanese soldiers, Indonesian marines perform mortar live-fire range",
-   "author": "Sgt Kyle Chan",
-   "pubDate": "2026-09-02T12:02:07+00:00",
-   "summary": "U.S. Marine Corps Sgt. Owen Miller, a section leader with Alpha Company, 1st Battalion, 5th Marine Regiment, Marine Rotational Force – Darwin 26, looks through a pair of binoculars before a live-fire mortar range as part of Exercise Super Garuda Shield 26 near Lampung, Indonesia, Sept. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. Military designed to strengthen bilateral interoperability, capabilities, and cooperation. Miller is a nativ",
-   "body": "U.S. Marine Corps Sgt. Owen Miller, a section leader with Alpha Company, 1st Battalion, 5th Marine Regiment, Marine Rotational Force – Darwin 26, looks through a pair of binoculars before a live-fire mortar range as part of Exercise Super Garuda Shield 26 near Lampung, Indonesia, Sept. 1, 2026. Super Garuda Shield is an annual exercise between the Indonesian National Armed Forces and U.S. Military designed to strengthen bilateral interoperability, capabilities, and cooperation. Miller is a native of Wyoming. (U.S. Marine Corps photo by Sgt. Kyle Chan)\n\nThis work, Super Garuda Shield: MRF-D Marines observe Japanese soldiers, Indonesian marines perform mortar live-fire range [Image 13 of 13] , by Sgt Kyle Chan , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
-  },
-  {
-   "url": "https://www.dvidshub.net/video/1021457/2026-mcm-quantico-12k-highlight-reel",
-   "title": "2026 MCM Quantico 12K: Highlight Reel",
-   "author": "Cpl Hannah Kear",
-   "pubDate": "2026-09-02T11:11:47+00:00",
-   "summary": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document. Participants run in the Marine Corps Marathon Quantico 12K race on Marine Corps Base Quantico, Virginia, Aug. 22, 2026. The event challenges runners and their individual tenacity as they ran 7.46 miles of trails through the woods of MCB Quantico's Officer Candidate S",
-   "body": "Add the following CSS to the header block of your HTML document. Then add the mark-up below to the body block of the same document.\n\nParticipants run in the Marine Corps Marathon Quantico 12K race on Marine Corps Base Quantico, Virginia, Aug. 22, 2026. The event challenges runners and their individual tenacity as they ran 7.46 miles of trails through the woods of MCB Quantico's Officer Candidate School. (U.S. Marine Corps video by Cpl. Hannah Kear)\n\nThis work, 2026 MCM Quantico 12K: Highlight Reel , by Cpl Hannah Kear , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/9904151/mccog-presents-awards-during-monthly-formation",
-   "title": "MCCOG presents Awards during Monthly Formation",
-   "author": "LCpl Federico Marquez",
-   "pubDate": "2026-09-02T11:04:52+00:00",
-   "summary": "Heidy Laboy, left, a cyber network operator with Marine Corps Cyberspace Operations Group, and Mario Vaughan, right, the acting logistics officer with MCCOG, poses for a photo with U.S. Marine Corps Col. Juliet Calvin, center left, the commanding officer of MCCOG, and Sgt. Maj. Brian Woodruff, center right, the sergeant major of MCCOG, after an award ceremony at Code Talker Hall on Marine Corps Base Quantico, Virginia, Sept. 1, 2026. The ceremony was held during MCCOG’s monthly formation to surp",
-   "body": "Heidy Laboy, left, a cyber network operator with Marine Corps Cyberspace Operations Group, and Mario Vaughan, right, the acting logistics officer with MCCOG, poses for a photo with U.S. Marine Corps Col. Juliet Calvin, center left, the commanding officer of MCCOG, and Sgt. Maj. Brian Woodruff, center right, the sergeant major of MCCOG, after an award ceremony at Code Talker Hall on Marine Corps Base Quantico, Virginia, Sept. 1, 2026. The ceremony was held during MCCOG’s monthly formation to surprise and recognize Marine and civilian personnel for their exceptional performance, leadership, and dedication to the command's cyberspace mission. (U.S. Marine Corps photo by Lance Cpl. Federico Marquez)\n\nThis work, MCCOG presents Awards during Monthly Formation [Image 6 of 6] , by LCpl Federico Marquez , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
    "channel": "us_marines",
    "channelName": "美国海军陆战队"
   },
