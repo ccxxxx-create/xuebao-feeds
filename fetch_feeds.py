@@ -73,6 +73,36 @@ CHANNELS = [
         "selectors": ["div.col-sm-9", "div#main", "article", "main"],
         "lookback": 30,
     },
+    {
+        "id": "us_dod", "name": "美国国防部",
+        "feeds": [
+            "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=808&max=20",
+            "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=808",
+        ],
+        "full": "page",
+        "selectors": ["div.news-item-body", "div.body-content", "div.article-body", "article", "main"],
+        "lookback": 10,
+    },
+    {
+        "id": "us_navy", "name": "美国海军",
+        "feeds": [
+            "https://www.navy.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=148&max=20",
+            "https://www.navy.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=148",
+        ],
+        "full": "page",
+        "selectors": ["div.news-article-body", "div.body-content", "div.article-body", "article", "main"],
+        "lookback": 10,
+    },
+    {
+        "id": "us_airforce", "name": "美国空军",
+        "feeds": [
+            "https://www.af.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1&max=20",
+            "https://www.af.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1",
+        ],
+        "full": "page",
+        "selectors": ["div#dnn_NewsArticleContent", "div.news-body", "div.article-body", "article", "main"],
+        "lookback": 10,
+    },
 ]
 
 STRIP_TAGS = re.compile(r"<[^>]+>")
