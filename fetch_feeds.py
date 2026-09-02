@@ -110,6 +110,11 @@ STRIP_TAGS = re.compile(r"<[^>]+>")
 WS = re.compile(r"\s+")
 
 
+def norm_title(text):
+    """标题规范化：去大小写/空白/标点，用于跨源同题去重"""
+    return re.sub(r"[\W_]+", "", str(text or "").lower())
+
+
 def http_get(url, timeout=30, retries=2, ua=None):
     last = None
     for i in range(retries + 1):
@@ -231,6 +236,7 @@ def main():
     items = []
     meta = {}
     last_err = None
+    seen_titles = set()  # 跨通道同题去重（按规范化标题，保留先到的通道）
 
     for ch in CHANNELS:
         lookback = ch.get("lookback", LOOKBACK_DAYS)
@@ -241,6 +247,15 @@ def main():
             entries.sort(key=lambda x: x["pubDate"] or "", reverse=True)
             # 无日期条目（部分官方 feed 缺失）也保留，避免静默归零
             ch_items = [e for e in entries if (not e["pubDate"]) or e["pubDate"] >= cutoff.isoformat()][:MAX_PER_CHANNEL]
+            keep = []
+            for e in ch_items:
+                key = norm_title(e.get("title"))
+                if key and key in seen_titles:
+                    continue
+                if key:
+                    seen_titles.add(key)
+                keep.append(e)
+            ch_items = keep
             meta[ch["id"]] = {"name": ch["name"], "status": "ok", "count": len(ch_items), "error": None, "fetchedAt": now.isoformat()}
         except Exception as e:  # noqa: BLE001
             last_err = e
