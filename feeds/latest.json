@@ -1,47 +1,47 @@
 {
- "updatedAt": "2026-09-02T13:25:05.779441+00:00",
+ "updatedAt": "2026-09-02T13:47:51.775931+00:00",
  "meta": {
   "defensenews": {
    "name": "Defense News",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-02T13:25:05.779441+00:00"
+   "fetchedAt": "2026-09-02T13:47:51.775931+00:00"
   },
   "airandspaceforces": {
    "name": "Air & Space Forces",
    "status": "ok",
    "count": 9,
    "error": null,
-   "fetchedAt": "2026-09-02T13:25:05.779441+00:00"
+   "fetchedAt": "2026-09-02T13:47:51.775931+00:00"
   },
   "govuk_mod": {
    "name": "英国国防部",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-02T13:25:05.779441+00:00"
+   "fetchedAt": "2026-09-02T13:47:51.775931+00:00"
   },
   "afresearchlab": {
    "name": "AFRL",
    "status": "ok",
    "count": 2,
    "error": null,
-   "fetchedAt": "2026-09-02T13:25:05.779441+00:00"
+   "fetchedAt": "2026-09-02T13:47:51.775931+00:00"
   },
   "westpoint": {
    "name": "西点军校",
    "status": "error",
    "count": 0,
    "error": "all feeds failed: https://www.westpoint.edu/rss.xml -> HTTP Error 403: Forbidden",
-   "fetchedAt": "2026-09-02T13:25:05.779441+00:00"
+   "fetchedAt": "2026-09-02T13:47:51.775931+00:00"
   },
   "rand": {
    "name": "兰德",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-02T13:25:05.779441+00:00"
+   "fetchedAt": "2026-09-02T13:47:51.775931+00:00"
   }
  },
  "items": [
@@ -336,6 +336,16 @@
    "channelName": "Air & Space Forces"
   },
   {
+   "url": "https://www.gov.uk/government/publications/military-court-service-sentencing-remarks-2026",
+   "title": "Transparency data: Military Court Service sentencing remarks 2026",
+   "author": "",
+   "pubDate": "2026-09-02T13:30:38+00:00",
+   "summary": "Transcripts of sentencing remarks from Service Court hearings in the Court Martial.",
+   "body": "This page contains transcripts of the Judge Advocate’s sentencing remarks in selected cases in the Court Martial during 2026.\n\nTranscripts of the Judge Advocate’s sentencing remarks in cases heard after 1 January 2025 in which the sentence includes dismissal from His Majesty’s Service will be considered for publication by the Judge Advocate General, who will determine whether a transcript is to be published.\n\nTranscripts are redacted to comply with the law relating to the identification of witnesses in sexual offences and cases involving children, and as directed by the Judge Advocate General.\n\nThis process will be subject to regular review by both the Judge Advocate General and the Director Military Court Service.",
+   "channel": "govuk_mod",
+   "channelName": "英国国防部"
+  },
+  {
    "url": "https://www.gov.uk/government/publications/mod-health-safety-and-environmental-protection-hsep-functional-strategy",
    "title": "Guidance: Directorate of Defence Safety and Support (DDSS)",
    "author": "",
@@ -522,16 +532,6 @@
    "pubDate": "2026-08-28T13:25:32+00:00",
    "summary": "Firing times for Straight Point Ranges Complex (SPRC) and Woodbury Common Training Area (WCTA) Grenade Range.",
    "body": "Do not enter the danger area when the range is in use, this is a danger to life. Learn more about accessing MOD training areas safely .\n\nUsual firing times for Straight Point Ranges Complex ( SPRC )\n\nWeekdays: 9am to 4pm (may be extended) Evenings: from 30 mins before dusk until 11:45pm Weekends: 9am to 12:30pm\n\nWeekdays and weekends: 9am to 4pm (may be extended) Evenings: from 30 mins before dusk until 9:30pm\n\nRelated information\n\nSafe access to MOD training areas\n\nThe Defence Training Estate: DTE South West\n\nPublic access to military areas",
-   "channel": "govuk_mod",
-   "channelName": "英国国防部"
-  },
-  {
-   "url": "https://www.gov.uk/government/publications/langport-range-and-dry-training-area-firing-notice",
-   "title": "Guidance: Langport Range and dry training area firing notice",
-   "author": "",
-   "pubDate": "2026-08-28T13:23:22+00:00",
-   "summary": "Firing schedule for Langport Range and dry training area (LRDTA).",
-   "body": "Langport range involves live firing with rifles.\n\nDry military training at Breech Wood involves blank ammunition, pyrotechnics, vehicles and helicopters.\n\nYour safety\n\nDo not enter the danger area when the range is in use, this is a danger to life. Learn more about accessing MOD training areas safely .\n\nRelated information\n\nPublic access to military areas All UK firing times",
    "channel": "govuk_mod",
    "channelName": "英国国防部"
   },
