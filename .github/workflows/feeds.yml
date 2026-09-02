@@ -26,10 +26,10 @@ jobs:
           python-version: '3.12'
 
       - name: Install deps
-        run: pip install -r _mirror/requirements.txt
+        run: pip install -r requirements.txt
 
       - name: Fetch feeds
-        run: python _mirror/fetch_feeds.py
+        run: python fetch_feeds.py
 
       - name: Commit latest.json
         run: |
