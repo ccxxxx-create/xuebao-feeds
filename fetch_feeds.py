@@ -23,6 +23,8 @@ import urllib.request
 import urllib.error
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
+import concurrent.futures as cf
+from concurrent.futures import ThreadPoolExecutor
 
 import feedparser
 from bs4 import BeautifulSoup
@@ -232,72 +234,76 @@ def feed_entries(channel):
     return entries
 
 
-def main():
-    now = datetime.now(timezone.utc)
-    items = []
-    meta = {}
-    last_err = None
-    seen_titles = set()  # 跨通道同题去重（按规范化标题，保留先到的通道）
-
-    for ch in CHANNELS:
-        lookback = ch.get("lookback", LOOKBACK_DAYS)
-        cutoff = now - timedelta(days=lookback)
-        ch_items = []
-        try:
-            entries = feed_entries(ch)
-            entries.sort(key=lambda x: x["pubDate"] or "", reverse=True)
-            # 无日期条目（部分官方 feed 缺失）也保留，避免静默归零
-            ch_items = [e for e in entries if (not e["pubDate"]) or e["pubDate"] >= cutoff.isoformat()][:MAX_PER_CHANNEL]
-            keep = []
-            for e in ch_items:
-                key = norm_title(e.get("title"))
-                if key and key in seen_titles:
-                    continue
-                if key:
-                    seen_titles.add(key)
-                keep.append(e)
-            ch_items = keep
-            meta[ch["id"]] = {"name": ch["name"], "status": "ok", "count": len(ch_items), "error": None, "fetchedAt": now.isoformat()}
-        except Exception as e:  # noqa: BLE001
-            last_err = e
-            meta[ch["id"]] = {"name": ch["name"], "status": "error", "count": 0, "error": str(e)[:300], "fetchedAt": now.isoformat()}
-            print("[%s] ERROR: %s" % (ch["id"], e), flush=True)
-            continue
-
-        # 摘要型频道：逐个抓正文页
-        if ch["full"] == "page":
-            for e in ch_items:
+def process_channel(ch, now):
+    """并行处理单个信源：拉取 feed → 排序筛选 → (若为 page 型)源内并行抓正文 → 返回 (id, meta, items)。
+    单源失败不影响其它源（局部容错）。"""
+    lookback = ch.get("lookback", LOOKBACK_DAYS)
+    cutoff = now - timedelta(days=lookback)
+    meta = {"name": ch["name"], "status": "error", "count": 0, "error": None, "fetchedAt": now.isoformat()}
+    try:
+        entries = feed_entries(ch)
+        entries.sort(key=lambda x: x["pubDate"] or "", reverse=True)
+        ch_items = [e for e in entries if (not e["pubDate"]) or e["pubDate"] >= cutoff.isoformat()][:MAX_PER_CHANNEL]
+        # page 型：源内多篇正文并行抓取（限并发，避免同一源站被限流/反爬）
+        if ch["full"] == "page" and ch_items:
+            def grab(e):
                 try:
                     body = extract_page(e["url"], ch.get("selectors"), ua=ch.get("ua"))
                     if body:
                         e["body"] = body
                         if not e["summary"]:
                             e["summary"] = WS.sub(" ", body[:400]).strip()[:400]
-                    print("[%s] body %s chars: %s" % (ch["id"], len(body), e["url"][:80]), flush=True)
+                    print("[%s] body %s chars: %s" % (ch["id"], len(body), e["url"][:70]), flush=True)
                 except Exception as ex:  # noqa: BLE001
-                    print("[%s] body-fail %s: %s" % (ch["id"], e["url"][:80], ex), flush=True)
-                time.sleep(BODY_THROTTLE)
-
+                    print("[%s] body-fail %s: %s" % (ch["id"], e["url"][:70], ex), flush=True)
+                return e
+            with ThreadPoolExecutor(max_workers=4) as ex:
+                ch_items = list(ex.map(grab, ch_items))
         for e in ch_items:
             e["channel"] = ch["id"]
             e["channelName"] = ch["name"]
-        items.extend(ch_items)
-        time.sleep(THROTTLE)
+        meta = {"name": ch["name"], "status": "ok", "count": len(ch_items), "error": None, "fetchedAt": now.isoformat()}
         print("[%s] ok=%d" % (ch["id"], len(ch_items)), flush=True)
+        return ch["id"], meta, ch_items
+    except Exception as e:  # noqa: BLE001
+        meta["error"] = str(e)[:300]
+        print("[%s] ERROR: %s" % (ch["id"], e), flush=True)
+        return ch["id"], meta, []
 
-    # 控制单文件体积（截断超长 body 取前段+尾部说明由客户端处理）
-    if len(json.dumps(items, ensure_ascii=False)) > KEEP_TOP * 2:
-        # 保守：单条目 body 上限已由 BODY_MAX_CHARS 控制，这里仅全量兜底
-        pass
+
+def main():
+    now = datetime.now(timezone.utc)
+    meta = {}
+    items = []
+    seen_titles = set()  # 跨源同题去重（规范化标题，保留先完成的通道）
+    errors = []
+
+    # 多信源并行：线程池同时抓取所有 CHANNELS，任一失败不拖垮整体
+    with ThreadPoolExecutor(max_workers=4) as ex:
+        futs = {ex.submit(process_channel, ch, now): ch["id"] for ch in CHANNELS}
+        for f in cf.as_completed(futs):
+            cid, m, ch_items = f.result()
+            meta[cid] = m
+            if m["status"] != "ok":
+                errors.append(cid)
+            keep = []
+            for e in ch_items:
+                key = norm_title(e.get("title") or "")
+                if key and key in seen_titles:
+                    continue
+                if key:
+                    seen_titles.add(key)
+                keep.append(e)
+            items.extend(keep)
+
+    items.sort(key=lambda x: x["pubDate"] or "", reverse=True)
 
     data = {"updatedAt": now.isoformat(), "meta": meta, "items": items}
     os.makedirs("feeds", exist_ok=True)
     with open("feeds/latest.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
-    total = len(items)
-    errors = [k for k, v in meta.items() if v["status"] == "error"]
-    print("done items=%d errors=%s" % (total, errors or "none"))
-    if last_err and total == 0:
+    print("done items=%d errors=%s" % (len(items), errors or "none"), flush=True)
+    if not items:
         sys.exit(1)
 
 
