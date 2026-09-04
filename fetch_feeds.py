@@ -323,6 +323,9 @@ def process_channel(ch, now):
                             print("[%s] body empty: %s" % (ch["id"], e["url"][:70]), flush=True)
                 except Exception as ex:  # noqa: BLE001
                     print("[%s] body-fail %s: %s" % (ch["id"], e["url"][:70], ex), flush=True)
+                    # 抓取失败同样退回源官方摘要，避免正文空白
+                    if e.get("summary") and not e.get("body"):
+                        e["body"] = e["summary"]
                 return e
             with ThreadPoolExecutor(max_workers=4) as ex:
                 ch_items = list(ex.map(grab, ch_items))
