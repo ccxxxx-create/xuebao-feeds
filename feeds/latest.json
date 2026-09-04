@@ -1,68 +1,68 @@
 {
- "updatedAt": "2026-09-04T02:47:27.623855+00:00",
+ "updatedAt": "2026-09-04T02:55:33.692231+00:00",
  "meta": {
-  "airandspaceforces": {
-   "name": "Air & Space Forces",
-   "status": "ok",
-   "count": 9,
-   "error": null,
-   "fetchedAt": "2026-09-04T02:47:27.623855+00:00"
-  },
   "afresearchlab": {
    "name": "AFRL",
    "status": "ok",
    "count": 2,
    "error": null,
-   "fetchedAt": "2026-09-04T02:47:27.623855+00:00"
+   "fetchedAt": "2026-09-04T02:55:33.692231+00:00"
   },
   "defensenews": {
    "name": "Defense News",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-04T02:47:27.623855+00:00"
+   "fetchedAt": "2026-09-04T02:55:33.692231+00:00"
+  },
+  "airandspaceforces": {
+   "name": "Air & Space Forces",
+   "status": "ok",
+   "count": 9,
+   "error": null,
+   "fetchedAt": "2026-09-04T02:55:33.692231+00:00"
   },
   "rand": {
    "name": "兰德",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-04T02:47:27.623855+00:00"
+   "fetchedAt": "2026-09-04T02:55:33.692231+00:00"
   },
   "westpoint": {
    "name": "西点军校",
    "status": "error",
    "count": 0,
    "error": "all feeds failed: https://www.westpoint.edu/rss.xml -> HTTP Error 403: Forbidden",
-   "fetchedAt": "2026-09-04T02:47:27.623855+00:00"
+   "fetchedAt": "2026-09-04T02:55:33.692231+00:00"
   },
   "us_dod": {
    "name": "美国国防部",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-04T02:47:27.623855+00:00"
-  },
-  "us_marines": {
-   "name": "美国海军陆战队",
-   "status": "ok",
-   "count": 20,
-   "error": null,
-   "fetchedAt": "2026-09-04T02:47:27.623855+00:00"
+   "fetchedAt": "2026-09-04T02:55:33.692231+00:00"
   },
   "govuk_mod": {
    "name": "英国国防部",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-04T02:47:27.623855+00:00"
+   "fetchedAt": "2026-09-04T02:55:33.692231+00:00"
+  },
+  "us_marines": {
+   "name": "美国海军陆战队",
+   "status": "ok",
+   "count": 20,
+   "error": null,
+   "fetchedAt": "2026-09-04T02:55:33.692231+00:00"
   },
   "us_airforce": {
    "name": "美国空军",
    "status": "ok",
    "count": 16,
    "error": null,
-   "fetchedAt": "2026-09-04T02:47:27.623855+00:00"
+   "fetchedAt": "2026-09-04T02:55:33.692231+00:00"
   }
  },
  "items": [
