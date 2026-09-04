@@ -312,7 +312,15 @@ def process_channel(ch, now):
                         e["body"] = body
                         if not e["summary"]:
                             e["summary"] = WS.sub(" ", body[:400]).strip()[:400]
-                    print("[%s] body %s chars: %s" % (ch["id"], len(body), e["url"][:70]), flush=True)
+                        print("[%s] body %s chars: %s" % (ch["id"], len(body), e["url"][:70]), flush=True)
+                    else:
+                        # 页面正文未取到（站点反爬/JS 渲染，如 af.mil）：退回该源官方摘要，
+                        # 至少不给用户一个正文空白的断章条目，并可点原文链接核对完整内容
+                        if e.get("summary"):
+                            e["body"] = e["summary"]
+                            print("[%s] body fallback-summary %s chars: %s" % (ch["id"], len(e["summary"]), e["url"][:70]), flush=True)
+                        else:
+                            print("[%s] body empty: %s" % (ch["id"], e["url"][:70]), flush=True)
                 except Exception as ex:  # noqa: BLE001
                     print("[%s] body-fail %s: %s" % (ch["id"], e["url"][:70], ex), flush=True)
                 return e
