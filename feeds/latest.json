@@ -1,78 +1,98 @@
 {
- "updatedAt": "2026-09-04T00:41:06.542075+00:00",
+ "updatedAt": "2026-09-04T01:03:44.907455+00:00",
  "meta": {
+  "airandspaceforces": {
+   "name": "Air & Space Forces",
+   "status": "ok",
+   "count": 9,
+   "error": null,
+   "fetchedAt": "2026-09-04T01:03:44.907455+00:00"
+  },
   "afresearchlab": {
    "name": "AFRL",
    "status": "ok",
    "count": 2,
    "error": null,
-   "fetchedAt": "2026-09-04T00:41:06.542075+00:00"
+   "fetchedAt": "2026-09-04T01:03:44.907455+00:00"
   },
   "defensenews": {
    "name": "Defense News",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-04T00:41:06.542075+00:00"
-  },
-  "airandspaceforces": {
-   "name": "Air & Space Forces",
-   "status": "ok",
-   "count": 9,
-   "error": null,
-   "fetchedAt": "2026-09-04T00:41:06.542075+00:00"
+   "fetchedAt": "2026-09-04T01:03:44.907455+00:00"
   },
   "us_dod": {
    "name": "美国国防部",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-04T00:41:06.542075+00:00"
-  },
-  "govuk_mod": {
-   "name": "英国国防部",
-   "status": "ok",
-   "count": 20,
-   "error": null,
-   "fetchedAt": "2026-09-04T00:41:06.542075+00:00"
+   "fetchedAt": "2026-09-04T01:03:44.907455+00:00"
   },
   "westpoint": {
    "name": "西点军校",
    "status": "error",
    "count": 0,
    "error": "all feeds failed: https://www.westpoint.edu/rss.xml -> HTTP Error 403: Forbidden",
-   "fetchedAt": "2026-09-04T00:41:06.542075+00:00"
+   "fetchedAt": "2026-09-04T01:03:44.907455+00:00"
+  },
+  "govuk_mod": {
+   "name": "英国国防部",
+   "status": "ok",
+   "count": 20,
+   "error": null,
+   "fetchedAt": "2026-09-04T01:03:44.907455+00:00"
   },
   "us_marines": {
    "name": "美国海军陆战队",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-04T00:41:06.542075+00:00"
+   "fetchedAt": "2026-09-04T01:03:44.907455+00:00"
   },
   "rand": {
    "name": "兰德",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-04T00:41:06.542075+00:00"
+   "fetchedAt": "2026-09-04T01:03:44.907455+00:00"
   },
   "us_airforce": {
    "name": "美国空军",
    "status": "ok",
    "count": 16,
    "error": null,
-   "fetchedAt": "2026-09-04T00:41:06.542075+00:00"
+   "fetchedAt": "2026-09-04T01:03:44.907455+00:00"
   }
  },
  "items": [
+  {
+   "url": "https://www.dvidshub.net/news/573962/rear-adm-golightly-us-coast-guard-assumes-command-joint-interagency-task-force-west",
+   "title": "Rear Adm. Golightly, U.S. Coast Guard Assumes Command of Joint Interagency Task Force West",
+   "author": "JIATF West",
+   "pubDate": "2026-09-04T01:02:16+00:00",
+   "summary": "CAMP H.M. Smith, Hawaii – Joint Interagency Task Force West (JIATF West) held a change of command ceremony Aug. 28, 2026, at U.S. Pacific Command (US PACOM) headquarters on Camp H.M. Smith, Hawaii. During the ceremony, U.S. Coast Guard Rear Adm. Benjamin Golightly relieved U.S. Navy Capt. George Howell as director of the task force.",
+   "body": "Photo By JIATF West | U.S. Navy Capt. George Howell, left, and U.S. Coast Guard Rear Adm. Benjamin Golightly... ... read more read more\n\nPhoto By JIATF West | U.S. Navy Capt. George Howell, left, and U.S. Coast Guard Rear Adm. Benjamin Golightly stand together during the Joint Interagency Task Force west change of command reception at Camp H.M. Smith, Hawaii, Aug. 28, 2026. The reception followed a formal ceremony where Golightly assumed command as the Task Force’s 22nd director, relieving Howell. (JIATF West photo by Chelsey Kaneshiro) see less | View Image Page\n\nThis work, Rear Adm. Golightly, U.S. Coast Guard Assumes Command of Joint Interagency Task Force West , by JIATF West , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_dod",
+   "channelName": "美国国防部"
+  },
+  {
+   "url": "https://www.dvidshub.net/news/573963/readout-adm-samuel-j-paparos-meetings-sidelines-indo-pacific-chiefs-defense-conference",
+   "title": "Readout of Adm. Samuel J. Paparo’s Meetings on the Sidelines of the Indo-Pacific Chiefs of Defense Conference",
+   "author": "LCDR Chloe Morgan",
+   "pubDate": "2026-09-04T00:45:00+00:00",
+   "summary": "Adm. Samuel J. Paparo, commander of U.S. Pacific Command, met with senior military leaders and representatives from across the Indo-Pacific and beyond on the sidelines of the 28th Indo-Pacific Chiefs of Defense Conference in Victoria, Canada, Aug. 31-Sept. 2.",
+   "body": "Photo By Petty Officer 1st Class Ryan McLearnon | Left to right, Lt. Gen. Norimichi Shirakawa, Japan Self-Defense Force vice chief of... ... read more read more\n\nPhoto By Petty Officer 1st Class Ryan McLearnon | Left to right, Lt. Gen. Norimichi Shirakawa, Japan Self-Defense Force vice chief of staff, joint staff office,Gen. N. S. Raja Subramani, chief of defence staff, Indian Armed Forces and Secretary, Department of Military Affairs, Adm. Samuel J. Paparo, commander of U.S. Pacific Command and Adm. Mark Hammond, chief of the defence force of Australia, discuss shared security interests during a Quadrilateral Security Dialogue meeting on the sidelines of the 28th Indo-Pacific Chiefs of Defense Conference in Victoria, British Columbia, Canada, Aug. 31, 2026. The conference brought together chiefs of defense and senior military leaders from 29 countries under the theme “Strengthening Collective Security: Navigating Challenges in a Dynamic Indo-Pacific Landscape.” US PACOM is committed to enhancing stability in the region by promoting security cooperation, encouraging peaceful development, responding to contingencies, and deterring aggression. (U.S. Navy photo by Mass Communication Specialist 1st Class Ryan D. McLearnon) see less | View Image Page\n\nAdm. Samuel J. Paparo, commander of U.S. Pacific Command, met with senior military leaders and representatives from across the Indo-Pacific and beyond on the sidelines of the 28th Indo-Pacific Chiefs of Defense Conference in Victoria, Canada, Aug. 31-Sept. 2.\n\nPaparo emphasized the importance of strong bilateral and multilateral relationships in advancing regional security and deterrence.\n\nDuring the conference, Paparo participated in meetings of the Defense Cooperation Council and the Quadrilateral Security Dialogue and joined military leaders from ASEAN nations. Paparo also spoke with counterparts from the United Kingdom and Australia for an AUKUS conversation and met with Adm. Giuseppe Cavo Dragone, chair of the NATO Military Committee.\n\nDiscussing shared security interests, Paparo held bilateral meetings with a number of senior leaders representing countries including Bangladesh, Brunei, Cambodia, Canada, France, India, Indonesia, Japan, Malaysia, Mexico, Mongolia, New Zealand, the Republic of Korea, Singapore, Thailand and Vietnam. The meetings focused on strengthening operational cooperation, information-sharing, maritime security and readiness across the Indo-Pacific.\n\nPaparo met with Maj. Gen. Pawan Raj Ghimire, general officer commanding of the Nepali Army’s Eastern Division, to express his condolences following the recent disaster in Nepal.\n\nPaparo also met with Gen. Yang Zhibin, commander of the People’s Liberation Army’s Eastern Theater Command, marking their first in-person meeting. The two leaders discussed the importance of maintaining open lines of communication between senior U.S. and Chinese military leaders to reduce the risk of miscalculation and promote safe and professional conduct between forces.\n\nThis work, Readout of Adm. Samuel J. Paparo’s Meetings on the Sidelines of the Indo-Pacific Chiefs of Defense Conference , by LCDR Chloe Morgan , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "channel": "us_dod",
+   "channelName": "美国国防部"
+  },
   {
    "url": "https://www.dvidshub.net/image/9912419/28th-indo-pacific-chiefs-defense-conference-focuses-strengthening-regional-security",
    "title": "28th Indo-Pacific Chiefs of Defense Conference Focuses on Strengthening Regional Security",
    "author": "PO1 Ryan McLearnon",
    "pubDate": "2026-09-04T00:38:16+00:00",
    "summary": "ASEAN defense leaders pose for a photo during a meeting on the sidelines of the 28th Indo-Pacific Chiefs of Defense Conference in Victoria, British Columbia, Canada, Aug. 31, 2026. The conference brought together chiefs of defense and senior military leaders from 29 countries under the theme “Strengthening Collective Security: Navigating Challenges in a Dynamic Indo-Pacific Landscape.” US PACOM is committed to enhancing stability in the region by promoting security cooperation, encouraging peace",
-   "body": "ASEAN defense leaders pose for a photo during a meeting on the sidelines of the 28th Indo-Pacific Chiefs of Defense Conference in Victoria, British Columbia, Canada, Aug. 31, 2026. The conference brought together chiefs of defense and senior military leaders from 29 countries under the theme “Strengthening Collective Security: Navigating Challenges in a Dynamic Indo-Pacific Landscape.” US PACOM is committed to enhancing stability in the region by promoting security cooperation, encouraging peaceful development, responding to contingencies, and deterring aggression. (U.S. Navy photo by Mass Communication Specialist 1st Class Ryan D. McLearnon)\n\nThis work, 28th Indo-Pacific Chiefs of Defense Conference Focuses on Strengthening Regional Security [Image 9 of 9] , by PO1 Ryan McLearnon , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
+   "body": "ASEAN defense leaders pose for a photo during a meeting on the sidelines of the 28th Indo-Pacific Chiefs of Defense Conference in Victoria, British Columbia, Canada, Aug. 31, 2026. The conference brought together chiefs of defense and senior military leaders from 29 countries under the theme “Strengthening Collective Security: Navigating Challenges in a Dynamic Indo-Pacific Landscape.” US PACOM is committed to enhancing stability in the region by promoting security cooperation, encouraging peaceful development, responding to contingencies, and deterring aggression. (U.S. Navy photo by Mass Communication Specialist 1st Class Ryan D. McLearnon)\n\nThis work, 28th Indo-Pacific Chiefs of Defense Conference Focuses on Strengthening Regional Security [Image 9 of 9] , by PO1 Ryan McLearnon , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .\n\nReadout of Adm. Samuel J. Paparo’s Meetings on the Sidelines of the Indo-Pacific Chiefs of Defense Conference",
    "channel": "us_dod",
    "channelName": "美国国防部"
   },
@@ -285,16 +305,6 @@
    "body": "The Air Force has ruled the M18 service pistol is “safe and reliable” after inspecting more than 100,000 of the service’s 9mm pistols, according to a Sept. 2 announcement . Leaders ordered a force-wide inspection after a July 20, 2025, discharge of an M18 killed an on-duty security forces Airman at F.E. Warren Air Force Base, Wyo.\n\nThe death of 21-year-old Airman Brayden Lovan was originally believed to be “a result of an accidental discharge ” and fueled safety concerns about the M18—a Sig-Sauer pistol based on its P320 striker-fired weapon. Multiple lawsuits filed against Sig Sauer, mostly by law enforcement officers, have alleged that P320 pistols can discharge unintentionally.\n\nThe concerns prompted Air Force Global Strike Command to launch its own investigation and temporarily bar troops from using the M18. The Air Force ordered a service-wide inspection of its “in-use” M18s soon after. Global Strike Command cleared the pistol to return to use in late August 2025 after its own inspections.\n\nMore than a year later, the Air Force announced the results of its inspections—though the actual inspection report is dated Jan. 23. As of that date, the service has inspected 113,479 of its 117,864 “in-use” M18s. In total, the service has 125,917 M18s in its inventory—8,053 remain not in use at a depot in Alabama, the report states.\n\nOf the 113,479 M18s inspected, 111,893, or 98.6 percent, were deemed “satisfactory,” the report states. The other 1,586, or 1.4 percent, of the M18s had parts that were “lightly pitted” or required adjustment. Those pistols were categorized as “other than satisfactory,” the report states.\n\n“Some weapons displayed normal wear and tear commensurate with their usage schedule and high rates of manual functioning for skill building during classroom training and daily arming,” the report states. The Air Force “has or will return 1,586 identified during this inspection … with normal wear to ‘serviceable’ condition through standard maintenance procedures.”\n\nThe remaining 4,385 “in-use” M18s left to be inspected are “sealed” in extended storage, the report states, adding that commands that own the pistols will be required to complete the inspections.\n\n“Subject matter experts have a high degree of confidence that these final inspections will yield similar findings as the rest of the inventory,” the report states.\n\nOverall, “100 percent of the inspected weapons exhibited no signs of any condition that could have allowed the weapons to experience an ‘uncommanded discharge,’” according to the report.\n\nAfter an initial investigation into Lovan’s July 20 shooting, criminal investigators learned that Airman 1st Class Marcus White-Allen had concocted a story with two other Airmen to cover up that he fired his M18 pistol into Lovan’s chest.\n\nLaboratory tests have “determined there were no defects in White-Allen’s duty-issued weapon,” according to the Air Force statement. “ Evidence determined White-Allen had his finger on the trigger as he placed the firearm on Lovan’s chest.”\n\nAuthorities arrested White-Allen in early August and charged him with involuntary manslaughter, obstruction of justice, and making a false official statement. On Oct. 8, he was found dead in his dormitory, according to the Air Force. Details surrounding White-Allen’s death remain unclear.\n\nAirman 1st Class Sarbjot Badesha and Airmen 1st Class Matthew Rodriguez pleaded guilty to making false statements about the shooting during summary courts martial proceedings on Oct. 30-31, the Air Force said Oct. 31 in a statement. Authorities sentenced Badesha to 30 days in confinement, reduced his rank to E-1 and fined him $1,545. Rodriguez was sentenced to 10 days confinement and 15 days restriction to base. He was also reduced in rank to E-2 and fined $500, according to the statement.\n\nThe post Air Force Releases Results from Inspections of M18 Pistols appeared first on Air & Space Forces Magazine .",
    "channel": "airandspaceforces",
    "channelName": "Air & Space Forces"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/9911230/another-farewell",
-   "title": "Another Farewell",
-   "author": "Amn Daniel Obi",
-   "pubDate": "2026-09-03T20:11:19+00:00",
-   "summary": "A member of team McConnell watches as a KC-135R Stratotanker prepares to depart McConnell Air Force Base, Kansas, Sept. 3, 2026.The team prepared to wish farewell to a KC-135R Stratotanker as part of the wing’s upcoming conversion to an entirely KC-46A Pegasus fleet. (U.S. Air Force photo by Airman Daniel Obi)",
-   "body": "A member of team McConnell watches as a KC-135R Stratotanker prepares to depart McConnell Air Force Base, Kansas, Sept. 3, 2026.The team prepared to wish farewell to a KC-135R Stratotanker as part of the wing’s upcoming conversion to an entirely KC-46A Pegasus fleet. (U.S. Air Force photo by Airman Daniel Obi)\n\nThis work, Another Farewell [Image 3 of 3] , by Amn Daniel Obi , identified by DVIDS , must comply with the restrictions shown on https://www.dvidshub.net/about/copyright .",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
   },
   {
    "url": "https://www.airandspaceforces.com/schiess-new-chief-of-space-operations-space-force/",
