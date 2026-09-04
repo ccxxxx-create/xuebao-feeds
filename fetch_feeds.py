@@ -88,7 +88,7 @@ CHANNELS = [
             "https://www.dvidshub.net/rss/department-of-defense",
         ],
         "full": "page",
-        "selectors": ["div.asset_news_container", "div.news-body", "div.news-item-body", "div.field--name-body", "div.body-content", "div.article-body", "div.news-story"],
+        "selectors": ["div.news-body", "div.news-item-body", "div.field--name-body", "div.body-content", "div.article-body", "div.news-story"],
         "lookback": 10,
     },
     {
@@ -98,7 +98,7 @@ CHANNELS = [
             "https://www.dvidshub.net/rss/marines",
         ],
         "full": "page",
-        "selectors": ["div.asset_news_container", "div.news-body", "div.news-article-body", "div.field--name-body", "div.body-content", "div.article-body"],
+        "selectors": ["div.news-body", "div.news-article-body", "div.field--name-body", "div.body-content", "div.article-body"],
         "lookback": 10,
     },
     {
@@ -207,10 +207,29 @@ def extract_page(url, selectors, ua=None):
     避免 DVIDS/rand/af.mil 等站正文容器写错就被拦腰截断。只保留文字：导航/页眉页脚/图片一律丢弃。"""
     html = http_get(url, timeout=40, ua=(ua or PAGE_UA))
     soup = BeautifulSoup(html, "lxml")
-    # 去脚本/样式/导航/页眉页脚/图片等噪音（正文容器内的纯文字保留）
-    for tag in soup.find_all(["script", "style", "nav", "header", "footer", "aside", "form",
-                              "iframe", "noscript", "img", "picture", "video", "audio", "svg", "canvas", "source"]):
+    # 1) 标签级噪音：脚本/样式/导航/页眉页脚/图片/表单控件等
+    for tag in soup.find_all(["script", "style", "nav", "header", "footer", "aside", "form", "iframe", "noscript",
+                              "img", "picture", "video", "audio", "svg", "canvas", "source", "button", "input", "select", "textarea"]):
         tag.decompose()
+    # 2) 类名/id 命中"页面皮肤"关键字的容器（DVIDS 的纯菜单 dvids_main_nav/页脚/隐藏嵌入弹窗 uk-modal、
+    #    gov.uk 的 cookie 横幅、各类 related/share/subscribe/offcanvas 等）：
+    #    避免把 导航菜单/隐藏弹窗/嵌入代码说明/相关推荐/分享条 等非正文页面皮肤混进正文
+    chrome_re = re.compile(
+        r"(^|[-_ ])(menu|nav|footer|modal|offcanvas|cookie|share|subscribe|embed|pagination|masthead|logo|breadcrumb)([-_ ]|$)", re.I)
+    to_remove = []
+    for el in soup.find_all(True):
+        if el.name in ("body", "html"):
+            continue   # 绝不动 body/html，避免 WordPress 站（asf/rand 等的 banner/related/sidebar 词在正文包装上）被整页误删
+        attrs = getattr(el, "attrs", None) or {}
+        cls = attrs.get("class") or []
+        cid = attrs.get("id")
+        if not isinstance(cls, list):
+            cls = list(cls) if cls else []
+        ident = (" ".join(map(str, cls)) + (" " + str(cid) if cid else "")).strip()
+        if ident and chrome_re.search(ident):
+            to_remove.append(el)
+    for el in to_remove:
+        el.decompose()
     best = ""
     for sel in selectors or []:
         try:
@@ -223,21 +242,23 @@ def extract_page(url, selectors, ua=None):
         # 取最长候选：某些选择器只覆盖正文前半，取最全的
         if len(text) > len(best):
             best = text
-    # 兜底：正文段落最密集的容器（跨站通用）。始终计算；仅当其明显比选择器结果更长(>1.15×)时采用，
-    # 这样既修复 DVIDS 等"选择器命中较窄容器导致截尾"，又避免 gov.uk 等"页面级包裹容器"过度抓取导航/页脚。
-    psums = []
-    for node in soup.find_all(["div", "article", "section", "main"]):
-        ps = node.find_all("p")
-        if not ps:
-            continue
-        total = sum(len(WS.sub(" ", p.get_text(" ", strip=True)).strip()) for p in ps)
-        if total >= 200:
-            psums.append((total, node))
-    if psums:
-        psums.sort(key=lambda x: x[0], reverse=True)
-        cand = clean_html_to_paragraphs(str(psums[0][1]))
-        if len(cand) > len(best) * 1.15:
-            best = cand
+    # 兜底：正文段落最密集的容器。仅当"精确选择器没抓到正文"(best<800)时才启用——
+    # 优先保留选择器抓到的干净正文（如 DVIDS 的 div.news-body、gov.uk 的 div.govspeak），
+    # 避免用整页壳覆盖并夹带 导航菜单/嵌入说明/照片说明/read more 等页面皮肤。
+    if len(best) < 800:
+        psums = []
+        for node in soup.find_all(["div", "article", "section", "main"]):
+            ps = node.find_all("p")
+            if not ps:
+                continue
+            total = sum(len(WS.sub(" ", p.get_text(" ", strip=True)).strip()) for p in ps)
+            if total >= 200:
+                psums.append((total, node))
+        if psums:
+            psums.sort(key=lambda x: x[0], reverse=True)
+            cand = clean_html_to_paragraphs(str(psums[0][1]))
+            if len(cand) > len(best):
+                best = cand
     # 最终退回：全页较长段落（导航/页眉页脚已在上一步清除）
     if len(best) < 200:
         paras = []
