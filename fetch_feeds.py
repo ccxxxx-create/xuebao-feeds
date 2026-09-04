@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# 2026-09-04 手动触发：推送本改动以恢复定时抓取（云端 IP 才能正常访问 rand 等反爬源）
 """《英语学报》信源镜像：抓取 6 个官方直连源 → feeds/latest.json
 
 与个人工作台 arxiv-mirror 同模式：GitHub Actions 每天定时运行本脚本，
