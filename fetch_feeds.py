@@ -34,8 +34,8 @@ THROTTLE = 2.0          # 频道间请求间隔（秒）
 BODY_THROTTLE = 2.5     # 正文页请求间隔（秒）
 MAX_PER_CHANNEL = 20    # 每频道每轮上限
 LOOKBACK_DAYS = 7
-BODY_MAX_CHARS = 15000
-KEEP_TOP = 20000        # 保留字段总上限（防止单文件过大）
+BODY_MAX_CHARS = 40000     # 正文上限：放宽，避免长文后半段丢失
+KEEP_TOP = 60000        # 保留字段总上限（防止单文件过大）
 
 CHANNELS = [
     {
@@ -151,25 +151,60 @@ def norm_date(value):
 
 
 def clean_html_to_paragraphs(html):
-    """把 HTML 片段转成正文段落文本（\n\n 分隔），尽力去导航。"""
+    """把 HTML 片段转成正文段落文本（\n\n 分隔），尽力去导航、去图片。
+    只保留纯文字：图片/表格多媒体一律丢弃。广泛纳入 p/标题/列表/引用/表格单元格等标准标签，
+    并额外用「可视化分段容器（div/section/article/li）」兜底，避免正文用裸 div 承载时漏抓。"""
     if not html:
         return ""
     soup = BeautifulSoup(html, "lxml")
-    for tag in soup.find_all(["script", "style", "nav", "header", "footer", "aside", "form", "iframe", "noscript"]):
+    # 去导航/脚本/样式/图片（用户明确只要文字，不抓图）
+    for tag in soup.find_all(["script", "style", "nav", "header", "footer", "aside", "form",
+                              "iframe", "noscript", "img", "picture", "figure", "video", "audio",
+                              "svg", "canvas", "source"]):
         tag.decompose()
+    seen = set()
     paras = []
-    for p in soup.find_all(["p", "h1", "h2", "h3", "li"]):
+    # 1) 标准块级标签（最可靠）
+    for p in soup.find_all(["p", "h1", "h2", "h3", "h4", "h5", "h6", "li", "blockquote",
+                            "td", "th", "dd", "dt", "figcaption", "pre"]):
         t = WS.sub(" ", p.get_text(" ", strip=True)).strip()
-        if len(t) >= 2:
+        key = t
+        if len(t) >= 2 and key not in seen:
+            seen.add(key)
             paras.append(t)
+    # 2) 可视化分段容器兜底：很多站正文直接塞在裸 div 里（无 <p>）。
+    #    始终扫描「内容叶子容器」：不包含任何块级子标签(p/h*/li/table/blockquote/div/section/article)的才是纯文本块，
+    #    这样既补上裸 div 正文，又不会与上面标准标签重复叠加。
+    containers = soup.find_all(["div", "section", "article"])
+    for c in containers:
+        if c.find(["div", "section", "article", "p", "li", "table", "ul", "ol",
+                   "h1", "h2", "h3", "h4", "h5", "h6", "blockquote", "pre"]):
+            continue
+        t = WS.sub(" ", c.get_text(" ", strip=True)).strip()
+        if len(t) >= 2 and t not in seen:
+            seen.add(t)
+            paras.append(t)
+    # 3) 若仍太少，退回节点整体文本（按句号/换行粗分），确保有内容
+    if len(paras) < 3:
+        whole = WS.sub(" ", soup.get_text(" ", strip=True)).strip()
+        if whole:
+            chunks = re.split(r"(?<=[。！？.!?])\s*|\n+", whole)
+            for c in chunks:
+                c = c.strip()
+                if len(c) >= 20 and c not in seen:
+                    seen.add(c)
+                    paras.append(c)
     return "\n\n".join(paras)[:BODY_MAX_CHARS]
 
 
 def extract_page(url, selectors, ua=None):
-    """按候选选择器抽取正文段落；都不足则退回全页 <p>。"""
+    """按候选选择器抽取正文段落；取【最长】候选（而非第一个够长），避免正文后半段丢失。
+    只保留文字：图片元素一律丢弃。候选都不足则退回全页 <p>。"""
     html = http_get(url, timeout=40, ua=ua)
     soup = BeautifulSoup(html, "lxml")
-    for tag in soup.find_all(["script", "style", "nav", "form", "iframe", "noscript"]):
+    # 去脚本/样式/导航/图片元素（保留 figure 容器文字）
+    for tag in soup.find_all(["script", "style", "nav", "form", "iframe", "noscript",
+                              "img", "picture", "video", "audio", "svg", "canvas", "source"]):
         tag.decompose()
     best = ""
     for sel in selectors or []:
@@ -177,16 +212,18 @@ def extract_page(url, selectors, ua=None):
         if not node:
             continue
         text = clean_html_to_paragraphs(str(node))
-        if len(text) >= 200:
+        # 取最长候选：某些选择器只覆盖正文前半，取最全的
+        if len(text) > len(best):
             best = text
-            break
-    if not best:
+    if len(best) < 200:
         paras = []
-        for p in soup.find_all("p"):
+        for p in soup.find_all(["p", "h1", "h2", "h3", "li", "blockquote", "td"]):
             t = WS.sub(" ", p.get_text(" ", strip=True)).strip()
             if len(t) >= 60:  # 短句多为导航/链接
                 paras.append(t)
-        best = "\n\n".join(paras)[:BODY_MAX_CHARS]
+        cand = "\n\n".join(paras)[:BODY_MAX_CHARS]
+        if len(cand) > len(best):
+            best = cand
     return best
 
 
