@@ -1,68 +1,68 @@
 {
- "updatedAt": "2026-09-04T02:55:33.692231+00:00",
+ "updatedAt": "2026-09-04T02:58:28.811666+00:00",
  "meta": {
   "afresearchlab": {
    "name": "AFRL",
    "status": "ok",
    "count": 2,
    "error": null,
-   "fetchedAt": "2026-09-04T02:55:33.692231+00:00"
-  },
-  "defensenews": {
-   "name": "Defense News",
-   "status": "ok",
-   "count": 20,
-   "error": null,
-   "fetchedAt": "2026-09-04T02:55:33.692231+00:00"
+   "fetchedAt": "2026-09-04T02:58:28.811666+00:00"
   },
   "airandspaceforces": {
    "name": "Air & Space Forces",
    "status": "ok",
    "count": 9,
    "error": null,
-   "fetchedAt": "2026-09-04T02:55:33.692231+00:00"
+   "fetchedAt": "2026-09-04T02:58:28.811666+00:00"
+  },
+  "defensenews": {
+   "name": "Defense News",
+   "status": "ok",
+   "count": 20,
+   "error": null,
+   "fetchedAt": "2026-09-04T02:58:28.811666+00:00"
   },
   "rand": {
    "name": "兰德",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-04T02:55:33.692231+00:00"
-  },
-  "westpoint": {
-   "name": "西点军校",
-   "status": "error",
-   "count": 0,
-   "error": "all feeds failed: https://www.westpoint.edu/rss.xml -> HTTP Error 403: Forbidden",
-   "fetchedAt": "2026-09-04T02:55:33.692231+00:00"
+   "fetchedAt": "2026-09-04T02:58:28.811666+00:00"
   },
   "us_dod": {
    "name": "美国国防部",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-04T02:55:33.692231+00:00"
+   "fetchedAt": "2026-09-04T02:58:28.811666+00:00"
+  },
+  "westpoint": {
+   "name": "西点军校",
+   "status": "error",
+   "count": 0,
+   "error": "all feeds failed: https://www.westpoint.edu/rss.xml -> HTTP Error 403: Forbidden",
+   "fetchedAt": "2026-09-04T02:58:28.811666+00:00"
   },
   "govuk_mod": {
    "name": "英国国防部",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-04T02:55:33.692231+00:00"
+   "fetchedAt": "2026-09-04T02:58:28.811666+00:00"
   },
   "us_marines": {
    "name": "美国海军陆战队",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-04T02:55:33.692231+00:00"
+   "fetchedAt": "2026-09-04T02:58:28.811666+00:00"
   },
   "us_airforce": {
    "name": "美国空军",
    "status": "ok",
    "count": 16,
    "error": null,
-   "fetchedAt": "2026-09-04T02:55:33.692231+00:00"
+   "fetchedAt": "2026-09-04T02:58:28.811666+00:00"
   }
  },
  "items": [
@@ -392,7 +392,7 @@
    "author": "1st Lt. Yasmeen Joachim Jordan",
    "pubDate": "2026-09-03T18:35:00+00:00",
    "summary": "CSAF and CMSAF visited AFSOC at Hurlburt Field to experience how the command meets today’s complex operational requirements while rapidly investing in tomorrow’s readiness through modernization.",
-   "body": "",
+   "body": "CSAF and CMSAF visited AFSOC at Hurlburt Field to experience how the command meets today’s complex operational requirements while rapidly investing in tomorrow’s readiness through modernization.",
    "channel": "us_airforce",
    "channelName": "美国空军"
   },
@@ -402,7 +402,7 @@
    "author": "Capt. Stephen J. Collier",
    "pubDate": "2026-09-03T17:20:00+00:00",
    "summary": "The Air Force’s senior leaders charged with overseeing the service’s nuclear enterprise took part in a two-day immersion at Hill AFB, gaining insight into how AFGSC and its mission partners are fielding the Sentinel ICBM. <img alt=\"Jim Kalberer, Vice President of Propulsion Systems, Northrop Grumman; Wendy Williams, Vice President &amp; General Manager, Launch and Exploration, Northrop Grumman; Katie Parks, Deputy Portfolio Acquisition Executive for Intercontinental Ballistic Missiles; Sarah Wil",
-   "body": "",
+   "body": "The Air Force’s senior leaders charged with overseeing the service’s nuclear enterprise took part in a two-day immersion at Hill AFB, gaining insight into how AFGSC and its mission partners are fielding the Sentinel ICBM. <img alt=\"Jim Kalberer, Vice President of Propulsion Systems, Northrop Grumman; Wendy Williams, Vice President &amp; General Manager, Launch and Exploration, Northrop Grumman; Katie Parks, Deputy Portfolio Acquisition Executive for Intercontinental Ballistic Missiles; Sarah Wil",
    "channel": "us_airforce",
    "channelName": "美国空军"
   },
@@ -432,7 +432,7 @@
    "author": "2nd Lt. Olivia Bertaud",
    "pubDate": "2026-09-03T16:01:00+00:00",
    "summary": "Exercise Northern Viking 26 concluded in Iceland following nine days of multinational joint and combined multi-domain operations strengthening High North security.",
-   "body": "",
+   "body": "Exercise Northern Viking 26 concluded in Iceland following nine days of multinational joint and combined multi-domain operations strengthening High North security.",
    "channel": "us_airforce",
    "channelName": "美国空军"
   },
@@ -722,7 +722,7 @@
    "author": "Pentagon News",
    "pubDate": "2026-09-02T14:26:51+00:00",
    "summary": "DAF officials released the final results of a directed supplemental safety inspection to verify the operational readiness of the M18 Modular Handgun System.",
-   "body": "",
+   "body": "DAF officials released the final results of a directed supplemental safety inspection to verify the operational readiness of the M18 Modular Handgun System.",
    "channel": "us_airforce",
    "channelName": "美国空军"
   },
@@ -902,7 +902,7 @@
    "author": "Pentagon News",
    "pubDate": "2026-09-01T12:00:00+00:00",
    "summary": "The initiative helps alleviate family burdens during deployments and ensures household transportation remains safe and operational.",
-   "body": "",
+   "body": "The initiative helps alleviate family burdens during deployments and ensures household transportation remains safe and operational.",
    "channel": "us_airforce",
    "channelName": "美国空军"
   },
@@ -972,7 +972,7 @@
    "author": "Capt. Jackie Noffsinger",
    "pubDate": "2026-08-31T16:11:00+00:00",
    "summary": "Air Force Global Strike Command announced that the MH-139 Grey Wolf has officially achieved Initial Operational Capability as of August 10, ushering in a new era of modernization for AFGSC’s nuclear security operations. <img alt=\"A 582nd Helicopter Group MH-139 Grey Wolf takes off near Pine Bluffs, Wyoming, Feb. 19, 2026. The 582 HG supports USSTRATCOM’s strategic deterrence mission by enabling airborne security and rapid response capabilities for missile wings across Air Force Global Strike Com",
-   "body": "",
+   "body": "Air Force Global Strike Command announced that the MH-139 Grey Wolf has officially achieved Initial Operational Capability as of August 10, ushering in a new era of modernization for AFGSC’s nuclear security operations. <img alt=\"A 582nd Helicopter Group MH-139 Grey Wolf takes off near Pine Bluffs, Wyoming, Feb. 19, 2026. The 582 HG supports USSTRATCOM’s strategic deterrence mission by enabling airborne security and rapid response capabilities for missile wings across Air Force Global Strike Com",
    "channel": "us_airforce",
    "channelName": "美国空军"
   },
@@ -992,7 +992,7 @@
    "author": "Pentagon News",
    "pubDate": "2026-08-31T12:00:00+00:00",
    "summary": "Key changes address medical shaving profile separations, mandatory CBRN mask fit validation deadlines, religious ministry evaluation criteria for chaplains, and streamlined equal opportunity reporting processes.",
-   "body": "",
+   "body": "Key changes address medical shaving profile separations, mandatory CBRN mask fit validation deadlines, religious ministry evaluation criteria for chaplains, and streamlined equal opportunity reporting processes.",
    "channel": "us_airforce",
    "channelName": "美国空军"
   },
@@ -1102,7 +1102,7 @@
    "author": "Senior Airman Gabriel Jones",
    "pubDate": "2026-08-28T18:52:06+00:00",
    "summary": "JBA activated the 5th Helicopter Squadron marking the installation’s first new rotary-wing squadron activation in 60 years. The squadron will lead the phased integration and modernization transition to the HH-60W Jolly Green II alongside the 1st HS.",
-   "body": "",
+   "body": "JBA activated the 5th Helicopter Squadron marking the installation’s first new rotary-wing squadron activation in 60 years. The squadron will lead the phased integration and modernization transition to the HH-60W Jolly Green II alongside the 1st HS.",
    "channel": "us_airforce",
    "channelName": "美国空军"
   },
@@ -1112,7 +1112,7 @@
    "author": "Pentagon News",
    "pubDate": "2026-08-28T13:18:45+00:00",
    "summary": "This week's photos feature Airmen from around the globe involved in activities supporting expeditionary operations and defending America. This weekly feature showcases the men and women of the Air Force.",
-   "body": "",
+   "body": "This week's photos feature Airmen from around the globe involved in activities supporting expeditionary operations and defending America. This weekly feature showcases the men and women of the Air Force.",
    "channel": "us_airforce",
    "channelName": "美国空军"
   },
@@ -1122,7 +1122,7 @@
    "author": "Tech. Sgt. Shelby Thurman",
    "pubDate": "2026-08-27T20:00:00+00:00",
    "summary": "To ensure operational readiness & maintain the tactical edge, Airmen must train their brains with the same rigor as their bodies. AFGSC is looking to accelerate & modernize this effort with a tactical training simulator known as MindGym. <img alt=\"U.S. Air Force Tech. Sgt. Brandie Henrichs, Airman Leadership Instructor, prepares to use the MindGym at Whiteman Air Force Base, Mo., Nov. 20, 2024. The MindGym offers a unique and immersive experience that focuses on reducing stress and promoting rel",
-   "body": "",
+   "body": "To ensure operational readiness & maintain the tactical edge, Airmen must train their brains with the same rigor as their bodies. AFGSC is looking to accelerate & modernize this effort with a tactical training simulator known as MindGym. <img alt=\"U.S. Air Force Tech. Sgt. Brandie Henrichs, Airman Leadership Instructor, prepares to use the MindGym at Whiteman Air Force Base, Mo., Nov. 20, 2024. The MindGym offers a unique and immersive experience that focuses on reducing stress and promoting rel",
    "channel": "us_airforce",
    "channelName": "美国空军"
   },
@@ -1132,7 +1132,7 @@
    "author": "2nd Lt. Daniel White",
    "pubDate": "2026-08-27T12:23:00+00:00",
    "summary": "The 31st Air Task Force sharpened and refined a layered counter-small unmanned aerial system defense capability, culminating in a kinetic “final denial” live-fire demonstration.",
-   "body": "",
+   "body": "The 31st Air Task Force sharpened and refined a layered counter-small unmanned aerial system defense capability, culminating in a kinetic “final denial” live-fire demonstration.",
    "channel": "us_airforce",
    "channelName": "美国空军"
   },
@@ -1142,7 +1142,7 @@
    "author": "Maj. Nicolle Roose",
    "pubDate": "2026-08-27T11:58:00+00:00",
    "summary": "PACAF and the Hawaii National Guard partnered with federal and state agencies to execute Operation TREK808, airlifting nearly 144,000 pounds of critical utility infrastructure and repair vehicles to Hawaii Island.",
-   "body": "",
+   "body": "PACAF and the Hawaii National Guard partnered with federal and state agencies to execute Operation TREK808, airlifting nearly 144,000 pounds of critical utility infrastructure and repair vehicles to Hawaii Island.",
    "channel": "us_airforce",
    "channelName": "美国空军"
   },
@@ -1152,7 +1152,7 @@
    "author": "Airman Daniel Obi",
    "pubDate": "2026-08-26T16:27:00+00:00",
    "summary": "A 3D-printed tool designed by a McConnell AFB maintainer is helping Airmen refinish aircraft wheels faster by allowing them to rotate the wheels while painting, eliminating hours of drying time between coats. <img alt=\"The center of the 22nd Air Refueling Wing Innovation Lab’s wheel paint and mix stand is displayed along with other innovative project proposals at McConnell Air Force Base, Kansas, Aug. 24, 2026. The stand helps Airmen refinish aircraft wheels faster by allowing them to rotate whe",
-   "body": "",
+   "body": "A 3D-printed tool designed by a McConnell AFB maintainer is helping Airmen refinish aircraft wheels faster by allowing them to rotate the wheels while painting, eliminating hours of drying time between coats. <img alt=\"The center of the 22nd Air Refueling Wing Innovation Lab’s wheel paint and mix stand is displayed along with other innovative project proposals at McConnell Air Force Base, Kansas, Aug. 24, 2026. The stand helps Airmen refinish aircraft wheels faster by allowing them to rotate whe",
    "channel": "us_airforce",
    "channelName": "美国空军"
   },
@@ -1162,7 +1162,7 @@
    "author": "Senior Airman Amanda Alvarez",
    "pubDate": "2026-08-26T13:00:00+00:00",
    "summary": "The 325th FW deployed to Hill AFB to test and evaluate the F-35A Lightning II's air-to-ground precision-guided munitions capability using live ordnance.",
-   "body": "",
+   "body": "The 325th FW deployed to Hill AFB to test and evaluate the F-35A Lightning II's air-to-ground precision-guided munitions capability using live ordnance.",
    "channel": "us_airforce",
    "channelName": "美国空军"
   },
@@ -1172,7 +1172,7 @@
    "author": "Samuel King Jr.",
    "pubDate": "2026-08-25T18:37:00+00:00",
    "summary": "When the 413th Flight Test Squadron receives a call from the Air Force Rescue Coordination Center, it's typically the last resort for someone in the community requiring a life-saving critical care flight.",
-   "body": "",
+   "body": "When the 413th Flight Test Squadron receives a call from the Air Force Rescue Coordination Center, it's typically the last resort for someone in the community requiring a life-saving critical care flight.",
    "channel": "us_airforce",
    "channelName": "美国空军"
   },
