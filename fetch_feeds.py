@@ -30,6 +30,8 @@ import feedparser
 from bs4 import BeautifulSoup
 
 UA = "xuebao-mirror/1.0 (official rss reader; personal archive only)"
+# 正文页抓取用浏览器 UA：rand/af.mil 等源会拦截非浏览器 UA（实测浏览器 UA 即 200，爬虫 UA 403）
+PAGE_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 THROTTLE = 2.0          # 频道间请求间隔（秒）
 BODY_THROTTLE = 2.5     # 正文页请求间隔（秒）
 MAX_PER_CHANNEL = 20    # 每频道每轮上限
@@ -74,7 +76,7 @@ CHANNELS = [
             "https://www.rand.org/pubs/articles.xml",
         ],
         "full": "page",
-        "selectors": ["div.col-sm-9", "div#main", "article", "main"],
+        "selectors": ["div.body-text", "article.blog", "div.product-main", "div.abstract", "article", "main"],
         "lookback": 30,
     },
     {
@@ -84,7 +86,7 @@ CHANNELS = [
             "https://www.dvidshub.net/rss/department-of-defense",
         ],
         "full": "page",
-        "selectors": ["div.news-item-body", "div.body-content", "div.article-body", "article", "main"],
+        "selectors": ["div.news-body", "div.news-item-body", "div.field--name-body", "div.body-content", "div.article-body", "div.news-story", "article", "main"],
         "lookback": 10,
     },
     {
@@ -94,7 +96,7 @@ CHANNELS = [
             "https://www.dvidshub.net/rss/marines",
         ],
         "full": "page",
-        "selectors": ["div.news-article-body", "div.body-content", "div.article-body", "article", "main"],
+        "selectors": ["div.news-body", "div.news-article-body", "div.field--name-body", "div.body-content", "div.article-body", "article", "main"],
         "lookback": 10,
     },
     {
@@ -104,7 +106,7 @@ CHANNELS = [
             "https://www.af.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1",
         ],
         "full": "page",
-        "selectors": ["div#dnn_NewsArticleContent", "div.news-body", "div.article-body", "article", "main"],
+        "selectors": ["div.field--name-body", "div.field--name-field-story-body", "div.article-body", "div.body-content", "div#dnn_NewsArticleContent", "div.news-body", "article", "main"],
         "lookback": 10,
     },
 ]
@@ -198,23 +200,43 @@ def clean_html_to_paragraphs(html):
 
 
 def extract_page(url, selectors, ua=None):
-    """按候选选择器抽取正文段落；取【最长】候选（而非第一个够长），避免正文后半段丢失。
-    只保留文字：图片元素一律丢弃。候选都不足则退回全页 <p>。"""
-    html = http_get(url, timeout=40, ua=ua)
+    """按候选选择器抽取正文段落；取【最长】候选为主。
+    选择器覆盖不全时，用「正文 <p> 最密集的容器」兜底（跨站通用，不再只靠硬编码选择器），
+    避免 DVIDS/rand/af.mil 等站正文容器写错就被拦腰截断。只保留文字：导航/页眉页脚/图片一律丢弃。"""
+    html = http_get(url, timeout=40, ua=(ua or PAGE_UA))
     soup = BeautifulSoup(html, "lxml")
-    # 去脚本/样式/导航/图片元素（保留 figure 容器文字）
-    for tag in soup.find_all(["script", "style", "nav", "form", "iframe", "noscript",
-                              "img", "picture", "video", "audio", "svg", "canvas", "source"]):
+    # 去脚本/样式/导航/页眉页脚/图片等噪音（正文容器内的纯文字保留）
+    for tag in soup.find_all(["script", "style", "nav", "header", "footer", "aside", "form",
+                              "iframe", "noscript", "img", "picture", "video", "audio", "svg", "canvas", "source"]):
         tag.decompose()
     best = ""
     for sel in selectors or []:
-        node = soup.select_one(sel)
+        try:
+            node = soup.select_one(sel)
+        except Exception:  # noqa: BLE001
+            continue
         if not node:
             continue
         text = clean_html_to_paragraphs(str(node))
         # 取最长候选：某些选择器只覆盖正文前半，取最全的
         if len(text) > len(best):
             best = text
+    # 兜底：正文段落最密集的容器（很多站结构不一，单纯选择器易漏；按 <p> 文本总量挑正文所在容器）
+    if len(best) < 500:
+        psums = []
+        for node in soup.find_all(["div", "article", "section", "main"]):
+            ps = node.find_all("p")
+            if not ps:
+                continue
+            total = sum(len(WS.sub(" ", p.get_text(" ", strip=True)).strip()) for p in ps)
+            if total >= 200:
+                psums.append((total, node))
+        if psums:
+            psums.sort(key=lambda x: x[0], reverse=True)
+            cand = clean_html_to_paragraphs(str(psums[0][1]))
+            if len(cand) > len(best):
+                best = cand
+    # 最终退回：全页较长段落（导航/页眉页脚已在上一步清除）
     if len(best) < 200:
         paras = []
         for p in soup.find_all(["p", "h1", "h2", "h3", "li", "blockquote", "td"]):
