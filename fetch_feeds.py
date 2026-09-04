@@ -36,24 +36,26 @@ THROTTLE = 2.0          # 频道间请求间隔（秒）
 BODY_THROTTLE = 2.5     # 正文页请求间隔（秒）
 MAX_PER_CHANNEL = 20    # 每频道每轮上限
 LOOKBACK_DAYS = 7
-BODY_MAX_CHARS = 40000     # 正文上限：放宽，避免长文后半段丢失
-KEEP_TOP = 60000        # 保留字段总上限（防止单文件过大）
+BODY_MAX_CHARS = 200000    # 正文上限（按字符计：字母/空格/标点各算1）。实测正文多在3k-19k字，个别超长分析文可达数万字，4万不够，提到20万
+KEEP_TOP = 280000       # 保留字段总上限（防止单文件过大）
 
 CHANNELS = [
     {
         "id": "defensenews", "name": "Defense News",
         "feeds": ["https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml"],
-        "full": "content",
+        "full": "page",
+        "selectors": ["div.layout-section", "div.article-body"],
     },
     {
         "id": "airandspaceforces", "name": "Air & Space Forces",
         "feeds": ["https://www.airandspaceforces.com/feed/"],
-        "full": "content",
+        "full": "page",
+        "selectors": ["article", "div.entry-content", "div.cms-content"],
     },
     {
         "id": "govuk_mod", "name": "英国国防部",
         "feeds": ["https://www.gov.uk/government/organisations/ministry-of-defence.atom"],
-        "full": "page", "selectors": ["div.govspeak", "article", "main"],
+        "full": "page", "selectors": ["div.govspeak"],
     },
     {
         "id": "afresearchlab", "name": "AFRL",
@@ -86,7 +88,7 @@ CHANNELS = [
             "https://www.dvidshub.net/rss/department-of-defense",
         ],
         "full": "page",
-        "selectors": ["div.news-body", "div.news-item-body", "div.field--name-body", "div.body-content", "div.article-body", "div.news-story", "article", "main"],
+        "selectors": ["div.asset_news_container", "div.news-body", "div.news-item-body", "div.field--name-body", "div.body-content", "div.article-body", "div.news-story"],
         "lookback": 10,
     },
     {
@@ -96,7 +98,7 @@ CHANNELS = [
             "https://www.dvidshub.net/rss/marines",
         ],
         "full": "page",
-        "selectors": ["div.news-body", "div.news-article-body", "div.field--name-body", "div.body-content", "div.article-body", "article", "main"],
+        "selectors": ["div.asset_news_container", "div.news-body", "div.news-article-body", "div.field--name-body", "div.body-content", "div.article-body"],
         "lookback": 10,
     },
     {
@@ -221,21 +223,21 @@ def extract_page(url, selectors, ua=None):
         # 取最长候选：某些选择器只覆盖正文前半，取最全的
         if len(text) > len(best):
             best = text
-    # 兜底：正文段落最密集的容器（很多站结构不一，单纯选择器易漏；按 <p> 文本总量挑正文所在容器）
-    if len(best) < 500:
-        psums = []
-        for node in soup.find_all(["div", "article", "section", "main"]):
-            ps = node.find_all("p")
-            if not ps:
-                continue
-            total = sum(len(WS.sub(" ", p.get_text(" ", strip=True)).strip()) for p in ps)
-            if total >= 200:
-                psums.append((total, node))
-        if psums:
-            psums.sort(key=lambda x: x[0], reverse=True)
-            cand = clean_html_to_paragraphs(str(psums[0][1]))
-            if len(cand) > len(best):
-                best = cand
+    # 兜底：正文段落最密集的容器（跨站通用）。始终计算；仅当其明显比选择器结果更长(>1.15×)时采用，
+    # 这样既修复 DVIDS 等"选择器命中较窄容器导致截尾"，又避免 gov.uk 等"页面级包裹容器"过度抓取导航/页脚。
+    psums = []
+    for node in soup.find_all(["div", "article", "section", "main"]):
+        ps = node.find_all("p")
+        if not ps:
+            continue
+        total = sum(len(WS.sub(" ", p.get_text(" ", strip=True)).strip()) for p in ps)
+        if total >= 200:
+            psums.append((total, node))
+    if psums:
+        psums.sort(key=lambda x: x[0], reverse=True)
+        cand = clean_html_to_paragraphs(str(psums[0][1]))
+        if len(cand) > len(best) * 1.15:
+            best = cand
     # 最终退回：全页较长段落（导航/页眉页脚已在上一步清除）
     if len(best) < 200:
         paras = []
