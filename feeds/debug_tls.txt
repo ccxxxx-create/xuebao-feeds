@@ -1,8 +1,12 @@
-af.mil 测试页: https://www.af.mil
-  urllib    -> HTTP 403
-  curl_cffi -> 200 247577 bytes
-defense.gov RSS 解析不到文章链接（0 bytes）
-marines.mil 测试页: https://www.af.mil
-  urllib    -> HTTP 403
-  curl_cffi -> 200 248302 bytes
-westpoint RSS -> HTTP 403
+af.mil 文章页         chrome     -> 200 141862 bytes
+af.mil 文章页         chrome131  -> 200 141862 bytes
+af.mil 文章页         safari184  -> 200 141862 bytes
+af.mil 首页          chrome     -> 200 248339 bytes
+af.mil 首页          chrome131  -> 200 248339 bytes
+af.mil 首页          safari184  -> 200 248339 bytes
+defense.gov 文章页    chrome     -> 200 100914 bytes
+defense.gov 文章页    chrome131  -> 200 100914 bytes
+defense.gov 文章页    safari184  -> 200 100914 bytes
+marines.mil 文章页    chrome     -> 200 41363 bytes
+marines.mil 文章页    chrome131  -> 200 41363 bytes
+marines.mil 文章页    safari184  -> 200 41363 bytes
