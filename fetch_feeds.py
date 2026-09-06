@@ -219,8 +219,8 @@ CHANNELS = [
     {
         "id": "us_airforce", "name": "美国空军",
         "feeds": [
+            "https://www.dvidshub.net/rss/airforce",
             "https://www.af.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1&max=20",
-            "https://www.af.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=1",
         ],
         "full": "page",
         "selectors": ["div.field--name-body", "div.field--name-field-story-body", "div.article-body", "div.body-content", "div#dnn_NewsArticleContent", "div.news-body", "article", "main"],
