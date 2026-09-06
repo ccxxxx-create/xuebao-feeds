@@ -515,9 +515,9 @@ def process_channel(ch, now):
                     body = extract_page(url, ch.get("selectors"), ua=ch.get("ua"))
                     if body:
                         # 首行与标题相同（dense 容器把 h1 一起带进来）时去掉，避免标题混进正文
-                        head, rest = body.split("\n\n", 1)
-                        if rest and norm_title(head) == norm_title(e["title"] or ""):
-                            body = rest
+                        parts_ = body.split("\n\n", 1)
+                        if len(parts_) == 2 and norm_title(parts_[0]) == norm_title(e["title"] or ""):
+                            body = parts_[1]
                         e["body"] = body
                         if not e["summary"]:
                             e["summary"] = WS.sub(" ", body[:400]).strip()[:400]
