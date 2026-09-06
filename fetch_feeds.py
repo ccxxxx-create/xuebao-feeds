@@ -89,11 +89,13 @@ except ImportError:
 MAX_REDIRECTS = 5
 
 
-def _get_via_curl(url, timeout, headers):
-    """curl_cffi 抓取：重定向手动逐跳处理，每一跳都过 check_url。"""
+def _get_via_curl(url, timeout):
+    """curl_cffi 抓取：重定向手动逐跳处理，每一跳都过 check_url。
+    注意：不能传显式 User-Agent 头——impersonate 的价值在于整套 TLS+HTTP 头指纹一致，
+    覆盖 UA 会破坏头部顺序/一致性，Akamai 立刻识别并 403（实测 af.mil 文章页）。"""
     u = url
     for _ in range(MAX_REDIRECTS):
-        r = _cr.get(u, impersonate="chrome", timeout=timeout, headers=headers, allow_redirects=False)
+        r = _cr.get(u, impersonate="chrome", timeout=timeout, allow_redirects=False)
         if r.status_code in (301, 302, 303, 307, 308):
             loc = r.headers.get("Location") or ""
             if not loc:
@@ -114,11 +116,10 @@ def http_get(url, timeout=30, retries=2, ua=None):
     for i in range(retries + 1):
         try:
             check_url(url)  # 首跳校验（重定向各跳在 fetcher 内逐跳校验）
-            headers = {"User-Agent": ua or UA}
             if _cr is not None:
-                raw = _get_via_curl(url, timeout, headers)
+                raw = _get_via_curl(url, timeout)  # 指纹通道：UA 由 impersonate 提供
             else:
-                req = urllib.request.Request(url, headers=headers)
+                req = urllib.request.Request(url, headers={"User-Agent": ua or UA})
                 with _OPENER.open(req, timeout=timeout) as resp:
                     raw = resp.read()
             try:
