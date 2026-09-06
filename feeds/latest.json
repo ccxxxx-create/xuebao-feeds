@@ -1,68 +1,68 @@
 {
- "updatedAt": "2026-09-06T00:38:33.402925+00:00",
+ "updatedAt": "2026-09-06T01:03:54.588542+00:00",
  "meta": {
   "afresearchlab": {
    "name": "AFRL",
    "status": "ok",
    "count": 2,
    "error": null,
-   "fetchedAt": "2026-09-06T00:38:33.402925+00:00"
+   "fetchedAt": "2026-09-06T01:03:54.588542+00:00"
   },
   "airandspaceforces": {
    "name": "Air & Space Forces",
    "status": "ok",
    "count": 9,
    "error": null,
-   "fetchedAt": "2026-09-06T00:38:33.402925+00:00"
-  },
-  "defensenews": {
-   "name": "Defense News",
-   "status": "ok",
-   "count": 20,
-   "error": null,
-   "fetchedAt": "2026-09-06T00:38:33.402925+00:00"
+   "fetchedAt": "2026-09-06T01:03:54.588542+00:00"
   },
   "westpoint": {
    "name": "西点军校",
    "status": "error",
    "count": 0,
    "error": "all feeds failed: https://www.westpoint.edu/rss.xml -> HTTP Error 403: Forbidden",
-   "fetchedAt": "2026-09-06T00:38:33.402925+00:00"
+   "fetchedAt": "2026-09-06T01:03:54.588542+00:00"
+  },
+  "defensenews": {
+   "name": "Defense News",
+   "status": "ok",
+   "count": 20,
+   "error": null,
+   "fetchedAt": "2026-09-06T01:03:54.588542+00:00"
   },
   "rand": {
    "name": "兰德",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-06T00:38:33.402925+00:00"
-  },
-  "us_dod": {
-   "name": "美国国防部",
-   "status": "ok",
-   "count": 20,
-   "error": null,
-   "fetchedAt": "2026-09-06T00:38:33.402925+00:00"
+   "fetchedAt": "2026-09-06T01:03:54.588542+00:00"
   },
   "govuk_mod": {
    "name": "英国国防部",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-06T00:38:33.402925+00:00"
+   "fetchedAt": "2026-09-06T01:03:54.588542+00:00"
   },
   "us_marines": {
    "name": "美国海军陆战队",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-06T00:38:33.402925+00:00"
+   "fetchedAt": "2026-09-06T01:03:54.588542+00:00"
+  },
+  "us_dod": {
+   "name": "美国国防部",
+   "status": "ok",
+   "count": 20,
+   "error": null,
+   "fetchedAt": "2026-09-06T01:03:54.588542+00:00"
   },
   "us_airforce": {
    "name": "美国空军",
    "status": "ok",
    "count": 13,
    "error": null,
-   "fetchedAt": "2026-09-06T00:38:33.402925+00:00"
+   "fetchedAt": "2026-09-06T01:03:54.588542+00:00"
   }
  },
  "items": [
@@ -113,8 +113,8 @@
    "pubDate": "2026-09-05T13:28:43+00:00",
    "summary": "U.S. Marines with the 2nd Marine Logistics Group, U.S. Navy Corpsmen with the 4th Marine Logistics Group, and members of the Swedish Home Guard 296 Chemical, Biological, Radiological, and Nuclear Platoon and 2nd Naval Combat Service Support Battalion conduct combined CBRN and medical response training during Exercise Archipelago Endeavor 26 in Berga, Sweden, Sept. 2, 2026. Combined training betwee",
    "body": "U.S. Marines with the 2nd Marine Logistics Group, U.S. Navy Corpsmen with the 4th Marine Logistics Group, and members of the Swedish Home Guard 296 Chemical, Biological, Radiological, and Nuclear Platoon and 2nd Naval Combat Service Support Battalion conduct combined CBRN and medical response training during Exercise Archipelago Endeavor 26 in Berga, Sweden, Sept. 2, 2026. Combined training between U.S. Marines and the Swedish Armed Forces was focused on CBRN defense, medical crisis response, and amphibious operations. Swedish forces conducted a simulated response to a hazardous environment before U.S. CBRN personnel conducted decontamination, and medical personnel provided care to injured personnel before moving them to a safe area for continued treatment. Archipelago Endeavor 26 strengthens bilateral interoperability, littoral defense capabilities, and tactical cooperation while demonstrating the readiness of U.S. and Swedish forces to operate together in the Baltic Sea region. (U.S. Marine Corps video by Cpl. Garrett Gillespie)",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.dvidshub.net/video/1021812/us-air-force-combat-controllers-test-expeditionary-resupply-capabilities-jan-mayen-norway",
@@ -123,8 +123,8 @@
    "pubDate": "2026-09-05T13:26:39+00:00",
    "summary": "U.S. Air Force combat controllers with Special Tactics Squadron and a U.K. combat controller conduct terminal control of a Grasshopper Aerial Resupply Vehicle to test expeditionary delivery of medical supplies during Operation Atlantic City 26 on Jan Mayen, Norway, Sept. 1, 2026. The operation is a Norwegian-led trilateral readiness initiative with the United Kingdom and United States designed to",
    "body": "U.S. Air Force combat controllers with Special Tactics Squadron and a U.K. combat controller conduct terminal control of a Grasshopper Aerial Resupply Vehicle to test expeditionary delivery of medical supplies during Operation Atlantic City 26 on Jan Mayen, Norway, Sept. 1, 2026. The operation is a Norwegian-led trilateral readiness initiative with the United Kingdom and United States designed to develop and demonstrate expeditionary advanced base capabilities and validate combined fires, maritime domain awareness, and sea denial to reinforce the security and stability of the High North. Jan Mayen is sovereign Norwegian territory and is situated in an isolated part of the Norwegian Sea, approximately 1,000 kilometers (620 miles) from mainland Norway. At the same time, the island occupies an important geostrategic position north of the Greenland-Iceland-U.K. gap, an area of water strategically significant to the defense of the U.S. homeland and northern Europe. (U.S. Marine Corps photo by Sgt. Kedrick Schumacher)",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.dvidshub.net/video/1021813/allied-leaders-reflect-shared-arctic-heritage-jan-mayen-norway",
@@ -133,8 +133,8 @@
    "pubDate": "2026-09-05T13:25:40+00:00",
    "summary": "U.S. Marines, U.K. Royal Marines, and Norwegian Home Guard soldiers visit the historic World War II-era \"Atlantic City\" site in Jan Mayen, Norway, Aug. 30, 2026. The visit to the historic site, conducted during Operation Atlantic City 26, fostered trilateral cohesion among Norwegian, U.S., and British forces while reinforcing the shared heritage and strategic legacy of Arctic operations. Atlantic",
    "body": "U.S. Marines, U.K. Royal Marines, and Norwegian Home Guard soldiers visit the historic World War II-era \"Atlantic City\" site in Jan Mayen, Norway, Aug. 30, 2026. The visit to the historic site, conducted during Operation Atlantic City 26, fostered trilateral cohesion among Norwegian, U.S., and British forces while reinforcing the shared heritage and strategic legacy of Arctic operations. Atlantic City 26 is a Norwegian-led trilateral readiness initiative with the United Kingdom and United States designed to develop and demonstrate expeditionary advanced base capabilities and validate combined fires, maritime domain awareness, and sea denial to reinforce the security and stability of the High North. Jan Mayen is sovereign Norwegian territory in an isolated part of the Norwegian Sea, approximately 1,000 kilometers (620 miles) from mainland Norway. At the same time, the island occupies an important geostrategic position north of the Greenland-Iceland-U.K. gap, an area of water strategically significant to the defense of the U.S. homeland and northern Europe. (U.S. Marine Corps video by Sgt. Kedrick Schumacher)",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.dvidshub.net/video/1021927/us-marine-discusses-arctic-strategy-nato-integration-during-operation-atlantic-city",
@@ -143,8 +143,8 @@
    "pubDate": "2026-09-05T13:24:59+00:00",
    "summary": "U.S. Marine Corps Lt. Col. David Palacio, a fires officer with U.S. Marine Corps Forces, Europe and Africa, speaks about Operation Atlantic City 26 during an interview on Jan Mayen, Norway, Sept. 2, 2026. The interview highlighted how the exercise advances key U.S. Marine Corps concepts and strengthens interoperability with NATO Allies, which is essential for projecting a credible force in the Hig",
    "body": "U.S. Marine Corps Lt. Col. David Palacio, a fires officer with U.S. Marine Corps Forces, Europe and Africa, speaks about Operation Atlantic City 26 during an interview on Jan Mayen, Norway, Sept. 2, 2026. The interview highlighted how the exercise advances key U.S. Marine Corps concepts and strengthens interoperability with NATO Allies, which is essential for projecting a credible force in the High North. Atlantic City 26 is a Norwegian-led trilateral readiness initiative with the United Kingdom and United States designed to develop and demonstrate expeditionary advanced base capabilities and validate combined fires, maritime domain awareness, and sea denial to reinforce the security and stability of the High North. Jan Mayen is sovereign Norwegian territory in an isolated part of the Norwegian Sea, approximately 1,000 kilometers (620 miles) from mainland Norway. At the same time, the island occupies an important geostrategic position north of the Greenland-Iceland-U.K. gap, an area of water strategically significant to the defense of the U.S. homeland and northern Europe. (U.S. Marine Corps photo by Sgt. Noah Masog)",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.dvidshub.net/video/1021929/us-marines-swedish-forces-conduct-combined-cbrn-and-medical-response-training-during-archipelago-endeavor-26",
@@ -153,8 +153,8 @@
    "pubDate": "2026-09-05T13:22:07+00:00",
    "summary": "U.S. Marines with 2nd Marine Logistics Group, U.S. Navy Corpsmen with 4th Marine Logistics Group, and members of the Swedish Home Guard 296 Chemical Biological Radiological and Nuclear Platoon and 2nd Naval Combat Service Support Battalion conduct combined CBRN and medical response training during Exercise Archipelago Endeavor 26 in Berga, Sweden, Sept. 4, 2026. Combined training between U.S. Mari",
    "body": "U.S. Marines with 2nd Marine Logistics Group, U.S. Navy Corpsmen with 4th Marine Logistics Group, and members of the Swedish Home Guard 296 Chemical Biological Radiological and Nuclear Platoon and 2nd Naval Combat Service Support Battalion conduct combined CBRN and medical response training during Exercise Archipelago Endeavor 26 in Berga, Sweden, Sept. 4, 2026. Combined training between U.S. Marines and the Swedish Armed Forces was focused on CBRN defense, medical crisis response, and amphibious operations, bringing CBRN and medical personnel together to respond to injured personnel following a simulated hazardous-area mission. U.S. and Swedish CBRN personnel conducted decontamination of simulated casualties before transitioning them to medical personnel for treatment, evacuation, and continued care at a field medical facility. Archipelago Endeavor 26 strengthens bilateral interoperability, littoral defense capabilities, and tactical cooperation while demonstrating the readiness of U.S. and Swedish forces to operate together in the Baltic Sea region. (U.S. Marine Corps video by Cpl. Garrett Gillespie)",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.dvidshub.net/video/1021537/us-marines-norwegian-home-guard-conduct-joint-displacement-jan-mayen",
@@ -163,8 +163,8 @@
    "pubDate": "2026-09-05T13:19:11+00:00",
    "summary": "U.S. Marines set up communications equipment and a Strikemaster mobile anti-ship missile system following a tactical displacement in Jan Mayen, Norway, Sep. 1, 2026. This action, conducted during Operation Atlantic City 26, is a critical step in creating a lethal and agile expeditionary advanced base, ensuring NATO can rapidly integrate long-range precision fires and command and control in the Hig",
    "body": "U.S. Marines set up communications equipment and a Strikemaster mobile anti-ship missile system following a tactical displacement in Jan Mayen, Norway, Sep. 1, 2026. This action, conducted during Operation Atlantic City 26, is a critical step in creating a lethal and agile expeditionary advanced base, ensuring NATO can rapidly integrate long-range precision fires and command and control in the High North. Atlantic City 26 is a Norwegian-led trilateral readiness initiative with the United Kingdom and United States designed to develop and demonstrate expeditionary advanced base capabilities and validate combined fires, maritime domain awareness, and sea denial to reinforce the security and stability of the High North. Jan Mayen is sovereign Norwegian territory in an isolated part of the Norwegian Sea, approximately 1,000 kilometers (620 miles) from mainland Norway. At the same time, the island occupies an important geostrategic position north of the Greenland-Iceland-U.K. gap, an area of water strategically significant to the defense of the U.S. homeland and northern Europe. (U.S. Marine Corps video by Sgt. Noah Masog)",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.airandspaceforces.com/future-airmen-to-get-less-sleep-more-stress-in-basic-training/",
@@ -202,7 +202,7 @@
    "author": "CPT Brady Mallory",
    "pubDate": "2026-09-05T10:15:34+00:00",
    "summary": "MARINE CORPS AIR STATION IWAKUNI, Japan – The U.S. Marine Corps deployed Marine Fighter Attack Squadron (VMFA) 533, also known as the “Hawks,” an F-35B Lightning II squadron based at Marine Corps Air Station Beaufort, South Carolina to MCAS Iwakuni, Japan, under the Marine Corps’ Unit Deployment Program (UDP) on Sept. 5, 2026. VMFA-533 joins Marine Aircraft Group (MAG) 12, 1st Marine Aircraft Wing, and will conduct aviation operations and maintain combat readiness throughout the Indo-Pacific reg",
-   "body": "IWAKUNI, YAMAGUCHI, JAPAN\n\nStory by Capt. Brady Mallory\n\n1st Marine Aircraft Wing\n\nMARINE CORPS AIR STATION IWAKUNI, Japan – The U.S. Marine Corps deploys Marine Fighter Attack Squadron (VMFA) 533, also known as the “Hawks,” an F-35B Lightning II squadron based at Marine Corps Air Station Beaufort, South Carolina to MCAS Iwakuni, Japan, under the Marine Corps’ Unit Deployment Program (UDP) on Sept. 5, 2026. VMFA-533 joins Marine Aircraft Group (MAG) 12, 1st Marine Aircraft Wing, and will conduct aviation operations and maintain combat readiness throughout the Indo-Pacific region. VMFA-533 will integrate as the new UDP squadron, replacing the current UDP squadron, VMFA-232.\n\nThe Unit Deployment Program provides continental U.S.-based units with experience operating in the Indo-Pacific through continuous and overlapping deployments to the region. The Hawks will augment 1st Marine Aircraft Wing’s ability to provide combat-ready, task-organized aviation forces capable of operating from naval and expeditionary environments. This enhances operational readiness, promotes regional stability, and demonstrates the United States’ enduring commitment to the U.S.-Japan Treaty of Mutual Cooperation and Security.\n\n09.05.2026 06:15\n\nStory ID:\n\n574027\n\nIWAKUNI, YAMAGUCHI, JP\n\n85\n\nCONNECTED MEDIA\n\nNo keywords found.\n\nDownload Story\n\nConnect to Placements\n\nAdd to Playlist\n\nDistribute Story\n\nSchedule Social Post\n\nEdit Story\n\nAdd News & Images to Playlist\n\nPrintable Version\n\nRequest Audio Version\n\noverseas\n\nreadiness\n\nMAG12\n\nhawks\n\nUDP\n\nUSPACOM",
+   "body": "IWAKUNI, YAMAGUCHI, JAPAN\n\nStory by Capt. Brady Mallory\n\n1st Marine Aircraft Wing\n\nMARINE CORPS AIR STATION IWAKUNI, Japan – The U.S. Marine Corps deploys Marine Fighter Attack Squadron (VMFA) 533, also known as the “Hawks,” an F-35B Lightning II squadron based at Marine Corps Air Station Beaufort, South Carolina to MCAS Iwakuni, Japan, under the Marine Corps’ Unit Deployment Program (UDP) on Sept. 5, 2026. VMFA-533 joins Marine Aircraft Group (MAG) 12, 1st Marine Aircraft Wing, and will conduct aviation operations and maintain combat readiness throughout the Indo-Pacific region. VMFA-533 will integrate as the new UDP squadron, replacing the current UDP squadron, VMFA-232.\n\nThe Unit Deployment Program provides continental U.S.-based units with experience operating in the Indo-Pacific through continuous and overlapping deployments to the region. The Hawks will augment 1st Marine Aircraft Wing’s ability to provide combat-ready, task-organized aviation forces capable of operating from naval and expeditionary environments. This enhances operational readiness, promotes regional stability, and demonstrates the United States’ enduring commitment to the U.S.-Japan Treaty of Mutual Cooperation and Security.\n\n09.05.2026 06:15\n\nStory ID:\n\n574027\n\nIWAKUNI, YAMAGUCHI, JP\n\n86\n\nCONNECTED MEDIA\n\nNo keywords found.\n\nDownload Story\n\nConnect to Placements\n\nAdd to Playlist\n\nDistribute Story\n\nSchedule Social Post\n\nEdit Story\n\nAdd News & Images to Playlist\n\nPrintable Version\n\nRequest Audio Version\n\noverseas\n\nreadiness\n\nMAG12\n\nhawks\n\nUDP\n\nUSPACOM",
    "channel": "us_marines",
    "channelName": "美国海军陆战队"
   },
@@ -237,32 +237,22 @@
    "channelName": "美国国防部"
   },
   {
-   "url": "https://www.dvidshub.net/image/9915099/us-jpn-and-aus-forces-execute-trilateral-battle-update-bried-yama-sakura-exercise",
-   "title": "US, JPN, and AUS. Forces Execute Trilateral Battle Update Bried at Yama Sakura Exercise",
-   "author": "SGT Keyra Moolenaar",
-   "pubDate": "2026-09-05T06:31:00+00:00",
-   "summary": "Maj. Gen. Ash Collingburn, commander, Australian Army’s 1st (Australian) Division and U.S. Army Maj. Gen. John P. Cogbill, commander, 11th Airborne Division and Lt. Gen. Kazutomo, commander, Japanese Ground Self-Defense Force Northern Army attend a Trilateral Battle Update Brief (TBUB) during Exercise Yama Sakura 91 at Camp Higashi-Chitose, Japan, Sep. 04, 2026. A TBUB provides shared understanding of current and upcoming decisions to the participating forces to increase interoperability among t",
-   "body": "Ash Collingburn, commander, Australian Army’s 1st (Australian) Division and U.\n\nCogbill, commander, 11th Airborne Division and Lt.\n\nKazutomo, commander, Japanese Ground Self-Defense Force Northern Army attend a Trilateral Battle Update Brief (TBUB) during Exercise Yama Sakura 91 at Camp Higashi-Chitose, Japan, Sep.\n\nA TBUB provides shared understanding of current and upcoming decisions to the participating forces to increase interoperability among the three nations.\n\nArmy photo by Keyra Moolenaar)",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/9914816/ys-tactical-battle-update-brief",
+   "url": "https://www.dvidshub.net/image/9914817/ys-tactical-battle-update-brief",
    "title": "YS Tactical Battle Update Brief",
    "author": "Courtesy",
-   "pubDate": "2026-09-05T06:30:59+00:00",
-   "summary": "Australian Army Officers, Colonel Roland Spackman from Headquarters of the 1st Australian Division and Commander of the 17th Brigade, Brigadier Rebecca Talbot discussing with American counterparts as part of Exercise Yama Sakura in Chitose, Hokkaido. (Courtesy photo by GNR Jesse Linards) The 1st Australian Division commenced Exercise Yama Sakura 91 in Japan on 02 September 2026. Exercise Yama Sakura is a trilateral command post exercise that enhances interoperability and readiness between the Au",
-   "body": "Australian Army Officers, Colonel Roland Spackman from Headquarters of the 1st Australian Division and Commander of the 17th Brigade, Brigadier Rebecca Talbot discussing with American counterparts as part of Exercise Yama Sakura in Chitose, Hokkaido.\n\n(Courtesy photo by GNR Jesse Linards) The 1st Australian Division commenced Exercise Yama Sakura 91 in Japan on 02 September 2026.\n\nExercise Yama Sakura is a trilateral command post exercise that enhances interoperability and readiness between the Australian Defence Force, the United States military and the Japan Ground Self-Defense Force.\n\nThe exercise focuses on planning and conducting large-scale combat operations as part of a coalition force.\n\nApproximately 340 ADF personnel participate alongside 1400 United States Army personnel, 350 United States Marine Corps personnel and 4,000 JGSDF personnel.\n\nActivities are conducted primarily at JGSDF Camps Higashi Chitose and Asaka in Japan, with supporting contingents operating from Hawaii.",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
+   "pubDate": "2026-09-05T06:31:00+00:00",
+   "summary": "Australian Army Commander of the 1st Division, Major General Ash Collingburn, AM, DSM, Lieutenant General Matthew W. McFarlane, Commanding General of I Corps and Lieutenant General Makoto Endo, Commander of the Ground Component Command for the Japan Ground Self-Defence Force at the Tactical Battle Update Brief as part of Exercise Yama Sakura in Asaka, Tokyo. (Courtesy photo by GNR Jesse Linards) The 1st Australian Division commenced Exercise Yama Sakura 91 in Japan on 02 September 2026. Exercise",
+   "body": "Australian Army Commander of the 1st Division, Major General Ash Collingburn, AM, DSM, Lieutenant General Matthew W.\n\nMcFarlane, Commanding General of I Corps and Lieutenant General Makoto Endo, Commander of the Ground Component Command for the Japan Ground Self-Defence Force at the Tactical Battle Update Brief as part of Exercise Yama Sakura in Asaka, Tokyo.\n\n(Courtesy photo by GNR Jesse Linards) The 1st Australian Division commenced Exercise Yama Sakura 91 in Japan on 02 September 2026.\n\nExercise Yama Sakura is a trilateral command post exercise that enhances interoperability and readiness between the Australian Defence Force, the United States military and the Japan Ground Self-Defense Force.\n\nThe exercise focuses on planning and conducting large-scale combat operations as part of a coalition force.\n\nApproximately 340 ADF personnel participate alongside 1400 United States Army personnel, 350 United States Marine Corps personnel and 4,000 JGSDF personnel.\n\nActivities are conducted primarily at JGSDF Camps Higashi Chitose and Asaka in Japan, with supporting contingents operating from Hawaii.",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
-   "url": "https://www.dvidshub.net/image/9915111/us-japanese-and-australian-forces-conduct-exercise-yama-sakura-91",
+   "url": "https://www.dvidshub.net/image/9915109/us-japanese-and-australian-forces-conduct-exercise-yama-sakura-91",
    "title": "U.S., Japanese and Australian Forces Conduct Exercise Yama Sakura 91",
    "author": "PO2 Christian Kibler",
-   "pubDate": "2026-09-05T05:39:03+00:00",
-   "summary": "CAMP ASAKA, JAPAN – A Japanese Ground Self-Defense Force member delivers remarks to U.S., Japanese and Australian forces during a strategic meeting part of Exercise Yama Sakura 91 at Camp Asaka, Japan, Sept. 4, 2026. YS 91 is an annual multilateral CPX hosted by JGSDF and conducted in multiple locations throughout Japan. YS 91 is designed to enhance U.S., Japan and multinational partner interoperability while strengthening multinational relationships and demonstrating U.S. resolve to support the",
-   "body": "CAMP ASAKA, JAPAN – A Japanese Ground Self-Defense Force member delivers remarks to U.\n\n, Japanese and Australian forces during a strategic meeting part of Exercise Yama Sakura 91 at Camp Asaka, Japan, Sept.\n\nYS 91 is an annual multilateral CPX hosted by JGSDF and conducted in multiple locations throughout Japan.\n\nYS 91 is designed to enhance U.\n\n, Japan and multinational partner interoperability while strengthening multinational relationships and demonstrating U.\n\nresolve to support the security interests of friends and allies in the region.\n\nNavy photo by Mass Communication Specialist 2nd Class Christian Kibler) (This photo was edited for operational security)",
+   "pubDate": "2026-09-05T05:39:07+00:00",
+   "summary": "CAMP ASAKA, JAPAN – U.S. Army Soldiers and Australian Soldiers participate in a strategic meeting hosted by the Japanese Ground Self-Defense Force during Exercise Yama Sakura 91 at Camp Asaka, Japan, Sept. 4, 2026. YS 91 is an annual multilateral CPX hosted by JGSDF and conducted in multiple locations throughout Japan. YS 91 is designed to enhance U.S., Japan and multinational partner interoperability while strengthening multinational relationships and demonstrating U.S. resolve to support the s",
+   "body": "CAMP ASAKA, JAPAN – U.\n\nArmy Soldiers and Australian Soldiers participate in a strategic meeting hosted by the Japanese Ground Self-Defense Force during Exercise Yama Sakura 91 at Camp Asaka, Japan, Sept.\n\nYS 91 is an annual multilateral CPX hosted by JGSDF and conducted in multiple locations throughout Japan.\n\nYS 91 is designed to enhance U.\n\n, Japan and multinational partner interoperability while strengthening multinational relationships and demonstrating U.\n\nresolve to support the security interests of friends and allies in the region.\n\nNavy photo by Mass Communication Specialist 2nd Class Christian Kibler) (This photo was edited for operational security)",
    "channel": "us_dod",
    "channelName": "美国国防部"
   },
@@ -287,14 +277,14 @@
    "channelName": "美国国防部"
   },
   {
-   "url": "https://www.dvidshub.net/image/9914662/hawaii-department-education-leadership-visit-mcbh",
+   "url": "https://www.dvidshub.net/image/9914661/hawaii-department-education-leadership-visit-mcbh",
    "title": "Hawaii Department of Education Leadership Visit MCBH",
    "author": "LCpl Nicholas Figueroa",
    "pubDate": "2026-09-04T23:57:30+00:00",
-   "summary": "U.S. Marine Corps Col. Stephen DeTrinis, right, commanding officer of Marine Corps Base Hawaii, addresses MCBH and Hawaii Department of Education (HIDOE) leadership during a leadership engagement at MCBH, Sept. 3, 2026. The visit provided an opportunity for base and HIDOE leaders to discuss key initiatives supporting military-connected students, strengthen institutional partnerships, and build unity cohesion. (U.S. Marine Corps photo by Lance Cpl. Nicholas Figueroa)",
-   "body": "Stephen DeTrinis, right, commanding officer of Marine Corps Base Hawaii, addresses MCBH and Hawaii Department of Education (HIDOE) leadership during a leadership engagement at MCBH, Sept.\n\nThe visit provided an opportunity for base and HIDOE leaders to discuss key initiatives supporting military-connected students, strengthen institutional partnerships, and build unity cohesion.\n\nMarine Corps photo by Lance Cpl.",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
+   "summary": "U.S. Marine Corps Lt. Col. Anthony Suh, left, commanding officer of Headquarters Battalion, Marine Corps Base Hawaii, speaks with Lt. Col. Salvador Jauregui, right, commanding officer of Marine Corps Station Kaneohe Bay during a leadership engagement at MCBH, Sept. 3, 2026. The visit provided an opportunity for base and Hawaii Department of Education leaders to discuss key initiatives supporting military-connected students, strengthen institutional partnerships, and build unity cohesion. (U.S. M",
+   "body": "Anthony Suh, left, commanding officer of Headquarters Battalion, Marine Corps Base Hawaii, speaks with Lt.\n\nSalvador Jauregui, right, commanding officer of Marine Corps Station Kaneohe Bay during a leadership engagement at MCBH, Sept.\n\nThe visit provided an opportunity for base and Hawaii Department of Education leaders to discuss key initiatives supporting military-connected students, strengthen institutional partnerships, and build unity cohesion.\n\nMarine Corps photo by Lance Cpl.",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.dvidshub.net/news/574023/forged-arctic-built-fight-11th-airborne-division-trains-across-pacific",
@@ -312,7 +302,7 @@
    "author": "Arsenio R. Cortez Jr.",
    "pubDate": "2026-09-04T23:00:38+00:00",
    "summary": "Naval Medical Forces Pacific hosted a senior delegation of Japanese government and officials, clinical leaders and academic researchers Aug. 25, 2026, to deepen bilateral medical collaboration and examine the operational requirements of maritime healthcare across the vast Indo-Pacific region.",
-   "body": "Naval Medical Forces Pacific hosted a senior delegation of Japanese government and officials, clinical leaders and academic researchers Aug.\n\n25, 2026, to deepen bilateral medical collaboration and examine the operational requirements of maritime healthcare across the vast Indo-Pacific region.",
+   "body": "Naval Medical Forces Pacific hosted a senior delegation of Japanese government and officials, clinical leaders and academic researchers Aug. 25, 2026, to deepen bilateral medical collaboration and examine the operational requirements of maritime healthcare across the vast Indo-Pacific region. Led by Jun Tsushima, state minister of the Cabinet Office of Japan, the delegation met with NMFP leadership to exchange expertise on shipboard medical doctrine, underway clinical training, emergency response integration and the future architecture of afloat hospital platforms. Rear Adm. Kevin Brown, commander of NMFP and director of Defense Health Network-Pacific Rim, provided the delegates with an overview of the command’s expansive area of responsibility. Central to the command’s mission is the preparation and sustainment of a ready medical force capable of rapidly mobilizing from shore to operational theaters, including deployments aboard the hospital ship USNS Mercy. \"The vast majority of our doctors, nurses, corpsmen and clinical support specialists work daily within our shore hospitals and clinics delivering routine patient care,” Brown said. “When a crisis emerges and the USNS Mercy receives operational tasking, we draw those ready deployable medical teams from our medical treatment facilities to perform life-saving care in theater while keeping our military treatment facilities prepared to receive returning casualties.” For Japanese leadership, cultivating maritime medical capability represents both an urgent humanitarian requirement and a vital defense priority. Tsushima explained that while Japan's health care system is highly effective in executing medical responses on land, its experience in delivering care at sea remains limited. Because Japan is surrounded by water and frequently impacted by natural disasters such as earthquakes, tsunamis and typhoons, he emphasized the critical importance of developing shipboard medical capabilities to support emergency care. During the discussion, delegates explored the operational trade-offs between large floating hospitals and smaller, specialized vessels. Brown outlined current U.S. Navy modernization concepts, highlighting the ongoing requirement for agile, shallow-draft platforms capable of delivering Role 2 damage-control resuscitation and stabilization close to contested waters, alongside future long-term planning to replace aging 1980s-era converted tanker hospital ships with modern Role 3 afloat medical capabilities. Addressing questions from Yoichi Koida of the Japan Institute for Health Security, Brown noted that the strategic geography of the Pacific dictates the evolution in combat casualty care and medical evacuation doctrine. \"Over the past 30 years, our ability to move life-saving surgical teams near the point of injury and evacuate casualties through an uncontested medical evacuation system was the greatest contributor to combat survival rates,\" Brown explained. \"However, in a conflict across the Pacific, we might not always have the luxury of uninterrupted command of the air and sea, or continuous electronic communications. Planners are exploring various concepts, including leveraging highly mobile, agile afloat medical platforms capable of delivering immediate damage-control surgery in communications-suppressed environments.\" Clinical workflow was also a central focus of the exchange. John Rotruck, chief medical officer for Defense Health Network-Pacific Rim, highlighted essential design lessons from current operations, recommending that future hospital ship configurations maintain casualty receiving, trauma resuscitation, advanced radiology, surgical suites and intensive care units on the same deck to eliminate vertical patient transport for critically injured individuals. “Keeping all the most critical parts of the care pathway on the same deck of the ship allows a natural flow of care,” Rotruck said. Brown also emphasized the Pacific Partnership mission as a proven framework for ongoing coordination between military planners, civilian medical systems and partner nations, recommending Japanese participation in early-stage joint planning cells. Concluding the exchange, Tsushima expressed strong interest in expanding future bilateral cooperation between the United States and Japan across maritime medical response missions. He emphasized that growing opportunities for joint training, sharing operational experience, and learning from each other will ensure both nations are better prepared to preserve life during natural disasters and complex emergencies. NMFP provides oversight for 10 Navy Medicine Readiness and Training Commands (NMRTC) on the West Coast and Pacific Rim that train, man and equip medical forces, primarily in military treatment facilities. Globally, NMFP oversees eight research laboratories that deliver research expertise in support of warfighter health and readiness. Additionally, NMFP manages the Naval Expeditionary Medicine Warfighter Development Center (NEMWDC), which plays a critical role in preparing medical teams for expeditionary and operational environments.",
    "channel": "us_dod",
    "channelName": "美国国防部"
   },
@@ -322,7 +312,7 @@
    "author": "Courtesy",
    "pubDate": "2026-09-04T22:34:51+00:00",
    "summary": "The North American Aerospace Defense Command will enforce multiple VIP Temporary Flight Restriction (TFR) areas established by the Federal Aviation Administration (FAA) over the New Jersey area this long weekend, with impacts to general aviation September 4 - 7, 2026.",
-   "body": "The North American Aerospace Defense Command will enforce multiple VIP Temporary Flight Restriction (TFR) areas established by the Federal Aviation Administration (FAA) over the New Jersey area this long weekend, with impacts to general aviation September 4 - 7, 2026.",
+   "body": "TYNDALL AIR FORCE BASE, Fla. – The North American Aerospace Defense Command will enforce multiple VIP Temporary Flight Restriction (TFR) areas established by the Federal Aviation Administration (FAA) over the New Jersey area this long weekend, with impacts to general aviation September 4 - 7, 2026. General aviation pilots are reminded to check Notices to Airmen, or NOTAMs, before each flight as required by the FAA, and TFR procedures must be followed. If required, NORAD aircraft will respond to aircraft violating TFRs and take the necessary action to gain compliance – a scenario we encourage all pilots to avoid. Pilots can access the most up-to-date information published by the FAA at https://tfr.faa.gov/ Pilots and the public may also notice U.S. Army ground-based air defense equipment in the same geographic region. These systems are operating under NORAD authorities, constitute a routine component of the command’s layered defense posture and work in tandem with the command’s airborne assets to monitor and protect the airspace. NORAD employs a layered defense network of radars, satellites, fighter aircraft, and other capabilities to identify and respond to potential threats. This defense posture demonstrates how NORAD executes Operation NOBLE EAGLE - its vital aerospace warning and control mission for North America. For more information about General Aviation and TFRs visit https://www.norad.mil/General-Aviation/",
    "channel": "us_dod",
    "channelName": "美国国防部"
   },
@@ -372,7 +362,7 @@
    "author": "Sgt Tanner Pittard",
    "pubDate": "2026-09-04T20:17:38+00:00",
    "summary": "After growing up in war-torn Baghdad inspired by patrolling U.S. service members, Sgt. Hasanein Alrushdawi immigrated to America and walked into a Florida recruiting office in 2022, where he met Gunnery Sgt. Jonathan Carter, a mentor who lived by the philosophy that recruiters don't just write contracts, they enlist their replacements. Carter guided Alrushdawi through recruit training, fleet service, and career milestones, forging a brotherly bond that came full circle in 2024 when Alrushdawi re",
-   "body": "After growing up in war-torn Baghdad inspired by patrolling U.\n\nservice members, Sgt.\n\nHasanein Alrushdawi immigrated to America and walked into a Florida recruiting office in 2022, where he met Gunnery Sgt.\n\nJonathan Carter, a mentor who lived by the philosophy that recruiters don't just write contracts, they enlist their replacements.\n\nCarter guided Alrushdawi through recruit training, fleet service, and career milestones, forging a brotherly bond that came full circle in 2024 when Alrushdawi reenlisted and volunteered for recruiting duty.\n\nToday, both Marines serve side by side in Florida at Recruiting Station Tampa to seek out and mentor the next generation of Marine Corps leaders.",
+   "body": "The Replacement TAMPA, Fla. — In 2001, U.S. Marine Corps Sgt. Hasanein Alrushdawi was born in Baghdad, Iraq. Growing up during a period of intense conflict, his early years were marked by the realities of war. Yet amidst the instability of his homeland, Alrushdawi found inspiration in the U.S. Marines patrolling his neighborhood. \"What was always in front of me is United States Marines roaming the streets of my home and I idolized them because they were sacrificing so much for people, they do not even know,\" Alrushdawi said. He decided at a young age that he wanted to become a selfless protector and earn the title of Marine. Meanwhile, thousands of miles away in the United States, U.S. Marine Corps Gunnery Sgt. Jonathan Carter was seeking his own path. He did not grow up around the Marine Corps or come from a military family, but he possessed an innate desire to help others and challenge himself. \"If I knew I was going to join the military, why would I not enlist into the most challenging branch?\" Carter said. \"My 'why' was always to help others and to make myself and those I love proud.\" Though they came from completely different backgrounds, their paths would eventually cross in a central Florida recruiting office. By 2012, Alrushdawi’s family had immigrated to the United States. He carried with him a deep, burning sense of gratitude; a debt he felt he owed to the nation that had adopted him. Ten years later, in 2022, he walked into Permanent Contact Station Winter Park, Recruiting Sub-Station Orlando, Recruiting Station Tampa. Behind the desk sat Carter, a seasoned Marine who had volunteered for recruiting duty to make a tangible difference in the lives of young American men and women. Carter was the embodiment of what civilians picture when they think of a Marine: disciplined, compassionate, and intensely focused. When Carter looked at young “Al” standing before him, he didn't just see another applicant to sign up. He saw a \"heavy hitter.\" He saw a young man with a ruthless, natural drive that the Marine Corps didn't forge, but could certainly sharpen into a proud and motivated Marine. For Alrushdawi, looking at Carter brought back an immediate rush of memories from the streets of Baghdad. \"He genuinely cared,\" Alrushdawi recalls. \"He wanted to help, but he also gave me a challenge. From that moment, I knew I could never let him down. Failing was never an option.\" In the Marine Corps, those waiting to go to recruit training are called \"poolees.\" During this critical phase, Carter became more than a recruiter to Alrushdawi; he became a compass. There is an old, cynical saying in sales organizations: Once the contract is signed, the job is done. But the Marine Corps is not a sales organization. \"Recruiters don’t write contracts,\" Carter said. \"They enlist their replacements.\" This philosophy transformed a professional duty into a lifelong brotherhood. Long after Alrushdawi completed Marine Corps recruit training, earned the coveted title of Marine, and went out into the fleet, the phone calls never stopped. Whenever Alrushdawi faced a crossroad, a leadership challenge, or a personal doubt, he dialed the man who had helped him start his journey. And no matter where he was, Carter always answered. \"He knows me better than I know myself sometimes,\" Alrushdawi says. \"He became like the older brother I never had.\" To Carter, watching Alrushdawi grow was the ultimate validation of his career. \"I won't let him fail,\" Carter says simply. In a changing Marine Corps, where recruiters navigate new technologies, shifting generations, and the aftermath of a global pandemic, the one constant is the human element; The enduring professional relationship between a Marine and their mentor. By 2024, Alrushdawi was at a pivotal moment in his career. He was preparing his reenlistment package, having been accepted into the Command Retention Program. He stood at the edge of a new horizon and, naturally, he called his mentor. Alrushdawi asked Carter if he should wait to volunteer for recruiting duty or take the leap immediately. Carter didn't hesitate. He gave his younger brother-in-arms the kind of blunt, direct advice only a true mentor can offer: \"Get your ass out here now,” urged Carter. Today, both Marines are back in Florida, working side by side. Alrushdawi, a Marine Corps recruiter in Recruiting Sub-Station Brandon, and Carter the assistant recruiting instructor for Recruiting Station Tampa. The dynamic has shifted yet remained entirely the same. The recruiter and the recruit are now serving side-by-side as fellow Marines, fighting the same battle on the home front and seeking out the next generation of leaders to replace them. For Alrushdawi, the mission is deeply personal. He wants to be the \"gatekeeper\" for his community, ensuring that only the most qualified, driven young men and women have the opportunity to earn the title Marine. He wants to give others the same life-changing opportunity Carter gave him. For Carter, seeing Alrushdawi back on recruiting duty brings their journey full circle. \"This is how we build the best Marine Corps we’ve ever seen,\" Carter says. \"Never lose sight of the importance of what we do.\" To a civilian, the Marine Corps can look like an impenetrable wall of starch, brass, and rigid protocols. But to those who wear the uniform, the true strength of the Corps lies in its vulnerability: the shared sweat, the collective sacrifice and the unspoken promise that your background matters far less than the direction you are marching. One brother came from the quiet, structured pursuit of an American challenge. The other came from the smoke and rubble of a war zone halfway across the globe. Yet, today, they stand shoulder-to-shoulder in the Florida heat, bound by a promise made years ago in a recruiting office. They are proof that the Marine Corps doesn't just make Marines; it builds a family. It fosters a brotherhood that spans oceans, outlasts contracts, and endures for a lifetime.",
    "channel": "us_marines",
    "channelName": "美国海军陆战队"
   },
