@@ -17,9 +17,11 @@
 import ipaddress
 import json
 import os
+import random
 import re
 import socket
 import sys
+import threading
 import time
 import urllib.parse
 import urllib.request
@@ -123,11 +125,33 @@ def http_get(url, timeout=30, retries=2, ua=None):
                 return raw.decode("utf-8")
             except UnicodeDecodeError:
                 return raw.decode("utf-8", "ignore")
+        except urllib.error.HTTPError as e:
+            last = e
+            # 403/429 多为反爬限流：退避更久再试（单发可过、连发被封的站点靠这个恢复）
+            if i < retries:
+                time.sleep(6.0 * (i + 1) + random.uniform(0, 2))
         except Exception as e:  # noqa: BLE001
             last = e
             if i < retries:
                 time.sleep(1.5 * (i + 1))
     raise last
+
+
+# 正文页全局节流：Akamai 类防护按"短时间连发"封数据中心 IP（实测 af.mil 单发 200、
+# 13 篇并行连发全 403），所有正文抓取共用一把锁、按 BODY_THROTTLE+抖动 串行放行。
+_BODY_LOCK = threading.Lock()
+_last_body_at = [0.0]
+
+
+def throttled_body_fetch(fn):
+    with _BODY_LOCK:
+        wait = BODY_THROTTLE + random.uniform(0, 1.5) - (time.time() - _last_body_at[0])
+        if wait > 0:
+            time.sleep(wait)
+        try:
+            return fn()
+        finally:
+            _last_body_at[0] = time.time()
 
 CHANNELS = [
     {
@@ -541,14 +565,14 @@ def process_channel(ch, now):
                     # DVIDS 图/音/视频资产页：页面主体是元信息表（IMAGE INFO/VIRIN/下载按钮等），
                     # 唯一"正文"就是官方图说/简介 —— 优先 RSS description，为空则取页面 og:description。
                     if "dvidshub.net" in url and "/news/" not in url:
-                        cap = clean_html_to_paragraphs(raw) or dvids_og_caption(url)
+                        cap = clean_html_to_paragraphs(raw) or throttled_body_fetch(lambda: dvids_og_caption(url))
                         if cap:
                             e["body"] = cap
                             if not e["summary"]:
                                 e["summary"] = WS.sub(" ", cap[:400]).strip()[:400]
                             print("[%s] caption-from-rss %s chars: %s" % (ch["id"], len(cap), url[:70]), flush=True)
                             return e
-                    body = extract_page(url, ch.get("selectors"), ua=ch.get("ua"))
+                    body = throttled_body_fetch(lambda: extract_page(url, ch.get("selectors"), ua=ch.get("ua")))
                     if body:
                         # 首行与标题相同（dense 容器把 h1 一起带进来）时去掉，避免标题混进正文
                         parts_ = body.split("\n\n", 1)
