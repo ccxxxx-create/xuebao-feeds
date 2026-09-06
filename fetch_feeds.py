@@ -76,17 +76,53 @@ class _ValidatingRedirectHandler(urllib.request.HTTPRedirectHandler):
 
 _OPENER = urllib.request.build_opener(_ValidatingRedirectHandler())
 
+# curl_cffi：模拟 Chrome 的 TLS 指纹。af.mil/defense.gov 等 Akamai 防护站会按 TLS 指纹
+# 拦截 Python/urllib 的请求（对 GitHub Actions 出口 IP 直接 403），模拟浏览器指纹后可正常抓取；
+# 未安装时自动退回 urllib。
+try:
+    from curl_cffi import requests as _cr
+except ImportError:
+    _cr = None
+
+MAX_REDIRECTS = 5
+
+
+def _get_via_curl(url, timeout, headers):
+    """curl_cffi 抓取：重定向手动逐跳处理，每一跳都过 check_url。"""
+    u = url
+    for _ in range(MAX_REDIRECTS):
+        r = _cr.get(u, impersonate="chrome", timeout=timeout, headers=headers, allow_redirects=False)
+        if r.status_code in (301, 302, 303, 307, 308):
+            loc = r.headers.get("Location") or ""
+            if not loc:
+                raise RuntimeError("redirect without Location: %s" % r.status_code)
+            u = urllib.parse.urljoin(u, loc)
+            check_url(u)
+            continue
+        r.raise_for_status()
+        final = urllib.parse.urlsplit(r.url or u)
+        if (final.scheme or "") not in ("http", "https"):
+            raise ValueError("final scheme not allowed: %s" % final.scheme)
+        return r.content
+    raise RuntimeError("too many redirects: %s" % url[:120])
+
 
 def http_get(url, timeout=30, retries=2, ua=None):
     last = None
     for i in range(retries + 1):
         try:
-            check_url(url)  # 首跳校验（重定向各跳由 _ValidatingRedirectHandler 校验）
-            req = urllib.request.Request(url, headers={"User-Agent": ua or UA})
-            with _OPENER.open(req, timeout=timeout) as resp:
-                raw = resp.read()
-            ctype = resp.headers.get("Content-Type", "") or ""
-            return raw.decode("utf-8", "ignore") if "utf-8" in ctype or not ctype else raw.decode("utf-8", "ignore")
+            check_url(url)  # 首跳校验（重定向各跳在 fetcher 内逐跳校验）
+            headers = {"User-Agent": ua or UA}
+            if _cr is not None:
+                raw = _get_via_curl(url, timeout, headers)
+            else:
+                req = urllib.request.Request(url, headers=headers)
+                with _OPENER.open(req, timeout=timeout) as resp:
+                    raw = resp.read()
+            try:
+                return raw.decode("utf-8")
+            except UnicodeDecodeError:
+                return raw.decode("utf-8", "ignore")
         except Exception as e:  # noqa: BLE001
             last = e
             if i < retries:
