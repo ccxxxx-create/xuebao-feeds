@@ -1,68 +1,68 @@
 {
- "updatedAt": "2026-09-06T01:49:17.579177+00:00",
+ "updatedAt": "2026-09-06T02:02:53.889171+00:00",
  "meta": {
   "afresearchlab": {
    "name": "AFRL",
    "status": "ok",
    "count": 2,
    "error": null,
-   "fetchedAt": "2026-09-06T01:49:17.579177+00:00"
+   "fetchedAt": "2026-09-06T02:02:53.889171+00:00"
   },
   "westpoint": {
    "name": "西点军校",
    "status": "error",
    "count": 0,
    "error": "all feeds failed: https://www.westpoint.edu/rss.xml -> HTTP Error 403: Forbidden",
-   "fetchedAt": "2026-09-06T01:49:17.579177+00:00"
-  },
-  "airandspaceforces": {
-   "name": "Air & Space Forces",
-   "status": "ok",
-   "count": 9,
-   "error": null,
-   "fetchedAt": "2026-09-06T01:49:17.579177+00:00"
-  },
-  "govuk_mod": {
-   "name": "英国国防部",
-   "status": "ok",
-   "count": 20,
-   "error": null,
-   "fetchedAt": "2026-09-06T01:49:17.579177+00:00"
+   "fetchedAt": "2026-09-06T02:02:53.889171+00:00"
   },
   "defensenews": {
    "name": "Defense News",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-06T01:49:17.579177+00:00"
+   "fetchedAt": "2026-09-06T02:02:53.889171+00:00"
   },
   "rand": {
    "name": "兰德",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-06T01:49:17.579177+00:00"
+   "fetchedAt": "2026-09-06T02:02:53.889171+00:00"
   },
-  "us_dod": {
-   "name": "美国国防部",
+  "airandspaceforces": {
+   "name": "Air & Space Forces",
+   "status": "ok",
+   "count": 9,
+   "error": null,
+   "fetchedAt": "2026-09-06T02:02:53.889171+00:00"
+  },
+  "govuk_mod": {
+   "name": "英国国防部",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-06T01:49:17.579177+00:00"
+   "fetchedAt": "2026-09-06T02:02:53.889171+00:00"
   },
   "us_marines": {
    "name": "美国海军陆战队",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-06T01:49:17.579177+00:00"
+   "fetchedAt": "2026-09-06T02:02:53.889171+00:00"
+  },
+  "us_dod": {
+   "name": "美国国防部",
+   "status": "ok",
+   "count": 20,
+   "error": null,
+   "fetchedAt": "2026-09-06T02:02:53.889171+00:00"
   },
   "us_airforce": {
    "name": "美国空军",
    "status": "ok",
    "count": 13,
    "error": null,
-   "fetchedAt": "2026-09-06T01:49:17.579177+00:00"
+   "fetchedAt": "2026-09-06T02:02:53.889171+00:00"
   }
  },
  "items": [
@@ -82,7 +82,7 @@
    "author": "Chris Gordon",
    "pubDate": "2026-09-05T20:47:20+00:00",
    "summary": "The U.S. military struck three Iranian oil tankers on Sept. 5, as the Trump administration and Iran battle for control over the Strait of Hormuz. The post US Fighters, Drones Strike 3 Iranian Oil Tankers After Iran Fires on Navy Ships appeared first on Air &amp; Space Forces Magazine .",
-   "body": "Audio of this article is brought to you by the Air & Space Forces Association, honoring and supporting our Airmen, Guardians, and their families. Find out more at afa.org\n\nThe U.S. military struck three Iranian oil tankers on Sept. 5, as the Trump administration and Iran battle for control over the Strait of Hormuz.\n\nA mix of Air Force and Navy aircraft carried out the attacks, including both fighters and drones, U.S. officials told Air & Space Forces Magazine. The attack followed an unsuccessful Iranian ballistic missile attack on a U.S. aircraft carrier and a guided-missile destroyer. Neither U.S. ship was hit.\n\n“Let the message to the IRGC be clear,” said Adm. Brad Cooper, the CENTCOM commander, referring to Iran’s Islamic Revolutionary Guard Corps. “If you shoot at our ships, we will impose an even higher economic cost—take out three of yours.”\n\nCooper’s statement continued: “We will not hesitate to defend American forces, and if necessary, destroy Iran’s limited and exposed oil fleet.”\n\nThe three Iranian tankers included M/T Downy, hit near Kharg Island, and the M/T Stark 1, which was struck near Jask, a coastal city in Iran. The M/T Downy and M/T Stark 1 were “permanently disabled,” according to CENTCOM. The third Iranian oil carrier was hit in the Gulf of Oman. Struck in multiple locations, that tanker was rendered inoperable and “completely destroyed,” according to CENTCOM. The Iranian crew was warned that it should abandon ship before the strike, the command said. CENTCOM later released a video of the attacks on the ships.\n\nThe U.S. attacks on the Iranian oil tankers are part of a new Trump administration policy to deter Iranian attacks on U.S. military forces and commercial vessels. Previously, the U.S. had focused its attacks on Iranian military targets, such as radars and surface-to-air missiles.\n\nIran’s foreign ministry called the attacks on oil tankers a “war crime” intended to further America’s “economic war” on the Iranian homeland. Cooper said the attacks on Iran’s oil carriers are justified because they generate revenue for the IRGC.\n\nThe IRGC said in its own statement that it would follow suit and that it targeted “three oil tankers traveling through an unauthorized route in the Strait of Hormuz, as well as three vessels affiliated with the United States in other areas.”\n\nThe U.S. is seeking to use economic sanctions and a blockade to pressure Iran to give up its attempt to control international shipping through the Strait of Hormuz and to agree to limits on its nuclear program.\n\nTrending Stories\n\nB-52s Deploy for Bomber Task Force to Australia’s New BUFF Base\n\nAir Force Releases Results from Inspections of M18 Pistols\n\nFuture Airmen to Get Less Sleep, More Stress in Basic Training\n\nGuard F-16s Kept Pace on Kadena Deployment, but Edge Wears Thin\n\nRelated\n\nAir Force Speeding Up New Low-Cost Drone Program after Heavy MQ-9 Losses Against Iran\n\nFresh US Fighter Jets Rotate into Middle East as Trump Tries to Up Pressure on Iran\n\nLast EC-130H Makes Its Final Flight Ahead of Retirement\n\nWhat Each F-35 Variant Really Costs Right Now\n\nAFRL Seeks Payload-Agnostic, Affordable Hypersonic Cruise Missile\n\nUS and Iran Trade Strikes as Fighting Resumes in Gulf\n\nDoubling of F-15EX Fleet Comes with Risks for USAF to Manage: New Pentagon Report\n\nAn Iranian tanker is struck by U.S. forces Sept. 5, 2026. CENTCOM photo\n\nExpand Photo\n\nSept. 5, 2026 | By Chris Gordon\n\nAir\n\nNational Security\n\nSept. 4, 2026\n\nThe Air Force is accelerating its plans to field an MQ-9A replacement in the wake of heavy Reaper losses in operations against Iran, top officials said Sept. 3, and they’re targeting a price point of just $10 million per aircraft.\n\nThe U.S. is rotating fresh fighter squadrons to the Middle East to support the Trump administration’s open-ended campaign of economic and military pressure against Iran.\n\nAn F-16 Air National Guard unit’s six-month deployment to Kadena Air Base, Japan, this year illustrated the capabilities the Guard’s oldest fighter units can still offer—but also the challenges they face, officials told reporters this week.\n\nSept. 3, 2026\n\nThe last EC-130H Compass Call in the Air Force’s active inventory made its final flight Sept. 2, as the service prepares to retire the venerable electronic warfare aircraft and pivot to the new EA-37B.\n\nAir Force B-52 Stratofortress bombers landed at a northern Australian air base this week, a major display of the U.S. military’s ability to project force in the Pacific.\n\nThe base cost of an F-35A, the Air Force variant of the Joint Strike Fighter, is going up 11.5 percent from $82.5 million to $92 million for the latest lots of the fifth-generation aircraft, Air & Space Forces Magazine has confirmed.\n\nSept. 2, 2026\n\nThe Air Force Research Laboratory has signaled to industry it wants to develop a low-cost hypersonic cruise missile to deliver a wide range of payloads at a range up to 500 nautical miles.\n\nU.S. Central Command launched a wave of strikes against Iran on Sept. 1, and President Donald Trump said forces are “prepared to do another one” as Iranian forces launched retaliatory attacks Sept. 2.\n\nThe Air Force’s decision to more than double its purchase of F-15EX Eagle II jets may bolster the service’s fighter fleet, but it also comes with risks and questions officials will have to manage in the years ahead, a new Pentagon report warns.",
+   "body": "Audio of this article is brought to you by the Air & Space Forces Association, honoring and supporting our Airmen, Guardians, and their families. Find out more at afa.org\n\nThe U.S. military struck three Iranian oil tankers on Sept. 5, as the Trump administration and Iran battle for control over the Strait of Hormuz.\n\nA mix of Air Force and Navy aircraft carried out the attacks, including both fighters and drones, U.S. officials told Air & Space Forces Magazine. The attack followed an unsuccessful Iranian ballistic missile attack on a U.S. aircraft carrier and a guided-missile destroyer. Neither U.S. ship was hit.\n\n“Let the message to the IRGC be clear,” said Adm. Brad Cooper, the CENTCOM commander, referring to Iran’s Islamic Revolutionary Guard Corps. “If you shoot at our ships, we will impose an even higher economic cost—take out three of yours.”\n\nCooper’s statement continued: “We will not hesitate to defend American forces, and if necessary, destroy Iran’s limited and exposed oil fleet.”\n\nThe three Iranian tankers included M/T Downy, which was hit near Kharg Island, and the M/T Stark 1, which was struck near Jask, a coastal city in Iran. The M/T Downy and M/T Stark 1 were “permanently disabled,” according to CENTCOM. The third Iranian tanker, M/T Kylo, was hit in the Gulf of Oman. Struck in multiple locations, that tanker was rendered inoperable and “completely destroyed,” according to CENTCOM. It later sank. The Iranian crew was warned that it should abandon ship before the strike, the command said. CENTCOM released a video of the attacks on the ships and the sinking of the M/T Kylo.\n\nThe M/T Downy and M/T Stark 1 were impacted by weapons fired at the stern of the ship, while the M/T Kylo suffered more significant bombardment.\n\nThe U.S. attacks on the Iranian oil tankers are part of a new Trump administration policy to deter Iranian attacks on U.S. military forces and commercial vessels. Previously, the U.S. had focused its attacks on Iranian military targets, such as radars and surface-to-air missiles.\n\nIran’s foreign ministry called the attacks on oil tankers a “war crime” intended to further America’s “economic war” on the Iranian homeland. Cooper said the attacks on Iran’s oil carriers are justified because they generate revenue for the IRGC.\n\nThe IRGC said in its own statement that it would follow suit and that it targeted “three oil tankers traveling through an unauthorized route in the Strait of Hormuz, as well as three vessels affiliated with the United States in other areas.”\n\nThe U.S. is seeking to use economic sanctions and a blockade to pressure Iran to give up its attempt to control international shipping through the Strait of Hormuz and to agree to limits on its nuclear program.\n\nTrending Stories\n\nB-52s Deploy for Bomber Task Force to Australia’s New BUFF Base\n\nAir Force Releases Results from Inspections of M18 Pistols\n\nFuture Airmen to Get Less Sleep, More Stress in Basic Training\n\nGuard F-16s Kept Pace on Kadena Deployment, but Edge Wears Thin\n\nRelated\n\nAir Force Speeding Up New Low-Cost Drone Program after Heavy MQ-9 Losses Against Iran\n\nFresh US Fighter Jets Rotate into Middle East as Trump Tries to Up Pressure on Iran\n\nLast EC-130H Makes Its Final Flight Ahead of Retirement\n\nWhat Each F-35 Variant Really Costs Right Now\n\nAFRL Seeks Payload-Agnostic, Affordable Hypersonic Cruise Missile\n\nUS and Iran Trade Strikes as Fighting Resumes in Gulf\n\nDoubling of F-15EX Fleet Comes with Risks for USAF to Manage: New Pentagon Report\n\nAn Iranian tanker is struck by U.S. forces Sept. 5, 2026. CENTCOM photo\n\nExpand Photo\n\nSept. 5, 2026 | By Chris Gordon\n\nAir\n\nNational Security\n\nSept. 4, 2026\n\nThe Air Force is accelerating its plans to field an MQ-9A replacement in the wake of heavy Reaper losses in operations against Iran, top officials said Sept. 3, and they’re targeting a price point of just $10 million per aircraft.\n\nThe U.S. is rotating fresh fighter squadrons to the Middle East to support the Trump administration’s open-ended campaign of economic and military pressure against Iran.\n\nAn F-16 Air National Guard unit’s six-month deployment to Kadena Air Base, Japan, this year illustrated the capabilities the Guard’s oldest fighter units can still offer—but also the challenges they face, officials told reporters this week.\n\nSept. 3, 2026\n\nThe last EC-130H Compass Call in the Air Force’s active inventory made its final flight Sept. 2, as the service prepares to retire the venerable electronic warfare aircraft and pivot to the new EA-37B.\n\nAir Force B-52 Stratofortress bombers landed at a northern Australian air base this week, a major display of the U.S. military’s ability to project force in the Pacific.\n\nThe base cost of an F-35A, the Air Force variant of the Joint Strike Fighter, is going up 11.5 percent from $82.5 million to $92 million for the latest lots of the fifth-generation aircraft, Air & Space Forces Magazine has confirmed.\n\nSept. 2, 2026\n\nThe Air Force Research Laboratory has signaled to industry it wants to develop a low-cost hypersonic cruise missile to deliver a wide range of payloads at a range up to 500 nautical miles.\n\nU.S. Central Command launched a wave of strikes against Iran on Sept. 1, and President Donald Trump said forces are “prepared to do another one” as Iranian forces launched retaliatory attacks Sept. 2.\n\nThe Air Force’s decision to more than double its purchase of F-15EX Eagle II jets may bolster the service’s fighter fleet, but it also comes with risks and questions officials will have to manage in the years ahead, a new Pentagon report warns.",
    "channel": "airandspaceforces",
    "channelName": "Air & Space Forces"
   },
@@ -113,8 +113,8 @@
    "pubDate": "2026-09-05T13:28:43+00:00",
    "summary": "U.S. Marines with the 2nd Marine Logistics Group, U.S. Navy Corpsmen with the 4th Marine Logistics Group, and members of the Swedish Home Guard 296 Chemical, Biological, Radiological, and Nuclear Platoon and 2nd Naval Combat Service Support Battalion conduct combined CBRN and medical response training during Exercise Archipelago Endeavor 26 in Berga, Sweden, Sept. 2, 2026. Combined training betwee",
    "body": "U.S. Marines with the 2nd Marine Logistics Group, U.S. Navy Corpsmen with the 4th Marine Logistics Group, and members of the Swedish Home Guard 296 Chemical, Biological, Radiological, and Nuclear Platoon and 2nd Naval Combat Service Support Battalion conduct combined CBRN and medical response training during Exercise Archipelago Endeavor 26 in Berga, Sweden, Sept. 2, 2026. Combined training between U.S. Marines and the Swedish Armed Forces was focused on CBRN defense, medical crisis response, and amphibious operations. Swedish forces conducted a simulated response to a hazardous environment before U.S. CBRN personnel conducted decontamination, and medical personnel provided care to injured personnel before moving them to a safe area for continued treatment. Archipelago Endeavor 26 strengthens bilateral interoperability, littoral defense capabilities, and tactical cooperation while demonstrating the readiness of U.S. and Swedish forces to operate together in the Baltic Sea region. (U.S. Marine Corps video by Cpl. Garrett Gillespie)",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.dvidshub.net/video/1021812/us-air-force-combat-controllers-test-expeditionary-resupply-capabilities-jan-mayen-norway",
@@ -123,8 +123,8 @@
    "pubDate": "2026-09-05T13:26:39+00:00",
    "summary": "U.S. Air Force combat controllers with Special Tactics Squadron and a U.K. combat controller conduct terminal control of a Grasshopper Aerial Resupply Vehicle to test expeditionary delivery of medical supplies during Operation Atlantic City 26 on Jan Mayen, Norway, Sept. 1, 2026. The operation is a Norwegian-led trilateral readiness initiative with the United Kingdom and United States designed to",
    "body": "U.S. Air Force combat controllers with Special Tactics Squadron and a U.K. combat controller conduct terminal control of a Grasshopper Aerial Resupply Vehicle to test expeditionary delivery of medical supplies during Operation Atlantic City 26 on Jan Mayen, Norway, Sept. 1, 2026. The operation is a Norwegian-led trilateral readiness initiative with the United Kingdom and United States designed to develop and demonstrate expeditionary advanced base capabilities and validate combined fires, maritime domain awareness, and sea denial to reinforce the security and stability of the High North. Jan Mayen is sovereign Norwegian territory and is situated in an isolated part of the Norwegian Sea, approximately 1,000 kilometers (620 miles) from mainland Norway. At the same time, the island occupies an important geostrategic position north of the Greenland-Iceland-U.K. gap, an area of water strategically significant to the defense of the U.S. homeland and northern Europe. (U.S. Marine Corps photo by Sgt. Kedrick Schumacher)",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.dvidshub.net/video/1021813/allied-leaders-reflect-shared-arctic-heritage-jan-mayen-norway",
@@ -133,8 +133,8 @@
    "pubDate": "2026-09-05T13:25:40+00:00",
    "summary": "U.S. Marines, U.K. Royal Marines, and Norwegian Home Guard soldiers visit the historic World War II-era \"Atlantic City\" site in Jan Mayen, Norway, Aug. 30, 2026. The visit to the historic site, conducted during Operation Atlantic City 26, fostered trilateral cohesion among Norwegian, U.S., and British forces while reinforcing the shared heritage and strategic legacy of Arctic operations. Atlantic",
    "body": "U.S. Marines, U.K. Royal Marines, and Norwegian Home Guard soldiers visit the historic World War II-era \"Atlantic City\" site in Jan Mayen, Norway, Aug. 30, 2026. The visit to the historic site, conducted during Operation Atlantic City 26, fostered trilateral cohesion among Norwegian, U.S., and British forces while reinforcing the shared heritage and strategic legacy of Arctic operations. Atlantic City 26 is a Norwegian-led trilateral readiness initiative with the United Kingdom and United States designed to develop and demonstrate expeditionary advanced base capabilities and validate combined fires, maritime domain awareness, and sea denial to reinforce the security and stability of the High North. Jan Mayen is sovereign Norwegian territory in an isolated part of the Norwegian Sea, approximately 1,000 kilometers (620 miles) from mainland Norway. At the same time, the island occupies an important geostrategic position north of the Greenland-Iceland-U.K. gap, an area of water strategically significant to the defense of the U.S. homeland and northern Europe. (U.S. Marine Corps video by Sgt. Kedrick Schumacher)",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.dvidshub.net/video/1021927/us-marine-discusses-arctic-strategy-nato-integration-during-operation-atlantic-city",
@@ -143,8 +143,8 @@
    "pubDate": "2026-09-05T13:24:59+00:00",
    "summary": "U.S. Marine Corps Lt. Col. David Palacio, a fires officer with U.S. Marine Corps Forces, Europe and Africa, speaks about Operation Atlantic City 26 during an interview on Jan Mayen, Norway, Sept. 2, 2026. The interview highlighted how the exercise advances key U.S. Marine Corps concepts and strengthens interoperability with NATO Allies, which is essential for projecting a credible force in the Hig",
    "body": "U.S. Marine Corps Lt. Col. David Palacio, a fires officer with U.S. Marine Corps Forces, Europe and Africa, speaks about Operation Atlantic City 26 during an interview on Jan Mayen, Norway, Sept. 2, 2026. The interview highlighted how the exercise advances key U.S. Marine Corps concepts and strengthens interoperability with NATO Allies, which is essential for projecting a credible force in the High North. Atlantic City 26 is a Norwegian-led trilateral readiness initiative with the United Kingdom and United States designed to develop and demonstrate expeditionary advanced base capabilities and validate combined fires, maritime domain awareness, and sea denial to reinforce the security and stability of the High North. Jan Mayen is sovereign Norwegian territory in an isolated part of the Norwegian Sea, approximately 1,000 kilometers (620 miles) from mainland Norway. At the same time, the island occupies an important geostrategic position north of the Greenland-Iceland-U.K. gap, an area of water strategically significant to the defense of the U.S. homeland and northern Europe. (U.S. Marine Corps photo by Sgt. Noah Masog)",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.dvidshub.net/video/1021929/us-marines-swedish-forces-conduct-combined-cbrn-and-medical-response-training-during-archipelago-endeavor-26",
@@ -153,8 +153,8 @@
    "pubDate": "2026-09-05T13:22:07+00:00",
    "summary": "U.S. Marines with 2nd Marine Logistics Group, U.S. Navy Corpsmen with 4th Marine Logistics Group, and members of the Swedish Home Guard 296 Chemical Biological Radiological and Nuclear Platoon and 2nd Naval Combat Service Support Battalion conduct combined CBRN and medical response training during Exercise Archipelago Endeavor 26 in Berga, Sweden, Sept. 4, 2026. Combined training between U.S. Mari",
    "body": "U.S. Marines with 2nd Marine Logistics Group, U.S. Navy Corpsmen with 4th Marine Logistics Group, and members of the Swedish Home Guard 296 Chemical Biological Radiological and Nuclear Platoon and 2nd Naval Combat Service Support Battalion conduct combined CBRN and medical response training during Exercise Archipelago Endeavor 26 in Berga, Sweden, Sept. 4, 2026. Combined training between U.S. Marines and the Swedish Armed Forces was focused on CBRN defense, medical crisis response, and amphibious operations, bringing CBRN and medical personnel together to respond to injured personnel following a simulated hazardous-area mission. U.S. and Swedish CBRN personnel conducted decontamination of simulated casualties before transitioning them to medical personnel for treatment, evacuation, and continued care at a field medical facility. Archipelago Endeavor 26 strengthens bilateral interoperability, littoral defense capabilities, and tactical cooperation while demonstrating the readiness of U.S. and Swedish forces to operate together in the Baltic Sea region. (U.S. Marine Corps video by Cpl. Garrett Gillespie)",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.dvidshub.net/video/1021537/us-marines-norwegian-home-guard-conduct-joint-displacement-jan-mayen",
@@ -163,8 +163,8 @@
    "pubDate": "2026-09-05T13:19:11+00:00",
    "summary": "U.S. Marines set up communications equipment and a Strikemaster mobile anti-ship missile system following a tactical displacement in Jan Mayen, Norway, Sep. 1, 2026. This action, conducted during Operation Atlantic City 26, is a critical step in creating a lethal and agile expeditionary advanced base, ensuring NATO can rapidly integrate long-range precision fires and command and control in the Hig",
    "body": "U.S. Marines set up communications equipment and a Strikemaster mobile anti-ship missile system following a tactical displacement in Jan Mayen, Norway, Sep. 1, 2026. This action, conducted during Operation Atlantic City 26, is a critical step in creating a lethal and agile expeditionary advanced base, ensuring NATO can rapidly integrate long-range precision fires and command and control in the High North. Atlantic City 26 is a Norwegian-led trilateral readiness initiative with the United Kingdom and United States designed to develop and demonstrate expeditionary advanced base capabilities and validate combined fires, maritime domain awareness, and sea denial to reinforce the security and stability of the High North. Jan Mayen is sovereign Norwegian territory in an isolated part of the Norwegian Sea, approximately 1,000 kilometers (620 miles) from mainland Norway. At the same time, the island occupies an important geostrategic position north of the Greenland-Iceland-U.K. gap, an area of water strategically significant to the defense of the U.S. homeland and northern Europe. (U.S. Marine Corps video by Sgt. Noah Masog)",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.airandspaceforces.com/future-airmen-to-get-less-sleep-more-stress-in-basic-training/",
@@ -202,7 +202,7 @@
    "author": "CPT Brady Mallory",
    "pubDate": "2026-09-05T10:15:34+00:00",
    "summary": "MARINE CORPS AIR STATION IWAKUNI, Japan – The U.S. Marine Corps deployed Marine Fighter Attack Squadron (VMFA) 533, also known as the “Hawks,” an F-35B Lightning II squadron based at Marine Corps Air Station Beaufort, South Carolina to MCAS Iwakuni, Japan, under the Marine Corps’ Unit Deployment Program (UDP) on Sept. 5, 2026. VMFA-533 joins Marine Aircraft Group (MAG) 12, 1st Marine Aircraft Wing, and will conduct aviation operations and maintain combat readiness throughout the Indo-Pacific reg",
-   "body": "IWAKUNI, YAMAGUCHI, JAPAN\n\nStory by Capt. Brady Mallory\n\n1st Marine Aircraft Wing\n\nMARINE CORPS AIR STATION IWAKUNI, Japan – The U.S. Marine Corps deploys Marine Fighter Attack Squadron (VMFA) 533, also known as the “Hawks,” an F-35B Lightning II squadron based at Marine Corps Air Station Beaufort, South Carolina to MCAS Iwakuni, Japan, under the Marine Corps’ Unit Deployment Program (UDP) on Sept. 5, 2026. VMFA-533 joins Marine Aircraft Group (MAG) 12, 1st Marine Aircraft Wing, and will conduct aviation operations and maintain combat readiness throughout the Indo-Pacific region. VMFA-533 will integrate as the new UDP squadron, replacing the current UDP squadron, VMFA-232.\n\nThe Unit Deployment Program provides continental U.S.-based units with experience operating in the Indo-Pacific through continuous and overlapping deployments to the region. The Hawks will augment 1st Marine Aircraft Wing’s ability to provide combat-ready, task-organized aviation forces capable of operating from naval and expeditionary environments. This enhances operational readiness, promotes regional stability, and demonstrates the United States’ enduring commitment to the U.S.-Japan Treaty of Mutual Cooperation and Security.\n\n09.05.2026 06:15\n\nStory ID:\n\n574027\n\nIWAKUNI, YAMAGUCHI, JP\n\n89\n\nCONNECTED MEDIA\n\nNo keywords found.\n\nDownload Story\n\nConnect to Placements\n\nAdd to Playlist\n\nDistribute Story\n\nSchedule Social Post\n\nEdit Story\n\nAdd News & Images to Playlist\n\nPrintable Version\n\nRequest Audio Version\n\noverseas\n\nreadiness\n\nMAG12\n\nhawks\n\nUDP\n\nUSPACOM",
+   "body": "IWAKUNI, YAMAGUCHI, JAPAN\n\nStory by Capt. Brady Mallory\n\n1st Marine Aircraft Wing\n\nMARINE CORPS AIR STATION IWAKUNI, Japan – The U.S. Marine Corps deploys Marine Fighter Attack Squadron (VMFA) 533, also known as the “Hawks,” an F-35B Lightning II squadron based at Marine Corps Air Station Beaufort, South Carolina to MCAS Iwakuni, Japan, under the Marine Corps’ Unit Deployment Program (UDP) on Sept. 5, 2026. VMFA-533 joins Marine Aircraft Group (MAG) 12, 1st Marine Aircraft Wing, and will conduct aviation operations and maintain combat readiness throughout the Indo-Pacific region. VMFA-533 will integrate as the new UDP squadron, replacing the current UDP squadron, VMFA-232.\n\nThe Unit Deployment Program provides continental U.S.-based units with experience operating in the Indo-Pacific through continuous and overlapping deployments to the region. The Hawks will augment 1st Marine Aircraft Wing’s ability to provide combat-ready, task-organized aviation forces capable of operating from naval and expeditionary environments. This enhances operational readiness, promotes regional stability, and demonstrates the United States’ enduring commitment to the U.S.-Japan Treaty of Mutual Cooperation and Security.\n\n09.05.2026 06:15\n\nStory ID:\n\n574027\n\nIWAKUNI, YAMAGUCHI, JP\n\n90\n\nCONNECTED MEDIA\n\nNo keywords found.\n\nDownload Story\n\nConnect to Placements\n\nAdd to Playlist\n\nDistribute Story\n\nSchedule Social Post\n\nEdit Story\n\nAdd News & Images to Playlist\n\nPrintable Version\n\nRequest Audio Version\n\noverseas\n\nreadiness\n\nMAG12\n\nhawks\n\nUDP\n\nUSPACOM",
    "channel": "us_marines",
    "channelName": "美国海军陆战队"
   },
@@ -237,32 +237,22 @@
    "channelName": "美国国防部"
   },
   {
-   "url": "https://www.dvidshub.net/image/9915099/us-jpn-and-aus-forces-execute-trilateral-battle-update-bried-yama-sakura-exercise",
-   "title": "US, JPN, and AUS. Forces Execute Trilateral Battle Update Bried at Yama Sakura Exercise",
-   "author": "SGT Keyra Moolenaar",
-   "pubDate": "2026-09-05T06:31:00+00:00",
-   "summary": "Maj. Gen. Ash Collingburn, commander, Australian Army’s 1st (Australian) Division and U.S. Army Maj. Gen. John P. Cogbill, commander, 11th Airborne Division and Lt. Gen. Kazutomo, commander, Japanese Ground Self-Defense Force Northern Army attend a Trilateral Battle Update Brief (TBUB) during Exercise Yama Sakura 91 at Camp Higashi-Chitose, Japan, Sep. 04, 2026. A TBUB provides shared understanding of current and upcoming decisions to the participating forces to increase interoperability among t",
-   "body": "Ash Collingburn, commander, Australian Army’s 1st (Australian) Division and U.\n\nCogbill, commander, 11th Airborne Division and Lt.\n\nKazutomo, commander, Japanese Ground Self-Defense Force Northern Army attend a Trilateral Battle Update Brief (TBUB) during Exercise Yama Sakura 91 at Camp Higashi-Chitose, Japan, Sep.\n\nA TBUB provides shared understanding of current and upcoming decisions to the participating forces to increase interoperability among the three nations.\n\nArmy photo by Keyra Moolenaar)",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/9914816/ys-tactical-battle-update-brief",
+   "url": "https://www.dvidshub.net/image/9914817/ys-tactical-battle-update-brief",
    "title": "YS Tactical Battle Update Brief",
    "author": "Courtesy",
-   "pubDate": "2026-09-05T06:30:59+00:00",
-   "summary": "Australian Army Officers, Colonel Roland Spackman from Headquarters of the 1st Australian Division and Commander of the 17th Brigade, Brigadier Rebecca Talbot discussing with American counterparts as part of Exercise Yama Sakura in Chitose, Hokkaido. (Courtesy photo by GNR Jesse Linards) The 1st Australian Division commenced Exercise Yama Sakura 91 in Japan on 02 September 2026. Exercise Yama Sakura is a trilateral command post exercise that enhances interoperability and readiness between the Au",
-   "body": "Australian Army Officers, Colonel Roland Spackman from Headquarters of the 1st Australian Division and Commander of the 17th Brigade, Brigadier Rebecca Talbot discussing with American counterparts as part of Exercise Yama Sakura in Chitose, Hokkaido.\n\n(Courtesy photo by GNR Jesse Linards) The 1st Australian Division commenced Exercise Yama Sakura 91 in Japan on 02 September 2026.\n\nExercise Yama Sakura is a trilateral command post exercise that enhances interoperability and readiness between the Australian Defence Force, the United States military and the Japan Ground Self-Defense Force.\n\nThe exercise focuses on planning and conducting large-scale combat operations as part of a coalition force.\n\nApproximately 340 ADF personnel participate alongside 1400 United States Army personnel, 350 United States Marine Corps personnel and 4,000 JGSDF personnel.\n\nActivities are conducted primarily at JGSDF Camps Higashi Chitose and Asaka in Japan, with supporting contingents operating from Hawaii.",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
+   "pubDate": "2026-09-05T06:31:00+00:00",
+   "summary": "Australian Army Commander of the 1st Division, Major General Ash Collingburn, AM, DSM, Lieutenant General Matthew W. McFarlane, Commanding General of I Corps and Lieutenant General Makoto Endo, Commander of the Ground Component Command for the Japan Ground Self-Defence Force at the Tactical Battle Update Brief as part of Exercise Yama Sakura in Asaka, Tokyo. (Courtesy photo by GNR Jesse Linards) The 1st Australian Division commenced Exercise Yama Sakura 91 in Japan on 02 September 2026. Exercise",
+   "body": "Australian Army Commander of the 1st Division, Major General Ash Collingburn, AM, DSM, Lieutenant General Matthew W.\n\nMcFarlane, Commanding General of I Corps and Lieutenant General Makoto Endo, Commander of the Ground Component Command for the Japan Ground Self-Defence Force at the Tactical Battle Update Brief as part of Exercise Yama Sakura in Asaka, Tokyo.\n\n(Courtesy photo by GNR Jesse Linards) The 1st Australian Division commenced Exercise Yama Sakura 91 in Japan on 02 September 2026.\n\nExercise Yama Sakura is a trilateral command post exercise that enhances interoperability and readiness between the Australian Defence Force, the United States military and the Japan Ground Self-Defense Force.\n\nThe exercise focuses on planning and conducting large-scale combat operations as part of a coalition force.\n\nApproximately 340 ADF personnel participate alongside 1400 United States Army personnel, 350 United States Marine Corps personnel and 4,000 JGSDF personnel.\n\nActivities are conducted primarily at JGSDF Camps Higashi Chitose and Asaka in Japan, with supporting contingents operating from Hawaii.",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
-   "url": "https://www.dvidshub.net/image/9915111/us-japanese-and-australian-forces-conduct-exercise-yama-sakura-91",
+   "url": "https://www.dvidshub.net/image/9915109/us-japanese-and-australian-forces-conduct-exercise-yama-sakura-91",
    "title": "U.S., Japanese and Australian Forces Conduct Exercise Yama Sakura 91",
    "author": "PO2 Christian Kibler",
-   "pubDate": "2026-09-05T05:39:03+00:00",
-   "summary": "CAMP ASAKA, JAPAN – A Japanese Ground Self-Defense Force member delivers remarks to U.S., Japanese and Australian forces during a strategic meeting part of Exercise Yama Sakura 91 at Camp Asaka, Japan, Sept. 4, 2026. YS 91 is an annual multilateral CPX hosted by JGSDF and conducted in multiple locations throughout Japan. YS 91 is designed to enhance U.S., Japan and multinational partner interoperability while strengthening multinational relationships and demonstrating U.S. resolve to support the",
-   "body": "CAMP ASAKA, JAPAN – A Japanese Ground Self-Defense Force member delivers remarks to U.\n\n, Japanese and Australian forces during a strategic meeting part of Exercise Yama Sakura 91 at Camp Asaka, Japan, Sept.\n\nYS 91 is an annual multilateral CPX hosted by JGSDF and conducted in multiple locations throughout Japan.\n\nYS 91 is designed to enhance U.\n\n, Japan and multinational partner interoperability while strengthening multinational relationships and demonstrating U.\n\nresolve to support the security interests of friends and allies in the region.\n\nNavy photo by Mass Communication Specialist 2nd Class Christian Kibler) (This photo was edited for operational security)",
+   "pubDate": "2026-09-05T05:39:07+00:00",
+   "summary": "CAMP ASAKA, JAPAN – U.S. Army Soldiers and Australian Soldiers participate in a strategic meeting hosted by the Japanese Ground Self-Defense Force during Exercise Yama Sakura 91 at Camp Asaka, Japan, Sept. 4, 2026. YS 91 is an annual multilateral CPX hosted by JGSDF and conducted in multiple locations throughout Japan. YS 91 is designed to enhance U.S., Japan and multinational partner interoperability while strengthening multinational relationships and demonstrating U.S. resolve to support the s",
+   "body": "CAMP ASAKA, JAPAN – U.\n\nArmy Soldiers and Australian Soldiers participate in a strategic meeting hosted by the Japanese Ground Self-Defense Force during Exercise Yama Sakura 91 at Camp Asaka, Japan, Sept.\n\nYS 91 is an annual multilateral CPX hosted by JGSDF and conducted in multiple locations throughout Japan.\n\nYS 91 is designed to enhance U.\n\n, Japan and multinational partner interoperability while strengthening multinational relationships and demonstrating U.\n\nresolve to support the security interests of friends and allies in the region.\n\nNavy photo by Mass Communication Specialist 2nd Class Christian Kibler) (This photo was edited for operational security)",
    "channel": "us_dod",
    "channelName": "美国国防部"
   },
@@ -287,14 +277,14 @@
    "channelName": "美国国防部"
   },
   {
-   "url": "https://www.dvidshub.net/image/9914662/hawaii-department-education-leadership-visit-mcbh",
+   "url": "https://www.dvidshub.net/image/9914661/hawaii-department-education-leadership-visit-mcbh",
    "title": "Hawaii Department of Education Leadership Visit MCBH",
    "author": "LCpl Nicholas Figueroa",
    "pubDate": "2026-09-04T23:57:30+00:00",
-   "summary": "U.S. Marine Corps Col. Stephen DeTrinis, right, commanding officer of Marine Corps Base Hawaii, addresses MCBH and Hawaii Department of Education (HIDOE) leadership during a leadership engagement at MCBH, Sept. 3, 2026. The visit provided an opportunity for base and HIDOE leaders to discuss key initiatives supporting military-connected students, strengthen institutional partnerships, and build unity cohesion. (U.S. Marine Corps photo by Lance Cpl. Nicholas Figueroa)",
-   "body": "Stephen DeTrinis, right, commanding officer of Marine Corps Base Hawaii, addresses MCBH and Hawaii Department of Education (HIDOE) leadership during a leadership engagement at MCBH, Sept.\n\nThe visit provided an opportunity for base and HIDOE leaders to discuss key initiatives supporting military-connected students, strengthen institutional partnerships, and build unity cohesion.\n\nMarine Corps photo by Lance Cpl.",
-   "channel": "us_dod",
-   "channelName": "美国国防部"
+   "summary": "U.S. Marine Corps Lt. Col. Anthony Suh, left, commanding officer of Headquarters Battalion, Marine Corps Base Hawaii, speaks with Lt. Col. Salvador Jauregui, right, commanding officer of Marine Corps Station Kaneohe Bay during a leadership engagement at MCBH, Sept. 3, 2026. The visit provided an opportunity for base and Hawaii Department of Education leaders to discuss key initiatives supporting military-connected students, strengthen institutional partnerships, and build unity cohesion. (U.S. M",
+   "body": "Anthony Suh, left, commanding officer of Headquarters Battalion, Marine Corps Base Hawaii, speaks with Lt.\n\nSalvador Jauregui, right, commanding officer of Marine Corps Station Kaneohe Bay during a leadership engagement at MCBH, Sept.\n\nThe visit provided an opportunity for base and Hawaii Department of Education leaders to discuss key initiatives supporting military-connected students, strengthen institutional partnerships, and build unity cohesion.\n\nMarine Corps photo by Lance Cpl.",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队"
   },
   {
    "url": "https://www.dvidshub.net/news/574023/forged-arctic-built-fight-11th-airborne-division-trains-across-pacific",
