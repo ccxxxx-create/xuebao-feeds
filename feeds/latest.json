@@ -1,68 +1,68 @@
 {
- "updatedAt": "2026-09-06T02:02:53.889171+00:00",
+ "updatedAt": "2026-09-06T02:15:15.162993+00:00",
  "meta": {
   "afresearchlab": {
    "name": "AFRL",
    "status": "ok",
    "count": 2,
    "error": null,
-   "fetchedAt": "2026-09-06T02:02:53.889171+00:00"
+   "fetchedAt": "2026-09-06T02:15:15.162993+00:00"
   },
   "westpoint": {
    "name": "西点军校",
    "status": "error",
    "count": 0,
    "error": "all feeds failed: https://www.westpoint.edu/rss.xml -> HTTP Error 403: Forbidden",
-   "fetchedAt": "2026-09-06T02:02:53.889171+00:00"
-  },
-  "defensenews": {
-   "name": "Defense News",
-   "status": "ok",
-   "count": 20,
-   "error": null,
-   "fetchedAt": "2026-09-06T02:02:53.889171+00:00"
-  },
-  "rand": {
-   "name": "兰德",
-   "status": "ok",
-   "count": 20,
-   "error": null,
-   "fetchedAt": "2026-09-06T02:02:53.889171+00:00"
+   "fetchedAt": "2026-09-06T02:15:15.162993+00:00"
   },
   "airandspaceforces": {
    "name": "Air & Space Forces",
    "status": "ok",
    "count": 9,
    "error": null,
-   "fetchedAt": "2026-09-06T02:02:53.889171+00:00"
+   "fetchedAt": "2026-09-06T02:15:15.162993+00:00"
+  },
+  "defensenews": {
+   "name": "Defense News",
+   "status": "ok",
+   "count": 20,
+   "error": null,
+   "fetchedAt": "2026-09-06T02:15:15.162993+00:00"
   },
   "govuk_mod": {
    "name": "英国国防部",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-06T02:02:53.889171+00:00"
+   "fetchedAt": "2026-09-06T02:15:15.162993+00:00"
   },
-  "us_marines": {
-   "name": "美国海军陆战队",
+  "rand": {
+   "name": "兰德",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-06T02:02:53.889171+00:00"
+   "fetchedAt": "2026-09-06T02:15:15.162993+00:00"
   },
   "us_dod": {
    "name": "美国国防部",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-06T02:02:53.889171+00:00"
+   "fetchedAt": "2026-09-06T02:15:15.162993+00:00"
+  },
+  "us_marines": {
+   "name": "美国海军陆战队",
+   "status": "ok",
+   "count": 20,
+   "error": null,
+   "fetchedAt": "2026-09-06T02:15:15.162993+00:00"
   },
   "us_airforce": {
    "name": "美国空军",
    "status": "ok",
-   "count": 13,
+   "count": 20,
    "error": null,
-   "fetchedAt": "2026-09-06T02:02:53.889171+00:00"
+   "fetchedAt": "2026-09-06T02:15:15.162993+00:00"
   }
  },
  "items": [
@@ -82,7 +82,7 @@
    "author": "Chris Gordon",
    "pubDate": "2026-09-05T20:47:20+00:00",
    "summary": "The U.S. military struck three Iranian oil tankers on Sept. 5, as the Trump administration and Iran battle for control over the Strait of Hormuz. The post US Fighters, Drones Strike 3 Iranian Oil Tankers After Iran Fires on Navy Ships appeared first on Air &amp; Space Forces Magazine .",
-   "body": "Audio of this article is brought to you by the Air & Space Forces Association, honoring and supporting our Airmen, Guardians, and their families. Find out more at afa.org\n\nThe U.S. military struck three Iranian oil tankers on Sept. 5, as the Trump administration and Iran battle for control over the Strait of Hormuz.\n\nA mix of Air Force and Navy aircraft carried out the attacks, including both fighters and drones, U.S. officials told Air & Space Forces Magazine. The attack followed an unsuccessful Iranian ballistic missile attack on a U.S. aircraft carrier and a guided-missile destroyer. Neither U.S. ship was hit.\n\n“Let the message to the IRGC be clear,” said Adm. Brad Cooper, the CENTCOM commander, referring to Iran’s Islamic Revolutionary Guard Corps. “If you shoot at our ships, we will impose an even higher economic cost—take out three of yours.”\n\nCooper’s statement continued: “We will not hesitate to defend American forces, and if necessary, destroy Iran’s limited and exposed oil fleet.”\n\nThe three Iranian tankers included M/T Downy, which was hit near Kharg Island, and the M/T Stark 1, which was struck near Jask, a coastal city in Iran. The M/T Downy and M/T Stark 1 were “permanently disabled,” according to CENTCOM. The third Iranian tanker, M/T Kylo, was hit in the Gulf of Oman. Struck in multiple locations, that tanker was rendered inoperable and “completely destroyed,” according to CENTCOM. It later sank. The Iranian crew was warned that it should abandon ship before the strike, the command said. CENTCOM released a video of the attacks on the ships and the sinking of the M/T Kylo.\n\nThe M/T Downy and M/T Stark 1 were impacted by weapons fired at the stern of the ship, while the M/T Kylo suffered more significant bombardment.\n\nThe U.S. attacks on the Iranian oil tankers are part of a new Trump administration policy to deter Iranian attacks on U.S. military forces and commercial vessels. Previously, the U.S. had focused its attacks on Iranian military targets, such as radars and surface-to-air missiles.\n\nIran’s foreign ministry called the attacks on oil tankers a “war crime” intended to further America’s “economic war” on the Iranian homeland. Cooper said the attacks on Iran’s oil carriers are justified because they generate revenue for the IRGC.\n\nThe IRGC said in its own statement that it would follow suit and that it targeted “three oil tankers traveling through an unauthorized route in the Strait of Hormuz, as well as three vessels affiliated with the United States in other areas.”\n\nThe U.S. is seeking to use economic sanctions and a blockade to pressure Iran to give up its attempt to control international shipping through the Strait of Hormuz and to agree to limits on its nuclear program.\n\nTrending Stories\n\nB-52s Deploy for Bomber Task Force to Australia’s New BUFF Base\n\nAir Force Releases Results from Inspections of M18 Pistols\n\nFuture Airmen to Get Less Sleep, More Stress in Basic Training\n\nGuard F-16s Kept Pace on Kadena Deployment, but Edge Wears Thin\n\nRelated\n\nAir Force Speeding Up New Low-Cost Drone Program after Heavy MQ-9 Losses Against Iran\n\nFresh US Fighter Jets Rotate into Middle East as Trump Tries to Up Pressure on Iran\n\nLast EC-130H Makes Its Final Flight Ahead of Retirement\n\nWhat Each F-35 Variant Really Costs Right Now\n\nAFRL Seeks Payload-Agnostic, Affordable Hypersonic Cruise Missile\n\nUS and Iran Trade Strikes as Fighting Resumes in Gulf\n\nDoubling of F-15EX Fleet Comes with Risks for USAF to Manage: New Pentagon Report\n\nAn Iranian tanker is struck by U.S. forces Sept. 5, 2026. CENTCOM photo\n\nExpand Photo\n\nSept. 5, 2026 | By Chris Gordon\n\nAir\n\nNational Security\n\nSept. 4, 2026\n\nThe Air Force is accelerating its plans to field an MQ-9A replacement in the wake of heavy Reaper losses in operations against Iran, top officials said Sept. 3, and they’re targeting a price point of just $10 million per aircraft.\n\nThe U.S. is rotating fresh fighter squadrons to the Middle East to support the Trump administration’s open-ended campaign of economic and military pressure against Iran.\n\nAn F-16 Air National Guard unit’s six-month deployment to Kadena Air Base, Japan, this year illustrated the capabilities the Guard’s oldest fighter units can still offer—but also the challenges they face, officials told reporters this week.\n\nSept. 3, 2026\n\nThe last EC-130H Compass Call in the Air Force’s active inventory made its final flight Sept. 2, as the service prepares to retire the venerable electronic warfare aircraft and pivot to the new EA-37B.\n\nAir Force B-52 Stratofortress bombers landed at a northern Australian air base this week, a major display of the U.S. military’s ability to project force in the Pacific.\n\nThe base cost of an F-35A, the Air Force variant of the Joint Strike Fighter, is going up 11.5 percent from $82.5 million to $92 million for the latest lots of the fifth-generation aircraft, Air & Space Forces Magazine has confirmed.\n\nSept. 2, 2026\n\nThe Air Force Research Laboratory has signaled to industry it wants to develop a low-cost hypersonic cruise missile to deliver a wide range of payloads at a range up to 500 nautical miles.\n\nU.S. Central Command launched a wave of strikes against Iran on Sept. 1, and President Donald Trump said forces are “prepared to do another one” as Iranian forces launched retaliatory attacks Sept. 2.\n\nThe Air Force’s decision to more than double its purchase of F-15EX Eagle II jets may bolster the service’s fighter fleet, but it also comes with risks and questions officials will have to manage in the years ahead, a new Pentagon report warns.",
+   "body": "Audio of this article is brought to you by the Air & Space Forces Association, honoring and supporting our Airmen, Guardians, and their families. Find out more at afa.org\n\nThe U.S. military struck three Iranian oil tankers on Sept. 5, as the Trump administration and Iran battle for control over the Strait of Hormuz.\n\nA mix of Air Force and Navy aircraft carried out the attacks, including both fighters and drones, U.S. officials told Air & Space Forces Magazine. The attack followed an unsuccessful Iranian ballistic missile attack on a U.S. aircraft carrier and a guided-missile destroyer. Neither U.S. ship was hit.\n\n“Let the message to the IRGC be clear,” said Adm. Brad Cooper, the CENTCOM commander, referring to Iran’s Islamic Revolutionary Guard Corps. “If you shoot at our ships, we will impose an even higher economic cost—take out three of yours.”\n\nCooper’s statement continued: “We will not hesitate to defend American forces, and if necessary, destroy Iran’s limited and exposed oil fleet.”\n\nThe three Iranian tankers included M/T Downy, which was hit near Kharg Island, and the M/T Stark 1, which was struck near Jask, a coastal city in Iran. The M/T Downy and M/T Stark 1 were “permanently disabled,” according to CENTCOM. The third Iranian tanker, M/T Kylo, was hit in the Gulf of Oman. Struck in multiple locations, that tanker was rendered inoperable and “completely destroyed,” according to CENTCOM. It later sank. The Iranian crew was warned that it should abandon ship before the strike, the command said. CENTCOM released videos of the attacks on the ships and the sinking of the M/T Kylo.\n\nThe M/T Downy and M/T Stark 1 were impacted by weapons fired at the stern, while the M/T Kylo suffered a more significant bombardment.\n\nThe U.S. attacks on the Iranian oil tankers are part of a new Trump administration policy to deter Iranian attacks on U.S. military forces and commercial vessels. Previously, the U.S. had focused its attacks on Iranian military targets, such as radars and surface-to-air missiles.\n\nIran’s foreign ministry called the attacks on oil tankers a “war crime” intended to further America’s “economic war” on the Iranian homeland. Cooper said the attacks on Iran’s oil carriers are justified because they generate revenue for the IRGC.\n\nThe IRGC said in its own statement that it would follow suit and that it targeted “three oil tankers traveling through an unauthorized route in the Strait of Hormuz, as well as three vessels affiliated with the United States in other areas.”\n\nThe U.S. is seeking to use economic sanctions and a blockade to pressure Iran to give up its attempt to control international shipping through the Strait of Hormuz and to agree to limits on its nuclear program.\n\nTrending Stories\n\nB-52s Deploy for Bomber Task Force to Australia’s New BUFF Base\n\nAir Force Releases Results from Inspections of M18 Pistols\n\nFuture Airmen to Get Less Sleep, More Stress in Basic Training\n\nGuard F-16s Kept Pace on Kadena Deployment, but Edge Wears Thin\n\nRelated\n\nAir Force Speeding Up New Low-Cost Drone Program after Heavy MQ-9 Losses Against Iran\n\nFresh US Fighter Jets Rotate into Middle East as Trump Tries to Up Pressure on Iran\n\nLast EC-130H Makes Its Final Flight Ahead of Retirement\n\nWhat Each F-35 Variant Really Costs Right Now\n\nAFRL Seeks Payload-Agnostic, Affordable Hypersonic Cruise Missile\n\nUS and Iran Trade Strikes as Fighting Resumes in Gulf\n\nDoubling of F-15EX Fleet Comes with Risks for USAF to Manage: New Pentagon Report\n\nAn Iranian tanker is struck by U.S. forces Sept. 5, 2026. CENTCOM photo\n\nExpand Photo\n\nSept. 5, 2026 | By Chris Gordon\n\nAir\n\nNational Security\n\nSept. 4, 2026\n\nThe Air Force is accelerating its plans to field an MQ-9A replacement in the wake of heavy Reaper losses in operations against Iran, top officials said Sept. 3, and they’re targeting a price point of just $10 million per aircraft.\n\nThe U.S. is rotating fresh fighter squadrons to the Middle East to support the Trump administration’s open-ended campaign of economic and military pressure against Iran.\n\nAn F-16 Air National Guard unit’s six-month deployment to Kadena Air Base, Japan, this year illustrated the capabilities the Guard’s oldest fighter units can still offer—but also the challenges they face, officials told reporters this week.\n\nSept. 3, 2026\n\nThe last EC-130H Compass Call in the Air Force’s active inventory made its final flight Sept. 2, as the service prepares to retire the venerable electronic warfare aircraft and pivot to the new EA-37B.\n\nAir Force B-52 Stratofortress bombers landed at a northern Australian air base this week, a major display of the U.S. military’s ability to project force in the Pacific.\n\nThe base cost of an F-35A, the Air Force variant of the Joint Strike Fighter, is going up 11.5 percent from $82.5 million to $92 million for the latest lots of the fifth-generation aircraft, Air & Space Forces Magazine has confirmed.\n\nSept. 2, 2026\n\nThe Air Force Research Laboratory has signaled to industry it wants to develop a low-cost hypersonic cruise missile to deliver a wide range of payloads at a range up to 500 nautical miles.\n\nU.S. Central Command launched a wave of strikes against Iran on Sept. 1, and President Donald Trump said forces are “prepared to do another one” as Iranian forces launched retaliatory attacks Sept. 2.\n\nThe Air Force’s decision to more than double its purchase of F-15EX Eagle II jets may bolster the service’s fighter fleet, but it also comes with risks and questions officials will have to manage in the years ahead, a new Pentagon report warns.",
    "channel": "airandspaceforces",
    "channelName": "Air & Space Forces"
   },
@@ -113,8 +113,8 @@
    "pubDate": "2026-09-05T13:28:43+00:00",
    "summary": "U.S. Marines with the 2nd Marine Logistics Group, U.S. Navy Corpsmen with the 4th Marine Logistics Group, and members of the Swedish Home Guard 296 Chemical, Biological, Radiological, and Nuclear Platoon and 2nd Naval Combat Service Support Battalion conduct combined CBRN and medical response training during Exercise Archipelago Endeavor 26 in Berga, Sweden, Sept. 2, 2026. Combined training betwee",
    "body": "U.S. Marines with the 2nd Marine Logistics Group, U.S. Navy Corpsmen with the 4th Marine Logistics Group, and members of the Swedish Home Guard 296 Chemical, Biological, Radiological, and Nuclear Platoon and 2nd Naval Combat Service Support Battalion conduct combined CBRN and medical response training during Exercise Archipelago Endeavor 26 in Berga, Sweden, Sept. 2, 2026. Combined training between U.S. Marines and the Swedish Armed Forces was focused on CBRN defense, medical crisis response, and amphibious operations. Swedish forces conducted a simulated response to a hazardous environment before U.S. CBRN personnel conducted decontamination, and medical personnel provided care to injured personnel before moving them to a safe area for continued treatment. Archipelago Endeavor 26 strengthens bilateral interoperability, littoral defense capabilities, and tactical cooperation while demonstrating the readiness of U.S. and Swedish forces to operate together in the Baltic Sea region. (U.S. Marine Corps video by Cpl. Garrett Gillespie)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
+   "channel": "us_dod",
+   "channelName": "美国国防部"
   },
   {
    "url": "https://www.dvidshub.net/video/1021812/us-air-force-combat-controllers-test-expeditionary-resupply-capabilities-jan-mayen-norway",
@@ -123,8 +123,8 @@
    "pubDate": "2026-09-05T13:26:39+00:00",
    "summary": "U.S. Air Force combat controllers with Special Tactics Squadron and a U.K. combat controller conduct terminal control of a Grasshopper Aerial Resupply Vehicle to test expeditionary delivery of medical supplies during Operation Atlantic City 26 on Jan Mayen, Norway, Sept. 1, 2026. The operation is a Norwegian-led trilateral readiness initiative with the United Kingdom and United States designed to",
    "body": "U.S. Air Force combat controllers with Special Tactics Squadron and a U.K. combat controller conduct terminal control of a Grasshopper Aerial Resupply Vehicle to test expeditionary delivery of medical supplies during Operation Atlantic City 26 on Jan Mayen, Norway, Sept. 1, 2026. The operation is a Norwegian-led trilateral readiness initiative with the United Kingdom and United States designed to develop and demonstrate expeditionary advanced base capabilities and validate combined fires, maritime domain awareness, and sea denial to reinforce the security and stability of the High North. Jan Mayen is sovereign Norwegian territory and is situated in an isolated part of the Norwegian Sea, approximately 1,000 kilometers (620 miles) from mainland Norway. At the same time, the island occupies an important geostrategic position north of the Greenland-Iceland-U.K. gap, an area of water strategically significant to the defense of the U.S. homeland and northern Europe. (U.S. Marine Corps photo by Sgt. Kedrick Schumacher)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
+   "channel": "us_dod",
+   "channelName": "美国国防部"
   },
   {
    "url": "https://www.dvidshub.net/video/1021813/allied-leaders-reflect-shared-arctic-heritage-jan-mayen-norway",
@@ -133,8 +133,8 @@
    "pubDate": "2026-09-05T13:25:40+00:00",
    "summary": "U.S. Marines, U.K. Royal Marines, and Norwegian Home Guard soldiers visit the historic World War II-era \"Atlantic City\" site in Jan Mayen, Norway, Aug. 30, 2026. The visit to the historic site, conducted during Operation Atlantic City 26, fostered trilateral cohesion among Norwegian, U.S., and British forces while reinforcing the shared heritage and strategic legacy of Arctic operations. Atlantic",
    "body": "U.S. Marines, U.K. Royal Marines, and Norwegian Home Guard soldiers visit the historic World War II-era \"Atlantic City\" site in Jan Mayen, Norway, Aug. 30, 2026. The visit to the historic site, conducted during Operation Atlantic City 26, fostered trilateral cohesion among Norwegian, U.S., and British forces while reinforcing the shared heritage and strategic legacy of Arctic operations. Atlantic City 26 is a Norwegian-led trilateral readiness initiative with the United Kingdom and United States designed to develop and demonstrate expeditionary advanced base capabilities and validate combined fires, maritime domain awareness, and sea denial to reinforce the security and stability of the High North. Jan Mayen is sovereign Norwegian territory in an isolated part of the Norwegian Sea, approximately 1,000 kilometers (620 miles) from mainland Norway. At the same time, the island occupies an important geostrategic position north of the Greenland-Iceland-U.K. gap, an area of water strategically significant to the defense of the U.S. homeland and northern Europe. (U.S. Marine Corps video by Sgt. Kedrick Schumacher)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
+   "channel": "us_dod",
+   "channelName": "美国国防部"
   },
   {
    "url": "https://www.dvidshub.net/video/1021927/us-marine-discusses-arctic-strategy-nato-integration-during-operation-atlantic-city",
@@ -143,8 +143,8 @@
    "pubDate": "2026-09-05T13:24:59+00:00",
    "summary": "U.S. Marine Corps Lt. Col. David Palacio, a fires officer with U.S. Marine Corps Forces, Europe and Africa, speaks about Operation Atlantic City 26 during an interview on Jan Mayen, Norway, Sept. 2, 2026. The interview highlighted how the exercise advances key U.S. Marine Corps concepts and strengthens interoperability with NATO Allies, which is essential for projecting a credible force in the Hig",
    "body": "U.S. Marine Corps Lt. Col. David Palacio, a fires officer with U.S. Marine Corps Forces, Europe and Africa, speaks about Operation Atlantic City 26 during an interview on Jan Mayen, Norway, Sept. 2, 2026. The interview highlighted how the exercise advances key U.S. Marine Corps concepts and strengthens interoperability with NATO Allies, which is essential for projecting a credible force in the High North. Atlantic City 26 is a Norwegian-led trilateral readiness initiative with the United Kingdom and United States designed to develop and demonstrate expeditionary advanced base capabilities and validate combined fires, maritime domain awareness, and sea denial to reinforce the security and stability of the High North. Jan Mayen is sovereign Norwegian territory in an isolated part of the Norwegian Sea, approximately 1,000 kilometers (620 miles) from mainland Norway. At the same time, the island occupies an important geostrategic position north of the Greenland-Iceland-U.K. gap, an area of water strategically significant to the defense of the U.S. homeland and northern Europe. (U.S. Marine Corps photo by Sgt. Noah Masog)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
+   "channel": "us_dod",
+   "channelName": "美国国防部"
   },
   {
    "url": "https://www.dvidshub.net/video/1021929/us-marines-swedish-forces-conduct-combined-cbrn-and-medical-response-training-during-archipelago-endeavor-26",
@@ -153,8 +153,8 @@
    "pubDate": "2026-09-05T13:22:07+00:00",
    "summary": "U.S. Marines with 2nd Marine Logistics Group, U.S. Navy Corpsmen with 4th Marine Logistics Group, and members of the Swedish Home Guard 296 Chemical Biological Radiological and Nuclear Platoon and 2nd Naval Combat Service Support Battalion conduct combined CBRN and medical response training during Exercise Archipelago Endeavor 26 in Berga, Sweden, Sept. 4, 2026. Combined training between U.S. Mari",
    "body": "U.S. Marines with 2nd Marine Logistics Group, U.S. Navy Corpsmen with 4th Marine Logistics Group, and members of the Swedish Home Guard 296 Chemical Biological Radiological and Nuclear Platoon and 2nd Naval Combat Service Support Battalion conduct combined CBRN and medical response training during Exercise Archipelago Endeavor 26 in Berga, Sweden, Sept. 4, 2026. Combined training between U.S. Marines and the Swedish Armed Forces was focused on CBRN defense, medical crisis response, and amphibious operations, bringing CBRN and medical personnel together to respond to injured personnel following a simulated hazardous-area mission. U.S. and Swedish CBRN personnel conducted decontamination of simulated casualties before transitioning them to medical personnel for treatment, evacuation, and continued care at a field medical facility. Archipelago Endeavor 26 strengthens bilateral interoperability, littoral defense capabilities, and tactical cooperation while demonstrating the readiness of U.S. and Swedish forces to operate together in the Baltic Sea region. (U.S. Marine Corps video by Cpl. Garrett Gillespie)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
+   "channel": "us_dod",
+   "channelName": "美国国防部"
   },
   {
    "url": "https://www.dvidshub.net/video/1021537/us-marines-norwegian-home-guard-conduct-joint-displacement-jan-mayen",
@@ -163,8 +163,8 @@
    "pubDate": "2026-09-05T13:19:11+00:00",
    "summary": "U.S. Marines set up communications equipment and a Strikemaster mobile anti-ship missile system following a tactical displacement in Jan Mayen, Norway, Sep. 1, 2026. This action, conducted during Operation Atlantic City 26, is a critical step in creating a lethal and agile expeditionary advanced base, ensuring NATO can rapidly integrate long-range precision fires and command and control in the Hig",
    "body": "U.S. Marines set up communications equipment and a Strikemaster mobile anti-ship missile system following a tactical displacement in Jan Mayen, Norway, Sep. 1, 2026. This action, conducted during Operation Atlantic City 26, is a critical step in creating a lethal and agile expeditionary advanced base, ensuring NATO can rapidly integrate long-range precision fires and command and control in the High North. Atlantic City 26 is a Norwegian-led trilateral readiness initiative with the United Kingdom and United States designed to develop and demonstrate expeditionary advanced base capabilities and validate combined fires, maritime domain awareness, and sea denial to reinforce the security and stability of the High North. Jan Mayen is sovereign Norwegian territory in an isolated part of the Norwegian Sea, approximately 1,000 kilometers (620 miles) from mainland Norway. At the same time, the island occupies an important geostrategic position north of the Greenland-Iceland-U.K. gap, an area of water strategically significant to the defense of the U.S. homeland and northern Europe. (U.S. Marine Corps video by Sgt. Noah Masog)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
+   "channel": "us_dod",
+   "channelName": "美国国防部"
   },
   {
    "url": "https://www.airandspaceforces.com/future-airmen-to-get-less-sleep-more-stress-in-basic-training/",
@@ -237,6 +237,16 @@
    "channelName": "美国国防部"
   },
   {
+   "url": "https://www.dvidshub.net/image/9915102/us-jpn-and-aus-forces-execute-trilateral-battle-update-bried-yama-sakura-exercise",
+   "title": "US, JPN, and AUS. Forces Execute Trilateral Battle Update Bried at Yama Sakura Exercise",
+   "author": "SGT Keyra Moolenaar",
+   "pubDate": "2026-09-05T06:31:00+00:00",
+   "summary": "Maj. Gen. Ash Collingburn, commander, Australian Army’s 1st Austrailian) Division and U.S. Army Maj. Gen. John P. Cogbill, commander, 11th Airborne Division and Lt. Gen. Kazutomo, commander, Japanese Ground Self-Defense Force Northern Army attend a Trilateral Battle Update Brief (TBUB) during Exercise Yama Sakura 91 at Camp Higashi-Chitose, Japan, Sep. 04, 2026. A TBUB provides shared understanding of current and upcoming decisions to the participating forces to increase interoperability among t",
+   "body": "Ash Collingburn, commander, Australian Army’s 1st Austrailian) Division and U.\n\nCogbill, commander, 11th Airborne Division and Lt.\n\nKazutomo, commander, Japanese Ground Self-Defense Force Northern Army attend a Trilateral Battle Update Brief (TBUB) during Exercise Yama Sakura 91 at Camp Higashi-Chitose, Japan, Sep.\n\nA TBUB provides shared understanding of current and upcoming decisions to the participating forces to increase interoperability among the three nations.\n\nArmy photo by Keyra Moolenaar)",
+   "channel": "us_dod",
+   "channelName": "美国国防部"
+  },
+  {
    "url": "https://www.dvidshub.net/image/9914817/ys-tactical-battle-update-brief",
    "title": "YS Tactical Battle Update Brief",
    "author": "Courtesy",
@@ -277,14 +287,14 @@
    "channelName": "美国国防部"
   },
   {
-   "url": "https://www.dvidshub.net/image/9914661/hawaii-department-education-leadership-visit-mcbh",
+   "url": "https://www.dvidshub.net/image/9914662/hawaii-department-education-leadership-visit-mcbh",
    "title": "Hawaii Department of Education Leadership Visit MCBH",
    "author": "LCpl Nicholas Figueroa",
    "pubDate": "2026-09-04T23:57:30+00:00",
-   "summary": "U.S. Marine Corps Lt. Col. Anthony Suh, left, commanding officer of Headquarters Battalion, Marine Corps Base Hawaii, speaks with Lt. Col. Salvador Jauregui, right, commanding officer of Marine Corps Station Kaneohe Bay during a leadership engagement at MCBH, Sept. 3, 2026. The visit provided an opportunity for base and Hawaii Department of Education leaders to discuss key initiatives supporting military-connected students, strengthen institutional partnerships, and build unity cohesion. (U.S. M",
-   "body": "Anthony Suh, left, commanding officer of Headquarters Battalion, Marine Corps Base Hawaii, speaks with Lt.\n\nSalvador Jauregui, right, commanding officer of Marine Corps Station Kaneohe Bay during a leadership engagement at MCBH, Sept.\n\nThe visit provided an opportunity for base and Hawaii Department of Education leaders to discuss key initiatives supporting military-connected students, strengthen institutional partnerships, and build unity cohesion.\n\nMarine Corps photo by Lance Cpl.",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
+   "summary": "U.S. Marine Corps Col. Stephen DeTrinis, right, commanding officer of Marine Corps Base Hawaii, addresses MCBH and Hawaii Department of Education (HIDOE) leadership during a leadership engagement at MCBH, Sept. 3, 2026. The visit provided an opportunity for base and HIDOE leaders to discuss key initiatives supporting military-connected students, strengthen institutional partnerships, and build unity cohesion. (U.S. Marine Corps photo by Lance Cpl. Nicholas Figueroa)",
+   "body": "Stephen DeTrinis, right, commanding officer of Marine Corps Base Hawaii, addresses MCBH and Hawaii Department of Education (HIDOE) leadership during a leadership engagement at MCBH, Sept.\n\nThe visit provided an opportunity for base and HIDOE leaders to discuss key initiatives supporting military-connected students, strengthen institutional partnerships, and build unity cohesion.\n\nMarine Corps photo by Lance Cpl.",
+   "channel": "us_dod",
+   "channelName": "美国国防部"
   },
   {
    "url": "https://www.dvidshub.net/news/574023/forged-arctic-built-fight-11th-airborne-division-trains-across-pacific",
@@ -333,8 +343,8 @@
    "pubDate": "2026-09-04T21:04:26+00:00",
    "summary": "Service members lead government civilians and defense contractors in a motivational run Sept. 4, 2026, at Marine Corps Support Facility Blount Island in Jacksonville, Florida, as part of Blount Island Command’s 40th anniversary observance. The command was established Sept. 1, 1986. The run preceded a ceremony honoring the command’s history and founding commander, Col. Francis “Len” Loving. (U.S. Marine Corps photo by Dustin Senger)",
    "body": "Service members lead government civilians and defense contractors in a motivational run Sept.\n\n4, 2026, at Marine Corps Support Facility Blount Island in Jacksonville, Florida, as part of Blount Island Command’s 40th anniversary observance.\n\nThe command was established Sept.\n\nThe run preceded a ceremony honoring the command’s history and founding commander, Col.\n\nFrancis “Len” Loving.\n\nMarine Corps photo by Dustin Senger)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队"
+   "channel": "us_dod",
+   "channelName": "美国国防部"
   },
   {
    "url": "https://www.dvidshub.net/video/1021928/expeditionary-operations-training-group-and-26th-marine-expeditionary-unit-conducts-mass-casualty-exercise",
@@ -507,6 +517,16 @@
    "channelName": "兰德"
   },
   {
+   "url": "https://www.dvidshub.net/image/9910589/joint-radr-training-ebbing-rts",
+   "title": "Joint RADR Training at Ebbing RTS",
+   "author": "TSgt Patricia Teare",
+   "pubDate": "2026-09-04T14:36:16+00:00",
+   "summary": "U.S. Air Force Master Sgt. Jesse Jacquay guides Staff Sgt. Devon Tremain, both whom are water and fuel maintenance with the 137th Special Operations Civil Engineering Squadron, while Tremain operates a compact tract loader during Rapid Airfield Damage Repair (RADR) training conducted by the 188th Civil Engineering Squadron, Ebbing Air National Guard Base, Ark. on Sep.1, 2026. United States Airman and Mississippi Army National Guard Soldiers conduct RADR training at the Regional Training Site on ",
+   "body": "Air Force Master Sgt.\n\nJesse Jacquay guides Staff Sgt.\n\nDevon Tremain, both whom are water and fuel maintenance with the 137th Special Operations Civil Engineering Squadron, while Tremain operates a compact tract loader during Rapid Airfield Damage Repair (RADR) training conducted by the 188th Civil Engineering Squadron, Ebbing Air National Guard Base, Ark.\n\nUnited States Airman and Mississippi Army National Guard Soldiers conduct RADR training at the Regional Training Site on Ebbing Air National Guard Base, Fort Smith Arkansas, Sep.\n\nThe 188th Civil Engineer Squadron hosted the Army Guardsmen for the first time, reinforcing cross service service partnerships, enhancing our total force readiness and rapid effective response across the world.\n\nAir National Guard photo by Tech.",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
    "url": "https://www.gov.uk/government/publications/military-court-service-sentencing-remarks-2026",
    "title": "Transparency data: Military Court Service sentencing remarks 2026",
    "author": "",
@@ -585,6 +605,16 @@
    "body": "Audio of this article is brought to you by the Air & Space Forces Association, honoring and supporting our Airmen, Guardians, and their families. Find out more at afa.org\n\nThe last EC-130H Compass Call in the Air Force’s active inventory made its final flight Sept. 2, as the service prepares to retire the venerable electronic warfare aircraft and pivot to the new EA-37B .\n\nA spokesperson for the 55th Wing confirmed the event, often called a “fini flight,” to Air & Space Forces Magazine. A formal retirement ceremony for the aircraft will take place Sept. 18 at Davis-Monthan Air Force Base, Ariz., where the last flight also took place.\n\nAviation photographer Steven Fortson snapped images of the final flight, including photos of an EA-37 in the air at the same time.\n\nThe end has been a long time coming for the EC-130H—the Air Force first announced plans to retire the EC-130 in 2014 and finally awarded a contract to what was then L3 Technologies to move critical mission systems from the aircraft to new business jets in 2017. The first of the Compass Calls retired in 2021 , and the Air Force has slowly culled the 14-aircraft in the years since.\n\nAt the same time, the aircraft and its crews have stayed extremely busy given the demand for electronic warfare capabilities. First converted from the workhorse C-130 Hercules in the early 1980s, the type can target, block, and jam enemy communications, radar, or navigation signals.\n\nAircraft spotters noted one landing in the Caribbean last December, days before Operation Absolute Resolve, the high-stakes raid on Caracas, Venezuela, to snatch and grab Venezuelan President Nicolás Maduro. And U.S. Central Command confirmed early this year it used the EC-130H in the early days of Operation Epic Fury, the air campaign against Iran.\n\nIndeed, the EC-130 has been a fixture in operations for more than 35 years. It saw its combat debut during Operations Just Cause in Panama in 1989, then flew in Operation Desert Storm in 1991, Operation Allied Force in Kosovo in 1999, and throughout the Global War on Terror over Afghanistan, Iraq, and Syria during the 2000s.\n\nNow, much of its mission is transferring to the EA-37B, a modified Gulfstream 550 that will include about 70 percent of the EC-130’s EW systems unchanged. The EA-37B carries a combat crew of nine people, down from 13 on the EC-130H.\n\nThe first EA-37 arrived at Davis-Monthan in August 2024 , and the jets deployed to support Operation Epic Fury in late March , making their combat debut before the EA-37 had even been formally declared operational. More deployed to the United Kingdom in July , as hostilities with Iran persisted.\n\nRight now, the Air Force has only five EA-37s of the 10 aircraft it has ordered. But the service has plans to expand the fleet to 22 airframes with procurement continuing through 2031 . Officials say the expanded fleet—even bigger than the original EC-130H fleet—is necessary given the importance of electronic warfare in modern combat and the demand from combatant commanders.\n\nPentagon Editor Chris Gordon contributed to this report.\n\nTrending Stories\n\nB-52s Deploy for Bomber Task Force to Australia’s New BUFF Base\n\nAir Force Releases Results from Inspections of M18 Pistols\n\nFuture Airmen to Get Less Sleep, More Stress in Basic Training\n\nGuard F-16s Kept Pace on Kadena Deployment, but Edge Wears Thin\n\nRelated\n\nUS Fighters, Drones Strike 3 Iranian Oil Tankers After Iran Fires on Navy Ships\n\nAir Force Speeding Up New Low-Cost Drone Program after Heavy MQ-9 Losses Against Iran\n\nFresh US Fighter Jets Rotate into Middle East as Trump Tries to Up Pressure on Iran\n\nWhat Each F-35 Variant Really Costs Right Now\n\nAFRL Seeks Payload-Agnostic, Affordable Hypersonic Cruise Missile\n\nDoubling of F-15EX Fleet Comes with Risks for USAF to Manage: New Pentagon Report\n\nMH-139 Reaches Initial Operational Capability\n\nA U.S. Air Force crew chief assigned to the 755th Aircraft Maintenance Squadron marshals an EC-130H Compass Call aircraft assigned to the 55th Electronic Combat Group at Davis-Monthan Air Force Base, Arizona, July 24, 2026. U.S. Air Force photo by Airman 1st Class Samantha Melecio\n\nExpand Photo\n\nSept. 3, 2026 | By Greg Hadley and Todd South\n\nAir\n\nSept. 5, 2026\n\nThe U.S. military struck three Iranian oil tankers on Sept. 5, as the Trump administration and Iran battle for control over the Strait of Hormuz.\n\nSept. 4, 2026\n\nThe Air Force is accelerating its plans to field an MQ-9A replacement in the wake of heavy Reaper losses in operations against Iran, top officials said Sept. 3, and they’re targeting a price point of just $10 million per aircraft.\n\nThe U.S. is rotating fresh fighter squadrons to the Middle East to support the Trump administration’s open-ended campaign of economic and military pressure against Iran.\n\nAn F-16 Air National Guard unit’s six-month deployment to Kadena Air Base, Japan, this year illustrated the capabilities the Guard’s oldest fighter units can still offer—but also the challenges they face, officials told reporters this week.\n\nSept. 3, 2026\n\nAir Force B-52 Stratofortress bombers landed at a northern Australian air base this week, a major display of the U.S. military’s ability to project force in the Pacific.\n\nThe base cost of an F-35A, the Air Force variant of the Joint Strike Fighter, is going up 11.5 percent from $82.5 million to $92 million for the latest lots of the fifth-generation aircraft, Air & Space Forces Magazine has confirmed.\n\nSept. 2, 2026\n\nThe Air Force Research Laboratory has signaled to industry it wants to develop a low-cost hypersonic cruise missile to deliver a wide range of payloads at a range up to 500 nautical miles.\n\nThe Air Force’s decision to more than double its purchase of F-15EX Eagle II jets may bolster the service’s fighter fleet, but it also comes with risks and questions officials will have to manage in the years ahead, a new Pentagon report warns.\n\nSept. 1, 2026\n\nThe Air Force’s new nuclear security helicopter, the MH-139A Grey Wolf, achieved initial operational capability this month—a significant milestone in the service’s effort to replace its Vietnam War-era UH-1N Hueys but years later than originally planned.",
    "channel": "airandspaceforces",
    "channelName": "Air & Space Forces"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/9911005/marines-with-4th-law-enforcement-battalion-conduct-reserve-mobilization-exercise",
+   "title": "Marines with 4th Law Enforcement Battalion conduct Reserve Mobilization Exercise",
+   "author": "LCpl Breysson Villacortacampos",
+   "pubDate": "2026-09-03T20:01:56+00:00",
+   "summary": "U.S. Air Force Master Sgt. Shawn Jaggery, an aerial porter with the 89th Airal Port Squadron, instructs a High Mobility Multipurpose Wheeled Vehicle to reverse during a Reserve Mobilization Exercise (RMX), Wright-Patterson Airforce Base, Dayton, Ohio, Aug. 02, 2026. RMX is a simulated activation of the Reserve Force, this exercise is designed to measure the unit's ability to respond to a national crisis. (U.S. Marine Corps photo by Lance Cpl. Breysson Villacortacampos)",
+   "body": "Air Force Master Sgt.\n\nShawn Jaggery, an aerial porter with the 89th Airal Port Squadron, instructs a High Mobility Multipurpose Wheeled Vehicle to reverse during a Reserve Mobilization Exercise (RMX), Wright-Patterson Airforce Base, Dayton, Ohio, Aug.\n\nRMX is a simulated activation of the Reserve Force, this exercise is designed to measure the unit's ability to respond to a national crisis.\n\nMarine Corps photo by Lance Cpl.\n\nBreysson Villacortacampos)",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
   },
   {
    "url": "https://www.defensenews.com/industry/techwatch/2026/09/03/us-army-launches-laser-production-with-465m-contract-award/",
@@ -817,6 +847,16 @@
    "channelName": "兰德"
   },
   {
+   "url": "https://www.dvidshub.net/image/9905734/1st-special-force-group-airborne-green-berets-conduct-military-free-fall-with-partner-forces",
+   "title": "1st Special Force Group (Airborne) Green Berets conduct Military Free Fall with Partner Forces",
+   "author": "SPC Noah Martin",
+   "pubDate": "2026-09-03T04:17:41+00:00",
+   "summary": "An Indonesian Nation Armed Forces, Airforce Bravo Detachment 90 Soldier jumps from a CASA/IPTN CN235 during an MFF, in South Sumatra, Indonesia, Sept. 1, 2026. The jungle survival training provides U.S. Army Green Berets with essential survival skills, strengthening their ability to adapt to the Indo-Pacific's climate and jungle terrains. 1st SFG(A) maintains highly lethal, rapidly deployable forces to execute the full spectrum of special operations alongside allies, partners, and the joint forc",
+   "body": "An Indonesian Nation Armed Forces, Airforce Bravo Detachment 90 Soldier jumps from a CASA/IPTN CN235 during an MFF, in South Sumatra, Indonesia, Sept.\n\nThe jungle survival training provides U.\n\nArmy Green Berets with essential survival skills, strengthening their ability to adapt to the Indo-Pacific's climate and jungle terrains.\n\n1st SFG(A) maintains highly lethal, rapidly deployable forces to execute the full spectrum of special operations alongside allies, partners, and the joint force as the preferred partner and premier special operations entity in the U.\n\nPacific Command area of responsibility.",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
    "url": "https://www.defensenews.com/news/your-military/2026/09/03/iran-war-escalation-raises-concern-over-civilian-death-toll/",
    "title": "Iran war escalation raises concern over civilian death toll",
    "author": "Menna AlaaElDin and Kanishka Singh, Reuters",
@@ -845,6 +885,26 @@
    "body": "Industry\n\nUS Army awards $192M to Palantir, Anduril for TITAN production\n\nThe U.S. Army chose Palantir in 2024 as the prime contractor to develop the next-generation Tactical Intelligence Targeting Access Node. (Patrick T. Fallon/AFP via Getty Images)\n\nThe U.S. Army moved its Tactical Intelligence Targeting Access Node (TITAN) program from prototyping to production earlier this week with a combined $192 million award to Palantir Technologies and Anduril Industries.\n\nA cornerstone of the Army’s ground system modernization effort, TITAN was designed to simplify the data-gathering process for soldiers aiming at far-off targets.\n\nThe Army chose Palantir as the prime contractor to develop the next-generation targeting system in 2024 .\n\nPalantir, which received $127 million, will lead TITAN’s production, alongside L3 Harris Technologies, Sierra Nevada Corporation, Strategic Technology Consulting and World Wide Technology.\n\nAnduril, which received $65 million under the award, will manufacture the ruggedized, vehicle-mounted systems and integrate the power and thermal subsystems that allow TITAN to operate in austere environments.\n\nThe TITAN program will create an advanced variant of the system to be mounted on the Army’s tactical trucks and have the ability to gather data from space sensors , as well as a basic variant for the service’s Joint Light Tactical Vehicle.\n\nThe award covers procurement and integration of four advanced and four basic variants, which are slated for delivery over the next 18 months. Those will buttress the Army’s nine existing prototype units that the service uses today.\n\nThe Army expects to award additional production orders in fiscal 2027.\n\nShare:\n\nMore In MilTech\n\nTrust between operators, CCAs starts with simulations: Former Air Force secretary\n\nSimulations and exercises will be key to boosting trust between operators and CCAs, according to former U.S. Air Force secretary Frank Kendall.\n\nCelebrating 40 years of Defense News\n\nSince 1986, Defense News has been the authoritative voice for the world's defense decision-makers.\n\nGuardsman learns to fly autonomous Black Hawk in less than an hour\n\nIn a training first, an Army National Guardsman used a tablet to control Sikorsky's optionally piloted Black Hawk and plan its task during an exercise.\n\nRecap: Highlights from the US Army’s 2025 conference in Washington\n\nThe Army continues to transform, with efforts focused on next-gen weaponry, long-range artillery, unmanned systems and much more.\n\nPentagon stages first ‘Top Drone’ school for operators to hone skills\n\nIndustry and military drone operators flew tethered and untethered first-person drones through a course designed to test endurance and maneuverability.\n\nFeatured Video\n\nMarine Corps wants to add thousands of new troops over the next five years\n\nTrump to nominate Hung Cao as Navy secretary\n\nFirst Lynx XM30 combat vehicles arrive at Army\n\nMonument in DC honors 41 million service members | Defense News Weekly Full Episode 9.1.26\n\nTrending Now\n\nChinese military analysts can’t wait for the US Navy’s battleship era\n\nSpace industry lacks workers needed to rebuild satellites lost in war, report says\n\nUS Army launches laser production with $465M contract award\n\nHow a middling Chinese guided-missile frigate unnerves Japan, Taiwan and the US\n\nUS to seek back payment from Europe for Ukraine aid, Trump says\n\nBy Leigh Giangreco\n\nWednesday, Sep 2, 2026",
    "channel": "defensenews",
    "channelName": "Defense News"
+  },
+  {
+   "url": "https://www.dvidshub.net/news/573816/us-army-yuma-proving-ground-hosts-arizona-commanders-summit",
+   "title": "U.S. Army Yuma Proving Ground hosts Arizona Commanders Summit",
+   "author": "Mark Schauer",
+   "pubDate": "2026-09-02T20:31:19+00:00",
+   "summary": "With the purpose of sharing information and building relationships, military commanders and senior leaders from across Arizona gathered for a day of discussions at U.S. Army Yuma Proving Ground (YPG) on Sep. 2, 2026. The summit, the first hosted by YPG Commander Col. Charles Seaberry, was the first held on post since 2022.",
+   "body": "Effective communication is a vital commodity, something of which one can never have too much.\n\nWith the purpose of sharing information and building relationships, military commanders and senior leaders from across Arizona gathered for a day of discussions at U.S. Army Yuma Proving Ground (YPG) on Sep. 2.\n\nThe summit, the first hosted by YPG Commander Col. Charles Seaberry, was the first held on post since 2022.\n\n“It gives me an opportunity to meet my fellow commanders in Arizona,” said Seaberry. “It is good to collaborate and learn about the creative things they are doing that I could potentially leverage with YPG. I think we are going to have a lot of opportunities to synergize our initiatives and be less duplicative in areas where we are resource constrained.”\n\nThe Arizona Commanders Summit is a semi-annual event in which commanders and senior leaders from YPG, Marine Corps Air Station-Yuma, Fort Huachuca, Luke Air Force Base, Davis-Monthan Air Force Base, the Arizona National Guard’s Papago Park Military Reservation, and other Arizona and California-based military units along with local and state government representatives to discuss mission and installation sustainment. Though not a decision-making body, the group hears presentations on key topics throughout the day.\n\n“I like the ability to go to all of the installations and see what they are like,” said Chas Buchanan, Director of the 56th Range management Office at Luke Airforce Base. “Seeing the remoteness of some of the installations and the challenges they face that are different than those we face in Phoenix really helps get the broader picture.”\n\nThe forum was an opportunity to compare challenges and network to share assets to accomplish the mission. For example, although YPG’s primary mission is conducting developmental testing of military equipment, the post also supports military training exercises. YPG is also part of the recently announced Army Permissive Test Range Expansion Initiative, which prioritizes commercial access to specialized environments ideal for testing unmanned aerial systems (UAS), counter-UAS technologies, long-range fires and low-cost interceptors at several facilities, including West Cibola Range, a newly opened component of YPG within YPG’s existing boundaries.\n\n“That has dramatic implications into the future,” said Yuma Mayor Douglas Nicholls, who attended the event. “As we bring the amazing capabilities of YPG to bear for private industry, I think it will be a gamechanger for us for years to come.”\n\nMultiple attendees noted the support the proving ground enjoys from the greater Yuma community, as well as the important role YPG plays in ensuring our nation’s defense. Nicholls gave a comprehensive presentation about what the city of Yuma offers early in the event.\n\n“The military is important to our community and as a representative of the city I want to let everyone in the state know that Yuma is a community committed to the defense of our nation and preparing our warfighters,” said Nicholls. “It’s part of what makes Yuma, Yuma.”",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/9906069/la-air-force-base-celebrates-newest-staff-sergeant-selectees",
+   "title": "LA Air Force Base Celebrates Newest Staff Sergeant Selectees",
+   "author": "Leilani Rodriguez",
+   "pubDate": "2026-09-02T18:54:48+00:00",
+   "summary": "The newest U.S. Air Force staff sergeants selects pose for a photo with base leadership during a staff sergeant release party at Los Angeles Air Force Base, California, Aug. 27, 2026. The event celebrated these Airmen for their selection to promote to the rank of E-5, a milestone that marks their official transition into the Noncommissioned Officer tier, signifying increased responsibility and leadership within the Air Force. Each selectee was presented with a ceremonial wooden plaque. (U.S. Spa",
+   "body": "Air Force staff sergeants selects pose for a photo with base leadership during a staff sergeant release party at Los Angeles Air Force Base, California, Aug.\n\nThe event celebrated these Airmen for their selection to promote to the rank of E-5, a milestone that marks their official transition into the Noncommissioned Officer tier, signifying increased responsibility and leadership within the Air Force.\n\nEach selectee was presented with a ceremonial wooden plaque.\n\nSpace Force photo by Leilani Rodriguez)",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
   },
   {
    "url": "https://www.rand.org/pubs/commentary/2026/09/when-disaster-strikes-could-ai-help-qa-with-jessica.html",
@@ -1007,6 +1067,16 @@
    "channelName": "美国空军"
   },
   {
+   "url": "https://www.dvidshub.net/news/573644/super-garuda-shield-26-kicks-off-with-multinational-partners-ceremony",
+   "title": "Super Garuda Shield 26 kicks off with multinational partners ceremony",
+   "author": "PO2 Alfredo Marron and SGT William Rogers",
+   "pubDate": "2026-09-01T09:15:19+00:00",
+   "summary": "Super Garuda Shield 26 (SGS 26) began with an opening ceremony Aug. 31 2026, in Bandung, bringing together service members from Indonesia, the United States and 13 partner countries for a multinational exercise focused on strengthening relationships, interoperability and readiness.",
+   "body": "SOUTH SUMATRA, Indonesia — Super Garuda Shield 26 (SGS 26) began with an opening ceremony Aug. 31 2026, in Bandung, bringing together service members from Indonesia, the United States and 13 partner countries for a multinational exercise focused on strengthening relationships, interoperability and readiness.\n\nApproximately 5,000 combined armed forces personnel are scheduled to participate in SGS 26 from Aug, 31 to Sept. 11 at multiple training locations across Indonesia, including Bandung, Bataraja and Lampung.\n\nThe U.S. Pacific Command-sponsored exercise demonstrates the shared purpose of participating nations while enhancing interoperability and providing realistic training in a variety of climates, terrains, and environments.\n\n“SGS 26 is building valuable relationships and readiness with our Indonesian and multinational partners through challenging and realistic training,” said Maj. Gen. Patrick Ellis, commanding general of the 4th Infantry Division, “We are excited to work side by side with our partners this year to ensure we remain ready to rapidly respond to any contingency or crisis.”\n\nSGS 26 provides opportunities for professional exchanges that strengthen partnerships through shared learning and training. Training includes engineering construction activities, staff training exercises, airborne operations, jungle training, air assault operations, a large field training exercise and combined arms live fire exercises, a Stinger missile live fire exercise, and a High Mobility Artillery Rocket System (HIMARS) live fire exercise.\n\nThe variety of training events allows participating forces to share their respective experiences and expertise while developing a better understanding of how partner nations plan, coordinate and execute military operations.\n\nU.S. Army, Airforce, Navy and Marine Corps personnel will train alongside their Indonesian hosts and regional allies and partners to sharpen tactical readiness, test joint command-and-control systems and strengthen their ability to operate together. Training alongside partner nations builds the collective trust and interoperability necessary to strengthen defense relationships and support shared interests throughout the Indo-Pacific.\n\nBeyond improving technical and tactical capabilities, SGS 26 provides opportunities for service members from participating nations to build professional relationships. Those relationships can improve communication and mutual understanding among forces that may work together during future operations, contingencies or crises.\n\nSuper Garuda Shield has developed into an important venue for multinational cooperation and professional exchange. Each iteration provides participating nations an opportunity to build upon existing partnerships while creating new relationships among service members throughout the region.\n\nThe United States’ participation in SGS 26 reflects its enduring defense relationship with Indonesia and its commitment to working alongside allies and partners. By training together, participating forces build the collective trust and interoperability necessary to respond to shared challenges and uphold their shared interest in a free and open Indo-Pacific.\n\nEllis reinforced the importance of building these partnerships during SGS 26 saying, “the trust that is required to execute these operations cannot be built in a briefing room; it is built in the mud, in the surf, in the cockpits, and in the operational command centers.”\n\nThroughout the nearly two-week exercise, participating forces will continue training together across Indonesia, strengthening professional relationships and improving their ability to operate as a combined and joint force.",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
    "url": "https://www.rand.org/pubs/corporate_pubs/CPA2710-3.html",
    "title": "An Enduring Partnership to Address the Department of the Air Force’s Greatest Challenges (2026 version)",
    "author": "",
@@ -1043,6 +1113,16 @@
    "pubDate": "2026-08-31T16:11:00+00:00",
    "summary": "Air Force Global Strike Command announced that the MH-139 Grey Wolf has officially achieved Initial Operational Capability as of August 10, ushering in a new era of modernization for AFGSC’s nuclear security operations. <img alt=\"A 582nd Helicopter Group MH-139 Grey Wolf takes off near Pine Bluffs, Wyoming, Feb. 19, 2026. The 582 HG supports USSTRATCOM’s strategic deterrence mission by enabling airborne security and rapid response capabilities for missile wings across Air Force Global Strike Com",
    "body": "Air Force Global Strike Command announced that the MH-139 Grey Wolf has officially achieved Initial Operational Capability as of August 10, ushering in a new era of modernization for AFGSC’s nuclear security operations.",
+   "channel": "us_airforce",
+   "channelName": "美国空军"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/9881873/usace-commanding-general-visits-dyess-afb",
+   "title": "USACE commanding general visits Dyess AFB",
+   "author": "A1C William Neal",
+   "pubDate": "2026-08-31T16:04:10+00:00",
+   "summary": "U.S. Army Lt. Gen. William H. “Butch” Graham Jr., 56th Chief of Engineers and U.S. Army Corps of Engineers commanding general, receives an infrastructure and construction brief at Dyess Air Force Base, Texas, Aug. 18, 2026. The briefing focused on installation modernization plans, facility sustainment and engineering requirements supporting the B-21 Raider beddown at Dyess. (U.S. Air Force photo by Airman 1st Class William Neal)",
+   "body": ", 56th Chief of Engineers and U.\n\nArmy Corps of Engineers commanding general, receives an infrastructure and construction brief at Dyess Air Force Base, Texas, Aug.\n\nThe briefing focused on installation modernization plans, facility sustainment and engineering requirements supporting the B-21 Raider beddown at Dyess.\n\nAir Force photo by Airman 1st Class William Neal)",
    "channel": "us_airforce",
    "channelName": "美国空军"
   },
