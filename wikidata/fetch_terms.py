@@ -31,12 +31,14 @@ SPARQL_EP = "https://query.wikidata.org/sparql?format=json&query="
 API_EP = "https://www.wikidata.org/w/api.php?"
 ALLOWED_HOSTS = {"query.wikidata.org", "www.wikidata.org"}
 
-# 军事领域根类目（按英文标签在运行时解析 QID，不硬编码）
+# 军事领域根类目（按英文标签在运行时解析 QID，不硬编码）。
+# 注意：不收 "military person" 等个体人名类——数百万人名实例既非术语，
+# 其 P31 全量查询必然撞 Wikidata 60s 超时（首跑失败原因）。
 ROOT_LABELS = [
     "military unit", "weapon", "military equipment", "military organization",
     "military exercise", "military rank", "military operation", "military aircraft",
     "missile", "armored fighting vehicle", "warship", "military installation",
-    "military technology", "military person",
+    "military technology",
 ]
 MAX_DEPTH = 4                      # 类目树深度
 MAX_CLASSES = 3000                 # 最多访问的类目数
@@ -107,9 +109,13 @@ def save_state(state: dict) -> None:
 
 
 def bfs_classes(roots: dict[str, str]) -> list[str]:
-    """P279 直接子类 BFS，深度与总量受限，已访问即跳过（state 可续）。"""
+    """P279 直接子类 BFS，深度与总量受限，已访问即跳过（state 可续）。
+
+    单类子类查询失败（超时/限流）：跳过该类的子树扩展但保留已访问标记，不炸全程。
+    """
     state = load_state()
     visited: set[str] = set(state.get("done", []))
+    errors: dict[str, str] = state.setdefault("errors", {})
     queue: list[tuple[str, int]] = [(qid, 0) for qid in roots.values() if qid not in visited]
     order: list[str] = []
     while queue and len(visited) < MAX_CLASSES:
@@ -119,7 +125,12 @@ def bfs_classes(roots: dict[str, str]) -> list[str]:
         visited.add(qid)
         order.append(qid)
         if depth < MAX_DEPTH:
-            rows = sparql(f"SELECT ?sub WHERE {{ ?sub wdt:P279 wd:{qid} }} LIMIT 2000")
+            try:
+                rows = sparql(f"SELECT ?sub WHERE {{ ?sub wdt:P279 wd:{qid} }} LIMIT 2000")
+            except Exception as exc:
+                errors[qid] = f"bfs: {exc}"
+                print(f"bfs {qid} failed, skip children: {exc}", flush=True)
+                rows = []
             for r in rows:
                 sub = qid_of(r["sub"]["value"])
                 if sub not in visited:
@@ -127,17 +138,23 @@ def bfs_classes(roots: dict[str, str]) -> list[str]:
         if len(order) % 50 == 0:
             print(f"BFS {len(order)} classes…", flush=True)
             state["done"] = sorted(visited)
+            state["errors"] = errors
             save_state(state)
     state["done"] = sorted(visited)
+    state["errors"] = errors
     save_state(state)
     return order
 
 
 def collect_instances(class_ids: list[str]) -> dict[str, list[str]]:
-    """每类 P31 实例，keyset 分页（避免 ORDER BY 超时），断点续抓。"""
+    """每类 P31 实例，keyset 分页（避免 ORDER BY 超时），断点续抓。
+
+    超大类的单页查询可能 60s 超时：失败记入 errors 并继续，规模如实统计。
+    """
     state = load_state()
     ents: dict[str, list] = state.setdefault("entities", {})
     done: dict[str, bool] = state.setdefault("class_done", {})
+    errors: dict[str, str] = state.setdefault("errors", {})
     total = 0
     for idx, cls in enumerate(class_ids):
         if done.get(cls):
@@ -146,9 +163,14 @@ def collect_instances(class_ids: list[str]) -> dict[str, list[str]]:
         cursor = ""
         for _page in range(MAX_INSTANCES_PER_CLASS // 1000):
             gt = f'FILTER(STR(?item) > "{cursor}")' if cursor else ""
-            rows = sparql(
-                f"SELECT ?item WHERE {{ ?item wdt:P31 wd:{cls} . {gt} }} LIMIT 1000"
-            )
+            try:
+                rows = sparql(
+                    f"SELECT ?item WHERE {{ ?item wdt:P31 wd:{cls} . {gt} }} LIMIT 1000"
+                )
+            except Exception as exc:
+                errors[cls] = f"instances: {exc}"
+                print(f"instances {cls} page failed, give up this class: {exc}", flush=True)
+                break
             if not rows:
                 break
             got.extend(qid_of(r["item"]["value"]) for r in rows)
@@ -165,6 +187,7 @@ def collect_instances(class_ids: list[str]) -> dict[str, list[str]]:
             if sum(len(v) for v in ents.values()) > MAX_TOTAL_ENTITIES * 2:
                 print("实体池超预算，停止类目扫描", flush=True)
                 break
+    state["errors"] = errors
     save_state(state)
     return ents
 

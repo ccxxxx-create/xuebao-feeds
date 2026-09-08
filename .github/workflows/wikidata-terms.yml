@@ -27,10 +27,14 @@ jobs:
           python-version: '3.12'
 
       # 零第三方依赖（stdlib urllib），与 feeds 抓取管线完全独立
+      # 失败也落日志（tee + always commit），便于本地经 gh-proxy 排查
       - name: Fetch Wikidata terms
-        run: python wikidata/fetch_terms.py
+        run: |
+          set -o pipefail
+          python wikidata/fetch_terms.py 2>&1 | tee wikidata/last_run.log
 
       - name: Commit results
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
