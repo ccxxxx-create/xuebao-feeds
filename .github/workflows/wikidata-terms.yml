@@ -1,0 +1,43 @@
+name: Fetch Wikidata Terms
+
+on:
+  workflow_dispatch: {}
+  push:
+    paths:
+      - 'wikidata/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wikidata-terms
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # 零第三方依赖（stdlib urllib），与 feeds 抓取管线完全独立
+      - name: Fetch Wikidata terms
+        run: python wikidata/fetch_terms.py
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add wikidata/
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore(wikidata): update terms dataset"
+            git push
+          fi
