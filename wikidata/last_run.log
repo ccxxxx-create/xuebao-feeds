@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/runner/work/xuebao-feeds/xuebao-feeds/wikidata/fetch_terms.py", line 275, in <module>
+    main()
+  File "/home/runner/work/xuebao-feeds/xuebao-feeds/wikidata/fetch_terms.py", line 250, in main
+    roots = resolve_roots()
+            ^^^^^^^^^^^^^^^
+  File "/home/runner/work/xuebao-feeds/xuebao-feeds/wikidata/fetch_terms.py", line 92, in resolve_roots
+    rows = sparql(f'SELECT ?c WHERE {{ ?c rdfs:label "{label}"@en }} LIMIT 8')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/xuebao-feeds/xuebao-feeds/wikidata/fetch_terms.py", line 79, in sparql
+    data = get_json(SPARQL_EP + urllib.parse.quote(query))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/xuebao-feeds/xuebao-feeds/wikidata/fetch_terms.py", line 75, in get_json
+    raise RuntimeError(f"GET failed: {url[:120]} ({last_exc})")
+RuntimeError: GET failed: https://query.wikidata.org/sparql?format=json&query=SELECT%20%3Fc%20WHERE%20%7B%20%3Fc%20rdfs%3Alabel%20%22military%20un (HTTP Error 429: Aggressively rate-limiting to 1 req / min - this rule was created during active wdqs outage (797a132))
