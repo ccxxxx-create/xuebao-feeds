@@ -1,14 +1,17 @@
 # -*- coding: utf-8 -*-
-"""Wikidata 军事术语抓取（EN↔ZH）——QLever 单端点版（v2，本地可直接运行）。
+"""Wikidata 军事术语抓取（EN↔ZH）——QLever 单端点版（v2.1，本地可直接运行）。
 
 端点：https://qlever.dev/api/wikidata（弗莱堡大学 QLever 全量 Wikidata 镜像，
 公开学术服务；官方 query.wikidata.org 处于故障限流期且本机不可达，见 docs/decisions.md D-005）。
-流程：根类目解析（字面量+P279 约束）→ P279 子类树 BFS → 每类一条
+流程：根类目解析 → P279 子类树 BFS（v2.1：按层 8 线程并行）→ 每类一条
 "双语实例直取"查询（P31 + EN/ZH 标签 join，keyset 分页）→ terms JSON。
-断点续抓：state.json（类级 done/entities/errors）。
-合规：UA 标识、请求间隔 ≥0.5s、单类/总量上限、单类失败记录后继续。
+
+状态纪律（v2.1 修复）：全程共用同一个 state 字典并在 main 统一落盘——
+此前 bfs 与 fetch 各自 load/save，fetch 周期落盘会把 bfs 的 done 覆盖回空，
+重启导致整棵类目树重走。class_order 持久化后，重启直接跳过 BFS。
+合规：UA 标识、串行抓取段间隔 ≥0.2s（429 由重试退避兜底）、单类失败记录后继续。
 出站安全：仅 https + 域名白名单 + 解析 IP 禁私网/环回（Mimosa SSRF 约束）。
-用法：python wikidata/fetch_terms.py   （Actions 上也可用同一路径运行）
+用法：python wikidata/fetch_terms.py
 """
 from __future__ import annotations
 
@@ -19,6 +22,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -26,7 +30,7 @@ HERE = Path(__file__).resolve().parent
 STATE_PATH = HERE / "state.json"
 OUT_PATH = HERE / "terms-enzh.json"
 
-UA = "SENTRA-AI-TermsHarvester/2.0 (SENTRA journal project; terms ingestion)"
+UA = "SENTRA-AI-TermsHarvester/2.1 (SENTRA journal project; terms ingestion)"
 ENDPOINTS = ("https://qlever.dev/api/wikidata", "https://qlever.cs.uni-freiburg.de/api/wikidata")
 ALLOWED_HOSTS = {"qlever.dev", "qlever.cs.uni-freiburg.de"}
 PREFIXES = (
@@ -42,12 +46,12 @@ ROOT_LABELS = [
     "missile", "armored fighting vehicle", "warship", "military installation",
     "military technology",
 ]
-# 已人工核验的补充根类目（QLever 单实体反查验证：Q728 = weapon）
-EXTRA_ROOTS = {"weapon": ["Q728"]}
+EXTRA_ROOTS = {"weapon": ["Q728"]}   # 已人工核验（QLever 单实体反查：Q728 = weapon）
 MAX_DEPTH = 4
 MAX_CLASSES = 3000
-MAX_PAGES_PER_CLASS = 3        # 每类最多 3 页 × 1000
-SLEEP = 0.55
+MAX_PAGES_PER_CLASS = 3              # 每类最多 3 页 × 1000
+SLEEP = 0.2                          # 串行抓取段请求间隔；429 由 get_json 退避兜底
+BFS_WORKERS = 8                      # BFS 按层并行度（提速，见用户指示：下载类任务选快方法）
 
 
 def check_url(url: str) -> None:
@@ -72,8 +76,7 @@ def get_json(url: str, retries: int = 3) -> dict:
                 return json.load(resp)
         except Exception as exc:
             last_exc = exc
-            wait = 3 * (attempt + 1)
-            print(f"  request failed ({exc}), retry in {wait}s", flush=True)
+            wait = 2 * (attempt + 1)
             time.sleep(wait)
     raise RuntimeError(f"GET failed: {url[:120]} ({last_exc})")
 
@@ -81,7 +84,6 @@ def get_json(url: str, retries: int = 3) -> dict:
 def sparql(query: str) -> list[dict]:
     url = ENDPOINTS[0] + "?query=" + urllib.parse.quote(PREFIXES + query)
     data = get_json(url)
-    time.sleep(SLEEP)
     if data.get("status") == "ERROR" or "exception" in data:
         raise RuntimeError(f"SPARQL error: {str(data.get('exception'))[:160]}")
     return data["results"]["bindings"]
@@ -111,8 +113,11 @@ def resolve_roots() -> dict[str, list[str]]:
             print(f"root {label} -> {'/'.join(roots[label])}", flush=True)
         else:
             print(f"root {label} -> 未解析到（如实记录）", flush=True)
-        time.sleep(SLEEP)
     return roots
+
+
+def save_state(state: dict) -> None:
+    STATE_PATH.write_text(json.dumps(state, ensure_ascii=False), encoding="utf-8")
 
 
 def load_state() -> dict:
@@ -121,44 +126,57 @@ def load_state() -> dict:
     return {}
 
 
-def save_state(state: dict) -> None:
-    STATE_PATH.write_text(json.dumps(state, ensure_ascii=False), encoding="utf-8")
+def bfs_classes(roots: dict[str, list[str]], state: dict) -> list[str]:
+    """P279 子类树 BFS，按层并行（8 线程）；类目顺序持久化 state["class_order"]，
+    bfs_complete=True 时重启直接复用，不再重走。"""
+    if state.get("bfs_complete") and state.get("class_order"):
+        print(f"BFS 复用持久化类目序（{len(state['class_order'])} 类，跳过重走）", flush=True)
+        return state["class_order"]
 
-
-def bfs_classes(roots: dict[str, list[str]]) -> list[str]:
-    """P279 直接子类 BFS（Q 实体过滤），深度/总量受限，state 续抓，单类失败不炸。"""
-    state = load_state()
     visited: set[str] = set(state.get("done", []))
     errors: dict[str, str] = state.setdefault("errors", {})
-    queue: list[tuple[str, int]] = [(q, 0) for qs in roots.values() for q in qs if q not in visited]
+    # 种子=全部根类（无论是否已在 done）：done 只代表"已收录为条目"，
+    # 不代表"子树已扩展"——只用未访问根做种子会在重启后整树跳过（v2.1 实测踩坑）
+    frontier = [q for qs in roots.values() for q in qs]
     order: list[str] = []
-    while queue and len(visited) < MAX_CLASSES:
-        qid, depth = queue.pop(0)
-        if qid in visited:
-            continue
-        visited.add(qid)
-        order.append(qid)
-        if depth < MAX_DEPTH:
-            try:
-                rows = sparql(
-                    'SELECT DISTINCT ?sub WHERE { ?sub wdt:P279 wd:%s . '
-                    'FILTER(STRSTARTS(STR(?sub), "%s")) } LIMIT 2000' % (qid, Q_PREFIX)
-                )
-            except Exception as exc:
-                errors[qid] = f"bfs: {exc}"
-                print(f"bfs {qid} failed, skip children: {exc}", flush=True)
-                rows = []
-            for r in rows:
-                sub = qid_of(r["sub"]["value"])
-                if sub not in visited:
-                    queue.append((sub, depth + 1))
-        if len(order) % 50 == 0:
-            print(f"BFS {len(order)} classes…", flush=True)
-            state["done"] = sorted(visited)
-            state["errors"] = errors
-            save_state(state)
+
+    def children(qid: str) -> tuple[str, list[str]]:
+        try:
+            rows = sparql(
+                'SELECT DISTINCT ?sub WHERE { ?sub wdt:P279 wd:%s . '
+                'FILTER(STRSTARTS(STR(?sub), "%s")) } LIMIT 2000' % (qid, Q_PREFIX)
+            )
+            return qid, [qid_of(r["sub"]["value"]) for r in rows]
+        except Exception as exc:
+            return qid, _err(qid, exc)
+
+    def _err(qid: str, exc: Exception) -> list[str]:
+        errors[qid] = f"bfs: {exc}"
+        print(f"bfs {qid} failed, skip children: {exc}", flush=True)
+        return []
+
+    depth = 0
+    while frontier and len(visited) < MAX_CLASSES:
+        nxt: list[str] = []
+        with ThreadPoolExecutor(max_workers=BFS_WORKERS) as pool:
+            for qid, subs in pool.map(children, frontier[: MAX_CLASSES - len(visited)]):
+                visited.add(qid)   # 已访问过的也照常扩展子类（done≠子树已扩展）
+                order.append(qid)
+                for sub in subs:
+                    if sub not in visited:
+                        nxt.append(sub)
+        frontier = [q for q in dict.fromkeys(nxt) if q not in visited]
+        depth += 1
+        if depth > MAX_DEPTH:
+            break
+        print(f"BFS depth {depth}: visited={len(visited)} frontier={len(frontier)}", flush=True)
+        state["done"] = sorted(visited)
+        save_state(state)
+
     state["done"] = sorted(visited)
     state["errors"] = errors
+    state["class_order"] = sorted(visited)   # 完整性优先于遍历顺序（含历史 done 中的类）
+    state["bfs_complete"] = True
     save_state(state)
     return order
 
@@ -189,6 +207,7 @@ def fetch_class_terms(cls: str) -> list[dict]:
         cursor = rows[-1]["item"]["value"]
         if len(rows) < 1000:
             break
+        time.sleep(SLEEP)
     return terms
 
 
@@ -197,7 +216,7 @@ def main() -> None:
     roots = resolve_roots()
     state = load_state()
     term_by_qid: dict[str, dict] = {t["qid"]: t for t in state.get("terms", [])}
-    classes = bfs_classes(roots)
+    classes = bfs_classes(roots, state)
     print(f"classes to scan: {len(classes)}", flush=True)
     done: dict[str, bool] = state.setdefault("class_done", {})
     errors: dict[str, str] = state.setdefault("errors", {})
@@ -213,14 +232,14 @@ def main() -> None:
         for t in got:
             term_by_qid.setdefault(t["qid"], t)
         done[cls] = True
-        if (i + 1) % 25 == 0:
+        if (i + 1) % 100 == 0:
             print(f"{i + 1}/{len(classes)} classes, terms={len(term_by_qid)}", flush=True)
-            state["terms"] = list(term_by_qid.values())
             state["class_done"] = done
+            state["terms"] = list(term_by_qid.values())
             state["errors"] = errors
             save_state(state)
-    state["terms"] = list(term_by_qid.values())
     state["class_done"] = done
+    state["terms"] = list(term_by_qid.values())
     state["errors"] = errors
     save_state(state)
 

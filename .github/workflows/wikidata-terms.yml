@@ -1,10 +1,8 @@
 name: Fetch Wikidata Terms
 
+# 仅手动触发：本地已可直连 QLever 直跑（push 自动触发会与本地断点续跑互相踩踏）
 on:
   workflow_dispatch: {}
-  push:
-    paths:
-      - 'wikidata/**'
 
 permissions:
   contents: write
