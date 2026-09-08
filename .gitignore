@@ -1,0 +1,6 @@
+
+# wikidata 运行态文件（本地断点续跑权威，不入库）
+wikidata/state.json
+wikidata/terms-enzh.json
+wikidata/last_run.log
+wikidata/__pycache__/
