@@ -22,7 +22,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -50,8 +50,8 @@ EXTRA_ROOTS = {"weapon": ["Q728"]}   # 已人工核验（QLever 单实体反查�
 MAX_DEPTH = 4
 MAX_CLASSES = 3000
 MAX_PAGES_PER_CLASS = 3              # 每类最多 3 页 × 1000
-SLEEP = 0.2                          # 串行抓取段请求间隔；429 由 get_json 退避兜底
-BFS_WORKERS = 8                      # BFS 按层并行度（提速，见用户指示：下载类任务选快方法）
+SLEEP = 0.5                         # 串行抓取段请求间隔（限流期降挡；429 由 get_json 退避兜底）
+BFS_WORKERS = 4                     # BFS 按层并行度（限流期从 8 降挡，防 429 丢子树）
 
 
 def check_url(url: str) -> None:
@@ -65,7 +65,7 @@ def check_url(url: str) -> None:
             raise ValueError(f"blocked resolved private/reserved ip for {host}")
 
 
-def get_json(url: str, retries: int = 3) -> dict:
+def get_json(url: str, retries: int = 5) -> dict:
     headers = {"User-Agent": UA, "Accept": "application/sparql-results+json", "Accept-Encoding": "identity"}
     last_exc: Exception | None = None
     for attempt in range(retries + 1):
@@ -76,7 +76,7 @@ def get_json(url: str, retries: int = 3) -> dict:
                 return json.load(resp)
         except Exception as exc:
             last_exc = exc
-            wait = 2 * (attempt + 1)
+            wait = min(30, 4 * (attempt + 1))   # 429 退避：4/8/12/16/20/30s，尽量自救不丢子树
             time.sleep(wait)
     raise RuntimeError(f"GET failed: {url[:120]} ({last_exc})")
 
@@ -158,13 +158,20 @@ def bfs_classes(roots: dict[str, list[str]], state: dict) -> list[str]:
     depth = 0
     while frontier and len(visited) < MAX_CLASSES:
         nxt: list[str] = []
+        batch = frontier[: MAX_CLASSES - len(visited)]
+        done_n = 0
         with ThreadPoolExecutor(max_workers=BFS_WORKERS) as pool:
-            for qid, subs in pool.map(children, frontier[: MAX_CLASSES - len(visited)]):
+            futures = [pool.submit(children, q) for q in batch]
+            for fut in as_completed(futures):
+                qid, subs = fut.result()
                 visited.add(qid)   # 已访问过的也照常扩展子类（done≠子树已扩展）
                 order.append(qid)
                 for sub in subs:
                     if sub not in visited:
                         nxt.append(sub)
+                done_n += 1
+                if done_n % 100 == 0:   # 层内进度可见（此前整层结束才打印，探针像停摆）
+                    print(f"BFS depth {depth}: {done_n}/{len(batch)} done, visited={len(visited)}", flush=True)
         frontier = [q for q in dict.fromkeys(nxt) if q not in visited]
         depth += 1
         if depth > MAX_DEPTH:
