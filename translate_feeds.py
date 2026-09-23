@@ -150,7 +150,7 @@ def chat(messages, key, base, model):
     data, usage = post_json(
         "%s/chat/completions" % base.rstrip("/"),
         {"model": model, "messages": messages, "temperature": 0.2, "stream": False,
-         "max_tokens": 4096},
+         "max_tokens": 16384},  # 官方上限 384K；4096 曾致 8 段长文批量译文截断（finish_reason=length）
         key,
     )
     choice = (data.get("choices") or [{}])[0]
