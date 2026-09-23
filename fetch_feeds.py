@@ -693,6 +693,30 @@ def process_channel(ch, now):
         return ch["id"], meta, []
 
 
+def carry_over_zh(items):
+    """从上一轮 latest.json 按 url 回填翻译成果。
+    fetch 全量重建 items 会清掉 zh 字段——不回填则近 3 天窗口每天被重复重翻（成本×3）。
+    仅当正文未变化时回填（分段变了旧译文作废）；失败的标记同样沿用，由 translate 的
+    增量逻辑（只补 zhState!=ok 且近 3 天）决定是否重试。"""
+    import pathlib
+    prev_path = pathlib.Path(__file__).resolve().parent / "feeds" / "latest.json"
+    try:
+        prev = json.loads(prev_path.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001 —— 首轮/文件损坏时无历史可回填
+        return 0
+    by_url = {it.get("url"): it for it in prev.get("items") or []}
+    n = 0
+    for it in items:
+        old = by_url.get(it.get("url"))
+        if not old or old.get("zhState") != "ok" or it.get("body") != old.get("body"):
+            continue
+        for k in ("zhFull", "zhParas", "zhState", "zhDone", "zhChunks", "zhAt"):
+            if k in old:
+                it[k] = old[k]
+        n += 1
+    return n
+
+
 def main():
     now = datetime.now(timezone.utc)
     meta = {}
@@ -719,6 +743,9 @@ def main():
             items.extend(keep)
 
     items.sort(key=lambda x: x["pubDate"] or "", reverse=True)
+    carried = carry_over_zh(items)
+    if carried:
+        print("carry-over zh ok: %d items" % carried, flush=True)
 
     data = {"updatedAt": now.isoformat(), "meta": meta, "items": items}
     # 输出固定为脚本同目录下的 feeds/latest.json（字面量相对路径，无任何拼接/穿越可能）
