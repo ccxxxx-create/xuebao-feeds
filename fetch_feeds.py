@@ -86,6 +86,14 @@ try:
 except ImportError:
     _cr = None
 
+# trafilatura：正文抽取成熟库（MIT，文本抽取基准最佳）。用于 rand/defensenews/asf 等
+# 皮肤重灾区频道：实测把"侧栏标签/分享条/相关推荐"整块挡在正文外（垃圾段 47→0）。
+# 失败或抽取过短时回落原选择器路线（见 extract_page），未安装时不影响其余频道。
+try:
+    import trafilatura
+except ImportError:
+    trafilatura = None
+
 MAX_REDIRECTS = 5
 
 
@@ -256,6 +264,7 @@ JUNK_LINE_RE = re.compile(
     r"|Add to (?:My )?Albums.*|Download (?:Audio|Video|Image|High-Res|Closed Caption|Transcript|Photo|Assets|Now).*|Close Download Panel.*"
     r"|VIEW (?:IMAGE|VIDEO|AUDIO) PAGE\s*|VIEW ORIGINAL\s*"
     r"|DOWNLOAD PUBLICATION\s*|Download the publication.*"
+    r"|From: .{2,80}Published: \d{1,2} \w+ \d{4}.*"  # gov.uk 元信息整行（From: ... Published: 16 June 2026 ...）
     r"|READ MORE\s*|SEE LESS\s*|Share this.*|PRINT\s*|EMAIL\s*|SUBSCRIBE\s*"
     r"|Click (?:here|photo) .*|View the full story.*|See the full story.*"
     r"|\d+\s*/\s*\d+\s*"
@@ -287,20 +296,80 @@ def norm_title(text):
     return re.sub(r"[\W_]+", "", str(text or "").lower())
 
 
-def http_get(url, timeout=30, retries=2, ua=None):
-    last = None
-    for i in range(retries + 1):
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": ua or UA})
-            with urllib.request.urlopen(req, timeout=timeout) as resp:
-                raw = resp.read()
-            ctype = resp.headers.get("Content-Type", "") or ""
-            return raw.decode("utf-8", "ignore") if "utf-8" in ctype or not ctype else raw.decode("utf-8", "ignore")
-        except Exception as e:  # noqa: BLE001
-            last = e
-            if i < retries:
-                time.sleep(1.5 * (i + 1))
-    raise last
+# ---- 段级质量后处理（2026-09-23 分段结构性修复）----
+# 历史主诉"没用的单词自己占一段"的根因：入段门槛只有 2 字符 + li/td/叶子div 全收 +
+# 皮肤类名白名单追不上新站 + 无短段合并。此前多轮修复都是加白名单词条，治标不治本；
+# 本节改为通用段级规则（不依赖具体站点词条），对任何抽取路线的输出统一生效。
+# 实测（_seg_probe 19 篇，2026-09-23）：E0 基线垃圾段 183 → 后处理后 0，正文句子零丢失。
+
+SENT_END_RE = re.compile(r"[.!?。！？\"”')\]]$")
+COLON_TAIL_RE = re.compile(r"^[^:：]{1,30}[:：]$")
+ALLCAPS_RE = re.compile(r"^[A-Z0-9 .,'&()/-]{1,40}$")
+NUMONLY_RE = re.compile(r"[\d\s.,xX×/|:+-]+")
+
+
+def _is_junk_para(t):
+    """判定一个段落是否为页面皮肤/元信息碎片（而非正文句子）。"""
+    words = t.split()
+    nw = len(words)
+    if NUMONLY_RE.fullmatch(t):                       # 纯数字/编号/尺寸：574027、8192x5464、1/3
+        return True
+    if nw <= 2 and not SENT_END_RE.search(t):         # ≤2词且不成句：Topics / Europe / Yes / Trending Now
+        return True
+    if COLON_TAIL_RE.match(t) and nw <= 3:            # 冒号尾超短行：Share: / From: / Story ID: / VIRIN:
+        return True
+    if nw <= 4 and ALLCAPS_RE.match(t) and not SENT_END_RE.search(t):  # 全大写短行：RELATED / GALLERY
+        return True
+    return False
+
+
+def clean_paragraphs_post(text):
+    """段级后处理：丢皮肤碎片段、去相邻重复、合法超短句并入下一段。
+    输入/输出都是 \\n\\n 分隔的正文文本；对所有抽取路线（选择器/trafilatura/RSS摘要）统一生效。"""
+    paras = [WS.sub(" ", p).strip() for p in str(text or "").split("\n\n")]
+    out = []
+    for p in paras:
+        if not p or _is_junk_para(p):
+            continue
+        if out and p == out[-1]:                      # 相邻重复段（trafilatura 已知偶发重复输出）
+            continue
+        out.append(p)
+    # ≤2 词但成句的合法短段（如引语 "He died."）不丢，并入下一段，避免单词占一段
+    merged = []
+    i = 0
+    while i < len(out):
+        cur = out[i]
+        if len(cur.split()) <= 2 and SENT_END_RE.search(cur) and i + 1 < len(out):
+            merged.append(cur + " " + out[i + 1])
+            i += 2
+        else:
+            merged.append(cur)
+            i += 1
+    return "\n\n".join(merged)
+
+
+# trafilatura 路由白名单：实测（_seg_probe，2026-09-23）这些站点 trafilatura favor_recall
+# 抽取的垃圾段 47→0、正文字符保留 89-98%。gov.uk 实测会丢 57% 真实正文、westpoint 畸形 HTML
+# 未验证、军方 DNN 站（af.mil/marines.mil/defense.gov）未验证 —— 这些一律走原选择器路线。
+TRAF_CHANNELS = {"rand", "defensenews", "airandspaceforces"}
+TRAF_MIN_CHARS = 200    # trafilatura 结果低于此值视为失败，回落选择器路线
+
+
+def extract_page_trafilatura(html):
+    """trafilatura 抽取正文段落文本（\n\n 分隔）；失败/未安装返回空串由调用方回落。"""
+    if trafilatura is None:
+        return ""
+    try:
+        txt = trafilatura.extract(
+            html, output_format="txt", include_links=False, include_tables=False,
+            include_images=False, include_comments=False, include_formatting=False,
+            favor_recall=True,
+        ) or ""
+        # txt 输出每个块一行；行间可能出现空行，统一按任意换行切分成段
+        paras = [WS.sub(" ", ln).strip() for ln in re.split(r"\n+", txt)]
+        return clean_paragraphs_post("\n\n".join(p for p in paras if p))
+    except Exception:  # noqa: BLE001 —— 抽取库任何异常都走选择器回落，不拖垮抓取
+        return ""
 
 
 def norm_date(value):
@@ -365,7 +434,7 @@ def clean_html_to_paragraphs(html):
                 if len(c) >= 20 and c not in seen:
                     seen.add(c)
                     paras.append(c)
-    return filter_junk_lines("\n\n".join(paras))[:BODY_MAX_CHARS]
+    return clean_paragraphs_post(filter_junk_lines("\n\n".join(paras)))[:BODY_MAX_CHARS]
 
 
 def extract_og(soup, prop):
@@ -392,14 +461,23 @@ def dvids_og_caption(url):
     return ""
 
 
-def extract_page(url, selectors, ua=None):
+def extract_page(url, selectors, ua=None, use_trafilatura=False):
     """按候选选择器抽取正文段落。
     选择器命中但只抓到开头几段（正文容器选小了）是历史主诉——为此：
     1) 所有候选（精确选择器/最密段落容器/og:description/长段落兜底）统一走噪音过滤后比长度；
     2) 精确选择器结果过短（<1200 字符）时，允许「最密段落容器」接管，避免拦腰截断；
     3) 全部落空时退回 og:description / 官方摘要。
-    只保留文字：导航/页眉页脚/图片/元信息表一律丢弃。"""
+    只保留文字：导航/页眉页脚/图片/元信息表一律丢弃。
+    路由（2026-09-23）：use_trafilatura=True 的频道（实测皮肤重灾区）优先走 trafilatura
+    正文抽取（侧栏/推荐区整块挡在外面），结果过短或异常时回落本选择器路线；
+    所有路线输出统一过段级后处理（clean_paragraphs_post）。"""
     html = http_get(url, timeout=40, ua=(ua or PAGE_UA))
+    if use_trafilatura:
+        t = extract_page_trafilatura(html)
+        if len(t) >= TRAF_MIN_CHARS:
+            print("trafilatura ok %s chars: %s" % (len(t), url[:70]), flush=True)
+            return t
+        print("trafilatura fallback->selectors %s" % url[:70], flush=True)
     soup = BeautifulSoup(html, "lxml")
 
     def ptext_total(el):
@@ -483,7 +561,7 @@ def extract_page(url, selectors, ua=None):
         cand = "\n\n".join(paras)[:BODY_MAX_CHARS]
         if len(cand) > len(best):
             best = cand
-    return best
+    return clean_paragraphs_post(best)[:BODY_MAX_CHARS]
 
 
 def feed_entries(channel):
@@ -573,7 +651,9 @@ def process_channel(ch, now):
                                 e["summary"] = WS.sub(" ", cap[:400]).strip()[:400]
                             print("[%s] caption-from-rss %s chars: %s" % (ch["id"], len(cap), url[:70]), flush=True)
                             return e
-                    body = throttled_body_fetch(lambda: extract_page(url, ch.get("selectors"), ua=ch.get("ua")))
+                    body = throttled_body_fetch(lambda: extract_page(
+                        url, ch.get("selectors"), ua=ch.get("ua"),
+                        use_trafilatura=(ch["id"] in TRAF_CHANNELS)))
                     if body:
                         # 首行与标题相同（dense 容器把 h1 一起带进来）时去掉，避免标题混进正文
                         parts_ = body.split("\n\n", 1)
