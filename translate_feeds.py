@@ -32,10 +32,11 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 MAX_REQUESTS = 400          # 单次运行请求预算护栏：超限剩余篇目标 deferred 留到下轮
 BATCH = 8                   # 每批段数（编号保序+校验，缺号/错序降级单段）
+NEW_ARTICLE_DAYS = 3        # 仅翻「每日新增」：pubDate 在近 3 天内的条目；窗口内存量旧文不回翻（2026-09-23 用户拍板）
 TIMEOUT = 180               # 单次 API 调用超时（秒）
 RETRY_BACKOFF = (2, 4, 8)   # 429/5xx/超时的重试间隔（秒）
 LEN_RATIO = (0.1, 4.0)      # 译文/原文长度比合理区间（防截断/复读）
@@ -251,7 +252,16 @@ def main():
     out = pathlib.Path(__file__).resolve().parent / "feeds" / "latest.json"
     data = json.loads(out.read_text(encoding="utf-8"))
     items = data.get("items") or []
-    targets = [it for it in items if it.get("zhState") != "ok" and (it.get("body") or "").strip()]
+    # 「仅每日新增」：zhState != ok 且（pubDate 在近 NEW_ARTICLE_DAYS 天内 或 pubDate 缺失的保守纳入）
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=NEW_ARTICLE_DAYS)).isoformat()
+    targets = []
+    for it in items:
+        if it.get("zhState") == "ok" or not (it.get("body") or "").strip():
+            continue
+        pub = it.get("pubDate") or ""
+        if pub and str(pub) < cutoff:
+            continue
+        targets.append(it)
     base = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com").strip()
     model = os.environ.get("DEEPSEEK_MODEL", "deepseek-flash").strip()
     key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
