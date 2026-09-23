@@ -109,7 +109,12 @@ def split_paras(body):
     return [p.strip() for p in PARA_SPLIT_RE.split(str(body or "")) if p.strip()]
 
 
-_OPENER = urllib.request.build_opener()
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None  # API 调用不跟随重定向（302 落入 HTTPError 分支），杜绝跳转绕过 check_url
+
+
+_OPENER = urllib.request.build_opener(_NoRedirect())
 
 
 def post_json(url, payload, key, timeout=TIMEOUT):
@@ -148,7 +153,11 @@ def chat(messages, key, base, model):
          "max_tokens": 4096},
         key,
     )
-    text = ((data.get("choices") or [{}])[0].get("message") or {}).get("content") or ""
+    choice = (data.get("choices") or [{}])[0]
+    if choice.get("finish_reason") == "length":
+        # 输出在 max_tokens 处被截断：残缺译文不能标 ok，按失败走重试/兜底
+        raise RuntimeError("output truncated (finish_reason=length)")
+    text = (choice.get("message") or {}).get("content") or ""
     return text, usage
 
 
