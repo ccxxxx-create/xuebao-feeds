@@ -17,6 +17,7 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 120   # 防翻译阶段大面积挂起撞 6h 默认上限导致 job 被 kill
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -39,6 +40,7 @@ jobs:
         run: python translate_feeds.py
 
       - name: Commit latest.json
+        if: always()   # 翻译步脚本级失败也提交 fetch 产物（英文版照常投送）
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
