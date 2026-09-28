@@ -35,12 +35,16 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 
 MAX_REQUESTS = 400          # 单次运行请求预算护栏：超限剩余篇目标 deferred 留到下轮
-BATCH = 8                   # 每批段数（编号保序+校验，缺号/错序降级单段）
-NEW_ARTICLE_DAYS = 3        # 仅翻「每日新增」：pubDate 在近 3 天内的条目；窗口内存量旧文不回翻（2026-09-23 用户拍板）
+BATCH = 8                   # 全文模式：每批段数（JSON 数组保序+校验，失败降级单段）
+TITLE_BATCH = 10            # 标题摘要模式：每批篇数
+NEW_ARTICLE_DAYS = 3        # 全文模式的目标窗口：pubDate 近 3 天（存量不回翻，2026-09-23 用户拍板）
 TIMEOUT = 180               # 单次 API 调用超时（秒）
 RETRY_BACKOFF = (2, 4, 8)   # 429/5xx/超时的重试间隔（秒）
 LEN_RATIO = (0.1, 4.0)      # 译文/原文长度比合理区间（防截断/复读）
 PARA_SPLIT_RE = re.compile(r"\n{2,}")
+# 全文翻译开关：默认关闭（2026-09-26 用户决定停烧全文翻译费）；只翻标题+摘要（单篇 ~0.001 元，月成本个位数元，
+# 不限窗口——存量一次性 <0.2 元，简报/列表/收藏全面中文化）。恢复全文：workflow Translate 步 env 加 TRANSLATE_FULL: "1"。
+FULL = os.environ.get("TRANSLATE_FULL", "0") == "1"
 
 # ---- 出站 URL 安全校验（与 fetch_feeds.check_url 同规则；API 端点同样不得绕过）----
 BAD_HOST_RE = re.compile(r"^(localhost|.*\.local|.*\.internal|.*\.localhost)$", re.I)
@@ -177,6 +181,84 @@ def parse_json_arr(text, n):
     return vals if all(vals) else None
 
 
+def parse_titles(text, n):
+    """解析标题摘要批量的 JSON 输出：[{t,s}×n]；任一缺字段/为空则 None（整批降级）。"""
+    m = re.search(r"\[[\s\S]*\]", str(text or ""))
+    if not m:
+        return None
+    try:
+        arr = json.loads(m.group(0))
+    except Exception:  # noqa: BLE001
+        return None
+    if not isinstance(arr, list) or len(arr) != n:
+        return None
+    out = []
+    for x in arr:
+        if not isinstance(x, dict):
+            return None
+        t = str(x.get("t") or "").strip()
+        s = str(x.get("s") or "").strip()
+        if not t or not s:
+            return None
+        out.append((t, s))
+    return out
+
+
+def translate_titles_batch(targets, key, base, model, stats):
+    """翻一批标题+摘要（targets: [(item, title, summary)]）。写回 item.titleZh/summaryZh。
+    整批解析或长度比不过 → 逐篇兜底。返回成功篇数。"""
+    n = len(targets)
+    body = "\n\n".join(
+        "[%d] Title: %s\n    Summary: %s" % (j + 1, t, s) for j, (it, t, s) in enumerate(targets))
+    user = ("把以下 %d 组英文新闻的「标题+摘要」译成简体中文。只输出一个 JSON 数组（恰好 %d 个元素），"
+            "每个元素形如 {\"t\":\"标题中文\",\"s\":\"摘要中文\"}，与输入顺序一一对应，不要输出任何其他内容：\n\n%s") % (
+        n, n, body)
+    stats["requests"] += 1
+    text, usage = chat([{"role": "system", "content": SYSTEM_PROMPT},
+                        {"role": "user", "content": user}], key, base, model)
+    stats["tokensIn"] += usage[0]
+    stats["tokensOut"] += usage[1]
+    vals = parse_titles(text, n)
+    if vals is not None and all(
+            ratio_ok(t, vt) and ratio_ok(s, vs) for (it, t, s), (vt, vs) in zip(targets, vals)):
+        for (it, _t, _s), (vt, vs) in zip(targets, vals):
+            it["titleZh"] = vt
+            it["summaryZh"] = vs
+        return n
+    print("  titles batch parse/ratio failed (%d items), raw head: %s" % (
+        n, re.sub(r"\s+", " ", str(text))[:120]), flush=True)
+    ok = 0
+    for it, t, s in targets:                      # 逐篇兜底：标题+摘要一次调用
+        one = translate_titles_one(t, s, key, base, model, stats)
+        if one:
+            it["titleZh"], it["summaryZh"] = one
+            ok += 1
+    return ok
+
+
+def translate_titles_one(title, summary, key, base, model, stats, tries=2):
+    user = ("把这条英文新闻的「标题+摘要」译成简体中文。只输出 JSON 对象 {\"t\":\"标题中文\",\"s\":\"摘要中文\"}，"
+            "不要输出其他内容：\n\nTitle: %s\nSummary: %s") % (title, summary)
+    for _ in range(tries):
+        stats["requests"] += 1
+        text, usage = chat([{"role": "system", "content": SYSTEM_PROMPT},
+                            {"role": "user", "content": user}], key, base, model)
+        stats["tokensIn"] += usage[0]
+        stats["tokensOut"] += usage[1]
+        m = re.search(r"\{[\s\S]*\}", str(text or ""))
+        if not m:
+            continue
+        try:
+            obj = json.loads(m.group(0))
+        except Exception:  # noqa: BLE001
+            continue
+        t = str(obj.get("t") or "").strip()
+        s = str(obj.get("s") or "").strip()
+        if t and s and ratio_ok(title, t) and ratio_ok(summary, s):
+            return t, s
+    return None
+
+
 def ratio_ok(en, zh):
     if not zh:
         return False
@@ -261,53 +343,70 @@ def main():
     out = pathlib.Path(__file__).resolve().parent / "feeds" / "latest.json"
     data = json.loads(out.read_text(encoding="utf-8"))
     items = data.get("items") or []
-    # 「仅每日新增」：zhState != ok 且（pubDate 在近 NEW_ARTICLE_DAYS 天内 或 pubDate 缺失的保守纳入）
+    # 目标一（默认模式）：标题+摘要——titleZh 缺失即翻，不限窗口（单篇 ~0.001 元，存量一次性 <0.2 元）
+    ts_targets = [(it, (it.get("title") or "").strip(), (it.get("summary") or "").strip())
+                  for it in items
+                  if not (it.get("titleZh") or "").strip() and (it.get("title") or "").strip()]
+    # 目标二（仅 TRANSLATE_FULL=1）：正文全文——「仅每日新增」窗口（pubDate 近 NEW_ARTICLE_DAYS 天或缺失保守纳入）
     cutoff = (datetime.now(timezone.utc) - timedelta(days=NEW_ARTICLE_DAYS)).isoformat()
-    targets = []
-    for it in items:
-        if it.get("zhState") == "ok" or not (it.get("body") or "").strip():
-            continue
-        pub = it.get("pubDate") or ""
-        if pub and str(pub) < cutoff:
-            continue
-        targets.append(it)
+    full_targets = []
+    if FULL:
+        for it in items:
+            if it.get("zhState") == "ok" or not (it.get("body") or "").strip():
+                continue
+            pub = it.get("pubDate") or ""
+            if pub and str(pub) < cutoff:
+                continue
+            full_targets.append(it)
     base = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com").strip()
     model = os.environ.get("DEEPSEEK_MODEL", "deepseek-flash").strip()
     key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
 
     if args.dry_run:
-        print("dry-run: %d/%d items pending translate (model=%s)" % (len(targets), len(items), model))
-        if targets:
-            demo = split_paras(targets[0].get("body"))[:BATCH]
-            print("first batch would be %d paras of: %s" % (len(demo), targets[0].get("title", "")[:60]))
-            for j, p in enumerate(demo):
-                print("  [%d] %.60s..." % (j + 1, p))
+        print("dry-run: mode=%s | titles+summary pending: %d | full pending: %d (model=%s)" % (
+            "full+titles" if FULL else "titles-only", len(ts_targets), len(full_targets), model))
+        if ts_targets:
+            it, t, s = ts_targets[0]
+            print("first titles batch would include: %s" % t[:60])
+        if full_targets:
+            demo = split_paras(full_targets[0].get("body"))[:BATCH]
+            print("first full batch would be %d paras of: %s" % (len(demo), full_targets[0].get("title", "")[:60]))
         return 0
 
     if not key:
         print("translate skip: DEEPSEEK_API_KEY not set (english-only delivery continues)")
         return 0
 
-    if args.limit and len(targets) > args.limit:
-        targets = targets[:args.limit]
+    if args.limit and len(full_targets) > args.limit:
+        full_targets = full_targets[:args.limit]
 
-    stats = {"model": model, "okCount": 0, "failCount": 0, "requests": 0,
-             "tokensIn": 0, "tokensOut": 0, "deferred": 0}
+    stats = {"model": model, "mode": "full+titles" if FULL else "titles-only",
+             "okCount": 0, "failCount": 0, "tsOk": 0, "tsTotal": len(ts_targets),
+             "requests": 0, "tokensIn": 0, "tokensOut": 0, "deferred": 0}
     t0 = time.time()
-    for n, it in enumerate(targets):
+    # —— 标题+摘要（先跑：成本低、收益面大）——
+    for b in range(0, len(ts_targets), TITLE_BATCH):
+        batch = ts_targets[b:b + TITLE_BATCH]
+        try:
+            stats["tsOk"] += translate_titles_batch(batch, key, base, model, stats)
+            print("titles+summary [%d/%d] ok=%d" % (b + len(batch), len(ts_targets), stats["tsOk"]), flush=True)
+        except Exception as e:  # noqa: BLE001 —— 单批失败不拖垮
+            print("titles+summary batch ERROR: %s" % e, flush=True)
+    # —— 正文全文（仅 FULL=1）——
+    for n, it in enumerate(full_targets):
         if stats["requests"] >= MAX_REQUESTS:
-            stats["deferred"] = len(targets) - n
+            stats["deferred"] = len(full_targets) - n
             print("budget guard: %d items deferred to next run" % stats["deferred"], flush=True)
             break
         title = (it.get("title") or "")[:50]
         try:
             state = translate_item(it, key, base, model, stats)
             stats["okCount" if state == "ok" else "failCount"] += 1
-            print("[%d/%d] %s %s" % (n + 1, len(targets), state, title), flush=True)
+            print("[%d/%d] %s %s" % (n + 1, len(full_targets), state, title), flush=True)
         except Exception as e:  # noqa: BLE001 —— 单篇失败不拖垮整批
             stats["failCount"] += 1
             it["zhState"] = "failed"
-            print("[%d/%d] ERROR %s: %s" % (n + 1, len(targets), title, e), flush=True)
+            print("[%d/%d] ERROR %s: %s" % (n + 1, len(full_targets), title, e), flush=True)
     stats["seconds"] = round(time.time() - t0, 1)
     meta = data.get("meta") if isinstance(data.get("meta"), dict) else {}
     meta["translate"] = stats
