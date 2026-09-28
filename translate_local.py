@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""《英语学报》本地翻译管线（hy-mt2 · 2026-09-28 起试用）
+"""《英语学报》本地翻译管线 v2 · 全文（hy-mt2 · 2026-09-28）
 
-流程：拉线上 latest.json（云端 06:00 抓好的英文新文）→ hy-mt2 逐条翻标题+摘要
-→ 校验/清洗 → 推回 xuebao-feeds 仓库 → 用户端 09:00 刷新即见中文。
+流程：拉线上 latest.json（云端 06:00 抓好的英文新文）→ 每篇文章按
+「正文逐段 → 摘要 → 标题」顺序一次性翻完（语境逐级放大：正文段落带文章级语境，
+摘要带正文首段译文，标题带摘要+正文首段译文）→ 推回仓库 → 用户 09:00 刷新即见。
+
+存量回填（2026-09-28 拍板）：增量翻完后用剩余预算翻无译文的老文章，每晚自然补完。
+护栏：单次运行 MAX_ARTICLES 篇 / MAX_PARAS 段；失败段留空（zhState=failed），下次运行只补空段。
 
 运行方式：Windows 任务计划程序每日 06:30 触发 run_translate_local.bat
-前提：本机 Ollama（模型库 F:/ollama/models，模型 hy-mt2:latest）；
+前提：本机 Ollama（模型库 F:/ollama/models，模型 hy-mt2:latest 7.5B）；
       服务未运行时脚本自动拉起并等待就绪。
-术语：内置 GLOSSARY 军事缩写表（与云端 DeepSeek 同配置，保证对比公平）；
-      用户大术语库暂不接入（2026-09-28 拍板：先裸翻观察一周再定）。
-
-日志：logs/translate_local_YYYYMMDD.log（每条译文留档，供观察期错译复盘）
+术语：内置 GLOSSARY 军事缩写表；用户大术语库（RAG 词面/语义检索）待观察期后接入。
+日志：logs/translate_local_YYYYMMDD.log
 """
 import base64
 import ipaddress
@@ -41,10 +43,12 @@ OLLAMA_MODELS = "F:/ollama/models"
 OLLAMA_CHAT_URL = "http://127.0.0.1:11434/v1/chat/completions"
 OLLAMA_TAGS_URL = "http://127.0.0.1:11434/api/tags"
 MODEL = "hy-mt2:latest"
-TITLE_BATCH_DELAY = 0.5     # 逐条间隔（秒）
-LEN_RATIO = (0.05, 4.0)     # 译文/原文长度比（标题短，下限放宽）
-MAX_ITEMS = 200             # 单次运行上限护栏
-KEEP_ALIVE = "10m"          # 模型驻留：一批增量翻完自动卸载
+PARA_DELAY = 0.2            # 段间间隔（秒）
+LEN_RATIO = (0.05, 5.0)     # 译文/原文长度比
+MAX_ARTICLES = 60           # 单次运行篇数护栏
+MAX_PARAS = 1500            # 单次运行总段数护栏（约 45 分钟上限）
+KEEP_ALIVE = "30m"          # 翻译期间模型常驻
+PARA_SPLIT_RE = re.compile(r"\n{2,}")
 
 # 内置军事缩写术语表（与 translate_feeds.py 的 GLOSSARY 保持同步；新增两边一起加）
 GLOSSARY = [
@@ -152,7 +156,7 @@ def ensure_ollama():
     raise RuntimeError("ollama failed to become ready in 60s")
 
 
-def chat_hy(prompt, num_predict=1024, timeout=240):
+def chat_hy(prompt, num_predict=2048, timeout=300):
     """调 hy-mt2（固定回环端点，请求前断言）。"""
     _assert_loopback(OLLAMA_CHAT_URL)
     body = json.dumps({
@@ -167,60 +171,156 @@ def chat_hy(prompt, num_predict=1024, timeout=240):
     return (d.get("choices") or [{}])[0].get("message", {}).get("content") or ""
 
 
-def clean_zh(s):
-    """清洗模型输出残留：'第一行：' 前缀、包裹引号、编号头。"""
+def clean_zh(s, strip_num=True):
+    """清洗模型输出残留：'译文/标题/摘要：' 前缀、包裹引号。
+    strip_num 仅剥【带括号】的编号头（[1]/（2））——裸数字开头是日期/列表常态
+    （实测 "10月10日" 被剥成 "月10日"、"2026年" 被剥成 "26年"），正文段一律不剥。"""
     s = str(s or "").strip()
-    s = re.sub(r"^(?:第一行|标题)\s*[：:]\s*", "", s)
-    s = re.sub(r"^(?:摘要|第二行)\s*[：:]\s*", "", s)
-    s = re.sub(r"^[\[［(（]?\d{1,2}[\]］)）]?\s*[：:.、]?\s*", "", s)
+    s = re.sub(r"^(?:第[一二三四五六七八九十]+行|译文|标题|摘要)\s*[：:]\s*", "", s)
+    if strip_num:
+        s = re.sub(r"^[\[［(（]\s*\d{1,2}\s*[\]］)）]\s*", "", s)
     return s.strip().strip('"“”「」').strip()
 
 
 def ratio_ok(en, zh):
     if not zh:
         return False
-    r = len(zh) / max(len(en), 1)
-    return LEN_RATIO[0] <= r <= LEN_RATIO[1]
+    return LEN_RATIO[0] <= len(zh) / max(len(en), 1) <= LEN_RATIO[1]
 
 
-def parse_single(raw):
-    """解析单条输出：优先 JSON 单对象 {"t":...,"s":...}，失败降级两行文本。"""
-    m = re.search(r"\{[\s\S]*\}", str(raw or ""))
+def split_paras(body):
+    """与 webapp paras()/云端 split_paras 完全一致：连续空行分段。"""
+    return [p.strip() for p in PARA_SPLIT_RE.split(str(body or "")) if p.strip()]
+
+
+def parse_field(raw, key, strip_num=True):
+    """从模型输出提取指定字段：优先 JSON，失败取'key：值'行，
+    最后兜底纯文本（实测 hy-mt2 偶发直接输出译文不含 JSON——译文本身是对的，不能丢）。"""
+    raw = str(raw or "")
+    m = re.search(r"\{[\s\S]*\}", raw)
     if m:
         try:
             obj = json.loads(m.group(0))
-            t, s = clean_zh(obj.get("t")), clean_zh(obj.get("s"))
-            if t and s:
-                return t, s
+            v = clean_zh(obj.get(key) or "", strip_num)
+            if v:
+                return v
         except Exception:  # noqa: BLE001
             pass
-    lines = [ln.strip() for ln in str(raw or "").splitlines() if ln.strip()]
-    if len(lines) >= 2:
-        return clean_zh(lines[0]), clean_zh(" ".join(lines[1:]))
-    if len(lines) == 1:
-        return clean_zh(lines[0]), ""
-    return "", ""
+    for ln in raw.splitlines():
+        m2 = re.match(r"^\s*[\"“]?\s*%s[\"”]?\s*[：:]\s*(.+)$" % key, ln.strip())
+        if m2:
+            v = clean_zh(m2.group(1), strip_num)
+            if v:
+                return v
+    # 纯文本兜底：无任何结构标记时，整段输出即译文（p 取全文；t/s 取首行）
+    if "{" not in raw and "}" not in raw:
+        lines = [ln.strip() for ln in raw.splitlines() if ln.strip()]
+        if lines:
+            return clean_zh(raw.strip() if key == "p" else lines[0], strip_num)
+    return ""
 
 
-def translate_one(title, summary):
-    """单条翻译（语境式，2026-09-28 用户思路实测）：摘要先翻建立机构/缩写语境，标题最后翻。
-    根因：hy-mt2 对超短标题的军事缩写无上下文会乱抓近似词（CNRC/NAVFAC→"北美防空司令部"），
-    摘要先行后难点条目 3/3 全对。JSON 单对象 {"s","t"} 优先、两行文本兜底。"""
+def translate_para(context, para):
+    """翻一个正文段（语境 = 文章标题+摘要 + 前一段译文）。"""
     prompt = (
-        "Translate this English military news into Simplified Chinese. The full summary is given "
-        "for context — read it first, translate the summary, and translate the title LAST using "
-        "that context (institution abbreviations must follow military conventions).\n"
+        "Translate one paragraph of an English military news article into Simplified Chinese.\n"
+        "Article context (for reference only, do NOT translate): %s\n"
+        "Previous paragraph translation (for coherence): %s\n"
         "Military terms glossary (must follow): %s\n"
-        "Output JSON object only: {\"s\":\"摘要中文\",\"t\":\"标题中文\"} — no explanations.\n\n"
-        "Title: %s\nSummary: %s" % (GLOSSARY_LINE, title, summary)
+        "Output JSON only: {\"p\":\"本段译文\"} — no explanations.\n\n"
+        "Paragraph: %s" % (context["head"], context["prev"], GLOSSARY_LINE, para)
     )
     raw = chat_hy(prompt)
-    t, s = parse_single(raw)
-    if t and not ratio_ok(title, t):
-        t = ""
-    if s and not ratio_ok(summary, s):
-        s = ""
-    return t, s, raw
+    return parse_field(raw, "p", strip_num=False)
+
+
+def translate_summary(context):
+    """翻摘要（语境 = 正文首段译文）。"""
+    prompt = (
+        "Translate this English news summary into Simplified Chinese, using the article's first "
+        "translated paragraph as context.\n"
+        "First paragraph (translated): %s\n"
+        "Military terms glossary (must follow): %s\n"
+        "Output JSON only: {\"s\":\"摘要中文\"} — no explanations.\n\n"
+        "Summary: %s" % (context["first_zh"], GLOSSARY_LINE, context["summary"])
+    )
+    raw = chat_hy(prompt)
+    return parse_field(raw, "s")
+
+
+def translate_title(context):
+    """翻标题（语境 = 摘要译文 + 正文首段译文，最后翻——语境最强）。"""
+    prompt = (
+        "Translate this English news title into Simplified Chinese. The summary and first paragraph "
+        "translations are given as context — institution abbreviations must follow military conventions.\n"
+        "Summary (translated): %s\n"
+        "First paragraph (translated): %s\n"
+        "Military terms glossary (must follow): %s\n"
+        "Output JSON only: {\"t\":\"标题中文\"} — no explanations.\n\n"
+        "Title: %s" % (context["sum_zh"], context["first_zh"], GLOSSARY_LINE, context["title"])
+    )
+    raw = chat_hy(prompt)
+    return parse_field(raw, "t")
+
+
+def translate_article(it, budget):
+    """一篇完整翻译：正文逐段 → 摘要 → 标题（2026-09-28 用户拍板的语境放大顺序）。
+    返回消耗的段数。已有译文的段自动跳过（失败重跑只补空段）。"""
+    paras_en = split_paras(it.get("body"))
+    if not paras_en:
+        return 0
+    prev_zh = it.get("zhParas") if isinstance(it.get("zhParas"), list) else []
+    zh = [prev_zh[i] if i < len(prev_zh) and isinstance(prev_zh[i], str) and prev_zh[i].strip() else ""
+          for i in range(len(paras_en))]
+    context = {
+        "head": ((it.get("title") or "")[:120] + " | " + (it.get("summary") or "")[:300]),
+        "title": (it.get("title") or "").strip(),
+        "summary": (it.get("summary") or "").strip()[:600],
+        "prev": "",
+    }
+    # —— 1) 正文逐段 ——
+    used = 0
+    for i, p in enumerate(paras_en):
+        if used >= budget:
+            break
+        if zh[i]:
+            context["prev"] = zh[i][:200]
+            continue
+        try:
+            v = translate_para(context, p)
+            if v and ratio_ok(p, v):
+                zh[i] = v
+            else:
+                log("    para %d ratio/parse fail" % (i + 1))
+        except Exception as e:  # noqa: BLE001 单段失败不拖垮整篇
+            log("    para %d ERROR: %s" % (i + 1, e))
+        context["prev"] = zh[i][:200] if zh[i] else ""
+        used += 1
+        time.sleep(PARA_DELAY)
+    context["first_zh"] = next((v for v in zh if v.strip()), "")
+    # —— 2) 摘要（已有译文则跳过）——
+    if context["summary"] and not (it.get("summaryZh") or "").strip():
+        try:
+            s = translate_summary(context)
+            if s and ratio_ok(context["summary"], s):
+                it["summaryZh"] = s
+        except Exception as e:  # noqa: BLE001
+            log("    summary ERROR: %s" % e)
+    # —— 3) 标题（最后翻，语境最强；已有/锁定不覆盖）——
+    if context["title"] and not (it.get("titleZh") or "").strip() and not it.get("titleZhLocked"):
+        try:
+            t = translate_title(context)
+            if t and ratio_ok(context["title"], t):
+                it["titleZh"] = t
+                it["titleTrans"] = "ok"
+        except Exception as e:  # noqa: BLE001
+            log("    title ERROR: %s" % e)
+    it["zhParas"] = zh
+    it["zhFull"] = "\n\n".join(zh)
+    it["zhDone"] = sum(1 for v in zh if v.strip())
+    it["zhChunks"] = len(paras_en)
+    it["zhState"] = "ok" if all(v.strip() for v in zh) else "failed"
+    return used
 
 
 def gh_api(args, inp=None):
@@ -236,7 +336,7 @@ def push_latest(data):
     path = "feeds/latest.json"
     old = gh_api(["api", "repos/%s/contents/%s" % (REPO, path), "--jq", ".sha"])
     payload = {
-        "message": "translate: local hy-mt2 titles+summary (%s)" % datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+        "message": "translate: local hy-mt2 full pipeline (%s)" % datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "content": base64.b64encode(json.dumps(data, ensure_ascii=False, indent=1).encode("utf-8")).decode(),
     }
     if old:
@@ -248,37 +348,34 @@ def push_latest(data):
 
 def main():
     t0 = time.time()
-    log("=== local hy translate start ===")
+    log("=== local hy full translate start ===")
     data = fetch_latest()
     items = data.get("items") or []
-    todo = [it for it in items
-            if not (it.get("titleZh") or "").strip() and (it.get("title") or "").strip()]
-    log("items=%d pending=%d" % (len(items), len(todo)))
+    # 待翻：zhState != ok 且有正文（新文优先按 pubDate 降序，存量回填自然靠后）
+    todo = [it for it in items if it.get("zhState") != "ok" and (it.get("body") or "").strip()]
+    todo.sort(key=lambda x: x.get("pubDate") or "", reverse=True)
+    log("items=%d pending(full)=%d" % (len(items), len(todo)))
     if not todo:
         log("nothing to translate, exit")
         return 0
     ensure_ollama()
-    todo = todo[:MAX_ITEMS]
-    ok = fail = 0
-    for i, it in enumerate(todo):
-        title = (it.get("title") or "").strip()
-        summary = (it.get("summary") or "").strip()[:600]
-        try:
-            t, s, raw = translate_one(title, summary)
-            if t:
-                it["titleZh"] = t
-                it["summaryZh"] = s or it.get("summaryZh", "")
-                ok += 1
-                log("[%d/%d] OK %s => %s" % (i + 1, len(todo), title[:40], t[:40]))
-            else:
-                fail += 1
-                log("[%d/%d] FAIL %s | raw: %s" % (i + 1, len(todo), title[:40], re.sub(r"\s+", " ", raw)[:100]))
-        except Exception as e:  # noqa: BLE001 单条失败不拖垮
-            fail += 1
-            log("[%d/%d] ERROR %s: %s" % (i + 1, len(todo), title[:40], e))
-        time.sleep(TITLE_BATCH_DELAY)
-    log("translate done: ok=%d fail=%d in %.0fs" % (ok, fail, time.time() - t0))
-    if ok:
+    ok_cnt = part_cnt = 0
+    paras_total = 0
+    for n, it in enumerate(todo[:MAX_ARTICLES]):
+        if paras_total >= MAX_PARAS:
+            log("para budget guard hit, %d articles deferred" % (len(todo) - n))
+            break
+        title = (it.get("title") or "")[:44]
+        used = translate_article(it, MAX_PARAS - paras_total)
+        paras_total += used
+        state = it.get("zhState")
+        if state == "ok":
+            ok_cnt += 1
+        else:
+            part_cnt += 1
+        log("[%d/%d] %s (%d paras used) %s" % (n + 1, min(len(todo), MAX_ARTICLES), state, used, title))
+    log("translate done: ok=%d partial=%d paras=%d in %.0fs" % (ok_cnt, part_cnt, paras_total, time.time() - t0))
+    if paras_total:
         sha = push_latest(data)
         log("pushed to %s -> %s" % (REPO, sha))
     log("=== done in %.0fs ===" % (time.time() - t0))
