@@ -695,9 +695,10 @@ def process_channel(ch, now):
 
 def carry_over_zh(items):
     """从上一轮 latest.json 按 url 回填翻译成果。
-    fetch 全量重建 items 会清掉 zh 字段——不回填则近 3 天窗口每天被重复重翻（成本×3）。
-    仅当正文未变化时回填（分段变了旧译文作废）；失败的标记同样沿用，由 translate 的
-    增量逻辑（只补 zhState!=ok 且近 3 天）决定是否重试。"""
+    fetch 全量重建 items 会清掉 zh/titleZh 字段——不回填则每天重复重翻（成本×3）。
+    仅当正文未变化时回填（分段变了旧译文作废）：
+    - titleZh/summaryZh：上轮有就回填（标题摘要模式，成本极小故全量保留）
+    - zhFull/zhParas 等全文字段：上轮 zhState=ok 才回填，由 translate 的增量逻辑决定是否补翻。"""
     import pathlib
     prev_path = pathlib.Path(__file__).resolve().parent / "feeds" / "latest.json"
     try:
@@ -708,12 +709,17 @@ def carry_over_zh(items):
     n = 0
     for it in items:
         old = by_url.get(it.get("url"))
-        if not old or old.get("zhState") != "ok" or it.get("body") != old.get("body"):
+        if not old or it.get("body") != old.get("body"):
             continue
-        for k in ("zhFull", "zhParas", "zhState", "zhDone", "zhChunks", "zhAt"):
-            if k in old:
+        for k in ("titleZh", "summaryZh"):
+            if old.get(k):
                 it[k] = old[k]
-        n += 1
+        if old.get("zhState") == "ok":
+            for k in ("zhFull", "zhParas", "zhState", "zhDone", "zhChunks", "zhAt"):
+                if k in old:
+                    it[k] = old[k]
+        if old.get("titleZh") or old.get("zhState") == "ok":
+            n += 1
     return n
 
 
