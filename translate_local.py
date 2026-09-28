@@ -203,11 +203,15 @@ def parse_single(raw):
 
 
 def translate_one(title, summary):
-    """单条翻译：纯翻译指令+内置术语表；JSON 单对象优先、两行文本兜底。"""
+    """单条翻译（语境式，2026-09-28 用户思路实测）：摘要先翻建立机构/缩写语境，标题最后翻。
+    根因：hy-mt2 对超短标题的军事缩写无上下文会乱抓近似词（CNRC/NAVFAC→"北美防空司令部"），
+    摘要先行后难点条目 3/3 全对。JSON 单对象 {"s","t"} 优先、两行文本兜底。"""
     prompt = (
-        "Translate the following English news title and summary into Simplified Chinese.\n"
+        "Translate this English military news into Simplified Chinese. The full summary is given "
+        "for context — read it first, translate the summary, and translate the title LAST using "
+        "that context (institution abbreviations must follow military conventions).\n"
         "Military terms glossary (must follow): %s\n"
-        "Output JSON object only: {\"t\":\"标题中文\",\"s\":\"摘要中文\"} — no explanations.\n\n"
+        "Output JSON object only: {\"s\":\"摘要中文\",\"t\":\"标题中文\"} — no explanations.\n\n"
         "Title: %s\nSummary: %s" % (GLOSSARY_LINE, title, summary)
     )
     raw = chat_hy(prompt)
