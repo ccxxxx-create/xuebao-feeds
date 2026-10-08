@@ -69,6 +69,58 @@ GLOSSARY = [
 ]
 GLOSSARY_LINE = "；".join("%s=%s" % (en, zh) for en, zh in GLOSSARY)
 
+# ---- 用户术语库接口（2026-09-28 拍板：留接口不落数据，数据到位即自动生效）----
+# 约定：F:/AI/terms/glossary.tsv，两列 TSV（英文<TAB>中文），# 开头为注释行，UTF-8。
+# 翻译每条文本前做词面命中检索（1~4 词窗口查字典，无第三方依赖），命中 0~8 条注入该条提示词。
+# 文件不存在/格式错 → 空表，管线回退内置 GLOSSARY，行为与现在完全一致。
+USER_GLOSSARY_PATH = pathlib.Path("F:/AI/terms/glossary.tsv")
+USER_GLOSSARY_MAX = 500000
+
+_user_glossary_cache = {"loaded": False, "map": {}}
+
+
+def load_user_glossary():
+    if _user_glossary_cache["loaded"]:
+        return _user_glossary_cache["map"]
+    g = {}
+    try:
+        raw = USER_GLOSSARY_PATH.read_text(encoding="utf-8", errors="ignore")
+        for ln in raw.splitlines():
+            ln = ln.strip()
+            if not ln or ln.startswith("#") or "\t" not in ln:
+                continue
+            en, zh = ln.split("\t", 1)
+            en, zh = en.strip().lower(), zh.strip()
+            if en and zh and len(en) <= 80 and len(zh) <= 200:
+                g[en] = zh
+                if len(g) >= USER_GLOSSARY_MAX:
+                    break
+        log("user glossary loaded: %d entries" % len(g))
+    except OSError:
+        pass  # 接口空载：无术语文件是常态
+    _user_glossary_cache["loaded"] = True
+    _user_glossary_cache["map"] = g
+    return g
+
+
+def glossary_hits(text, user_map, max_hits=8):
+    """词面命中检索：英文按非字母数字切词后拼 1~4 词窗口查用户术语字典。"""
+    if not user_map:
+        return []
+    words = re.split(r"[^A-Za-z0-9\-]+", str(text or ""))
+    hits, seen = [], set()
+    for i in range(len(words)):
+        for n in (1, 2, 3, 4):
+            if i + n > len(words):
+                break
+            phrase = " ".join(w for w in words[i:i + n]).strip(".-").lower()
+            if phrase and phrase in user_map and phrase not in seen:
+                seen.add(phrase)
+                hits.append("%s=%s" % (phrase, user_map[phrase]))
+                if len(hits) >= max_hits:
+                    return hits
+    return hits
+
 LOG_DIR = ROOT / "logs"
 
 
@@ -220,15 +272,17 @@ def parse_field(raw, key, strip_num=True):
     return ""
 
 
-def translate_para(context, para):
-    """翻一个正文段（语境 = 文章标题+摘要 + 前一段译文）。"""
+def translate_para(context, para, user_hits=None):
+    """翻一个正文段（语境 = 文章标题+摘要 + 前一段译文 + 用户术语命中注入）。"""
+    user_line = ("User glossary hits (must follow): " + "；".join(user_hits) + "\n") if user_hits else ""
     prompt = (
         "Translate one paragraph of an English military news article into Simplified Chinese.\n"
         "Article context (for reference only, do NOT translate): %s\n"
         "Previous paragraph translation (for coherence): %s\n"
         "Military terms glossary (must follow): %s\n"
+        "%s"
         "Output JSON only: {\"p\":\"本段译文\"} — no explanations.\n\n"
-        "Paragraph: %s" % (context["head"], context["prev"], GLOSSARY_LINE, para)
+        "Paragraph: %s" % (context["head"], context["prev"], GLOSSARY_LINE, user_line, para)
     )
     raw = chat_hy(prompt)
     return parse_field(raw, "p", strip_num=False)
@@ -263,7 +317,7 @@ def translate_title(context):
     return parse_field(raw, "t")
 
 
-def translate_article(it, budget):
+def translate_article(it, budget, user_map):
     """一篇完整翻译：正文逐段 → 摘要 → 标题（2026-09-28 用户拍板的语境放大顺序）。
     返回消耗的段数。已有译文的段自动跳过（失败重跑只补空段）。"""
     paras_en = split_paras(it.get("body"))
@@ -287,7 +341,7 @@ def translate_article(it, budget):
             context["prev"] = zh[i][:200]
             continue
         try:
-            v = translate_para(context, p)
+            v = translate_para(context, p, glossary_hits(p, user_map))
             if v and ratio_ok(p, v):
                 zh[i] = v
             else:
@@ -359,6 +413,7 @@ def main():
         log("nothing to translate, exit")
         return 0
     ensure_ollama()
+    user_map = load_user_glossary()
     ok_cnt = part_cnt = 0
     paras_total = 0
     for n, it in enumerate(todo[:MAX_ARTICLES]):
@@ -366,7 +421,7 @@ def main():
             log("para budget guard hit, %d articles deferred" % (len(todo) - n))
             break
         title = (it.get("title") or "")[:44]
-        used = translate_article(it, MAX_PARAS - paras_total)
+        used = translate_article(it, MAX_PARAS - paras_total, user_map)
         paras_total += used
         state = it.get("zhState")
         if state == "ok":
