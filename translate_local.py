@@ -70,10 +70,14 @@ GLOSSARY = [
 GLOSSARY_LINE = "；".join("%s=%s" % (en, zh) for en, zh in GLOSSARY)
 
 # ---- 用户术语库接口（2026-09-28 拍板：留接口不落数据，数据到位即自动生效）----
-# 约定：F:/AI/terms/glossary.tsv，两列 TSV（英文<TAB>中文），# 开头为注释行，UTF-8。
+# 约定：F:/AI/terms/glossary.csv（推荐，Excel「另存为 CSV UTF-8」即得）或 glossary.tsv，
+#       两列（英文,中文），首行表头自动跳过，# 开头为注释行，UTF-8。分享/导出即标准表格文件。
 # 翻译每条文本前做词面命中检索（1~4 词窗口查字典，无第三方依赖），命中 0~8 条注入该条提示词。
 # 文件不存在/格式错 → 空表，管线回退内置 GLOSSARY，行为与现在完全一致。
-USER_GLOSSARY_PATH = pathlib.Path("F:/AI/terms/glossary.tsv")
+USER_GLOSSARY_PATHS = [
+    pathlib.Path("F:/AI/terms/glossary.csv"),
+    pathlib.Path("F:/AI/terms/glossary.tsv"),
+]
 USER_GLOSSARY_MAX = 500000
 
 _user_glossary_cache = {"loaded": False, "map": {}}
@@ -83,21 +87,28 @@ def load_user_glossary():
     if _user_glossary_cache["loaded"]:
         return _user_glossary_cache["map"]
     g = {}
-    try:
-        raw = USER_GLOSSARY_PATH.read_text(encoding="utf-8", errors="ignore")
-        for ln in raw.splitlines():
-            ln = ln.strip()
-            if not ln or ln.startswith("#") or "\t" not in ln:
-                continue
-            en, zh = ln.split("\t", 1)
-            en, zh = en.strip().lower(), zh.strip()
-            if en and zh and len(en) <= 80 and len(zh) <= 200:
-                g[en] = zh
-                if len(g) >= USER_GLOSSARY_MAX:
-                    break
-        log("user glossary loaded: %d entries" % len(g))
-    except OSError:
-        pass  # 接口空载：无术语文件是常态
+    path = next((p for p in USER_GLOSSARY_PATHS if p.exists()), None)
+    if path:
+        try:
+            raw = path.read_text(encoding="utf-8-sig", errors="ignore")  # utf-8-sig 吃掉 Excel 的 BOM
+            sep = "\t" if path.suffix == ".tsv" else ","
+            for ln in raw.splitlines():
+                ln = ln.strip()
+                if not ln or ln.startswith("#"):
+                    continue
+                parts = ln.split(sep, 1)
+                if len(parts) < 2:
+                    continue
+                en, zh = parts[0].strip().lower(), parts[1].strip()
+                if en in ("english", "en", "术语", "原文", "term"):  # 表头行
+                    continue
+                if en and zh and len(en) <= 80 and len(zh) <= 200:
+                    g[en] = zh
+                    if len(g) >= USER_GLOSSARY_MAX:
+                        break
+            log("user glossary loaded from %s: %d entries" % (path.name, len(g)))
+        except OSError:
+            pass  # 接口空载：无术语文件是常态
     _user_glossary_cache["loaded"] = True
     _user_glossary_cache["map"] = g
     return g
