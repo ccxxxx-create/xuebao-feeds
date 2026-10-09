@@ -51,7 +51,7 @@ OPENCODE_CHAT_URL = "https://opencode.ai/zen/go/v1/chat/completions"
 OPENCODE_HOST = "opencode.ai"
 OPENCODE_MODEL = "deepseek-v4.1-flash"
 OPENCODE_KEY_FILE = pathlib.Path("C:/Users/ASUS/Desktop/收纳盒/api.txt")  # 运行时读取：key 不落盘、不回显、不进日志
-OPENCODE_TIMEOUT = 90
+OPENCODE_TIMEOUT = 180      # 云端请求超时：8192 token 大输出生成需 1~3 分钟，90s 必超时
 OPENCODE_CONCURRENCY = 4    # 云端后端并发路数（批级：每路一次请求翻一批段落）
 BATCH_SIZE = 6              # opencode 后端每请求翻译的段数（JSON 数组按序返回；请求量降为逐段的 1/6）
 PARA_DELAY = 0.2            # 段间间隔（秒，仅 local 后端）
@@ -241,9 +241,10 @@ def ensure_ollama():
 
 
 def chat_hy(prompt, num_predict=2048, timeout=300):
-    """按 TRANSLATE_BACKEND 分发：云端 DeepSeek（opencodego）或本机 hy-mt2。"""
+    """按 TRANSLATE_BACKEND 分发：云端 DeepSeek（opencodego）或本机 hy-mt2。
+    云端输出上限放大到 8192：超长段（网页并段可达 9000+ 字符）译文 2048 token 必截断致失败。"""
     if TRANSLATE_BACKEND == "opencode":
-        return chat_opencode(prompt, max_tokens=num_predict, timeout=OPENCODE_TIMEOUT)
+        return chat_opencode(prompt, max_tokens=max(num_predict, 8192), timeout=OPENCODE_TIMEOUT)
     return chat_hy_local(prompt, num_predict=num_predict, timeout=timeout)
 
 
@@ -488,7 +489,9 @@ def translate_article(it, budget, user_map):
     if TRANSLATE_BACKEND == "opencode":
         # 云端批量并发：BATCH_SIZE 段/请求 × OPENCODE_CONCURRENCY 并发，按 index 回填保段序。
         # 批内解析失败的段降级单段重翻一次（单段路径含引语段损坏 JSON 修复）。
-        idx_todo = [i for i in range(min(len(paras_en), max(0, budget))) if not zh[i]]
+        # 注意：budget 只截取"本轮翻多少段"，不得截断搜索范围——否则长文尾部空段
+        # （index ≥ budget 位置）永远轮不到翻，篇目死锁在 failed（2026-10-09 Dartmoor 实锤）。
+        idx_todo = [i for i in range(len(paras_en)) if not zh[i]][:max(0, budget)]
         if idx_todo:
             batches = [idx_todo[i:i + BATCH_SIZE] for i in range(0, len(idx_todo), BATCH_SIZE)]
             with ThreadPoolExecutor(max_workers=OPENCODE_CONCURRENCY) as ex:
@@ -496,7 +499,11 @@ def translate_article(it, budget, user_map):
                         for b in batches}
                 for fu in as_completed(futs):
                     b = futs[fu]
-                    res = fu.result()
+                    try:
+                        res = fu.result()
+                    except Exception as e:  # noqa: BLE001 批级失败（网络/超时）不炸整篇：整批降级单段重翻
+                        log("    batch ERROR (%d paras): %s" % (len(b), e))
+                        res = [""] * len(b)
                     for k, j in enumerate(b):
                         v = res[k] if k < len(res) else ""
                         if v and ratio_ok(paras_en[j], v):
@@ -536,6 +543,7 @@ def translate_article(it, budget, user_map):
             s = translate_summary(context)
             if s and ratio_ok(context["summary"], s):
                 it["summaryZh"] = s
+                it["_touched"] = 1
         except Exception as e:  # noqa: BLE001
             log("    summary ERROR: %s" % e)
     context["sum_zh"] = (it.get("summaryZh") or "").strip()
@@ -546,6 +554,7 @@ def translate_article(it, budget, user_map):
             if t and ratio_ok(context["title"], t):
                 it["titleZh"] = t
                 it["titleTrans"] = "ok"
+                it["_touched"] = 1
         except Exception as e:  # noqa: BLE001
             log("    title ERROR: %s" % e)
     it["zhParas"] = zh
@@ -605,8 +614,19 @@ def main():
         return 0
     data = fetch_latest()
     items = data.get("items") or []
-    # 待翻：zhState != ok 且有正文（新文优先按 pubDate 降序，存量回填自然靠后）
-    todo = [it for it in items if it.get("zhState") != "ok" and (it.get("body") or "").strip()]
+    # 待翻：正文未 ok，或正文 ok 但标题/摘要仍缺失（只翻缺的部分，正文段全非空零浪费）
+    # —— 2026-10-09 实锤：只看 zhState 会漏掉"正文 ok 但某轮标题翻失败"的篇目，标题死锁
+    def _needs_work(it):
+        if not (it.get("body") or "").strip():
+            return False
+        if it.get("zhState") != "ok":
+            return True
+        if (it.get("title") or "").strip() and not (it.get("titleZh") or "").strip() and not it.get("titleZhLocked"):
+            return True
+        if (it.get("summary") or "").strip() and not (it.get("summaryZh") or "").strip():
+            return True
+        return False
+    todo = [it for it in items if _needs_work(it)]
     todo.sort(key=lambda x: x.get("pubDate") or "", reverse=True)
     log("items=%d pending(full)=%d" % (len(items), len(todo)))
     if not todo:
@@ -619,6 +639,7 @@ def main():
     user_map = load_user_glossary()
     ok_cnt = part_cnt = 0
     paras_total = 0
+    work_total = 0   # 任何翻译产出（正文段/标题/摘要），>0 才推送
     for n, it in enumerate(todo[:MAX_ARTICLES]):
         if paras_total >= MAX_PARAS:
             log("para budget guard hit, %d articles deferred" % (len(todo) - n))
@@ -626,6 +647,9 @@ def main():
         title = (it.get("title") or "")[:44]
         used = translate_article(it, MAX_PARAS - paras_total, user_map)
         paras_total += used
+        work_total += used
+        if it.pop("_touched", None):
+            work_total += 1   # 标题或摘要本轮有新译文
         state = it.get("zhState")
         if state == "ok":
             ok_cnt += 1
@@ -633,7 +657,7 @@ def main():
             part_cnt += 1
         log("[%d/%d] %s (%d paras used) %s" % (n + 1, min(len(todo), MAX_ARTICLES), state, used, title))
     log("translate done: ok=%d partial=%d paras=%d in %.0fs" % (ok_cnt, part_cnt, paras_total, time.time() - t0))
-    if paras_total:
+    if work_total:
         sha = push_latest(data)
         log("pushed to %s -> %s" % (REPO, sha))
     log("=== done in %.0fs ===" % (time.time() - t0))
