@@ -43,6 +43,14 @@ OLLAMA_MODELS = "F:/ollama/models"
 OLLAMA_CHAT_URL = "http://127.0.0.1:11434/v1/chat/completions"
 OLLAMA_TAGS_URL = "http://127.0.0.1:11434/api/tags"
 MODEL = "hy-mt2:latest"
+# —— 翻译后端切换（2026-10-09 用户指令：当前用云端 deepseek-v4.1-flash，本机 hy-mt2 暂歇）——
+# "opencode" = OpenCode Go 套餐端点（DeepSeek V4.1 Flash）；"local" = 本机 Ollama hy-mt2
+TRANSLATE_BACKEND = "opencode"
+OPENCODE_CHAT_URL = "https://opencode.ai/zen/go/v1/chat/completions"
+OPENCODE_HOST = "opencode.ai"
+OPENCODE_MODEL = "deepseek-v4.1-flash"
+OPENCODE_KEY_FILE = pathlib.Path("C:/Users/ASUS/Desktop/收纳盒/api.txt")  # 运行时读取：key 不落盘、不回显、不进日志
+OPENCODE_TIMEOUT = 90
 PARA_DELAY = 0.2            # 段间间隔（秒）
 LEN_RATIO = (0.05, 5.0)     # 译文/原文长度比
 MAX_ARTICLES = 60           # 单次运行篇数护栏
@@ -180,7 +188,17 @@ def http_get_json(url, timeout=60):
 
 
 def fetch_latest():
-    """按优先级拉线上 latest.json，取第一个成功的。每个 URL 过白名单校验。"""
+    """按优先级拉线上 latest.json，取第一个成功的。每个 URL 过白名单校验。
+    workflow 内运行时（XUEBAO_FEEDS_FILE 指向本地文件）直接读文件，不再出网。"""
+    local = os.environ.get("XUEBAO_FEEDS_FILE", "").strip()
+    if local:
+        p = pathlib.Path(local)
+        if not p.is_file():
+            raise RuntimeError("XUEBAO_FEEDS_FILE not found: %s" % p)
+        d = json.loads(p.read_text(encoding="utf-8"))
+        if isinstance(d.get("items"), list):
+            return d
+        raise RuntimeError("local feeds file has no items")
     last = None
     for u in FEEDS_URLS:
         try:
@@ -220,6 +238,77 @@ def ensure_ollama():
 
 
 def chat_hy(prompt, num_predict=2048, timeout=300):
+    """按 TRANSLATE_BACKEND 分发：云端 DeepSeek（opencodego）或本机 hy-mt2。"""
+    if TRANSLATE_BACKEND == "opencode":
+        return chat_opencode(prompt, max_tokens=num_predict, timeout=OPENCODE_TIMEOUT)
+    return chat_hy_local(prompt, num_predict=num_predict, timeout=timeout)
+
+
+def _assert_public_https(url, allow_host):
+    """出站校验：仅 https + 指定域名 + DNS 解析不得落在私有/保留网段。"""
+    p = urllib.parse.urlsplit(str(url or ""))
+    if p.scheme != "https":
+        raise ValueError("scheme not allowed: %s" % p.scheme)
+    host = (p.hostname or "").strip().lower().rstrip(".")
+    if host != allow_host:
+        raise ValueError("host not allowed: %s" % host)
+    for info in socket.getaddrinfo(host, None):
+        ip = ipaddress.ip_address(str(info[4][0]))
+        if (ip.is_private or ip.is_loopback or ip.is_reserved or ip.is_link_local
+                or ip.is_multicast or ip.is_unspecified):
+            raise ValueError("host resolves to reserved address: %s" % ip)
+    return host
+
+
+_opencode_key_cache = {"loaded": False, "key": ""}
+
+
+def _load_opencode_key():
+    if _opencode_key_cache["loaded"]:
+        return _opencode_key_cache["key"]
+    key = os.environ.get("OPENCODEGO_API_KEY", "").strip()  # workflow 用 Secret 注入，优先
+    if not key:
+        try:
+            for ln in OPENCODE_KEY_FILE.read_text(encoding="utf-8-sig", errors="ignore").splitlines():
+                ln = ln.strip()
+                if ln.startswith("oc_sk_"):
+                    key = ln
+                    break
+        except OSError:
+            pass
+    _opencode_key_cache["loaded"] = True
+    _opencode_key_cache["key"] = key
+    if not key:
+        raise RuntimeError("opencode key not found (env OPENCODEGO_API_KEY empty and no oc_sk_ line in key file)")
+    return key
+
+
+_OPENCODE_SESSION = None
+
+
+def chat_opencode(prompt, max_tokens=2048, timeout=OPENCODE_TIMEOUT):
+    """云端 DeepSeek V4.1 Flash（OpenCode Go 套餐）：OpenAI 兼容 + 必需 x-opencode-session 头。"""
+    global _OPENCODE_SESSION
+    _assert_public_https(OPENCODE_CHAT_URL, OPENCODE_HOST)
+    if _OPENCODE_SESSION is None:
+        _OPENCODE_SESSION = "%s-%s" % (datetime.now().strftime("%Y%m%d"), os.urandom(8).hex())
+    body = json.dumps({
+        "model": OPENCODE_MODEL,
+        "messages": [{"role": "user", "content": prompt}],
+        "stream": False, "temperature": 0.2, "max_tokens": max_tokens,
+    }, ensure_ascii=False).encode("utf-8")
+    req = urllib.request.Request(OPENCODE_CHAT_URL, data=body, headers={
+        "Authorization": "Bearer " + _load_opencode_key(),
+        "Content-Type": "application/json",
+        "User-Agent": "xuebao-local/1.0",
+        "x-opencode-session": _OPENCODE_SESSION,
+    })
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        d = json.loads(r.read().decode("utf-8"))
+    return (d.get("choices") or [{}])[0].get("message", {}).get("content") or ""
+
+
+def chat_hy_local(prompt, num_predict=2048, timeout=300):
     """调 hy-mt2（固定回环端点，请求前断言）。"""
     _assert_loopback(OLLAMA_CHAT_URL)
     body = json.dumps({
@@ -268,7 +357,21 @@ def parse_field(raw, key, strip_num=True):
             if v:
                 return v
         except Exception:  # noqa: BLE001
-            pass
+            # JSON 损坏修复（2026-10-08 实测）：引语段含内层双引号时模型不转义，
+            # json.loads 必失败——按 "key":" 截取、取最后一个 } 前的内容、还原转义。
+            m2 = re.search(r'"?\s*%s\s*"?\s*:\s*"' % key, m.group(0))
+            if m2:
+                frag = m.group(0)[m2.end():]
+                end = frag.rfind("}")
+                if end != -1:
+                    frag = frag[:end]
+                frag = frag.replace('\\"', '"').replace("\\n", "\n").replace("\\t", " ")
+                frag = frag.strip()
+                if frag.endswith('"'):
+                    frag = frag[:-1]
+                v = clean_zh(frag, strip_num)
+                if v:
+                    return v
     for ln in raw.splitlines():
         m2 = re.match(r"^\s*[\"“]?\s*%s[\"”]?\s*[：:]\s*(.+)$" % key, ln.strip())
         if m2:
@@ -371,6 +474,7 @@ def translate_article(it, budget, user_map):
                 it["summaryZh"] = s
         except Exception as e:  # noqa: BLE001
             log("    summary ERROR: %s" % e)
+    context["sum_zh"] = (it.get("summaryZh") or "").strip()
     # —— 3) 标题（最后翻，语境最强；已有/锁定不覆盖）——
     if context["title"] and not (it.get("titleZh") or "").strip() and not it.get("titleZhLocked"):
         try:
@@ -397,7 +501,14 @@ def gh_api(args, inp=None):
 
 
 def push_latest(data):
-    """Contents API 推回 latest.json（带远端 sha；冲突时报错由下次运行重试）。"""
+    """Contents API 推回 latest.json（带远端 sha；冲突时报错由下次运行重试）。
+    workflow 内运行时（XUEBAO_NO_PUSH=1）只写本地 feeds/latest.json，由 workflow 的 Commit 步统一提交。"""
+    if os.environ.get("XUEBAO_NO_PUSH", "").strip() == "1":
+        out = ROOT / "feeds" / "latest.json"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+        log("no-push mode: wrote %s" % out)
+        return "local"
     path = "feeds/latest.json"
     old = gh_api(["api", "repos/%s/contents/%s" % (REPO, path), "--jq", ".sha"])
     payload = {
@@ -423,7 +534,10 @@ def main():
     if not todo:
         log("nothing to translate, exit")
         return 0
-    ensure_ollama()
+    if TRANSLATE_BACKEND == "local":
+        ensure_ollama()
+    else:
+        log("backend: opencode/%s" % OPENCODE_MODEL)
     user_map = load_user_glossary()
     ok_cnt = part_cnt = 0
     paras_total = 0
