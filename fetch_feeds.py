@@ -400,6 +400,10 @@ def clean_html_to_paragraphs(html):
                               "iframe", "noscript", "img", "picture", "figure", "video", "audio",
                               "svg", "canvas", "source"]):
         tag.decompose()
+    # DVIDS 等站正文用 <br> 排版（一页 180 个 <br>、<p> 几乎为零）：<br> 是段落边界，
+    # 不转的话叶子容器整坨取出 → 整篇并成一段（2026-10-09 超长段实锤）
+    for br in soup.find_all("br"):
+        br.replace_with("\n")
     seen = set()
     paras = []
     # 1) 标准块级标签（最可靠）
@@ -418,10 +422,13 @@ def clean_html_to_paragraphs(html):
         if c.find(["div", "section", "article", "p", "li", "table", "ul", "ol",
                    "h1", "h2", "h3", "h4", "h5", "h6", "blockquote", "pre"]):
             continue
-        t = WS.sub(" ", c.get_text(" ", strip=True)).strip()
-        if len(t) >= 2 and t not in seen:
-            seen.add(t)
-            paras.append(t)
+        # <br> 已转为 "\n"：按行切段（每行即原页面一个自然段）。
+        # get_text() 不带 strip——strip=True 会把换行文本节点剥掉，行全部粘连回一坨
+        for t in c.get_text().split("\n"):
+            t = WS.sub(" ", t).strip()
+            if len(t) >= 2 and t not in seen:
+                seen.add(t)
+                paras.append(t)
     # 3) 仅当标准标签与叶子容器全部落空时，才退回节点整体文本按句粗分。
     #    注意不能放宽到"少于3段"：lxml 会把纯文本（如 DVIDS 图说）包成单个 <p>，
     #    此时按句切分会把完整图说重复地切成碎片。
