@@ -52,8 +52,9 @@ OPENCODE_HOST = "opencode.ai"
 OPENCODE_MODEL = "deepseek-v4.1-flash"
 OPENCODE_KEY_FILE = pathlib.Path("C:/Users/ASUS/Desktop/收纳盒/api.txt")  # 运行时读取：key 不落盘、不回显、不进日志
 OPENCODE_TIMEOUT = 90
-OPENCODE_CONCURRENCY = 4    # 云端后端并发路数（无硬件压力；段序按 index 回填，段间接龙语境降级为仅标题+摘要）
-PARA_DELAY = 0.2            # 段间间隔（秒）
+OPENCODE_CONCURRENCY = 4    # 云端后端并发路数（批级：每路一次请求翻一批段落）
+BATCH_SIZE = 6              # opencode 后端每请求翻译的段数（JSON 数组按序返回；请求量降为逐段的 1/6）
+PARA_DELAY = 0.2            # 段间间隔（秒，仅 local 后端）
 LEN_RATIO = (0.05, 5.0)     # 译文/原文长度比
 MAX_ARTICLES = 60           # 单次运行篇数护栏
 MAX_PARAS = 1500            # 单次运行总段数护栏（约 45 分钟上限）
@@ -404,6 +405,40 @@ def translate_para(context, para, user_hits=None):
     return parse_field(raw, "p", strip_num=False)
 
 
+def translate_paras_batch(context, paras, user_map):
+    """opencode 后端专用：一批段落（BATCH_SIZE 段）一次请求，JSON 数组按序返回。
+    解析失败的段返回空串，由调用方降级单段重翻兜底（引语段损坏 JSON 修复在单段路径里）。"""
+    user_hits = glossary_hits(" ".join(paras), user_map)
+    user_line = ("User glossary hits (must follow): " + "；".join(user_hits) + "\n") if user_hits else ""
+    numbered = "\n".join("[%d] %s" % (i + 1, p) for i, p in enumerate(paras))
+    prompt = (
+        "Translate each numbered paragraph of an English military news article into Simplified Chinese.\n"
+        "Article context (for reference only, do NOT translate): %s\n"
+        "Military terms glossary (must follow): %s\n%s"
+        "Output JSON only: [{\"i\":1,\"p\":\"第1段译文\"},{\"i\":2,\"p\":\"第2段译文\"}] — "
+        "one object per input paragraph, same order as input, keep every \"i\", no explanations.\n\n"
+        "Paragraphs:\n%s" % (context["head"], GLOSSARY_LINE, user_line, numbered)
+    )
+    raw = chat_hy(prompt, num_predict=4096, timeout=OPENCODE_TIMEOUT)
+    out = [""] * len(paras)
+    m = re.search(r"\[[\s\S]*\]", str(raw or ""))
+    src = m.group(0) if m else str(raw or "")
+    try:
+        arr = json.loads(src) if m else []
+        for obj in arr:
+            i = int(obj.get("i", 0)) - 1
+            v = clean_zh(obj.get("p") or "", False)
+            if 0 <= i < len(paras) and v:
+                out[i] = v
+    except Exception:  # noqa: BLE001 —— JSON 数组损坏（内层引号未转义等）：regex 逐对象提取
+        for m2 in re.finditer(r'\{\s*"i"\s*:\s*(\d+)\s*,\s*"p"\s*:\s*"([\s\S]*?)"\s*[\},]', src):
+            i = int(m2.group(1)) - 1
+            v = clean_zh(m2.group(2).replace('\\"', '"').replace("\\n", "\n"), False)
+            if 0 <= i < len(paras) and v and not out[i]:
+                out[i] = v
+    return out
+
+
 def translate_summary(context):
     """翻摘要（语境 = 正文首段译文）。"""
     prompt = (
@@ -451,24 +486,31 @@ def translate_article(it, budget, user_map):
     # —— 1) 正文逐段 ——
     used = 0
     if TRANSLATE_BACKEND == "opencode":
-        # 云端并发：按 index 提交、按 index 回填保段序；强模型用标题+摘要语境即可，
-        # 段间接龙语境（prev）在并发下不可得，降级为空
+        # 云端批量并发：BATCH_SIZE 段/请求 × OPENCODE_CONCURRENCY 并发，按 index 回填保段序。
+        # 批内解析失败的段降级单段重翻一次（单段路径含引语段损坏 JSON 修复）。
         idx_todo = [i for i in range(min(len(paras_en), max(0, budget))) if not zh[i]]
         if idx_todo:
+            batches = [idx_todo[i:i + BATCH_SIZE] for i in range(0, len(idx_todo), BATCH_SIZE)]
             with ThreadPoolExecutor(max_workers=OPENCODE_CONCURRENCY) as ex:
-                futs = {ex.submit(translate_para, context, paras_en[i], glossary_hits(paras_en[i], user_map)): i
-                        for i in idx_todo}
+                futs = {ex.submit(translate_paras_batch, context, [paras_en[j] for j in b], user_map): b
+                        for b in batches}
                 for fu in as_completed(futs):
-                    i = futs[fu]
-                    try:
-                        v = fu.result()
-                        if v and ratio_ok(paras_en[i], v):
-                            zh[i] = v
+                    b = futs[fu]
+                    res = fu.result()
+                    for k, j in enumerate(b):
+                        v = res[k] if k < len(res) else ""
+                        if v and ratio_ok(paras_en[j], v):
+                            zh[j] = v
                         else:
-                            log("    para %d ratio/parse fail" % (i + 1))
-                    except Exception as e:  # noqa: BLE001 单段失败不拖垮整篇
-                        log("    para %d ERROR: %s" % (i + 1, e))
-                    used += 1
+                            try:
+                                v2 = translate_para(context, paras_en[j], glossary_hits(paras_en[j], user_map))
+                                if v2 and ratio_ok(paras_en[j], v2):
+                                    zh[j] = v2
+                                else:
+                                    log("    para %d ratio/parse fail" % (j + 1))
+                            except Exception as e:  # noqa: BLE001 单段失败不拖垮整篇
+                                log("    para %d ERROR: %s" % (j + 1, e))
+                    used += len(b)
     else:
         for i, p in enumerate(paras_en):
             if used >= budget:
@@ -544,9 +586,23 @@ def push_latest(data):
     return json.loads(out)["commit"]["sha"][:7]
 
 
+def workflow_busy():
+    """云端 feeds workflow 是否有 in_progress 实例（防本机兜底与其交叉推送互踩）。
+    查询失败返回 False（不阻塞兜底）。"""
+    try:
+        out = gh_api(["api", "repos/%s/actions/runs?status=in_progress&per_page=10" % REPO, "--jq",
+                      "[.workflow_runs[] | select(.name == \"Fetch Xuebao Feeds\")] | length"])
+        return int(out or 0) > 0
+    except Exception:  # noqa: BLE001
+        return False
+
+
 def main():
     t0 = time.time()
     log("=== local hy full translate start ===")
+    if workflow_busy():
+        log("feeds workflow in progress, skip local run (avoid cross-push)")
+        return 0
     data = fetch_latest()
     items = data.get("items") or []
     # 待翻：zhState != ok 且有正文（新文优先按 pubDate 降序，存量回填自然靠后）
