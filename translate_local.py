@@ -56,8 +56,8 @@ OPENCODE_CONCURRENCY = 4    # 云端后端并发路数（批级：每路一次�
 BATCH_SIZE = 6              # opencode 后端每请求翻译的段数（JSON 数组按序返回；请求量降为逐段的 1/6）
 PARA_DELAY = 0.2            # 段间间隔（秒，仅 local 后端）
 LEN_RATIO = (0.05, 5.0)     # 译文/原文长度比
-MAX_ARTICLES = 60           # 单次运行篇数护栏
-MAX_PARAS = 1500            # 单次运行总段数护栏（约 45 分钟上限）
+MAX_ARTICLES = 100          # 单次运行篇数护栏（2026-10-09 放大：历史爆发日单日 81 篇，60 不够）
+MAX_PARAS = 4000            # 单次运行总段数护栏（批量并发 ~1.5s/段÷4 路，4000 段约 25 分钟）
 KEEP_ALIVE = "30m"          # 翻译期间模型常驻
 PARA_SPLIT_RE = re.compile(r"\n{2,}")
 
