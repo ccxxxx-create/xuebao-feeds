@@ -34,10 +34,12 @@ jobs:
         run: python fetch_feeds.py
 
       # 服务端预翻译：无 key / 调用失败时自动跳过或降级，英文版照常投送（翻译不阻塞抓取）
-      - name: Translate new articles
+      - name: Translate new articles (DeepSeek V4.1 Flash via OpenCode Go)
         env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-        run: python translate_feeds.py
+          OPENCODEGO_API_KEY: ${{ secrets.OPENCODEGO_API_KEY }}
+          XUEBAO_FEEDS_FILE: feeds/latest.json
+          XUEBAO_NO_PUSH: "1"
+        run: python translate_local.py
 
       - name: Commit latest.json
         if: always()   # 翻译步脚本级失败也提交 fetch 产物（英文版照常投送）
