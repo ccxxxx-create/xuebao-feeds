@@ -27,6 +27,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 
 ROOT = pathlib.Path(__file__).resolve().parent
@@ -51,6 +52,7 @@ OPENCODE_HOST = "opencode.ai"
 OPENCODE_MODEL = "deepseek-v4.1-flash"
 OPENCODE_KEY_FILE = pathlib.Path("C:/Users/ASUS/Desktop/收纳盒/api.txt")  # 运行时读取：key 不落盘、不回显、不进日志
 OPENCODE_TIMEOUT = 90
+OPENCODE_CONCURRENCY = 4    # 云端后端并发路数（无硬件压力；段序按 index 回填，段间接龙语境降级为仅标题+摘要）
 PARA_DELAY = 0.2            # 段间间隔（秒）
 LEN_RATIO = (0.05, 5.0)     # 译文/原文长度比
 MAX_ARTICLES = 60           # 单次运行篇数护栏
@@ -448,23 +450,43 @@ def translate_article(it, budget, user_map):
     }
     # —— 1) 正文逐段 ——
     used = 0
-    for i, p in enumerate(paras_en):
-        if used >= budget:
-            break
-        if zh[i]:
-            context["prev"] = zh[i][:200]
-            continue
-        try:
-            v = translate_para(context, p, glossary_hits(p, user_map))
-            if v and ratio_ok(p, v):
-                zh[i] = v
-            else:
-                log("    para %d ratio/parse fail" % (i + 1))
-        except Exception as e:  # noqa: BLE001 单段失败不拖垮整篇
-            log("    para %d ERROR: %s" % (i + 1, e))
-        context["prev"] = zh[i][:200] if zh[i] else ""
-        used += 1
-        time.sleep(PARA_DELAY)
+    if TRANSLATE_BACKEND == "opencode":
+        # 云端并发：按 index 提交、按 index 回填保段序；强模型用标题+摘要语境即可，
+        # 段间接龙语境（prev）在并发下不可得，降级为空
+        idx_todo = [i for i in range(min(len(paras_en), max(0, budget))) if not zh[i]]
+        if idx_todo:
+            with ThreadPoolExecutor(max_workers=OPENCODE_CONCURRENCY) as ex:
+                futs = {ex.submit(translate_para, context, paras_en[i], glossary_hits(paras_en[i], user_map)): i
+                        for i in idx_todo}
+                for fu in as_completed(futs):
+                    i = futs[fu]
+                    try:
+                        v = fu.result()
+                        if v and ratio_ok(paras_en[i], v):
+                            zh[i] = v
+                        else:
+                            log("    para %d ratio/parse fail" % (i + 1))
+                    except Exception as e:  # noqa: BLE001 单段失败不拖垮整篇
+                        log("    para %d ERROR: %s" % (i + 1, e))
+                    used += 1
+    else:
+        for i, p in enumerate(paras_en):
+            if used >= budget:
+                break
+            if zh[i]:
+                context["prev"] = zh[i][:200]
+                continue
+            try:
+                v = translate_para(context, p, glossary_hits(p, user_map))
+                if v and ratio_ok(p, v):
+                    zh[i] = v
+                else:
+                    log("    para %d ratio/parse fail" % (i + 1))
+            except Exception as e:  # noqa: BLE001 单段失败不拖垮整篇
+                log("    para %d ERROR: %s" % (i + 1, e))
+            context["prev"] = zh[i][:200] if zh[i] else ""
+            used += 1
+            time.sleep(PARA_DELAY)
     context["first_zh"] = next((v for v in zh if v.strip()), "")
     # —— 2) 摘要（已有译文则跳过）——
     if context["summary"] and not (it.get("summaryZh") or "").strip():
