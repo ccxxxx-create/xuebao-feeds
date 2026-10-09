@@ -696,9 +696,11 @@ def process_channel(ch, now):
 def carry_over_zh(items):
     """从上一轮 latest.json 按 url 回填翻译成果。
     fetch 全量重建 items 会清掉 zh/titleZh 字段——不回填则每天重复重翻（成本×3）。
-    仅当正文未变化时回填（分段变了旧译文作废）：
-    - titleZh/summaryZh：上轮有就回填（标题摘要模式，成本极小故全量保留）
-    - zhFull/zhParas 等全文字段：上轮 zhState=ok 才回填，由 translate 的增量逻辑决定是否补翻。"""
+    回填策略（2026-10-08 教训：body 完全一致才回填过于脆弱——gov.uk 页面自带更新日志段、
+    活动日历滚动、trafilatura 抽取差异都会让 body 抖动，当天抓取即废掉前一天全部翻译）：
+    - titleZh/summaryZh：url 命中即回填（标题摘要与正文抽取无关）
+    - zhFull/zhParas 等：按新旧 body 的公共前缀段回填（正文头部段落一致则译文逐段回收，
+      只有真正变化的尾部段落需要重翻；全部分段一致才回填 zhState=ok）。"""
     import pathlib
     prev_path = pathlib.Path(__file__).resolve().parent / "feeds" / "latest.json"
     try:
@@ -709,18 +711,56 @@ def carry_over_zh(items):
     n = 0
     for it in items:
         old = by_url.get(it.get("url"))
-        if not old or it.get("body") != old.get("body"):
+        if not old:
             continue
         for k in ("titleZh", "summaryZh"):
             if old.get(k):
                 it[k] = old[k]
-        if old.get("zhState") == "ok":
-            for k in ("zhFull", "zhParas", "zhState", "zhDone", "zhChunks", "zhAt"):
-                if k in old:
-                    it[k] = old[k]
+        old_paras = old.get("zhParas")
+        if isinstance(old_paras, list) and old_paras:
+            k = _zh_prefix_len(old.get("body") or "", it.get("body") or "", old_paras)
+            if k:
+                paras_en = split_paras(it.get("body") or "")
+                it["zhParas"] = old_paras[:k] + [""] * max(0, len(paras_en) - k)
+                it["zhFull"] = "\n\n".join(p for p in it["zhParas"] if p)
+                it["zhDone"] = sum(1 for p in it["zhParas"] if (p or "").strip())
+                it["zhChunks"] = len(paras_en)
+                it["zhState"] = "ok" if (len(paras_en) and it["zhDone"] == len(paras_en)) else "failed"
+                it.setdefault("zhAt", old.get("zhAt"))
+        elif old.get("zhState") == "ok" and old.get("body") == it.get("body"):
+            for k2 in ("zhFull", "zhParas", "zhState", "zhDone", "zhChunks", "zhAt"):
+                if k2 in old:
+                    it[k2] = old[k2]
         if old.get("titleZh") or old.get("zhState") == "ok":
             n += 1
     return n
+
+
+def _norm_para(s):
+    return " ".join((s or "").split())
+
+
+def split_paras(body):
+    """与 webapp/translate_local 一致：连续空行分段。"""
+    return [p.strip() for p in re.split(r"\n{2,}", body or "") if p.strip()]
+
+
+def _zh_prefix_len(old_body, new_body, old_paras):
+    """新旧正文分段后的公共前缀长度（段内空白归一化比较）。
+    段序以旧 body 分段为准（旧译文按它生成），与新 body 逐段对比。
+    新旧完全一致时返回旧译文段数（整篇回收）；部分一致返回前缀段数。"""
+    def segs(b):
+        return [_norm_para(p) for p in split_paras(b)]
+    o, n_ = segs(old_body), segs(new_body)
+    k = 0
+    for a, b in zip(o, n_):
+        if a == b:
+            k += 1
+        else:
+            break
+    if k and k == len(o) and len(o) == len(n_):
+        return len(old_paras)
+    return k
 
 
 def main():
