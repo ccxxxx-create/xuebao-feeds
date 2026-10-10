@@ -1,71 +1,342 @@
 {
- "updatedAt": "2026-10-09T22:05:17.207036+00:00",
+ "updatedAt": "2026-10-10T01:28:10.737368+00:00",
  "meta": {
   "afresearchlab": {
    "name": "AFRL",
    "status": "ok",
    "count": 4,
    "error": null,
-   "fetchedAt": "2026-10-09T22:05:17.207036+00:00"
+   "fetchedAt": "2026-10-10T01:28:10.737368+00:00"
   },
   "westpoint": {
    "name": "西点军校",
    "status": "error",
    "count": 0,
    "error": "all feeds failed: https://www.westpoint.edu/rss.xml -> HTTP Error 403: ",
-   "fetchedAt": "2026-10-09T22:05:17.207036+00:00"
+   "fetchedAt": "2026-10-10T01:28:10.737368+00:00"
   },
   "airandspaceforces": {
    "name": "Air & Space Forces",
    "status": "ok",
    "count": 9,
    "error": null,
-   "fetchedAt": "2026-10-09T22:05:17.207036+00:00"
+   "fetchedAt": "2026-10-10T01:28:10.737368+00:00"
   },
   "govuk_mod": {
    "name": "英国国防部",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-10-09T22:05:17.207036+00:00"
+   "fetchedAt": "2026-10-10T01:28:10.737368+00:00"
   },
   "defensenews": {
    "name": "Defense News",
    "status": "ok",
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-10-09T22:05:17.207036+00:00"
+   "fetchedAt": "2026-10-10T01:28:10.737368+00:00"
   },
   "rand": {
    "name": "兰德",
    "status": "ok",
    "count": 29,
    "error": null,
-   "fetchedAt": "2026-10-09T22:05:17.207036+00:00"
+   "fetchedAt": "2026-10-10T01:28:10.737368+00:00"
   },
   "us_dod": {
    "name": "美国国防部",
    "status": "ok",
    "count": 40,
    "error": null,
-   "fetchedAt": "2026-10-09T22:05:17.207036+00:00"
+   "fetchedAt": "2026-10-10T01:28:10.737368+00:00"
   },
   "us_airforce": {
    "name": "美国空军",
    "status": "ok",
-   "count": 20,
+   "count": 19,
    "error": null,
-   "fetchedAt": "2026-10-09T22:05:17.207036+00:00"
+   "fetchedAt": "2026-10-10T01:28:10.737368+00:00"
   },
   "us_marines": {
    "name": "美国海军陆战队",
    "status": "ok",
    "count": 40,
    "error": null,
-   "fetchedAt": "2026-10-09T22:05:17.207036+00:00"
+   "fetchedAt": "2026-10-10T01:28:10.737368+00:00"
   }
  },
  "items": [
+  {
+   "url": "https://www.dvidshub.net/image/10003530/sffw-2026-blue-angels",
+   "title": "SFFW 2026 BLUE ANGELS",
+   "author": "Cpl Jeslianne Torres",
+   "pubDate": "2026-10-10T01:05:12+00:00",
+   "summary": "U.S. Navy Flight Demonstration Squadron, the Blue Angels, perform aerial maneuvers during San Francisco Fleet Week, Oct. 9, 2026.San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area. (U.S. Marine",
+   "body": "Navy Flight Demonstration Squadron, the Blue Angels, perform aerial maneuvers during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nMarine Corps photo by Cpl.",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "海军飞行表演中队“蓝天使”于2026年10月9日旧金山舰队周期间进行空中机动表演。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参与各类社区服务活动，并享受湾区的热情好客。（美国海军陆战队",
+   "titleZh": "2026年旧金山舰队周“蓝天使",
+   "titleTrans": "ok",
+   "zhParas": [
+    "海军飞行表演中队“蓝天使”在10月旧金山舰队周期间进行空中机动表演。",
+    "旧金山舰队周如今已是第45届，这一历史悠久的庆祝活动让湾区民众能够亲身见证当今的海上军事力量。",
+    "活动期间，水兵、海军陆战队员和海岸警卫队人员展示其能力与装备，参加各类社区服务活动，并享受湾区的热情款待。",
+    "海军陆战队照片，由下士拍摄。"
+   ],
+   "zhFull": "海军飞行表演中队“蓝天使”在10月旧金山舰队周期间进行空中机动表演。\n\n旧金山舰队周如今已是第45届，这一历史悠久的庆祝活动让湾区民众能够亲身见证当今的海上军事力量。\n\n活动期间，水兵、海军陆战队员和海岸警卫队人员展示其能力与装备，参加各类社区服务活动，并享受湾区的热情款待。\n\n海军陆战队照片，由下士拍摄。",
+   "zhDone": 4,
+   "zhChunks": 4,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10003582/13th-meu-lt-gen-turner-visits-uss-makin-island",
+   "title": "13th MEU | Lt. Gen. Turner Visits USS Makin Island",
+   "author": "SSgt Michael Virtue",
+   "pubDate": "2026-10-10T01:00:42+00:00",
+   "summary": "U.S. Marine Corps Sgt. Emmeryck Vansciver, right, a defensive cyberspace operator assigned to the 13th Marine Expeditionary Unit, explains the capabilities of the Regulus Ring, a counter small unmanned aircraft system device, to Lt. Gen. Roger B. Turner, left, the commander of Marine Corps Forces, Pacific, while aboard Wasp-class amphibious assault ship USS Makin Island (LHD 8), Oct. 9, 2026. The 13th MEU is currently underway aboard the Makin Island Amphibious Ready Group in the U.S. 3rd Fleet ",
+   "body": "Emmeryck Vansciver, right, a defensive cyberspace operator assigned to the 13th Marine Expeditionary Unit, explains the capabilities of the Regulus Ring, a counter small unmanned aircraft system device, to Lt.\n\nTurner, left, the commander of Marine Corps Forces, Pacific, while aboard Wasp-class amphibious assault ship USS Makin Island (LHD 8), Oct.\n\nThe 13th MEU is currently underway aboard the Makin Island Amphibious Ready Group in the U.\n\n3rd Fleet area of operations demonstrating the United States’ long-term commitment to a free and open Indo-Pacific.\n\nMarine Corps photo by Staff Sgt.",
+   "channel": "us_dod",
+   "channelName": "美国国防部",
+   "summaryZh": "美国海军陆战队中士埃默里克·万斯西弗（右侧）是隶属于第13海军陆战队远征分队的一名防御性网络空间操作员，他在黄蜂级两栖攻击舰“马金岛”号（LHD 8）上，向美国海军陆战队太平洋部队司令罗杰·B·特纳中将（左侧）解释 Regulus Ring——一种反小型无人机系统装置——的能力，时间为2026年10月9日。第13海军陆战队远征分队目前正随“马金岛”号两栖戒备群在美国第三舰队航行。",
+   "titleZh": "第13海军陆战队远征分队 | 特纳中将访问美国海军“马金岛”号",
+   "titleTrans": "ok",
+   "zhParas": [
+    "右侧的埃默里克·万斯西弗是隶属于第13海军陆战队远征分队的一名防御性网络空间操作员，他向 Lt. 解释 Regulus Ring——一种反小型无人机系统装置——的能力。",
+    "特纳（左），海军陆战队太平洋司令部司令，在黄蜂级两栖攻击舰“马金岛”号（LHD 8）上，10月。",
+    "第13海军陆战队远征分队目前正随“马金岛”号两栖戒备群在美国航行。",
+    "第三舰队作战区域，展现了美国对自由开放印太地区的长期承诺。",
+    "美国海军陆战队上士拍摄。"
+   ],
+   "zhFull": "右侧的埃默里克·万斯西弗是隶属于第13海军陆战队远征分队的一名防御性网络空间操作员，他向 Lt. 解释 Regulus Ring——一种反小型无人机系统装置——的能力。\n\n特纳（左），海军陆战队太平洋司令部司令，在黄蜂级两栖攻击舰“马金岛”号（LHD 8）上，10月。\n\n第13海军陆战队远征分队目前正随“马金岛”号两栖戒备群在美国航行。\n\n第三舰队作战区域，展现了美国对自由开放印太地区的长期承诺。\n\n美国海军陆战队上士拍摄。",
+   "zhDone": 5,
+   "zhChunks": 5,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10003536/us-navy-coast-guard-ships-parade-through-san-francisco-bay",
+   "title": "U.S. Navy, Coast Guard ships parade through San Francisco Bay",
+   "author": "PO3 Pablo Chavez",
+   "pubDate": "2026-10-10T01:00:36+00:00",
+   "summary": "U.S. Navy Whidbey Island-class amphibious dock landing ship USS Ashland (LSD 48), right, U.S. Navy Ticonderoga-class guided-missile cruiser USS Cape St. George (CG 71), center, and U.S. Coast Guard Legend-class cutter USCGC Munro (WMSL 755), pass the Golden Gate Bridge during the Parade of Ships for San Francisco Fleet Week, Oct. 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the bay area to witness today’s maritime services fi",
+   "body": "Navy Whidbey Island-class amphibious dock landing ship USS Ashland (LSD 48), right, U.\n\nNavy Ticonderoga-class guided-missile cruiser USS Cape St.\n\nGeorge (CG 71), center, and U.\n\nCoast Guard Legend-class cutter USCGC Munro (WMSL 755), pass the Golden Gate Bridge during the Parade of Ships for San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the bay area to witness today’s maritime services firsthand.\n\nDuring the event sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the bay area.\n\nNavy photo by Mass Communication Specialist 3rd Pablo Chavez)",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "美国海军惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48）位于右侧，美国海军提康德罗加级导弹巡洋舰“圣乔治角”号（CG 71）位于中间，美国海岸警卫队传奇级巡逻舰“芒罗”号（WMSL 755）在2026年10月9日旧金山舰队周舰船巡游期间驶过金门大桥。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民得以亲眼目睹当今海上部队的风采。",
+   "titleZh": "美国海军、海岸警卫队舰船巡游旧金山湾",
+   "titleTrans": "ok",
+   "zhParas": [
+    "美国海军惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48），位于右侧，U.",
+    "海军提康德罗加级导弹巡洋舰“圣乔治角”号（USS Cape St.",
+    "George）（CG 71），位于中间，以及U.",
+    "海岸警卫队传奇级巡逻舰“门罗”号（WMSL 755），在旧金山舰队周的舰船巡游期间驶过金门大桥，10月。",
+    "旧金山舰队周如今已是第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上部队。",
+    "活动期间，水兵、海军陆战队员和海岸警卫队队员展示他们的能力和装备，参加各种社区服务活动，并享受湾区的热情款待。",
+    "美国海军照片，由三等大众传播专家巴勃罗·查韦斯拍摄）"
+   ],
+   "zhFull": "美国海军惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48），位于右侧，U.\n\n海军提康德罗加级导弹巡洋舰“圣乔治角”号（USS Cape St.\n\nGeorge）（CG 71），位于中间，以及U.\n\n海岸警卫队传奇级巡逻舰“门罗”号（WMSL 755），在旧金山舰队周的舰船巡游期间驶过金门大桥，10月。\n\n旧金山舰队周如今已是第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上部队。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示他们的能力和装备，参加各种社区服务活动，并享受湾区的热情款待。\n\n美国海军照片，由三等大众传播专家巴勃罗·查韦斯拍摄）",
+   "zhDone": 7,
+   "zhChunks": 7,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10003539/us-navy-ships-parade-through-san-francisco-bay",
+   "title": "U.S. Navy ships parade through San Francisco Bay",
+   "author": "PO3 Pablo Chavez",
+   "pubDate": "2026-10-10T00:58:27+00:00",
+   "summary": "U.S. Navy Whidbey Island-class amphibious dock landing ship USS Ashland (LSD 48), right, and U.S. Navy Ticonderoga-class guided-missile cruiser USS Cape St. George (CG 71), left, sail through San Francisco Bay during the Parade of Ships for San Francisco Fleet Week, Oct. 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the bay area to witness today’s maritime services firsthand. During the event sailors, Marines, and Coast Guards",
+   "body": "Navy Whidbey Island-class amphibious dock landing ship USS Ashland (LSD 48), right, and U.\n\nNavy Ticonderoga-class guided-missile cruiser USS Cape St.\n\nGeorge (CG 71), left, sail through San Francisco Bay during the Parade of Ships for San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the bay area to witness today’s maritime services firsthand.\n\nDuring the event sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the bay area.\n\nNavy photo by Mass Communication Specialist 3rd Pablo Chavez)",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "美国海军惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48），右侧，以及美国海军提康德罗加级导弹巡洋舰“圣乔治角”号（CG 71），左侧，于2026年10月9日旧金山舰队周的舰船巡游期间驶过旧金山湾。旧金山舰队周现已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众得以亲身见证当今的海上军种。活动期间，水兵、海军陆战队员和海岸警卫队队员",
+   "titleZh": "美国海军舰船巡游穿过旧金山湾",
+   "titleTrans": "ok",
+   "zhParas": [
+    "美国海军惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48），右侧，以及美",
+    "海军提康德罗加级导弹巡洋舰“圣乔治”号（CG 71），左侧，在旧金山舰队周的舰船巡游期间驶过旧金山湾，10月",
+    "乔治号（CG 71）位于左侧，在10月旧金山舰队周舰船巡游期间驶过旧金山湾。",
+    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今的海上部队。",
+    "活动期间，水兵、海军陆战队员和海岸警卫队队员展示他们的能力与装备，参加各种社区服务活动，并享受湾区的热情款待。",
+    "美国海军照片，由三等大众传播专家帕布罗·查韦斯拍摄）"
+   ],
+   "zhFull": "美国海军惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48），右侧，以及美\n\n海军提康德罗加级导弹巡洋舰“圣乔治”号（CG 71），左侧，在旧金山舰队周的舰船巡游期间驶过旧金山湾，10月\n\n乔治号（CG 71）位于左侧，在10月旧金山舰队周舰船巡游期间驶过旧金山湾。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今的海上部队。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示他们的能力与装备，参加各种社区服务活动，并享受湾区的热情款待。\n\n美国海军照片，由三等大众传播专家帕布罗·查韦斯拍摄）",
+   "zhDone": 6,
+   "zhChunks": 6,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10003541/nbsw-childrens-hospital-concert",
+   "title": "NBSW Children's Hospital Concert",
+   "author": "PO3 Ivan Garcia",
+   "pubDate": "2026-10-10T00:56:35+00:00",
+   "summary": "U.S. Navy Musician 1st Class Jason Paige and U.S. Navy Musician 2nd Class Drew Spencer, both assigned to Navy Band Southwest Woodwind Quintet, discuss the difference between a bass clarinet and a clarinet during a concert at University of California Benioff Children’s Hospital during San Francisco Fleet Week Oct 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the bay area to witness today’s maritime services firsthand. During th",
+   "body": "Navy Musician 1st Class Jason Paige and U.\n\nNavy Musician 2nd Class Drew Spencer, both assigned to Navy Band Southwest Woodwind Quintet, discuss the difference between a bass clarinet and a clarinet during a concert at University of California Benioff Children’s Hospital during San Francisco Fleet Week Oct 9, 2026.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the bay area to witness today’s maritime services firsthand.\n\nDuring the event sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the bay area.\n\nNavy photo by Mass Communication Specialist 3rd Class Ivan A.",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "美国海军一等军乐师杰森·佩奇和美国海军二等军乐师德鲁·斯宾塞均隶属于海军西南军乐队木管五重奏，他们在2026年10月9日旧金山舰队周期间于加州大学贝尼奥夫儿童医院举行的一场音乐会上，讨论低音单簧管与单簧管的区别。旧金山舰队周现已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民能够亲身见证当今的海上军种。在...",
+   "titleZh": "海军西南军乐队儿童医院音乐会",
+   "titleTrans": "ok",
+   "zhParas": [
+    "美国海军一等军乐师杰森·佩奇和U.",
+    "美国海军二等军乐师德鲁·斯宾塞，两人均隶属于海军西南军乐队木管五重奏，在2026年10月9日旧金山舰队周期间于加州大学贝尼奥夫儿童医院的音乐会上讨论低音单簧管与单簧管的区别。",
+    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆典，让湾区民众能够亲身见证当今的海上服务力量。",
+    "活动期间，水兵、海军陆战队员和海岸警卫队人员展示自身能力与装备，参与各类社区服务活动，并感受湾区的热情好客。",
+    "美国海军照片，由三等大众传播专家伊万·A.拍摄"
+   ],
+   "zhFull": "美国海军一等军乐师杰森·佩奇和U.\n\n美国海军二等军乐师德鲁·斯宾塞，两人均隶属于海军西南军乐队木管五重奏，在2026年10月9日旧金山舰队周期间于加州大学贝尼奥夫儿童医院的音乐会上讨论低音单簧管与单簧管的区别。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆典，让湾区民众能够亲身见证当今的海上服务力量。\n\n活动期间，水兵、海军陆战队员和海岸警卫队人员展示自身能力与装备，参与各类社区服务活动，并感受湾区的热情好客。\n\n美国海军照片，由三等大众传播专家伊万·A.拍摄",
+   "zhDone": 5,
+   "zhChunks": 5,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10003542/san-francisco-fleet-week-parade-ships",
+   "title": "San Francisco Fleet Week Parade of Ships",
+   "author": "PO3 Pablo Chavez",
+   "pubDate": "2026-10-10T00:54:49+00:00",
+   "summary": "U.S. Coast Guard Legend-class cutter USCGC Munro (WMSL 755) sails through San Francisco Bay during the Parade of Ships for San Francisco Fleet Week, Oct. 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the bay area to witness today’s maritime services firsthand. During the event sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospital",
+   "body": "Coast Guard Legend-class cutter USCGC Munro (WMSL 755) sails through San Francisco Bay during the Parade of Ships for San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the bay area to witness today’s maritime services firsthand.\n\nDuring the event sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the bay area.\n\nNavy photo by Mass Communication Specialist 3rd Pablo Chavez)",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "美国海岸警卫队“传奇”级巡逻舰“门罗”号（USCGC Munro，WMSL 755）于2026年10月9日旧金山舰队周舰船游行期间驶过旧金山湾。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队员展示各自的能力和装备，参加各类社区服务活动，并享受热情款待。",
+   "titleZh": "旧金山舰队周舰船游行",
+   "titleTrans": "ok",
+   "zhParas": [
+    "美国海岸警卫队“传奇”级巡逻舰“门罗”号（USCGC Munro，WMSL 755）在旧金山舰队周舰船游行期间驶过旧金山湾，10月。",
+    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆典，让湾区民众能够亲身见识当今的海事力量。",
+    "活动期间，水兵、海军陆战队员和海岸警卫队人员展示其能力与装备，参加各类社区服务活动，并感受湾区的热情款待。",
+    "美国海军照片，由三级大众传播专家巴勃罗·查韦斯拍摄）"
+   ],
+   "zhFull": "美国海岸警卫队“传奇”级巡逻舰“门罗”号（USCGC Munro，WMSL 755）在旧金山舰队周舰船游行期间驶过旧金山湾，10月。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆典，让湾区民众能够亲身见识当今的海事力量。\n\n活动期间，水兵、海军陆战队员和海岸警卫队人员展示其能力与装备，参加各类社区服务活动，并感受湾区的热情款待。\n\n美国海军照片，由三级大众传播专家巴勃罗·查韦斯拍摄）",
+   "zhDone": 4,
+   "zhChunks": 4,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10003555/parade-ships-airshow-san-francisco-fleet-week",
+   "title": "Parade of Ships, Airshow at San Francisco Fleet Week",
+   "author": "PO1 Matt Hall",
+   "pubDate": "2026-10-10T00:53:26+00:00",
+   "summary": "U.S. Navy Whidbey Island-class amphibious dock landing ship USS Ashland (LSD 48), Ticonderoga-class guided-missile cruiser USS Cape St. George (CG 71), and U.S. Coast Guard Legend-class cutter USCGC Munro (WMSL 775), sail through San Francisco Bay during San Francisco Fleet Week, Oct. 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, a",
+   "body": "Navy Whidbey Island-class amphibious dock landing ship USS Ashland (LSD 48), Ticonderoga-class guided-missile cruiser USS Cape St.\n\nGeorge (CG 71), and U.\n\nCoast Guard Legend-class cutter USCGC Munro (WMSL 775), sail through San Francisco Bay during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nNavy photo by Mass Communication Specialist 1st Class Matt Hall)",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "美国海军惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48）、提康德罗加级导弹巡洋舰“圣乔治角”号（CG 71）以及美国海岸警卫队传奇级巡逻舰“门罗”号（WMSL 775），于2026年10月9日旧金山舰队周期间驶过旧金山湾。旧金山舰队周如今已是第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今的海上部队。活动期间，水兵、海军陆战队员以及",
+   "titleZh": "旧金山舰队周举行舰艇巡游和飞行表演",
+   "titleTrans": "ok",
+   "zhParas": [
+    "美国海军惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48）、提康德罗加级导弹巡洋舰“圣",
+    "乔治”号（CG 71），以及美国",
+    "海岸警卫队传奇级巡逻舰“门罗”号（WMSL 775），于10月旧金山舰队周期间驶过旧金山湾。",
+    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今的海上军种。",
+    "活动期间，水兵、海军陆战队员和海岸警卫队队员展示自身能力与装备，参与各类社区服务活动，并享受湾区的热情款待。",
+    "美国海军照片，摄影：一等大众传播专家马特·霍尔）"
+   ],
+   "zhFull": "美国海军惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48）、提康德罗加级导弹巡洋舰“圣\n\n乔治”号（CG 71），以及美国\n\n海岸警卫队传奇级巡逻舰“门罗”号（WMSL 775），于10月旧金山舰队周期间驶过旧金山湾。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今的海上军种。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示自身能力与装备，参与各类社区服务活动，并享受湾区的热情款待。\n\n美国海军照片，摄影：一等大众传播专家马特·霍尔）",
+   "zhDone": 6,
+   "zhChunks": 6,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/video/1026018/sf-fleet-week-26-1st-mardiv-band-performs-huntington-park",
+   "title": "SF Fleet Week 26: 1st MARDIV Band Performs at Huntington Park",
+   "author": "Sgt Gideon Schippers",
+   "pubDate": "2026-10-10T00:40:30+00:00",
+   "summary": "U.S. Marines with 1st Marine Division Band perform at Huntington Park in San Francisco during San Francisco Fleet Week, Oct. 7, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today's maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment,",
+   "body": "U.S. Marines with 1st Marine Division Band perform at Huntington Park in San Francisco during San Francisco Fleet Week, Oct. 7, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today's maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area. (U.S. Marine Corps video by Sgt. Gideon Schippers)",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "2026年10月7日，美国海军陆战队第1海军陆战师军乐队成员在旧金山舰队周期间于旧金山的亨廷顿公园演出。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上部队。活动期间，海军水兵、海军陆战队员和海岸警卫队队员展示其能力与装备，",
+   "titleZh": "旧金山舰队周26：第1海军陆战师军乐队在亨廷顿公园演出",
+   "titleTrans": "ok",
+   "zhParas": [
+    "2026年10月7日，美国海军陆战队第1海军陆战师军乐队成员在旧金山舰队周期间于旧金山的亨廷顿公园演出。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上部队。活动期间，海军水兵、海军陆战队员和海岸警卫队队员展示其能力与装备，参加各类社区服务活动，并感受湾区的热情好客。（美国海军陆战队中士吉迪恩·希珀斯拍摄的视频）"
+   ],
+   "zhFull": "2026年10月7日，美国海军陆战队第1海军陆战师军乐队成员在旧金山舰队周期间于旧金山的亨廷顿公园演出。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上部队。活动期间，海军水兵、海军陆战队员和海岸警卫队队员展示其能力与装备，参加各类社区服务活动，并感受湾区的热情好客。（美国海军陆战队中士吉迪恩·希珀斯拍摄的视频）",
+   "zhDone": 1,
+   "zhChunks": 1,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10003453/all-hands-man-rails-us-marines-and-sailors-man-rails-during-ship-parade",
+   "title": "All Hands, Man the Rails: U.S. Marines and Sailors man the rails during ship parade",
+   "author": "Cpl Alan Gomez",
+   "pubDate": "2026-10-10T00:12:16+00:00",
+   "summary": "U.S. Navy Chief Hospital Corpsman Ken Slagle, assigned to 1st Combat Readiness Regiment, 1st Marine Logistics Group, mans the rails of Ticonderoga-class guided-missile cruiser USS Cape St. George (CG 71) for a ship parade during San Francisco Fleet Week in San Francisco, California, Oct. 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines",
+   "body": "Navy Chief Hospital Corpsman Ken Slagle, assigned to 1st Combat Readiness Regiment, 1st Marine Logistics Group, mans the rails of Ticonderoga-class guided-missile cruiser USS Cape St.\n\nGeorge (CG 71) for a ship parade during San Francisco Fleet Week in San Francisco, California, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nMarine Corps photo by Cpl.",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "美国海军医务军士长肯·斯莱格尔，隶属于海军陆战队第1后勤大队第1战斗准备团，在2026年10月9日于加利福尼亚州旧金山举行的旧金山舰队周期间，于提康德罗加级导弹巡洋舰美国海军“圣乔治角”号（CG 71）舰舷列队，参加舰船游行。旧金山舰队周现已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众得以亲身见证当今的海上部队。活动期间，水兵、海军陆战队队员",
+   "titleZh": "全体人员，站坡：美国海军陆战队队员和水兵在舰船游行中站坡",
+   "titleTrans": "ok",
+   "zhParas": [
+    "海军医务军士长肯·斯莱格尔，隶属于海军陆战队第1后勤大队第1战斗准备团，在提康德罗加级导弹巡洋舰美国海军“圣",
+    "乔治号（CG 71）”的舷边，为在加利福尼亚州旧金山举行的旧金山舰队周期间的舰艇游行站坡，10月。",
+    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今海上部队的风采。",
+    "活动期间，水兵、海军陆战队员和海岸警卫队队员展示他们的能力与装备，参加各种社区服务活动，并享受湾区的热情好客。",
+    "海军陆战队照片，由下士拍摄。"
+   ],
+   "zhFull": "海军医务军士长肯·斯莱格尔，隶属于海军陆战队第1后勤大队第1战斗准备团，在提康德罗加级导弹巡洋舰美国海军“圣\n\n乔治号（CG 71）”的舷边，为在加利福尼亚州旧金山举行的旧金山舰队周期间的舰艇游行站坡，10月。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今海上部队的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示他们的能力与装备，参加各种社区服务活动，并享受湾区的热情好客。\n\n海军陆战队照片，由下士拍摄。",
+   "zhDone": 5,
+   "zhChunks": 5,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10003470/sf-fleet-week-26-1st-mardiv-band-performs-hayes-valley",
+   "title": "SF Fleet Week 26: 1st MARDIV Band Performs at Hayes Valley",
+   "author": "LCpl Adrian Guerrero Martinez",
+   "pubDate": "2026-10-10T00:01:21+00:00",
+   "summary": "U.S. Marines with 1st Marine Division Band perform at Hayes Valley in San Francisco during San Francisco Fleet Week, Oct. 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area. (U.S. Mari",
+   "body": "Marines with 1st Marine Division Band perform at Hayes Valley in San Francisco during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nMarine Corps photo by Lance Cpl.\n\nAdrian Guerrero Martinez)",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "2026年10月9日，美国海军陆战队第1海军陆战师乐队的海军陆战队员在旧金山舰队周期间于旧金山海斯谷演出。旧金山舰队周现已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上军种。活动期间，海军水兵、海军陆战队员和海岸警卫队队员展示其能力与装备，参与各类社区服务活动，并享受湾区的热情好客。",
+   "titleZh": "旧金山舰队周26：第1海军陆战师乐队在海斯谷演出",
+   "titleTrans": "ok",
+   "zhParas": [
+    "在旧金山舰队周期间，第1海军陆战师乐队的海军陆战队队员于旧金山海斯谷演出，10月。",
+    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今海上军种的风采。",
+    "活动期间，水兵、海军陆战队队员和海岸警卫队队员展示各自的能力和装备，参加各种社区服务活动，并享受湾区人民的热情款待。",
+    "美国海军陆战队照片，拍摄者：准下士",
+    "阿德里安·格雷罗·马丁内斯）"
+   ],
+   "zhFull": "在旧金山舰队周期间，第1海军陆战师乐队的海军陆战队队员于旧金山海斯谷演出，10月。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今海上军种的风采。\n\n活动期间，水兵、海军陆战队队员和海岸警卫队队员展示各自的能力和装备，参加各种社区服务活动，并享受湾区人民的热情款待。\n\n美国海军陆战队照片，拍摄者：准下士\n\n阿德里安·格雷罗·马丁内斯）",
+   "zhDone": 5,
+   "zhChunks": 5,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/news/576768/us-pacific-command-hosts-fsm-president-regional-security-discussions",
+   "title": "U.S. Pacific Command Hosts FSM President for Regional Security Discussions",
+   "author": "SSG Angel Heraldez",
+   "pubDate": "2026-10-09T22:48:27+00:00",
+   "summary": "Lt. Gen. George B. Rowell, deputy commander of U.S. Pacific Command, hosted President of the Federated States of Micronesia, His Excellency Wesley W. Simina at Camp H.M Smith on October 9, 2026, for discussions on shared regional-security priorities and the enduring U.S.-FSM partnership.",
+   "body": "Story by Staff Sgt. Angel Heraldez\n\nU.S. Pacific Command\n\nCAMP H.M. SMITH, HAWAII, US\n\nNo keywords found.\n\nNo tags found.\n\nConnect to Placements\n\nAdd to Playlist\n\nAdd News & Images to Playlist\n\nRequest Audio Version\n\nLt. Gen. George B. Rowell, deputy commander of U.S. Pacific Command, hosted President of the Federated States of Micronesia, His Excellency Wesley W. Simina at Camp H.M Smith on October 9, 2026, for discussions on shared regional-security priorities and the enduring U.S.-FSM partnership.\n\nDuring the visit, US PACOM and FSM senior officials exchanged views on recent regional developments, maritime security, cybersecurity, and evolving long-range threats affecting the Federated States of Micronesia and the broader Indo-Pacific.\n\nThey also discussed ongoing efforts to strengthen deterrence, enhance regional awareness, and support collective defense against external threats.\n\nThe visit reaffirmed the U.S. commitment to the Federated States of Micronesia under the Compact of Free Association and the importance of continued close coordination to advance a free and open Indo-Pacific.\n\nU.S. Pacific Command is committed to enhancing stability in the Indo-Pacific region by promoting security cooperation, encouraging peaceful development, responding to contingencies, deterring aggression and, when necessary, prevailing in conflict.",
+   "channel": "us_dod",
+   "channelName": "美国国防部",
+   "summaryZh": "美国太平洋司令部副司令乔治·B·罗威尔中将，于2026年10月9日在史密斯营接待了密克罗尼西亚联邦总统韦斯利·W·西米纳阁下，双方就共同的地区安全优先事项和美密持久伙伴关系进行了讨论。",
+   "titleZh": "美国太平洋司令部接待密克罗尼西亚联邦总统讨论地区安全",
+   "titleTrans": "ok",
+   "zhParas": [
+    "撰稿：上士安赫尔·埃拉尔德斯",
+    "美国太平洋司令部",
+    "美国夏威夷州H.M.史密斯营",
+    "未找到关键词。",
+    "未找到标签。",
+    "连接到版位",
+    "添加到播放列表",
+    "将新闻和图片添加到播放列表",
+    "请求音频版本",
+    "美国太平洋司令部副司令乔治·B·罗威尔中将，于2026年10月9日在H.M.史密斯营接待了密克罗尼西亚联邦总统韦斯利·W·西米纳阁下，就共同的地区安全优先事项以及持久的美国-密克罗尼西亚联邦伙伴关系进行了讨论。",
+    "访问期间，美国太平洋司令部和密克罗尼西亚联邦高级官员就近期地区事态发展、海上安全、网络安全以及影响密克罗尼西亚联邦和更广泛印太地区的不断演变的远程威胁交换了意见。",
+    "他们还讨论了为加强威慑、增强地区态势感知以及支持针对外部威胁的集体防御而正在进行的努力。",
+    "此次访问重申了美国根据《自由联系条约》对密克罗尼西亚联邦的承诺，以及继续密切协调以推进自由开放的印太地区的重要性。",
+    "美国太平洋司令部致力于通过促进安全合作、鼓励和平发展、应对突发事件、威慑侵略，并在必要时在冲突中取胜，来增强印太地区的稳定。"
+   ],
+   "zhFull": "撰稿：上士安赫尔·埃拉尔德斯\n\n美国太平洋司令部\n\n美国夏威夷州H.M.史密斯营\n\n未找到关键词。\n\n未找到标签。\n\n连接到版位\n\n添加到播放列表\n\n将新闻和图片添加到播放列表\n\n请求音频版本\n\n美国太平洋司令部副司令乔治·B·罗威尔中将，于2026年10月9日在H.M.史密斯营接待了密克罗尼西亚联邦总统韦斯利·W·西米纳阁下，就共同的地区安全优先事项以及持久的美国-密克罗尼西亚联邦伙伴关系进行了讨论。\n\n访问期间，美国太平洋司令部和密克罗尼西亚联邦高级官员就近期地区事态发展、海上安全、网络安全以及影响密克罗尼西亚联邦和更广泛印太地区的不断演变的远程威胁交换了意见。\n\n他们还讨论了为加强威慑、增强地区态势感知以及支持针对外部威胁的集体防御而正在进行的努力。\n\n此次访问重申了美国根据《自由联系条约》对密克罗尼西亚联邦的承诺，以及继续密切协调以推进自由开放的印太地区的重要性。\n\n美国太平洋司令部致力于通过促进安全合作、鼓励和平发展、应对突发事件、威慑侵略，并在必要时在冲突中取胜，来增强印太地区的稳定。",
+   "zhDone": 14,
+   "zhChunks": 14,
+   "zhState": "ok"
+  },
   {
    "url": "https://www.dvidshub.net/video/1026034/mcrd-san-diego-fox-company-graduation",
    "title": "MCRD San Diego Fox Company Graduation",
@@ -75,16 +346,16 @@
    "body": "The new Marines of Fox Company, 2nd Recruit Training Battalion, graduated from Marine Corps Recruit Depot San Diego, Oct 09, 2026. Graduation took place at the completion of the 13-week transformation which included training for drill, marksmanship, basic combat skills, and Marine Corps customs and traditions. Following graduation, the Marines were given 10 days of leave before taking the next step in training at the School of Infantry at Marine Corps Base Camp Pendleton, California.",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "海军陆战队第2新兵训练营福克斯连的新晋海军陆战队员于2026年10月9日从圣迭戈海军陆战队新兵训练基地毕业。毕业仪式在为期13周的转变训练结束时举行，训练内容包括队列、射击、基本战斗技能以及海军陆战队习俗与传统。毕业后，这些海军陆战队员获得10天休假，随后进入下一阶段。",
    "titleZh": "圣迭戈海军陆战队新兵训练基地福克斯连毕业",
-   "titleTrans": "ok",
+   "summaryZh": "海军陆战队第2新兵训练营福克斯连的新晋海军陆战队员于2026年10月9日从圣迭戈海军陆战队新兵训练基地毕业。毕业仪式在为期13周的转变训练结束时举行，训练内容包括队列、射击、基本战斗技能以及海军陆战队习俗与传统。毕业后，这些海军陆战队员获得10天休假，随后进入下一阶段。",
    "zhParas": [
     "海军陆战队第2新兵训练营福克斯连的新晋海军陆战队员于2026年10月9日从圣迭戈海军陆战队新兵训练基地毕业。毕业仪式在为期13周的转变训练结束时举行，训练内容包括队列、射击、基本战斗技能以及海军陆战队习俗与传统。毕业后，这些海军陆战队员获得10天休假，随后前往加利福尼亚州彭德尔顿海军陆战队基地的步兵学校参加下一阶段训练。"
    ],
    "zhFull": "海军陆战队第2新兵训练营福克斯连的新晋海军陆战队员于2026年10月9日从圣迭戈海军陆战队新兵训练基地毕业。毕业仪式在为期13周的转变训练结束时举行，训练内容包括队列、射击、基本战斗技能以及海军陆战队习俗与传统。毕业后，这些海军陆战队员获得10天休假，随后前往加利福尼亚州彭德尔顿海军陆战队基地的步兵学校参加下一阶段训练。",
    "zhDone": 1,
    "zhChunks": 1,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/news/576766/xviii-airborne-corps-deception-kuwaiti-border-15-oct-1990",
@@ -95,9 +366,8 @@
    "body": "Between Oct. 15 and Nov. 28, 1990, the XVIII Airborne Corps conducted a defensive deception operation as part of Operation DESERT SHIELD in Saudi Arabia. This was an informative precursor to a larger offensive deception operation coalition forces unleashed during the ground campaign of Operation DESERT STORM three months later.\n\nWithin days of Iraq’s invasion of Kuwait on Aug. 2, 1990, the U.S. launched Operation DESERT SHIELD to defend Saudi Arabia from further Iraqi expansion. By Aug. 9, Lt. Gen. Gary Luck’s XVIII Airborne Corps assault command post touched down at Dhahran Airport. The Corps’ presence in the Persian Gulf grew over the following two months, as did the number of Iraqi divisions in Kuwait. Saddam Hussein’s intentions to invade Saudia Arabia were unknown, but intelligence analysts concluded he had the capability to do so. The U.S. needed time to deploy enough air and ground forces to deter any attempts to seize Saudi oil fields, ports, and airfields.\n\nEven before the deployment of the XVIII Airborne Corps, its Deception Element began planning for the unit’s deception operations. In 1990, deception was considered something of a “lost art” in the U.S. Army. Attempts to revitalize the capability began with the 1988 publication of FM 90-2 \"Battlefield Deception\" (BAT-D) and the implementation of associated training. FM 90-2 and the 1989 FM 100-15 \"Corps Operations\" called for twelve-member BAT-D cells working with the corps G-3 planners and similar cells in the divisional MI battalions to execute deception plans.\n\nMaj. Gary P. Melton, a West Point graduate who had received his commission as an infantry officer in 1975, led the XVIII Airborne Corps Deception Element. On Aug. 27, 1990, he led an initial planning and administrative group to Saudi Arabia. Once there, they continued “the corps planning cycle we began back at Fort Bragg and put the first deception equipment package on the ground.” The remaining six members of Melton’s team followed over the next two months, along with additional communication emulators and camouflage decoys on loan from the deception equipment office at Fort Belvoir.\n\nAs planning for the offensive campaign continued, the G-3 planners considered ways to deter further Iraqi expansion. In lockstep, Major Melton’s Deception Element provided courses of action that dovetailed with the G-3’s operational plans. Hussein’s forces seemed to be positioned to invade along the coastal roads into Saudi Arabia with the Trans-Arabian Pipeline (TAPLine) Road as their first strategic objective. Thus, the deception plan, according to Major Melton, was\n\nto portray our corps establishing a defense in a sector along the TAPLine Road [near al-Jubayl in Saudi Arabia’s Eastern Province]. We tried to portray the sparse Pan-Arab forces as the only covering force forward of TAPLine Road, when, in fact, a large U.S. covering force was there. . . If believed, this deception would have confused Iraqi command and control when they ran into a formidable U.S. covering force before they expected.\n\nInitially, Melton’s team conducted the deception, but later in the six-week operation, the 101st Airborne, 24th Infantry, and 1st Cavalry divisions began complementary operations. The deception operation utilized a wide variety of elements to enhance its credibility. This included planting decoy tracked and wheeled vehicles and forward arming and refueling points; posting unit signage; transmitting real, high frequency, radioteletype traffic in deception mode; running vehicle convoys; moving troops in and around local towns; and conducting psychological operations.\n\nWhether this early deception effort succeeded was unclear because the Iraqis did not attack into Saudi Arabia. Yet, it was educational for Melton’s team, who confirmed the deception equipment, including signal emulators, worked in the desert environment. The operation also led Melton to recommend consolidating division and corps deception cells to ensure sufficient resources to enhance the deception’s credibility. Ultimately, the team’s operations helped inform the successful deception operations the coalition undertook as part of the DESERT STORM ground offensive that kicked off the following February.\n\nArticle by Lori S. Stewart, USAICoE Command Historian. New issues of This Week in MI History are published each week. To report story errors, ask questions, request previous articles, or be added to our distribution list, please contact: TR-ICoE-Command-Historian@army.mil.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "1990年10月15日至11月28日期间，第18空降军作为“沙漠盾牌”行动的一部分，在沙特阿拉伯实施了一次防御性欺骗行动。这是三个月后联军在“沙漠风暴”行动地面战役中发动更大规模进攻性欺骗行动的一次具有启示意义的前奏。",
    "titleZh": "第18空降军在科威特边境的欺骗行动（1990年10月15日）",
-   "titleTrans": "ok",
+   "summaryZh": "1990年10月15日至11月28日期间，第18空降军作为“沙漠盾牌”行动的一部分，在沙特阿拉伯实施了一次防御性欺骗行动。这是三个月后联军在“沙漠风暴”行动地面战役中发动更大规模进攻性欺骗行动的一次具有启示意义的前奏。",
    "zhParas": [
     "1990年10月15日至11月28日期间，第18空降军作为“沙漠盾牌”行动的一部分，在沙特阿拉伯实施了一次防御性欺骗行动。这是三个月后联军在“沙漠风暴”行动地面战役中发动更大规模进攻性欺骗行动的一次具有启示意义的前奏。",
     "1990年8月2日伊拉克入侵科威特后的数天内，美国发起了“沙漠盾牌”行动，以保卫沙特阿拉伯免遭伊拉克进一步扩张。到8月9日，加里·勒克中将的第18空降军突击指挥所抵达达兰机场。此后两个月，该军在波斯湾地区的存在不断扩大，伊拉克在科威特的师数量也在增加。萨达姆·侯赛因入侵沙特阿拉伯的意图尚不清楚，但情报分析人员认为他具备这样做的能力。美国需要时间部署足够的空中和地面部队，以威慑任何夺取沙特油田、港口和机场的企图。",
@@ -112,7 +382,8 @@
    "zhFull": "1990年10月15日至11月28日期间，第18空降军作为“沙漠盾牌”行动的一部分，在沙特阿拉伯实施了一次防御性欺骗行动。这是三个月后联军在“沙漠风暴”行动地面战役中发动更大规模进攻性欺骗行动的一次具有启示意义的前奏。\n\n1990年8月2日伊拉克入侵科威特后的数天内，美国发起了“沙漠盾牌”行动，以保卫沙特阿拉伯免遭伊拉克进一步扩张。到8月9日，加里·勒克中将的第18空降军突击指挥所抵达达兰机场。此后两个月，该军在波斯湾地区的存在不断扩大，伊拉克在科威特的师数量也在增加。萨达姆·侯赛因入侵沙特阿拉伯的意图尚不清楚，但情报分析人员认为他具备这样做的能力。美国需要时间部署足够的空中和地面部队，以威慑任何夺取沙特油田、港口和机场的企图。\n\n甚至在部署第18空降军之前，其欺骗分队就已开始规划该部队的欺骗行动。1990年，欺骗在美国陆军中多少被视为一种“失传的艺术”。重振这一能力的努力始于1988年出版的FM 90-2《战场欺骗》（BAT-D）以及相关训练的实施。FM 90-2和1989年的FM 100-15《军作战》要求由十二人组成的战场欺骗小组与军G-3计划人员以及各师军事情报营中类似小组协同，执行欺骗计划。\n\n加里·P·梅尔顿少校是一名西点军校毕业生，1975年获步兵军官委任，领导第18空降军欺骗分队。1990年8月27日，他率领一个初始规划与行政小组前往沙特阿拉伯。抵达后，他们继续“我们在布拉格堡启动的军规划周期，并将首个欺骗装备包部署到位”。梅尔顿团队的其余六名成员在随后两个月内相继抵达，随行的还有从贝尔沃堡欺骗装备办公室借用的额外通信模拟器和伪装诱饵。\n\n随着进攻战役规划持续进行，G-3计划人员考虑了威慑伊拉克进一步扩张的方法。梅尔顿少校的欺骗分队与之步调一致，提供了与G-3作战计划相衔接的行动方案。侯赛因的部队似乎已部署到位，可沿沿海公路入侵沙特阿拉伯，并将跨阿拉伯输油管道（TAPLine）公路作为其首个战略目标。因此，据梅尔顿少校称，欺骗计划是\n\n将我们的军描绘为正在沿TAPLine公路[沙特阿拉伯东部省朱拜勒附近]一带建立防御。我们试图把兵力稀少的泛阿拉伯部队描绘成TAPLine公路前方唯一的掩护部队，而事实上，一支庞大的美军掩护部队就在那里。……如果这一欺骗被采信，它本会在伊拉克指挥与控制部门于预料之前遭遇一支强大的美军掩护部队时，使其陷入混乱。\n\n起初，梅尔顿的团队实施了欺骗行动，但在这场为期六周的行动后期，第101空降师、第24步兵师和第1骑兵师开始实施配合行动。欺骗行动利用多种要素来提高其可信度。这包括布设履带式和轮式诱饵车辆以及前沿装弹与加油点；张贴部队标识牌；以欺骗模式发送真实的高频无线电传通信；组织车辆车队行驶；在附近城镇内及周边调动部队；以及开展心理战。\n\n这次早期欺骗行动是否成功尚不清楚，因为伊拉克军队并未进攻沙特阿拉伯。然而，这对梅尔顿的团队具有教育意义，他们确认了包括信号模拟器在内的欺骗装备在沙漠环境中能够奏效。该行动还促使梅尔顿建议整合师和军的欺骗小组，以确保有足够资源来提高欺骗的可信度。最终，该团队的行动有助于为联军在次年2月发起的“沙漠风暴”地面攻势中所实施的成功欺骗行动提供借鉴。\n\n作者：Lori S. Stewart，美国陆军卓越情报中心司令部历史学家。《军事情报历史本周》新一期每周出版。如需报告报道错误、提问、索取以往文章或加入我们的分发名单，请联系：TR-ICoE-Command-Historian@army.mil。",
    "zhDone": 9,
    "zhChunks": 9,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10003451/fox-company-graduation-ceremony",
@@ -123,9 +394,8 @@
    "body": "Friedewald, left, commanding officer, 2nd Recruit Training Battalion, Recruit Training Regiment, awards the honor graduate plaque to Lance Cpl.\n\nTanner Wright, center right, Fox Company, 2nd Recruit Training Battalion, during a graduation ceremony at Marine Corps Recruit Depot San Diego, California, Oct.\n\nThis ceremony marked the end of a 13-week transformation that included training in drill, marksmanship, basic combat skills, and Marine Corps customs and traditions.\n\nMarine Corps photo by Lance Cpl.",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "美国海军陆战队中校克里·E·弗里德瓦尔德（左），新兵训练团第2新兵训练营指挥官，于2026年10月9日在加利福尼亚州圣迭戈海军陆战队新兵训练基地举行的毕业典礼上，向第2新兵训练营福克斯连的准下士坦纳·赖特（中右）颁发荣誉毕业生奖牌。此次典礼标志着为期13周的转变结束，其中包括操练、射击、基本战斗技能和海军陆战队传统习俗训练。",
    "titleZh": "福克斯连毕业典礼",
-   "titleTrans": "ok",
+   "summaryZh": "美国海军陆战队中校克里·E·弗里德瓦尔德（左），新兵训练团第2新兵训练营指挥官，于2026年10月9日在加利福尼亚州圣迭戈海军陆战队新兵训练基地举行的毕业典礼上，向第2新兵训练营福克斯连的准下士坦纳·赖特（中右）颁发荣誉毕业生奖牌。此次典礼标志着为期13周的转变结束，其中包括操练、射击、基本战斗技能和海军陆战队传统习俗训练。",
    "zhParas": [
     "左为弗里德瓦尔德，新兵训练团第2新兵训练营指挥官，他向准下士颁发荣誉毕业生奖牌。",
     "坦纳·赖特（中右），第2新兵训练营福克斯连，于10月在加利福尼亚州圣迭戈海军陆战队新兵训练基地举行的毕业典礼上。",
@@ -135,7 +405,8 @@
    "zhFull": "左为弗里德瓦尔德，新兵训练团第2新兵训练营指挥官，他向准下士颁发荣誉毕业生奖牌。\n\n坦纳·赖特（中右），第2新兵训练营福克斯连，于10月在加利福尼亚州圣迭戈海军陆战队新兵训练基地举行的毕业典礼上。\n\n这场典礼标志着为期13周的转变结束，这一转变包括队列、射击、基本战斗技能以及海军陆战队习俗与传统方面的训练。\n\n美国海军陆战队照片，由准下士拍摄。",
    "zhDone": 4,
    "zhChunks": 4,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/news/576765/assessing-german-adaptation-world-war-ii-16-oct-1942",
@@ -146,9 +417,8 @@
    "body": "On Oct. 16, 1942, the Army's Military Intelligence Service (MIS) published its fifth special study—\"The Development of German Defensive Tactics in Cyrenaica—1941.\" The study concluded that German desert defense was not designed as an immovable barrier; instead, it was an integrated system organized in depth to absorb and wear down an enemy assault before launching a decisive armored counterattack.\n\nThe MIS developed its assessment through the systematic evaluation of captured German military documents. Rather than depending on wartime estimates or enemy propaganda, American intelligence analysts translated and evaluated captured German unit war diaries, operational orders, after-action battle reports, and defensive sketches. The study largely reviewed the defensive tactics developed by the Afrika Korps’ three divisional commanders: Maj. Gen. Johann von Ravenstein of the 21st Panzer Division; Maj. Gen. Walter Neumann‑Silkow of the 15th Panzer Division, and Maj. Gen. Max Summermann of the 90th Light Motorized Division. The study also looked at how the battalion and company officers executed the trio’s tactical concepts on the ground through captured documentation on tactical trials, successes, and failures in the field.\n\nThe study concentrated on the defensive lessons German forces learned through hard experience. German officers initially relied on rigid, linear defense lines that were thinly spread and vulnerable to artillery and armor breakthroughs. Early in the campaign, one German major criticized this lack of defensive preparation, writing that “our people know next to nothing about the construction of defenses” and pointing out that “positional infantry warfare is 60 percent with the spade, 30 percent with the field glasses, and only 10 percent with the gun.”\n\nIn response, the Germans abandoned continuous front lines in favor of self-contained, mutually supporting strongpoints known as Stützpunkte. These fortified centers featured all-around defense, deep minefields of antipersonnel and antitank mines, antitank ditches, and dummy positions designed to deceive Allied reconnaissance. At the tactical level, the Germans mastered the “trefoil” formation, arranging squads and platoons into triangular clusters that provided overlapping fields of fire. Furthermore, commanders established strict fire discipline; heavy weapons and antitank guns were hidden and ordered to hold their fire until enemy forces reached close ranges to ensure surprise and maximize lethal effect.\n\nThe study pointed to the paramount importance of the German 88-mm dual-purpose gun in holding these positions. Standard 37-mm and 50-mm antitank guns often proved ineffective against heavily armored British tanks, leaving the high-velocity 88-mm antiaircraft gun as the core antitank weapon. The report noted the “terrific antitank performance of the twelve 88-mm guns” during fighting on the Egyptian frontier, asserting that “the 88-mm gun, the 5th Tank Regiment, and the solid defenses of Halfaya and Point 208 won the battle for the Axis.” During critical moments, such as the defense of Capuzzo, single 88-mm guns manned by makeshift crews halted entire armor columns. As the study concluded, “without the 88-mm gun, however, none of the positions could have repulsed the British drive,” making it “the most outstanding single element in German defenses.”\n\n\"The Development of German Defensive Tactics in Cyrenaica\" provided an in-depth examination of how Field Marshal Erwin Rommel’s Afrika Korps, originally trained almost exclusively in rapid offensive warfare, adapted to static desert defense in early 1941. Facing unique desert logistics and terrain, German commanders had to rapidly invent and refine new defensive practices. Consequently, in addition to laying out German defensive tactics, this study showed American military leaders that the German Army was highly adaptable, rapidly transforming its tactical doctrine to master defensive position warfare in the desert.\n\nArticle by Michael E. Bigelow, INSCOM Command Historian. New issues of This Week in MI History are published each week. To report story errors, ask questions, request previous articles, or be added to our distribution list, please contact: TR-ICoE-Command-Historian@army.mil.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "1942年10月16日，美国陆军军事情报局（MIS）发布了其第五份专题研究报告——《1941年昔兰尼加德军防御战术的发展》。该研究得出结论，德军沙漠防御并非设计为不可移动的屏障；相反，它是一种纵深编成的综合体系，旨在先吸收并消耗敌军进攻，随后发动决定性的装甲反击。",
    "titleZh": "评估二战中德军的适应能力（1942年10月16日）",
-   "titleTrans": "ok",
+   "summaryZh": "1942年10月16日，美国陆军军事情报局（MIS）发布了其第五份专题研究报告——《1941年昔兰尼加德军防御战术的发展》。该研究得出结论，德军沙漠防御并非设计为不可移动的屏障；相反，它是一种纵深编成的综合体系，旨在先吸收并消耗敌军进攻，随后发动决定性的装甲反击。",
    "zhParas": [
     "1942年10月16日，美国陆军军事情报局（MIS）发布了其第五份专题研究报告——《1941年昔兰尼加德军防御战术的发展》。该研究得出结论，德军沙漠防御并非设计为不可移动的屏障；相反，它是一种纵深编成的综合体系，旨在先吸收并消耗敌军进攻，随后发动决定性的装甲反击。",
     "军事情报局通过对缴获的德军军事文件进行系统评估，形成了这一判断。美国情报分析人员并未依赖战时估计或敌方宣传，而是翻译并评估了缴获的德军部队战争日志、作战命令、战后战斗报告和防御草图。该研究主要审视了非洲军三位师级指挥官所制定的防御战术：第21装甲师的约翰·冯·拉文施泰因少将、第15装甲师的沃尔特·诺伊曼-西尔科少将，以及第90轻装摩托化师的马克斯·祖默曼少将。该研究还通过缴获的关于战术试验、成功与失败的文件，考察了营连军官如何在战场上执行这三人的战术构想。",
@@ -161,7 +431,8 @@
    "zhFull": "1942年10月16日，美国陆军军事情报局（MIS）发布了其第五份专题研究报告——《1941年昔兰尼加德军防御战术的发展》。该研究得出结论，德军沙漠防御并非设计为不可移动的屏障；相反，它是一种纵深编成的综合体系，旨在先吸收并消耗敌军进攻，随后发动决定性的装甲反击。\n\n军事情报局通过对缴获的德军军事文件进行系统评估，形成了这一判断。美国情报分析人员并未依赖战时估计或敌方宣传，而是翻译并评估了缴获的德军部队战争日志、作战命令、战后战斗报告和防御草图。该研究主要审视了非洲军三位师级指挥官所制定的防御战术：第21装甲师的约翰·冯·拉文施泰因少将、第15装甲师的沃尔特·诺伊曼-西尔科少将，以及第90轻装摩托化师的马克斯·祖默曼少将。该研究还通过缴获的关于战术试验、成功与失败的文件，考察了营连军官如何在战场上执行这三人的战术构想。\n\n该研究重点阐述了德军通过艰苦实战获得的防御经验教训。德军军官起初依赖僵化的线式防御阵地，兵力分散且易被炮兵和装甲部队突破。战役初期，一名德军少校批评了这种防御准备不足，写道：“我们的人对构筑防御工事几乎一无所知”，并指出：“阵地步兵作战60%靠铁锹，30%靠望远镜，只有10%靠枪炮。\n\n作为回应，德军放弃了连续前线，转而采用被称为“支撑点”（Stützpunkte）的独立且相互支援的据点。这些设防中心具备环形防御，布设有由反步兵地雷和反坦克地雷组成的纵深雷场、反坦克壕，以及旨在欺骗盟军侦察的假阵地。在战术层面，德军掌握了“三叶草”队形，将班和排编成三角形集群，以提供相互重叠的火力范围。此外，指挥官还确立了严格的射击纪律；重武器和反坦克炮被隐蔽起来，并奉命在敌军接近至近距离前不得开火，以确保突然性并最大程度发挥杀伤效果。\n\n该研究指出，德军88毫米两用炮在守住这些阵地方面至关重要。制式37毫米和50毫米反坦克炮往往难以对付重装甲英军坦克，因此高初速的88毫米高射炮成为反坦克核心武器。报告提到，在埃及边境作战期间，“12门88毫米炮表现出惊人的反坦克性能”，并断言“88毫米炮、第5坦克团以及哈勒法亚和208高地的坚固防御为轴心国赢得了这场战斗。”在诸如卡普佐防御战等关键时刻，由临时拼凑的炮组操作的单门88毫米炮阻止了整支装甲纵队。正如该研究总结的那样，“然而，如果没有88毫米炮，任何阵地都无法击退英军的推进”，这使其成为“德军防御中最突出的单一要素”。\n\n《昔兰尼加德军防御战术的发展》深入考察了埃尔温·隆美尔元帅的非洲军如何在1941年初适应静态沙漠防御。该部队最初几乎只接受快速进攻战训练。面对独特的沙漠后勤和地形，德军指挥官不得不迅速发明并完善新的防御方法。因此，除了阐述德军防御战术外，该研究还向美国军方领导人表明，德国陆军具有高度适应性，能够迅速转变其战术理论，以掌握沙漠中的防御阵地战。\n\n迈克尔·E·比格洛，INSCOM司令部历史学家撰文。《军事情报历史上的这一周》每周出版新一期。如需报告报道错误、提问、索取往期文章，或加入我们的分发名单，请联系：TR-ICoE-Command-Historian@army.mil。",
    "zhDone": 7,
    "zhChunks": 7,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/news/576759/346th-aew-conducts-change-command-31st-air-task-force-takes-over-mission",
@@ -169,28 +440,30 @@
    "author": "2nd Lt. Daniel White",
    "pubDate": "2026-10-09T20:55:26+00:00",
    "summary": "U.S. Air Force Col. Brad M. Dvorak assumed command of the 346th Air Expeditionary Wing from Col. William J. Watkins during a change of command ceremony at Jose Aponte De La Torre Airport in Ceiba, Puerto Rico, Oct. 7.",
-   "body": "CEIBA, Puerto Rico — U.S. Air Force Col. Brad M. Dvorak assumed command of the 346th Air Expeditionary Wing from Col. William J. Watkins during a change of command ceremony at Jose Aponte De La Torre Airport in Ceiba, Puerto Rico, Oct. 7.\n\nBrig. Gen. Henry R. Jeffress III , Air Forces Southern deputy commander, presided over the ceremony.\n\n“This team, under Col Watkins, did phenomenal work in generating steady state operations for the 346th,” said Jeffress. “They stood down two operating locations while standing up additional locations, moving personnel and aircraft with losing a single sortie, and demonstrating a level of readiness that directly protected our southern approaches and met the combatant commander’s highest-priority requirements.”\n\nWatkins, a master academic instructor and weapons systems officer with over 2,100 flying hours, relinquished command after serving for almost seven months. Under his leadership, the 346th AEW enabled approximately 350 narco-terrorist interdictions, the movement of 1,870 tons of cargo, and the seizure of 207 metric tons of illicit drugs. The 346th AEW is responsible for approximately 1,000 personnel, running four operating locations, and supporting several joint flying units.\n\n“Disciplined. Ready. Unbreakable. That’s who we were, and that’s who we are,” said Watkins. “But I speak for everyone here when I say we will rest well knowing the 31st Air Task Force is on guard at our southern front.” After forming and training the 31st Air Task Force , Dvorak and his command chief, CMSgt Matthew Greiner, assume command of the 346th AEW during a critical period. The wing will continue generating combat air power in the Caribbean and supporting the emergent efforts of Joint Task Force Western Hemisphere , Department of War-directed operations, and the President’s priorities to disrupt illicit drug trafficking, deter malign actors, and protect the homeland.\n\n“Today, we inherit something special. We inherit a wing that was born from the Air Force’s effort to create trained, cohesive teams that can move quickly and execute from day one,” said Dvorak. “We inherit the reputation established by those who came before us, and we inherit a responsibility to those who will come after us.” Activated in July 2025 as the last of the Air Force’s ATFs, the 31st ATF pioneered a rapidly employable wing operations center , enabling expeditionary communication, distributed command and control, and the ability to detect, track, and defeat potential aerial threats. It was redesignated an air expeditionary wing to execute a world-wide deployment exercise, providing command and control, base operating support, and refueling capabilities to enable over 500 joint, combined sorties. Additionally, the 31st ATF pioneered tactical readiness in combat medicine and base defense, training assigned medics to special operations forces standards and building out a multi-layered counter-small unmanned aerial systems capability .\n\n“These benchmarks have proven an agile unit of action concept, positioning the 31st ATF, now the 346th AEW, to sustain highly lethal, mobile, and survivable air power in contested environments,” said Dvorak. “During our time here, we look forward to building on mission accomplishments and lessons learned from previous evolutions and modeling the AEW 2.0 concept amid dynamic operational requirements.”\n\nPrior to becoming the 31st ATF commander, Dvorak was the military assistant to the then-Assistant Secretary of Defense for Readiness at the Pentagon. He graduated from Arizona State University in 2004, where he commissioned through the ROTC program. He has served in a variety of operational and staff assignments at the squadron, joint, Office of the Secretary of War, and Headquarters Air Force levels. He is a senior air battle manager who has served as an instructor, evaluator, and weapons officer, with combat experience in the Middle East and Central Asia.\n\n“To the new Airmen joining the 346th Air Expeditionary Wing—from the 31st Air Task Force, 31st Combat Air Base Squadron, and across the Air Force—I am honored to continue to serve with you,” said Dvorak. “Our environment is changing. Our mission is evolving. The Caribbean and the defense of our homeland demand vigilance, agility, and the ability to operate with our joint and interagency partners across a dynamic region.”\n\nThe 346th AEW directly contributes to defending the U.S. homeland by supporting the application of sustained pressure against malign actors and designated terrorist organizations. The wing’s mission reinforces the U.S. commitment to a comprehensive, whole-of-government, and multinational approach, working alongside trusted allies and partners to promote a secure, stable, and prosperous Western Hemisphere.",
+   "body": "CEIBA, Puerto Rico — U.S. Air Force Col. Brad M. Dvorak assumed command of the 346th Air Expeditionary Wing from Col. William J. Watkins during a change of command ceremony at Jose Aponte De La Torre Airport in Ceiba, Puerto Rico, Oct. 7.\n\nBrig. Gen. Henry R. Jeffress III , Air Forces Southern deputy commander, presided over the ceremony.\n\n“This team, under Col Watkins, did phenomenal work in generating steady state operations for the 346th,” said Jeffress. “They stood down two operating locations while standing up additional locations, moving personnel and aircraft with losing a single sortie, and demonstrating a level of readiness that directly protected our southern approaches and met the combatant commander’s highest-priority requirements.”\n\nWatkins, a master academic instructor and weapons systems officer with over 2,100 flying hours, relinquished command after serving for almost seven months. Under his leadership, the 346th AEW enabled approximately 350 narco-terrorist interdictions, the movement of 1,870 tons of cargo, and the seizure of 207 metric tons of illicit drugs. The 346th AEW is responsible for approximately 1,000 personnel, running four operating locations, and supporting several joint flying units.\n\n“Disciplined. Ready. Unbreakable. That’s who we were, and that’s who we are,” said Watkins. “But I speak for everyone here when I say we will rest well knowing the 31st Air Task Force is on guard at our southern front.”\n\nAfter forming and training the 31st Air Task Force , Dvorak and his command chief, CMSgt Matthew Greiner, assume command of the 346th AEW during a critical period. The wing will continue generating combat air power in the Caribbean and supporting the emergent efforts of Joint Task Force Western Hemisphere , Department of War-directed operations, and the President’s priorities to disrupt illicit drug trafficking, deter malign actors, and protect the homeland.\n\n“Today, we inherit something special. We inherit a wing that was born from the Air Force’s effort to create trained, cohesive teams that can move quickly and execute from day one,” said Dvorak. “We inherit the reputation established by those who came before us, and we inherit a responsibility to those who will come after us.”\n\nActivated in July 2025 as the last of the Air Force’s ATFs, the 31st ATF pioneered a rapidly employable wing operations center , enabling expeditionary communication, distributed command and control, and the ability to detect, track, and defeat potential aerial threats. It was redesignated an air expeditionary wing to execute a world-wide deployment exercise, providing command and control, base operating support, and refueling capabilities to enable over 500 joint, combined sorties. Additionally, the 31st ATF pioneered tactical readiness in combat medicine and base defense, training assigned medics to special operations forces standards and building out a multi-layered counter-small unmanned aerial systems capability .\n\n“These benchmarks have proven an agile unit of action concept, positioning the 31st ATF, now the 346th AEW, to sustain highly lethal, mobile, and survivable air power in contested environments,” said Dvorak. “During our time here, we look forward to building on mission accomplishments and lessons learned from previous evolutions and modeling the AEW 2.0 concept amid dynamic operational requirements.”\n\nPrior to becoming the 31st ATF commander, Dvorak was the military assistant to the then-Assistant Secretary of Defense for Readiness at the Pentagon. He graduated from Arizona State University in 2004, where he commissioned through the ROTC program. He has served in a variety of operational and staff assignments at the squadron, joint, Office of the Secretary of War, and Headquarters Air Force levels. He is a senior air battle manager who has served as an instructor, evaluator, and weapons officer, with combat experience in the Middle East and Central Asia.\n\n“To the new Airmen joining the 346th Air Expeditionary Wing—from the 31st Air Task Force, 31st Combat Air Base Squadron, and across the Air Force—I am honored to continue to serve with you,” said Dvorak. “Our environment is changing. Our mission is evolving. The Caribbean and the defense of our homeland demand vigilance, agility, and the ability to operate with our joint and interagency partners across a dynamic region.”\n\nThe 346th AEW directly contributes to defending the U.S. homeland by supporting the application of sustained pressure against malign actors and designated terrorist organizations. The wing’s mission reinforces the U.S. commitment to a comprehensive, whole-of-government, and multinational approach, working alongside trusted allies and partners to promote a secure, stable, and prosperous Western Hemisphere.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "波多黎各塞瓦——10月7日，美国空军上校布拉德·M·德沃拉克在波多黎各塞瓦何塞·阿蓬特·德拉托雷机场举行的指挥权交接仪式上，从威廉·J·沃特金斯上校手中接任第346空中远征联队指挥权。",
    "titleZh": "第346空中远征联队举行指挥权交接，第31空中特遣部队接管任务",
-   "titleTrans": "ok",
+   "summaryZh": "波多黎各塞瓦——10月7日，美国空军上校布拉德·M·德沃拉克在波多黎各塞瓦何塞·阿蓬特·德拉托雷机场举行的指挥权交接仪式上，从威廉·J·沃特金斯上校手中接任第346空中远征联队指挥权。",
    "zhParas": [
     "波多黎各塞瓦——10月7日，美国空军上校布拉德·M·德沃拉克在波多黎各塞瓦何塞·阿蓬特·德拉托雷机场举行的指挥权交接仪式上，从威廉·J·沃特金斯上校手中接任第346空中远征联队指挥权。",
     "美国南方空军副司令亨利·R·杰弗里斯三世准将主持了仪式。",
     "杰弗里斯说：“在沃特金斯上校领导下，这支团队为第346联队开展常态化行动做了出色工作。他们关闭了两个作战地点，同时启用了更多地点，调动了人员和飞机，且未损失一个架次，并展现出直接保护我国南部通道、满足作战司令部司令最高优先级需求的战备水平。",
     "沃特金斯是一名高级学术教官和武器系统官，飞行时数超过2100小时，在任职近七个月后移交指挥权。在他的领导下，第346空中远征联队促成了约350次毒品恐怖分子拦截行动，运输了1870吨货物，并查获207公吨非法毒品。第346空中远征联队负责约1000名人员，运营四个作战地点，并支持若干联合飞行部队。",
-    "沃特金斯说：“纪律严明。准备就绪。坚不可摧。这就是我们曾经的样子，也是我们现在的样子。但我代表这里所有人说，知道第31空中特遣部队正守卫在我国南部前线，我们会安心休息。”在组建并训练第31空中特遣部队后，德沃拉克及其指挥军士长、首席军士长马修·格雷纳在关键时期接任第346空中远征联队指挥权。该联队将继续在加勒比地区生成作战空中力量，并支持西半球联合特遣部队的应急行动、战争部指示的行动，以及总统关于打击非法毒品贩运、威慑恶意行为体和保卫国土的优先事项。",
-    "德沃拉克说：“今天，我们继承了一些特别的东西。我们继承了一支联队，它诞生于空军打造训练有素、团结一致、能够迅速行动并从第一天起就能执行任务的团队的努力。我们继承前辈树立的声誉，也继承对后来者的责任。”第31空中特遣部队于2025年7月作为空军最后一支空中特遣部队启用，率先建立了可快速投入使用的联队作战中心，实现远征通信、分布式指挥与控制，以及探测、跟踪并击败潜在空中威胁的能力。该部队被重新指定为空中远征联队，以执行全球部署演习，提供指挥与控制、基地运行支持和加油能力，保障500多架次联合与联军架次。此外，第31空中特遣部队在战斗医学和基地防御方面开创了战术战备，将所属医务人员按特种作战部队标准进行训练，并构建多层次反小型无人机系统能力。",
-    "这些基准已经验证了一种敏捷行动单元概念，使第31空中特遣部队——现为第346空中远征联队——能够在有争议环境中维持高度致命、机动且生存力强的空中力量，”德沃拉克说。“在我们驻扎此地期间，我们期待在任务成果和以往演进中汲取的经验教训基础上再接再厉，并在动态作战需求中示范空中远征联队2.0概念。",
-    "在成为第31空中特遣部队指挥官之前，德沃拉克曾在五角大楼担任时任负责战备的助理国防部长的军事助理。他于2004年毕业于亚利桑那州立大学，并通过后备军官训练团项目获得军官委任。他曾在 squadron、联合机构、战争部长办公室和空军总部等多个层级担任各种作战和参谋职务。他是一名高级空战管理员，曾担任教官、评估员和武器官，并拥有在中东和中亚的实战经验。",
-    "致加入第346空中远征联队的新空军人员——来自第31空中特遣部队、第31战斗空军基地中队以及空军各单位——我很荣幸继续与你们并肩服役，”德沃拉克说。“我们的环境正在变化。我们的任务正在演变。加勒比地区和我们国土的防御要求保持警惕、敏捷，并能够与我们的联合及跨机构伙伴在这个动态地区开展行动。",
-    "第346空中远征联队通过支持对恶意行为体和被认定的恐怖组织持续施压，直接为保卫美国国土作出贡献。该联队的任务强化了美国对全面、全政府及多国方法的承诺，与可信赖的盟友和伙伴一道，促进西半球的安全、稳定与繁荣。"
+    "纪律严明。准备就绪。坚不可摧。这就是我们过去的样子，也是我们现在的样子，”沃特金斯说。“但我代表这里所有人说，知道第31空中特遣部队正守卫在我们的南部前线，我们会安心休息。",
+    "在组建并训练第31空中特遣部队后，德沃拉克及其指挥军士长、首席军士长马修·格雷纳在关键时期接掌第346空中远征联队。该联队将继续在加勒比地区生成作战空中力量，并支持西半球联合特遣部队的新近行动、战争部指导的行动，以及总统关于打击非法毒品贩运、威慑恶意行为体和保护国土的优先事项。",
+    "今天，我们继承了一份特别的东西。我们继承的是一支诞生于空军努力打造训练有素、团结一致、能够迅速机动并从第一天起就能执行任务的团队的联队，”德沃拉克说。“我们继承前人所树立的声誉，也继承对后来者的责任。",
+    "第31空中特遣部队于2025年7月启用，是空军最后一支空中特遣部队。它率先建立了一个可快速投用的联队作战中心，实现远征通信、分布式指挥与控制，以及探测、跟踪并击败潜在空中威胁的能力。该部队被改称为空中远征联队，以执行一次全球部署演习，提供指挥与控制、基地运行支持和加油能力，保障超过500个联合、联军架次。此外，第31空中特遣部队在战斗医学和基地防御方面率先推动战术战备，将所属医务兵按特种作战部队标准训练，并构建了多层次反小型无人机系统能力。",
+    "这些基准证明了一种敏捷行动单元概念，使第31空中特遣部队——即现在的第346空中远征联队——能够在对抗环境中维持高致命性、可机动和可生存的空中力量，”德沃拉克说。“在我们驻留此地期间，我们期待在任务成就和以往迭代的经验教训基础上继续发展，并在动态作战需求中示范空中远征联队2.0概念。",
+    "在成为第31空中特遣部队指挥官之前，德沃拉克曾在五角大楼担任时任负责战备的助理国防部长的军事助理。他于2004年毕业于亚利桑那州立大学，并通过该校的后备军官训练团项目获得任命。他曾在 Squadron、联合、战争部长办公室以及空军总部各级担任多种作战和参谋职务。他是一名资深空战管理员，曾担任教官、评估员和武器官，拥有在中东和中亚的作战经验。",
+    "对于加入第346空中远征联队的新空军人员——来自第31空中特遣部队、第31战斗空军基地中队以及整个空军——我很荣幸继续与你们并肩服役，”德沃拉克说。“我们的环境正在变化。我们的任务正在演变。加勒比地区以及保卫我国本土，要求我们保持警惕、灵活敏捷，并具备与联合及跨机构伙伴在一个充满活力的地区开展行动的能力。",
+    "第346空中远征联队通过支持对恶意行为体和被认定的恐怖组织持续施压，直接为保卫美国本土作出贡献。该联队的任务强化了美国对全面、全政府及多国协作方式的承诺，与可信赖的盟友和伙伴一道，促进西半球的安全、稳定与繁荣。"
    ],
-   "zhFull": "波多黎各塞瓦——10月7日，美国空军上校布拉德·M·德沃拉克在波多黎各塞瓦何塞·阿蓬特·德拉托雷机场举行的指挥权交接仪式上，从威廉·J·沃特金斯上校手中接任第346空中远征联队指挥权。\n\n美国南方空军副司令亨利·R·杰弗里斯三世准将主持了仪式。\n\n杰弗里斯说：“在沃特金斯上校领导下，这支团队为第346联队开展常态化行动做了出色工作。他们关闭了两个作战地点，同时启用了更多地点，调动了人员和飞机，且未损失一个架次，并展现出直接保护我国南部通道、满足作战司令部司令最高优先级需求的战备水平。\n\n沃特金斯是一名高级学术教官和武器系统官，飞行时数超过2100小时，在任职近七个月后移交指挥权。在他的领导下，第346空中远征联队促成了约350次毒品恐怖分子拦截行动，运输了1870吨货物，并查获207公吨非法毒品。第346空中远征联队负责约1000名人员，运营四个作战地点，并支持若干联合飞行部队。\n\n沃特金斯说：“纪律严明。准备就绪。坚不可摧。这就是我们曾经的样子，也是我们现在的样子。但我代表这里所有人说，知道第31空中特遣部队正守卫在我国南部前线，我们会安心休息。”在组建并训练第31空中特遣部队后，德沃拉克及其指挥军士长、首席军士长马修·格雷纳在关键时期接任第346空中远征联队指挥权。该联队将继续在加勒比地区生成作战空中力量，并支持西半球联合特遣部队的应急行动、战争部指示的行动，以及总统关于打击非法毒品贩运、威慑恶意行为体和保卫国土的优先事项。\n\n德沃拉克说：“今天，我们继承了一些特别的东西。我们继承了一支联队，它诞生于空军打造训练有素、团结一致、能够迅速行动并从第一天起就能执行任务的团队的努力。我们继承前辈树立的声誉，也继承对后来者的责任。”第31空中特遣部队于2025年7月作为空军最后一支空中特遣部队启用，率先建立了可快速投入使用的联队作战中心，实现远征通信、分布式指挥与控制，以及探测、跟踪并击败潜在空中威胁的能力。该部队被重新指定为空中远征联队，以执行全球部署演习，提供指挥与控制、基地运行支持和加油能力，保障500多架次联合与联军架次。此外，第31空中特遣部队在战斗医学和基地防御方面开创了战术战备，将所属医务人员按特种作战部队标准进行训练，并构建多层次反小型无人机系统能力。\n\n这些基准已经验证了一种敏捷行动单元概念，使第31空中特遣部队——现为第346空中远征联队——能够在有争议环境中维持高度致命、机动且生存力强的空中力量，”德沃拉克说。“在我们驻扎此地期间，我们期待在任务成果和以往演进中汲取的经验教训基础上再接再厉，并在动态作战需求中示范空中远征联队2.0概念。\n\n在成为第31空中特遣部队指挥官之前，德沃拉克曾在五角大楼担任时任负责战备的助理国防部长的军事助理。他于2004年毕业于亚利桑那州立大学，并通过后备军官训练团项目获得军官委任。他曾在 squadron、联合机构、战争部长办公室和空军总部等多个层级担任各种作战和参谋职务。他是一名高级空战管理员，曾担任教官、评估员和武器官，并拥有在中东和中亚的实战经验。\n\n致加入第346空中远征联队的新空军人员——来自第31空中特遣部队、第31战斗空军基地中队以及空军各单位——我很荣幸继续与你们并肩服役，”德沃拉克说。“我们的环境正在变化。我们的任务正在演变。加勒比地区和我们国土的防御要求保持警惕、敏捷，并能够与我们的联合及跨机构伙伴在这个动态地区开展行动。\n\n第346空中远征联队通过支持对恶意行为体和被认定的恐怖组织持续施压，直接为保卫美国国土作出贡献。该联队的任务强化了美国对全面、全政府及多国方法的承诺，与可信赖的盟友和伙伴一道，促进西半球的安全、稳定与繁荣。",
-   "zhDone": 10,
-   "zhChunks": 10,
-   "zhState": "ok"
+   "zhFull": "波多黎各塞瓦——10月7日，美国空军上校布拉德·M·德沃拉克在波多黎各塞瓦何塞·阿蓬特·德拉托雷机场举行的指挥权交接仪式上，从威廉·J·沃特金斯上校手中接任第346空中远征联队指挥权。\n\n美国南方空军副司令亨利·R·杰弗里斯三世准将主持了仪式。\n\n杰弗里斯说：“在沃特金斯上校领导下，这支团队为第346联队开展常态化行动做了出色工作。他们关闭了两个作战地点，同时启用了更多地点，调动了人员和飞机，且未损失一个架次，并展现出直接保护我国南部通道、满足作战司令部司令最高优先级需求的战备水平。\n\n沃特金斯是一名高级学术教官和武器系统官，飞行时数超过2100小时，在任职近七个月后移交指挥权。在他的领导下，第346空中远征联队促成了约350次毒品恐怖分子拦截行动，运输了1870吨货物，并查获207公吨非法毒品。第346空中远征联队负责约1000名人员，运营四个作战地点，并支持若干联合飞行部队。\n\n纪律严明。准备就绪。坚不可摧。这就是我们过去的样子，也是我们现在的样子，”沃特金斯说。“但我代表这里所有人说，知道第31空中特遣部队正守卫在我们的南部前线，我们会安心休息。\n\n在组建并训练第31空中特遣部队后，德沃拉克及其指挥军士长、首席军士长马修·格雷纳在关键时期接掌第346空中远征联队。该联队将继续在加勒比地区生成作战空中力量，并支持西半球联合特遣部队的新近行动、战争部指导的行动，以及总统关于打击非法毒品贩运、威慑恶意行为体和保护国土的优先事项。\n\n今天，我们继承了一份特别的东西。我们继承的是一支诞生于空军努力打造训练有素、团结一致、能够迅速机动并从第一天起就能执行任务的团队的联队，”德沃拉克说。“我们继承前人所树立的声誉，也继承对后来者的责任。\n\n第31空中特遣部队于2025年7月启用，是空军最后一支空中特遣部队。它率先建立了一个可快速投用的联队作战中心，实现远征通信、分布式指挥与控制，以及探测、跟踪并击败潜在空中威胁的能力。该部队被改称为空中远征联队，以执行一次全球部署演习，提供指挥与控制、基地运行支持和加油能力，保障超过500个联合、联军架次。此外，第31空中特遣部队在战斗医学和基地防御方面率先推动战术战备，将所属医务兵按特种作战部队标准训练，并构建了多层次反小型无人机系统能力。\n\n这些基准证明了一种敏捷行动单元概念，使第31空中特遣部队——即现在的第346空中远征联队——能够在对抗环境中维持高致命性、可机动和可生存的空中力量，”德沃拉克说。“在我们驻留此地期间，我们期待在任务成就和以往迭代的经验教训基础上继续发展，并在动态作战需求中示范空中远征联队2.0概念。\n\n在成为第31空中特遣部队指挥官之前，德沃拉克曾在五角大楼担任时任负责战备的助理国防部长的军事助理。他于2004年毕业于亚利桑那州立大学，并通过该校的后备军官训练团项目获得任命。他曾在 Squadron、联合、战争部长办公室以及空军总部各级担任多种作战和参谋职务。他是一名资深空战管理员，曾担任教官、评估员和武器官，拥有在中东和中亚的作战经验。\n\n对于加入第346空中远征联队的新空军人员——来自第31空中特遣部队、第31战斗空军基地中队以及整个空军——我很荣幸继续与你们并肩服役，”德沃拉克说。“我们的环境正在变化。我们的任务正在演变。加勒比地区以及保卫我国本土，要求我们保持警惕、灵活敏捷，并具备与联合及跨机构伙伴在一个充满活力的地区开展行动的能力。\n\n第346空中远征联队通过支持对恶意行为体和被认定的恐怖组织持续施压，直接为保卫美国本土作出贡献。该联队的任务强化了美国对全面、全政府及多国协作方式的承诺，与可信赖的盟友和伙伴一道，促进西半球的安全、稳定与繁荣。",
+   "zhDone": 12,
+   "zhChunks": 12,
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/news/576763/army-sergeant-caught-camera-abusing-child-pleads-guilty-during-trial-fort-hood",
@@ -201,9 +474,8 @@
    "body": "FORT HOOD, Texas – An Army sergeant caught on a Ring camera striking a young child pleaded guilty to domestic violence during his court-martial Oct. 7 at the Lawrence Williams Judicial Center.\n\nSgt. Paul A. Thames, an automated logistics specialist assigned to the 9th Cavalry Regiment, 2nd Armored Brigade Combat Team, 1st Cavalry Division, was sentenced by the military judge to one year in prison and a bad conduct discharge from the Army. The judge gave him 181 days of confinement credit for time served prior to his trial.\n\nOn the evening of Jan. 16, 2026, Thames was babysitting his girlfriend’s 3-year-old son at her apartment in Waco, Texas, when he was caught by a neighbor’s Ring doorbell camera punching the boy multiple times, then picking him up by the head and neck.\n\nThe neighbor immediately notified the Waco Police Department and officers responded to the scene, taking Thames into custody.\n\nDuring his interview with a detective with the Waco Police Department, Thames admitted he went overboard while disciplining the child.\n\nWhen addressing the judge in court, Thames confessed to using excessive force when striking the 3-year-old.\n\n“This case represented holding a Soldier accountable for his domestic violence assault that went far beyond any acceptable level of parental discipline. The prosecution was significant to protect a young child and hold a Soldier accountable for causing harm to someone in the most vulnerable population,” said Capt. Kristyn Dial, prosecutor, Fifth Circuit, Army Office of Special Trial Counsel.\n\n“The conviction was possible based on the close cooperation between the Waco Police Department, the McLennan County District Attorney, and the Army throughout the entire investigation and prosecution process.”\n\nThames is currently confined at the Bell County Jail in Belton, Texas, awaiting orders to transfer to a military confinement facility.\n\nThis case was investigated by the Waco Police Department, the McLennan County District Attorney and the Department of the Army Criminal Investigation Division’s Central Texas Field Office. It was prosecuted by Dial and Capt. DeJamin M. Bryson, Office of the Staff Judge Advocate, 1st Cavalry Division.\n\nAbout the Army Office of Special Trial Counsel: The Army Office of Special Trial Counsel is composed of specially trained military lawyers, legal professionals and support staff responsible for the expert prosecution of murder, sexual assault, domestic violence, child abuse, kidnapping and other serious criminal offenses. Headquartered at Fort Belvoir, Va., OSTC has eight regional headquarters that oversee 28 field offices located worldwide, including locations in Europe and Korea. For more information visit http://www.army.mil/ostc.\n\nTo Report a Crime: If you would like to report a crime, have information about a crime, or have been the subject or survivor of a crime, you can submit anonymous tips to Army CID at http://www.p3tips.com/armycid.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "一名被Ring摄像头拍到殴打幼童的陆军中士，于10月7日在劳伦斯·威廉姆斯司法中心举行的军事法庭审判中，对家庭暴力指控表示认罪。隶属于第1骑兵师第2装甲旅战斗队第9骑兵团、担任自动化后勤专业兵的保罗·A·泰晤士中士，被军事法官判处一年监禁，并被陆军处以不良品行退伍。法官因其审前已服刑期，给予181天羁押折抵。",
    "titleZh": "被摄像头拍到虐待儿童的陆军中士在胡德堡审判中认罪",
-   "titleTrans": "ok",
+   "summaryZh": "一名被Ring摄像头拍到殴打幼童的陆军中士，于10月7日在劳伦斯·威廉姆斯司法中心举行的军事法庭审判中，对家庭暴力指控表示认罪。隶属于第1骑兵师第2装甲旅战斗队第9骑兵团、担任自动化后勤专业兵的保罗·A·泰晤士中士，被军事法官判处一年监禁，并被陆军处以不良品行退伍。法官因其审前已服刑期，给予181天羁押折抵。",
    "zhParas": [
     "得克萨斯州胡德堡——一名被Ring摄像头拍到殴打幼童的陆军中士，在10月7日于劳伦斯·威廉姆斯司法中心举行的军事法庭审判中，对家庭暴力指控表示认罪。",
     "中士保罗·A·泰晤士是第1骑兵师第2装甲旅级战斗队第9骑兵团的一名自动化后勤专员，被军事法官判处一年监禁，并被陆军以品行不良退役。法官就其审前已羁押的时间给予他181天监禁折抵。",
@@ -221,7 +493,8 @@
    "zhFull": "得克萨斯州胡德堡——一名被Ring摄像头拍到殴打幼童的陆军中士，在10月7日于劳伦斯·威廉姆斯司法中心举行的军事法庭审判中，对家庭暴力指控表示认罪。\n\n中士保罗·A·泰晤士是第1骑兵师第2装甲旅级战斗队第9骑兵团的一名自动化后勤专员，被军事法官判处一年监禁，并被陆军以品行不良退役。法官就其审前已羁押的时间给予他181天监禁折抵。\n\n2026年1月16日晚，泰晤士在得克萨斯州韦科市女友的公寓里照看其3岁的儿子时，被邻居的Ring门铃摄像头拍到多次拳打该男孩，随后抓住男孩的头颈将他提起。\n\n邻居立即通知韦科警察局，警员随即赶到现场，将泰晤士拘留。\n\n在接受韦科警察局一名警探讯问时，泰晤士承认自己在管教孩子时做得过火。\n\n在法庭上向法官陈述时，泰晤士承认在打这名3岁儿童时使用了过度武力。\n\n本案意味着让一名军人因其家庭暴力袭击行为承担责任，该行为远远超出了任何可接受的父母管教程度。此次起诉意义重大，既是为了保护一名幼童，也是为了让一名军人因伤害最弱势群体中的一员而承担责任，”陆军特别审判律师办公室第五巡回区检察官克里斯汀·戴尔上尉说。\n\n有罪判决之所以能够实现，是因为韦科警察局、麦克伦南县地方检察官办公室和陆军在整个调查和起诉过程中密切合作。\n\n泰晤士目前被关押在得克萨斯州贝尔顿的贝尔县监狱，等待转往军事拘押设施的命令。\n\n本案由韦科警察局、麦克伦南县地方检察官办公室和陆军部刑事调查局中得克萨斯外地办事处调查。由第1骑兵师军法参谋办公室的戴尔和德贾明·M·布赖森上尉提起公诉。\n\n关于陆军特别审判律师办公室：陆军特别审判律师办公室由受过专门训练的军事律师、法律专业人员和辅助人员组成，负责对谋杀、性侵犯、家庭暴力、虐待儿童、绑架和其他严重刑事犯罪进行专业起诉。OSTC总部位于弗吉尼亚州贝尔沃堡，下设八个地区总部，负责监管遍布全球的28个外地办事处，包括欧洲和韩国的办事处。欲了解更多信息，请访问 http://www.army.mil/ostc。\n\n举报犯罪：如果您想举报犯罪、掌握犯罪信息，或是犯罪行为的受害人或幸存者，可以通过 http://www.p3tips.com/armycid 向陆军刑事调查局提交匿名线索。",
    "zhDone": 12,
    "zhChunks": 12,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10003365/vmfa-231-activation-ceremony",
@@ -232,9 +505,8 @@
    "body": "Santos, left, from Pennsylvania, senior enlisted leader of Marine Fighter Attack Squadron (VMFA) 231, Marine Aircraft Group 14, 2nd Marine Aircraft Wing, Lt.\n\nWaters, right, from Tennessee, commanding officer of VMFA-231, MAG-14, 2nd MAW, salute the colors during an activation ceremony at Marine Corps Air Station Cherry Point, North Carolina, Oct.\n\nThe ceremony represented the activation of the Marine Corps’ oldest flying squadron, first commissioned in 1919, and marked a milestone in 2nd Marine Aircraft Wing’s modernization for aviation.\n\nMarine Corps Photo by Lance Cpl.",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "美国海军陆战队军士长里卡多·L·桑托斯（左），来自宾夕法尼亚州，海军陆战队第2航空联队第14航空大队海军陆战队战斗机攻击中队（VMFA）231高级士官领导；来自田纳西州的中校斯宾塞·S·沃特斯（右），VMFA-231、MAG-14、第2 MAW指挥官，于2026年10月9日在北卡罗来纳州樱桃角海军陆战队航空站举行的启用仪式上向军旗敬礼。该仪式标志着海军陆战队历史最悠久的飞行中队启用，fi",
    "titleZh": "VMFA-231启用仪式",
-   "titleTrans": "ok",
+   "summaryZh": "美国海军陆战队军士长里卡多·L·桑托斯（左），来自宾夕法尼亚州，海军陆战队第2航空联队第14航空大队海军陆战队战斗机攻击中队（VMFA）231高级士官领导；来自田纳西州的中校斯宾塞·S·沃特斯（右），VMFA-231、MAG-14、第2 MAW指挥官，于2026年10月9日在北卡罗来纳州樱桃角海军陆战队航空站举行的启用仪式上向军旗敬礼。该仪式标志着海军陆战队历史最悠久的飞行中队启用，fi",
    "zhParas": [
     "来自宾夕法尼亚州的桑托斯（左），海军陆战队第2航空联队第14航空大队海军陆战队战斗机攻击中队（VMFA）231高级士官领导，中尉",
     "来自田纳西州的沃特斯（右）是海军陆战队第2航空联队第14航空大队第231战斗机攻击中队指挥官，10月在北卡罗来纳州樱桃角海军陆战队航空站举行的成立仪式上向军旗敬礼。",
@@ -244,7 +516,8 @@
    "zhFull": "来自宾夕法尼亚州的桑托斯（左），海军陆战队第2航空联队第14航空大队海军陆战队战斗机攻击中队（VMFA）231高级士官领导，中尉\n\n来自田纳西州的沃特斯（右）是海军陆战队第2航空联队第14航空大队第231战斗机攻击中队指挥官，10月在北卡罗来纳州樱桃角海军陆战队航空站举行的成立仪式上向军旗敬礼。\n\n该仪式标志着海军陆战队历史最悠久的飞行中队正式启用，该中队于1919年首次组建，同时也成为第2海军陆战队航空联队航空现代化建设中的一个里程碑。\n\n美国海军陆战队照片，由准下士拍摄",
    "zhDone": 4,
    "zhChunks": 4,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.defensenews.com/missile-defense/2026/10/09/pentagon-raytheon-sign-63b-deal-to-replenish-us-missile-interceptor-supply/",
@@ -255,9 +528,8 @@
    "body": "The Pentagon inked a five-year contract with Raytheon for the steady production of ballistic missile interceptors that use force to destroy targets, rather than explosives.\n\nThe $6.3 billion contract, which provides two additional option years, will see Raytheon provide the Defense Department with a continuous supply of Standard Missile-3 Block IB interceptors manufactured primarily in Tucson, Arizona and Huntsville, Alabama.\n\n“SM-3 Block IB has proven its relevance in combat and this contract helps ensure we can replenish inventories and keep pace with the evolving threats the U.S. Navy, MDA and their partners face around the world,” Raytheon President Phil Jasper said in a statement.\n\nThe SM-3 Block IB interceptor belongs to a larger family of “hit-to-kill” SM-3 missile interceptors, which seek and destroy incoming ballistic missiles using sheer speed and momentum.\n\nThe Block IB type can be used by land forces and ships and is frequently deployed on vessels due to its range and highly flexible steering. The interceptor tracks flying targets with a two-color infrared seeker and propels itself towards them in short bursts, giving it accuracy at high speed as it homes in on targets.\n\nIt is designed to knock short- and intermediate-range ballistic missiles out of the sky when they are halfway to hitting their targets, and has long striking reach. It was used in combat for the first time in 2024 when the U.S. Navy destroyers USS Arleigh Burke and USS Carney fired them to intercept Iranian missiles aimed at targets in Israel.\n\nThe Center for Strategic and International Studies named the SM-3 Block IB among “seven critical munitions” in an April report detailing ammunition shortages, alongside Patriot missiles, Precision Strike Missiles, Terminal High Altitude Area Defense (THAAD) missiles, Tomahawk Land Attack Missiles and others.\n\nThe contract for more SM-3 Block IBs, announced by Raytheon on Thursday, was among five framework agreements the defense giant signed with the Pentagon this February.\n\nThe deal comes at a time when the DoD is seeking to avert diminishing munitions stockpiles. National security specialists, defense analysts and foreign policy pundits cautioned in March that the U.S. military’s increased use of missile interceptors during the war with Iran poses strategic risks to integral defense capabilities if fighting spills into a long-term conflict.\n\nRaytheon stated in its release that the contract for SM-3 Block IB supply “supports urgent replenishment of missile defense inventory that has been successfully used in combat and remains central to protecting U.S. forces, allies and critical infrastructure.”\n\nZita Ballinger Fletcher previously served as editor of Military History Quarterly and Vietnam magazines and as the historian of the U.S. Drug Enforcement Administration. She holds an M.A. with distinction in military history.",
    "channel": "defensenews",
    "channelName": "Defense News",
-   "summaryZh": "雷神公司表示，该合同“支持紧急补充已在战斗中成功使用的导弹防御库存”。",
    "titleZh": "五角大楼与雷神公司签署63亿美元协议，以补充美国导弹拦截弹供应",
-   "titleTrans": "ok",
+   "summaryZh": "雷神公司表示，该合同“支持紧急补充已在战斗中成功使用的导弹防御库存”。",
    "zhParas": [
     "五角大楼与雷神公司签署了一份为期五年的合同，以稳定生产采用动能而非爆炸物摧毁目标的弹道导弹拦截弹。",
     "这份价值63亿美元的合同还包含两个额外的选择权年限；根据合同，雷神公司将向国防部持续供应标准导弹-3 Block IB拦截弹，这些拦截弹主要在亚利桑那州图森和阿拉巴马州亨茨维尔制造。",
@@ -274,7 +546,8 @@
    "zhFull": "五角大楼与雷神公司签署了一份为期五年的合同，以稳定生产采用动能而非爆炸物摧毁目标的弹道导弹拦截弹。\n\n这份价值63亿美元的合同还包含两个额外的选择权年限；根据合同，雷神公司将向国防部持续供应标准导弹-3 Block IB拦截弹，这些拦截弹主要在亚利桑那州图森和阿拉巴马州亨茨维尔制造。\n\n雷神公司总裁菲尔·贾斯珀在一份声明中表示：“SM-3 Block IB已在实战中证明其价值，这份合同有助于确保我们能够补充库存，并跟上美国海军、导弹防御局及其全球合作伙伴所面临的不断演变的威胁。\n\nSM-3 Block IB拦截弹属于更大的“碰撞杀伤”SM-3导弹拦截弹家族，这类拦截弹依靠纯粹的速度和动量搜寻并摧毁来袭弹道导弹。\n\nBlock IB型可由地面部队和舰艇使用，并因其射程和高度灵活的转向能力而经常部署在舰艇上。该拦截弹使用双色红外导引头跟踪飞行目标，并以短促脉冲方式推进飞向目标，从而在高速寻的时保持精度。\n\n它旨在在短程和中程弹道导弹飞向目标的中途将其击落，并具有很远的打击距离。2024年，美国海军驱逐舰“阿利·伯克”号和“卡尼”号发射该拦截弹，拦截瞄准以色列境内目标的伊朗导弹，这是它首次用于实战。\n\n战略与国际研究中心在4月一份详述弹药短缺的报告中，将SM-3 Block IB列为“七种关键弹药”之一，与爱国者导弹、精确打击导弹、末段高空区域防御（THAAD）导弹、战斧对地攻击导弹等并列。\n\n雷神公司周四宣布的增购SM-3 Block IB的合同，是这家防务巨头今年2月与五角大楼签署的五项框架协议之一。\n\n该交易达成之际，美国国防部正寻求避免弹药库存不断减少。国家安全专家、防务分析师和外交政策评论人士在3月警告称，如果战事演变为长期冲突，美军在与伊朗的战争中增加使用导弹拦截弹，将对核心防御能力构成战略风险。\n\n雷神公司在新闻稿中表示，SM-3 Block IB供应合同“支持紧急补充导弹防御库存，该库存已在作战中成功使用，并且仍是保护美军部队、盟友和关键基础设施的核心。\n\n齐塔·巴林杰·弗莱彻曾任《军事历史季刊》和《越南》杂志编辑，以及美国缉毒局历史学家。她以优异成绩获得军事历史学硕士学位。",
    "zhDone": 11,
    "zhChunks": 11,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/news/576761/fort-hood-soldier-who-attempted-kill-colleague-sentenced-more-than-17-years-prison",
@@ -285,9 +558,8 @@
    "body": "FORT HOOD, Texas – An Army private who purposely crashed his car in an attempt to kill a fellow Soldier pleaded guilty to attempted unpremeditated murder during his court-martial Oct. 1 at the Lawrence Williams Judicial Center.\n\nPvt. James D. Clarkston, 20, an Army cook assigned to the 1st Armored Brigade Combat Team, 1st Cavalry Division, was sentenced by the military judge to 17 years and eight months in prison and a dishonorable discharge from the Army.\n\nIn addition to the attempted unpremeditated murder charge, Clarkston also pleaded guilty to wrongful use of marijuana, failure to obey a general order, and damaging non-military property.\n\nClarkston was reported by the victim, a fellow cook in his unit, to command leadership for being high at work.\n\nAs a result, leadership removed Clarkston from duty and conducted a Probable Cause Urinalysis which revealed he had been using prohibited substances.\n\nShortly afterwards on Dec. 15, 2025, Clarkston was in his vehicle with the victim when he confronted him about the report to leadership. Upset that he’d been reported, Clarkston began driving recklessly through Fort Hood at a high rate of speed, running through stop signs and crosswalks, ultimately crashing his car into a utility pole with the intent to kill himself and the victim. The crash caused the vehicle to roll over multiple times, hitting several cars in a nearby parking lot.\n\nFort Hood Military Police and emergency services responded to the incident, transporting the victim and Clarkston to the Carl R. Darnell Army Medical Center where they were treated for minor injuries.\n\nThe Department of the Army Criminal Investigation Division initiated an investigation and interviewed multiple witnesses, as well as the military police who responded to the crash. They told agents that Clarkston confessed immediately after the incident to purposely crashing the vehicle. This was confirmed by Army CID agents when reconstructing the crash scene.\n\n“Pvt. Clarkston took intentional acts aimed at ending the life of another Soldier. The fact that the victim survived is a miracle, but it does not excuse Pvt. Clarkston’s actions and intent,” said Capt. Mark L. Wegzyn, prosecutor, Fifth Circuit, Army Office of Special Trial Counsel.\n\n“This sentence sends a clear and unmistakable message that unlawful violence cannot, and will not, be tolerated in the United States Army. We are incredibly grateful for the bravery of the victim in this case for coming forward and seeing the process through to the end.”\n\n“This case demonstrates why a thorough investigation is essential,” said Special Agent in Charge Lane Allen, Army CID’s Central Texas Field Office.\n\n“What may initially appear to be a traffic accident or isolated incident can reveal deliberate criminal conduct when examined closely. Violence against a fellow Soldier is unacceptable, and Army CID remains committed to following the facts and providing the evidence necessary to seek accountability.”\n\nClarkston will serve his prison sentence at the United States Disciplinary Barracks at Fort Leavenworth, Kansas.\n\nThis case was investigated by Army CID’s Central Texas Field Office and the Fort Hood Military Police. It was prosecuted by Wegzyn and Capt. Calvin Maynard, Office of the Staff Judge Advocate, 1st Armored Brigade Combat Team, 1st Cavalry Division.\n\nAbout the Army Office of Special Trial Counsel: The Army Office of Special Trial Counsel is composed of specially trained military lawyers, legal professionals and support staff responsible for the expert prosecution of murder, sexual assault, domestic violence, child abuse, kidnapping and other serious criminal offenses. Headquartered at Fort Belvoir, Va., OSTC has eight regional headquarters that oversee 28 field offices located worldwide, including locations in Europe and Korea. For more information visit www.army.mil/ostc.\n\nTo Report a Crime: If you would like to report a crime, have information about a crime, or have been the subject or survivor of a crime, you can submit anonymous tips to Army CID at www.p3tips.com/armycid.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "一名故意驾车撞车以企图杀害一名战友的陆军列兵，于10月1日在劳伦斯·威廉姆斯司法中心接受军事法庭审判时，对非预谋谋杀未遂指控认罪。20岁的陆军列兵詹姆斯·D·克拉克森是第1骑兵师第1装甲旅级战斗队的一名陆军炊事兵，被军事法官判处17年8个月监禁，并被陆军开除军籍（不名誉退役）。除非预谋谋杀未遂指控外，",
    "titleZh": "企图杀害战友的胡德堡陆军士兵被判处逾17年监禁",
-   "titleTrans": "ok",
+   "summaryZh": "一名故意驾车撞车以企图杀害一名战友的陆军列兵，于10月1日在劳伦斯·威廉姆斯司法中心接受军事法庭审判时，对非预谋谋杀未遂指控认罪。20岁的陆军列兵詹姆斯·D·克拉克森是第1骑兵师第1装甲旅级战斗队的一名陆军炊事兵，被军事法官判处17年8个月监禁，并被陆军开除军籍（不名誉退役）。除非预谋谋杀未遂指控外，",
    "zhParas": [
     "德克萨斯州胡德堡——一名故意驾车撞车以企图杀害一名战友的陆军列兵，于10月1日在劳伦斯·威廉姆斯司法中心接受军事法庭审判时，对非预谋谋杀未遂指控认罪。",
     "20岁的陆军列兵詹姆斯·D·克拉克森是第1骑兵师第1装甲旅级战斗队的一名陆军炊事兵，被军事法官判处17年零8个月监禁，并被陆军不名誉退役。",
@@ -309,7 +581,8 @@
    "zhFull": "德克萨斯州胡德堡——一名故意驾车撞车以企图杀害一名战友的陆军列兵，于10月1日在劳伦斯·威廉姆斯司法中心接受军事法庭审判时，对非预谋谋杀未遂指控认罪。\n\n20岁的陆军列兵詹姆斯·D·克拉克森是第1骑兵师第1装甲旅级战斗队的一名陆军炊事兵，被军事法官判处17年零8个月监禁，并被陆军不名誉退役。\n\n除非预谋谋杀未遂指控外，克拉克森还对不当使用大麻、未遵守一般命令以及损坏非军事财产认罪。\n\n克拉克森被其所在部队的另一名炊事兵——即受害人——向部队领导层举报，原因是他在工作时处于吸毒后的亢奋状态。\n\n因此，领导层解除了克拉克森的职务，并进行了有合理根据的尿检，结果显示他一直使用违禁物质。\n\n不久之后，即2025年12月15日，克拉克森与受害人同处其车内，并就向领导层举报一事与受害人当面对质。因被举报而恼怒，克拉克森开始以高速在胡德堡内鲁莽驾驶，冲过停车标志和人行横道，最终故意将车撞向一根电线杆，意图杀死自己和受害人。撞击导致车辆多次翻滚，并撞上附近停车场内的数辆汽车。\n\n胡德堡宪兵和应急部门对事件作出响应，将受害者和克拉克森送往卡尔·R·达内尔陆军医疗中心，在那里两人因轻伤接受治疗。\n\n美国陆军部刑事调查局启动调查，并询问了多名证人以及响应这起撞车事件的宪兵。他们告诉探员，克拉克森在事件发生后立即承认故意撞车。陆军刑事调查局探员在重建事故现场时证实了这一点。\n\n列兵克拉克森采取了旨在终结另一名士兵生命的故意行为。受害者幸存下来是奇迹，但这不能开脱列兵克拉克森的行为和意图，”陆军特别审判顾问办公室第五巡回区检察官马克·L·韦格津上尉说。\n\n这一判决发出明确无误的信息：非法暴力在美国陆军中不能、也绝不会被容忍。我们无比感激本案受害者的勇敢，他挺身而出并坚持走完整个程序。\n\n本案表明为什么彻底调查至关重要，”陆军刑事调查局得克萨斯州中部外地办事处主管特别探员莱恩·艾伦说。\n\n最初看似交通事故或孤立事件的情况，在仔细审查后可能揭示出蓄意犯罪行为。对战友的暴力不可接受，陆军刑事调查局仍致力于追查事实，并提供寻求问责所需的证据。\n\n克拉克斯顿将在堪萨斯州莱文沃思堡的美国纪律兵营服刑。\n\n本案由陆军刑事调查局中得克萨斯外地办事处和胡德堡宪兵调查，并由第1骑兵师第1装甲旅级战斗队军法参谋办公室的韦格津和卡尔文·梅纳德上尉提起公诉。\n\n关于陆军特别审判律师办公室：陆军特别审判律师办公室由经过专门训练的军事律师、法律专业人员和辅助人员组成，负责对谋杀、性侵犯、家庭暴力、虐待儿童、绑架及其他严重刑事犯罪进行专业起诉。该办公室总部位于弗吉尼亚州贝尔沃堡，下设八个地区总部，负责监督分布在全球的28个外地办事处，包括在欧洲和韩国的办公地点。欲了解更多信息，请访问 www.army.mil/ostc。\n\n举报犯罪：如果您想举报犯罪、掌握与犯罪有关的信息，或是犯罪的受害对象或幸存者，可通过 www.p3tips.com/armycid 向陆军刑事调查局提交匿名线索。",
    "zhDone": 16,
    "zhChunks": 16,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.airandspaceforces.com/bae-contract-f-35-block-4-electronic-warfare-systems/",
@@ -320,9 +593,8 @@
    "body": "BAE Systems has received a contract from Lockheed Martin to install an upgraded Block 4 electronic warfare system into new F-35 Joint Strike Fighters, as well as to retrofit some older jets.\n\nBAE’s AN/ASQ-239 EW systems will be installed on lots 20 to 22 of the F-35, the company said in an Oct. 6 statement, and some older F-35s with previous versions of the EW system will be retrofitted to have the latest version installed.\n\n“BAE Systems has been the EW supplier for the F-35 program for the past 21 years, successfully designing and developing the Block 1, Block 2, and Block 3 configurations” of the AN/ASQ-239, Amber Dolan, BAE’s vice president of F-35 solutions, said in a follow-up statement to Air & Space Forces Magazine. “We are currently developing Block 4 systems that can accelerate the delivery of advanced EW capabilities via adaptable hardware and incremental software updates.”\n\nThe updated EW suite is part of a broader program of upgrades to the Lockheed Martin-made F-35, collectively referred to as Block 4. Lockheed previously awarded BAE a $491 million contract for the F-35 EW systems in 2023, and another $493 million contract in 2021.\n\nThe Block 4 EW systems that will be in F-35 lots 20 and beyond “offer improvements in threat detection, situational awareness, and capabilities to counter modern threats,” Dolan said.\n\nBAE declined to say how much the contract is worth and how many EW systems it will deliver for new jets and retrofits. The company said it has delivered more than 1,500 EW systems for the F-35 so far.\n\nBAE said the AN/ASQ-239 system provides both offensive and defensive EW capabilities, which give pilots a 360-degree view of the battlefield and allow the F-35 to operate in environments protected by enemy fighters, missiles, drones, or integrated air defense systems. Its passive long-range sensing capabilities combine with high-speed signal processing and advanced algorithms to allow pilots to detect and counter threats before an enemy can act, the company said. The system’s software can also be quickly updated to account for new threats.\n\nA previous upgrade to the AN/ASQ-239 EW system—called the Digital Channelized Receiver/Techniques Generator and Tuner Insertion Program, or DTIP—was launched in 2018. Those DTIP improvements allowed for previous versions of the EW system to be condensed into a smaller footprint that required less power, which created space for the new Block 4 modernization.\n\nBAE said it has made investments in facilities—including the 2022 opening of a new 200,000-square-foot engineering and production facility in Manchester, N.H.—to help design and develop new EW systems. BAE also designs and manufactures EW systems at facilities in Merrimack, N.H., Nashua, N.H., and Austin, Texas.",
    "channel": "airandspaceforces",
    "channelName": "Air & Space Forces",
-   "summaryZh": "BAE系统公司已从洛克希德·马丁公司获得一份合同，将升级版Block 4电子战系统安装到新的F-35联合攻击战斗机上，并对部分较旧战机进行改装。文章《BAE获得F-35 Block 4电子战系统合同》最初发表于《Air & Space Forces Magazine》。",
    "titleZh": "BAE获得F-35 Block 4电子战系统合同",
-   "titleTrans": "ok",
+   "summaryZh": "BAE系统公司已从洛克希德·马丁公司获得一份合同，将升级版Block 4电子战系统安装到新的F-35联合攻击战斗机上，并对部分较旧战机进行改装。文章《BAE获得F-35 Block 4电子战系统合同》最初发表于《Air & Space Forces Magazine》。",
    "zhParas": [
     "BAE系统公司已从洛克希德·马丁公司获得一份合同，将升级版Block 4电子战系统安装到新的F-35联合攻击战斗机上，并对部分较旧战机进行改装。",
     "BAE系统公司10月6日在一份声明中表示，其AN/ASQ-239电子战系统将安装到F-35的第20至第22批次上，部分搭载此前版本电子战系统的较旧F-35也将被改装，以安装最新版本。",
@@ -337,7 +609,8 @@
    "zhFull": "BAE系统公司已从洛克希德·马丁公司获得一份合同，将升级版Block 4电子战系统安装到新的F-35联合攻击战斗机上，并对部分较旧战机进行改装。\n\nBAE系统公司10月6日在一份声明中表示，其AN/ASQ-239电子战系统将安装到F-35的第20至第22批次上，部分搭载此前版本电子战系统的较旧F-35也将被改装，以安装最新版本。\n\n过去21年来，BAE系统公司一直是F-35项目的电子战供应商，成功设计并开发了AN/ASQ-239的Block 1、Block 2和Block 3配置，”BAE系统公司F-35解决方案副总裁安伯·多兰在给《空天力量》杂志的后续声明中说。“我们目前正在开发Block 4系统，可通过适应性硬件和增量软件更新，加速交付先进电子战能力。\n\n更新后的电子战套件是洛克希德·马丁制造的F-35更广泛升级计划的一部分，统称为Block 4。洛克希德公司此前于2023年授予BAE系统公司一份价值4.91亿美元的F-35电子战系统合同，并于2021年授予另一份价值4.93亿美元的合同。\n\n多兰表示，将装备F-35第20批次及以后批次的Block 4电子战系统“在威胁探测、态势感知以及对抗现代威胁的能力方面有所提升”。\n\nBAE系统公司拒绝透露该合同价值多少，以及将为新战机交付多少套电子战系统、为改装交付多少套。该公司表示，迄今为止已为F-35交付超过1500套电子战系统。\n\nBAE表示，AN/ASQ-239系统同时提供进攻性和防御性电子战能力，使飞行员拥有360度战场视野，并让F-35能够在敌方战斗机、导弹、无人机或一体化防空系统保护的环境中作战。该公司称，其被动远程感知能力与高速信号处理和先进算法相结合，使飞行员能够在敌方采取行动之前探测并反制威胁。该系统的软件还可以快速更新，以应对新的威胁。\n\nAN/ASQ-239电子战系统此前的一项升级——称为数字信道化接收机/技术发生器与调谐器插入项目（DTIP）——于2018年启动。这些DTIP改进使此前版本的电子战系统得以压缩为占用空间更小、所需功率更低的形态，从而为新的Block 4现代化升级腾出空间。\n\nBAE表示，它已对相关设施进行投资——包括2022年在新罕布什尔州曼彻斯特启用一座占地20万平方英尺的新工程与生产设施——以帮助设计和开发新型电子战系统。BAE还在新罕布什尔州梅里马克、新罕布什尔州纳舒厄以及得克萨斯州奥斯汀的设施设计和制造电子战系统。",
    "zhDone": 9,
    "zhChunks": 9,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10003341/soldiers-164th-ada-bde-monitor-hurricane-isaias-development",
@@ -348,9 +621,8 @@
    "body": "Soldiers with the headquarters and headquarters battery of the 164th Air Defense Artillery brigade monitor the development of Hurricane Isaias to ensure the deployment of support in affected areas on Friday, October 9, 2026 in Orlando, Fla.\n\nSoldiers of the 164th remain ready to support State Emergency Response Teams with relief and rescue missions as directed by the governor of Florida (Photo by Capt.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "第164防空炮兵旅旅部及旅部直属连的士兵于2026年10月9日星期五在佛罗里达州奥兰多监测飓风“伊萨亚斯”的发展动态，以确保向受灾地区部署支援。第164防空炮兵旅的士兵随时准备按照佛罗里达州州长的指示，支援州应急响应小组执行救灾和救援任务（照片由柯蒂斯·鲁卡德上尉拍摄）。",
    "titleZh": "第164防空炮兵旅士兵监测飓风“伊萨亚斯”发展动态",
-   "titleTrans": "ok",
+   "summaryZh": "第164防空炮兵旅旅部及旅部直属连的士兵于2026年10月9日星期五在佛罗里达州奥兰多监测飓风“伊萨亚斯”的发展动态，以确保向受灾地区部署支援。第164防空炮兵旅的士兵随时准备按照佛罗里达州州长的指示，支援州应急响应小组执行救灾和救援任务（照片由柯蒂斯·鲁卡德上尉拍摄）。",
    "zhParas": [
     "第164防空炮兵旅旅部及旅部直属连的士兵于2026年10月9日星期五在佛罗里达州奥兰多监测飓风“伊萨亚斯”的发展动态，以确保向受灾地区部署支援。",
     "第164旅的士兵保持待命，准备按照佛罗里达州州长的指示，支援州应急响应小组执行救灾和救援任务（照片由上尉"
@@ -358,7 +630,8 @@
    "zhFull": "第164防空炮兵旅旅部及旅部直属连的士兵于2026年10月9日星期五在佛罗里达州奥兰多监测飓风“伊萨亚斯”的发展动态，以确保向受灾地区部署支援。\n\n第164旅的士兵保持待命，准备按照佛罗里达州州长的指示，支援州应急响应小组执行救灾和救援任务（照片由上尉",
    "zhDone": 2,
    "zhChunks": 2,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/news/576758/readout-us-naval-forces-central-command-us-5th-fleet-combined-maritime-forces-vice-adm-curt-renshaws-meeting-with-royal",
@@ -369,9 +642,8 @@
    "body": "TAMPA, Fla. -- U.S. Naval Forces Central Command/U.S. 5th Fleet/Combined Maritime Forces Commander Vice Adm. Curt Renshaw met with Saudi defense leaders during a trip to Riyadh, Saudi Arabia, Oct. 6-7.\n\nThe meetings included discussions with H.E. General Fayyadh bin Hamed Al-Ruwaili, the chief of general staff; Vice Adm. Mohammed Al-Ghuraybi, commander, Royal Saudi Naval Forces; Vice Adm. Fahad Al Ghofaily, the deputy chief of defense; Lt. Gen. Fahad al-Salman, commander, Saudi Joint Forces Command; and Rear Adm. Abdullah al-Mutairi, naval component commander, Saudi Joint Forces Command. Renshaw also met with Chargé d’Affaires and additional country team personnel.\n\nThe discussions focused on the enduring partnership between the two militaries and enhancing interoperability between the navies of the Kingdom of Saudi Arabia and the U.S.\n\nThe leaders explored opportunities to promote freedom of navigation in the region and exchanged views on regional security challenges.\n\nRenshaw acknowledged the significant contributions by Saudi Arabia to regional security, specifically highlighting the role Saudi Arabian Armed Forces take in promoting stability and prosperity alongside global and regional partners.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "佛罗里达州坦帕——美国海军中央司令部/美国第五舰队/联合海上力量司令、海军中将库特·伦肖于10月6日至7日访问沙特阿拉伯利雅得期间，会见了沙特国防领导人。",
    "titleZh": "美国海军中央司令部/美国第五舰队/联合海上力量司令、海军中将库特·伦肖与沙特皇家国防领导人会晤纪要",
-   "titleTrans": "ok",
+   "summaryZh": "佛罗里达州坦帕——美国海军中央司令部/美国第五舰队/联合海上力量司令、海军中将库特·伦肖于10月6日至7日访问沙特阿拉伯利雅得期间，会见了沙特国防领导人。",
    "zhParas": [
     "佛罗里达州坦帕——美国海军中央司令部/美国第五舰队/联合海上力量司令、海军中将库特·伦肖于10月6日至7日访问沙特阿拉伯利雅得期间，会见了沙特国防领导人。",
     "会晤对象包括沙特总参谋长法亚德·本·哈米德·鲁瓦伊利上将阁下、沙特皇家海军司令穆罕默德·古莱比海军中将、国防副参谋长法赫德·戈法伊利海军中将、沙特联合部队司令部司令法赫德·萨勒曼中将，以及沙特联合部队司令部海军组成部队司令阿卜杜拉·穆塔伊里少将。伦肖还会见了临时代办及其他国家团队人员。",
@@ -382,7 +654,8 @@
    "zhFull": "佛罗里达州坦帕——美国海军中央司令部/美国第五舰队/联合海上力量司令、海军中将库特·伦肖于10月6日至7日访问沙特阿拉伯利雅得期间，会见了沙特国防领导人。\n\n会晤对象包括沙特总参谋长法亚德·本·哈米德·鲁瓦伊利上将阁下、沙特皇家海军司令穆罕默德·古莱比海军中将、国防副参谋长法赫德·戈法伊利海军中将、沙特联合部队司令部司令法赫德·萨勒曼中将，以及沙特联合部队司令部海军组成部队司令阿卜杜拉·穆塔伊里少将。伦肖还会见了临时代办及其他国家团队人员。\n\n讨论重点围绕两军之间持久的伙伴关系，以及加强沙特阿拉伯王国海军与美国海军之间的互操作性。\n\n双方领导人探讨了促进地区航行自由的机会，并就地区安全挑战交换了意见。\n\n伦肖肯定沙特阿拉伯对地区安全所作的重要贡献，特别强调沙特阿拉伯武装部队与全球和地区伙伴一道，在促进稳定与繁荣方面发挥的作用。",
    "zhDone": 5,
    "zhChunks": 5,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10003314/why-serve-airman-follows-family-legacy-service-and-caring-others",
@@ -393,9 +666,8 @@
    "body": "LANDSTUHL, Germany — U.\n\nAir Force Senior Airman Ian Guarisco, a medic with Landstuhl Regional Medical Center, poses for a photo outside the emergency room Oct.\n\nA native of Denham Springs, Louisiana, Guarisco was inspired to serve by his grandfather’s military service, while his passion for medicine was influenced by his parents, who both work in the medical field.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "德国兰施图尔——美国空军上等兵伊恩·瓜里斯科是兰施图尔地区医疗中心的一名医务兵，2026年10月9日在急诊室外拍照。他是路易斯安那州登汉斯普林斯人，祖父的军旅经历激励他参军服役，而他对医学的热情则受到父母影响，父母二人均从事医疗行业工作。",
    "titleZh": "我为何服役：空军上等兵传承家族服役与关爱他人的传统",
-   "titleTrans": "ok",
+   "summaryZh": "德国兰施图尔——美国空军上等兵伊恩·瓜里斯科是兰施图尔地区医疗中心的一名医务兵，2026年10月9日在急诊室外拍照。他是路易斯安那州登汉斯普林斯人，祖父的军旅经历激励他参军服役，而他对医学的热情则受到父母影响，父母二人均从事医疗行业工作。",
    "zhParas": [
     "德国兰施图尔——美国",
     "空军上等兵伊恩·瓜里斯科是兰施图尔地区医疗中心的一名医务兵，10月在急诊室外拍照。",
@@ -404,7 +676,8 @@
    "zhFull": "德国兰施图尔——美国\n\n空军上等兵伊恩·瓜里斯科是兰施图尔地区医疗中心的一名医务兵，10月在急诊室外拍照。\n\n瓜里斯科是路易斯安那州德纳姆斯普林斯人，他受祖父军旅服役经历的激励而参军，而他对医学的热爱则受到父母的影响，他们都在医疗领域工作。",
    "zhDone": 3,
    "zhChunks": 3,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/news/576655/ncng-state-partnership-program-director-receives-national-army-medal-republic-moldova",
@@ -415,9 +688,8 @@
    "body": "RALEIGH, N.C. — U.S. Army Lt. Col. Michal Sterling, North Carolina National Guard State Partnership Program director assigned to the 60th Troop Command, was awarded the National Army Medal by Brig. Gen. Sergiu Cirimpei, Defense, Military, and Air Attaché to the U.S., on behalf of the Ministry of Defence, Republic of Moldova at Joint Force Headquarters in Raleigh, N.C., on Oct. 8, 2026. The award recognized his commitment, leadership, and contributions to the enduring partnership between the two nations.\n\n“I’m happy to present this award to you for all your hard work and leadership shown to Moldova,\" said Brig. Gen. Sergiu Cirimpei,\n\nSterling's recognition reflects years of work strengthening the relationship between North Carolina and Moldova through the National Guard’s State Partnership Program, a partnership established in 1996. In 2017, then Capt. Sterling began serving as the Bilateral Affairs officer for Moldova, working to strengthen military cooperation and maintain relationships between the NCNG and its Moldovan counterparts.\n\nTwo years later, in 2019, then-Maj. Sterling became the NCNG’s State Partnership Program director, taking on responsibility for coordinating engagements and advocating the state’s international partnership. The success of this partnership was recognized in 2023, when the NCNG and Moldova received the National Guard Bureau’s State Partnership of the Year award, highlighting the hard work and dedication between the two partners and their continued commitment to shared security objectives.\n\nAs the SPP director, Sterling oversaw partnerships with Moldova, Botswana, Malawi, and Zambia, coordinating military-to-military and civilian engagements designed to strengthen partner capabilities and promote long-term self-reliance. Under his leadership, the program directed 57 security cooperation events across Europe and Africa, giving NCNG personnel and international partners opportunities to exchange knowledge, develop capabilities, and build relationships that extend beyond individual missions.\n\nIn addition to receiving Moldova’s National Army Medal, the National Guard Bureau recognized Sterling as the 2025 State Partnership Program Director of the Year for his management of the NCNG's partnerships. As SPP director, one of Sterling's duties was to oversee the program's annual funding allocations supporting the two partners' security cooperation objectives, ensuring resources aligned with strategic priorities and partnership goals.\n\n“You’ve been such a great asset and leader to both NCNG and the great State of North Carolina,\" said Secretary Elaine Marshall, North Carolina's Secretary of State. \"Congratulations and thank you for all that you do.\"\n\nSterling’s recognition highlights the impact of a continued commitment, demonstrating how sustained relationships and strategic leadership can strengthen both NCNG and its international partners. (U.S. Army story by Sgt. Brittany Burton)",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "罗利，北卡罗来纳州——美国陆军中校米哈尔·斯特林（Michal Sterling），北卡罗来纳国民警卫队州伙伴关系计划主任，隶属第60部队司令部，于2026年10月8日在北卡罗来纳州罗利联合部队司令部，由摩尔多瓦共和国国防部代表、驻美国国防、军事和空军武官谢尔久·奇林佩伊准将（Brig. Gen. Sergiu Cirimpei）授予国家陆军奖章。该奖项表彰他对两国持久伙伴关系的承诺、领导力和贡献。",
    "titleZh": "北卡罗来纳国民警卫队州伙伴关系计划主任获摩尔多瓦共和国授予国家陆军奖章",
-   "titleTrans": "ok",
+   "summaryZh": "罗利，北卡罗来纳州——美国陆军中校米哈尔·斯特林（Michal Sterling），北卡罗来纳国民警卫队州伙伴关系计划主任，隶属第60部队司令部，于2026年10月8日在北卡罗来纳州罗利联合部队司令部，由摩尔多瓦共和国国防部代表、驻美国国防、军事和空军武官谢尔久·奇林佩伊准将（Brig. Gen. Sergiu Cirimpei）授予国家陆军奖章。该奖项表彰他对两国持久伙伴关系的承诺、领导力和贡献。",
    "zhParas": [
     "罗利，北卡罗来纳州——美国陆军中校米哈尔·斯特林（Michal Sterling），北卡罗来纳国民警卫队州伙伴关系计划主任，隶属第60部队司令部，于2026年10月8日在北卡罗来纳州罗利联合部队司令部，由摩尔多瓦共和国国防部代表、驻美国国防、军事和空军武官谢尔久·奇林佩伊准将（Brig. Gen. Sergiu Cirimpei）授予国家陆军奖章。该奖项表彰他对两国持久伙伴关系的承诺、领导力和贡献。",
     "我很高兴将这一奖项颁发给你，以表彰你为摩尔多瓦展现出的所有辛勤工作和领导力，”谢尔久·奇林佩伊准将说道，",
@@ -431,7 +703,8 @@
    "zhFull": "罗利，北卡罗来纳州——美国陆军中校米哈尔·斯特林（Michal Sterling），北卡罗来纳国民警卫队州伙伴关系计划主任，隶属第60部队司令部，于2026年10月8日在北卡罗来纳州罗利联合部队司令部，由摩尔多瓦共和国国防部代表、驻美国国防、军事和空军武官谢尔久·奇林佩伊准将（Brig. Gen. Sergiu Cirimpei）授予国家陆军奖章。该奖项表彰他对两国持久伙伴关系的承诺、领导力和贡献。\n\n我很高兴将这一奖项颁发给你，以表彰你为摩尔多瓦展现出的所有辛勤工作和领导力，”谢尔久·奇林佩伊准将说道，\n\n斯特林获得的表彰反映了多年来通过国民警卫队州伙伴关系计划加强北卡罗来纳州与摩尔多瓦关系的工作，该伙伴关系成立于1996年。2017年，时任上尉的斯特林开始担任摩尔多瓦双边事务官，致力于加强军事合作并维护北卡罗来纳国民警卫队与其摩尔多瓦同行之间的关系。\n\n两年后，2019年，时任少校的斯特林成为北卡罗来纳国民警卫队州伙伴关系计划主任，负责协调交流活动并倡导该州的国际伙伴关系。这一伙伴关系的成功在2023年得到认可，北卡罗来纳国民警卫队和摩尔多瓦获得了国民警卫队局颁发的年度州伙伴关系奖，彰显了两个伙伴之间的辛勤工作和奉献精神，以及他们对共同安全目标的持续承诺。\n\n作为州伙伴关系计划主任，斯特林负责监督与摩尔多瓦、博茨瓦纳、马拉维和赞比亚的伙伴关系，协调旨在加强伙伴能力并促进长期自力更生的军事对军事和民事交流活动。在他的领导下，该计划指导了欧洲和非洲的57项安全合作活动，为北卡罗来纳国民警卫队人员和国际伙伴提供了交流知识、发展能力并建立超越单个任务的关系的机会。\n\n除了获得摩尔多瓦的国家陆军奖章外，国民警卫队局还表彰斯特林为2025年度州伙伴关系计划主任，以肯定他对北卡罗来纳国民警卫队伙伴关系的管理。作为州伙伴关系计划主任，斯特林的职责之一是监督该计划支持两个伙伴安全合作目标的年度资金分配，确保资源与战略优先事项和伙伴关系目标保持一致。\n\n对北卡罗来纳国民警卫队（NCNG）和伟大的北卡罗来纳州而言，您一直是极为宝贵的人才和领导者，”北卡罗来纳州州务卿伊莱恩·马歇尔说。“祝贺您，并感谢您所做的一切。\n\n斯特林获得的表彰凸显了持续投入的影响，表明持久关系和战略领导力如何能够加强北卡罗来纳国民警卫队（NCNG）及其国际伙伴。（美国陆军，布列塔尼·伯顿中士撰文）",
    "zhDone": 8,
    "zhChunks": 8,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/news/576753/micc-closes-fiscal-2026-with-68-billion-army-contracting-support",
@@ -442,9 +715,8 @@
    "body": "JOINT BASE SAN ANTONIO-FORT SAM HOUSTON, Texas — The Mission and Installation Contracting Command closed fiscal year 2026 with more than 21,450 contracting actions valued at approximately $6.8 billion, including $2.9 billion awarded to American small businesses, as the command expanded its role in Army modernization and innovative acquisition.\n\nThe command also managed more than 299,000 Government Purchase Card transactions valued at more than $520 million, providing additional purchasing power in support of Soldiers, installations and mission partners across the Army.\n\nThe results reflect over a $1 billion increase in contracting obligations over fiscal 2025 , driven largely by growing facility modernization requirements, expanded acquisition authorities, and adding 410th Contracting Support Brigade to MICC’s portfolio in January .\n\n“Some growth was expected as we welcomed the 410th Contracting Support Brigade into the command,” said Command Sgt. Maj. JennyAnne Bright, MICC command sergeant major , in the MICC command team Oct. 1 message to the workforce .\n\n“But $1 billion in growth reflects the growing demand for your expertise and your ability to deliver contracting solutions to Soldiers and our mission partners at the point of need.”\n\nDavid Markelz, deputy director of MICC Contracting Operations, attributed much of the increase to facility modernization initiatives that have expanded the command’s contracting responsibilities.\n\n“ New legislation and updated https://safe.menlosecurity.com/doc/docview/viewer/docN1987DD0EE1BB421b71bea1981c758cc762275de2744473ce785c6a82335a7fe32a2649805e0e have enabled MICC to directly support construction and modernization requirements historically managed by the U.S. Army Corps of Engineers,” Markelz said. The command responded by employing a broader range of acquisition authorities, including Other Transactions Authorities (OTAs), Small Business Innovation Research Phase (SBIR) III and Multiple Award Task Orders (MATOCs) to address complex, multilayered regional requirements and expand opportunities for collaboration with industry.\n\n“By employing a broader array of acquisition authorities, the MICC is better positioned than ever to meet the evolving needs of the Army and deliver timely, mission‑focused results.”\n\nAmong the year’s major accomplishments were the Facilities, Operations, Readiness, Growth and Experience, or FORGE, initiatives, which consolidated multiple modernization requirements into larger, coordinated acquisition efforts that bundled related requirements to deliver effective outcomes instead of isolating projects due to rigid processes.\n\nAt Joint Base Lewis-McChord, Washington, MICC awarded a $169.1 million Other Transaction agreement supporting 17 modernization projects . At Anniston Army Depot, Alabama, another MICC FORGE initiative established approximately $987 million in modernization efforts, with about $658 million initially obligated to support critical military construction and improvements to the Army’s Organic Industrial Base.\n\nOther notable MICC efforts included a roughly $201 million OTA for the Fort Polk Rotational Unit Billeting Area (RUBA) , using construction-scale additive manufacturing, and a similar approximately $13 million OTA billeting effort at McGregor Range, New Mexico.\n\nMICC also established its first enterprise-wide architect-engineer contracting capability, awarding 20 indefinite-delivery, indefinite-quantity contracts across five geographic regions to support planning, design and construction-related services.\n\nAdditional enterprise solutions included the https://samclerk.com/opportunity/dept-of-defense/W51EW7-26-R-A002, providing seven Army garrisons access to competed regional construction and repair capacity, and two SBIR III contracting vehicles through Field Directorate Office, Fort Eustis, Virginia with a combined $800 million ceiling for training support and human-performance infrastructure.\n\n“You showed that the MICC is prepared to meet demands differently,” said Brig. Gen. Freddy L. Adams, MICC commanding general , in the command’s fiscal year-end message . “You helped us expand our use of innovative acquisition tools, including Other Transaction Authorities, Small Business Innovation Research Phase III pathways and enterprise contracting solutions that help us move faster and deliver capability where it matters most.”\n\nBeyond modernization, MICC continued its longstanding commitment to American small businesses, exceeding its assigned small business goals for the 12th consecutive year despite workforce reductions and increasingly complex requirements.\n\n“Exceeding our small business goals across the board for a 12th consecutive year is a phenomenal achievement by our contracting and small business professionals,” said Luis Trinidad, director of the Army Contracting Command-MICC Office of Small Business Programs. “Operating with a 30% reduction in personnel, our team rose to meet a more demanding workload.”\n\nWith the growth year in contracting, Trinidad said the command’s small business-eligible dollars also increased by $104.8 million, requiring more detailed reviews of higher-value and increasingly complex acquisition packages.\n\n“By conducting thorough, detailed reviews on every single opportunity,” Trinidad said, “our team ensured we met all of our targets while delivering vital small business capabilities and services that directly support the Warfighter.\"\n\nLooking ahead to fiscal year 2027 , MICC anticipates continued growth in modernization requirements, increased demand for enterprise contracting solutions and greater use of innovative acquisition authorities tailored to specific mission and Soldier needs.\n\nMICC Deputy to the Commanding General, Clay Cole also praised the workforce in the closeout message for helping the command achieve priorities align with the command’s 2026-2027 Campaign Plan , emphasizing people and forging contract experts, readiness, mission execution and transformation.\n\n“Together, we established our first enterprise-wide architect-engineer contracting capability, spanning the continental United States and Puerto Rico; accelerated critical sustainment, restoration and modernization requirements; and expanded housing, barracks and other quality-of-life support,” Cole said.\n\n“Those accomplishments demonstrate what happens when contracting professionals are empowered to innovate, collaborate, and stay focused on the warfighter.”\n\nThe fiscal year closeout also coincided with the contracting command’s 18th anniversary. Established under the Army Contracting Command as the Installation Contracting Command Oct. 1, 2008, and redesignated as MICC the following day, the organization has evolved into a critical contracting powerhouse for Army readiness and modernization.\n\nAs the command enters fiscal year 2027, the command team also emphasized that the long list of accomplishments since its inception reflects the expertise and dedication of contracting professionals across its geographically dispersed workforce.\n\n“In just two short decades, MICC has grown into an indispensable element of the Army’s mission, and that legacy is entirely due to the hard work and excellence of professionals like you,” Adams said.\n\nThe leaders thanked the MICC workforce and Soldiers, urging them to take a moment to reflect on all that they accomplished while maintaining the positive momentum as they begin the new fiscal year.\n\nAbout the MICC Headquartered at Joint Base San Antonio -Fort Sam Houston, Texas, the Mission and Installation Contracting Command consists of about 1,500 military and civilian members who are responsible for contracting goods and services in support of Soldiers as well as readying trained contracting units for the operating force and contingency environment when called upon. A subordinate command of the Army Contracting Command and the Army Materiel Command, MICC contracts are vital in feeding more than 200,000 Soldiers every day, providing many daily base operations support services at installations, facilitate training in the preparation of more than 100,000 conventional force members annually, training more than 500,000 students each year, and maintaining more than 14.4 million acres of land and 170,000 structures. See also the MICC Fact Sheet .",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "任务与设施合同司令部以超过21,450项合同行动、价值约68亿美元结束2026财年，其中包括授予美国小企业的29亿美元，同时该司令部扩大了其在陆军现代化和创新采办中的作用。该司令部还管理了超过299,000笔政府采购卡交易，价值超过5.2亿美元，为士兵、设施和任务伙伴提供额外的购买力支持。",
    "titleZh": "任务与设施合同司令部以68亿美元陆军合同支持结束2026财年",
-   "titleTrans": "ok",
+   "summaryZh": "任务与设施合同司令部以超过21,450项合同行动、价值约68亿美元结束2026财年，其中包括授予美国小企业的29亿美元，同时该司令部扩大了其在陆军现代化和创新采办中的作用。该司令部还管理了超过299,000笔政府采购卡交易，价值超过5.2亿美元，为士兵、设施和任务伙伴提供额外的购买力支持。",
    "zhParas": [
     "得克萨斯州圣安东尼奥-萨姆休斯敦堡联合基地——任务与设施合同司令部以超过21,450项合同行动、价值约68亿美元结束2026财年，其中包括授予美国小企业的29亿美元，同时该司令部扩大了其在陆军现代化和创新采办中的作用。",
     "该司令部还管理了超过299,000笔政府采购卡交易，价值超过5.2亿美元，为支持整个陆军的士兵、设施和任务伙伴提供了额外的购买力。",
@@ -477,7 +749,8 @@
    "zhFull": "得克萨斯州圣安东尼奥-萨姆休斯敦堡联合基地——任务与设施合同司令部以超过21,450项合同行动、价值约68亿美元结束2026财年，其中包括授予美国小企业的29亿美元，同时该司令部扩大了其在陆军现代化和创新采办中的作用。\n\n该司令部还管理了超过299,000笔政府采购卡交易，价值超过5.2亿美元，为支持整个陆军的士兵、设施和任务伙伴提供了额外的购买力。\n\n这些结果反映出合同义务比2025财年增加超过10亿美元，主要驱动因素是不断增长的设施现代化需求、扩大的采办权限，以及1月将第410合同保障旅纳入MICC的业务组合。\n\n当我们欢迎第410合同保障旅加入该司令部时，一些增长是预料之中的，”MICC指挥军士长珍妮安妮·布赖特在MICC指挥团队10月1日致全体工作人员的信中说。\n\n但10亿美元的增长反映了对你们专业能力日益增长的需求，以及你们在需求点向士兵和我们的任务伙伴提供合同解决方案的能力。\n\nMICC合同运营副主任戴维·马凯尔兹将大部分增长归因于设施现代化举措，这些举措扩大了该司令部的合同职责。\n\n新立法和更新的 https://safe.menlosecurity.com/doc/docview/viewer/docN1987DD0EE1BB421b71bea1981c758cc762275de2744473ce785c6a82335a7fe32a2649805e0e 使 MICC 能够直接支持历史上由美国陆军工程兵团管理的建设和现代化需求，”Markelz 说。该司令部通过采用更广泛的采购授权作为回应，包括其他交易授权（OTA）、小企业创新研究第三阶段（SBIR III）和多项授标任务订单（MATOC），以应对复杂、多层次的区域需求，并扩大与工业界合作的机会。\n\n通过采用更广泛的采购授权，MICC 比以往任何时候都更有能力满足陆军不断变化的需求，并及时交付以任务为重点的成果。\n\n年度主要成就包括设施、运营、战备、增长与经验（FORGE）倡议，这些倡议将多项现代化需求整合为更大规模、协调一致的采购工作，将相关需求打包，以交付有效成果，而不是因僵化流程而将项目割裂开来。\n\n在华盛顿州刘易斯-麦科德联合基地，MICC 授予了一份价值 1.691 亿美元的其他交易协议，支持 17 个现代化项目。在阿拉巴马州安尼斯顿陆军仓库，另一项 MICC FORGE 倡议确立了约 9.87 亿美元的现代化工作，其中约 6.58 亿美元初步承付，用于支持关键军事建设和陆军有机工业基础的改进。\n\nMICC 的其他显著工作包括一项约 2.01 亿美元的其他交易协议，用于波尔克堡轮换部队住宿区（RUBA），采用建筑规模增材制造；以及在新墨西哥州麦格雷戈靶场开展的类似约 1300 万美元 OTA 住宿工作。\n\nMICC 还建立了其首个全企业范围的建筑-工程合同能力，在五个地理区域授予 20 份不定期交付、不定量合同，以支持规划、设计和施工相关服务。\n\n其他企业级解决方案包括 https://samclerk.com/opportunity/dept-of-defense/W51EW7-26-R-A002，为七个陆军驻军提供通过竞争获得的区域建筑与维修能力，以及通过位于弗吉尼亚州尤斯蒂斯堡的野战指导办公室设立的两个SBIR III合同工具，合计上限为8亿美元，用于训练支持和人员效能基础设施。\n\n你们表明，MICC已准备好以不同方式满足需求，”MICC司令弗雷迪·L·亚当斯准将在该司令部财年年终致辞中说。“你们帮助我们扩大了创新采办工具的使用，包括其他交易授权、小企业创新研究第三阶段途径和企业合同解决方案，这些工具帮助我们更快行动，并在最关键的地方交付能力。\n\n除现代化之外，MICC还继续履行其对美国小企业的长期承诺，尽管面临人员削减和日益复杂的需求，仍连续第12年超额完成其被分配的小企业目标。\n\n连续第12年全面超额完成小企业目标，是我们合同与小企业专业人员取得的非凡成就，”陆军合同司令部-MICC小企业项目办公室主任路易斯·特立尼达说。“在人员减少30%的情况下，我们的团队仍迎难而上，应对更繁重的工作量。\n\n特立尼达说，随着合同业务在这一年增长，该司令部符合小企业条件的资金也增加了1.048亿美元，这要求对价值更高且日益复杂的采办包进行更详细的审查。\n\n通过对每一个机会进行彻底、详细的审查，”特立尼达说，“我们的团队确保实现了所有目标，同时交付了直接支持作战人员的重要小企业能力和服务。\n\n展望2027财年，MICC预计现代化需求将持续增长，对企业级合同解决方案的需求将增加，并将更多使用针对特定任务和士兵需求定制的创新采购授权。\n\nMICC司令副手克莱·科尔还在收官致辞中赞扬了全体员工，称其帮助该司令部实现了与司令部《2026-2027年战役计划》相一致的重点事项，该计划强调人员与培养合同专家、战备、任务执行和转型。\n\n科尔说：“我们共同建立了首个覆盖全机构的建筑-工程合同能力，范围遍及美国本土和波多黎各；加快了关键维持、恢复和现代化需求；并扩大了住房、营房及其他生活质量保障。\n\n这些成就表明，当合同专业人员被赋权去创新、协作并始终聚焦作战人员时，会取得怎样的成果。\n\n本财年收官也恰逢该合同司令部成立18周年。该机构于2008年10月1日在陆军合同司令部之下作为设施合同司令部成立，并于次日改名为MICC，如今已发展成为陆军战备和现代化的关键合同力量。\n\n随着该司令部进入2027财年，司令部团队还强调，自成立以来取得的一长串成就，反映了其分散在各地的工作人员中合同专业人员的专业能力和奉献精神。\n\n在短短二十年间，MICC 已发展成为陆军任务中不可或缺的一部分，而这一成就完全归功于像你们这样的专业人员的辛勤工作和卓越表现，”亚当斯说。\n\n领导们感谢了 MICC 的工作人员和士兵，敦促他们在进入新财年之际花点时间回顾所取得的一切成就，同时保持积极势头。\n\n关于 MICC：任务与设施合同司令部总部位于得克萨斯州圣安东尼奥联合基地-萨姆·休斯敦堡，由约1500名军人和文职人员组成，负责为支持士兵采购物资和服务，并在接到召唤时为作战部队和应急环境准备好训练有素的合同单位。作为陆军合同司令部和陆军装备司令部的下属司令部，MICC 的合同对于每天为超过20万名士兵提供膳食、在各设施提供许多日常基地运营支持服务、促进每年超过10万名常规部队成员的训练准备、每年培训超过50万名学员，以及维护超过1440万英亩土地和17万座建筑物至关重要。另请参阅 MICC 情况说明书。",
    "zhDone": 27,
    "zhChunks": 27,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10002934/mcicom-visits-cherry-point",
@@ -488,9 +761,8 @@
    "body": "John Maske, left, a low altitude air defense technician, assigned to 2nd Low Altitude Air Defense Battalion, Marine Air Control Group 28, 2nd Marine Aircraft Wing, discusses the quality of life inside of the 2nd LAAD barracks with Maj.\n\nBrian Wolford, the commanding general of Marine Corps Installations Command, at Marine Corps Air Station Cherry Point, Oct.\n\nThe MCICOM commanding general and his staff visited MCAS Cherry Point to observe ongoing operations, engage with personnel, and review the station's capabilities and readiness.\n\nThe visit included a tour of the installation with emphasis on ongoing military construction projects, quality-of-life services, and installation operations.\n\nMarine Corps photo by Cpl.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "美国海军陆战队中士约翰·马斯克（左），一名低空防空技术员，隶属于海军陆战队第2航空联队第28航空控制大队第2低空防空营，于2026年10月8日在海军陆战队樱桃点航空站与海军陆战队设施司令部司令布赖恩·沃尔福德少将讨论第2低空防空营营房内的生活质量。海军陆战队设施司令部司令及其工作人员访问了海军陆战队樱桃点航空站，以观察正在进行的行动。",
    "titleZh": "海军陆战队设施司令部访问樱桃点",
-   "titleTrans": "ok",
+   "summaryZh": "美国海军陆战队中士约翰·马斯克（左），一名低空防空技术员，隶属于海军陆战队第2航空联队第28航空控制大队第2低空防空营，于2026年10月8日在海军陆战队樱桃点航空站与海军陆战队设施司令部司令布赖恩·沃尔福德少将讨论第2低空防空营营房内的生活质量。海军陆战队设施司令部司令及其工作人员访问了海军陆战队樱桃点航空站，以观察正在进行的行动。",
    "zhParas": [
     "约翰·马斯克（左），一名低空防空技术员，隶属于海军陆战队第2航空联队第28航空控制大队第2低空防空营，正在与少将讨论第2低空防空营营房内的生活质量。",
     "布莱恩·沃尔福德，海军陆战队设施司令部司令，于10月在海军陆战队切里波因特航空站。",
@@ -501,7 +773,8 @@
    "zhFull": "约翰·马斯克（左），一名低空防空技术员，隶属于海军陆战队第2航空联队第28航空控制大队第2低空防空营，正在与少将讨论第2低空防空营营房内的生活质量。\n\n布莱恩·沃尔福德，海军陆战队设施司令部司令，于10月在海军陆战队切里波因特航空站。\n\n海军陆战队设施司令部（MCICOM）司令及其参谋人员访问了海军陆战队切里波因特航空站，以观察正在进行的行动、与人员交流，并审查该航空站的能力和战备状态。\n\n此次访问包括参观该设施，重点关注正在进行的军事建设项目、生活质量服务和设施运行。\n\n海军陆战队照片，由下士拍摄。",
    "zhDone": 5,
    "zhChunks": 5,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10003011/2026-mcas-cherry-point-mass-casualty-exercise",
@@ -512,9 +785,8 @@
    "body": "Marines assigned to Aircraft Rescue and Fire Fighting with Headquarters and Headquarters Squadron, Marine Corps Air Station Cherry Point, Cherry Point Fire and Emergencies Services, New Bern Fire Department, Township 7 Fire Department, Coastal Carolina Regional Airport personnel and other local first responders receive exercise instructions prior to a mass casualty exercise at the Coastal Carolina Airport in New Bern, North Carolina, Oct.\n\nThe triannual mass casualty exercise with MCAS Cherry Point Marines, Coastal Carolina Regional Airport personnel and local first responders reinforce emergency response capabilities to maintain the highest level of public safety.\n\nMarine Corps video by Lance Cpl.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "隶属于海军陆战队切里波因特航空站司令部与司令部中队航空救援与消防部门的海军陆战队员，以及切里波因特消防与应急服务处、新伯尔尼消防局、第7镇消防局、卡罗来纳海岸地区机场人员和其他当地第一响应人员，于2026年10月8日在北卡罗来纳州新伯尔尼的卡罗来纳海岸机场举行的大规模伤亡演习前接受演习指示。此次三年一度的大规模伤亡演习与M",
    "titleZh": "2026年海军陆战队切里波因特航空站大规模伤亡演习",
-   "titleTrans": "ok",
+   "summaryZh": "隶属于海军陆战队切里波因特航空站司令部与司令部中队航空救援与消防部门的海军陆战队员，以及切里波因特消防与应急服务处、新伯尔尼消防局、第7镇消防局、卡罗来纳海岸地区机场人员和其他当地第一响应人员，于2026年10月8日在北卡罗来纳州新伯尔尼的卡罗来纳海岸机场举行的大规模伤亡演习前接受演习指示。此次三年一度的大规模伤亡演习与M",
    "zhParas": [
     "隶属于海军陆战队切里波因特航空站司令部与司令部中队航空救援与消防部门的海军陆战队员，以及切里波因特消防与应急服务处、新伯尔尼消防局、第7镇消防局、卡罗来纳海岸地区机场人员和其他当地第一响应人员，于10月在北卡罗来纳州新伯尔尼的卡罗来纳海岸机场举行的大规模伤亡演习前接受演习指示。",
     "此次每年三次的大规模伤亡演习由海军陆战队切里波因特航空站的海军陆战队员、卡罗来纳海岸地区机场人员和当地第一响应人员共同参与，旨在加强应急响应能力，以维持最高水平的公共安全。",
@@ -523,7 +795,8 @@
    "zhFull": "隶属于海军陆战队切里波因特航空站司令部与司令部中队航空救援与消防部门的海军陆战队员，以及切里波因特消防与应急服务处、新伯尔尼消防局、第7镇消防局、卡罗来纳海岸地区机场人员和其他当地第一响应人员，于10月在北卡罗来纳州新伯尔尼的卡罗来纳海岸机场举行的大规模伤亡演习前接受演习指示。\n\n此次每年三次的大规模伤亡演习由海军陆战队切里波因特航空站的海军陆战队员、卡罗来纳海岸地区机场人员和当地第一响应人员共同参与，旨在加强应急响应能力，以维持最高水平的公共安全。\n\n海军陆战队视频，由准下士拍摄。",
    "zhDone": 3,
    "zhChunks": 3,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/news/576750/carrier-air-wing-9-completes-10-month-combat-deployment",
@@ -534,9 +807,8 @@
    "body": "SAN DIEGO — Carrier Air Wing (CVW) 9 has concluded a 10-month combat deployment aboard Nimitz-class aircraft carrier USS Abraham Lincoln (CVN 72), Oct. 8. Since embarking Nov. 21, 2025, the Navy’s premier next-generation air wing served as the primary offensive power for the Abraham Lincoln Carrier Strike Group, demonstrating lethal precision during Operation Epic Fury in the U.S. 5th Fleet area of operations.\n\nOver the course of the deployment, the air wing safely completed 14,037 aircraft sorties and accumulated 31,460 forward-deployed flight hours.\n\nOperation Epic Fury was initiated under a direct presidential order Feb. 28. In response, CVW-9 launched into a 38-day air and sea campaign to degrade Iranian power projection capabilities and defend our national interests. The air wing destroyed offensive missile sites, production facilities, military infrastructure and naval combatants before an early April ceasefire.\n\nIt expended 1,499 precision weapons, delivering over 1.37 million pounds of ordnance against U.S. Central Command priority targets, while simultaneously executing robust defensive operations to shield the strike group from attacks.\n\n\"The rapid mobilization and combat execution of CVW-9 during Operation Epic Fury demonstrated the unmatched flexibility of a U.S. Navy carrier strike group,\" said Navy Capt. J.W. Stigi, commander of CVW-9. \"Pairing fifth-generation F-35C stealth and sensor fusion with fourth-generation workhorse strike and electronic attack platforms, Team Shogun destroyed Iran’s conventional Navy and secured vital maritime chokepoints in support of our commander’s objectives.\"\n\nThe integration of the F-35C Lightning II, alongside F/A-18E/F Super Hornets and EA-18G Growler electronic attack aircraft, allowed CVW-9 to penetrate highly contested airspace, proving the effectiveness of the Navy's \"Air Wing of the Future\" in active combat.\n\nDespite challenges, the air wing’s maintenance professionals demonstrated outstanding self-sufficiency while operating at sea for more than 310 days.\n\n“Our maintenance teams and aircrew sustained a relentlessly high operational tempo under demanding conditions,” said Navy Capt. Kristen Findlay, deputy commander of CVW-9. “Their performance ensured our aircraft were ready when the mission demanded it most and demonstrated that an aircraft carrier and carrier air wing remain the Navy’s premier team for generating combat power from sea.”\n\nAfter 10 months of successful sustained combat operation, the Sailors and Marines of CVW-9 now shift their focus to a well-deserved period of rest, recovery and long-awaited reunions with their families.\n\nOperating the most advanced aircraft in the U.S. inventory, CVW-9 is a next-generation, multi-platform air wing, enabling mobile naval air power projection and forward operational presence. The nine squadrons in the air wing are Marine Fighter Attack Squadron (VMFA) 314; the F/A-18 E/F Super Hornet squadrons Strike Fighter Squadron (VFA) 14, VFA-41 and VFA-151; Electronic Attack Squadron (VAQ) 133; Airborne Command and Control Squadron (VAW) 117; Helicopter Maritime Strike Squadron (HSM) 71; Helicopter Sea Combat Squadron (HSC) 14; and Fleet Logistics Multi-Mission Squadron (VRM) 30.\n\nThe Abraham Lincoln Carrier Strike Group consists of flagship Abraham Lincoln, embarked staffs of Carrier Strike Group 3 and Destroyer Squadron 21, CVW-9, Arleigh Burke-class guided-missile destroyer USS Frank E. Petersen Jr. (DDG 121) serving as the integrated air and missile defense commander, and DESRON 21’s Arleigh Burke-class guided-missile destroyers USS Spruance (DDG 111) and USS Michael Murphy (DDG 112).\n\nSpruance and Michael Murphy remain underway in the U.S. 7th Fleet and U.S. 5th Fleet area of operations supporting global maritime security operations.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "圣迭戈——第9航母航空联队（CVW-9）已于10月8日结束在尼米兹级航空母舰“亚伯拉罕·林肯”号（CVN 72）上为期10个月的作战部署。自2025年11月21日登舰以来，海军首屈一指的下一代航空联队作为“亚伯拉罕·林肯”号航母打击群的主要进攻力量，在美国第五舰队作战区域内“史诗狂怒行动”中展现出致命精准打击能力。在部署期间，该航空联队安全完成了14,037个飞机架次。",
    "titleZh": "第9航母航空联队完成为期10个月的作战部署",
-   "titleTrans": "ok",
+   "summaryZh": "圣迭戈——第9航母航空联队（CVW-9）已于10月8日结束在尼米兹级航空母舰“亚伯拉罕·林肯”号（CVN 72）上为期10个月的作战部署。自2025年11月21日登舰以来，海军首屈一指的下一代航空联队作为“亚伯拉罕·林肯”号航母打击群的主要进攻力量，在美国第五舰队作战区域内“史诗狂怒行动”中展现出致命精准打击能力。在部署期间，该航空联队安全完成了14,037个飞机架次。",
    "zhParas": [
     "圣迭戈——第9航母航空联队（CVW-9）已于10月8日结束在尼米兹级航空母舰“亚伯拉罕·林肯”号（CVN 72）上为期10个月的作战部署。自2025年11月21日登舰以来，海军首屈一指的下一代航空联队作为“亚伯拉罕·林肯”号航母打击群的主要进攻力量，在美国第五舰队作战区域内“史诗狂怒行动”中展现出致命精准打击能力。",
     "在部署期间，该航空联队安全完成14,037架次飞机出动，并累计前沿部署飞行小时31,460小时。",
@@ -554,20 +826,20 @@
    "zhFull": "圣迭戈——第9航母航空联队（CVW-9）已于10月8日结束在尼米兹级航空母舰“亚伯拉罕·林肯”号（CVN 72）上为期10个月的作战部署。自2025年11月21日登舰以来，海军首屈一指的下一代航空联队作为“亚伯拉罕·林肯”号航母打击群的主要进攻力量，在美国第五舰队作战区域内“史诗狂怒行动”中展现出致命精准打击能力。\n\n在部署期间，该航空联队安全完成14,037架次飞机出动，并累计前沿部署飞行小时31,460小时。\n\n史诗狂怒行动”根据总统直接命令于2月28日启动。作为回应，第9航母航空联队发起为期38天的空海作战行动，以削弱伊朗的力量投送能力并捍卫我们的国家利益。该航空联队在4月初停火前摧毁了进攻性导弹阵地、生产设施、军事基础设施和海军作战舰艇。\n\n该联队消耗了1,499件精确武器，向美军中央司令部优先目标投送了超过137万磅弹药，同时执行强有力的防御行动，以保护航母打击群免受攻击。\n\n第9航母航空联队在‘史诗狂怒行动’期间的快速动员和作战执行，展现了美国海军航母打击群无与伦比的灵活性，”第9航母航空联队指挥官、海军上校J.W.斯蒂吉说。“将第五代F-35C隐身和传感器融合能力，与第四代主力打击及电子攻击平台相结合，‘幕府将军’团队摧毁了伊朗常规海军，并确保了关键海上咽喉要道，以支持我们指挥官的目标。\n\nF-35C“闪电II”与F/A-18E/F“超级大黄蜂”以及EA-18G“咆哮者”电子攻击机的整合，使第9航母航空联队能够突入高度争夺空域，证明了海军“未来航空联队”在实战中的有效性。\n\n尽管面临挑战，该舰载机联队的维修专业人员在海上运作超过310天期间展现出卓越的自给自足能力。\n\n我们的维修团队和空勤人员在严苛条件下保持了持续高强度作战节奏，”第9舰载机联队（CVW-9）副指挥官、海军上校克里斯汀·芬德利说。“他们的表现确保我们的飞机在任务最需要时准备就绪，并表明航母和舰载机联队仍然是海军从海上生成战斗力的首要团队。\n\n在成功持续进行10个月作战行动之后，第9舰载机联队（CVW-9）的水兵和海军陆战队员现在将重心转向当之无愧的休息、恢复以及与家人期盼已久的团聚时光。\n\n第9舰载机联队（CVW-9）操作美国现役最先进的飞机，是一支下一代、多平台舰载机联队，能够实现机动海军空中力量投送和前沿作战存在。该舰载机联队下辖的九个中队包括：海军陆战队战斗机攻击中队（VMFA）314；装备F/A-18 E/F“超级大黄蜂”的第14、第41和第151打击战斗机中队（VFA）；第133电子攻击中队（VAQ）；第117空中指挥与控制中队（VAW）；第71海上打击直升机中队（HSM）；第14海上作战直升机中队（HSC）；以及第30舰队后勤多任务中队（VRM）。\n\n亚伯拉罕·林肯号航母打击群由以下部分组成：旗舰“亚伯拉罕·林肯”号；第3航母打击群和第21驱逐舰中队的随舰参谋人员；第9舰载机联队（CVW-9）；担任一体化防空反导指挥官的阿利·伯克级导弹驱逐舰“弗兰克·E·彼得森二世”号（DDG 121）；以及第21驱逐舰中队（DESRON 21）的阿利·伯克级导弹驱逐舰“斯普鲁恩斯”号（DDG 111）和“迈克尔·墨菲”号（DDG 112）。\n\n斯普鲁恩斯”号和“迈克尔·墨菲”号继续在美国第7舰队和美国第5舰队作战区域内航行，支持全球海上安全行动。",
    "zhDone": 12,
    "zhChunks": 12,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10003184/dla-energy-commander-outlines-strategic-vision-and-aligns-mission-tenets-inaugural-all-hands",
    "title": "DLA Energy Commander outlines strategic vision and aligns mission tenets at inaugural all-hands",
-   "author": "Courtesy",
+   "author": "Lekarriah Davis",
    "pubDate": "2026-10-09T18:48:53+00:00",
    "summary": "A slide displayed during a Defense Logistics Agency Energy All Hands meeting highlights the third quarter fiscal 2026 award recipients recognized by DLA Energy Commander Navy Rear Adm. Tim Brown at the McNamara Headquarters Complex in Fort Belvoir, Va., Sept. 29. The address was Brown’s first all-hands to the DLA Energy workforce since assuming command Sept. 3. (Photo by Le’Karriah Davis)",
    "body": "A slide displayed during a Defense Logistics Agency Energy All Hands meeting highlights the third quarter fiscal 2026 award recipients recognized by DLA Energy Commander Navy Rear Adm.\n\nTim Brown at the McNamara Headquarters Complex in Fort Belvoir, Va.\n\nThe address was Brown’s first all-hands to the DLA Energy workforce since assuming command Sept.\n\n(Photo by Le’Karriah Davis)",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "在弗吉尼亚州贝尔沃堡麦克纳马拉总部综合楼9月29日举行的国防后勤局能源部全体人员会议上展示的一张幻灯片，重点介绍了由国防后勤局能源部司令、海军少将蒂姆·布朗表彰的2026财年第三季度获奖人员。这是布朗自9月3日就任司令以来首次向国防后勤局能源部全体员工发表全体人员讲话。（照片由勒卡里亚·戴维斯拍摄）",
    "titleZh": "国防后勤局能源部司令在首次全体人员会议上阐述战略愿景并统一使命原则",
-   "titleTrans": "ok",
+   "summaryZh": "在弗吉尼亚州贝尔沃堡麦克纳马拉总部综合楼9月29日举行的国防后勤局能源部全体人员会议上展示的一张幻灯片，重点介绍了由国防后勤局能源部司令、海军少将蒂姆·布朗表彰的2026财年第三季度获奖人员。这是布朗自9月3日就任司令以来首次向国防后勤局能源部全体员工发表全体人员讲话。（照片由勒卡里亚·戴维斯拍摄）",
    "zhParas": [
     "国防后勤局能源部全体人员会议上展示的一张幻灯片，重点介绍了由国防后勤局能源部司令、海军少将",
     "蒂姆·布朗在弗吉尼亚州贝尔沃堡的麦克纳马拉总部综合体表彰的2026财年第三季度获奖者。",
@@ -577,7 +849,8 @@
    "zhFull": "国防后勤局能源部全体人员会议上展示的一张幻灯片，重点介绍了由国防后勤局能源部司令、海军少将\n\n蒂姆·布朗在弗吉尼亚州贝尔沃堡的麦克纳马拉总部综合体表彰的2026财年第三季度获奖者。\n\n这次讲话是布朗自9月就任司令以来，首次向国防后勤局能源部全体员工发表的全体人员讲话。\n\n（照片由勒卡里亚·戴维斯拍摄）",
    "zhDone": 4,
    "zhChunks": 4,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10003156/usnmrtc-guantanamo-bay-builds-lifesaving-readiness-security-forces",
@@ -588,9 +861,8 @@
    "body": "261008-N-LY941-1001 Hospital Corpsman Isaac Zapata and Hospital Corpsman 1st Class Alexa Lim, assigned to U.\n\nNavy Medicine Readiness and Training Command Guantanamo Bay, demonstrate infant cardiopulmonary resuscitation on a manikin during an American Red Cross Basic Life Support course at U.\n\nNaval Hospital Guantanamo Bay, Cuba, Oct.\n\nZapata and Lim demonstrated chest compressions, rescue breaths using a bag-valve mask and use of an automated external defibrillator to train Naval Station Guantanamo Bay security forces in lifesaving response skills.\n\nNavy photo by Emily McCamy)",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "261008-N-LY941-1001 隶属于美国海军关塔那摩湾医学战备与训练司令部的海军医务兵艾萨克·萨帕塔和海军一等医务兵亚历克莎·利姆，于2026年10月8日在古巴关塔那摩湾美国海军医院举行的一次美国红十字会基础生命支持课程中，在人体模型上演示婴儿心肺复苏。萨帕塔和利姆演示了胸外按压、使用球囊面罩进行人工呼吸以及使用自动体外除颤器，以培训海军关塔那摩湾基地人员。",
    "titleZh": "美国海军关塔那摩湾医学战备与训练司令部为安全部队打造救生战备能力",
-   "titleTrans": "ok",
+   "summaryZh": "261008-N-LY941-1001 隶属于美国海军关塔那摩湾医学战备与训练司令部的海军医务兵艾萨克·萨帕塔和海军一等医务兵亚历克莎·利姆，于2026年10月8日在古巴关塔那摩湾美国海军医院举行的一次美国红十字会基础生命支持课程中，在人体模型上演示婴儿心肺复苏。萨帕塔和利姆演示了胸外按压、使用球囊面罩进行人工呼吸以及使用自动体外除颤器，以培训海军关塔那摩湾基地人员。",
    "zhParas": [
     "261008-N-LY941-1001 海军医务兵艾萨克·萨帕塔和海军一等医务兵亚历克莎·利姆，隶属于美国",
     "海军医学战备与训练司令部关塔那摩湾，在美国红十字会基础生命支持课程期间，在一具人体模型上演示婴儿心肺复苏术，地点在美国",
@@ -601,7 +873,8 @@
    "zhFull": "261008-N-LY941-1001 海军医务兵艾萨克·萨帕塔和海军一等医务兵亚历克莎·利姆，隶属于美国\n\n海军医学战备与训练司令部关塔那摩湾，在美国红十字会基础生命支持课程期间，在一具人体模型上演示婴儿心肺复苏术，地点在美国\n\n海军医院关塔那摩湾，古巴，10月\n\n萨帕塔和利姆演示了胸外按压、使用球囊面罩进行人工呼吸以及使用自动体外除颤器，以训练关塔那摩湾海军基地安全部队的救生响应技能。\n\n海军照片：艾米莉·麦卡米摄）",
    "zhDone": 5,
    "zhChunks": 5,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/video/1026036/reel-fy27-stap-deadline",
@@ -612,16 +885,16 @@
    "body": "U.S. Marine Corps video highlights the Fiscal Year 2027 Subsequent Term Alignment Plan application submission deadline on Oct. 31, 2026, created at Marine Corps Base Quantico, Virginia, Oct. 9, 2026. STAP Marines interested in continuing their service should contact their unit career counselor as soon as possible to discuss eligibility and application requirements. (U.S. Marine Corps video edited by Lance Cpl. Amee Artiga)",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "美国海军陆战队视频重点介绍2027财年后续任期调整计划（STAP）申请提交截止日期为2026年10月31日，该视频于2026年10月9日在弗吉尼亚州匡蒂科海军陆战队基地制作。有意继续服役的STAP海军陆战队员应尽快联系所在单位的职业顾问，以讨论资格和申请要求。（美国海军陆战队视频剪辑）",
    "titleZh": "视频：2027财年后续任期调整计划（STAP）截止日期",
-   "titleTrans": "ok",
+   "summaryZh": "美国海军陆战队视频重点介绍2027财年后续任期调整计划（STAP）申请提交截止日期为2026年10月31日，该视频于2026年10月9日在弗吉尼亚州匡蒂科海军陆战队基地制作。有意继续服役的STAP海军陆战队员应尽快联系所在单位的职业顾问，以讨论资格和申请要求。（美国海军陆战队视频剪辑）",
    "zhParas": [
     "美国海军陆战队视频重点介绍2027财年后续任期调整计划（STAP）申请提交截止日期为2026年10月31日；该视频于2026年10月9日在弗吉尼亚州匡蒂科海军陆战队基地制作。有意继续服役的STAP海军陆战队员应尽快联系所在单位的职业顾问，以讨论资格和申请要求。（美国海军陆战队视频，由准下士Amee Artiga剪辑）"
    ],
    "zhFull": "美国海军陆战队视频重点介绍2027财年后续任期调整计划（STAP）申请提交截止日期为2026年10月31日；该视频于2026年10月9日在弗吉尼亚州匡蒂科海军陆战队基地制作。有意继续服役的STAP海军陆战队员应尽快联系所在单位的职业顾问，以讨论资格和申请要求。（美国海军陆战队视频，由准下士Amee Artiga剪辑）",
    "zhDone": 1,
    "zhChunks": 1,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10003067/vmgr-252-change-command-ceremony",
@@ -632,9 +905,8 @@
    "body": "Brian Kursawe, left, from Connecticut, the outgoing commanding officer of Marine Aerial Refueler Transport Squadron (VMGR) 252, Marine Aircraft Group 14, 2nd Marine Aircraft Wing, receives the organizational colors from Sgt.\n\nMatthew Hood, from Texas, the command senior enlisted leader of VMGR-252 during a change of command ceremony at Marine Corps Air Station Cherry Point, North Carolina, Oct.\n\nThe ceremony signified the transfer of authority, accountability and leadership from Kursawe to Lt.\n\nCorey Jones, from North Carolina, the incoming commanding officer of VMGR-252.\n\nMarine Corps photo by Cpl.",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "来自康涅狄格州的美国海军陆战队中校布莱恩·库尔绍（左），海军陆战队第2航空联队第14航空大队海军陆战队空中加油运输中队（VMGR）252即将离任的指挥官，在2026年10月9日于北卡罗来纳州樱桃角海军陆战队航空站举行的指挥权交接仪式上，从来自得克萨斯州的军士长马修·胡德手中接过部队军旗；胡德是VMGR-252的司令部高级军士长。仪式标志着权力和责任的移交。",
    "titleZh": "VMGR-252指挥权交接仪式",
-   "titleTrans": "ok",
+   "summaryZh": "来自康涅狄格州的美国海军陆战队中校布莱恩·库尔绍（左），海军陆战队第2航空联队第14航空大队海军陆战队空中加油运输中队（VMGR）252即将离任的指挥官，在2026年10月9日于北卡罗来纳州樱桃角海军陆战队航空站举行的指挥权交接仪式上，从来自得克萨斯州的军士长马修·胡德手中接过部队军旗；胡德是VMGR-252的司令部高级军士长。仪式标志着权力和责任的移交。",
    "zhParas": [
     "来自康涅狄格州的布莱恩·库尔绍（左），海军陆战队第2航空联队第14航空大队海军陆战队空中加油运输中队（VMGR）252即将离任的指挥官，从军士长手中接过部队军旗。",
     "来自得克萨斯州的马修·胡德，VMGR-252的司令部高级士兵顾问，于10月在北卡罗来纳州切里波因特海军陆战队航空站举行的指挥权交接仪式上。",
@@ -645,28 +917,6 @@
    "zhFull": "来自康涅狄格州的布莱恩·库尔绍（左），海军陆战队第2航空联队第14航空大队海军陆战队空中加油运输中队（VMGR）252即将离任的指挥官，从军士长手中接过部队军旗。\n\n来自得克萨斯州的马修·胡德，VMGR-252的司令部高级士兵顾问，于10月在北卡罗来纳州切里波因特海军陆战队航空站举行的指挥权交接仪式上。\n\n该仪式标志着指挥权、责任和领导权从库尔绍移交给中校。\n\n来自北卡罗来纳州的科里·琼斯，VMGR-252的新任指挥官。\n\n美国海军陆战队照片，由下士拍摄。",
    "zhDone": 5,
    "zhChunks": 5,
-   "zhState": "ok"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/10003134/us-marine-corps-mounted-color-guard-operations-october-2026",
-   "title": "U.S. Marine Corps Mounted Color Guard Operations - October 2026",
-   "author": "LCpl Jonathan Sherchand",
-   "pubDate": "2026-10-09T18:14:03+00:00",
-   "summary": "U.S. Marine Corps Sgt. Lauren Lynch, a stable keeper with the U.S. Marine Corps Mounted Color Guard, performs groundwork exercises with Rubio at Marine Corps Logistics Base Barstow, Calif., Oct. 8, 2026. The Marine Corps Mounted Color Guard, the only remaining Marine Corps equestrian unit, is stationed at MCLB Barstow, where it trains and cares for its horses while supporting ceremonies and public events. (U.S. Marine Corps photo by Lance Cpl. Jonathan Sherchand)",
-   "body": "Lauren Lynch, a stable keeper with the U.\n\nMarine Corps Mounted Color Guard, performs groundwork exercises with Rubio at Marine Corps Logistics Base Barstow, Calif.\n\nThe Marine Corps Mounted Color Guard, the only remaining Marine Corps equestrian unit, is stationed at MCLB Barstow, where it trains and cares for its horses while supporting ceremonies and public events.\n\nMarine Corps photo by Lance Cpl.",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "titleZh": "美国海军陆战队骑乘仪仗队行动——2026年10月",
-   "summaryZh": "美国海军陆战队中士劳伦·林奇是美国海军陆战队骑乘仪仗队的马厩管理员，她于2026年10月8日在加利福尼亚州巴斯托海军陆战队后勤基地与鲁比奥进行地面基础训练。海军陆战队骑乘仪仗队是海军陆战队唯一现存的马术部队，驻扎在巴斯托海军陆战队后勤基地，负责训练和照料马匹，并支持仪式和公共活动。（美国海军陆战队准下士乔纳森·舍尔昌德拍摄）",
-   "zhParas": [
-    "劳伦·林奇，美国",
-    "海军陆战队骑乘仪仗队的一名马厩管理员，在加利福尼亚州巴斯托海军陆战队后勤基地与鲁比奥进行地面训练。",
-    "海军陆战队骑乘仪仗队是海军陆战队唯一现存的骑乘部队，驻扎在巴斯托海军陆战队后勤基地，在那里训练和照料马匹，同时为仪式和公共活动提供支持。",
-    "美国海军陆战队照片，由准下士拍摄。"
-   ],
-   "zhFull": "劳伦·林奇，美国\n\n海军陆战队骑乘仪仗队的一名马厩管理员，在加利福尼亚州巴斯托海军陆战队后勤基地与鲁比奥进行地面训练。\n\n海军陆战队骑乘仪仗队是海军陆战队唯一现存的骑乘部队，驻扎在巴斯托海军陆战队后勤基地，在那里训练和照料马匹，同时为仪式和公共活动提供支持。\n\n美国海军陆战队照片，由准下士拍摄。",
-   "zhDone": 4,
-   "zhChunks": 4,
    "zhState": "ok",
    "zhAt": null
   },
@@ -941,26 +1191,6 @@
    "zhFull": "夏威夷珍珠港-希卡姆联合基地——2025年夏天，在珍珠港海军造船厂暨中级维护设施（PHNSY & IMF）一个机加工车间的角落里，一等水兵科尔比·莫利拆开了一个压力阀以进行测试。作为澳大利亚皇家海军的航空电子技术员，他在国内很少有机会做这种动手操作的工作。\n\n作为一次首开先例的训练轮换的一部分，莫利是20名澳大利亚皇家海军舰队支援部队（FSU）水兵之一，他们在夏威夷接受训练，学习如何维护美国核动力攻击潜艇。这个跨职能团队去年6月至10月驻扎在珍珠港，完成了美方主导的密集训练轮换，随后于2025年11月返回国内，支援位于澳大利亚西部的斯特灵海军基地内美国“佛蒙特”号（SSN 792）潜艇的维护期。\n\n这个团队是奥库斯联盟车轮上一个虽小但非常重要的齿轮。我们的主要目标是确保澳大利亚在这些较新装备的维护方面能够自力更生，”澳大利亚皇家海军军士长史蒂文·希基说，他是部署维护团队的高级技术官。“舰队支援部队将在为轮换驻留斯特灵海军基地的美方装备提供维护方面发挥重要作用。因此，我们与美国人员——无论是文职人员还是军人——所获得的知识、经验和紧密关系，将在未来发挥至关重要的作用，确保我们未来能够互操作。\n\n在美国，FSU团队的任务是获取美方平台维护经验、建立技术互操作性，并为维持美国和英国核动力潜艇做好准备。根据奥库斯联盟协议，美国和英国正在支持澳大利亚获取、维护和维持其自身主权所有的常规武装核动力潜艇舰队——这与澳大利亚现有的柴电潜艇舰队不同。\n\n潜艇轮换部队-西部”（SRF-West）是奥库斯联盟伙伴关系的关键成果之一。该倡议将使美国“弗吉尼亚”级和英国“机敏”级潜艇从2027年开始，长期轮换部署于澳大利亚皇家海军位于印度洋的潜艇基地——斯特灵海军基地。\n\n战略保障始于人\n\n派往夏威夷的团队从澳大利亚皇家海军五支舰队保障部队（FSU）中抽调，并经过竞争性的、基于技能的筛选流程选拔。这些水兵的专业范围从电子到推进再到武器，反映出澳大利亚未来支持悬挂澳大利亚国旗的核动力潜艇所需的劳动力。\n\n我们需要一支能够嵌入任何地方、快速适应并代表海军工程全貌的团队，”澳大利亚皇家海军上尉扎卡里·特尔夫瑟（Zachery Telfser）说，他是部署维修团队的负责人。“这不仅仅是潜艇工作——而是要建立一支广泛、可互操作的保障队伍，能够根据未来任务需求灵活调整。\n\n一些水兵，例如莫利，并不属于传统的潜艇培养路径。但随着澳大利亚扩大其支持核推进的战备能力，澳大利亚皇家海军正从其整个工程体系中抽调人员，以确定谁能为总体任务作出贡献。\n\n我们正在对系统进行压力测试，”希基说。“在澳大利亚，我们对水兵进行多岗位培训，使他们能够身兼数职。这种灵活性对于在SRF-West交付复杂潜艇维修包的可互操作团队至关重要。\n\n舰队保障部队-西部的水兵将作为SRF-West的主要穿制服维修队伍。来自澳大利亚潜艇局民用保障合作伙伴ASC Pty. Ltd.的200多名人员也在夏威夷接受培训，以领导澳大利亚未来快速攻击潜艇舰队的中继级和基地级维修工作。舰队保障部队和ASC团队都在2025年11月于西澳大利亚HMAS斯特灵进行的潜艇维修期间，对新掌握的技能进行了检验。\n\n这种联合美国海军、澳大利亚皇家海军和澳大利亚文职人员的联合队伍模式，是SRF-West运作方式的核心，”美国海军奥库斯联盟一体化与采办项目办公室负责SRF-West的副部门主管伊丽莎白·托林说。“我们与澳大利亚的合作使我们能够建立一个有凝聚力、可互操作的保障体系。\n\n这些联合努力直接契合美国战争部2026年5月的声明，该声明正式设立斯特灵海军支援设施，并重建第3潜艇中队。珍珠港海军造船厂与中间维护设施（PHNSY & IMF）此前被指定为SRF-West的牵头维修单位，目前正积极准备将其维修分遣队部署到西澳大利亚；在那里，美国人员将继续与FSU和ASC的维修同行并肩工作。\n\n在技术与文化上学会协同工作\n\n对澳大利亚皇家海军电子技术员、上等水兵杰登·韦布而言，这次轮换是他第二次与美国海军共事，也是又一次完善共同维修认知的机会。\n\n我们做的不仅仅是修理系统，”去年8月他与莫利一同接受采访时说。“我们正在学习美国海军如何看待战备、风险和报告。回到澳大利亚后，要安全而自信地维护和保障这些平台，就需要这样做。\n\n韦布被编入美国海军性能监测团队，该团队在潜艇上执行严格的测试与诊断。像莫利这样的其他人则在船厂机加工车间工作，在美国经验丰富的技工指导下重新组装并测试阀门。\n\n在国内，我们习惯了拿到一份技术指令，告诉我们哪里出了问题，”莫利说。“在珍珠港，我们正在学习如何从头排查故障。这教会我更从容地面对不确定性，也更审慎地沟通。\n\n从珍珠港到珀斯\n\n2025年10月，该团队返回西澳大利亚，在计划中的潜艇维护期内登上美国海军‘佛蒙特’号（USS Vermont）执行维护，以此完成任务。\n\n这一潜艇维护期持续到11月，标志着一个历史性里程碑，凸显了奥库斯联盟的发展势头及其在印太地区增强威慑和工业韧性的愿景。对澳大利亚而言，这也是评估其在潜艇保障和主权能力方面长期投资的机会。\n\n这一潜艇维护期相比2024年8月向前迈出了一大步；当时我们有一艘美国潜艇供应舰‘埃默里·S·兰德’号（AS 39）停靠在码头，‘夏威夷’号（SSN 776）就在其对面，由它监督并执行潜艇供应舰维护期，”奥库斯联盟、国际与系统事务主任道格·亚当斯海军少将说。“就‘佛蒙特’号而言，我们的工作包更大，维护队伍真正实现了混合编组，由珍珠港海军造船厂与中级维修机构牵头；当该艇离开前往印太地区执行任务时，它已准备好承担任何任务。\n\n随着澳大利亚继续建设拥有、运营和维护核动力潜艇的能力，来自舰队支援部队（FSU）的水兵将继续支持美国潜艇维护期，包括计划于2026年底前在西澳大利亚进行的下一次维护期。\n\n我们前方仍有许多工作要做，”希基说。“澳大利亚必须发展其基础设施、程序流程和人员队伍。但我们正在证明自己能够胜任这项任务，也正在证明我们是一个有能力、坚定投入的伙伴。\n\n对于像莫利和韦布这样的水兵来说，这段经历也重塑了他们对自身在三边安全框架中所扮演角色的看法。\n\n在我看来，奥库斯联盟的意义在于把我们的部队凝聚在一起，不仅体现在战略上，更体现在日常行动中，”韦布说。“能参与如此重大的事情，令人兴奋。\n\n这是我第一次走出澳大利亚，”莫利补充道。“来到夏威夷，与美国海军合作开展一项将对国内产生如此重大影响的事情——这对我意义重大。",
    "zhDone": 27,
    "zhChunks": 27,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
-   "url": "https://www.dvidshub.net/video/1025757/wti-1-27-ch-53-heavy-lift",
-   "title": "WTI 1-27: CH-53 Heavy Lift",
-   "author": "Cpl Micah Thompson",
-   "pubDate": "2026-10-09T16:55:50+00:00",
-   "summary": "U.S. Marines assigned to Marine Aviation Weapons and Tactics Squadron One (MAWTS-1) conduct CH-53E Super Stallion heavy lift operations as part of Weapons and Tactics Instructor course 1-27, at Auxiliary Airfield II, Yuma, Arizona, Sept. 29, 2026. WTI is a seven-week training event hosted by MAWTS-1 which emphasizes operational integration of the seven functions of Marine aviation in support of th",
-   "body": "U.S. Marines assigned to Marine Aviation Weapons and Tactics Squadron One (MAWTS-1) conduct CH-53E Super Stallion heavy lift operations as part of Weapons and Tactics Instructor course 1-27, at Auxiliary Airfield II, Yuma, Arizona, Sept. 29, 2026. WTI is a seven-week training event hosted by MAWTS-1 which emphasizes operational integration of the seven functions of Marine aviation in support of the Marine Air Ground Task Force, Joint and Coalition Forces. (U.S. Marine Corps video by Cpl. Micah Thompson)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "titleZh": "WTI 1-27：CH-53 重型运输",
-   "summaryZh": "隶属于海军陆战队航空武器与战术第一中队（MAWTS-1）的美国海军陆战队员于2026年9月29日在亚利桑那州尤马二号辅助机场执行CH-53E“超级种马”重型运输任务，作为武器与战术教官课程1-27的一部分。WTI是由MAWTS-1主办、为期七周的训练活动，强调海军陆战队航空兵七大职能的作战整合，以支援海军陆战队空地特遣部队、联合部队和联军部队。",
-   "zhParas": [
-    "隶属于海军陆战队航空武器与战术第一中队（MAWTS-1）的美国海军陆战队员于2026年9月29日在亚利桑那州尤马二号辅助机场执行CH-53E“超级种马”重型运输任务，作为武器与战术教官课程1-27的一部分。WTI是由MAWTS-1主办、为期七周的训练活动，强调海军陆战队航空兵七大职能的作战整合，以支援海军陆战队空地特遣部队、联合部队和联军部队。（美国海军陆战队下士迈卡·汤普森拍摄的视频）"
-   ],
-   "zhFull": "隶属于海军陆战队航空武器与战术第一中队（MAWTS-1）的美国海军陆战队员于2026年9月29日在亚利桑那州尤马二号辅助机场执行CH-53E“超级种马”重型运输任务，作为武器与战术教官课程1-27的一部分。WTI是由MAWTS-1主办、为期七周的训练活动，强调海军陆战队航空兵七大职能的作战整合，以支援海军陆战队空地特遣部队、联合部队和联军部队。（美国海军陆战队下士迈卡·汤普森拍摄的视频）",
-   "zhDone": 1,
-   "zhChunks": 1,
    "zhState": "ok",
    "zhAt": null
   },
@@ -1727,6 +1957,7 @@
    "channel": "us_dod",
    "channelName": "美国国防部",
    "titleZh": "学员熟悉无人机有助于培养未来军官的信心与熟练度",
+   "summaryZh": "尽管对未来战场的一些设想仍停留在科幻领域，但现代冲突已经表明，许多新兴技术已经成为现实。",
    "zhParas": [
     "尽管对未来战场的一些设想仍停留在科幻领域，但现代冲突已经表明，许多新兴技术已经成为现实。",
     "其中包括无人驾驶飞行器（UAV）和无人航空系统（UAS），通常被称为无人机，可通过遥控操作，或利用机载计算机和GPS系统自主运行。在军事行动领域，无人机可用于监视、侦察和作战任务。",
@@ -1792,8 +2023,7 @@
    "zhDone": 59,
    "zhChunks": 59,
    "zhState": "ok",
-   "zhAt": null,
-   "summaryZh": "尽管对未来战场的一些设想仍停留在科幻领域，但现代冲突已经表明，许多新兴技术已经成为现实。"
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/video/1025937/drone-crucible-263-patrol-live-fire",
@@ -1978,28 +2208,6 @@
    "zhAt": null
   },
   {
-   "url": "https://www.dvidshub.net/image/10002389/3rd-marine-division-leadership-speaks-marines",
-   "title": "3rd Marine Division Leadership Speaks to Marines",
-   "author": "LCpl Kylee DiSanto",
-   "pubDate": "2026-10-09T08:50:36+00:00",
-   "summary": "U.S. Marine Corps Sgt. Maj. Jefferey Vandentop, the command senior enlisted leader of 3rd Marine Division, gives recognition to 3rd Battalion, 7th Marine Regiment, currently forward deployed with 4th Marine Regiment, 3rd Marine Division, at the base theater on Camp Schwab, Okinawa, Japan, Oct. 9, 2026. The command visit emphasized the importance of their mission in supporting the U.S.-Japan alliance. (U.S. Marine Corps photo by Cpl. Kylee DiSanto)",
-   "body": "Jefferey Vandentop, the command senior enlisted leader of 3rd Marine Division, gives recognition to 3rd Battalion, 7th Marine Regiment, currently forward deployed with 4th Marine Regiment, 3rd Marine Division, at the base theater on Camp Schwab, Okinawa, Japan, Oct.\n\nThe command visit emphasized the importance of their mission in supporting the U.\n\nMarine Corps photo by Cpl.",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "titleZh": "第3海军陆战师领导层向海军陆战队员讲话",
-   "summaryZh": "2026年10月9日，在日本冲绳施瓦布军营的基地影剧院，美国海军陆战队第3海军陆战师司令部高级军士长杰弗里·范登托普表彰第7海军陆战团第3营，该营目前随第3海军陆战师第4海军陆战团前沿部署。此次司令部视察强调了其支持美日同盟任务的重要性。（美国海军陆战队下士凯莉·迪桑托摄）",
-   "zhParas": [
-    "10月，在日本冲绳施瓦布军营的基地影剧院，第3海军陆战师司令部高级军士长杰弗里·范登托普表彰第7海军陆战团第3营，该营目前随第3海军陆战师第4海军陆战团前沿部署。",
-    "此次司令部访问强调了他们在支援美国（U.）方面所执行任务的重要性。",
-    "美国海军陆战队下士拍摄的照片。"
-   ],
-   "zhFull": "10月，在日本冲绳施瓦布军营的基地影剧院，第3海军陆战师司令部高级军士长杰弗里·范登托普表彰第7海军陆战团第3营，该营目前随第3海军陆战师第4海军陆战团前沿部署。\n\n此次司令部访问强调了他们在支援美国（U.）方面所执行任务的重要性。\n\n美国海军陆战队下士拍摄的照片。",
-   "zhDone": 3,
-   "zhChunks": 3,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
    "url": "https://www.dvidshub.net/video/1025974/sf-fleet-week-26-honor-our-fallen-concert-b-roll",
    "title": "SF Fleet Week 26: Honor Our Fallen Concert (B-Roll)",
    "author": "Sgt Gideon Schippers",
@@ -2016,53 +2224,6 @@
    "zhFull": "2026年10月8日，作为旧金山舰队周活动的一部分，美国海军陆战队第1陆战师军乐队队员和美国海军西南乐队的水兵在旧金山海军陆战队纪念剧院举行的2026年“缅怀阵亡将士”音乐会上演出。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众得以亲身领略当今海上军种的风采。活动期间，水兵、海军陆战队员和海岸警卫队员展示自身能力与装备，参加各类社区服务活动，并感受湾区的热情款待。（美国海军陆战队吉迪恩·希珀斯中士 摄）",
    "zhDone": 1,
    "zhChunks": 1,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
-   "url": "https://www.dvidshub.net/image/10001219/us-service-members-attend-google-veteran-impact-awards",
-   "title": "U.S. Service Members Attend Google Veteran Impact Awards",
-   "author": "SN Aaron Sandovalmendoza",
-   "pubDate": "2026-10-09T07:40:32+00:00",
-   "summary": "U.S. Marine Corps Sgt. Israel Baltazar-Dothe, right, and Sgt. Raymond EstevezFortuna, both assigned to Expeditionary Strike Group Three, attend the third annual Google Veteran Impact Awards at San Francisco Fleet Week, Oct. 7, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, ",
-   "body": "Israel Baltazar-Dothe, right, and Sgt.\n\nRaymond EstevezFortuna, both assigned to Expeditionary Strike Group Three, attend the third annual Google Veteran Impact Awards at San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nNavy Photo by Mass Communication Specialist Seaman Aaron Sandoval-Mendoza)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "titleZh": "美国军人出席谷歌退伍军人影响力奖颁奖典礼",
-   "summaryZh": "美国海军陆战队中士伊斯雷尔·巴尔塔扎尔-多特（右）与中士雷蒙德·埃斯特韦斯-福图纳均隶属于第3远征打击群，于2026年10月7日出席旧金山舰队周期间的第三届年度谷歌退伍军人影响力奖颁奖典礼。旧金山舰队周现已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身目睹当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示其能力与装备，",
-   "zhParas": [
-    "右为伊斯雷尔·巴尔塔扎尔-多特，以及中士",
-    "雷蒙德·埃斯特维斯福图纳，两人均隶属于第3远征打击群，于10月在旧金山舰队周出席第三届谷歌退伍军人影响力奖",
-    "旧金山舰队周如今已举办第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身目睹当今海上部队的风采。",
-    "活动期间，水兵、海军陆战队员和海岸警卫队队员展示其能力和装备，参加各类社区服务活动，并感受湾区的热情好客。",
-    "美国海军照片，由大众传播专家水兵亚伦·桑多瓦尔-门多萨拍摄）"
-   ],
-   "zhFull": "右为伊斯雷尔·巴尔塔扎尔-多特，以及中士\n\n雷蒙德·埃斯特维斯福图纳，两人均隶属于第3远征打击群，于10月在旧金山舰队周出席第三届谷歌退伍军人影响力奖\n\n旧金山舰队周如今已举办第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身目睹当今海上部队的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示其能力和装备，参加各类社区服务活动，并感受湾区的热情好客。\n\n美国海军照片，由大众传播专家水兵亚伦·桑多瓦尔-门多萨拍摄）",
-   "zhDone": 5,
-   "zhChunks": 5,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
-   "url": "https://www.dvidshub.net/image/10001220/us-marines-with-1st-crr-aboard-vets-board-sail",
-   "title": "U.S. Marines with 1st CRR Aboard the Vets Board Sail",
-   "author": "Cpl Destiny Perez",
-   "pubDate": "2026-10-09T07:40:00+00:00",
-   "summary": "U.S. Marines with 1st Combat Readiness Regiment, 1st Marine Logistics Group, and local Veterans look toward the Golden Gate Bridge while aboard a sailboat during the VetsBoats Bay Sail event as part of San Francisco Fleet Week in Richmond, California, Oct. 8, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines and Coast Guardsmen showcase th",
-   "body": "Marines with 1st Combat Readiness Regiment, 1st Marine Logistics Group, and local Veterans look toward the Golden Gate Bridge while aboard a sailboat during the VetsBoats Bay Sail event as part of San Francisco Fleet Week in Richmond, California, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay area.\n\nMarine Corps photo by Cpl.",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "titleZh": "美国海军陆战队第1战斗战备团的海军陆战队员在退伍军人船只航行活动上乘船",
-   "summaryZh": "2026年10月8日，在加利福尼亚州里士满，作为旧金山舰队周的一部分，美国海军陆战队第1战斗战备团、第1海军陆战队后勤大队的海军陆战队员与当地退伍军人在“退伍军人船只海湾航行”活动期间乘帆船眺望金门大桥。旧金山舰队周现已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见识当今的海上军种。活动期间，水兵、海军陆战队员和海岸警卫队队员展示其……",
-   "zhParas": [
-    "10月，在加利福尼亚州里士满，作为旧金山舰队周的一部分，海军陆战队第1战斗战备团、第1海军陆战队后勤大队的海军陆战队员与当地退伍军人在参加“退伍军人船只海湾航行”活动时，乘帆船眺望金门大桥。",
-    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上军种。",
-    "活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参加各类社区服务活动，并享受湾区的热情款待。",
-    "海军陆战队照片，由下士拍摄。"
-   ],
-   "zhFull": "10月，在加利福尼亚州里士满，作为旧金山舰队周的一部分，海军陆战队第1战斗战备团、第1海军陆战队后勤大队的海军陆战队员与当地退伍军人在参加“退伍军人船只海湾航行”活动时，乘帆船眺望金门大桥。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上军种。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参加各类社区服务活动，并享受湾区的热情款待。\n\n海军陆战队照片，由下士拍摄。",
-   "zhDone": 4,
-   "zhChunks": 4,
    "zhState": "ok",
    "zhAt": null
   },
@@ -2098,53 +2259,6 @@
    "zhFull": "赫尔辛基——阿利·伯克级导弹驱逐舰“保罗·伊格内修斯”号（DDG 117）完成了历史性的多日海上穿越，途经波罗的海和波的尼亚湾，在成功访问斯德哥尔摩后，于10月8日抵达赫尔辛基。\n\n此次穿越标志着地区防务一体化中的一个里程碑，瑞典和芬兰随舰领航员与美国海军水兵并肩行动，联合登舰。瑞典和芬兰随舰领航员于10月5日在斯德哥尔摩登舰，直接编入该舰航海部门。作为专业领航员，这些随舰领航员提供了关键的当地知识和水文专业知识，以在波罗的海北部海域复杂的浅水区航行，随后驱逐舰安全抵达赫尔辛基。\n\n此次穿越之前，北欧地区已开展数项双边和多边行动。近期活动包括美国和北欧在挪威的联合海上部署，以及在北大西洋举行的旨在整合远程海上防御能力的联合演习。这些活动是连接北大西洋、高北地区和波罗的海地区的协调防御框架的一部分。\n\n此次部署凸显了美国、瑞典和芬兰作为能力强大的盟友之间深度融合的防务关系。航行期间，三国海军执行了复杂的航行和战术演习，旨在增强互操作性、地区海域态势感知和集体防御能力。这些行动最终在波的尼亚湾进行了密集的三边训练演练，舰员们实施了高端防空想定和对无人水面目标的实弹射击演习，以验证联合目标选择规程和联合防空一体化。\n\n美国海军‘保罗·伊格内修斯’号在瑞典和芬兰领航员共同值守引导下无缝穿越波的尼亚湾，这是海上领域合作精神最纯粹的体现，”美国海军第6舰队司令J.T.安德森中将表示。“随着我们的北欧盟友投资世界一流的现代化项目并扩大其行动范围，他们为我们的集体防御带来了决定性战斗力。简言之：随着美国和我们盟友提高战备和能力，我们作为集体力量将更强大、更有韧性。\n\n在访问斯德哥尔摩和赫尔辛基港口期间，安德森会见了瑞典和芬兰高级防务领导人，包括芬兰国防军司令扬内·亚科拉（Janne Jaakkola）上将、瑞典海军司令约翰·诺伦（Johan Norlén）少将，以及芬兰海军司令图奥马斯·蒂利凯宁（Tuomas Tiilikainen）少将。讨论重点是保护关键海上基础设施、协调高北地区的应对方案，以及统一整个北翼的防御态势。\n\n在斯德哥尔摩，瑞典武装部队最高指挥官迈克尔·克莱松将军会见了地区领导人，以强调瑞典海军在联盟内角色的快速演变。\n\n瑞典不再只是保卫自己的海岸；我们正在积极为整个波罗的海地区和高北地区的集体安全作出贡献，”克莱松说。“通过我们新型防空护卫舰等高端现代化，以及与美国海军等盟友的深度融合，我们正在表明，我们能够作为一支统一的力量作战。类似此次过境的演习证明，我们的互操作性是无缝的，我们的共同防御是绝对的。\n\n在回顾波罗的海北部水域联合演习的重大战略意义时，蒂利凯宁强调了三边演习带来的实际安全效益。\n\n蒂利凯宁表示：“我们与盟国一道，致力于保障芬兰和瑞典的海上交通线安全。这样一来，我们将能够支持盟军行动，并维护我们社会的供应安全。这些三方演习支持波罗的海的防务安排，因为各方都能从彼此的专业知识和能力中受益。‘保罗·伊格内修斯’号驱逐舰为满足海上和防空需求，向该地区带来了独特且高效的能力。我们将继续欢迎美国海军来到我们地区。\n\n这些活动还凸显了海军力量与地区外交之间的关键交汇点。在赫尔辛基，美国驻芬兰大使霍华德·布罗迪强调了此次海军访问该国首都的战略分量。\n\n美国海军‘保罗·伊格内修斯’号驱逐舰出现在赫尔辛基这里，清楚而切实地提醒着我们，美国对芬兰盟友的承诺坚如磐石，”布罗迪说。“此次访问以联合随舰计划为亮点，表明我们的安全无缝衔接。芬兰在海上和航空航天领域的先进现代化努力不仅捍卫了我们的边界，还以指数级增强了整个北约联盟在高北地区的实力。\n\n这些外交与军事相结合的行动表明，三边互操作性已从战略概念转变为实际作战能力。通过实施这些联合过境行动，美国海军和地区盟友正在直接协调保护关键海底和海上基础设施，同时在高北地区展示统一的防御态势。\n\n芬兰和瑞典以高度过硬的能力融入北约框架，继续强化高北地区和波罗的海的安全架构，”安德森说。“我们芬兰和瑞典盟友无与伦比的地区专业知识和现代化努力，确保北约始终准备好威慑侵略，并捍卫盟国领土的每一寸土地。\n\n保罗·伊格内修斯”号是一艘前沿部署的海军资产，隶属美国第六舰队作战区域，用于支持美国欧洲-非洲海军部队的作战效能、杀伤力和战备状态，并捍卫美国、盟友及伙伴在该地区的利益。\n\n美国第六舰队总部设在意大利那不勒斯，负责实施全谱系联合行动和海军行动，并经常与盟军、跨机构力量及伙伴部队协同，以推进美国国家利益，促进欧洲和非洲的安全与稳定。",
    "zhDone": 16,
    "zhChunks": 16,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
-   "url": "https://www.dvidshub.net/image/10001232/ssfw-hosts-networking-event-following-day-two-senior-leaders-seminar",
-   "title": "SSFW Hosts Networking Event following Day Two of the Senior Leaders Seminar",
-   "author": "SN Ian Byler",
-   "pubDate": "2026-10-09T07:36:06+00:00",
-   "summary": "U.S. Navy Rear Adm. David N. Barnes, deputy commander, Navy Recruiting Command, greets Joshua Alvarado, Director of External Affairs at AT&amp;T, at a networking event following day two of the Senior Leaders Seminar during San Francisco Fleet Week, Oct. 8, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase thei",
-   "body": "Barnes, deputy commander, Navy Recruiting Command, greets Joshua Alvarado, Director of External Affairs at AT&T, at a networking event following day two of the Senior Leaders Seminar during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area (U.\n\nNavy Photo by Mass Communication Specialist Seaman Alex Byler)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "titleZh": "旧金山舰队周在高级领导人研讨会第二天结束后举办联络交流活动",
-   "summaryZh": "美国海军少将戴维·N·巴恩斯，海军招募司令部副司令，于2026年10月8日旧金山舰队周期间高级领导人研讨会第二天结束后的一场联络交流活动上，问候 AT&T 对外事务总监约书亚·阿尔瓦拉多。旧金山舰队周如今已是第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今的海上服务。活动期间，水兵、海军陆战队队员和海岸警卫队队员展示他们的……",
-   "zhParas": [
-    "海军招募司令部副司令巴恩斯，在旧金山舰队周期间高级领导人研讨会第二天结束后的一场联络交流活动上，问候 AT&T 对外事务总监约书亚·阿尔瓦拉多，10月。",
-    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上军种的风采。",
-    "活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参加各种社区服务活动，并享受湾区的热情款待（U.",
-    "美国海军照片，由大众传播专家、水兵亚历克斯·拜勒拍摄）"
-   ],
-   "zhFull": "海军招募司令部副司令巴恩斯，在旧金山舰队周期间高级领导人研讨会第二天结束后的一场联络交流活动上，问候 AT&T 对外事务总监约书亚·阿尔瓦拉多，10月。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上军种的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参加各种社区服务活动，并享受湾区的热情款待（U.\n\n美国海军照片，由大众传播专家、水兵亚历克斯·拜勒拍摄）",
-   "zhDone": 4,
-   "zhChunks": 4,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
-   "url": "https://www.dvidshub.net/image/10001264/ssfw-hosts-day-two-senior-leaders-seminar",
-   "title": "SSFW Hosts Day Two of the Senior Leaders Seminar",
-   "author": "SN Ian Byler",
-   "pubDate": "2026-10-09T07:30:13+00:00",
-   "summary": "U.S. Navy Rear Adm. David J. Faehnle, commander, Navy Region Southwest, left, speaks with Dr. Craig Hooper, Founder of Themistocles Advisory Group, at a networking event following day two of the Senior Leaders Seminar during San Francisco Fleet Week, Oct. 8, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase th",
-   "body": "Faehnle, commander, Navy Region Southwest, left, speaks with Dr.\n\nCraig Hooper, Founder of Themistocles Advisory Group, at a networking event following day two of the Senior Leaders Seminar during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area (U.\n\nNavy Photo by Mass Communication Specialist Seaman Alex Byler)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "titleZh": "旧金山舰队周举办高级领导人研讨会第二天",
-   "summaryZh": "美国海军西南地区司令部司令、海军少将大卫·J·费恩勒（左）在2026年10月8日旧金山舰队周第二天高级领导人研讨会后的交流活动中，与地米斯托克利咨询集团创始人克雷格·胡珀博士交谈。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上服务。活动期间，水兵、海军陆战队员和海岸警卫队员展示",
-   "zhParas": [
-    "海军西南地区司令部司令费恩勒（左）与……博士交谈。",
-    "克雷格·胡珀，地米斯托克利咨询集团创始人，在旧金山舰队周高级领导人研讨会第二天之后的一场社交活动上，10月",
-    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上军种。",
-    "活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力和装备，参加各种社区服务活动，并享受湾区的热情款待（美国",
-    "海军照片，由大众传播专家、水兵亚历克斯·拜勒拍摄）"
-   ],
-   "zhFull": "海军西南地区司令部司令费恩勒（左）与……博士交谈。\n\n克雷格·胡珀，地米斯托克利咨询集团创始人，在旧金山舰队周高级领导人研讨会第二天之后的一场社交活动上，10月\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上军种。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力和装备，参加各种社区服务活动，并享受湾区的热情款待（美国\n\n海军照片，由大众传播专家、水兵亚历克斯·拜勒拍摄）",
-   "zhDone": 5,
-   "zhChunks": 5,
    "zhState": "ok",
    "zhAt": null
   },
@@ -2326,28 +2440,6 @@
    "zhAt": null
   },
   {
-   "url": "https://www.dvidshub.net/image/10001384/stop-drop-learn",
-   "title": "Stop, Drop & Learn",
-   "author": "A1C Bre Lewis",
-   "pubDate": "2026-10-09T03:12:58+00:00",
-   "summary": "Child Development Center students interact with Sparky during a Fire Prevention Week static display at Moody Air Force Base, Georgia, Oct. 8, 2026. Early education is a key part of the fire department’s readiness mission, equipping children and families with the knowledge to recognize hazards, make sound decisions and respond during emergencies. (U.S. Air Force photo by Airman 1st Class Bre Lewis)",
-   "body": "Child Development Center students interact with Sparky during a Fire Prevention Week static display at Moody Air Force Base, Georgia, Oct.\n\nEarly education is a key part of the fire department’s readiness mission, equipping children and families with the knowledge to recognize hazards, make sound decisions and respond during emergencies.\n\nAir Force photo by Airman 1st Class Bre Lewis)",
-   "channel": "us_dod",
-   "channelName": "美国国防部",
-   "titleZh": "停、趴、学",
-   "summaryZh": "2026年10月8日，儿童发展中心的学生在佐治亚州穆迪空军基地举行的火灾预防周静态展示期间与斯帕基互动。早期教育是消防部门战备任务的关键组成部分，使儿童和家庭掌握识别危险、作出正确决策并在紧急情况下应对的知识。（美国空军一等兵布蕾·刘易斯拍摄）",
-   "zhParas": [
-    "儿童发展中心的学生在佐治亚州穆迪空军基地举行的火灾预防周静态展示期间与斯帕基互动，10月。",
-    "早期教育是消防部门战备任务的关键组成部分，使儿童和家庭掌握识别危险、做出明智决策并在紧急情况下应对的知识。",
-    "美国空军照片，由空军一等兵布雷·刘易斯拍摄）"
-   ],
-   "zhFull": "儿童发展中心的学生在佐治亚州穆迪空军基地举行的火灾预防周静态展示期间与斯帕基互动，10月。\n\n早期教育是消防部门战备任务的关键组成部分，使儿童和家庭掌握识别危险、做出明智决策并在紧急情况下应对的知识。\n\n美国空军照片，由空军一等兵布雷·刘易斯拍摄）",
-   "zhDone": 3,
-   "zhChunks": 3,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
    "url": "https://www.dvidshub.net/video/1025966/tropic-lightning-soldiers-conduct-fries-tower-training",
    "title": "Tropic Lightning Soldiers Conduct FRIES Tower Training",
    "author": "PFC Leonardo A Martinez Tovar",
@@ -2508,28 +2600,6 @@
    "zhAt": null
   },
   {
-   "url": "https://www.dvidshub.net/image/10001286/installation-protection-exercise-mcbh",
-   "title": "Installation protection exercise at MCBH",
-   "author": "LCpl Tania Guerrero",
-   "pubDate": "2026-10-09T01:40:48+00:00",
-   "summary": "The Honolulu Police Department clear buildings during an installation protection exercise at Marine Corps Base Hawaii, Oct. 7, 2026. The exercise enhanced installation protection capabilities by allowing responding agencies to rehearse coordinated emergency response procedures. (U.S. Marine Corps photo by Lance Cpl. Tania Guerrero)",
-   "body": "The Honolulu Police Department clear buildings during an installation protection exercise at Marine Corps Base Hawaii, Oct.\n\nThe exercise enhanced installation protection capabilities by allowing responding agencies to rehearse coordinated emergency response procedures.\n\nMarine Corps photo by Lance Cpl.",
-   "channel": "us_dod",
-   "channelName": "美国国防部",
-   "titleZh": "夏威夷海军陆战队基地设施保护演习",
-   "summaryZh": "2026年10月7日，檀香山警察局在夏威夷海军陆战队基地的一次设施保护演习中清查建筑物。该演习通过让响应机构演练协调一致的应急响应程序，提升了设施保护能力。（美国海军陆战队准下士塔尼亚·格雷罗摄）",
-   "zhParas": [
-    "10月，檀香山警察局在夏威夷海军陆战队基地的一次设施保护演习中清查建筑物。",
-    "此次演习通过让响应机构演练协同应急响应程序，增强了设施保护能力。",
-    "美国海军陆战队照片，由准下士拍摄。"
-   ],
-   "zhFull": "10月，檀香山警察局在夏威夷海军陆战队基地的一次设施保护演习中清查建筑物。\n\n此次演习通过让响应机构演练协同应急响应程序，增强了设施保护能力。\n\n美国海军陆战队照片，由准下士拍摄。",
-   "zhDone": 3,
-   "zhChunks": 3,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
    "url": "https://www.defensenews.com/news/your-army/2026/10/08/century-old-houses-getting-new-life-at-fort-bragg/",
    "title": "Century-old houses getting new life at Fort Bragg",
    "author": "Karen Jowers",
@@ -2557,34 +2627,6 @@
    "zhFull": "在北卡罗来纳州布拉格堡，已有近百年历史的住宅正焕发新生，既保留了其历史风貌，又提供了更新设施并解决了安全隐患。\n\n布拉格堡的官员和运营该基地住房的私有化住房公司Corvias最近庆祝了首批翻修完工，这是21栋可供军人家庭入住的历史住宅中的第一栋。这些住宅建于1928年至1939年间，具有灰泥墙、铜制排水槽、硬木地板和地下室等特色。\n\n布拉格堡有230套建于1940年之前的住房，且全部被指定为历史建筑。但这些甚至还不是陆军最古老的住房。据陆军称，还有867套建于1919年之前的住房，分布在13个州和哥伦比亚特区的另外19处陆军设施上。\n\n官员表示，在布拉格堡，该基地6104套住房中约有2300套建于1960年之前。\n\n美国陆军管理着联邦政府中规模最大的历史性住房存量，拥有超过3万套房龄超过50年的历史住宅。据历史保护咨询委员会称，这些住宅须遵守《国家历史保护法》的要求。\n\n该联邦机构的使命是促进对美国历史场所的保护，并已与陆军及其他军种合作；在他们制定这些房屋的翻新计划时，确保既保留其历史风貌，又满足军人家庭的需求。\n\n这些住宅是布拉格堡历史的重要组成部分，但它们最大的价值在于继续为居住在这些住宅中的士兵和家属服务，”该基地驻军司令卢克·维特默上校在一份公告中表示。“此次翻修保护了历史，同时确保我们继续满足当今家庭的需求。\n\n对军人家庭而言，历史住宅长期以来一直难以保护和维护，存在含铅油漆和石棉等各种问题，而这些问题的治理既危险又成本高昂。\n\n大多数军方历史性住房都被列入了军事住房清单，而这些住房从21世纪初开始被移交给私营公司运营和维护。\n\n据陆军称，历史住宅目前在不同住户之间进行准备平均需要18天，而标准住宅为15天。平均费用为4342美元，而标准住宅为3681美元。\n\n官员们表示，布拉格堡于1922年被指定为永久性陆军驻地，沿亚历山大街和亨特街的首批常驻军官家属宿舍于1927年动工。士官家属住房的建设于1928年开始。\n\n凯伦为《军事时报》报道军人家庭、生活质量及消费者议题已有30多年，并合著了《支持军人家庭的作战计划》一书中关于媒体如何报道军人家庭的一章。她此前曾在关岛、诺福克、佛罗里达州杰克逊维尔和佐治亚州雅典的报社工作。",
    "zhDone": 12,
    "zhChunks": 12,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
-   "url": "https://www.dvidshub.net/image/10001049/navy-and-marine-corps-commendation-medal-awarded-us-navy-equipment-operator-first-class-seabee-combat-warfare-diver-jacob-s",
-   "title": "Navy and Marine Corps Commendation Medal awarded to U.S. Navy Equipment Operator First Class (Seabee Combat Warfare/Diver) Jacob S. Mooney",
-   "author": "Yvonne Appel",
-   "pubDate": "2026-10-08T23:20:03+00:00",
-   "summary": "PORT HUENEME, Calif. (October 8, 2026) – U.S. Navy Capt. Adam S. Perrins, EX Technical Department Head, Naval Facilities Engineering and Expeditionary Warfare Center (NAVFAC EXWC) awards U.S. Navy Equipment Operator First Class (Seabee Combat Warfare/Diver) Jacob S. Mooney the Department of the Navy, Navy and Marine Corps Commendation Medal. The Navy and Marine Corps Commendation Medal is to honor service members who distinguish themselves through acts of heroism, outstanding achievement, or com",
-   "body": "PORT HUENEME, Calif.\n\n(October 8, 2026) – U.\n\nPerrins, EX Technical Department Head, Naval Facilities Engineering and Expeditionary Warfare Center (NAVFAC EXWC) awards U.\n\nNavy Equipment Operator First Class (Seabee Combat Warfare/Diver) Jacob S.\n\nMooney the Department of the Navy, Navy and Marine Corps Commendation Medal.\n\nThe Navy and Marine Corps Commendation Medal is to honor service members who distinguish themselves through acts of heroism, outstanding achievement, or commendable service performed well above normal expectations.\n\nThis decoration provides formal recognition for contributions that significantly impact the naval service or display notable courage but fall just short of the strict criteria required for higher-tier awards.\n\nNAVFAC EXWC, headquartered at Naval Base Ventura County (NBVC), California, is a command comprised of federal civilian employees, contractors, and military personnel providing research, development, test, and evaluation, and in-service engineering to deliver specialized facility and expeditionary solutions to the warfighter, specifically focusing on the Expeditionary, Oceans, and Shore Technical Domains.\n\nNavy photo by Yvonne Appel)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "titleZh": "美国海军一等设备操作员（海蜂战斗/潜水员）雅各布·S·穆尼获颁海军与海军陆战队嘉奖奖章",
-   "summaryZh": "加利福尼亚州怀尼米港（2026年10月8日）——美国海军上校亚当·S·佩林斯，海军设施工程与远征作战中心（NAVFAC EXWC）EX技术部门主管，向美国海军一等设备操作员（海蜂战斗/潜水员）雅各布·S·穆尼颁发海军部海军与海军陆战队嘉奖奖章。海军与海军陆战队嘉奖奖章旨在表彰因英勇行为、杰出成就或战斗英勇而表现突出的军人。",
-   "zhParas": [
-    "加利福尼亚州怀尼米港",
-    "（2026年10月8日）——U.",
-    "佩林斯，海军设施工程与远征作战中心（NAVFAC EXWC）EX技术部门主管，授予U.",
-    "海军设备操作员一等士官（海蜂战斗作战/潜水员）雅各布·S.",
-    "穆尼获颁海军部海军与海军陆战队嘉奖奖章。",
-    "海军与海军陆战队嘉奖奖章旨在表彰因英勇行为、杰出成就或远超正常预期的优良服役而表现突出的军人。",
-    "该勋章旨在正式表彰那些对海军事业产生重大影响或展现出显著勇气，但仅差一点而未达到更高级别奖项严格标准的贡献。",
-    "NAVFAC EXWC总部位于加利福尼亚州文图拉县海军基地（NBVC），是一支由联邦文职雇员、承包商和军事人员组成的司令部，负责提供研究、开发、试验与鉴定以及在役工程，为作战人员交付专业化的设施与远征解决方案，尤其侧重于远征、海洋和岸基技术领域。",
-    "美国海军照片，由伊冯娜·阿佩尔拍摄）"
-   ],
-   "zhFull": "加利福尼亚州怀尼米港\n\n（2026年10月8日）——U.\n\n佩林斯，海军设施工程与远征作战中心（NAVFAC EXWC）EX技术部门主管，授予U.\n\n海军设备操作员一等士官（海蜂战斗作战/潜水员）雅各布·S.\n\n穆尼获颁海军部海军与海军陆战队嘉奖奖章。\n\n海军与海军陆战队嘉奖奖章旨在表彰因英勇行为、杰出成就或远超正常预期的优良服役而表现突出的军人。\n\n该勋章旨在正式表彰那些对海军事业产生重大影响或展现出显著勇气，但仅差一点而未达到更高级别奖项严格标准的贡献。\n\nNAVFAC EXWC总部位于加利福尼亚州文图拉县海军基地（NBVC），是一支由联邦文职雇员、承包商和军事人员组成的司令部，负责提供研究、开发、试验与鉴定以及在役工程，为作战人员交付专业化的设施与远征解决方案，尤其侧重于远征、海洋和岸基技术领域。\n\n美国海军照片，由伊冯娜·阿佩尔拍摄）",
-   "zhDone": 9,
-   "zhChunks": 9,
    "zhState": "ok",
    "zhAt": null
   },
@@ -2674,55 +2716,6 @@
    "zhFull": "一名美国参议员最近被拒绝进入中东最大的军事基地，他称这是对伊朗战争期间所受损害的“掩盖”。\n\n康涅狄格州民主党参议员克里斯·墨菲本周随国会代表团访问中东，与海湾地区领导人交谈，并视察美国设施，以评估伊朗战争造成的损害。墨菲被拒绝进入位于卡塔尔的乌代德空军基地，该基地在冲突期间曾遭无人机袭击而受损。\n\n他们正在动用一切可用手段，包括隐瞒损失信息、故意放缓伤亡报告发布速度，并拒绝让我们查看受损情况，以此作为掩盖行动的一部分，从而掩盖战争的真实代价，”墨菲周四告诉记者。\n\n这一“前所未有”的拒绝进入基地的做法，让身为参议院外交关系委员会和国防拨款委员会成员的墨菲准备在接下来几天起草相关措辞，明确要求国防部在必要时无论何种情况都允许国会议员进入海外军事基地。\n\n我并不幻想这能在今年年底前获得通过，但我认为，这将成为明年围绕拨款法案和国防授权法案的讨论中非常重要的一部分，”他在记者电话会上说。\n\n在此行之前，墨菲通过一封信并直接向美军中央司令部领导层提出请求，要求进入该基地。但尽管美国国务院支持他前往该地区，他仍被拒绝进入，国防部则表示这是由于此前实施的旅行限制。\n\n墨菲参议员办公室在他前往中东之前已被告知，他不会获得战争部支持进入乌代德空军基地，这符合战争部长于2026年3月3日下达的关于该地区旅行限制的指令，”一名国防部高级官员周四对《军事时报》表示。\n\n该决定已由战争部长立法事务办公室提前传达，”这名官员继续说道。“战争部会一视同仁地执行部长的指导意见。\n\n3月初，国务院和国防部发布了旅行指引，呼吁美国人离开该地区的相关区域，并更新旅行建议，建议不要前往某些国家，包括卡塔尔。\n\n国会议员前往冲突地区，直接与参与冲突的军方领导人和士兵交谈，并亲眼查看我们的基地和设备所遭受的损害，这完全是寻常之事，”墨菲说，并强调在伊拉克和阿富汗战争期间，他能够访问作战基地。\n\n他辩称，既然国会决定战争的资金和授权，就有必要亲眼看到后果，但他在该地区期间却无法访问乌代德空军基地，也无法与美国军方官员就这场战争听取简报。\n\n在3月发布旅行警告的同一天，位于沙特阿拉伯利雅得的美国大使馆遭到两架伊朗无人机袭击，导致建筑受损并起火。墨菲表示，无人机击中了使馆的多个楼层，部分区域现已“无法居住”，并受到永久性损坏。\n\n美国此前于2023年宣布计划在利雅得新建大使馆园区，墨菲将缺乏维修归因于此。\n\n尽管此次袭击未报告造成人员受伤或死亡，墨菲称，如果袭击发生在白天，本会造成许多美国人死亡。\n\n国防部长皮特·赫格塞思决心向美国公众隐瞒这场战争的代价和后果，而我和共和党参议员们被剥夺了亲眼查看破坏情况的能力，这绝对令人愤慨，”他说。\n\n克里斯蒂娜·斯塔西斯是一名记者，报道国防工业、国家安全、军事/退伍军人事务等领域。她曾于2024年在《防务新闻》担任编辑研究员，协助新闻编辑部处理Sightline Media Group旗下媒体的突发新闻。",
    "zhDone": 16,
    "zhChunks": 16,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
-   "url": "https://www.dvidshub.net/news/576688/combat-center-takes-part-california-great-shakeout",
-   "title": "Combat Center takes part in California Great Shakeout",
-   "author": "2LT Danielle Renee",
-   "pubDate": "2026-10-08T21:30:26+00:00",
-   "summary": "MARINE CORPS AIR GROUND COMBAT CENTER TWENTYNINE PALMS, Calif. - The installation will conduct a mass notification and earthquake drill at 10:15 a.m. on Oct. 15, 2026, in conjunction with California’s 2026 Great ShakeOut Drill.",
-   "body": "MARINE CORPS AIR GROUND COMBAT CENTER TWENTYNINE PALMS, Calif. - The installation will conduct a mass notification and earthquake drill at 10:15 a.m. on Oct. 15, 2026, in conjunction with California’s 2026 Great ShakeOut Drill.\n\nFor more than 14 years, Marine Corps Air Ground Combat Center (MCAGCC) has participated in the annual Great ShakeOut Drill, helping to promote earthquake safety and preparedness across the installation. Each year millions of people worldwide take part in the exercise at work, school, and home.\n\nThe purpose of this drill is to test all mass notification systems, including the base-wide public address system and digital notifications, and gives MCAGCC personnel the opportunity to test their individual earthquake action plans.\n\n“The Great California ShakeOut gives our service members, civilian employees, contractors, and families an opportunity to practice the immediate actions that can save lives during an earthquake,” said Marcelino Ryan, MCAGCC fire chief. “This training is particularly important at the Combat Center because of the constant rotation of forces and personnel through the installation.”\n\nThe Twentynine Palms region faces elevated earthquake risk because it lies within the Eastern California Shear Zone and near several fault lines. The 1992 Landers earthquake, which registered a magnitude of 7.3, caused a nearly 50-mile surface fault rupture through the Mojave Desert.\n\nDuring the exercise, personnel and families should expect to hear the installation’s speaker system, Big Voice, announce that a base-wide earthquake drill is taking place, followed by instruction to assume the “Drop, Cover, and Hold On” position. Participants should remain in this position for approximately one minute. At the conclusion of the drill, Big Voice will announce the exercise has ended. These updates will also be provided through Alert!, the Marine Corps mass-warning notification system.\n\nThe exercise is expected to last no longer than 10 minutes, according to the base fire department. While the exercise is only required for base personnel, residents of military housing are encouraged to participate.\n\nAdvanced preparation can save lives and reduce unnecessary disruption. Personnel and families are encouraged to have a checklist, make a plan, and become familiar with available resources before an emergency occurs. During the recovery phases of a significant earthquake, the installation may activate its Emergency Operations Center to coordinate information, assess community needs, prioritize requests, and direct available resources, Ryan said.\n\nIndividuals with a Common Access Card can sign up to receive notifications through Alert! at dod.alert.mil. Those already enrolled should ensure their personal contact information is up to date. Family members may also be added to also receive notifications.\n\nFor more information and preparedness resources, visit the Ready Marine Corps website at https://www.ready.marines.mil and Great ShakeOut website at https://www.shakeout.org/.",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "titleZh": "海军陆战队空地作战中心参加加利福尼亚州“大地震”演习",
-   "summaryZh": "加利福尼亚州二十九棕榈村海军陆战队空地作战中心——该设施将于2026年10月15日上午10时15分举行大规模通知和地震演习，配合加利福尼亚州2026年“大地震”演习。",
-   "zhParas": [
-    "加利福尼亚州二十九棕榈村海军陆战队空地作战中心——该设施将于2026年10月15日上午10时15分举行大规模通知和地震演习，配合加利福尼亚州2026年“大地震”演习。",
-    "14年多来，海军陆战队空地作战中心（MCAGCC）一直参加一年一度的“大地震”演习，帮助在整个设施内推广地震安全与备灾意识。每年，全球有数百万人在工作场所、学校和家中参与这一演习。",
-    "此次演习的目的是测试所有大规模通知系统，包括全基地公共广播系统和数字通知，并让MCAGCC人员有机会检验各自的地震行动预案。",
-    "加州大地震演习让我们军人、文职雇员、承包商和家属有机会演练地震期间能够挽救生命的即时行动，”MCAGCC消防队长马塞利诺·瑞安说。“由于部队和人员不断轮换进出该基地，这项训练在战斗中心尤为重要。",
-    "二十九棕榈地区面临较高的地震风险，因为它位于加州东部剪切带内，并靠近多条断层线。1992年的兰德斯地震震级为7.3级，在莫哈韦沙漠中造成了近50英里长的地表断层破裂。",
-    "演习期间，人员及家属预计会听到基地的扬声器系统“大嗓门”（Big Voice）宣布正在举行全基地地震演习，随后会指示采取“伏地、遮挡、手抓牢”姿势。参演人员应保持该姿势约一分钟。演习结束时，Big Voice将宣布演习已结束。这些最新信息也将通过海军陆战队大规模警报通知系统 Alert! 发布。",
-    "据基地消防部门称，此次演习预计不会超过10分钟。虽然演习仅要求基地人员参加，但鼓励军事住房居民参与。",
-    "预先准备可以挽救生命并减少不必要的干扰。鼓励人员及家属在紧急情况发生前准备一份清单、制定一项计划，并熟悉可用的资源。瑞安说，在重大地震的恢复阶段，基地可能会启动其应急行动中心，以协调信息、评估社区需求、确定各项请求的优先次序并调配可用资源。",
-    "持有通用访问卡的人员可通过 dod.alert.mil 上的 Alert! 注册以接收通知。已注册人员应确保其个人联系信息保持最新。也可添加家属，以便同样接收通知。",
-    "如需了解更多信息和备灾资源，请访问海军陆战队战备（Ready Marine Corps）网站 https://www.ready.marines.mil 以及 Great ShakeOut 网站 https://www.shakeout.org/。"
-   ],
-   "zhFull": "加利福尼亚州二十九棕榈村海军陆战队空地作战中心——该设施将于2026年10月15日上午10时15分举行大规模通知和地震演习，配合加利福尼亚州2026年“大地震”演习。\n\n14年多来，海军陆战队空地作战中心（MCAGCC）一直参加一年一度的“大地震”演习，帮助在整个设施内推广地震安全与备灾意识。每年，全球有数百万人在工作场所、学校和家中参与这一演习。\n\n此次演习的目的是测试所有大规模通知系统，包括全基地公共广播系统和数字通知，并让MCAGCC人员有机会检验各自的地震行动预案。\n\n加州大地震演习让我们军人、文职雇员、承包商和家属有机会演练地震期间能够挽救生命的即时行动，”MCAGCC消防队长马塞利诺·瑞安说。“由于部队和人员不断轮换进出该基地，这项训练在战斗中心尤为重要。\n\n二十九棕榈地区面临较高的地震风险，因为它位于加州东部剪切带内，并靠近多条断层线。1992年的兰德斯地震震级为7.3级，在莫哈韦沙漠中造成了近50英里长的地表断层破裂。\n\n演习期间，人员及家属预计会听到基地的扬声器系统“大嗓门”（Big Voice）宣布正在举行全基地地震演习，随后会指示采取“伏地、遮挡、手抓牢”姿势。参演人员应保持该姿势约一分钟。演习结束时，Big Voice将宣布演习已结束。这些最新信息也将通过海军陆战队大规模警报通知系统 Alert! 发布。\n\n据基地消防部门称，此次演习预计不会超过10分钟。虽然演习仅要求基地人员参加，但鼓励军事住房居民参与。\n\n预先准备可以挽救生命并减少不必要的干扰。鼓励人员及家属在紧急情况发生前准备一份清单、制定一项计划，并熟悉可用的资源。瑞安说，在重大地震的恢复阶段，基地可能会启动其应急行动中心，以协调信息、评估社区需求、确定各项请求的优先次序并调配可用资源。\n\n持有通用访问卡的人员可通过 dod.alert.mil 上的 Alert! 注册以接收通知。已注册人员应确保其个人联系信息保持最新。也可添加家属，以便同样接收通知。\n\n如需了解更多信息和备灾资源，请访问海军陆战队战备（Ready Marine Corps）网站 https://www.ready.marines.mil 以及 Great ShakeOut 网站 https://www.shakeout.org/。",
-   "zhDone": 10,
-   "zhChunks": 10,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
-   "url": "https://www.dvidshub.net/video/1025945/us-marines-and-sailors-arrive-san-francisco-san-francisco-fleet-week-2026",
-   "title": "U.S. Marines and sailors arrive in San Francisco for San Francisco Fleet Week 2026",
-   "author": "LCpl Katherine Fohn",
-   "pubDate": "2026-10-08T21:28:25+00:00",
-   "summary": "U.S. Marines and Sailors aboard Whidbey Island-class amphibious dock landing ship USS Ashland (LSD 48) prepare to man the rails for San Francisco Fleet Week, Oct. 6, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen show",
-   "body": "U.S. Marines and Sailors aboard Whidbey Island-class amphibious dock landing ship USS Ashland (LSD 48) prepare to man the rails for San Francisco Fleet Week, Oct. 6, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the bay area. (U.S. Marine Corps video by Lance Cpl. Katherine Fohn)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "titleZh": "美国海军陆战队队员和水兵抵达旧金山参加2026年旧金山舰队周",
-   "summaryZh": "2026年10月6日，在惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48）上，美国海军陆战队队员和水兵正准备为旧金山舰队周站坡。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众得以亲眼目睹当今的海上部队。活动期间，水兵、海军陆战队队员和海岸警卫队队员展示",
-   "zhParas": [
-    "在惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48）上，美国海军陆战队员和水兵正准备为2026年10月6日的旧金山舰队周沿舷侧列队站坡。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示自身能力与装备，参加各类社区服务活动，并感受湾区的热情好客。（美国海军陆战队凯瑟琳·福恩准下士拍摄的视频）"
-   ],
-   "zhFull": "在惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48）上，美国海军陆战队员和水兵正准备为2026年10月6日的旧金山舰队周沿舷侧列队站坡。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示自身能力与装备，参加各类社区服务活动，并感受湾区的热情好客。（美国海军陆战队凯瑟琳·福恩准下士拍摄的视频）",
-   "zhDone": 1,
-   "zhChunks": 1,
    "zhState": "ok",
    "zhAt": null
   },
@@ -11126,30 +11119,6 @@
    "zhFull": "密歇根州阿尔佩纳作战战备训练中心——当安保部队的士兵们在宁静的清晨穿上弹道防弹背心时，他们的状态便发生了微妙的变化。这不仅仅是在标准装备外再增添一件防护装备，更意味着他们决心成为阻挡潜在威胁与部队之间的屏障。对于第121安保部队中队的空军士兵们而言，穿上这副防弹背心，就意味着要承担起背负沉重装备、在恶劣环境中坚守岗位、并履行永不松懈的保卫职责的重任。\n\n第121安保部队中队指挥官、美国空军杰弗里·拉扎尔上尉表示：‘我们必须树立这样的意识——自己才是保护部队、让作战航空力量顺利升空的第一道也是最后一道防线。’他进一步指出，安保部队是一份要求极为严苛的职业，需要让年仅18岁的年轻人随时准备冒生命危险，在关键时刻做出关乎生死的决策。\n\n作为在军中服役20年后才被授予军官军衔的杰弗里·拉扎尔深知，这份工作的责任远不止穿上一件战术背心那么简单。他能够在长时间工作、极端高温以及身体极度疲劳的情况下依然坚持下去，源于他对驻守在防线后方任务的坚定执着。\n\n拉扎尔表示：‘作为防线守护者，很多时候困扰我们的并非眼前的挑战，而是身后需要保护的人们与事物，正是这些让我们坚持下去。我们会时刻牢记自己正在守护的是家乡的种种——那些我们在此努力捍卫的自由与权利。’\n\n这种坚韧不拔的精神，源于在严酷的野外环境与漫长的值守时间里逐渐磨砺出的共同意志。每当暴雨倾盆而下，双腿愈发沉重，装备也愈发沉闷，此时唯一能支撑他们继续前进、完成任务的，便是纯粹的毅力。\n\n在野外执行任务时所面临的巨大压力才是最出色的老师，”第121安全部队中队的士兵、美国空军上士肖恩·怀特这样说道。“只有真正身处野外，亲身经历恶劣天气，感受彼此的情绪，才能真正理解其中的含义。那些艰苦的日子会层层剥去每个人的伪装，让人暴露出最真实的自我，从而在残酷的现实面前建立起彼此间的深刻理解。\n\n怀特在整个职业生涯中多次与这些空军士兵一同执行任务和参加联合演习，他发现该部队的真正优势在于其相互问责以及个人全心投入的团队文化。\n\n怀特表示：“这份职业完全取决于个人自身的付出与努力。每天早上穿上制服时，我首先想到的是要向那些先于我服役的战友们致敬。环顾左右，看到同样身着这身制服的同事们，比任何事物都更能激励我。\n\n这种共同的目标意识贯穿于所有层级，从高级领导层一直到刚刚走上飞行甲板的新生士兵。当这些新兵还在学习基本技能时，就在持续的压力下迅速成长，同时与队友之间建立起其他任何地方都无法替代的紧密纽带。\n\n121st SFS的士兵伊斯顿·弗罗斯特是一名空军一等兵，他这样说道：‘每天早上穿上防弹背心时，我就相当于按下了启动键，从此成为一名安保人员。’他进一步解释道，这意味着自己必须竭尽全力确保任务顺利完成。在安保部队中建立的兄弟情谊实属独一无二，我们仿佛融为一个整体。\n\n无论是需要在指挥层面做出战术决策，还是在条件极为严苛的作战环境中负责地面防御，第121安全力量中队的防卫人员们都始终坚守着共同的使命认同——这种认同通过他们所佩戴的贝雷帽以及他们负责守护的部队得以体现。\n\n拉扎尔表示：“只有当一个人真正获得那枚勋章并戴上那顶贝雷帽之后，才算是一名真正的防卫人员。这顶贝雷帽正是我们与其他人的区别所在——所有佩戴它的人都是经过努力才获得它的，而这恰恰意味着我们就是部队的守护者。",
    "zhDone": 12,
    "zhChunks": 12,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
-   "url": "https://www.af.mil/News/Article-Display/Article/4614370/aetc-advances-next-gen-pilot-training-with-t-7a-red-hawk-live-virtual-construct/",
-   "title": "AETC advances next-gen pilot training with T-7A Red Hawk live-virtual-constructive integration",
-   "author": "Capt. Tyler Whiting",
-   "pubDate": "2026-09-29T22:10:00+00:00",
-   "summary": "The milestone links live flying operations with synchronized synthetic battlespace environments in real time; modernizing undergraduate pilot training and preparing aircrews for fifth- and sixth-generation combat operations. <img alt=\"The first T-7A Red Hawk, piloted by USAF test pilot Maj. Jonathan “Gremlin” Aronoff and Boeing test pilot Steve “Bull” Schmidt, soars over Edwards Air Force Base, California, Nov. 8, prior to arrival. The T-7A will replace the 1960s-era T-38 aircraft by providing a",
-   "body": "Published Sept. 29, 2026\n\nBy Capt. Tyler Whiting\n\nAir Education and Training Command Public Affairs\n\nAir Education and Training Command achieved a modernization milestone Sept. 16 as instructor pilots from the 99th Flying Training Squadron and civilian simulator instructors from the 12th Training Squadron executed AETC’s inaugural live-virtual-constructive capability flight between the T-7A Red Hawk and the T-7A Ground-Based Training System.\n\nSkip to main content (Press Enter).",
-   "channel": "us_airforce",
-   "channelName": "美国空军",
-   "titleZh": "空军教育训练司令部通过整合T-7A“红鹰”战斗机与实时虚拟构建技术，推进新一代飞行员训练计划",
-   "summaryZh": "空军教育训练司令部公共事务部门表示，通过将T-7A“红鹰”战斗机与实时虚拟构建技术相整合，该部队正在推进新一代飞行员训练计划。这一创新举措实现了实际飞行操作与同步生成的虚拟战场环境之间的实时连接，从而提升了本科阶段飞行员的训练水平，也为他们参与第五代及第六代战机所执行的作战任务做好了准备。",
-   "zhParas": [
-    "发布于2026年9月29日",
-    "作者：泰勒·惠廷上尉",
-    "空军教育与训练司令部公共事务部",
-    "9月16日，空军教育与训练司令部实现了一个现代化里程碑：来自第99飞行训练中队的飞行教官和来自第12训练中队的民用模拟器教员，在T-7A“红鹰”与T-7A地面训练系统之间执行了AETC的首次实况-虚拟-构造能力飞行。",
-    "跳至主要内容（按 Enter 键）。"
-   ],
-   "zhFull": "发布于2026年9月29日\n\n作者：泰勒·惠廷上尉\n\n空军教育与训练司令部公共事务部\n\n9月16日，空军教育与训练司令部实现了一个现代化里程碑：来自第99飞行训练中队的飞行教官和来自第12训练中队的民用模拟器教员，在T-7A“红鹰”与T-7A地面训练系统之间执行了AETC的首次实况-虚拟-构造能力飞行。\n\n跳至主要内容（按 Enter 键）。",
-   "zhDone": 5,
-   "zhChunks": 5,
    "zhState": "ok",
    "zhAt": null
   },
