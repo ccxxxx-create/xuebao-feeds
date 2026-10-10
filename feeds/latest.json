@@ -1,97 +1,276 @@
 {
- "updatedAt": "2026-10-10T12:05:16.819366+00:00",
+ "updatedAt": "2026-10-10T17:16:40.252410+00:00",
  "meta": {
   "afresearchlab": {
    "name": "AFRL",
    "status": "ok",
    "count": 4,
    "error": null,
-   "fetchedAt": "2026-10-10T12:05:16.819366+00:00"
+   "fetchedAt": "2026-10-10T17:16:40.252410+00:00"
   },
   "westpoint": {
    "name": "西点军校",
    "status": "error",
    "count": 0,
    "error": "all feeds failed: https://www.westpoint.edu/rss.xml -> HTTP Error 403: ",
-   "fetchedAt": "2026-10-10T12:05:16.819366+00:00"
+   "fetchedAt": "2026-10-10T17:16:40.252410+00:00"
   },
   "airandspaceforces": {
    "name": "Air & Space Forces",
    "status": "ok",
    "count": 9,
    "error": null,
-   "fetchedAt": "2026-10-10T12:05:16.819366+00:00"
+   "fetchedAt": "2026-10-10T17:16:40.252410+00:00"
   },
   "govuk_mod": {
    "name": "英国国防部",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-10-10T12:05:16.819366+00:00"
+   "fetchedAt": "2026-10-10T17:16:40.252410+00:00"
   },
   "defensenews": {
    "name": "Defense News",
    "status": "ok",
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-10-10T12:05:16.819366+00:00"
-  },
-  "rand": {
-   "name": "兰德",
-   "status": "ok",
-   "count": 29,
-   "error": null,
-   "fetchedAt": "2026-10-10T12:05:16.819366+00:00"
+   "fetchedAt": "2026-10-10T17:16:40.252410+00:00"
   },
   "us_dod": {
    "name": "美国国防部",
    "status": "ok",
    "count": 40,
    "error": null,
-   "fetchedAt": "2026-10-10T12:05:16.819366+00:00"
+   "fetchedAt": "2026-10-10T17:16:40.252410+00:00"
+  },
+  "rand": {
+   "name": "兰德",
+   "status": "ok",
+   "count": 29,
+   "error": null,
+   "fetchedAt": "2026-10-10T17:16:40.252410+00:00"
   },
   "us_airforce": {
    "name": "美国空军",
    "status": "ok",
-   "count": 19,
+   "count": 18,
    "error": null,
-   "fetchedAt": "2026-10-10T12:05:16.819366+00:00"
+   "fetchedAt": "2026-10-10T17:16:40.252410+00:00"
   },
   "us_marines": {
    "name": "美国海军陆战队",
    "status": "ok",
    "count": 40,
    "error": null,
-   "fetchedAt": "2026-10-10T12:05:16.819366+00:00"
+   "fetchedAt": "2026-10-10T17:16:40.252410+00:00"
   }
  },
  "items": [
   {
-   "url": "https://www.dvidshub.net/image/10004470/us-ambassadors-and-uspacom-visit-commander-fleet-activities-japan-during-indo-pacific-ambassadorial-summit",
-   "title": "U.S. Ambassadors and USPACOM visit Commander, Fleet Activities Japan during Indo-Pacific Ambassadorial Summit",
-   "author": "CPO Taylor DiMartino",
-   "pubDate": "2026-10-10T11:21:10+00:00",
-   "summary": "U.S. Navy Capt. Micah Sybor, commanding officer of Arleigh Burke-class guided-missile destroyer USS McCampbell (DDG 85), left, leads a tour aboard the ship for Adm. Samuel J. Paparo, commander, U.S. Pacific Command, Asia-Pacific U.S. Ambassadors and State Department senior members at Commander, Fleet Activities Yokosuka, Japan, Oct. 9, 2026. Ambassador George Glass, U.S. Ambassador to Japan and Adm. Samuel J. Paparo, Commander, U.S. Pacific Command hosted the delegation to discuss the security e",
-   "body": "Micah Sybor, commanding officer of Arleigh Burke-class guided-missile destroyer USS McCampbell (DDG 85), left, leads a tour aboard the ship for Adm.\n\nPaparo, commander, U.\n\nPacific Command, Asia-Pacific U.\n\nAmbassadors and State Department senior members at Commander, Fleet Activities Yokosuka, Japan, Oct.\n\nAmbassador George Glass, U.\n\nAmbassador to Japan and Adm.\n\nPaparo, Commander, U.\n\nPacific Command hosted the delegation to discuss the security environment across the PACOM area of operations.\n\nNavy Photo by Chief Mass Communication Specialist Taylor DiMartino)",
+   "url": "https://www.dvidshub.net/image/10004618/pa-national-guard-soldiers-honored-during-deployment-ceremony",
+   "title": "Pa. National Guard Soldiers honored during deployment ceremony",
+   "author": "Wayne Hall",
+   "pubDate": "2026-10-10T16:57:05+00:00",
+   "summary": "U.S. Soldiers assigned to the 928th Finance Company, 213th Regional Support Group, Pennsylvania Army National Guard, and their families are honored during a deployment ceremony at Fort Indiantown Gap, Pa., Oct. 10, 2026. Nearly 20 Soldiers with the battalion were recognized as they prepared to depart for a year-long deployment to the Middle East. The deployment is in support of U.S. Central Command and partner forces to provide decentralized purchasing ability and discal accountability. (U.S. Ar",
+   "body": "Soldiers assigned to the 928th Finance Company, 213th Regional Support Group, Pennsylvania Army National Guard, and their families are honored during a deployment ceremony at Fort Indiantown Gap, Pa.\n\nNearly 20 Soldiers with the battalion were recognized as they prepared to depart for a year-long deployment to the Middle East.\n\nThe deployment is in support of U.\n\nCentral Command and partner forces to provide decentralized purchasing ability and discal accountability.\n\nArmy National Guard photo by Wayne V.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "美国海军上校、阿利·伯克级导弹驱逐舰“麦坎贝尔”号（DDG 85）舰长迈卡·西博（左）于2026年10月9日在日本横须贺美国海军基地，在舰上为美军印太司令部司令塞缪尔·J·帕帕罗海军上将、美国驻亚太地区大使及国务院高级官员引领参观。美国驻日本大使乔治·格拉斯与美军印太司令部司令塞缪尔·J·帕帕罗海军上将共同接待该代表团，讨论安全环境。",
-   "titleZh": "美国大使与美军太平洋司令部在印太大使峰会期间访问美国海军驻日舰队活动司令部",
+   "summaryZh": "隶属于宾夕法尼亚陆军国民警卫队第213地区支援群第928财务连的美国士兵及其家属，于2026年10月10日在宾夕法尼亚州因迪安敦盖普堡举行的部署仪式上受到表彰。该营近20名士兵在准备启程前往中东执行为期一年的部署任务时受到表彰。此次部署旨在支援美军中央司令部及伙伴部队，提供分散采购能力和财务问责。",
+   "titleZh": "宾夕法尼亚国民警卫队士兵在部署仪式上受到表彰",
    "titleTrans": "ok",
    "zhParas": [
-    "阿利·伯克级导弹驱逐舰“麦坎贝尔”号（DDG 85）舰长迈卡·西博（左）在舰上为海军上将引领参观。",
-    "帕帕罗，司令，美国",
-    "太平洋司令部，亚太地区美国",
-    "10月，大使和国务院高级官员在位于日本横须贺的舰队活动司令部。",
-    "乔治·格拉斯大使，美国。",
-    "驻日本大使和海军上将",
-    "帕帕罗，司令，美国",
-    "太平洋司令部接待了代表团，讨论太平洋司令部作战区域内的安全环境。",
-    "海军照片，由首席大众传播专家泰勒·迪马蒂诺拍摄）"
+    "隶属于宾夕法尼亚陆军国民警卫队第213地区支援群第928财务连的士兵及其家属，在宾夕法尼亚州因迪安敦盖普堡举行的部署仪式上受到表彰。",
+    "该营近20名士兵在准备启程前往中东执行为期一年的部署任务时受到表彰。",
+    "此次部署旨在支持美国",
+    "中央司令部及伙伴部队，以提供分散采购能力和财政问责。",
+    "陆军国民警卫队照片，由韦恩·V.拍摄"
    ],
-   "zhFull": "阿利·伯克级导弹驱逐舰“麦坎贝尔”号（DDG 85）舰长迈卡·西博（左）在舰上为海军上将引领参观。\n\n帕帕罗，司令，美国\n\n太平洋司令部，亚太地区美国\n\n10月，大使和国务院高级官员在位于日本横须贺的舰队活动司令部。\n\n乔治·格拉斯大使，美国。\n\n驻日本大使和海军上将\n\n帕帕罗，司令，美国\n\n太平洋司令部接待了代表团，讨论太平洋司令部作战区域内的安全环境。\n\n海军照片，由首席大众传播专家泰勒·迪马蒂诺拍摄）",
-   "zhDone": 9,
-   "zhChunks": 9,
+   "zhFull": "隶属于宾夕法尼亚陆军国民警卫队第213地区支援群第928财务连的士兵及其家属，在宾夕法尼亚州因迪安敦盖普堡举行的部署仪式上受到表彰。\n\n该营近20名士兵在准备启程前往中东执行为期一年的部署任务时受到表彰。\n\n此次部署旨在支持美国\n\n中央司令部及伙伴部队，以提供分散采购能力和财政问责。\n\n陆军国民警卫队照片，由韦恩·V.拍摄",
+   "zhDone": 5,
+   "zhChunks": 5,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/news/576777/simulation-street-madigan-training-prepared-soldier-save-lives-5",
+   "title": "Simulation to Street: How Madigan Training Prepared a Soldier to Save Lives on I-5",
+   "author": "Joseph Jones",
+   "pubDate": "2026-10-10T16:47:36+00:00",
+   "summary": "JOINT BASE LEWIS-McCHORD, Washington — What began as a routine commute to work on October 5, 2026 quickly became anything but routine for Sgt. 1st Class Jeff Hytower. Hytower, a practical nursing specialist assigned to Madigan Army Medical Center, was driving to Joint Base Lewis-McChord when he encountered the aftermath of a serious vehicle crash on Interstate 5 near DuPont, Washington. Seeing that help might be needed, Hytower turned around, activated his hazard lights and found a safe location",
+   "body": "JOINT BASE LEWIS-McCHORD, Washington — What began as a routine commute to work on October 5 quickly became anything but routine for Sgt. 1st Class Jeff Hytower.\n\nHytower, a practical nursing specialist assigned to Madigan Army Medical Center, was driving to Joint Base Lewis-McChord when he encountered the aftermath of a serious vehicle crash on Interstate 5 near DuPont, Washington.\n\nSeeing that help might be needed, Hytower turned around, activated his hazard lights and found a safe location to stop.\n\n“I just jumped up, it was just instinct,” Hytower said. “That’s when training kicks in.”\n\nAs he approached an overturned SUV, Hytower quickly realized the emergency extended far beyond injuries from a vehicle collision. He saw a woman, presumably from the accident, wielding a knife and attacking her two children.\n\nHytower moved in rapidly to intervene.\n\n“Once I saw the knife… I was just trying to isolate that knife from anyone trying to cause harm,” Hytower said.\n\nFortunately, Hytower was not alone. Other service members independently stopped to help, quickly forming an ad-hoc team on the shoulder of the interstate.\n\nSgt. Ricardo Nunez, assigned to the 7th Infantry Division, assisted Hytower in disarming and restraining the woman. Washington National Guard combat medic Sgt. Alexis McKay also responded, providing medical assistance and comfort to one of the injured children until law enforcement arrived.\n\nOnce the immediate threat was controlled, Hytower turned his attention to reassuring the two children. As a parent, seeing their fear affected him personally.\n\n“None of us stopped that morning expecting anything like this to happen,” Hytower said. “We just saw people who needed help and did what we would want others to do for us and our families. I also think it shows the importance of teamwork. Everyone there played a part, whether it was providing medical care, keeping the kids calm, calling for help, or making sure the situation stayed safe. We weren’t looking for recognition; we were just trying to do the right thing.”\n\nFor Hytower, his decisive actions reflected the high-stakes readiness he practices and teaches daily at Madigan.\n\nAs a practical nursing specialist, Hytower helps train service members in patient care using realistic medical simulation. Madigan’s advanced simulation capabilities allow medical personnel to practice responding to complex patient scenarios using high-fidelity mannequins that replicate breathing, heart sounds, coughing and other critical clinical conditions.\n\nHytower’s response also reflects Madigan’s broader commitment to medical readiness and hands-on training. Through a range of clinical education, trauma-response and military medical training programs, Madigan prepares service members to assess rapidly changing situations, respond under pressure and provide lifesaving care when it matters most.\n\nAs an instructor within that training environment, Hytower helps reinforce the same skills, judgment and readiness that carry from the classroom and clinical setting into unexpected real-world emergencies.\n\nThe heroic, collaborative response of the joint service members drew high praise from local military leadership.\n\n\"The rapid, decisive actions of Sgt. 1st Class Hytower, Sgt. Nunez, and Sgt. McKay represent the very best of our profession,\" said Command Sgt. Maj. Gary D. Petty, the senior enlisted adviser for Madigan Army Medical Center.\n\n\"When confronted with a chaotic and dangerous situation, these soldiers didn’t hesitate,\" Petty said. \"They relied on their training, placed themselves between danger and the vulnerable, and saved lives. I am incredibly proud of their courage, their bias for action, and their absolute commitment to protecting others.\"\n\nSeveral service members helped detain the suspect until Washington State Patrol personnel arrived and assumed responsibility for the investigation.\n\nFor Hytower, the interstate rescue serves as a stark reminder of why rigorous military training matters long before a crisis occurs.\n\n“I think the biggest thing was just being able to stay calm and assess what was happening,” Hytower said. “With both my Soldier and medical training, you’re taught to quickly figure out what needs to be done and prioritize what’s most important. At first, our focus was making sure everyone involved in the accident was okay and getting them the help they needed. When the situation suddenly changed, we were able to react quickly and make sure everyone was safe. A lot of that comes from the training we’ve received and being able to fall back on it without really having to think about it.\"",
+   "channel": "us_dod",
+   "channelName": "美国国防部",
+   "summaryZh": "华盛顿州刘易斯-麦科德联合基地——2026年10月5日，对三级军士长杰夫·海托尔而言，原本例行的上班通勤很快就变得毫不寻常。海托尔是派驻马迪根陆军医疗中心的一名实用护理专科人员，当时正驾车前往刘易斯-麦科德联合基地，却在华盛顿州杜邦附近的5号州际公路上遇到一起严重车辆事故的现场。意识到可能需要帮助，海托尔掉头，打开危险警示灯，并找到一处安全位置。",
+   "titleZh": "从模拟到街头：马迪根训练如何让一名士兵在5号州际公路上挽救生命",
+   "titleTrans": "ok",
+   "zhParas": [
+    "华盛顿州刘易斯-麦科德联合基地——10月5日，对三级军士长杰夫·海托尔而言，原本例行的上班通勤很快就变得毫不寻常。",
+    "海托尔是派驻马迪根陆军医疗中心的实用护理专科人员，当时正驾车前往刘易斯-麦科德联合基地，却在华盛顿州杜邦附近的5号州际公路上遇到一起严重车祸后的现场。",
+    "看到可能需要帮助，海托尔掉转车头，打开危险警示灯，并找到一处安全地点停车。",
+    "我一下子就跳了起来，那纯粹是本能，”海托尔说，“就在那时，训练开始起作用了。",
+    "当他走近一辆侧翻的SUV时，海托尔很快意识到，这起紧急情况远不止车辆碰撞造成的伤害。他看到一名女子——据推测是事故相关人员——正挥舞着刀袭击她的两个孩子。",
+    "海托尔迅速上前干预。",
+    "一看到那把刀……我只是想把那把刀和任何想伤害他人的人隔开，”海托尔说。",
+    "幸运的是，海托尔并非孤身一人。其他军人也各自停下车来帮忙，很快在州际公路路肩上临时组成了一支小组。",
+    "隶属于第7步兵师的中士里卡多·努涅斯协助海托尔解除了该女子的武装并将其制服。华盛顿国民警卫队战斗医护兵中士亚历克西斯·麦凯也赶到了现场，为其中一名受伤儿童提供医疗救助和安抚，直到执法人员赶到。",
+    "直接威胁得到控制后，海托尔将注意力转向安抚那两个孩子。身为一名家长，看到他们的恐惧让他深受触动。",
+    "那天早上我们停下来时，谁都没料到会发生这样的事，”海托尔说。“我们只是看到有人需要帮助，就做了我们希望别人能为我们和我们的家人做的事。我还认为，这体现了团队合作的重要性。在场的每个人都出了一份力，无论是提供医疗救护、安抚孩子们、呼救，还是确保现场保持安全。我们并不是为了得到认可；我们只是想做正确的事。",
+    "对海托尔而言，他的果断行动体现了他在马迪根每天实践并教授的高风险战备能力。",
+    "作为一名实用护理专科人员，海托尔利用逼真的医疗模拟帮助训练军人在患者护理方面的技能。马迪根先进的模拟能力使医务人员能够使用高仿真人体模型练习应对复杂的患者情景，这些模型可模拟呼吸、心音、咳嗽及其他关键临床状况。",
+    "海托尔的应对也体现了马迪根对医疗战备和实操训练的更广泛承诺。通过一系列临床教育、创伤应对和军事医疗培训项目，马迪根让军人做好准备，以评估迅速变化的情况、在压力下作出反应，并在关键时刻提供救生护理。",
+    "作为该培训环境中的教官，海托尔帮助强化同样的技能、判断力和战备素养，使它们从课堂和临床环境延续到突发的现实紧急情况中。",
+    "这些联合部队军人英勇而协作的应对，赢得了当地军方领导层的高度赞扬。",
+    "一等军士海托尔、中士努涅斯和中士麦凯迅速而果断的行动，代表了我们这一职业的最高水准，”马迪根陆军医疗中心高级士兵顾问、指挥军士长加里·D·佩蒂说。",
+    "当面对混乱而危险的局面时，这些士兵没有犹豫，”佩蒂说。“他们依靠自己的训练，把自己置于危险与弱势者之间，并挽救了生命。我为他们的勇气、他们勇于行动的作风以及他们对保护他人的绝对承诺感到无比自豪。",
+    "几名军人协助拘留了嫌疑人，直到华盛顿州巡警人员赶到并接管调查工作。",
+    "对海托尔而言，这次州际公路上的救援鲜明地提醒他，为什么严格的军事训练在危机发生之前很久就至关重要。",
+    "我认为最重要的一点就是能够保持冷静，并评估当时正在发生什么，”海托尔说。“凭借我的军人训练和医疗训练，你会被教导要迅速弄清需要做什么，并优先处理最重要的事情。起初，我们的重点是确保事故中的每个人都平安无事，并让他们得到所需的帮助。当情况突然变化时，我们能够迅速反应，确保所有人都安全。这在很大程度上来自我们接受的训练，以及能够不加思索地依靠它。"
+   ],
+   "zhFull": "华盛顿州刘易斯-麦科德联合基地——10月5日，对三级军士长杰夫·海托尔而言，原本例行的上班通勤很快就变得毫不寻常。\n\n海托尔是派驻马迪根陆军医疗中心的实用护理专科人员，当时正驾车前往刘易斯-麦科德联合基地，却在华盛顿州杜邦附近的5号州际公路上遇到一起严重车祸后的现场。\n\n看到可能需要帮助，海托尔掉转车头，打开危险警示灯，并找到一处安全地点停车。\n\n我一下子就跳了起来，那纯粹是本能，”海托尔说，“就在那时，训练开始起作用了。\n\n当他走近一辆侧翻的SUV时，海托尔很快意识到，这起紧急情况远不止车辆碰撞造成的伤害。他看到一名女子——据推测是事故相关人员——正挥舞着刀袭击她的两个孩子。\n\n海托尔迅速上前干预。\n\n一看到那把刀……我只是想把那把刀和任何想伤害他人的人隔开，”海托尔说。\n\n幸运的是，海托尔并非孤身一人。其他军人也各自停下车来帮忙，很快在州际公路路肩上临时组成了一支小组。\n\n隶属于第7步兵师的中士里卡多·努涅斯协助海托尔解除了该女子的武装并将其制服。华盛顿国民警卫队战斗医护兵中士亚历克西斯·麦凯也赶到了现场，为其中一名受伤儿童提供医疗救助和安抚，直到执法人员赶到。\n\n直接威胁得到控制后，海托尔将注意力转向安抚那两个孩子。身为一名家长，看到他们的恐惧让他深受触动。\n\n那天早上我们停下来时，谁都没料到会发生这样的事，”海托尔说。“我们只是看到有人需要帮助，就做了我们希望别人能为我们和我们的家人做的事。我还认为，这体现了团队合作的重要性。在场的每个人都出了一份力，无论是提供医疗救护、安抚孩子们、呼救，还是确保现场保持安全。我们并不是为了得到认可；我们只是想做正确的事。\n\n对海托尔而言，他的果断行动体现了他在马迪根每天实践并教授的高风险战备能力。\n\n作为一名实用护理专科人员，海托尔利用逼真的医疗模拟帮助训练军人在患者护理方面的技能。马迪根先进的模拟能力使医务人员能够使用高仿真人体模型练习应对复杂的患者情景，这些模型可模拟呼吸、心音、咳嗽及其他关键临床状况。\n\n海托尔的应对也体现了马迪根对医疗战备和实操训练的更广泛承诺。通过一系列临床教育、创伤应对和军事医疗培训项目，马迪根让军人做好准备，以评估迅速变化的情况、在压力下作出反应，并在关键时刻提供救生护理。\n\n作为该培训环境中的教官，海托尔帮助强化同样的技能、判断力和战备素养，使它们从课堂和临床环境延续到突发的现实紧急情况中。\n\n这些联合部队军人英勇而协作的应对，赢得了当地军方领导层的高度赞扬。\n\n一等军士海托尔、中士努涅斯和中士麦凯迅速而果断的行动，代表了我们这一职业的最高水准，”马迪根陆军医疗中心高级士兵顾问、指挥军士长加里·D·佩蒂说。\n\n当面对混乱而危险的局面时，这些士兵没有犹豫，”佩蒂说。“他们依靠自己的训练，把自己置于危险与弱势者之间，并挽救了生命。我为他们的勇气、他们勇于行动的作风以及他们对保护他人的绝对承诺感到无比自豪。\n\n几名军人协助拘留了嫌疑人，直到华盛顿州巡警人员赶到并接管调查工作。\n\n对海托尔而言，这次州际公路上的救援鲜明地提醒他，为什么严格的军事训练在危机发生之前很久就至关重要。\n\n我认为最重要的一点就是能够保持冷静，并评估当时正在发生什么，”海托尔说。“凭借我的军人训练和医疗训练，你会被教导要迅速弄清需要做什么，并优先处理最重要的事情。起初，我们的重点是确保事故中的每个人都平安无事，并让他们得到所需的帮助。当情况突然变化时，我们能够迅速反应，确保所有人都安全。这在很大程度上来自我们接受的训练，以及能够不加思索地依靠它。",
+   "zhDone": 21,
+   "zhChunks": 21,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10003407/jtf-dc-national-symposium-united-states-court-appeals-judges-security-detail-with-us-marshall-services",
+   "title": "JTF-DC National Symposium for United States Court of Appeals Judges security detail with U.S. Marshall Services",
+   "author": "SGT Katlynn Pickle",
+   "pubDate": "2026-10-10T15:30:03+00:00",
+   "summary": "U.S. Army Staff Sgt. Devin Campbell (front left), Spc. Corderion Dean (rear left), and Sgt. 1st Class Steven Gonzalez (right), all with the Mississippi National Guard assigned to Joint Task Force-District of Columbia (JTF-DC) in support of the DC Safe and Beautiful mission, hold a secure position while on a security detail for the National Symposium for United States Court of Appeals Judges at the Omni Shoreham Hotel in Washington, Oct. 9, 2026. About 2,900 National Guard members are supporting ",
+   "body": "Devin Campbell (front left), Spc.\n\nCorderion Dean (rear left), and Sgt.\n\n1st Class Steven Gonzalez (right), all with the Mississippi National Guard assigned to Joint Task Force-District of Columbia (JTF-DC) in support of the DC Safe and Beautiful mission, hold a secure position while on a security detail for the National Symposium for United States Court of Appeals Judges at the Omni Shoreham Hotel in Washington, Oct.\n\nAbout 2,900 National Guard members are supporting the mission, providing critical assistance to the Metropolitan Police Department to help ensure the safety of residents, commuters, and visitors throughout the District.\n\nArmy National Guard photo by Sgt.",
+   "channel": "us_dod",
+   "channelName": "美国国防部",
+   "summaryZh": "美国陆军上士德文·坎贝尔（左前）、技术兵科德里昂·迪恩（左后）和一级中士史蒂文·冈萨雷斯（右）均隶属于密西西比州国民警卫队，被派往哥伦比亚特区联合特遣部队（JTF-DC），支援“华盛顿特区安全与美丽”任务，于2026年10月9日在华盛顿奥姆尼肖勒姆酒店为美国联邦上诉法院法官全国研讨会执行安保任务时，坚守一处安全位置。约2900名国民警卫队成员正在提供支援。",
+   "titleZh": "JTF-DC与美国法警局为美国联邦上诉法院法官全国研讨会执行安保任务",
+   "titleTrans": "ok",
+   "zhParas": [
+    "德文·坎贝尔（左前），技术兵。",
+    "科德里昂·迪恩（后排左），以及中士。",
+    "上士史蒂文·冈萨雷斯（右）等均隶属于密西西比州国民警卫队，被指派至哥伦比亚特区联合特遣部队（JTF-DC），支援“华盛顿特区安全与美丽”任务；他们在华盛顿奥姆尼肖勒姆酒店为美国联邦上诉法院法官全国研讨会执行安保任务时坚守一个安全位置，10月。",
+    "约2,900名国民警卫队队员正在支持该任务，向大都会警察局提供重要协助，以帮助确保整个特区居民、通勤者和游客的安全。",
+    "陆军国民警卫队照片，由中士拍摄"
+   ],
+   "zhFull": "德文·坎贝尔（左前），技术兵。\n\n科德里昂·迪恩（后排左），以及中士。\n\n上士史蒂文·冈萨雷斯（右）等均隶属于密西西比州国民警卫队，被指派至哥伦比亚特区联合特遣部队（JTF-DC），支援“华盛顿特区安全与美丽”任务；他们在华盛顿奥姆尼肖勒姆酒店为美国联邦上诉法院法官全国研讨会执行安保任务时坚守一个安全位置，10月。\n\n约2,900名国民警卫队队员正在支持该任务，向大都会警察局提供重要协助，以帮助确保整个特区居民、通勤者和游客的安全。\n\n陆军国民警卫队照片，由中士拍摄",
+   "zhDone": 5,
+   "zhChunks": 5,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10004550/jtf-dc-promotion-ceremony",
+   "title": "JTF-DC Promotion Ceremony",
+   "author": "SGT Katlynn Pickle",
+   "pubDate": "2026-10-10T15:28:27+00:00",
+   "summary": "U.S. Army Chief Warrant Officer 3 Jeremy Webb with the Georgia National Guard, places the new rank onto Chief Warrant Officer 2 Richard Quaicoe also with the Georgia National Guard, both assigned to Joint Task Force-District of Columbia (JTF-DC) in support of the DC Safe and Beautiful mission, as part of Chief Warrant Officer 2 Richard Quaicoe’s promotion at the Jefferson Memorial in Washington, Oct. 10, 2026. About 2,900 National Guard members are supporting the mission, providing critical assi",
+   "body": "Army Chief Warrant Officer 3 Jeremy Webb with the Georgia National Guard, places the new rank onto Chief Warrant Officer 2 Richard Quaicoe also with the Georgia National Guard, both assigned to Joint Task Force-District of Columbia (JTF-DC) in support of the DC Safe and Beautiful mission, as part of Chief Warrant Officer 2 Richard Quaicoe’s promotion at the Jefferson Memorial in Washington, Oct.\n\nAbout 2,900 National Guard members are supporting the mission, providing critical assistance to the Metropolitan Police Department to help ensure the safety of residents, commuters, and visitors throughout the District.\n\nArmy National Guard photo by Sgt.",
+   "channel": "us_dod",
+   "channelName": "美国国防部",
+   "summaryZh": "美国陆军三级准尉杰里米·韦布（Jeremy Webb）来自佐治亚州国民警卫队，他将新军衔佩戴到同样来自佐治亚州国民警卫队的二级准尉理查德·夸伊科（Richard Quaicoe）身上；两人均隶属于哥伦比亚特区联合特遣部队（JTF-DC），支援“华盛顿特区安全与美丽”任务。这是二级准尉理查德·夸伊科于2026年10月10日在华盛顿杰斐逊纪念堂晋升活动的一部分。约2,900名国民警卫队成员正在支援该任务，提供关键协助。",
+   "titleZh": "JTF-DC晋升仪式",
+   "titleTrans": "ok",
+   "zhParas": [
+    "陆军三级准尉杰里米·韦布（Jeremy Webb）来自佐治亚州国民警卫队，他将新军衔佩戴到同样来自佐治亚州国民警卫队的二级准尉理查德·夸伊科（Richard Quaicoe）身上；两人均隶属于哥伦比亚特区联合特遣部队（JTF-DC），支援“华盛顿特区安全与美丽”任务。这是二级准尉理查德·夸伊科在华盛顿杰斐逊纪念堂晋升活动的一部分，10月。",
+    "约2900名国民警卫队队员正在支援该任务，向大都会警察局提供关键协助，帮助确保整个特区居民、通勤者和游客的安全。",
+    "陆军国民警卫队照片，由中士拍摄"
+   ],
+   "zhFull": "陆军三级准尉杰里米·韦布（Jeremy Webb）来自佐治亚州国民警卫队，他将新军衔佩戴到同样来自佐治亚州国民警卫队的二级准尉理查德·夸伊科（Richard Quaicoe）身上；两人均隶属于哥伦比亚特区联合特遣部队（JTF-DC），支援“华盛顿特区安全与美丽”任务。这是二级准尉理查德·夸伊科在华盛顿杰斐逊纪念堂晋升活动的一部分，10月。\n\n约2900名国民警卫队队员正在支援该任务，向大都会警察局提供关键协助，帮助确保整个特区居民、通勤者和游客的安全。\n\n陆军国民警卫队照片，由中士拍摄",
+   "zhDone": 3,
+   "zhChunks": 3,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/news/576772/forge-fight-33rd-rgs-and-392nd-cts-deliver-high-fidelity-cyber-training",
+   "title": "Forge the Fight: 33rd RGS and 392nd CTS Deliver High-Fidelity Cyber Training",
+   "author": "April Crew-Kelly",
+   "pubDate": "2026-10-10T13:36:51+00:00",
+   "summary": "Forge the Fight: 33rd RGS and 392nd CTS Deliver High-Fidelity Cyber Training By: Space Training and Readiness Command Public Affairs In a successful demonstration of operational cyber readiness, the 33rd Range and Aggressor Squadron executed Magenta Stars in partnership with the 392nd Combat Training Squadron late last month. The exercise put the 69th Cyberspace Squadron’s operators through rigorous, high-fidelity threat scenarios testing their ability to safeguard operational space networks.",
+   "body": "In a successful demonstration of operational cyber readiness, the 33rd Range and Aggressor Squadron executed Magenta Stars in partnership with the 392nd Combat Training Squadron late last month. The exercise put the 69th Cyberspace Squadron’s operators through rigorous, high-fidelity threat scenarios testing their ability to safeguard operational space networks.\n\nSpace Delta 11’s 33rd RGS designed the exercise to support the Space Force Generation readiness validation cycle for the 69th CYS. Over three days of simulated adversarial intrusions, two defensive cyber crews met the challenge detecting, tracking, and neutralizing persistent adversarial presence across simulated operational space networks.\n\n“We asked our mission partners for unmet training requirements, and the 69th CYS responded,” said Maj. Eric A. Merris, 33rd RGS deputy commander. “The 392nd Combat Training Squadron and 33rd RGS combined efforts to dynamically plan and execute a high-impact exercise on an exceptionally condensed timeline. It was impressive how fast the teams adapted to meet rapidly evolving operational demands.”\n\nThe 69th CYS conducts defensive cyber operations in support of Space Delta 9’s orbital warfare mission. To help defenders protect critical space-domain mission terrain, the 33rd RGS engineering team deployed a simulated environment: a high-fidelity live cyber range designed to replicate space mission architectures.\n\nThe exercise relied on coordination across multiple specialty teams. The 392nd CTS provided the space and equipment for the event, while the 33rd RGS delivered the range environment and aggressor support.\n\nThe aggressors employed realistic tactics, techniques and procedures based on active, real-world advanced persistent threats. Working through each phase of the cyber kill chain, the aggressors conducted sustained attacks to test and evaluate the blue team’s defensive posture. The 69th CYS Guardians responded by characterizing malicious network activity, maintaining situational awareness and mitigating threats.\n\nBy combining higher-fidelity range virtualization with realistic threat emulation, Magenta Stars reinforced the link between space mission assurance and operationally relevant training that develops combat credibility. The exercise’s goal was to prepare Guardians to remain vigilant, resilient and ready to defend the nation’s space assets in cyberspace, according to the exercise organizers.\n\n“This exercise provided an excellent opportunity for our operators to flex their detection and remediation skills,” said 1st Lt. Benjamin Pederson, 69th CYS. “It also allowed our operators to receive an in-depth walkthrough at the end of execution to collaborate with the aggressors on techniques for improving our threat detection.”",
+   "channel": "us_dod",
+   "channelName": "美国国防部",
+   "summaryZh": "为战而铸：第33靶场与假想敌中队和第392战斗训练中队开展高保真网络训练 作者：太空训练与战备司令部公共事务处 在上月末一次成功的作战网络战备演示中，第33靶场与假想敌中队与第392战斗训练中队合作实施了“Magenta Stars”演习。此次演习让第69网络空间中队的操作人员经历严格、高保真的威胁场景，检验他们保护作战太空网络的能力。",
+   "titleZh": "为战而铸：第33靶场与假想敌中队和第392战斗训练中队开展高保真网络训练",
+   "titleTrans": "ok",
+   "zhParas": [
+    "在上月末一次成功的作战网络战备演示中，第33靶场与假想敌中队与第392战斗训练中队合作实施了“Magenta Stars”演习。此次演习让第69网络空间中队的操作人员经历严格、高保真的威胁场景，检验他们保护作战太空网络的能力。",
+    "太空三角洲11的第33靶场与假想敌中队设计此次演习，以支持第69网络空间中队的太空军生成战备验证周期。在为期三天的模拟对手入侵中，两支防御性网络小组迎接挑战，在模拟作战太空网络中检测、跟踪并消除持续存在的对手。",
+    "我们向任务伙伴询问了未满足的训练需求，第69网络空间中队作出了回应，”第33靶场与假想敌中队副指挥官埃里克·A·梅里斯少校说。“第392战斗训练中队和第33靶场与假想敌中队合力，在极其压缩的时间表内动态规划并执行了一次高影响力演习。各团队适应速度之快、以满足快速演变的作战需求，令人印象深刻。",
+    "第69网络空间中队开展防御性网络行动，以支持太空三角洲9的轨道战任务。为帮助防御者保护关键的太空域任务地形，第33靶场与假想敌中队工程团队部署了一个模拟环境：一个旨在复现太空任务体系架构的高保真实时网络靶场。",
+    "此次演习依赖多个专业团队之间的协调。第392战斗训练中队为活动提供了场地和设备，而第33靶场与假想敌中队提供了靶场环境和假想敌支持。",
+    "假想敌采用了基于现实世界中活跃的高级持续性威胁的逼真战术、技术和程序。他们贯穿网络杀伤链的每个阶段，实施持续攻击，以测试和评估蓝队的防御态势。第69网络空间中队的‘卫士’通过描述恶意网络活动特征、保持态势感知并缓解威胁来应对。",
+    "通过将更高保真度的靶场虚拟化与逼真的威胁模拟相结合，Magenta Stars演习强化了太空任务保障与能够培养作战可信度的实战相关训练之间的联系。据演习组织者称，此次演习的目标是让守护者保持警惕、具备韧性，并随时准备在网络空间中保卫国家的太空资产。",
+    "这次演习为我们的操作员提供了绝佳机会，让他们施展检测与修复技能，”第69网络空间中队（69th CYS）的本杰明·佩德森中尉说。“它还让我们的操作员在演练结束时获得深入讲解，与假想敌协作，共同研究改进我们威胁检测的技术。"
+   ],
+   "zhFull": "在上月末一次成功的作战网络战备演示中，第33靶场与假想敌中队与第392战斗训练中队合作实施了“Magenta Stars”演习。此次演习让第69网络空间中队的操作人员经历严格、高保真的威胁场景，检验他们保护作战太空网络的能力。\n\n太空三角洲11的第33靶场与假想敌中队设计此次演习，以支持第69网络空间中队的太空军生成战备验证周期。在为期三天的模拟对手入侵中，两支防御性网络小组迎接挑战，在模拟作战太空网络中检测、跟踪并消除持续存在的对手。\n\n我们向任务伙伴询问了未满足的训练需求，第69网络空间中队作出了回应，”第33靶场与假想敌中队副指挥官埃里克·A·梅里斯少校说。“第392战斗训练中队和第33靶场与假想敌中队合力，在极其压缩的时间表内动态规划并执行了一次高影响力演习。各团队适应速度之快、以满足快速演变的作战需求，令人印象深刻。\n\n第69网络空间中队开展防御性网络行动，以支持太空三角洲9的轨道战任务。为帮助防御者保护关键的太空域任务地形，第33靶场与假想敌中队工程团队部署了一个模拟环境：一个旨在复现太空任务体系架构的高保真实时网络靶场。\n\n此次演习依赖多个专业团队之间的协调。第392战斗训练中队为活动提供了场地和设备，而第33靶场与假想敌中队提供了靶场环境和假想敌支持。\n\n假想敌采用了基于现实世界中活跃的高级持续性威胁的逼真战术、技术和程序。他们贯穿网络杀伤链的每个阶段，实施持续攻击，以测试和评估蓝队的防御态势。第69网络空间中队的‘卫士’通过描述恶意网络活动特征、保持态势感知并缓解威胁来应对。\n\n通过将更高保真度的靶场虚拟化与逼真的威胁模拟相结合，Magenta Stars演习强化了太空任务保障与能够培养作战可信度的实战相关训练之间的联系。据演习组织者称，此次演习的目标是让守护者保持警惕、具备韧性，并随时准备在网络空间中保卫国家的太空资产。\n\n这次演习为我们的操作员提供了绝佳机会，让他们施展检测与修复技能，”第69网络空间中队（69th CYS）的本杰明·佩德森中尉说。“它还让我们的操作员在演练结束时获得深入讲解，与假想敌协作，共同研究改进我们威胁检测的技术。",
+   "zhDone": 8,
+   "zhChunks": 8,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.defensenews.com/industry/techwatch/2026/10/10/lockheed-martin-unveils-pac-3-edge-interceptor-designed-to-counter-hypersonic-threats/",
+   "title": "Lockheed Martin unveils PAC-3 Edge interceptor designed to counter hypersonic threats",
+   "author": "Reuters",
+   "pubDate": "2026-10-10T13:18:04+00:00",
+   "summary": "Lockheed Martin said PAC-3 Edge incorporates a new seeker, upgraded flight controls and a multi-pulse rocket motor supplied by Northrop Grumman.",
+   "body": "Lockheed Martin on Friday unveiled PAC-3 Edge, a missile interceptor designed to defend against hypersonic and advanced missile threats, as the U.S. military looks to strengthen its capabilities to counter emerging aerial threats.\n\nGrowing demand for air and missile defense systems amid conflicts in Ukraine and the Middle East has strained U.S. weapons stockpiles, prompting the U.S. Army to award Lockheed Martin a contract worth up to $58.6 billion in July to ramp up production of PAC-3 interceptors.\n\nLockheed Martin said PAC-3 Edge incorporates a new seeker, upgraded flight controls and a multi-pulse rocket motor supplied by Northrop Grumman, enhancing the interceptor’s ability to counter advanced threats, including hypersonic missiles, at longer ranges and higher altitudes.\n\n“The cost of this would be about that of the existing PAC-3 MSE,” Tim Cahill, president of missiles and fire control at Lockheed Martin, told Reuters. “At full production, the annual rate would be about 2,000 units a year, comparable with PAC-3 MSE.”\n\nIn January, Lockheed Martin signed a seven-year framework agreement with the Pentagon to expand production of its PAC-3 missile interceptors, aiming to increase annual manufacturing capacity to 2,000 units from about 600.",
+   "channel": "defensenews",
+   "channelName": "Defense News",
+   "summaryZh": "洛克希德·马丁公司表示，PAC-3 Edge采用了新型导引头、升级的飞行控制系统以及由诺斯罗普·格鲁曼公司提供的多脉冲火箭发动机。",
+   "titleZh": "洛克希德·马丁公司推出PAC-3 Edge拦截弹，旨在对抗高超声速威胁",
+   "titleTrans": "ok",
+   "zhParas": [
+    "洛克希德·马丁公司周五发布了PAC-3 Edge，这是一种导弹拦截弹，旨在防御高超声速和先进导弹威胁，正值美军寻求加强应对新兴空中威胁的能力之际。",
+    "乌克兰和中东冲突背景下，对防空和导弹防御系统的需求日益增长，使美国武器库存承压，促使美国陆军在7月授予洛克希德·马丁公司一份价值高达586亿美元的合同，以扩大PAC-3拦截弹的生产。",
+    "洛克希德·马丁公司表示，PAC-3 Edge采用新型导引头、升级的飞行控制系统以及由诺斯罗普·格鲁曼公司提供的多脉冲火箭发动机，从而增强该拦截弹在更远射程和更高高度上对抗包括高超声速导弹在内的先进威胁的能力。",
+    "其成本将大致与现有PAC-3 MSE相当，”洛克希德·马丁公司导弹与火控部门总裁蒂姆·卡希尔对路透社表示。“全面生产时，年产量约为每年2000枚，与PAC-3 MSE相当。",
+    "今年1月，洛克希德·马丁公司与五角大楼签署了一项为期七年的框架协议，以扩大其PAC-3导弹拦截弹的生产，目标是将年制造能力从约600枚提高到2000枚。"
+   ],
+   "zhFull": "洛克希德·马丁公司周五发布了PAC-3 Edge，这是一种导弹拦截弹，旨在防御高超声速和先进导弹威胁，正值美军寻求加强应对新兴空中威胁的能力之际。\n\n乌克兰和中东冲突背景下，对防空和导弹防御系统的需求日益增长，使美国武器库存承压，促使美国陆军在7月授予洛克希德·马丁公司一份价值高达586亿美元的合同，以扩大PAC-3拦截弹的生产。\n\n洛克希德·马丁公司表示，PAC-3 Edge采用新型导引头、升级的飞行控制系统以及由诺斯罗普·格鲁曼公司提供的多脉冲火箭发动机，从而增强该拦截弹在更远射程和更高高度上对抗包括高超声速导弹在内的先进威胁的能力。\n\n其成本将大致与现有PAC-3 MSE相当，”洛克希德·马丁公司导弹与火控部门总裁蒂姆·卡希尔对路透社表示。“全面生产时，年产量约为每年2000枚，与PAC-3 MSE相当。\n\n今年1月，洛克希德·马丁公司与五角大楼签署了一项为期七年的框架协议，以扩大其PAC-3导弹拦截弹的生产，目标是将年制造能力从约600枚提高到2000枚。",
+   "zhDone": 5,
+   "zhChunks": 5,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/video/1025947/afn-bavaria-b-roll-package-operation-skyfall-ii",
+   "title": "AFN Bavaria - B-Roll Package: Operation Skyfall II",
+   "author": "SGT Scyrrus Corregidor",
+   "pubDate": "2026-10-10T13:13:38+00:00",
+   "summary": "U.S. Army Soldiers assigned to the 2nd Battalion, 159th Attack Reconnaissance Battalion, 12th Combat Aviation Brigade, conducted an integration exercise and combined arms live-fire exercise with Soldiers from the 5th Battalion, 4th Air Defense Artillery Regiment during the Skyfall proof-of-concept series at Grafenwoehr Training Area, Germany, Oct. 6, 2026. The training integrated ground-to-air tar",
+   "body": "U.S. Army Soldiers assigned to the 2nd Battalion, 159th Attack Reconnaissance Battalion, 12th Combat Aviation Brigade, conducted an integration exercise and combined arms live-fire exercise with Soldiers from the 5th Battalion, 4th Air Defense Artillery Regiment during the Skyfall proof-of-concept series at Grafenwoehr Training Area, Germany, Oct. 6, 2026. The training integrated ground-to-air target, enabling air defense and aviation forces to rapidly detect, identify, track and engage enemy small unmanned aerial systems. The exercise validated a shared kill chain between ground and air assets, strengthening interoperability and advancing tactics, techniques and procedures that increase the joint force's ability to counter emerging UAS threats in large-scale combat operations. (U.S. Army video by Sgt. Scyrrus Corregidor)",
+   "channel": "us_dod",
+   "channelName": "美国国防部",
+   "summaryZh": "美国陆军第12战斗航空旅第159攻击侦察营第2营的美国陆军士兵与第4防空炮兵团第5营的士兵，于2026年10月6日在德国格拉芬沃尔训练区举行的“Skyfall”概念验证系列演习期间，共同进行了一体化演习和合成兵种实弹演习。此次训练融合了地对空目标",
+   "titleZh": "美军广播网巴伐利亚 - B卷素材包：“Skyfall II”行动",
+   "titleTrans": "ok",
+   "zhParas": [
+    "2026年10月6日，在德国格拉芬沃尔训练区举行的“Skyfall”概念验证系列演习期间，隶属于美国陆军第12战斗航空旅第159攻击侦察营第2营的美国陆军士兵与第4防空炮兵团第5营的士兵共同进行了一体化演习和合成兵种实弹演习。此次训练融合了地对空目标，使防空和航空部队能够快速探测、识别、跟踪并打击敌方小型无人机系统。该演习验证了地面与空中力量之间的共享杀伤链，增强了互操作性，并推进了战术、技术和程序，从而提升联合部队在大规模作战行动中应对新兴无人机系统威胁的能力。（美国陆军视频，由中士Scyrrus Corregidor拍摄）"
+   ],
+   "zhFull": "2026年10月6日，在德国格拉芬沃尔训练区举行的“Skyfall”概念验证系列演习期间，隶属于美国陆军第12战斗航空旅第159攻击侦察营第2营的美国陆军士兵与第4防空炮兵团第5营的士兵共同进行了一体化演习和合成兵种实弹演习。此次训练融合了地对空目标，使防空和航空部队能够快速探测、识别、跟踪并打击敌方小型无人机系统。该演习验证了地面与空中力量之间的共享杀伤链，增强了互操作性，并推进了战术、技术和程序，从而提升联合部队在大规模作战行动中应对新兴无人机系统威胁的能力。（美国陆军视频，由中士Scyrrus Corregidor拍摄）",
+   "zhDone": 1,
+   "zhChunks": 1,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10004468/us-ambassadors-and-uspacom-visit-commander-fleet-activities-japan-during-indo-pacific-ambassadorial-summit",
+   "title": "U.S. Ambassadors and USPACOM visit Commander, Fleet Activities Japan during Indo-Pacific Ambassadorial Summit",
+   "author": "CPO Taylor DiMartino",
+   "pubDate": "2026-10-10T11:21:11+00:00",
+   "summary": "U.S. Navy Capt. Micah Sybor, commanding officer of Arleigh Burke-class guided-missile destroyer USS McCampbell (DDG 85), left, leads a tour aboard the ship for Adm. Samuel J. Paparo, commander, U.S. Pacific Command, fourth from left, Asia-Pacific U.S. Ambassadors and State Department senior members at Commander, Fleet Activities Yokosuka, Japan, Oct. 9, 2026. U.S. Pacific Command hosted Asia-Pacific U.S. Ambassadors and State Department senior members to discuss the security environment across t",
+   "body": "Micah Sybor, commanding officer of Arleigh Burke-class guided-missile destroyer USS McCampbell (DDG 85), left, leads a tour aboard the ship for Adm.\n\nPaparo, commander, U.\n\nPacific Command, fourth from left, Asia-Pacific U.\n\nAmbassadors and State Department senior members at Commander, Fleet Activities Yokosuka, Japan, Oct.\n\nPacific Command hosted Asia-Pacific U.\n\nAmbassadors and State Department senior members to discuss the security environment across the PACOM area of operations.\n\nNavy Photo by Chief Mass Communication Specialist Taylor DiMartino)",
+   "channel": "us_dod",
+   "channelName": "美国国防部",
+   "summaryZh": "阿利·伯克级导弹驱逐舰“麦坎贝尔”号（DDG 85）舰长迈卡·西博尔（左）带领美军印太司令部司令塞缪尔·J·帕帕罗海军上将（左起第四位）、美国驻亚太地区大使及国务院高级官员参观该舰，地点在日本横须贺美国海军基地，时间为2026年10月9日。美军印太司令部接待美国驻亚太地区大使及国务院高级官员，讨论该地区的安全环境。",
+   "titleZh": "美国大使与美军太平洋司令部在印太大使峰会期间访问驻日美军舰队活动司令部",
+   "titleTrans": "ok",
+   "zhParas": [
+    "阿利·伯克级导弹驱逐舰“麦坎贝尔”号（DDG 85）舰长迈卡·西博尔（左）带领海军上将",
+    "帕帕罗，司令，美国",
+    "太平洋司令部，左起第四位，亚太地区美国",
+    "大使和国务院高级成员在位于日本横须贺的美国海军横须贺舰队活动司令部，10月",
+    "太平洋司令部接待了亚太地区美国",
+    "大使和国务院高级成员，讨论美军太平洋司令部作战区域内的安全环境。",
+    "美国海军照片，由首席大众传播专家泰勒·迪马蒂诺拍摄）"
+   ],
+   "zhFull": "阿利·伯克级导弹驱逐舰“麦坎贝尔”号（DDG 85）舰长迈卡·西博尔（左）带领海军上将\n\n帕帕罗，司令，美国\n\n太平洋司令部，左起第四位，亚太地区美国\n\n大使和国务院高级成员在位于日本横须贺的美国海军横须贺舰队活动司令部，10月\n\n太平洋司令部接待了亚太地区美国\n\n大使和国务院高级成员，讨论美军太平洋司令部作战区域内的安全环境。\n\n美国海军照片，由首席大众传播专家泰勒·迪马蒂诺拍摄）",
+   "zhDone": 7,
+   "zhChunks": 7,
    "zhState": "ok"
   },
   {
@@ -103,9 +282,8 @@
    "body": "GRAFENWOEHR, Germany — On Oct. 6, 2026, U.S. Army soldiers assigned to the 5th Battalion, 4th Air Defense Artillery Regiment, 52nd Air Defense Artillery Brigade, worked with soldiers from the 2nd Battalion, 159th Aviation Regiment, 12th Combat Aviation Brigade, at the Grafenwoehr Training Area to showcase connectivity and interoperability capabilities first assessed by both units in the spring.\n\nIn March 2026, the first Operation Skyfall demonstrated that the AH-64 Apache helicopter could track and engage counter-unmanned aircraft system targets using data fed by ground-based air defense sensors. Operation Skyfall II built on those capabilities, providing aviation crews with more opportunities to detect, engage and destroy drones.\n\nThe first step in countering an airborne threat is knowing its location. The AN/MPQ-64 Sentinel radar is a mobile, ground-based system that provides continuous, low-altitude target alerting, tracking and queuing data. Additionally, the Sentinel can sense threats farther away and provide earlier warnings, enhancing the survivability of the Apaches while providing them with the necessary data to engage a target.\n\n“We’re sending the data of where the track is in time and space, so the Apache pilot knows exactly where the track is,” said Lt. Col. John Vermeil, commander of the 5th Battalion, 4th Air Defense Artillery Regiment, 52nd Air Defense Artillery Brigade. “Not only that, but also the tactical operations center knows where the track is, and they’re able to provide a vector to see if they can engage that track.”\n\nUsing the Outlaw, an unmanned aircraft system used as a low-cost training target drone, soldiers participating in Operation Skyfall II demonstrated the entire process. Ground-based air defenders tracked the Outlaw with their sensors and relayed that data to the Apaches via the tactical operations center, allowing the aviators to conduct air-to-air combat operations to destroy the threat.\n\nThe Apache crews successfully engaged three Outlaw drones, destroying each one individually.\n\nOfficial tactics, techniques and procedures for detecting and engaging counter-unmanned aircraft systems are still being refined. However, Operation Skyfall II demonstrated how ground-based air defense units and airborne aviation assets can generate more defensive fires options for senior commanders, sustaining integrated defensive fires in contested conditions across the European and African theaters.\n\n“What’s important about Skyfall is the integration with the air defenders and the protection warfighting function for NATO,” said U.S. Army Maj. Tyler Jamison, operations officer of the 2nd Battalion, 159th Aviation Regiment, 12th Combat Aviation Brigade. Jamison added that working with the air defense battalion “has helped us operationalize what it means to destroy a drone.”\n\nOn order, the 52nd Air Defense Artillery Brigade executes joint and combined integrated air and missile defense operations as the tactical air and missile defense integrator in support of U.S. Army Europe and Africa. The brigade deters adversary aggression and as required, neutralizes air and missile threats to critical assets in the U.S. European Command and U.S. Africa Command areas of responsibility.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "德国格拉芬沃尔——2026年10月6日，隶属于第52防空炮兵旅第4防空炮兵团第5营的美国陆军士兵，与第12战斗航空旅第159航空团第2营的士兵在格拉芬沃尔训练区合作，展示两支部队于春季首次评估的连通性与互操作性能力。2026年3月，首次“天空坠落”行动表明，AH-64“阿帕奇”直升机能够跟踪并打击反无人机……",
    "titleZh": "欧洲防空兵与航空兵在“天空坠落II”行动中联合力量",
-   "titleTrans": "ok",
+   "summaryZh": "德国格拉芬沃尔——2026年10月6日，隶属于第52防空炮兵旅第4防空炮兵团第5营的美国陆军士兵，与第12战斗航空旅第159航空团第2营的士兵在格拉芬沃尔训练区合作，展示两支部队于春季首次评估的连通性与互操作性能力。2026年3月，首次“天空坠落”行动表明，AH-64“阿帕奇”直升机能够跟踪并打击反无人机……",
    "zhParas": [
     "德国格拉芬沃尔——2026年10月6日，隶属于第52防空炮兵旅第4防空炮兵团第5营的美国陆军士兵，与第12战斗航空旅第159航空团第2营的士兵在格拉芬沃尔训练区合作，展示两支部队于春季首次评估的连通性与互操作性能力。",
     "2026年3月，首次“天空坠落”行动表明，AH-64“阿帕奇”直升机可利用地面防空传感器提供的数据跟踪并打击反无人飞机系统目标。“天空坠落II”行动在此基础上进一步发展这些能力，为航空机组人员提供更多探测、打击和摧毁无人机的机会。",
@@ -120,7 +298,8 @@
    "zhFull": "德国格拉芬沃尔——2026年10月6日，隶属于第52防空炮兵旅第4防空炮兵团第5营的美国陆军士兵，与第12战斗航空旅第159航空团第2营的士兵在格拉芬沃尔训练区合作，展示两支部队于春季首次评估的连通性与互操作性能力。\n\n2026年3月，首次“天空坠落”行动表明，AH-64“阿帕奇”直升机可利用地面防空传感器提供的数据跟踪并打击反无人飞机系统目标。“天空坠落II”行动在此基础上进一步发展这些能力，为航空机组人员提供更多探测、打击和摧毁无人机的机会。\n\n应对空中威胁的第一步是掌握其位置。AN/MPQ-64“哨兵”雷达是一种机动式地面系统，可提供连续的低空目标预警、跟踪和提示数据。此外，“哨兵”能够感知更远处的威胁并提供更早预警，从而提升“阿帕奇”直升机的生存能力，同时为其提供打击目标所需的数据。\n\n我们发送航迹在时间和空间中的位置数据，这样‘阿帕奇’飞行员就能准确知道航迹在哪里，”第52防空炮兵旅第4防空炮兵团第5营指挥官约翰·弗米尔中校说。“不仅如此，战术作战中心也知道航迹在哪里，他们能够提供一个矢量，以判断是否可以打击该航迹。\n\n参与“天空坠落II”行动的士兵使用“Outlaw”（一种用作低成本训练靶机的无人飞机系统）演示了整个流程。地面防空人员用传感器跟踪“Outlaw”，并通过战术作战中心将该数据中继给“阿帕奇”直升机，使飞行员能够实施空对空作战，摧毁威胁。\n\n阿帕奇”机组人员成功打击了三架“Outlaw”无人机，并逐一将其摧毁。\n\n探测与交战反无人机系统的官方战术、技术与程序仍在完善中。然而，“Skyfall II”行动表明，陆基防空部队和空中航空资产能够为高级指挥官生成更多防御火力选项，从而在欧洲和非洲战区受争夺条件下维持一体化防御火力。\n\nSkyfall行动重要的是与防空兵以及北约防护作战职能实现一体化，”美国陆军少校、第12战斗航空旅第159航空团第2营作战军官泰勒·贾米森说。贾米森补充说，与防空营合作“帮助我们使‘摧毁一架无人机’这一概念具备可操作性。\n\n接到命令后，第52防空炮兵旅作为战术防空与导弹防御整合者，执行联合与联军一体化防空反导作战，以支援美国陆军欧洲与非洲司令部。该旅威慑对手侵略，并视需要消除美军欧洲司令部和美军非洲司令部责任区内关键资产面临的空中与导弹威胁。",
    "zhDone": 9,
    "zhChunks": 9,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10004432/delbert-d-black-departs-phuket",
@@ -131,9 +310,8 @@
    "body": "Sailor stands watch on the bridge wing of Arleigh Burke-class guided-missile destroyer USS Delbert D.\n\nBlack (DDG 119), as the ship prepares to depart Phuket, Thailand, Oct.\n\nBlack is conducting routine operations in the U.\n\n7th Fleet area of operations.\n\n7th Fleet, the Navy’s largest forward-deployed numbered fleet, routinely interacts and operates with allies and partners in preserving a free and open Indo-Pacific.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "一名美国水兵在阿利·伯克级导弹驱逐舰“德尔伯特·D·布莱克”号（DDG 119）的舰桥侧翼值更，该舰正准备于2026年10月9日驶离泰国普吉岛。“德尔伯特·D·布莱克”号正在美国第七舰队作战区域执行例行行动。美国第七舰队是海军规模最大的前沿部署编号舰队，定期与盟友和伙伴互动并开展行动，以维护自由开放的印太。（美国海军照片）",
    "titleZh": "德尔伯特·D·布莱克”号驶离普吉岛",
-   "titleTrans": "ok",
+   "summaryZh": "一名美国水兵在阿利·伯克级导弹驱逐舰“德尔伯特·D·布莱克”号（DDG 119）的舰桥侧翼值更，该舰正准备于2026年10月9日驶离泰国普吉岛。“德尔伯特·D·布莱克”号正在美国第七舰队作战区域执行例行行动。美国第七舰队是海军规模最大的前沿部署编号舰队，定期与盟友和伙伴互动并开展行动，以维护自由开放的印太。（美国海军照片）",
    "zhParas": [
     "一名水兵在阿利·伯克级导弹驱逐舰“德尔伯特·D.",
     "布莱克”号（DDG 119）的舰桥翼上值守，该舰准备于10月离开泰国普吉岛。",
@@ -144,7 +322,8 @@
    "zhFull": "一名水兵在阿利·伯克级导弹驱逐舰“德尔伯特·D.\n\n布莱克”号（DDG 119）的舰桥翼上值守，该舰准备于10月离开泰国普吉岛。\n\n布莱克”号正在美国\n\n第7舰队作战区域内执行例行行动。\n\n第7舰队是美国海军规模最大的前沿部署编号舰队，经常与盟友和伙伴互动并开展行动，以维护自由开放的印太地区。",
    "zhDone": 5,
    "zhChunks": 5,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.gov.uk/government/news/faster-front-line-delivery-with-new-testing-and-evaluation-programme",
@@ -155,9 +334,8 @@
    "body": "MOD and QinetiQ revolutionising access to Test and Evaluation facilities for SMEs, delivering new tech into service faster\n\nSAFARI will remove barriers to UK sites, helping new capabilities move from development to deployment quicker\n\nSupports SDR commitment to support SMEs with additional £2.5 billion every year by 2028\n\nTechnologies such as hypersonic missiles, directed energy weapons and autonomous systems will be assessed, refined and delivered quicker than ever before, following a joint Ministry of Defence (MOD) and QinetiQ programme transforming how defence capabilities are tested and evaluated at the pace of modern warfare.\n\nProject Safari will revolutionise access to the UK’s sovereign Test and Evaluation (T&E) facilities for Small and Medium Enterprises, creating an agile environment to prove and deliver new technologies into service faster.\n\nFor too long, companies – especially those that are SMEs or new to working in defence – have faced barriers that have prevented them getting their ideas and technology tested in real life scenarios, such as outdated bureaucracy to gain multiple levels of approvals.\n\nThis programme will remove barriers to UK sites, providing a single front-door for SMEs to access facilities and improving the approval processes for trial activity. That smoother route for innovative firms into the sector will help support jobs and investment in their local economies, powering growth in every postcode.\n\nMinister for Defence Readiness and Industry, Luke Pollard MP, said:\n\nWe know that limited access to test and evaluation facilities have been holding back smaller businesses and new entrants from working with defence. By working hand-in-hand with QinetiQ, we are unlocking British innovation by developing, testing and delivering military capabilities for the UK and our allies at speed.\n\nWe know that limited access to test and evaluation facilities have been holding back smaller businesses and new entrants from working with defence.\n\nBy working hand-in-hand with QinetiQ, we are unlocking British innovation by developing, testing and delivering military capabilities for the UK and our allies at speed.\n\nGroup CEO QinetiQ, Steve Wadey, said:\n\nTurning ideas into trusted frontline capability faster than our adversaries is what delivers military advantage and we’ve got to go faster to stay ahead. Project Safari will transform how the UK approves new technologies, creating a world-leading test and evaluation enterprise that helps government, industry and regulators work together to accelerate the delivery of military capability at the pace demanded by modern warfare.\n\nProject Safari will bring together government, industry, regulators and technology innovators to support the UK’s warfighting readiness and streamline how companies access specialist facilities and expertise, modernise the infrastructure so it’s fit for a fast-moving digital environment and reduce unnecessary barriers to accelerate decision making.\n\nDuring a visit to MOD Hebrides, the UK’s largest weapons test range, Minister for Defence Readiness and Industry, Luke Pollard MP, signed an agreement with QinetiQ for the first design stage of a multimillion-pound investment to develop the site to enable the testing of hypersonic missiles and other advanced technologies.\n\nThe minister was joined by QinetiQ CEO, Steve Wadey to host a roundtable with SME representatives, including Greenjets and Cambridge Aerospace, to listen to the experiences of SMEs accessing T&E services and the barriers they can face.\n\nLuke Pollard MP also met one of the UK companies competing in Project Brakestop, MGI Engineering. An Oxfordshire-based SME, they are developing low-cost long-range weapons for Ukraine.\n\nProject Safari is a practical demonstration of the ambitions set out in the Strategic Defence Review, which committed defence to increasing its spend with SMEs by £2.5 billion a year by summer 2028.\n\nThe announcement builds on the work of the Defence Investment Plan, backed by £298 billion of funding in UK defence over the next four years. The plan will drive sustained investment across British industry – including SMEs – ensuring the UK’s defence sector remains a cornerstone of the country’s economic renewal.",
    "channel": "govuk_mod",
    "channelName": "英国国防部",
-   "summaryZh": "英国国防部（MOD）与QinetiQ启动Safari项目，该联合计划旨在向中小企业开放英国测试与评估设施的准入。",
    "titleZh": "新测试与评估项目加速前线交付",
-   "titleTrans": "ok",
+   "summaryZh": "英国国防部（MOD）与QinetiQ启动Safari项目，该联合计划旨在向中小企业开放英国测试与评估设施的准入。",
    "zhParas": [
     "英国国防部（MOD）与QinetiQ为中小企业彻底革新测试与评估设施的准入方式，加快新技术投入使用。",
     "SAFARI将消除进入英国场地的障碍，帮助新能力更快从开发走向部署。",
@@ -182,7 +360,8 @@
    "zhFull": "英国国防部（MOD）与QinetiQ为中小企业彻底革新测试与评估设施的准入方式，加快新技术投入使用。\n\nSAFARI将消除进入英国场地的障碍，帮助新能力更快从开发走向部署。\n\n支持《战略防务审查》（SDR）的承诺，即到2028年每年额外投入25亿英镑支持中小企业。\n\n在国防部（MOD）与QinetiQ联合项目推动下，高超声速导弹、定向能武器和自主系统等技术将比以往任何时候都更快地得到评估、改进和交付，并按现代战争节奏变革国防能力的测试与评估方式。\n\nSafari”项目将彻底变革中小企业进入英国自主测试与评估（T&E）设施的途径，营造敏捷环境，以更快验证并交付新技术，使其投入使用。\n\n长期以来，企业——尤其是中小企业或刚进入国防领域的企业——一直面临障碍，无法在真实场景中测试其想法和技术，例如为获得多级批准而遭遇的过时官僚程序。\n\n该计划将消除英国试验场地的准入壁垒，为中小企业使用设施提供单一门户，并改进试验活动的审批流程。这条让创新企业进入该行业的更顺畅路径，将有助于支持当地经济中的就业和投资，为每个地区的增长提供动力。\n\n国防战备与工业事务大臣、议员卢克·波拉德表示：\n\n我们知道，获取测试与评估设施的渠道有限，一直阻碍着较小企业和新进入者与国防领域合作。通过与QinetiQ携手合作，我们正在快速为英国及我们的盟友开发、测试并交付军事能力，从而释放英国的创新潜力。\n\n我们知道，获取测试与评估设施的渠道有限，一直阻碍着较小企业和新进入者与国防领域合作。\n\n通过与QinetiQ携手合作，我们正在快速为英国及我们的盟友开发、测试并交付军事能力，从而释放英国的创新潜力。\n\nQinetiQ集团首席执行官史蒂夫·韦迪表示：\n\n比对手更快地将想法转化为可信的前线能力，才能带来军事优势，我们必须加快速度才能保持领先。Safari项目将改变英国批准新技术的方式，打造世界领先的试验与评估体系，帮助政府、产业界和监管机构携手合作，以现代战争所要求的速度加快军事能力的交付。\n\nSafari项目将汇聚政府、产业界、监管机构和技术创新者，支持英国的作战战备，简化企业获取专业设施和专业知识的方式，推动基础设施现代化，使其适应快速发展的数字环境，并减少不必要的障碍以加快决策。\n\n在访问英国最大的武器试验靶场——MOD Hebrides期间，国防战备与产业大臣、议员卢克·波拉德与QinetiQ签署协议，启动一项数百万英镑投资的首个设计阶段，以开发该场地，使其能够测试高超声速导弹及其他先进技术。\n\nQinetiQ首席执行官史蒂夫·韦迪与大臣共同主持了一场与中小企业代表的圆桌会议，参加者包括Greenjets和Cambridge Aerospace，以听取中小企业在获取试验与评估服务方面的经验以及它们可能面临的障碍。\n\n议员卢克·波拉德还会见了参与Brakestop项目的英国公司之一MGI Engineering。这家总部位于牛津郡的中小企业正在为乌克兰研发低成本远程武器。\n\nSafari项目切实体现了《战略防务评估》中提出的雄心，该评估承诺国防领域到2028年夏季将每年与中小企业的支出增加25亿英镑。\n\n这一公告以国防投资计划的工作为基础，该计划由未来四年内英国国防领域2980亿英镑资金支持。该计划将推动对英国工业——包括中小企业——的持续投资，确保英国国防部门仍是国家经济复兴的基石。",
    "zhDone": 19,
    "zhChunks": 19,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/news/576769/439th-airlift-wing-reinforces-its-commitment-warrior-ethos-through-warfighter-fitness",
@@ -190,12 +369,11 @@
    "author": "Timothy R Jensen",
    "pubDate": "2026-10-10T02:30:55+00:00",
    "summary": "The 439th Airlift Wing reinforced its commitment to maintaining a fit, resilient and ready force during the reopening of the fitness center at Westover Air Reserve Base, Massachusetts, Oct. 5, 2026.",
-   "body": "The 439th Airlift Wing reinforced its commitment to maintaining a fit, resilient and ready force during the reopening of the fitness center at Westover Air Reserve Base, Massachusetts, Oct. 5, 2026.\n\nThe reopening ceremony, hosted by the 439th Force Support Squadron, highlighted the connection between individual well-being and the wing's ability to maintain a fit, ready and mission-capable force.\n\nThe reopening came five days after Secretary of War Pete Hegseth joined approximately 600 enlisted service members and officers for early-morning physical fitness training on the Pentagon parade field while wearing matching t-shirts with the words, “This is War,” written across the front. The event reinforced the department's sustained emphasis on fitness, discipline and high standards for current and future operational success.\n\nLater that day, Hegseth again connected physical standards with readiness, accountability and lethality during a State of the Force address. His remarks continued an emphasis he made explicit during a Sept. 30, 2025, address to senior military leaders at Marine Corps Base Quantico, Virginia.\n\n“It all starts with physical fitness and appearance,” Hegseth said. “If the Secretary of War can do regular, hard physical training, so can every member of our joint force.”\n\nThe standards Hegseth announced in 2025 also directed reserve-component members to take personal responsibility for maintaining an appropriate fitness regimen regardless of duty status. For Reserve Citizen Airmen, access to fitness resources helps translate that responsibility into sustained readiness.\n\n“Physical fitness is foundational to readiness,” said Ryan Leveille, 439th FSS services flight chief. “This is a place for our Airmen and families to gather, exercise and participate in sports. It supports confidence, resilience and opportunities for families to spend time together through fitness.”\n\nRecent improvements included sanding and refinishing the basketball court and adding the 439th Airlift Wing logo at center court. New markings were also installed for the Air Force High Aerobic Multi-shuttle Run, a 20-meter progressive shuttle run used to assess cardiorespiratory fitness. The court's 3-point line was repainted from its previous National Basketball Association configuration to NCAA standards to support intramural basketball and other organized activities. The squadron plans to expand its intramural sports program, providing additional opportunities for competition, teamwork and physical development.\n\nMaj. Cameron Goswick, 439th FSS commander, said the squadron contributes to readiness through a broad range of programs that sustain Airmen throughout their careers. In addition to fitness and recreation, the squadron provides child care, education and training, food services and personnel support.\n\nTogether, those services help Airmen remain physically prepared, professionally developed and supported to meet mission requirements. They also give Airmen and families resources that strengthen resilience through the demands of military service.\n\n“We have built a top level foundation, and together, we are ensuring our Airmen have the motivation, facilities, and backing to perform at their absolute peak,” said Lucas Rosa, 439th Airlift Wing fitness center exercise physiologist.\n\nPhysical conditioning contributes directly to mission execution across the Patriot Wing. Airmen rely on strength and endurance to load and secure cargo aboard the C-5M Super Galaxy, maintain aircraft during extended shifts and demanding conditions, and carry out the operational and support functions required to deliver global mobility.\n\nFitness is not limited to combat tasks, Goswick said. It enables Airmen to perform safely and reliably across the mission. Readiness among the wing's operations, maintenance, mission support and medical professionals allows the Patriot Wing to fly, fix and fight when the nation calls.\n\nFor Citizen Airmen, readiness must be sustained alongside civilian careers and family responsibilities. The fitness center support the AFRC advantage by helping preserve an efficient, experienced, accessible and lethal force prepared to respond when the nation calls.\n\nBy pairing accessible fitness resources with organized recreation and clear standards, the 439th Airlift Wing is investing in its people and the operational capability they provide. The reopened fitness center gives Airmen and families a place to train together while strengthening the Patriot Wing's ability to execute its global mobility mission anytime, anywhere.\n\nFitness is not limited to combat, said Goswick. \"It enables Airmen to perform effectively, safely and reliably across the mission.\"",
+   "body": "The 439th Airlift Wing reinforced its commitment to maintaining a fit, resilient and ready force during the reopening of the fitness center at Westover Air Reserve Base, Massachusetts, Oct. 5, 2026.\n\nThe reopening ceremony, hosted by the 439th Force Support Squadron, highlighted the connection between individual well-being and the wing's ability to maintain a fit, ready and mission-capable force.\n\nThe reopening came five days after Secretary of War Pete Hegseth joined approximately 600 enlisted service members and officers for early-morning physical fitness training on the Pentagon parade field while wearing matching t-shirts with the words, “This is War,” written across the front. The event reinforced the department's sustained emphasis on fitness, discipline and high standards for current and future operational success.\n\nLater that day, Hegseth again connected physical standards with readiness, accountability and lethality during a State of the Force address. His remarks continued an emphasis he made explicit during a Sept. 30, 2025, address to senior military leaders at Marine Corps Base Quantico, Virginia.\n\n“It all starts with physical fitness and appearance,” Hegseth said. “If the Secretary of War can do regular, hard physical training, so can every member of our joint force.”\n\nThe standards Hegseth announced in 2025 also directed reserve-component members to take personal responsibility for maintaining an appropriate fitness regimen regardless of duty status. For Reserve Citizen Airmen, access to fitness resources helps translate that responsibility into sustained readiness.\n\n“Physical fitness is foundational to readiness,” said Ryan Leveille, 439th FSS services flight chief. “This is a place for our Airmen and families to gather, exercise and participate in sports. It supports confidence, resilience and opportunities for families to spend time together through fitness.”\n\nRecent improvements included sanding and refinishing the basketball court and adding the 439th AW emblem at center court. New markings were also installed for the Air Force High Aerobic Multi-shuttle Run, a 20-meter progressive shuttle run used to assess cardiorespiratory fitness. The court's 3-point line was repainted from its previous National Basketball Association configuration to NCAA standards to support intramural basketball and other organized activities. The squadron plans to expand its intramural sports program, providing additional opportunities for competition, teamwork and physical development.\n\nMaj. Cameron Goswick, 439th FSS commander, said the squadron contributes to readiness through a broad range of programs that sustain Airmen throughout their careers. In addition to fitness and recreation, the squadron provides child care, education and training, food services and personnel support.\n\nTogether, those services help Airmen remain physically prepared, professionally developed and supported to meet mission requirements. They also give Airmen and families resources that strengthen resilience through the demands of military service.\n\n“We have built a top level foundation, and together, we are ensuring our Airmen have the motivation, facilities, and backing to perform at their absolute peak,” said Lucas Rosa, 439th AW fitness center exercise physiologist.\n\nPhysical conditioning contributes directly to mission execution across the Patriot Wing. Airmen rely on strength and endurance to load and secure cargo aboard the C-5M Super Galaxy, maintain aircraft during extended shifts and demanding conditions, and carry out the operational and support functions required to deliver global mobility.\n\nFitness is not limited to combat tasks, Goswick said. It enables Airmen to perform safely and reliably across the mission. Readiness among the wing's operations, maintenance, mission support and medical professionals allows the Patriot Wing to fly, fix and fight when the nation calls.\n\nFor Citizen Airmen, readiness must be sustained alongside civilian careers and family responsibilities. The fitness center support the AFRC advantage by helping preserve an efficient, experienced, accessible and lethal force prepared to respond when the nation calls.\n\nBy pairing accessible fitness resources with organized recreation and clear standards, the Patriot Wing is investing in its people and the operational capability they provide. The reopened fitness center gives Airmen and families a place to train together while strengthening the Patriot Wing's ability to execute its global mobility mission anytime, anywhere.\n\nFitness is not limited to combat, said Goswick. \"It enables Airmen to perform effectively, safely and reliably across the mission.\"",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "2026年10月5日，在马萨诸塞州韦斯托弗空军预备役基地健身中心重新开放之际，第439空运联队重申其致力于保持一支体能良好、坚韧且具备战备状态的部队。",
    "titleZh": "第439空运联队通过作战人员体能强化对战士精神的承诺",
-   "titleTrans": "ok",
+   "summaryZh": "2026年10月5日，在马萨诸塞州韦斯托弗空军预备役基地健身中心重新开放之际，第439空运联队重申其致力于保持一支体能良好、坚韧且具备战备状态的部队。",
    "zhParas": [
     "2026年10月5日，第439空运联队在马萨诸塞州韦斯托弗空军预备役基地健身中心重新开放之际，重申其致力于保持一支体能良好、坚韧且具备战备状态的部队。",
     "由第439部队支援中队主办的重新开放仪式，强调了个人福祉与该联队保持一支体能良好、随时待命且具备任务能力部队的能力之间的联系。",
@@ -204,90 +382,43 @@
     "一切都从体能和外表开始，”赫格塞思说。“如果战争部长能够进行定期、艰苦的体能训练，那么我们联合部队的每一名成员也能做到。",
     "赫格塞思在2025年宣布的标准还要求预备役部队成员，无论执勤状态如何，都要对保持适当的体能训练方案承担个人责任。对于预备役公民空军人员而言，获得健身资源有助于将这一责任转化为持续的战备状态。",
     "体能是战备的基础，”第439部队支援中队服务小队主管瑞安·勒维尔说。“这里是我们的空军人员和家属聚集、锻炼和参加体育运动的地方。它有助于增强信心、韧性，并为家庭提供通过健身共度时光的机会。",
-    "近期的改进包括对篮球场进行打磨和翻新，并在中圈添加第439空运联队徽标。球场还设置了空军高强度有氧多程折返跑的新标线，这是一项用于评估心肺适能的20米渐进式折返跑。球场的三分线已从原先的NBA规格重新粉刷为NCAA标准，以支持基地内篮球赛和其他有组织的活动。该中队计划扩大其基地内体育项目，为竞赛、团队合作和体能发展提供更多机会。",
-    "第439部队支援中队指挥官卡梅伦·戈斯威克少校表示，该中队通过广泛的项目为战备作出贡献，这些项目在空军人员整个职业生涯中为其提供支持。除体能训练和休闲娱乐外，该中队还提供儿童保育、教育与训练、餐饮服务和人事支持。",
-    "这些服务共同帮助空军人员保持体能上的准备、获得职业发展，并在满足任务要求方面得到支持。它们还为空军人员和家属提供资源，以增强其在军旅服役各项要求下的韧性。",
-    "我们已经打下了一流的基础，我们正共同努力，确保我们的空军人员拥有动力、设施和支持，以最佳状态发挥水平，”第439空运联队健身中心运动生理学家卢卡斯·罗萨说。",
-    "体能训练直接有助于整个爱国者联队的任务执行。空军人员依靠力量和耐力，在C-5M“超级银河”运输机上装载并固定货物，在长时间轮班和严苛条件下维护飞机，并执行提供全球机动能力所需的作战与保障职能。",
-    "戈斯威克说，体能不限于作战任务。它使空军人员能够在整个任务中安全可靠地执行任务。该联队作战、维修、任务支援和医疗专业人员的战备，使“爱国者联队”能够在国家召唤时飞行、维修和作战。",
-    "对于公民空军人员而言，战备必须与平民职业和家庭责任共同维持。健身中心通过帮助保持一支高效、经验丰富、可随时调用且具有杀伤力的部队，使其做好在国家召唤时响应的准备，从而支持空军预备役司令部（AFRC）的优势。",
-    "通过将可获取的健身资源与有组织的休闲活动和明确标准相结合，第439空运联队正在投资于其人员及他们提供的作战能力。重新开放的健身中心为空军人员及家属提供了一个共同训练的场所，同时增强了“爱国者联队”随时随地在全球执行其全球机动任务的能力。",
-    "戈斯威克说，体能不限于作战。“它使空军人员能够在整个任务中有效、安全、可靠地执行任务。"
+    "近期的改进包括对篮球场进行打磨和翻新，并在球场中央添加第439空运联队徽标。还设置了用于空军高强度有氧多程折返跑的新标线，这是一项用于评估心肺适能的20米渐进式折返跑。球场的三分线从原先的美国职业篮球联赛（NBA）规格重新漆成美国大学体育协会（NCAA）标准，以支持单位内部篮球赛和其他有组织的活动。该中队计划扩大其单位内部体育项目，为竞争、团队合作和身体发展提供更多机会。",
+    "第439部队支援中队指挥官卡梅伦·戈斯威克少校表示，该中队通过一系列广泛项目为战备作出贡献，这些项目在空军人员的整个职业生涯中为其提供支持。除体能和娱乐外，该中队还提供儿童照护、教育和训练、餐饮服务以及人事支持。",
+    "这些服务共同帮助空军人员保持身体上的准备、职业上的发展并获得支持，以满足任务要求。它们还为空军人员及其家属提供资源，帮助他们在军旅生活的各种要求中增强韧性。",
+    "我们已经打下了一流的基础，并且正共同确保我们的空军人员拥有动力、设施和支持，以发挥出绝对巅峰水平，”第439空运联队健身中心运动生理学家卢卡斯·罗萨说。",
+    "体能训练直接促进整个爱国者联队的任务执行。空军人员依靠力量和耐力，在C-5M“超级银河”运输机上装载和固定货物，在长时间值班和严苛条件下维护飞机，并履行实现全球机动所需的作战和保障职能。",
+    "戈斯威克说，体能并不局限于作战任务。它使空军人员能够在整个任务中安全可靠地执行任务。该联队作战、维修、任务保障和医疗专业人员的战备状态，使爱国者联队在国家召唤时能够飞行、维修和战斗。",
+    "对公民空军人员而言，必须在兼顾平民职业和家庭责任的同时保持战备。健身中心通过帮助保持一支高效、经验丰富、可随时调用且具备杀伤力、准备在国家召唤时作出响应的部队，为空军预备役司令部（AFRC）优势提供支持。",
+    "通过将便利的健身资源与有组织的休闲活动和明确标准相结合，爱国者联队正在投资于其人员以及他们所提供的作战能力。重新开放的健身中心为空军人员及家属提供了一个共同锻炼的场所，同时增强了爱国者联队随时随地执行全球机动任务的能力。",
+    "戈斯威克说，体能训练并不局限于作战。“它使空军人员能够在整个任务中有效、安全、可靠地履行职责。"
    ],
-   "zhFull": "2026年10月5日，第439空运联队在马萨诸塞州韦斯托弗空军预备役基地健身中心重新开放之际，重申其致力于保持一支体能良好、坚韧且具备战备状态的部队。\n\n由第439部队支援中队主办的重新开放仪式，强调了个人福祉与该联队保持一支体能良好、随时待命且具备任务能力部队的能力之间的联系。\n\n此次重新开放是在战争部长皮特·赫格塞思与约600名士兵和军官一起在五角大楼阅兵场参加清晨体能训练五天之后进行的；当时他们穿着胸前印有“这就是战争”字样的同款T恤。该活动强化了该部门对当前和未来作战成功所持续强调的体能、纪律和高标准。\n\n当天晚些时候，赫格塞思在一次“部队状况”讲话中再次将体能标准与战备、问责和杀伤力联系起来。他的言论延续了他在2025年9月30日于弗吉尼亚州匡蒂科海军陆战队基地向高级军事领导人发表讲话时明确强调的重点。\n\n一切都从体能和外表开始，”赫格塞思说。“如果战争部长能够进行定期、艰苦的体能训练，那么我们联合部队的每一名成员也能做到。\n\n赫格塞思在2025年宣布的标准还要求预备役部队成员，无论执勤状态如何，都要对保持适当的体能训练方案承担个人责任。对于预备役公民空军人员而言，获得健身资源有助于将这一责任转化为持续的战备状态。\n\n体能是战备的基础，”第439部队支援中队服务小队主管瑞安·勒维尔说。“这里是我们的空军人员和家属聚集、锻炼和参加体育运动的地方。它有助于增强信心、韧性，并为家庭提供通过健身共度时光的机会。\n\n近期的改进包括对篮球场进行打磨和翻新，并在中圈添加第439空运联队徽标。球场还设置了空军高强度有氧多程折返跑的新标线，这是一项用于评估心肺适能的20米渐进式折返跑。球场的三分线已从原先的NBA规格重新粉刷为NCAA标准，以支持基地内篮球赛和其他有组织的活动。该中队计划扩大其基地内体育项目，为竞赛、团队合作和体能发展提供更多机会。\n\n第439部队支援中队指挥官卡梅伦·戈斯威克少校表示，该中队通过广泛的项目为战备作出贡献，这些项目在空军人员整个职业生涯中为其提供支持。除体能训练和休闲娱乐外，该中队还提供儿童保育、教育与训练、餐饮服务和人事支持。\n\n这些服务共同帮助空军人员保持体能上的准备、获得职业发展，并在满足任务要求方面得到支持。它们还为空军人员和家属提供资源，以增强其在军旅服役各项要求下的韧性。\n\n我们已经打下了一流的基础，我们正共同努力，确保我们的空军人员拥有动力、设施和支持，以最佳状态发挥水平，”第439空运联队健身中心运动生理学家卢卡斯·罗萨说。\n\n体能训练直接有助于整个爱国者联队的任务执行。空军人员依靠力量和耐力，在C-5M“超级银河”运输机上装载并固定货物，在长时间轮班和严苛条件下维护飞机，并执行提供全球机动能力所需的作战与保障职能。\n\n戈斯威克说，体能不限于作战任务。它使空军人员能够在整个任务中安全可靠地执行任务。该联队作战、维修、任务支援和医疗专业人员的战备，使“爱国者联队”能够在国家召唤时飞行、维修和作战。\n\n对于公民空军人员而言，战备必须与平民职业和家庭责任共同维持。健身中心通过帮助保持一支高效、经验丰富、可随时调用且具有杀伤力的部队，使其做好在国家召唤时响应的准备，从而支持空军预备役司令部（AFRC）的优势。\n\n通过将可获取的健身资源与有组织的休闲活动和明确标准相结合，第439空运联队正在投资于其人员及他们提供的作战能力。重新开放的健身中心为空军人员及家属提供了一个共同训练的场所，同时增强了“爱国者联队”随时随地在全球执行其全球机动任务的能力。\n\n戈斯威克说，体能不限于作战。“它使空军人员能够在整个任务中有效、安全、可靠地执行任务。",
+   "zhFull": "2026年10月5日，第439空运联队在马萨诸塞州韦斯托弗空军预备役基地健身中心重新开放之际，重申其致力于保持一支体能良好、坚韧且具备战备状态的部队。\n\n由第439部队支援中队主办的重新开放仪式，强调了个人福祉与该联队保持一支体能良好、随时待命且具备任务能力部队的能力之间的联系。\n\n此次重新开放是在战争部长皮特·赫格塞思与约600名士兵和军官一起在五角大楼阅兵场参加清晨体能训练五天之后进行的；当时他们穿着胸前印有“这就是战争”字样的同款T恤。该活动强化了该部门对当前和未来作战成功所持续强调的体能、纪律和高标准。\n\n当天晚些时候，赫格塞思在一次“部队状况”讲话中再次将体能标准与战备、问责和杀伤力联系起来。他的言论延续了他在2025年9月30日于弗吉尼亚州匡蒂科海军陆战队基地向高级军事领导人发表讲话时明确强调的重点。\n\n一切都从体能和外表开始，”赫格塞思说。“如果战争部长能够进行定期、艰苦的体能训练，那么我们联合部队的每一名成员也能做到。\n\n赫格塞思在2025年宣布的标准还要求预备役部队成员，无论执勤状态如何，都要对保持适当的体能训练方案承担个人责任。对于预备役公民空军人员而言，获得健身资源有助于将这一责任转化为持续的战备状态。\n\n体能是战备的基础，”第439部队支援中队服务小队主管瑞安·勒维尔说。“这里是我们的空军人员和家属聚集、锻炼和参加体育运动的地方。它有助于增强信心、韧性，并为家庭提供通过健身共度时光的机会。\n\n近期的改进包括对篮球场进行打磨和翻新，并在球场中央添加第439空运联队徽标。还设置了用于空军高强度有氧多程折返跑的新标线，这是一项用于评估心肺适能的20米渐进式折返跑。球场的三分线从原先的美国职业篮球联赛（NBA）规格重新漆成美国大学体育协会（NCAA）标准，以支持单位内部篮球赛和其他有组织的活动。该中队计划扩大其单位内部体育项目，为竞争、团队合作和身体发展提供更多机会。\n\n第439部队支援中队指挥官卡梅伦·戈斯威克少校表示，该中队通过一系列广泛项目为战备作出贡献，这些项目在空军人员的整个职业生涯中为其提供支持。除体能和娱乐外，该中队还提供儿童照护、教育和训练、餐饮服务以及人事支持。\n\n这些服务共同帮助空军人员保持身体上的准备、职业上的发展并获得支持，以满足任务要求。它们还为空军人员及其家属提供资源，帮助他们在军旅生活的各种要求中增强韧性。\n\n我们已经打下了一流的基础，并且正共同确保我们的空军人员拥有动力、设施和支持，以发挥出绝对巅峰水平，”第439空运联队健身中心运动生理学家卢卡斯·罗萨说。\n\n体能训练直接促进整个爱国者联队的任务执行。空军人员依靠力量和耐力，在C-5M“超级银河”运输机上装载和固定货物，在长时间值班和严苛条件下维护飞机，并履行实现全球机动所需的作战和保障职能。\n\n戈斯威克说，体能并不局限于作战任务。它使空军人员能够在整个任务中安全可靠地执行任务。该联队作战、维修、任务保障和医疗专业人员的战备状态，使爱国者联队在国家召唤时能够飞行、维修和战斗。\n\n对公民空军人员而言，必须在兼顾平民职业和家庭责任的同时保持战备。健身中心通过帮助保持一支高效、经验丰富、可随时调用且具备杀伤力、准备在国家召唤时作出响应的部队，为空军预备役司令部（AFRC）优势提供支持。\n\n通过将便利的健身资源与有组织的休闲活动和明确标准相结合，爱国者联队正在投资于其人员以及他们所提供的作战能力。重新开放的健身中心为空军人员及家属提供了一个共同锻炼的场所，同时增强了爱国者联队随时随地执行全球机动任务的能力。\n\n戈斯威克说，体能训练并不局限于作战。“它使空军人员能够在整个任务中有效、安全、可靠地履行职责。",
    "zhDone": 16,
    "zhChunks": 16,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
-   "url": "https://www.dvidshub.net/image/10003610/san-francisco-fleet-week-hosts-parade-ships",
+   "url": "https://www.dvidshub.net/image/10003613/san-francisco-fleet-week-hosts-parade-ships",
    "title": "San Francisco Fleet Week Hosts Parade of Ships",
    "author": "SN Ian Byler",
-   "pubDate": "2026-10-10T02:12:59+00:00",
-   "summary": "U.S. Navy Whidbey Island-class amphibious dock landing ship USS Ashland (LSD 48) sails beneath the Golden Gate Bridge during San Francisco Fleet Week, Oct. 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospi",
-   "body": "Navy Whidbey Island-class amphibious dock landing ship USS Ashland (LSD 48) sails beneath the Golden Gate Bridge during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area (U.\n\nNavy Photo by Mass Communication Specialist Seaman Alex Byler)",
+   "pubDate": "2026-10-10T02:11:43+00:00",
+   "summary": "U.S. Coast Guard Legend-class cutter USCGC Munro (WMSL 755) sails beneath the Golden Gate Bridge during San Francisco Fleet Week, Oct. 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Are",
+   "body": "Coast Guard Legend-class cutter USCGC Munro (WMSL 755) sails beneath the Golden Gate Bridge during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area (U.\n\nNavy Photo by Mass Communication Specialist Seaman Alex Byler)",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "美国海军惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48）于2026年10月9日旧金山舰队周期间从金门大桥下驶过。如今已举办至第45届的旧金山舰队周是一项历史悠久的庆祝活动，让湾区民众得以亲身领略当今海上军种的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参加各类社区服务活动，并享受热情款待。",
-   "titleZh": "旧金山舰队周举办舰船巡游",
+   "summaryZh": "2026年10月9日，海岸警卫队传奇级巡逻舰“门罗”号（USCGC Munro，WMSL 755）在旧金山舰队周期间从金门大桥下驶过。旧金山舰队周如今已是第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参与各类社区服务活动，并享受湾区的热情款待。",
+   "titleZh": "旧金山舰队周举办舰艇巡游",
    "titleTrans": "ok",
    "zhParas": [
-    "10月，在旧金山舰队周期间，美国海军惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48）从金门大桥下驶过。",
-    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今海上军种的风采。",
-    "活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参加各种社区服务活动，并尽享湾区的热情款待（美国",
-    "海军照片，由大众传播专家水兵亚历克斯·拜勒拍摄）"
+    "10月，海岸警卫队传奇级巡逻舰“门罗”号（USCGC Munro，WMSL 755）在旧金山舰队周期间从金门大桥下驶过。",
+    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今的海事服务。",
+    "活动期间，水兵、海军陆战队员和海岸警卫队人员展示其能力与装备，参加各类社区服务活动，并享受湾区的热情款待（U.",
+    "海军照片，由大众传播专家三等兵亚历克斯·拜勒拍摄）"
    ],
-   "zhFull": "10月，在旧金山舰队周期间，美国海军惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48）从金门大桥下驶过。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今海上军种的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参加各种社区服务活动，并尽享湾区的热情款待（美国\n\n海军照片，由大众传播专家水兵亚历克斯·拜勒拍摄）",
+   "zhFull": "10月，海岸警卫队传奇级巡逻舰“门罗”号（USCGC Munro，WMSL 755）在旧金山舰队周期间从金门大桥下驶过。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今的海事服务。\n\n活动期间，水兵、海军陆战队员和海岸警卫队人员展示其能力与装备，参加各类社区服务活动，并享受湾区的热情款待（U.\n\n海军照片，由大众传播专家三等兵亚历克斯·拜勒拍摄）",
    "zhDone": 4,
    "zhChunks": 4,
-   "zhState": "ok"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/10003605/navy-band-southwest-performs-richmond-district-san-francisco",
-   "title": "Navy Band Southwest Performs in Richmond District San Francisco",
-   "author": "SN Aaron Sandovalmendoza",
-   "pubDate": "2026-10-10T01:54:06+00:00",
-   "summary": "U.S. Navy Musician 2nd Class Micheal Zech, assigned to Navy Band Southwest, poses for a photo with a dog before a performance in the Richmond District during San Francisco Fleet Week, Oct. 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community se",
-   "body": "Navy Musician 2nd Class Micheal Zech, assigned to Navy Band Southwest, poses for a photo with a dog before a performance in the Richmond District during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nNavy Photo by Mass Communication Specialist Seaman Aaron Sandoval-Mendoza)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "summaryZh": "美国海军二等乐手迈克尔·泽克，隶属于海军西南乐队，于2026年10月9日旧金山舰队周期间在里士满区演出前与一只狗合影。旧金山舰队周如今已是第45届，是一项历史悠久的庆祝活动，让湾区市民能够亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队员展示其能力与装备，参与各种社区服务。",
-   "titleZh": "海军西南乐队在旧金山里士满区演出",
-   "titleTrans": "ok",
-   "zhParas": [
-    "海军二等乐手迈克尔·泽克，隶属于海军西南乐队，10月在旧金山舰队周期间于里士满区演出前与一只狗合影。",
-    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今海上部队的风采。",
-    "活动期间，水兵、海军陆战队员和海岸警卫队队员展示自身能力与装备，参加各类社区服务活动，并享受湾区的热情款待。",
-    "（美国海军照片，由大众传播专家水兵亚伦·桑多瓦尔-门多萨拍摄）"
-   ],
-   "zhFull": "海军二等乐手迈克尔·泽克，隶属于海军西南乐队，10月在旧金山舰队周期间于里士满区演出前与一只狗合影。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今海上部队的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示自身能力与装备，参加各类社区服务活动，并享受湾区的热情款待。\n\n（美国海军照片，由大众传播专家水兵亚伦·桑多瓦尔-门多萨拍摄）",
-   "zhDone": 4,
-   "zhChunks": 4,
-   "zhState": "ok"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/10003594/us-marines-and-coast-guardsmen-tour-uss-hornet-museum",
-   "title": "U.S. Marines and Coast Guardsmen Tour USS Hornet Museum",
-   "author": "SN Nathan Kanoun",
-   "pubDate": "2026-10-10T01:49:19+00:00",
-   "summary": "U.S. Coast Guard Chief Warrant Officer 2 Geoffrey A. Potter, assigned to Coast Guard Southwest District, participates in a tour of decommissioned U.S. Navy Essex-class aircraft carrier USS Hornet (CV-12) during San Francisco Fleet Week, Oct. 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabiliti",
-   "body": "Coast Guard Chief Warrant Officer 2 Geoffrey A.\n\nPotter, assigned to Coast Guard Southwest District, participates in a tour of decommissioned U.\n\nNavy Essex-class aircraft carrier USS Hornet (CV-12) during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nNavy photo by Mass Communication Specialist Seaman Nathan Kanoun)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "summaryZh": "美国海岸警卫队二级准尉杰弗里·A·波特，隶属海岸警卫队西南区，于2026年10月9日旧金山舰队周期间参观已退役的美国海军埃塞克斯级航空母舰“大黄蜂”号（CV-12）。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今的海上力量。活动期间，水兵、海军陆战队员和海岸警卫队员展示他们的能力",
-   "titleZh": "美国海军陆战队员和海岸警卫队员参观“大黄蜂”号博物馆",
-   "titleTrans": "ok",
-   "zhParas": [
-    "海岸警卫队二级准尉杰弗里·A.",
-    "波特，隶属于海岸警卫队西南区，参加对退役的美国",
-    "海军埃塞克斯级航空母舰“大黄蜂”号（CV-12）的参观活动，在旧金山舰队周期间，10月",
-    "旧金山舰队周如今已是第45届，是一项历史悠久的庆祝活动，让湾区市民能够亲眼目睹当今的海上力量。",
-    "活动期间，水兵、海军陆战队员和海岸警卫队员展示各自的能力和装备，参加各类社区服务活动，并感受湾区的热情好客。",
-    "美国海军照片，由大众传播专家水兵内森·卡努恩拍摄）"
-   ],
-   "zhFull": "海岸警卫队二级准尉杰弗里·A.\n\n波特，隶属于海岸警卫队西南区，参加对退役的美国\n\n海军埃塞克斯级航空母舰“大黄蜂”号（CV-12）的参观活动，在旧金山舰队周期间，10月\n\n旧金山舰队周如今已是第45届，是一项历史悠久的庆祝活动，让湾区市民能够亲眼目睹当今的海上力量。\n\n活动期间，水兵、海军陆战队员和海岸警卫队员展示各自的能力和装备，参加各类社区服务活动，并感受湾区的热情好客。\n\n美国海军照片，由大众传播专家水兵内森·卡努恩拍摄）",
-   "zhDone": 6,
-   "zhChunks": 6,
    "zhState": "ok"
   },
   {
@@ -299,9 +430,8 @@
    "body": "7th Fleet Deputy Commander Rear Adm.\n\nKyle Gantt, and Arleigh Burke-class guided-missile destroyer USS McCampbell (DDG 85) Commanding Officer Capt.\n\nMicah Sybor, briefs Asia-Pacific U.\n\nAmbassadors, and senior State Department officials about the capabilities of the ship’s command information center during an ambassador conference at Commander, Fleet Activities Yokosuka, Oct.\n\nAmbassador George Glass, U.\n\nAmbassador to Japan and Adm.\n\nPacific Command hosted the delegation to discuss the security environment across the PACOM area of operations.\n\nNavy photo by Mass Communication Specialist 1st Class Charles Oki)",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "第七舰队副司令、海军少将凯尔·甘特，以及阿利·伯克级导弹驱逐舰“麦坎贝尔”号（DDG 85）舰长、上校迈卡·赛博，在2026年10月9日于横须贺舰队基地司令部举行的大使会议期间，向亚太地区美国大使和国务院高级官员介绍该舰指挥信息中心的能力。美国驻日本大使乔治·格拉斯，以及美国太平洋舰队司令、海军上将塞缪尔·J·帕帕罗。",
    "titleZh": "亚太地区美国大使、美军太平洋司令部司令访问“麦坎贝尔”号驱逐舰",
-   "titleTrans": "ok",
+   "summaryZh": "第七舰队副司令、海军少将凯尔·甘特，以及阿利·伯克级导弹驱逐舰“麦坎贝尔”号（DDG 85）舰长、上校迈卡·赛博，在2026年10月9日于横须贺舰队基地司令部举行的大使会议期间，向亚太地区美国大使和国务院高级官员介绍该舰指挥信息中心的能力。美国驻日本大使乔治·格拉斯，以及美国太平洋舰队司令、海军上将塞缪尔·J·帕帕罗。",
    "zhParas": [
     "第七舰队副司令、海军少将",
     "凯尔·甘特，以及阿利·伯克级导弹驱逐舰“麦坎贝尔”号（DDG 85）舰长、上校",
@@ -315,6 +445,30 @@
    "zhFull": "第七舰队副司令、海军少将\n\n凯尔·甘特，以及阿利·伯克级导弹驱逐舰“麦坎贝尔”号（DDG 85）舰长、上校\n\n迈卡·赛博，向美国驻亚太地区\n\n大使，以及国务院高级官员介绍该舰指挥信息中心的能力，时值10月在横须贺舰队活动司令部举行的大使会议期间。\n\n乔治·格拉斯大使，美国\n\n驻日本大使和海军上将\n\n美军太平洋司令部接待了该代表团，讨论整个太平洋司令部作战区域的安全环境。\n\n美国海军照片，由海军一等大众传播专家查尔斯·奥基拍摄）",
    "zhDone": 8,
    "zhChunks": 8,
+   "zhState": "ok",
+   "zhAt": null
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10003530/sffw-2026-blue-angels",
+   "title": "SFFW 2026 BLUE ANGELS",
+   "author": "Cpl Jeslianne Torres",
+   "pubDate": "2026-10-10T01:05:12+00:00",
+   "summary": "U.S. Navy Flight Demonstration Squadron, the Blue Angels, perform aerial maneuvers during San Francisco Fleet Week, Oct. 9, 2026.San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area. (U.S. Marine",
+   "body": "Navy Flight Demonstration Squadron, the Blue Angels, perform aerial maneuvers during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nMarine Corps photo by Cpl.",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "美国海军飞行表演中队“蓝天使”于2026年10月9日旧金山舰队周期间进行空中机动表演。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民得以亲眼目睹当今的海上军种。活动期间，水兵、海军陆战队员和海岸警卫队队员展示其能力和装备，参加各类社区服务活动，并享受湾区的热情款待。（美国海军陆战队",
+   "titleZh": "2026年旧金山舰队周蓝天使",
+   "titleTrans": "ok",
+   "zhParas": [
+    "海军飞行表演中队“蓝天使”在旧金山舰队周期间进行空中机动表演，10月。",
+    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海事服务的风采。",
+    "活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力和装备，参加各种社区服务活动，并感受湾区的热情好客。",
+    "海军陆战队照片，由下士拍摄。"
+   ],
+   "zhFull": "海军飞行表演中队“蓝天使”在旧金山舰队周期间进行空中机动表演，10月。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海事服务的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力和装备，参加各种社区服务活动，并感受湾区的热情好客。\n\n海军陆战队照片，由下士拍摄。",
+   "zhDone": 4,
+   "zhChunks": 4,
    "zhState": "ok"
   },
   {
@@ -340,6 +494,104 @@
    "zhChunks": 5,
    "zhState": "ok",
    "zhAt": null
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10003536/us-navy-coast-guard-ships-parade-through-san-francisco-bay",
+   "title": "U.S. Navy, Coast Guard ships parade through San Francisco Bay",
+   "author": "PO3 Pablo Chavez",
+   "pubDate": "2026-10-10T01:00:36+00:00",
+   "summary": "U.S. Navy Whidbey Island-class amphibious dock landing ship USS Ashland (LSD 48), right, U.S. Navy Ticonderoga-class guided-missile cruiser USS Cape St. George (CG 71), center, and U.S. Coast Guard Legend-class cutter USCGC Munro (WMSL 755), pass the Golden Gate Bridge during the Parade of Ships for San Francisco Fleet Week, Oct. 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the bay area to witness today’s maritime services fi",
+   "body": "Navy Whidbey Island-class amphibious dock landing ship USS Ashland (LSD 48), right, U.\n\nNavy Ticonderoga-class guided-missile cruiser USS Cape St.\n\nGeorge (CG 71), center, and U.\n\nCoast Guard Legend-class cutter USCGC Munro (WMSL 755), pass the Golden Gate Bridge during the Parade of Ships for San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the bay area to witness today’s maritime services firsthand.\n\nDuring the event sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the bay area.\n\nNavy photo by Mass Communication Specialist 3rd Pablo Chavez)",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "美国海军惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48）位于右侧，美国海军提康德罗加级导弹巡洋舰“圣乔治角”号（CG 71）位于中间，美国海岸警卫队传奇级巡逻舰“芒罗”号（WMSL 755）于2026年10月9日旧金山舰队周舰船游行期间驶过金门大桥。旧金山舰队周现已举办至第45届，是一项历史悠久的庆祝活动，让旧金山湾区民众得以亲身目睹当今的海上军种。",
+   "titleZh": "美国海军、海岸警卫队舰船列队驶过旧金山湾",
+   "titleTrans": "ok",
+   "zhParas": [
+    "海军惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48），右侧，U.",
+    "海军提康德罗加级导弹巡洋舰 USS Cape St.",
+    "George（CG 71），居中，以及 U.",
+    "海岸警卫队传奇级巡逻舰“门罗”号（WMSL 755），在旧金山舰队周舰船游行期间驶过金门大桥，10月",
+    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆典，让湾区民众能够亲身领略当今海上部队的风采。",
+    "活动期间，水兵、海军陆战队员和海岸警卫队队员展示自身能力与装备，参加各种社区服务活动，并享受湾区的热情款待。",
+    "美国海军照片，由三级大众传播专家巴勃罗·查韦斯拍摄）"
+   ],
+   "zhFull": "海军惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48），右侧，U.\n\n海军提康德罗加级导弹巡洋舰 USS Cape St.\n\nGeorge（CG 71），居中，以及 U.\n\n海岸警卫队传奇级巡逻舰“门罗”号（WMSL 755），在旧金山舰队周舰船游行期间驶过金门大桥，10月\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆典，让湾区民众能够亲身领略当今海上部队的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示自身能力与装备，参加各种社区服务活动，并享受湾区的热情款待。\n\n美国海军照片，由三级大众传播专家巴勃罗·查韦斯拍摄）",
+   "zhDone": 7,
+   "zhChunks": 7,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10003539/us-navy-ships-parade-through-san-francisco-bay",
+   "title": "U.S. Navy ships parade through San Francisco Bay",
+   "author": "PO3 Pablo Chavez",
+   "pubDate": "2026-10-10T00:58:27+00:00",
+   "summary": "U.S. Navy Whidbey Island-class amphibious dock landing ship USS Ashland (LSD 48), right, and U.S. Navy Ticonderoga-class guided-missile cruiser USS Cape St. George (CG 71), left, sail through San Francisco Bay during the Parade of Ships for San Francisco Fleet Week, Oct. 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the bay area to witness today’s maritime services firsthand. During the event sailors, Marines, and Coast Guards",
+   "body": "Navy Whidbey Island-class amphibious dock landing ship USS Ashland (LSD 48), right, and U.\n\nNavy Ticonderoga-class guided-missile cruiser USS Cape St.\n\nGeorge (CG 71), left, sail through San Francisco Bay during the Parade of Ships for San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the bay area to witness today’s maritime services firsthand.\n\nDuring the event sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the bay area.\n\nNavy photo by Mass Communication Specialist 3rd Pablo Chavez)",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "美国海军惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48），右侧，以及美国海军提康德罗加级导弹巡洋舰“圣乔治角”号（CG 71），左侧，于2026年10月9日旧金山舰队周的舰船游行期间驶过旧金山湾。旧金山舰队周现已举办第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今的海上军种。活动期间，水兵、海军陆战队员和海岸警卫队队员",
+   "titleZh": "美国海军舰艇列队驶过旧金山湾",
+   "titleTrans": "ok",
+   "zhParas": [
+    "美国海军惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48），右侧，以及美国",
+    "海军提康德罗加级导弹巡洋舰“圣",
+    "乔治”号（CG 71），左侧，在旧金山舰队周的舰船巡游期间驶过旧金山湾，10月",
+    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身目睹当今海上军种的风采。",
+    "活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力和装备，参加各种社区服务活动，并享受湾区的热情款待。",
+    "美国海军照片，由大众传播专家三等巴勃罗·查韦斯拍摄）"
+   ],
+   "zhFull": "美国海军惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48），右侧，以及美国\n\n海军提康德罗加级导弹巡洋舰“圣\n\n乔治”号（CG 71），左侧，在旧金山舰队周的舰船巡游期间驶过旧金山湾，10月\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身目睹当今海上军种的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力和装备，参加各种社区服务活动，并享受湾区的热情款待。\n\n美国海军照片，由大众传播专家三等巴勃罗·查韦斯拍摄）",
+   "zhDone": 6,
+   "zhChunks": 6,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10003541/nbsw-childrens-hospital-concert",
+   "title": "NBSW Children's Hospital Concert",
+   "author": "PO3 Ivan Garcia",
+   "pubDate": "2026-10-10T00:56:35+00:00",
+   "summary": "U.S. Navy Musician 1st Class Jason Paige and U.S. Navy Musician 2nd Class Drew Spencer, both assigned to Navy Band Southwest Woodwind Quintet, discuss the difference between a bass clarinet and a clarinet during a concert at University of California Benioff Children’s Hospital during San Francisco Fleet Week Oct 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the bay area to witness today’s maritime services firsthand. During th",
+   "body": "Navy Musician 1st Class Jason Paige and U.\n\nNavy Musician 2nd Class Drew Spencer, both assigned to Navy Band Southwest Woodwind Quintet, discuss the difference between a bass clarinet and a clarinet during a concert at University of California Benioff Children’s Hospital during San Francisco Fleet Week Oct 9, 2026.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the bay area to witness today’s maritime services firsthand.\n\nDuring the event sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the bay area.\n\nNavy photo by Mass Communication Specialist 3rd Class Ivan A.",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "海军一等军乐师杰森·佩奇和海军二等军乐师德鲁·斯宾塞均隶属于海军西南乐队木管五重奏，他们在2026年10月9日旧金山舰队周期间于加州大学贝尼奥夫儿童医院举行的一场音乐会上讨论低音单簧管与单簧管的区别。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民能够亲身见证当今的海事服务。在……",
+   "titleZh": "海军西南乐队儿童医院音乐会",
+   "titleTrans": "ok",
+   "zhParas": [
+    "海军一等军乐师杰森·佩奇和 U.",
+    "海军二等军乐师德鲁·斯宾塞，两人均隶属于海军西南军乐团木管五重奏，在2026年10月9日旧金山舰队周期间于加州大学贝尼奥夫儿童医院举行的一场音乐会上讨论低音单簧管与单簧管的区别。",
+    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区居民能够亲身见证当今的海上军事力量。",
+    "活动期间，水兵、海军陆战队员和海岸警卫队人员展示各自的能力与装备，参与各种社区服务活动，并享受湾区的热情款待。",
+    "海军照片，由海军三等大众传播专家伊万·A.拍摄。"
+   ],
+   "zhFull": "海军一等军乐师杰森·佩奇和 U.\n\n海军二等军乐师德鲁·斯宾塞，两人均隶属于海军西南军乐团木管五重奏，在2026年10月9日旧金山舰队周期间于加州大学贝尼奥夫儿童医院举行的一场音乐会上讨论低音单簧管与单簧管的区别。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区居民能够亲身见证当今的海上军事力量。\n\n活动期间，水兵、海军陆战队员和海岸警卫队人员展示各自的能力与装备，参与各种社区服务活动，并享受湾区的热情款待。\n\n海军照片，由海军三等大众传播专家伊万·A.拍摄。",
+   "zhDone": 5,
+   "zhChunks": 5,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10003542/san-francisco-fleet-week-parade-ships",
+   "title": "San Francisco Fleet Week Parade of Ships",
+   "author": "PO3 Pablo Chavez",
+   "pubDate": "2026-10-10T00:54:49+00:00",
+   "summary": "U.S. Coast Guard Legend-class cutter USCGC Munro (WMSL 755) sails through San Francisco Bay during the Parade of Ships for San Francisco Fleet Week, Oct. 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the bay area to witness today’s maritime services firsthand. During the event sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospital",
+   "body": "Coast Guard Legend-class cutter USCGC Munro (WMSL 755) sails through San Francisco Bay during the Parade of Ships for San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the bay area to witness today’s maritime services firsthand.\n\nDuring the event sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the bay area.\n\nNavy photo by Mass Communication Specialist 3rd Pablo Chavez)",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "美国海岸警卫队传奇级巡逻舰“门罗”号（USCGC Munro，WMSL 755）于2026年10月9日在旧金山舰队周舰船游行期间驶过旧金山湾。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身目睹当今的海上军种。活动期间，水兵、海军陆战队员和海岸警卫队员展示其能力与装备，参加各类社区服务活动，并享受热情款待。",
+   "titleZh": "旧金山舰队周舰船游行",
+   "titleTrans": "ok",
+   "zhParas": [
+    "10月，美国海岸警卫队传奇级巡逻舰“门罗”号（USCGC Munro，WMSL 755）在旧金山舰队周舰船游行期间驶过旧金山湾。",
+    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上军种的风采。",
+    "活动期间，水兵、海军陆战队员和海岸警卫队人员展示自身能力与装备，参加各类社区服务活动，并享受湾区的热情款待。",
+    "美国海军照片，由三等大众传播专家巴勃罗·查韦斯拍摄）"
+   ],
+   "zhFull": "10月，美国海岸警卫队传奇级巡逻舰“门罗”号（USCGC Munro，WMSL 755）在旧金山舰队周舰船游行期间驶过旧金山湾。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上军种的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队人员展示自身能力与装备，参加各类社区服务活动，并享受湾区的热情款待。\n\n美国海军照片，由三等大众传播专家巴勃罗·查韦斯拍摄）",
+   "zhDone": 4,
+   "zhChunks": 4,
+   "zhState": "ok"
   },
   {
    "url": "https://www.dvidshub.net/image/10003555/parade-ships-airshow-san-francisco-fleet-week",
@@ -743,25 +995,25 @@
    "zhAt": null
   },
   {
-   "url": "https://www.dvidshub.net/image/10003341/soldiers-164th-ada-bde-monitor-hurricane-isaias-development",
-   "title": "Soldiers of the 164th ADA BDE Monitor Hurricane Isaias Development",
+   "url": "https://www.dvidshub.net/image/10003333/soldiers-164th-air-defense-artillery-brigade-monitor-hurricane-isaias-development",
+   "title": "Soldiers of the 164th Air Defense Artillery Brigade Monitor Hurricane Isaias Development",
    "author": "CPT Curtis Rookard",
    "pubDate": "2026-10-09T19:56:06+00:00",
-   "summary": "Soldiers with the headquarters and headquarters battery of the 164th Air Defense Artillery brigade monitor the development of Hurricane Isaias to ensure the deployment of support in affected areas on Friday, October 9, 2026 in Orlando, Fla. Soldiers of the 164th remain ready to support State Emergency Response Teams with relief and rescue missions as directed by the governor of Florida (Photo by Capt. Curtis Rookard).",
-   "body": "Soldiers with the headquarters and headquarters battery of the 164th Air Defense Artillery brigade monitor the development of Hurricane Isaias to ensure the deployment of support in affected areas on Friday, October 9, 2026 in Orlando, Fla.\n\nSoldiers of the 164th remain ready to support State Emergency Response Teams with relief and rescue missions as directed by the governor of Florida (Photo by Capt.",
+   "summary": "Soldiers with the headquarters and headquarters battery of the 164th Air Defense Artillery Brigade monitor the development of Hurricane Isaias to ensure the deployment of support in affected areas on Friday, October 9, 2026 in Orlando, FL. Soldiers of the 164th remain ready to support State Emergency Response Teams with relief and rescue missions as directed by the governor of Florida (Photo by Capt. Curtis Rookard).",
+   "body": "Soldiers with the headquarters and headquarters battery of the 164th Air Defense Artillery Brigade monitor the development of Hurricane Isaias to ensure the deployment of support in affected areas on Friday, October 9, 2026 in Orlando, FL.\n\nSoldiers of the 164th remain ready to support State Emergency Response Teams with relief and rescue missions as directed by the governor of Florida (Photo by Capt.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "titleZh": "第164防空炮兵旅士兵监测飓风“伊萨亚斯”发展动态",
-   "summaryZh": "第164防空炮兵旅旅部及旅部直属连的士兵于2026年10月9日星期五在佛罗里达州奥兰多监测飓风“伊萨亚斯”的发展动态，以确保向受灾地区部署支援。第164防空炮兵旅的士兵随时准备按照佛罗里达州州长的指示，支援州应急响应小组执行救灾和救援任务（照片由柯蒂斯·鲁卡德上尉拍摄）。",
+   "summaryZh": "第164防空炮兵旅旅部及旅部直属连的士兵于2026年10月9日星期五在佛罗里达州奥兰多监测飓风“伊萨亚斯”的发展，以确保向受灾地区部署支援。第164防空炮兵旅的士兵随时准备按照佛罗里达州州长的指示，支援州应急响应小组执行救灾和救援任务（摄影：柯蒂斯·鲁卡德上尉）。",
+   "titleZh": "第164防空炮兵旅士兵监测飓风“伊萨亚斯”的发展",
+   "titleTrans": "ok",
    "zhParas": [
-    "第164防空炮兵旅旅部及旅部直属连的士兵于2026年10月9日星期五在佛罗里达州奥兰多监测飓风“伊萨亚斯”的发展动态，以确保向受灾地区部署支援。",
-    "第164旅的士兵保持待命，准备按照佛罗里达州州长的指示，支援州应急响应小组执行救灾和救援任务（照片由上尉"
+    "第164防空炮兵旅旅部及旅部直属连的士兵于2026年10月9日星期五在佛罗里达州奥兰多监测飓风“伊萨亚斯”的发展，以确保向受灾地区部署支援。",
+    "第164旅的士兵随时准备按照佛罗里达州州长的指示，支援州应急响应小组执行救灾和救援任务（摄影：上尉"
    ],
-   "zhFull": "第164防空炮兵旅旅部及旅部直属连的士兵于2026年10月9日星期五在佛罗里达州奥兰多监测飓风“伊萨亚斯”的发展动态，以确保向受灾地区部署支援。\n\n第164旅的士兵保持待命，准备按照佛罗里达州州长的指示，支援州应急响应小组执行救灾和救援任务（照片由上尉",
+   "zhFull": "第164防空炮兵旅旅部及旅部直属连的士兵于2026年10月9日星期五在佛罗里达州奥兰多监测飓风“伊萨亚斯”的发展，以确保向受灾地区部署支援。\n\n第164旅的士兵随时准备按照佛罗里达州州长的指示，支援州应急响应小组执行救灾和救援任务（摄影：上尉",
    "zhDone": 2,
    "zhChunks": 2,
-   "zhState": "ok",
-   "zhAt": null
+   "zhState": "ok"
   },
   {
    "url": "https://www.dvidshub.net/news/576758/readout-us-naval-forces-central-command-us-5th-fleet-combined-maritime-forces-vice-adm-curt-renshaws-meeting-with-royal",
@@ -883,30 +1135,6 @@
    "zhAt": null
   },
   {
-   "url": "https://www.dvidshub.net/image/10002934/mcicom-visits-cherry-point",
-   "title": "MCICOM Visits Cherry Point",
-   "author": "Cpl Michail Stankosky",
-   "pubDate": "2026-10-09T19:26:46+00:00",
-   "summary": "U.S. Marine Corps Sgt. John Maske, left, a low altitude air defense technician, assigned to 2nd Low Altitude Air Defense Battalion, Marine Air Control Group 28, 2nd Marine Aircraft Wing, discusses the quality of life inside of the 2nd LAAD barracks with Maj. Gen. Brian Wolford, the commanding general of Marine Corps Installations Command, at Marine Corps Air Station Cherry Point, Oct. 8, 2026. The MCICOM commanding general and his staff visited MCAS Cherry Point to observe ongoing operations, en",
-   "body": "John Maske, left, a low altitude air defense technician, assigned to 2nd Low Altitude Air Defense Battalion, Marine Air Control Group 28, 2nd Marine Aircraft Wing, discusses the quality of life inside of the 2nd LAAD barracks with Maj.\n\nBrian Wolford, the commanding general of Marine Corps Installations Command, at Marine Corps Air Station Cherry Point, Oct.\n\nThe MCICOM commanding general and his staff visited MCAS Cherry Point to observe ongoing operations, engage with personnel, and review the station's capabilities and readiness.\n\nThe visit included a tour of the installation with emphasis on ongoing military construction projects, quality-of-life services, and installation operations.\n\nMarine Corps photo by Cpl.",
-   "channel": "us_dod",
-   "channelName": "美国国防部",
-   "titleZh": "海军陆战队设施司令部访问樱桃点",
-   "summaryZh": "美国海军陆战队中士约翰·马斯克（左），一名低空防空技术员，隶属于海军陆战队第2航空联队第28航空控制大队第2低空防空营，于2026年10月8日在海军陆战队樱桃点航空站与海军陆战队设施司令部司令布赖恩·沃尔福德少将讨论第2低空防空营营房内的生活质量。海军陆战队设施司令部司令及其工作人员访问了海军陆战队樱桃点航空站，以观察正在进行的行动。",
-   "zhParas": [
-    "约翰·马斯克（左），一名低空防空技术员，隶属于海军陆战队第2航空联队第28航空控制大队第2低空防空营，正在与少将讨论第2低空防空营营房内的生活质量。",
-    "布莱恩·沃尔福德，海军陆战队设施司令部司令，于10月在海军陆战队切里波因特航空站。",
-    "海军陆战队设施司令部（MCICOM）司令及其参谋人员访问了海军陆战队切里波因特航空站，以观察正在进行的行动、与人员交流，并审查该航空站的能力和战备状态。",
-    "此次访问包括参观该设施，重点关注正在进行的军事建设项目、生活质量服务和设施运行。",
-    "海军陆战队照片，由下士拍摄。"
-   ],
-   "zhFull": "约翰·马斯克（左），一名低空防空技术员，隶属于海军陆战队第2航空联队第28航空控制大队第2低空防空营，正在与少将讨论第2低空防空营营房内的生活质量。\n\n布莱恩·沃尔福德，海军陆战队设施司令部司令，于10月在海军陆战队切里波因特航空站。\n\n海军陆战队设施司令部（MCICOM）司令及其参谋人员访问了海军陆战队切里波因特航空站，以观察正在进行的行动、与人员交流，并审查该航空站的能力和战备状态。\n\n此次访问包括参观该设施，重点关注正在进行的军事建设项目、生活质量服务和设施运行。\n\n海军陆战队照片，由下士拍摄。",
-   "zhDone": 5,
-   "zhChunks": 5,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
    "url": "https://www.dvidshub.net/image/10003011/2026-mcas-cherry-point-mass-casualty-exercise",
    "title": "2026 MCAS Cherry Point Mass Casualty Exercise",
    "author": "LCpl Sorayma Garcia",
@@ -983,28 +1211,28 @@
    "zhAt": null
   },
   {
-   "url": "https://www.dvidshub.net/image/10003156/usnmrtc-guantanamo-bay-builds-lifesaving-readiness-security-forces",
+   "url": "https://www.dvidshub.net/image/10003167/usnmrtc-guantanamo-bay-builds-lifesaving-readiness-security-forces",
    "title": "USNMRTC Guantanamo Bay Builds Lifesaving Readiness for Security Forces",
    "author": "Emily McCamy",
    "pubDate": "2026-10-09T18:42:37+00:00",
-   "summary": "261008-N-LY941-1001 Hospital Corpsman Isaac Zapata and Hospital Corpsman 1st Class Alexa Lim, assigned to U.S. Navy Medicine Readiness and Training Command Guantanamo Bay, demonstrate infant cardiopulmonary resuscitation on a manikin during an American Red Cross Basic Life Support course at U.S. Naval Hospital Guantanamo Bay, Cuba, Oct. 8, 2026. Zapata and Lim demonstrated chest compressions, rescue breaths using a bag-valve mask and use of an automated external defibrillator to train Naval Stat",
-   "body": "261008-N-LY941-1001 Hospital Corpsman Isaac Zapata and Hospital Corpsman 1st Class Alexa Lim, assigned to U.\n\nNavy Medicine Readiness and Training Command Guantanamo Bay, demonstrate infant cardiopulmonary resuscitation on a manikin during an American Red Cross Basic Life Support course at U.\n\nNaval Hospital Guantanamo Bay, Cuba, Oct.\n\nZapata and Lim demonstrated chest compressions, rescue breaths using a bag-valve mask and use of an automated external defibrillator to train Naval Station Guantanamo Bay security forces in lifesaving response skills.\n\nNavy photo by Emily McCamy)",
+   "summary": "261008-N-LY941-1003 Master-at-Arms 2nd Class Christian Bell and Master-at-Arms Seaman Nemyr Colonroman, assigned to Naval Station Guantanamo Bay security forces, practice infant cardiopulmonary resuscitation on a manikin during an American Red Cross Basic Life Support course at U.S. Naval Hospital Guantanamo Bay, Oct. 8, 2026. The course included practical exercises with adult and infant medical training simulators to prepare participants for Basic Life Support certification. Basic Life Support,",
+   "body": "261008-N-LY941-1003 Master-at-Arms 2nd Class Christian Bell and Master-at-Arms Seaman Nemyr Colonroman, assigned to Naval Station Guantanamo Bay security forces, practice infant cardiopulmonary resuscitation on a manikin during an American Red Cross Basic Life Support course at U.\n\nNaval Hospital Guantanamo Bay, Oct.\n\nThe course included practical exercises with adult and infant medical training simulators to prepare participants for Basic Life Support certification.\n\nBasic Life Support, or BLS, is emergency care provided to individuals experiencing cardiac arrest, respiratory distress or an obstructed airway.\n\nNavy photo by Emily McCamy)",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "titleZh": "美国海军关塔那摩湾医学战备与训练司令部为安全部队打造救生战备能力",
-   "summaryZh": "261008-N-LY941-1001 隶属于美国海军关塔那摩湾医学战备与训练司令部的海军医务兵艾萨克·萨帕塔和海军一等医务兵亚历克莎·利姆，于2026年10月8日在古巴关塔那摩湾美国海军医院举行的一次美国红十字会基础生命支持课程中，在人体模型上演示婴儿心肺复苏。萨帕塔和利姆演示了胸外按压、使用球囊面罩进行人工呼吸以及使用自动体外除颤器，以培训海军关塔那摩湾基地人员。",
+   "summaryZh": "261008-N-LY941-1003 隶属关塔那摩湾海军基地安全部队的海军宪兵二级军士克里斯蒂安·贝尔和海军宪兵水兵内米尔·科隆罗曼，于2026年10月8日在美国海军关塔那摩湾医院举行的美国红十字会基础生命支持课程期间，在人体模型上练习婴儿心肺复苏。该课程包括使用成人和婴儿医疗训练模拟器进行实操练习，以使参与者为获得基础生命支持认证做好准备。基础生命支持，",
+   "titleZh": "美国海军医学战备与训练司令部关塔那摩湾为安全部队打造救生战备能力",
+   "titleTrans": "ok",
    "zhParas": [
-    "261008-N-LY941-1001 海军医务兵艾萨克·萨帕塔和海军一等医务兵亚历克莎·利姆，隶属于美国",
-    "海军医学战备与训练司令部关塔那摩湾，在美国红十字会基础生命支持课程期间，在一具人体模型上演示婴儿心肺复苏术，地点在美国",
-    "海军医院关塔那摩湾，古巴，10月",
-    "萨帕塔和利姆演示了胸外按压、使用球囊面罩进行人工呼吸以及使用自动体外除颤器，以训练关塔那摩湾海军基地安全部队的救生响应技能。",
-    "海军照片：艾米莉·麦卡米摄）"
+    "261008-N-LY941-1003 隶属关塔那摩湾海军基地安全部队的海军宪兵二级军士克里斯蒂安·贝尔和海军宪兵水兵内米尔·科隆罗曼，在美国红十字会基础生命支持课程期间，在人体模型上练习婴儿心肺复苏，地点在 U.",
+    "关塔那摩湾海军医院，10月。",
+    "该课程包括使用成人和婴儿医疗训练模拟器进行实操演练，以使参训人员为获得基础生命支持认证做好准备。",
+    "基础生命支持（BLS）是为发生心脏骤停、呼吸窘迫或气道梗阻的人员提供的紧急救护。",
+    "美国海军照片，由艾米莉·麦卡米拍摄）"
    ],
-   "zhFull": "261008-N-LY941-1001 海军医务兵艾萨克·萨帕塔和海军一等医务兵亚历克莎·利姆，隶属于美国\n\n海军医学战备与训练司令部关塔那摩湾，在美国红十字会基础生命支持课程期间，在一具人体模型上演示婴儿心肺复苏术，地点在美国\n\n海军医院关塔那摩湾，古巴，10月\n\n萨帕塔和利姆演示了胸外按压、使用球囊面罩进行人工呼吸以及使用自动体外除颤器，以训练关塔那摩湾海军基地安全部队的救生响应技能。\n\n海军照片：艾米莉·麦卡米摄）",
+   "zhFull": "261008-N-LY941-1003 隶属关塔那摩湾海军基地安全部队的海军宪兵二级军士克里斯蒂安·贝尔和海军宪兵水兵内米尔·科隆罗曼，在美国红十字会基础生命支持课程期间，在人体模型上练习婴儿心肺复苏，地点在 U.\n\n关塔那摩湾海军医院，10月。\n\n该课程包括使用成人和婴儿医疗训练模拟器进行实操演练，以使参训人员为获得基础生命支持认证做好准备。\n\n基础生命支持（BLS）是为发生心脏骤停、呼吸窘迫或气道梗阻的人员提供的紧急救护。\n\n美国海军照片，由艾米莉·麦卡米拍摄）",
    "zhDone": 5,
    "zhChunks": 5,
-   "zhState": "ok",
-   "zhAt": null
+   "zhState": "ok"
   },
   {
    "url": "https://www.dvidshub.net/video/1026036/reel-fy27-stap-deadline",
@@ -1353,25 +1581,25 @@
    "zhAt": null
   },
   {
-   "url": "https://www.dvidshub.net/image/10002875/honoring-best-pm-ts",
+   "url": "https://www.dvidshub.net/image/10002872/honoring-best-pm-ts",
    "title": "Honoring the best of PM TS",
    "author": "Brian Cooper",
    "pubDate": "2026-10-09T16:47:05+00:00",
-   "summary": "Project Manager for Terrestrial Sensors (PM TS) Tom Dunaway presents Daniel Kuehl with the Department of the Army Meritorious Civilian Service Medal during a PM TS All-Hands meeting at Fort Belvoir on October 8, 2026. Kuehl was recognized for extraordinary leadership and unwavering dedication to the mission.",
-   "body": "Project Manager for Terrestrial Sensors (PM TS) Tom Dunaway presents Daniel Kuehl with the Department of the Army Meritorious Civilian Service Medal during a PM TS All-Hands meeting at Fort Belvoir on October 8, 2026.\n\nKuehl was recognized for extraordinary leadership and unwavering dedication to the mission.",
+   "summary": "Project Manager for Terrestrial Sensors (PM TS) Tom Dunaway presents William Bezek with the Department of the Army Meritorious Civilian Service Medal during a PM TS All-Hands meeting at Fort Belvoir on October 8, 2026. Bezek was recognized for his visionary leadership and unparalleled acquisition expertise.",
+   "body": "Project Manager for Terrestrial Sensors (PM TS) Tom Dunaway presents William Bezek with the Department of the Army Meritorious Civilian Service Medal during a PM TS All-Hands meeting at Fort Belvoir on October 8, 2026.\n\nBezek was recognized for his visionary leadership and unparalleled acquisition expertise.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "titleZh": "表彰PM TS的佼佼者",
-   "summaryZh": "2026年10月8日，在贝尔沃堡举行的PM TS全员大会上，地面传感器项目经理（PM TS）汤姆·杜纳韦向丹尼尔·库尔颁发了陆军部文职功绩服务奖章。库尔因卓越的领导力和对使命的坚定奉献而受到表彰。",
+   "summaryZh": "2026年10月8日，在贝尔沃堡举行的PM TS全体人员会议上，地面传感器项目经理（PM TS）汤姆·邓纳威向威廉·贝泽克颁发陆军部文职功绩服务奖章。贝泽克因其富有远见的领导力和无与伦比的采办专长而受到表彰。",
+   "titleZh": "表彰PM TS的精英",
+   "titleTrans": "ok",
    "zhParas": [
-    "2026年10月8日，在贝尔沃堡举行的PM TS全员大会上，地面传感器项目经理（PM TS）汤姆·杜纳韦向丹尼尔·库尔颁发了陆军部文职功绩服务奖章。",
-    "库尔因卓越的领导力和对使命坚定不移的奉献而受到表彰。"
+    "2026年10月8日，在贝尔沃堡举行的PM TS全体人员会议上，地面传感器项目经理（PM TS）汤姆·邓纳威向威廉·贝泽克颁发陆军部文职功绩服务奖章。",
+    "贝泽克因其富有远见的领导力和无与伦比的采办专长而受到表彰。"
    ],
-   "zhFull": "2026年10月8日，在贝尔沃堡举行的PM TS全员大会上，地面传感器项目经理（PM TS）汤姆·杜纳韦向丹尼尔·库尔颁发了陆军部文职功绩服务奖章。\n\n库尔因卓越的领导力和对使命坚定不移的奉献而受到表彰。",
+   "zhFull": "2026年10月8日，在贝尔沃堡举行的PM TS全体人员会议上，地面传感器项目经理（PM TS）汤姆·邓纳威向威廉·贝泽克颁发陆军部文职功绩服务奖章。\n\n贝泽克因其富有远见的领导力和无与伦比的采办专长而受到表彰。",
    "zhDone": 2,
    "zhChunks": 2,
-   "zhState": "ok",
-   "zhAt": null
+   "zhState": "ok"
   },
   {
    "url": "https://www.airandspaceforces.com/procedure-maintainers-inspect-f-16-engine-blind-spot-crashes/",
@@ -2140,8 +2368,8 @@
    "pubDate": "2026-10-09T13:06:15+00:00",
    "summary": "U.S. Marines with 2nd Marine Division, conduct a patrol to live fire during United States National Drone Association Drone Crucible Competition 26.3 in Starke, Florida, Oct. 2, 2026. The USNDA Drone Crucible 26.3 is designed to build proficiency with unmanned systems, conduct tactical experimentation, and develop lessons learned that enhance unit readiness and inform future operations. (U.S. Marin",
    "body": "U.S. Marines with 2nd Marine Division, conduct a patrol to live fire during United States National Drone Association Drone Crucible Competition 26.3 in Starke, Florida, Oct. 2, 2026. The USNDA Drone Crucible 26.3 is designed to build proficiency with unmanned systems, conduct tactical experimentation, and develop lessons learned that enhance unit readiness and inform future operations. (U.S. Marine Corps video by Lance Cpl. Gelissa Reginald)",
-   "channel": "us_dod",
-   "channelName": "美国国防部",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
    "titleZh": "无人机熔炉”26.3：从巡逻到实弹射击",
    "summaryZh": "美国海军陆战队第2海军陆战师的海军陆战队员于2026年10月2日在佛罗里达州斯塔克举行的美国国家无人机协会“无人机熔炉”竞赛26.3期间进行从巡逻到实弹射击的演练。美国国家无人机协会（USNDA）“无人机熔炉”26.3旨在提高无人系统操作熟练度，开展战术试验，并总结经验教训，以增强部队战备水平并为未来行动提供参考。",
    "zhParas": [
@@ -2160,8 +2388,8 @@
    "pubDate": "2026-10-09T13:06:14+00:00",
    "summary": "U.S. Marines with 2nd Marine Division, conduct tactics, techniques, and procedures development with Marine Corps Forces Special Operations Command during United States National Drone Association Drone Crucible Competition 26.3 in Starke, Florida, Oct. 1, 2026. The USNDA Drone Crucible 26.3 is designed to build proficiency with unmanned systems, conduct tactical experimentation, and develop lessons",
    "body": "U.S. Marines with 2nd Marine Division, conduct tactics, techniques, and procedures development with Marine Corps Forces Special Operations Command during United States National Drone Association Drone Crucible Competition 26.3 in Starke, Florida, Oct. 1, 2026. The USNDA Drone Crucible 26.3 is designed to build proficiency with unmanned systems, conduct tactical experimentation, and develop lessons learned that enhance unit readiness and inform future operations. (U.S. Marine Corps video by Lance Cpl. Gelissa Reginald)",
-   "channel": "us_dod",
-   "channelName": "美国国防部",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
    "titleZh": "无人机熔炉”26.3训练第4天",
    "summaryZh": "美国海军陆战队第2师的海军陆战队员于2026年10月1日在佛罗里达州斯塔克举行的美国国家无人机协会“无人机熔炉”竞赛26.3期间，与海军陆战队特种作战司令部共同开展战术、技术和程序开发。美国国家无人机协会“无人机熔炉”26.3旨在提升无人系统使用熟练度，开展战术试验，并总结经验教训。",
    "zhParas": [
@@ -2204,54 +2432,6 @@
    "zhAt": null
   },
   {
-   "url": "https://www.dvidshub.net/image/10002436/us-nato-allies-exercise-together-wiesbaden",
-   "title": "U.S., NATO Allies exercise together in Wiesbaden",
-   "author": "SSG Samuel Kim",
-   "pubDate": "2026-10-09T11:38:21+00:00",
-   "summary": "German Army Brig. Gen. Thomas Lowin, deputy chief of staff for operations, NATO Allied Land Command, is interviewed by members of the media during Avenger Triad 26 at the Gen. John Shalikashvili Mission Command Center at Clay Kaserne in Wiesbaden, Germany, Oct. 9, 2026. Avenger Triad 26 and Steadfast Duel 26 demonstrate how European Allies are taking on greater responsibility for the defense of Europe. By integrating corps-level headquarters, forces and command networks, the exercise strengthens",
-   "body": "Thomas Lowin, deputy chief of staff for operations, NATO Allied Land Command, is interviewed by members of the media during Avenger Triad 26 at the Gen.\n\nJohn Shalikashvili Mission Command Center at Clay Kaserne in Wiesbaden, Germany, Oct.\n\nAvenger Triad 26 and Steadfast Duel 26 demonstrate how European Allies are taking on greater responsibility for the defense of Europe.\n\nBy integrating corps-level headquarters, forces and command networks, the exercise strengthens interoperability and ensures NATO is better able to deter aggression and respond if needed.",
-   "channel": "us_dod",
-   "channelName": "美国国防部",
-   "titleZh": "美国与北约盟国在威斯巴登举行联合演习",
-   "summaryZh": "德国陆军准将托马斯·洛温，北约盟军陆军司令部负责作战的副参谋长，于2026年10月9日在德国威斯巴登克莱兵营约翰·沙利卡什维利将军任务指挥中心举行的“复仇者三叉戟26”演习期间接受媒体人员采访。“复仇者三叉戟26”和“坚定决斗26”演习表明欧洲盟国正在为欧洲防务承担更大责任。通过整合军级司令部、部队和指挥网络，该演习加强",
-   "zhParas": [
-    "北约盟军陆军司令部负责作战的副参谋长托马斯·洛温在“复仇者三叉戟26”演习期间接受媒体人员采访，地点在约翰·沙利卡什维利将军",
-    "任务指挥中心，位于德国威斯巴登克莱军营，10月",
-    "复仇者三叉戟26”和“坚定决斗26”表明，欧洲盟国正在为欧洲防务承担更大责任。",
-    "通过整合军级司令部、部队和指挥网络，该演习增强了互操作性，并确保北约能够更好地威慑侵略，并在需要时作出反应。"
-   ],
-   "zhFull": "北约盟军陆军司令部负责作战的副参谋长托马斯·洛温在“复仇者三叉戟26”演习期间接受媒体人员采访，地点在约翰·沙利卡什维利将军\n\n任务指挥中心，位于德国威斯巴登克莱军营，10月\n\n复仇者三叉戟26”和“坚定决斗26”表明，欧洲盟国正在为欧洲防务承担更大责任。\n\n通过整合军级司令部、部队和指挥网络，该演习增强了互操作性，并确保北约能够更好地威慑侵略，并在需要时作出反应。",
-   "zhDone": 4,
-   "zhChunks": 4,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
-   "url": "https://www.dvidshub.net/image/10002399/2026-marrakech-airshow-bilateral-engagement",
-   "title": "2026 Marrakech Airshow Bilateral Engagement",
-   "author": "Maj. Krystal Jimenez",
-   "pubDate": "2026-10-09T10:27:00+00:00",
-   "summary": "Vice Chief of Staff of the U.S. Air Force Gen. John D. Lamontagne speaks with Lt. Gen. John M. Omenda, Kenyan Defense Forces vice chief, during the 2026 Marrakech Airshow at Marrakech Royal Moroccan Air Force Base, Morocco, 8 Oct. 2026. U.S. military participation in the Airshow is a key component of military-to-military engagements to build aviation capacity and enhance regional cooperation. Kenyan and U.S. forces conducted their first combined base defense exercise in August 2026 at Manda Bay,",
-   "body": "Vice Chief of Staff of the U.\n\nLamontagne speaks with Lt.\n\nOmenda, Kenyan Defense Forces vice chief, during the 2026 Marrakech Airshow at Marrakech Royal Moroccan Air Force Base, Morocco, 8 Oct.\n\nmilitary participation in the Airshow is a key component of military-to-military engagements to build aviation capacity and enhance regional cooperation.\n\nforces conducted their first combined base defense exercise in August 2026 at Manda Bay, Kenya, testing the combined force on defensive tactics, techniques and procedures.\n\nKrystal Jimenez, AFRICOM public affairs)",
-   "channel": "us_dod",
-   "channelName": "美国国防部",
-   "titleZh": "2026年马拉喀什航展双边交流",
-   "summaryZh": "美国空军副参谋长约翰·D·拉蒙塔涅上将在2026年10月8日于摩洛哥马拉喀什皇家摩洛哥空军基地举行的2026年马拉喀什航展期间，与肯尼亚国防军副司令约翰·M·奥门达中将交谈。美军参加该航展是旨在建设航空能力、增强区域合作的军事交流的关键组成部分。肯尼亚和美国军队于2026年8月在曼达湾举行了首次联合基地防御演习，",
-   "zhParas": [
-    "美国空军副参谋长",
-    "拉蒙塔涅与中将",
-    "奥门达，肯尼亚国防军副司令，于2026年马拉喀什航展期间，在摩洛哥马拉喀什摩洛哥皇家空军基地，10月8日",
-    "军方参加该航展是军事对军事接触的关键组成部分，旨在建设航空能力并加强区域合作。",
-    "部队于2026年8月在肯尼亚曼达湾举行了首次联合基地防御演习，检验了联合部队的防御战术、技术和程序。",
-    "克里斯塔尔·希门尼斯，美军非洲司令部公共事务）"
-   ],
-   "zhFull": "美国空军副参谋长\n\n拉蒙塔涅与中将\n\n奥门达，肯尼亚国防军副司令，于2026年马拉喀什航展期间，在摩洛哥马拉喀什摩洛哥皇家空军基地，10月8日\n\n军方参加该航展是军事对军事接触的关键组成部分，旨在建设航空能力并加强区域合作。\n\n部队于2026年8月在肯尼亚曼达湾举行了首次联合基地防御演习，检验了联合部队的防御战术、技术和程序。\n\n克里斯塔尔·希门尼斯，美军非洲司令部公共事务）",
-   "zhDone": 6,
-   "zhChunks": 6,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
    "url": "https://www.defensenews.com/global/europe/2026/10/09/estonias-krattworks-crafting-shahed-like-dummy-drone-for-target-practice/",
    "title": "Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice",
    "author": "Jaroslaw Adamowski",
@@ -2281,37 +2461,6 @@
    "zhFull": "波兰华沙——爱沙尼亚无人机系统生产商KrattWorks正在研发一种新型空中靶机，该靶机将模拟喷气动力沙赫德型无人机的作战方式，使军队能够演练击落俄罗斯在持续入侵乌克兰过程中使用的主要空中威胁之一。\n\n作为其国际扩张计划的一部分，该公司正在华盛顿举行的今年AUSA会议上推介其无人解决方案，以寻求加强在美国的影响力。\n\n该公司正在推进该项目，因为乌克兰和其他欧洲国家的众多反无人机系统生产商正努力使其拦截器比它们所要打击的目标更便宜，并且适合使用易于获取的部件进行大规模生产。\n\nKrattWorks业务发展经理Ranno Pajuri告诉《防务新闻》，这款新型假目标无人机预计将在2027年底前展示。\n\n我们需要获得一个足够可靠、能正常工作的原型。好消息是我们有软件，可以相当容易地适配不同硬件，”他说。“但如果这款无人机与我们如今拥有的产品差异太大，而且速度快得多，那么在它稳定并准备好演示之前，需要考虑许多变量。\n\n乌克兰陆军是这一新解决方案的潜在用户之一；这家爱沙尼亚公司曾向其供应单向攻击无人机，以及其Ghost Dragon ISR无人机等其他产品。KrattWorks已向欧洲客户交付其无人机，目前正努力扩大其在美国以及亚洲和非洲多个市场的立足点。KrattWorks表示，其Ghost Dragon ISR系统也已部署在爱沙尼亚、格鲁吉亚和摩尔多瓦等地。\n\n我们在爱沙尼亚生产我们的无人机。如果需求增长，我们有足够的额外产能来扩大生产。空中靶标无人机通常可以在相当短的交货周期内制造出来，”帕尤里说。“但如果必要，并且我们销售产品的国家需求足够大，我们也愿意接受某种程度的生产转移。\n\nKrattWorks表示，其产品组合包括DART固定翼空中靶标，旨在用于对抗防空导弹、重机枪和高射炮，以及DART-R，这是一种配备雷达反射器的空中靶标诱饵，根据该公司数据，其最高速度可达200公里/小时（124英里/小时）。KrattWorks还生产PARM空中靶标四旋翼无人机。\n\n该制造商表示，它“制造配备宽频跳频无线电和无GNSS飞行模式的ISR无人机，以帮助一线应急人员和军人在分秒必争的情况下快速获得态势感知。\n\n该公司与乌克兰武装部队密切合作，研究在乌克兰发生的无人机袭击以及当地不断演变的战术，以改进其产品。公司代表说，KrattWorks努力确保其空中靶标无人机模拟最新作战趋势，并以逼真的方式行动。\n\n总部位于华盛顿的智库科学与国际安全研究所在其2026年9月关于俄罗斯对乌克兰使用无人机的报告中表示，仅8月份，俄罗斯军方就估计使用了5,166架沙赫德型无人机（包括诱饵）打击乌克兰目标。\n\n与此同时，乌克兰总统办公室9月28日表示，该国军队的无人机总体击落率已达到70%，其中包括活塞动力和喷气动力的沙赫德无人机。\n\n但对于喷气动力的‘沙赫德’无人机，遗憾的是，拦截率远低于所需水平——57%，”该办公室在一份声明中表示。“新型拦截弹正在积极测试中。一些作战小组已经在使用它们，但当然，仍有一些细节需要完善，以确保足够的有效性和规模化部署。我们正在敦促研发人员加快进度。\n\n雅罗斯瓦夫·阿达莫夫斯基是《防务新闻》驻波兰记者。",
    "zhDone": 14,
    "zhChunks": 14,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
-   "url": "https://www.dvidshub.net/news/576710/combat-training-centers-training-edge-combat-evolution",
-   "title": "Combat Training Centers: Training at the Edge of Combat Evolution",
-   "author": "Lacey Justinger",
-   "pubDate": "2026-10-09T09:09:20+00:00",
-   "summary": "In-the-dirt, force-on-force rotations at U.S. Army Combat Training Centers replicate the multidomain experience. Everything from space, cyber, electronic warfare, unmanned aerial systems, counter UAS, direct and indirect fire, aviation, long-range artillery and more - all while maneuvering through real-world terrain and weather.",
-   "body": "GRAFENWOEHR, Germany - In-the-dirt, force-on-force rotations at U.S. Army Combat Training Centers replicate the multidomain experience. Everything from space, cyber, electronic warfare, unmanned aerial systems, counter UAS, direct and indirect fire, aviation, long-range artillery and more - all while maneuvering through real-world terrain and weather.\n\nThe U.S. Army’s CTCs will come together at the Association of the U.S. Army’s annual conference in Washington, D.C., Oct. 13, to share how CTCs rapidly incorporate lessons observed into lessons learned, and how they integrate emerging technology like sUAS, robotics, and electronic warfare into responsive scenario design.\n\nCTCs are evolving with the changing character of warfare, and each training rotation and location provides U.S. forces with a crucible training event.\n\n“We're applying lessons observed into lessons learned,” said Brig. Gen. Terry Tillis, commanding general, 7th Army Training Command. “We're taking current capability and innovation efforts and rapidly iterating on them, so we can increase the rate of learning for our rotational training units at the Combat Training Centers.We are doing this live on the replicated battlefield under force-on-force at scale conditions. There's not many places in the world you can do that. It's really the Combat Training Centers that allow us to do that.”\n\nRepresentatives from 7ATC’s Joint Multinational Readiness Center in Hohenfels, Germany; the National Training Center in Fort Irwin, California; the Joint Readiness Training Center in Fort Polk, Louisiana; and U.S. Army Pacific’s Joint Pacific Multinational Readiness Center; will join together on stage during an AUSA Warriors Corner to discuss how multidomain CTCs are the Army’s primary venue to translate threat analysis into operational readiness while incorporating technological advances in an ever-changing battlefield.\n\n“Our number one job at Combat Training Centers is to make sure that we don't make it easy on the rotational unit,” Tillis said. “We provide a crucible training event that hits them hard up front to increase rate of learning. We replicate the most challenging threat that they will face on the battlefield, iteration after iteration, to ensure that no Soldier or formation goes to combat untrained.”\n\nCTC rotations are challenging crucibles for brigade-level collective training regardless of the type: airborne, mobile, armor, engineer or stryker. Formations may struggle in the initial phases of the exercises because it's the first time they’re maneuvering at scale, against a living and free-thinking opposing threat with overmatched capabilities that challenges them in every domain, while also synchronizing operations and combined arms, to achieve a tactical endstate: improve brigade-level mission essential tasks, and functional and foundational warfighting, lethality and readiness skills.\n\n“We're in the dirt and we're learning tough lessons,” Tillis said. “The weather gets a vote, the terrain gets a vote, and you’re tired. It’s several days into a rotation when you're averaging two to three hours of sleep. It's two o'clock in the morning, and that drone comes buzzing right at you. Think about how hard that is. Think about that crucible training event for an individual, a young platoon leader, for every company, battalion, or the brigade commander; think of them fighting their way through that under constant observation and contact.”\n\nDuring a CTC rotation, units need to task organize and plan their disposition of forces, increasing active and passive defensive measures, employing capability and enablers, to facilitate combined arms maneuver, in both defensive and offensive operations. Tillis adds that units then need think in layers, both vertically up from the ground but also forward of the front line of troops and all the way back through the rear.\n\n“Combat Training Centers need to innovate quickly and to take the things we've learned from Ukraine, Africa, and U.S. Central Command; to take all of it, put it together and create this realistic, multi-domain training environment, so we can train at scale.” Tillis said. “The only place you can do that is at a Combat Training Center, when you rapidly iterate in these types of crucible training events, to make sure that all of our units and our formations are prepared if we're asked to go into battle.”\n\nCTC’s operationalize cutting-edge technology like ground robotics, sUAS, CUAS and more, putting it in the hands of Soldiers in the field and competing those skills against the opposing forces, who accelerate the multidomain threat within the challenging training environment. The OPFOR are the driving force in CTC experimentation.\n\n“The OPFOR is going to come at the brigades from every direction. They're going to give everything that they’ve got,” Tillis said. “You've got to have a dedicated, opposing force that can continue to iterate to improve capability. These OPFOR, with the technology they have and the understanding of how to employ that technology, they're the game changers. They're the ones who make a difference at the Combat Training Center and enable the U.S. Army to accelerate and increase our rate of learning across the land force as we continue modernization efforts.”",
-   "channel": "us_dod",
-   "channelName": "美国国防部",
-   "titleZh": "战斗训练中心：在作战演变前沿训练",
-   "summaryZh": "美国陆军战斗训练中心开展的实地、实兵对抗轮训复现了多域作战体验。从太空、网络、电子战、无人机系统、反无人机系统、直接和间接火力、航空、远程火炮等，一切都在真实地形和天气条件下进行机动演练。",
-   "zhParas": [
-    "德国格拉芬沃尔——美国陆军战斗训练中心开展的实地、实兵对抗轮训复现了多域作战体验。从太空、网络、电子战、无人机系统、反无人机系统、直接和间接火力、航空、远程火炮等，一切都在真实地形和天气条件下进行机动演练。",
-    "美国陆军的各战斗训练中心将于10月13日在华盛顿特区举行的美国陆军协会年会上齐聚一堂，分享战斗训练中心如何迅速将观察所得转化为经验教训，以及如何将小型无人机系统、机器人技术和电子战等新兴技术整合到响应式想定设计中。",
-    "战斗训练中心正随着战争性质的变化而演变，每一次训练轮换和每一个训练地点都为美国部队提供一次熔炉式训练活动。",
-    "我们正在把观察所得转化为经验教训，”第7集团军训练司令部司令特里·蒂利斯准将说，“我们正在采纳当前能力与创新工作并快速迭代，以便提高战斗训练中心轮训部队的学习速率。我们正在复现的战场上，在规模化实兵对抗条件下实兵开展这项工作。世界上能做到这一点的地点并不多。正是战斗训练中心让我们能够做到这一点。",
-    "来自德国霍恩费尔斯第7集团军训练司令部联合多国战备中心、加利福尼亚州欧文堡国家训练中心、路易斯安那州波尔克堡联合战备训练中心以及美国太平洋陆军联合太平洋多国战备中心的代表，将在美国陆军协会“勇士角”活动上同台，讨论多域战斗训练中心如何成为陆军的主要平台，在不断变化的战场上纳入技术进步的同时，将威胁分析转化为作战战备。",
-    "我们在战斗训练中心的首要任务，是确保不让轮训部队轻松过关，”蒂利斯说，“我们提供熔炉式训练活动，一开始就给他们迎头痛击，以提高学习速率。我们一轮又一轮地复现他们将在战场上面临的最具挑战性的威胁，以确保没有任何士兵或部队未经训练就投入战斗。",
-    "CTC轮换对旅级集体训练而言是极具挑战性的熔炉，无论类型是空降、机动、装甲、工兵还是“斯特赖克”。编队在演习初期阶段可能举步维艰，因为这是它们首次大规模机动，面对一个活生生、能独立思考、且能力远超己方的敌方威胁，该威胁在各域对它们构成挑战，同时它们还要同步行动与合成兵种，以实现一个战术最终状态：提升旅级任务必需任务，以及职能性和基础性作战、杀伤力与战备技能。",
-    "我们在泥地里摸爬滚打，正在学习艰难的教训，”蒂利斯说。“天气有发言权，地形有发言权，而你也疲惫不堪。轮换进行到几天时，你平均只睡两到三个小时。凌晨两点，那架无人机嗡嗡地直冲你而来。想想那有多难。想想这个熔炉式训练事件对于一个人、一名年轻排长、每个连、营或旅指挥官意味着什么；想想他们在持续观察和接触下奋力闯过这一切。",
-    "在CTC轮换期间，部队需要编组任务并规划兵力部署，增加主动和被动防御措施，运用能力与使能手段，以促进防御和进攻行动中的合成兵种机动。蒂利斯补充说，部队随后需要分层思考，既要从地面垂直向上，也要考虑部队前线的前方，并一直贯穿到后方。",
-    "战斗训练中心需要快速创新，并把我们从乌克兰、非洲和美军中央司令部学到的东西拿来；把这一切整合起来，创建这种逼真的多域训练环境，以便我们能够大规模训练。”蒂利斯说。“唯一能做到这一点的地方就是战斗训练中心，在这些熔炉式训练事件中快速迭代，以确保我们所有部队和编队在被要求投入战斗时都已做好准备。",
-    "CTC将地面机器人、小型无人机系统（sUAS）、反无人机系统（CUAS）等前沿技术投入运用，将其交到战场士兵手中，并让这些技能与假想敌部队较量，而假想敌部队在具有挑战性的训练环境中加速多域威胁。假想敌部队是CTC试验的驱动力。",
-    "假想敌部队会从各个方向向旅级部队扑来。他们会倾尽所有，”蒂利斯说。“你必须拥有一支专职的假想敌部队，能够不断迭代以提升能力。这些假想敌部队，凭借他们拥有的技术以及如何运用这些技术的理解，是改变游戏规则者。正是在战斗训练中心发挥关键作用的人，使美国陆军能够在我们继续推进现代化努力的过程中，加快并提高整个陆上力量的学习速度。"
-   ],
-   "zhFull": "德国格拉芬沃尔——美国陆军战斗训练中心开展的实地、实兵对抗轮训复现了多域作战体验。从太空、网络、电子战、无人机系统、反无人机系统、直接和间接火力、航空、远程火炮等，一切都在真实地形和天气条件下进行机动演练。\n\n美国陆军的各战斗训练中心将于10月13日在华盛顿特区举行的美国陆军协会年会上齐聚一堂，分享战斗训练中心如何迅速将观察所得转化为经验教训，以及如何将小型无人机系统、机器人技术和电子战等新兴技术整合到响应式想定设计中。\n\n战斗训练中心正随着战争性质的变化而演变，每一次训练轮换和每一个训练地点都为美国部队提供一次熔炉式训练活动。\n\n我们正在把观察所得转化为经验教训，”第7集团军训练司令部司令特里·蒂利斯准将说，“我们正在采纳当前能力与创新工作并快速迭代，以便提高战斗训练中心轮训部队的学习速率。我们正在复现的战场上，在规模化实兵对抗条件下实兵开展这项工作。世界上能做到这一点的地点并不多。正是战斗训练中心让我们能够做到这一点。\n\n来自德国霍恩费尔斯第7集团军训练司令部联合多国战备中心、加利福尼亚州欧文堡国家训练中心、路易斯安那州波尔克堡联合战备训练中心以及美国太平洋陆军联合太平洋多国战备中心的代表，将在美国陆军协会“勇士角”活动上同台，讨论多域战斗训练中心如何成为陆军的主要平台，在不断变化的战场上纳入技术进步的同时，将威胁分析转化为作战战备。\n\n我们在战斗训练中心的首要任务，是确保不让轮训部队轻松过关，”蒂利斯说，“我们提供熔炉式训练活动，一开始就给他们迎头痛击，以提高学习速率。我们一轮又一轮地复现他们将在战场上面临的最具挑战性的威胁，以确保没有任何士兵或部队未经训练就投入战斗。\n\nCTC轮换对旅级集体训练而言是极具挑战性的熔炉，无论类型是空降、机动、装甲、工兵还是“斯特赖克”。编队在演习初期阶段可能举步维艰，因为这是它们首次大规模机动，面对一个活生生、能独立思考、且能力远超己方的敌方威胁，该威胁在各域对它们构成挑战，同时它们还要同步行动与合成兵种，以实现一个战术最终状态：提升旅级任务必需任务，以及职能性和基础性作战、杀伤力与战备技能。\n\n我们在泥地里摸爬滚打，正在学习艰难的教训，”蒂利斯说。“天气有发言权，地形有发言权，而你也疲惫不堪。轮换进行到几天时，你平均只睡两到三个小时。凌晨两点，那架无人机嗡嗡地直冲你而来。想想那有多难。想想这个熔炉式训练事件对于一个人、一名年轻排长、每个连、营或旅指挥官意味着什么；想想他们在持续观察和接触下奋力闯过这一切。\n\n在CTC轮换期间，部队需要编组任务并规划兵力部署，增加主动和被动防御措施，运用能力与使能手段，以促进防御和进攻行动中的合成兵种机动。蒂利斯补充说，部队随后需要分层思考，既要从地面垂直向上，也要考虑部队前线的前方，并一直贯穿到后方。\n\n战斗训练中心需要快速创新，并把我们从乌克兰、非洲和美军中央司令部学到的东西拿来；把这一切整合起来，创建这种逼真的多域训练环境，以便我们能够大规模训练。”蒂利斯说。“唯一能做到这一点的地方就是战斗训练中心，在这些熔炉式训练事件中快速迭代，以确保我们所有部队和编队在被要求投入战斗时都已做好准备。\n\nCTC将地面机器人、小型无人机系统（sUAS）、反无人机系统（CUAS）等前沿技术投入运用，将其交到战场士兵手中，并让这些技能与假想敌部队较量，而假想敌部队在具有挑战性的训练环境中加速多域威胁。假想敌部队是CTC试验的驱动力。\n\n假想敌部队会从各个方向向旅级部队扑来。他们会倾尽所有，”蒂利斯说。“你必须拥有一支专职的假想敌部队，能够不断迭代以提升能力。这些假想敌部队，凭借他们拥有的技术以及如何运用这些技术的理解，是改变游戏规则者。正是在战斗训练中心发挥关键作用的人，使美国陆军能够在我们继续推进现代化努力的过程中，加快并提高整个陆上力量的学习速度。",
-   "zhDone": 12,
-   "zhChunks": 12,
    "zhState": "ok",
    "zhAt": null
   },
@@ -2605,26 +2754,6 @@
    "zhAt": null
   },
   {
-   "url": "https://www.dvidshub.net/video/1025960/13th-meu-ace-lands-aboard-uss-makin-island-broll",
-   "title": "13th MEU | ACE Lands Aboard USS Makin Island Broll",
-   "author": "Cpl Grace Stover",
-   "pubDate": "2026-10-09T01:42:05+00:00",
-   "summary": "U.S. Marines assigned to the 13th Marine Expeditionary Unit, land aboard Wasp-class amphibious assault ship USS Makin Island (LHD 8), Sept. 29, 2026. The 13th MEU is currently underway aboard the Makin Island Amphibious Ready Group in the U.S. 3rd Fleet area of operations demonstrating the United States’ long-term commitment to a free and open Indo-Pacific. (U.S. Marine Corps video by Cpl. Grace S",
-   "body": "U.S. Marines assigned to the 13th Marine Expeditionary Unit, land aboard Wasp-class amphibious assault ship USS Makin Island (LHD 8), Sept. 29, 2026. The 13th MEU is currently underway aboard the Makin Island Amphibious Ready Group in the U.S. 3rd Fleet area of operations demonstrating the United States’ long-term commitment to a free and open Indo-Pacific. (U.S. Marine Corps video by Cpl. Grace Stover)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "titleZh": "第13海军陆战队远征分队 | 航空作战分队登上“马金岛”号视频素材",
-   "summaryZh": "隶属于第13海军陆战队远征分队的美国海军陆战队队员于2026年9月29日登上黄蜂级两栖攻击舰“马金岛”号（LHD 8）。第13海军陆战队远征分队目前正随“马金岛”号两栖戒备群在美国第三舰队作战区域内航行，展示美国对自由开放印太地区的长期承诺。（美国海军陆战队视频，由下士格蕾丝·斯托弗拍摄）",
-   "zhParas": [
-    "隶属于第13海军陆战队远征分队的美国海军陆战队队员于2026年9月29日登上黄蜂级两栖攻击舰“马金岛”号（LHD 8）。第13海军陆战队远征分队目前正随“马金岛”号两栖戒备群在美国第三舰队作战区域内航行，展示美国对自由开放印太地区的长期承诺。（美国海军陆战队视频，由下士格蕾丝·斯托弗拍摄）"
-   ],
-   "zhFull": "隶属于第13海军陆战队远征分队的美国海军陆战队队员于2026年9月29日登上黄蜂级两栖攻击舰“马金岛”号（LHD 8）。第13海军陆战队远征分队目前正随“马金岛”号两栖戒备群在美国第三舰队作战区域内航行，展示美国对自由开放印太地区的长期承诺。（美国海军陆战队视频，由下士格蕾丝·斯托弗拍摄）",
-   "zhDone": 1,
-   "zhChunks": 1,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
    "url": "https://www.defensenews.com/news/your-army/2026/10/08/century-old-houses-getting-new-life-at-fort-bragg/",
    "title": "Century-old houses getting new life at Fort Bragg",
    "author": "Karen Jowers",
@@ -2743,55 +2872,6 @@
    "zhChunks": 16,
    "zhState": "ok",
    "zhAt": null
-  },
-  {
-   "url": "https://www.dvidshub.net/news/576688/combat-center-takes-part-california-great-shakeout",
-   "title": "Combat Center takes part in California Great Shakeout",
-   "author": "2LT Danielle Renee",
-   "pubDate": "2026-10-08T21:30:26+00:00",
-   "summary": "MARINE CORPS AIR GROUND COMBAT CENTER TWENTYNINE PALMS, Calif. - The installation will conduct a mass notification and earthquake drill at 10:15 a.m. on Oct. 15, 2026, in conjunction with California’s 2026 Great ShakeOut Drill.",
-   "body": "MARINE CORPS AIR GROUND COMBAT CENTER TWENTYNINE PALMS, Calif. - The installation will conduct a mass notification and earthquake drill at 10:15 a.m. on Oct. 15, 2026, in conjunction with California’s 2026 Great ShakeOut Drill.\n\nFor more than 14 years, Marine Corps Air Ground Combat Center (MCAGCC) has participated in the annual Great ShakeOut Drill, helping to promote earthquake safety and preparedness across the installation. Each year millions of people worldwide take part in the exercise at work, school, and home.\n\nThe purpose of this drill is to test all mass notification systems, including the base-wide public address system and digital notifications, and gives MCAGCC personnel the opportunity to test their individual earthquake action plans.\n\n“The Great California ShakeOut gives our service members, civilian employees, contractors, and families an opportunity to practice the immediate actions that can save lives during an earthquake,” said Marcelino Ryan, MCAGCC fire chief. “This training is particularly important at the Combat Center because of the constant rotation of forces and personnel through the installation.”\n\nThe Twentynine Palms region faces elevated earthquake risk because it lies within the Eastern California Shear Zone and near several fault lines. The 1992 Landers earthquake, which registered a magnitude of 7.3, caused a nearly 50-mile surface fault rupture through the Mojave Desert.\n\nDuring the exercise, personnel and families should expect to hear the installation’s speaker system, Big Voice, announce that a base-wide earthquake drill is taking place, followed by instruction to assume the “Drop, Cover, and Hold On” position. Participants should remain in this position for approximately one minute. At the conclusion of the drill, Big Voice will announce the exercise has ended. These updates will also be provided through Alert!, the Marine Corps mass-warning notification system.\n\nThe exercise is expected to last no longer than 10 minutes, according to the base fire department. While the exercise is only required for base personnel, residents of military housing are encouraged to participate.\n\nAdvanced preparation can save lives and reduce unnecessary disruption. Personnel and families are encouraged to have a checklist, make a plan, and become familiar with available resources before an emergency occurs. During the recovery phases of a significant earthquake, the installation may activate its Emergency Operations Center to coordinate information, assess community needs, prioritize requests, and direct available resources, Ryan said.\n\nIndividuals with a Common Access Card can sign up to receive notifications through Alert! at dod.alert.mil. Those already enrolled should ensure their personal contact information is up to date. Family members may also be added to also receive notifications.\n\nFor more information and preparedness resources, visit the Ready Marine Corps website at https://www.ready.marines.mil and Great ShakeOut website at https://www.shakeout.org/.",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "summaryZh": "加利福尼亚州二十九棕榈村海军陆战队空中地面作战中心——该驻地将于2026年10月15日上午10时15分举行大规模通知与地震演习，并配合加利福尼亚州2026年“大地震”演习。",
-   "titleZh": "作战中心参加加利福尼亚州“大地震”演习",
-   "titleTrans": "ok",
-   "zhParas": [
-    "加利福尼亚州二十九棕榈村海军陆战队空中地面作战中心——该驻地将于2026年10月15日上午10时15分举行大规模通知与地震演习，并配合加利福尼亚州2026年“大地震”演习。",
-    "14年多来，海军陆战队空中地面作战中心（MCAGCC）一直参加一年一度的“大地震”演习，帮助在整个驻地促进地震安全与应急准备。每年，全球数百万人在工作场所、学校和家中参与该演习。",
-    "此次演习的目的是测试所有大规模通知系统，包括全基地公共广播系统和数字通知，并让MCAGCC人员有机会检验各自的地震行动计划。",
-    "加州大地震演习让我们军人、文职雇员、承包商和家属有机会演练可在地震中救命的即时行动，”MCAGCC消防局长马塞利诺·瑞安说。“由于部队和人员持续轮换进出该驻地，这项训练在作战中心尤为重要。",
-    "二十九棕榈村地区面临较高的地震风险，因为它位于加州东部剪切带内，并靠近数条断层线。1992年兰德斯地震震级为7.3级，造成一条近50英里长的地表断层破裂带贯穿莫哈韦沙漠。",
-    "演习期间，人员和家属应会听到该驻地的扬声器系统“Big Voice”宣布全基地地震演习正在进行，随后会指示采取“伏地、遮挡、手抓牢”姿势。参演人员应保持这一姿势约一分钟。演习结束时，“Big Voice”将宣布演习结束。这些更新还将通过海军陆战队大规模警报通知系统“Alert!”发布。",
-    "据基地消防部门称，这次演习预计不超过10分钟。虽然演习仅要求基地人员参加，但鼓励军事住房的居民参与。",
-    "提前准备可以挽救生命并减少不必要的干扰。鼓励人员及家属在紧急情况发生前准备好清单、制定计划并熟悉可用资源。瑞安说，在重大地震的恢复阶段，基地可能会启动其应急行动中心，以协调信息、评估社区需求、确定请求的优先级并调配可用资源。",
-    "持有通用访问卡的人员可以通过dod.alert.mil上的Alert!注册接收通知。已注册者应确保其个人联系信息为最新。家庭成员也可以被添加进来，以便同样接收通知。",
-    "如需更多信息和备灾资源，请访问Ready Marine Corps网站https://www.ready.marines.mil和Great ShakeOut网站https://www.shakeout.org/。"
-   ],
-   "zhFull": "加利福尼亚州二十九棕榈村海军陆战队空中地面作战中心——该驻地将于2026年10月15日上午10时15分举行大规模通知与地震演习，并配合加利福尼亚州2026年“大地震”演习。\n\n14年多来，海军陆战队空中地面作战中心（MCAGCC）一直参加一年一度的“大地震”演习，帮助在整个驻地促进地震安全与应急准备。每年，全球数百万人在工作场所、学校和家中参与该演习。\n\n此次演习的目的是测试所有大规模通知系统，包括全基地公共广播系统和数字通知，并让MCAGCC人员有机会检验各自的地震行动计划。\n\n加州大地震演习让我们军人、文职雇员、承包商和家属有机会演练可在地震中救命的即时行动，”MCAGCC消防局长马塞利诺·瑞安说。“由于部队和人员持续轮换进出该驻地，这项训练在作战中心尤为重要。\n\n二十九棕榈村地区面临较高的地震风险，因为它位于加州东部剪切带内，并靠近数条断层线。1992年兰德斯地震震级为7.3级，造成一条近50英里长的地表断层破裂带贯穿莫哈韦沙漠。\n\n演习期间，人员和家属应会听到该驻地的扬声器系统“Big Voice”宣布全基地地震演习正在进行，随后会指示采取“伏地、遮挡、手抓牢”姿势。参演人员应保持这一姿势约一分钟。演习结束时，“Big Voice”将宣布演习结束。这些更新还将通过海军陆战队大规模警报通知系统“Alert!”发布。\n\n据基地消防部门称，这次演习预计不超过10分钟。虽然演习仅要求基地人员参加，但鼓励军事住房的居民参与。\n\n提前准备可以挽救生命并减少不必要的干扰。鼓励人员及家属在紧急情况发生前准备好清单、制定计划并熟悉可用资源。瑞安说，在重大地震的恢复阶段，基地可能会启动其应急行动中心，以协调信息、评估社区需求、确定请求的优先级并调配可用资源。\n\n持有通用访问卡的人员可以通过dod.alert.mil上的Alert!注册接收通知。已注册者应确保其个人联系信息为最新。家庭成员也可以被添加进来，以便同样接收通知。\n\n如需更多信息和备灾资源，请访问Ready Marine Corps网站https://www.ready.marines.mil和Great ShakeOut网站https://www.shakeout.org/。",
-   "zhDone": 10,
-   "zhChunks": 10,
-   "zhState": "ok"
-  },
-  {
-   "url": "https://www.dvidshub.net/video/1025945/us-marines-and-sailors-arrive-san-francisco-san-francisco-fleet-week-2026",
-   "title": "U.S. Marines and sailors arrive in San Francisco for San Francisco Fleet Week 2026",
-   "author": "LCpl Katherine Fohn",
-   "pubDate": "2026-10-08T21:28:25+00:00",
-   "summary": "U.S. Marines and Sailors aboard Whidbey Island-class amphibious dock landing ship USS Ashland (LSD 48) prepare to man the rails for San Francisco Fleet Week, Oct. 6, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen show",
-   "body": "U.S. Marines and Sailors aboard Whidbey Island-class amphibious dock landing ship USS Ashland (LSD 48) prepare to man the rails for San Francisco Fleet Week, Oct. 6, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the bay area. (U.S. Marine Corps video by Lance Cpl. Katherine Fohn)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "summaryZh": "美国海军陆战队员和水兵在惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48）上，为2026年10月6日旧金山舰队周准备列队站坡。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示",
-   "titleZh": "美国海军陆战队员和水兵抵达旧金山参加2026年旧金山舰队周",
-   "titleTrans": "ok",
-   "zhParas": [
-    "美国海军陆战队员和水兵在惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48）上，为2026年10月6日旧金山舰队周准备列队站坡。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示其能力与装备，参加各类社区服务活动，并感受湾区的热情好客。（美国海军陆战队视频，由准下士凯瑟琳·福恩拍摄）"
-   ],
-   "zhFull": "美国海军陆战队员和水兵在惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48）上，为2026年10月6日旧金山舰队周准备列队站坡。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示其能力与装备，参加各类社区服务活动，并感受湾区的热情好客。（美国海军陆战队视频，由准下士凯瑟琳·福恩拍摄）",
-   "zhDone": 1,
-   "zhChunks": 1,
-   "zhState": "ok"
   },
   {
    "url": "https://www.airandspaceforces.com/space-force-personnel-management-act-transfers-air-force-complete/",
@@ -9065,37 +9145,6 @@
    "zhAt": null
   },
   {
-   "url": "https://www.defensenews.com/industry/techwatch/2026/10/06/boeing-locks-in-7-year-deal-to-triple-pac-3-mse-seeker-output/",
-   "title": "Boeing locks in 7-year deal to triple PAC-3 MSE seeker output",
-   "author": "J.D. Simkins, Claire Barrett",
-   "pubDate": "2026-10-06T00:19:22+00:00",
-   "summary": "The agreement follows a framework deal that was announced in April. Production will span seven years and be completed at Boeing’s Huntsville facility.",
-   "body": "Boeing announced Monday that it formalized a seven-year contract supporting the Pentagon’s Acquisition Transformation Strategy, signing an approximately $14.7 billion “undefinitized” agreement with the Pentagon that allows the firm to triple its Patriot Advanced Capability-3 Missile Segment Enhancement.\n\n“Early investment and a relentless focus on quality and execution have positioned us to now deliver seekers at unprecedented levels in the near-term, and we’re committed to building on that momentum,” Steve Parker, president and CEO of Boeing Defense, Space & Security, said in a release. “Our Boeing teammates could not be prouder of the role they play in protecting U.S. and allied service members, civilians and critical infrastructure worldwide.”\n\nThe agreement follows the framework deal that was announced in April. Production will be spread over seven years, matching Lockheed Martin’s push to surge production on the PAC-3 MSE all-up round.\n\nLockheed in January announced a seven-year framework agreement to increase annual PAC-3 interceptor production from approximately 600 to 2,000.\n\nWork on the seekers began immediately, the company announced in April, and will be completed at Boeing’s facility in Huntsville, Alabama.\n\nBoeing’s PAC-3 seekers work by identifying, tracking and knocking out a range of threats, from ballistic missiles and hypersonics to hostile air platforms.\n\nOnce the seeker identifies the target, the highly maneuverable interceptor, which uses a two-pulse solid rocket motor, engages and eliminates threats via direct body-to-body contact.\n\nMonday’s announcement, meanwhile, comes as the U.S. military’s reliance on costly interceptors against cheap munitions, particularly those deployed by Iran during Operation Epic Fury, has come under increased scrutiny over the past eight months.\n\nThe announcement also follows a busy week for Boeing. Last Tuesday, the U.S. Navy selected the company to build its F/A-XX sixth-generation carrier-based fighter under a development contract worth more than $20 billion. The same day, the Air Force signed a $2.38 billion order for 22 more F-15EX Eagle II fighters.\n\nMilitary Times reporter Michael Scanlon contributed to this report.\n\nJ.D. Simkins is Editor-in-Chief of Military Times and Defense News, and a Marine Corps veteran of the Iraq War.\n\nClaire Barrett is an editor and military history correspondent for Military Times. She holds a master's degree in military history from King's College, London, and is also a World War II researcher with an unparalleled affinity for Sir Winston Churchill and Michigan football.",
-   "channel": "defensenews",
-   "channelName": "Defense News",
-   "titleZh": "波音公司签署为期7年的合同，计划将PAC-3 MSE型导弹的产量提升两倍",
-   "summaryZh": "继4月公布的框架协议之后，波音公司周一正式签署了这份为期七年的合同，以落实五角大楼的采购转型战略。相关生产工作将在波音位于亨茨维尔的工厂进行。",
-   "zhParas": [
-    "波音公司周一宣布，已正式签署一份为期七年的合同，以落实五角大楼的采购转型战略。该合同金额约为147亿美元，属于“非固定金额”协议，使得波音公司能够将其PAC-3 MSE型导弹的产量提升两倍。相关生产工作将在波音位于亨茨维尔的工厂进行。",
-    "波音国防、航天与安全业务板块的总裁兼首席执行官史蒂夫·帕克在一份声明中表示，得益于早前的投入以及对质量与执行效率的持续重视，该公司如今能够以前所未有的速度生产这类寻的器，而且还将继续保持这一发展势头。他同时强调，波音的全体员工为保护美国及盟国的军人、平民以及全球范围内的关键基础设施所发挥的作用，令他们深感自豪。",
-    "该协议是在4月公布的框架协议基础上达成的。整个生产过程将持续七年，这一时间安排也与洛克希德·马丁公司加快PAC-3 MSE导弹整体产量提升的计划相契合。",
-    "洛克希德·马丁公司曾在1月宣布了一项为期七年的框架协议，旨在将PAC-3拦截弹的年产量从目前的约600枚提升至2,000枚。",
-    "该公司在4月宣布，相关探测器的研发工作已立即启动，全部生产任务都将在位于阿拉巴马州亨茨维尔的波音工厂完成。",
-    "波音公司的PAC-3探测器能够识别、追踪并击落各类威胁目标，包括弹道导弹、高超声速飞行物以及敌对空中作战平台。",
-    "一旦探测器锁定目标，这款配备双脉冲固体火箭发动机的机动性极强的拦截弹便会立即发动攻击，通过直接碰撞的方式摧毁这些威胁目标。",
-    "就在周一宣布这一消息的同时，过去八个月里，美国军方过度依赖价格昂贵的拦截武器来应对价格低廉的弹药——尤其是伊朗在“狂怒行动”中使用的那些弹药——这一做法已遭到越来越多的质疑。",
-    "此次公告也出现在波音公司极为忙碌的一周之后。上周二，美国海军通过一份价值超过200亿美元的开发合同，选定该公司负责制造其F/A-XX第六代舰载战斗机；同一天，美国空军又下达了价值23.8亿美元的订单，要求波音再生产22架F-15EX“鹰II”战斗机。",
-    "《军事时报》记者迈克尔·斯坎隆参与了本篇报道的撰写。",
-    "《军事时报》与《国防新闻》的主编J·D·辛金斯曾是参加过伊拉克战争的海军陆战队退伍军人。",
-    "《军事时报》的编辑兼军事历史记者克莱尔·巴雷特拥有伦敦国王学院军事历史硕士学位，同时是研究第二次世界大战的专家，对温斯顿·丘吉尔爵士以及密歇根大学橄榄球队有着极为独特的兴趣。"
-   ],
-   "zhFull": "波音公司周一宣布，已正式签署一份为期七年的合同，以落实五角大楼的采购转型战略。该合同金额约为147亿美元，属于“非固定金额”协议，使得波音公司能够将其PAC-3 MSE型导弹的产量提升两倍。相关生产工作将在波音位于亨茨维尔的工厂进行。\n\n波音国防、航天与安全业务板块的总裁兼首席执行官史蒂夫·帕克在一份声明中表示，得益于早前的投入以及对质量与执行效率的持续重视，该公司如今能够以前所未有的速度生产这类寻的器，而且还将继续保持这一发展势头。他同时强调，波音的全体员工为保护美国及盟国的军人、平民以及全球范围内的关键基础设施所发挥的作用，令他们深感自豪。\n\n该协议是在4月公布的框架协议基础上达成的。整个生产过程将持续七年，这一时间安排也与洛克希德·马丁公司加快PAC-3 MSE导弹整体产量提升的计划相契合。\n\n洛克希德·马丁公司曾在1月宣布了一项为期七年的框架协议，旨在将PAC-3拦截弹的年产量从目前的约600枚提升至2,000枚。\n\n该公司在4月宣布，相关探测器的研发工作已立即启动，全部生产任务都将在位于阿拉巴马州亨茨维尔的波音工厂完成。\n\n波音公司的PAC-3探测器能够识别、追踪并击落各类威胁目标，包括弹道导弹、高超声速飞行物以及敌对空中作战平台。\n\n一旦探测器锁定目标，这款配备双脉冲固体火箭发动机的机动性极强的拦截弹便会立即发动攻击，通过直接碰撞的方式摧毁这些威胁目标。\n\n就在周一宣布这一消息的同时，过去八个月里，美国军方过度依赖价格昂贵的拦截武器来应对价格低廉的弹药——尤其是伊朗在“狂怒行动”中使用的那些弹药——这一做法已遭到越来越多的质疑。\n\n此次公告也出现在波音公司极为忙碌的一周之后。上周二，美国海军通过一份价值超过200亿美元的开发合同，选定该公司负责制造其F/A-XX第六代舰载战斗机；同一天，美国空军又下达了价值23.8亿美元的订单，要求波音再生产22架F-15EX“鹰II”战斗机。\n\n《军事时报》记者迈克尔·斯坎隆参与了本篇报道的撰写。\n\n《军事时报》与《国防新闻》的主编J·D·辛金斯曾是参加过伊拉克战争的海军陆战队退伍军人。\n\n《军事时报》的编辑兼军事历史记者克莱尔·巴雷特拥有伦敦国王学院军事历史硕士学位，同时是研究第二次世界大战的专家，对温斯顿·丘吉尔爵士以及密歇根大学橄榄球队有着极为独特的兴趣。",
-   "zhDone": 12,
-   "zhChunks": 12,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
    "url": "https://www.rand.org/pubs/external_publications/EP71524.html",
    "title": "The Impact of Early Colleges on Postsecondary Performance and Completion",
    "author": "Christine Mulhern",
@@ -9799,37 +9848,6 @@
    "zhFull": "随着新学期的开始，教师们再度面临一些老生常谈的挑战：学生们书包里藏着的手机，以及那些看起来与Claude或ChatGPT极为相似的作业内容。\n\n作为RAND机构的副政策研究员，梅利莎·凯·迪利贝蒂对这类问题有着独到的见解。这些见解源于她对数千名参与RAND调查项目的教师、学生、家长及学校管理者所进行的调查。通过这些调查，迪利贝蒂与RAND的其他研究人员能够了解全国各学校实际面临的情况。\n\n迪利贝蒂表示，学校目前正面临着诸多挑战。我们认为自己的职责就是用数据呈现这些趋势，以便教育领域的决策者能够更有信心地应对这些困难。\n\nRAND最近有哪些研究成果，能够帮助家长和决策者更深入地了解学校所面临的种种挑战？\n\n其中有两个问题尤为突出。\n\n第一个问题是人工智能。在我们的调查中，越来越多的学生表示会在学习中使用人工智能。他们中的大多数认为，利用人工智能查找事实或获取作业的更详细解释并不属于作弊行为；按照学校的规则，这或许也确实不算作弊。不过仍有不少学生感到困惑，不断询问‘这里的具体规则是什么？’学校既有机会也有责任制定相关的指导方针。\n\n另一个重要问题当然是手机使用。我们询问了青少年们：‘你在课堂上会查看手机多少次？’令我惊讶但并不意外的是，约有20%的受访者表示每天在课堂上会查看手机5次甚至更多；另有40%的人称会查看1到4次。即便在那些明令禁止手机进校园的学校里，仍有大量学生在上课时间使用手机，这一现象实在令人担忧。\n\n首先我们来探讨一下您关于人工智能的研究成果。目前我们对学生使用人工智能的情况了解多少呢？\n\n目前，无论是在初中、高中还是高等教育阶段，使用人工智能的学生比例都在不断上升，这一现象其实并不令人意外。不过有三分之二的学生表示，他们至少有些担忧，认为使用人工智能会损害自己的批判性思维能力。因此，尽管他们在使用人工智能，却也在思考将过多思考任务交给人工智能可能带来的负面影响。\n\n对于学生使用人工智能的现象，各学校正在采取何种应对措施？又存在哪些需要改进的地方？\n\n各学校虽已开始制定相关政策，但由于技术发展极为迅速，相关指导措施往往滞后且未能得到广泛传播。我们在12月询问了学生们，他们的学校是否有关于使用人工智能的规则，结果只有大约三分之一的人表示学校有统一规定，还有很多学生表示并不知情。这进一步凸显出学校有必要明确制定相关准则，告知学生何时可以使用这些技术工具。\n\n在手机使用问题上，各学校其实已有更多应对经验。那么，他们在设定相关使用界限方面究竟取得了多大的成效呢？\n\n这正是当前教育领域最受关注的问题之一。如今几乎所有学校都制定了限制手机使用的政策，但关于这些政策的实际效果却鲜有实证。我们的研究显示，更为严格的政策或许能减少学生在课堂上使用手机的情况，但这一结论仅基于学生的自我报告。不出所料，学生们也表示，当知道老师会严格执行这些规定时，他们使用手机的可能性也会降低。\n\n尽管学生们仍在使用人工智能，但他们也在思考将过多思考任务外包给人工智能可能带来的负面影响。\n\n如果学生无法使用手机，他们的学业表现是否会更好？\n\n有新的研究证据表明，禁止学生在校园使用手机确实能减少他们在校内的手机使用频率，从长远来看或许还能对学生的心理健康产生积极影响。至于这种禁令是否会影响学生的学业成绩，目前尚无明确结论，不过也有一些证据显示它可能带来一定的益处。\n\n不过，这些措施也存在着一定的权衡。教师们不愿整天充当手机监管者，而家长则往往对全面禁止手机持怀疑态度，因为他们希望在紧急情况下能够与孩子取得联系。因此，尽管有证据表明这些政策对学生有益，但它们并非没有代价。\n\n您希望自己的研究能为学校应对这些挑战提供怎样的帮助？\n\n在RAND，我们的目标是为这些全国性的趋势提供具体的数据支撑，从而帮助人们真正了解学校环境中实际存在的情况。虽然媒体上有很多关于学生利用人工智能作弊或过度沉迷手机的个案报道，但往往缺乏足够的数据来说明这类问题的普遍程度，以及学生、家长和教师对它们的看法，或是这些状况的演变趋势。\n\n当前，学校正处于真正的转型时期，而问题并不仅限于技术层面。我们观察到学生缺勤率居高不下，教师压力也极大。在RAND，我们的目标正是持续追踪并清晰地衡量这些问题，以便政策制定者能够掌握所需信息并采取相应措施。",
    "zhDone": 20,
    "zhChunks": 20,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
-   "url": "https://www.dvidshub.net/news/573755/defenders-force-121st-sfs-defenders-build-strength-through-struggle",
-   "title": "Defenders of the Force: How 121st SFS defenders build strength through struggle",
-   "author": "A1C Samir Harris",
-   "pubDate": "2026-09-30T12:42:03+00:00",
-   "summary": "U.S. Air Force Capt. Jeffrey Lazar, 121st Security Forces Squadron commander, Master Sgt. Sean White, 121st SFS defender, and Airman 1st Class Easton Frost, 121st SFS defender, share their experiences serving as defenders at Alpena Combat Readiness Training Center, Michigan, June 17, 2026. Security forces defenders maintain 24/7 readiness to safeguard force assets, personnel, and combat airpower projection.",
-   "body": "ALPENA COMBAT READINESS TRAINING CENTER, Mich. — When a Security Forces defender straps on a ballistic vest in the quiet early morning, a slight shift takes place. It isn’t just equipment fastened over standard-issue gear; it’s a commitment to being the barrier between possible threats and the force. For the Airmen of the 121st Security Forces Squadron (SFS), putting on that vest means assuming a role defined by heavy rucks, tough conditions, and an unrelenting duty to protect.\n\n\"The mindset you have to step into is to be able to understand that you are the first and last line of defense for protecting the force, to allow combat air power to get into the air,\" said U.S. Air Force Capt. Jeffrey Lazar, commander of the 121st SFS. \"Security forces is a very demanding career field. You're asking young 18-year-old kids to put their lives on the line and make life-or-death decisions at a moment's notice.\"\n\nLazar, who served 20 years enlisted before commissioning, understands the job's weight extends far beyond the tactical vest. The drive to push through long hours, extreme heat, and physical exhaustion comes from a devotion to what’s behind the perimeter line.\n\n\"As a defender, a lot of times it's not what's in front of us that bothers us; it's the people and the things that we're protecting behind us that keep us going,\" Lazar said. \"It's remembering what's back home that we're protecting—those freedoms and liberties that we are here to preserve.\"\n\nThat drive comes from a shared grit built through brutal field conditions and endless hours on shift. When the rain starts pouring, legs get heavier and heavier, and the gear digs in, all that's left is the plain willpower to keep moving and get the job done.\n\n\"High stress in the field is the greatest teacher,\" said U.S. Air Force Master Sgt. Sean White, a defender with the 121st SFS. \"You don't fully understand it until you're doing it in the field, feeling the weather, and feeling the emotions of each other. Those grueling days peel back layers of each person until you're raw, to the fact that you understand each other from a brutal concept.\"\n\nWhite, who has served through multiple deployments and field exercises alongside the same Airmen throughout his career, found the unit's real strength in its culture of mutual accountability and personal investment.\n\n\"This career field is 100% what you get out of it,\" White said. \"When I put my vest on in the morning, the mindset that I step into is honoring those who have come before me. I look to my left and to my right, and seeing those who wear the same vest motivates me more than anything else.\"\n\nThat shared purpose beats across all ranks, from senior leadership down to the newest Airmen walking onto the flight line. As junior Airmen learn the ropes, they quickly grow under constant pressure and forge a bond with their team that they can’t replicate anywhere else.\n\n\"When I put my vest on every morning, I flip the switch—I become a defender,\" said U.S. Air Force Airman 1st Class Easton Frost, a defender with the 121st SFS. \"It means I have to do everything required to make sure the mission gets done. The brotherhood that you get in security forces is really like no other; we become one unit.\"\n\nWhether balancing tactical decision-making at the command level or managing ground defense in demanding operational conditions, the defenders of the 121st SFS remain bound by a shared identity—one symbolized by the beret they earn and the force they safeguard.\n\n\"You aren't a defender until you've earned that badge and earned that beret,\" Lazar said. \"The beret is what signifies and separates us from everybody else. A lot of people—everybody that wears that beret—earned it, and that signifies that we are the defenders of the force.\"",
-   "channel": "us_airforce",
-   "channelName": "美国空军",
-   "titleZh": "部队的守护者：第121安保部队中队的战士们如何通过艰苦训练提升战备能力",
-   "summaryZh": "2026年6月17日，美国空军第121安保部队中队的指挥官杰弗里·拉扎尔上尉、该中队的队员肖恩·怀特军士长以及伊斯顿·弗罗斯特一等兵，在密歇根州阿尔佩纳作战战备训练中心分享了他们作为安保人员执行任务的经历。这些安保人员需始终保持24/7的战备状态，以保护部队资产、人员以及作战力量。",
-   "zhParas": [
-    "密歇根州阿尔佩纳作战战备训练中心——当安保部队的士兵们在宁静的清晨穿上弹道防弹背心时，他们的状态便发生了微妙的变化。这不仅仅是在标准装备外再增添一件防护装备，更意味着他们决心成为阻挡潜在威胁与部队之间的屏障。对于第121安保部队中队的空军士兵们而言，穿上这副防弹背心，就意味着要承担起背负沉重装备、在恶劣环境中坚守岗位、并履行永不松懈的保卫职责的重任。",
-    "第121安保部队中队指挥官、美国空军杰弗里·拉扎尔上尉表示：‘我们必须树立这样的意识——自己才是保护部队、让作战航空力量顺利升空的第一道也是最后一道防线。’他进一步指出，安保部队是一份要求极为严苛的职业，需要让年仅18岁的年轻人随时准备冒生命危险，在关键时刻做出关乎生死的决策。",
-    "作为在军中服役20年后才被授予军官军衔的杰弗里·拉扎尔深知，这份工作的责任远不止穿上一件战术背心那么简单。他能够在长时间工作、极端高温以及身体极度疲劳的情况下依然坚持下去，源于他对驻守在防线后方任务的坚定执着。",
-    "拉扎尔表示：‘作为防线守护者，很多时候困扰我们的并非眼前的挑战，而是身后需要保护的人们与事物，正是这些让我们坚持下去。我们会时刻牢记自己正在守护的是家乡的种种——那些我们在此努力捍卫的自由与权利。’",
-    "这种坚韧不拔的精神，源于在严酷的野外环境与漫长的值守时间里逐渐磨砺出的共同意志。每当暴雨倾盆而下，双腿愈发沉重，装备也愈发沉闷，此时唯一能支撑他们继续前进、完成任务的，便是纯粹的毅力。",
-    "在野外执行任务时所面临的巨大压力才是最出色的老师，”第121安全部队中队的士兵、美国空军上士肖恩·怀特这样说道。“只有真正身处野外，亲身经历恶劣天气，感受彼此的情绪，才能真正理解其中的含义。那些艰苦的日子会层层剥去每个人的伪装，让人暴露出最真实的自我，从而在残酷的现实面前建立起彼此间的深刻理解。",
-    "怀特在整个职业生涯中多次与这些空军士兵一同执行任务和参加联合演习，他发现该部队的真正优势在于其相互问责以及个人全心投入的团队文化。",
-    "怀特表示：“这份职业完全取决于个人自身的付出与努力。每天早上穿上制服时，我首先想到的是要向那些先于我服役的战友们致敬。环顾左右，看到同样身着这身制服的同事们，比任何事物都更能激励我。",
-    "这种共同的目标意识贯穿于所有层级，从高级领导层一直到刚刚走上飞行甲板的新生士兵。当这些新兵还在学习基本技能时，就在持续的压力下迅速成长，同时与队友之间建立起其他任何地方都无法替代的紧密纽带。",
-    "121st SFS的士兵伊斯顿·弗罗斯特是一名空军一等兵，他这样说道：‘每天早上穿上防弹背心时，我就相当于按下了启动键，从此成为一名安保人员。’他进一步解释道，这意味着自己必须竭尽全力确保任务顺利完成。在安保部队中建立的兄弟情谊实属独一无二，我们仿佛融为一个整体。",
-    "无论是需要在指挥层面做出战术决策，还是在条件极为严苛的作战环境中负责地面防御，第121安全力量中队的防卫人员们都始终坚守着共同的使命认同——这种认同通过他们所佩戴的贝雷帽以及他们负责守护的部队得以体现。",
-    "拉扎尔表示：“只有当一个人真正获得那枚勋章并戴上那顶贝雷帽之后，才算是一名真正的防卫人员。这顶贝雷帽正是我们与其他人的区别所在——所有佩戴它的人都是经过努力才获得它的，而这恰恰意味着我们就是部队的守护者。"
-   ],
-   "zhFull": "密歇根州阿尔佩纳作战战备训练中心——当安保部队的士兵们在宁静的清晨穿上弹道防弹背心时，他们的状态便发生了微妙的变化。这不仅仅是在标准装备外再增添一件防护装备，更意味着他们决心成为阻挡潜在威胁与部队之间的屏障。对于第121安保部队中队的空军士兵们而言，穿上这副防弹背心，就意味着要承担起背负沉重装备、在恶劣环境中坚守岗位、并履行永不松懈的保卫职责的重任。\n\n第121安保部队中队指挥官、美国空军杰弗里·拉扎尔上尉表示：‘我们必须树立这样的意识——自己才是保护部队、让作战航空力量顺利升空的第一道也是最后一道防线。’他进一步指出，安保部队是一份要求极为严苛的职业，需要让年仅18岁的年轻人随时准备冒生命危险，在关键时刻做出关乎生死的决策。\n\n作为在军中服役20年后才被授予军官军衔的杰弗里·拉扎尔深知，这份工作的责任远不止穿上一件战术背心那么简单。他能够在长时间工作、极端高温以及身体极度疲劳的情况下依然坚持下去，源于他对驻守在防线后方任务的坚定执着。\n\n拉扎尔表示：‘作为防线守护者，很多时候困扰我们的并非眼前的挑战，而是身后需要保护的人们与事物，正是这些让我们坚持下去。我们会时刻牢记自己正在守护的是家乡的种种——那些我们在此努力捍卫的自由与权利。’\n\n这种坚韧不拔的精神，源于在严酷的野外环境与漫长的值守时间里逐渐磨砺出的共同意志。每当暴雨倾盆而下，双腿愈发沉重，装备也愈发沉闷，此时唯一能支撑他们继续前进、完成任务的，便是纯粹的毅力。\n\n在野外执行任务时所面临的巨大压力才是最出色的老师，”第121安全部队中队的士兵、美国空军上士肖恩·怀特这样说道。“只有真正身处野外，亲身经历恶劣天气，感受彼此的情绪，才能真正理解其中的含义。那些艰苦的日子会层层剥去每个人的伪装，让人暴露出最真实的自我，从而在残酷的现实面前建立起彼此间的深刻理解。\n\n怀特在整个职业生涯中多次与这些空军士兵一同执行任务和参加联合演习，他发现该部队的真正优势在于其相互问责以及个人全心投入的团队文化。\n\n怀特表示：“这份职业完全取决于个人自身的付出与努力。每天早上穿上制服时，我首先想到的是要向那些先于我服役的战友们致敬。环顾左右，看到同样身着这身制服的同事们，比任何事物都更能激励我。\n\n这种共同的目标意识贯穿于所有层级，从高级领导层一直到刚刚走上飞行甲板的新生士兵。当这些新兵还在学习基本技能时，就在持续的压力下迅速成长，同时与队友之间建立起其他任何地方都无法替代的紧密纽带。\n\n121st SFS的士兵伊斯顿·弗罗斯特是一名空军一等兵，他这样说道：‘每天早上穿上防弹背心时，我就相当于按下了启动键，从此成为一名安保人员。’他进一步解释道，这意味着自己必须竭尽全力确保任务顺利完成。在安保部队中建立的兄弟情谊实属独一无二，我们仿佛融为一个整体。\n\n无论是需要在指挥层面做出战术决策，还是在条件极为严苛的作战环境中负责地面防御，第121安全力量中队的防卫人员们都始终坚守着共同的使命认同——这种认同通过他们所佩戴的贝雷帽以及他们负责守护的部队得以体现。\n\n拉扎尔表示：“只有当一个人真正获得那枚勋章并戴上那顶贝雷帽之后，才算是一名真正的防卫人员。这顶贝雷帽正是我们与其他人的区别所在——所有佩戴它的人都是经过努力才获得它的，而这恰恰意味着我们就是部队的守护者。",
-   "zhDone": 12,
-   "zhChunks": 12,
    "zhState": "ok",
    "zhAt": null
   },
