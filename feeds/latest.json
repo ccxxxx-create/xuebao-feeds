@@ -1,71 +1,242 @@
 {
- "updatedAt": "2026-10-10T22:05:15.574879+00:00",
+ "updatedAt": "2026-10-11T00:38:35.542331+00:00",
  "meta": {
   "afresearchlab": {
    "name": "AFRL",
    "status": "ok",
    "count": 4,
    "error": null,
-   "fetchedAt": "2026-10-10T22:05:15.574879+00:00"
+   "fetchedAt": "2026-10-11T00:38:35.542331+00:00"
   },
   "westpoint": {
    "name": "西点军校",
    "status": "error",
    "count": 0,
    "error": "all feeds failed: https://www.westpoint.edu/rss.xml -> HTTP Error 403: ",
-   "fetchedAt": "2026-10-10T22:05:15.574879+00:00"
+   "fetchedAt": "2026-10-11T00:38:35.542331+00:00"
   },
   "airandspaceforces": {
    "name": "Air & Space Forces",
    "status": "ok",
    "count": 9,
    "error": null,
-   "fetchedAt": "2026-10-10T22:05:15.574879+00:00"
+   "fetchedAt": "2026-10-11T00:38:35.542331+00:00"
   },
   "govuk_mod": {
    "name": "英国国防部",
    "status": "ok",
    "count": 20,
    "error": null,
-   "fetchedAt": "2026-10-10T22:05:15.574879+00:00"
+   "fetchedAt": "2026-10-11T00:38:35.542331+00:00"
   },
   "defensenews": {
    "name": "Defense News",
    "status": "ok",
    "count": 25,
    "error": null,
-   "fetchedAt": "2026-10-10T22:05:15.574879+00:00"
+   "fetchedAt": "2026-10-11T00:38:35.542331+00:00"
   },
   "rand": {
    "name": "兰德",
    "status": "ok",
    "count": 29,
    "error": null,
-   "fetchedAt": "2026-10-10T22:05:15.574879+00:00"
+   "fetchedAt": "2026-10-11T00:38:35.542331+00:00"
   },
   "us_marines": {
    "name": "美国海军陆战队",
    "status": "ok",
    "count": 40,
    "error": null,
-   "fetchedAt": "2026-10-10T22:05:15.574879+00:00"
+   "fetchedAt": "2026-10-11T00:38:35.542331+00:00"
   },
   "us_dod": {
    "name": "美国国防部",
    "status": "ok",
    "count": 40,
    "error": null,
-   "fetchedAt": "2026-10-10T22:05:15.574879+00:00"
+   "fetchedAt": "2026-10-11T00:38:35.542331+00:00"
   },
   "us_airforce": {
    "name": "美国空军",
    "status": "ok",
    "count": 18,
    "error": null,
-   "fetchedAt": "2026-10-10T22:05:15.574879+00:00"
+   "fetchedAt": "2026-10-11T00:38:35.542331+00:00"
   }
  },
  "items": [
+  {
+   "url": "https://www.dvidshub.net/image/10004928/us-southern-command-and-panamanian-security-institutions-deliver-earthquake-relief-supplies",
+   "title": "U.S. Southern Command and Panamanian security institutions deliver earthquake relief supplies",
+   "author": "PFC Carolyn Dodge",
+   "pubDate": "2026-10-11T00:20:45+00:00",
+   "summary": "Members of the U.S. Southern Command and Panamanian security institutions deliver supplies to support people who were affected by an earthquake at Aeropuerto Internacional de Panamá Pacífico, Panama, Oct. 10, 2026. The Department of War is supporting the Department of State-led U.S. disaster assistance to the people of Panama in the aftermath of the October 9, 2026, earthquake. (U.S. Army photo by Pfc. Carolyn Dodge)",
+   "body": "Southern Command and Panamanian security institutions deliver supplies to support people who were affected by an earthquake at Aeropuerto Internacional de Panamá Pacífico, Panama, Oct.\n\nThe Department of War is supporting the Department of State-led U.\n\ndisaster assistance to the people of Panama in the aftermath of the October 9, 2026, earthquake.",
+   "channel": "us_dod",
+   "channelName": "美国国防部",
+   "summaryZh": "美国南方司令部成员和巴拿马安全机构人员于2026年10月10日在巴拿马的巴拿马太平洋国际机场运送物资，以支援受地震影响的民众。在2026年10月9日地震发生后，美国战争部正在支持由美国国务院牵头的美国对巴拿马民众的灾害援助。（美国陆军一等兵卡罗琳·道奇拍摄的美国陆军照片）",
+   "titleZh": "美国南方司令部和巴拿马安全机构运送地震救灾物资",
+   "titleTrans": "ok",
+   "zhParas": [
+    "美国南方司令部和巴拿马安全机构在巴拿马的巴拿马太平洋国际机场运送物资，以支援受地震影响的民众，10月。",
+    "美国战争部正在支持由国务院牵头的美国",
+    "灾难援助，用于帮助2026年10月9日地震后的巴拿马人民。"
+   ],
+   "zhFull": "美国南方司令部和巴拿马安全机构在巴拿马的巴拿马太平洋国际机场运送物资，以支援受地震影响的民众，10月。\n\n美国战争部正在支持由国务院牵头的美国\n\n灾难援助，用于帮助2026年10月9日地震后的巴拿马人民。",
+   "zhDone": 3,
+   "zhChunks": 3,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/news/576778/us-forces-disable-cargo-vessel-attempting-violate-blockade",
+   "title": "U.S. Forces Disable Cargo Vessel Attempting to Violate Blockade",
+   "author": "Courtesy",
+   "pubDate": "2026-10-11T00:12:22+00:00",
+   "summary": "TAMPA, Fla. — U.S. Central Command (CENTCOM) forces disabled a commercial cargo vessel in the Gulf of Oman, Oct. 10, after the ship’s crew ignored repeated warnings and attempted to run the ongoing naval blockade against Iran.",
+   "body": "TAMPA, Fla. — U.S. Central Command (CENTCOM) forces disabled a commercial cargo vessel in the Gulf of Oman, Oct. 10, after the ship’s crew ignored repeated warnings and attempted to run the ongoing naval blockade against Iran.\n\nA U.S. military fighter jet struck the stern of Panama-flagged M/V Ocean Molica (also known as the “Arika Sun”) with a precision munition, fully disabling the ship’s propulsion without harming the crew. The large cargo vessel was attempting to transit regional waters after having previously departed an Iranian port.\n\nCENTCOM forces resumed America’s blockade against all ships entering or departing Iranian ports on July 14. Four commercial vessels have been disabled and 135 ships have been turned around during three months of strict enforcement. Additionally, U.S. forces have destroyed 10 tankers linked to the Islamic Revolutionary Guard Corps' multibillion-dollar shadow network over the same period.\n\nAll mariners are advised to heed blockade warnings from CENTCOM forces. Crews should also continue to monitor Notice to Mariners broadcasts and contact U.S. naval forces on bridge-to-bridge channel 16 when operating in the Gulf of Oman and Strait of Hormuz approaches.",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "佛罗里达州坦帕——美军中央司令部（CENTCOM）部队于10月10日在阿曼湾使一艘商用货船失去航行能力，此前该船船员无视多次警告，并试图突破针对伊朗的持续海上封锁。",
+   "titleZh": "美军使试图突破封锁的货船失去航行能力",
+   "titleTrans": "ok",
+   "zhParas": [
+    "佛罗里达州坦帕——美军中央司令部（CENTCOM）部队于10月10日在阿曼湾使一艘商用货船失去航行能力，此前该船船员无视多次警告，并试图突破针对伊朗的持续海上封锁。",
+    "一架美军战斗机使用精确制导弹药击中了悬挂巴拿马国旗的M/V Ocean Molica号商船（又名“Arika Sun”）的船尾，使其推进系统完全失效，但未伤及船员。这艘大型货船此前曾驶离一个伊朗港口，当时正试图过境该地区水域。",
+    "美军中央司令部部队于7月14日恢复美国对所有进入或驶离伊朗港口船只的封锁。在三个月的严格执行期间，已有四艘商船被瘫痪，135艘船只被勒令折返。此外，同期美军摧毁了10艘与伊朗伊斯兰革命卫队价值数十亿美元的影子网络有关的油轮。",
+    "建议所有海员听从美军中央司令部部队发出的封锁警告。船员还应继续监收《航海通告》广播，并在阿曼湾和霍尔木兹海峡附近水域作业时，通过舰桥对舰桥16频道联系美国海军部队。"
+   ],
+   "zhFull": "佛罗里达州坦帕——美军中央司令部（CENTCOM）部队于10月10日在阿曼湾使一艘商用货船失去航行能力，此前该船船员无视多次警告，并试图突破针对伊朗的持续海上封锁。\n\n一架美军战斗机使用精确制导弹药击中了悬挂巴拿马国旗的M/V Ocean Molica号商船（又名“Arika Sun”）的船尾，使其推进系统完全失效，但未伤及船员。这艘大型货船此前曾驶离一个伊朗港口，当时正试图过境该地区水域。\n\n美军中央司令部部队于7月14日恢复美国对所有进入或驶离伊朗港口船只的封锁。在三个月的严格执行期间，已有四艘商船被瘫痪，135艘船只被勒令折返。此外，同期美军摧毁了10艘与伊朗伊斯兰革命卫队价值数十亿美元的影子网络有关的油轮。\n\n建议所有海员听从美军中央司令部部队发出的封锁警告。船员还应继续监收《航海通告》广播，并在阿曼湾和霍尔木兹海峡附近水域作业时，通过舰桥对舰桥16频道联系美国海军部队。",
+   "zhDone": 4,
+   "zhChunks": 4,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/video/1026096/sf-fleet-week-26-1st-mardiv-band-performs-fleet-fest-b-roll",
+   "title": "SF Fleet Week 26: 1st MARDIV Band Performs at Fleet Fest (B-Roll)",
+   "author": "Cpl Monserrath Mora",
+   "pubDate": "2026-10-10T23:15:16+00:00",
+   "summary": "U.S. Marines with 1st Marine Division Band perform at Fleet Fest in San Francisco during San Francisco Fleet Week, Oct. 10, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, par",
+   "body": "U.S. Marines with 1st Marine Division Band perform at Fleet Fest in San Francisco during San Francisco Fleet Week, Oct. 10, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area. (U.S. Marine Corps video by Cpl. Monserrath Mora)",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "2026年10月10日，在旧金山舰队周期间，美国海军陆战队第1海军陆战师乐队队员在旧金山的舰队节上演出。旧金山舰队周今年已是第45届，这一历史悠久的庆祝活动让湾区居民能够亲眼目睹当今海上军种的风采。活动期间，水兵、海军陆战队员和海岸警卫队员展示其能力与装备，参加各类社区服务活动，并享受湾区民众的热情款待。",
+   "titleZh": "旧金山舰队周26：美国海军陆战队第1海军陆战师乐队在舰队节演出（B-Roll）",
+   "titleTrans": "ok",
+   "zhParas": [
+    "2026年10月10日，在旧金山舰队周期间，美国海军陆战队第1海军陆战师乐队队员在旧金山的舰队节上演出。旧金山舰队周今年已是第45届，这一历史悠久的庆祝活动让湾区居民能够亲眼目睹当今海上军种的风采。活动期间，水兵、海军陆战队员和海岸警卫队员展示其能力与装备，参加各类社区服务活动，并享受湾区民众的热情款待。（美国海军陆战队视频，由Monserrath Mora下士拍摄）"
+   ],
+   "zhFull": "2026年10月10日，在旧金山舰队周期间，美国海军陆战队第1海军陆战师乐队队员在旧金山的舰队节上演出。旧金山舰队周今年已是第45届，这一历史悠久的庆祝活动让湾区居民能够亲眼目睹当今海上军种的风采。活动期间，水兵、海军陆战队员和海岸警卫队员展示其能力与装备，参加各类社区服务活动，并享受湾区民众的热情款待。（美国海军陆战队视频，由Monserrath Mora下士拍摄）",
+   "zhDone": 1,
+   "zhChunks": 1,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10004851/all-aboard-us-marines-and-sailors-conduct-tours",
+   "title": "All Aboard! U.S. Marines and Sailors conduct tours",
+   "author": "Cpl Alan Gomez",
+   "pubDate": "2026-10-10T22:55:48+00:00",
+   "summary": "U.S. Marine Corps Cpl. Andrew Chamorro, left, a vehicle mechanic with 1st Maintenance Battalion, 1st Combat Readiness Regiment, 1st Marine Logistics Group, explains to a Fleet Week attendee the capabilities of the Oshkosh Joint Light Tactical Vehicle during San Francisco Fleet Week in San Francisco, Oct. 10, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event",
+   "body": "Andrew Chamorro, left, a vehicle mechanic with 1st Maintenance Battalion, 1st Combat Readiness Regiment, 1st Marine Logistics Group, explains to a Fleet Week attendee the capabilities of the Oshkosh Joint Light Tactical Vehicle during San Francisco Fleet Week in San Francisco, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nMarine Corps photo by Cpl.",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "美国海军陆战队下士安德鲁·查莫罗（Andrew Chamorro，左侧）是第1维修营、第1战斗战备团、海军陆战队第1后勤大队的车辆机械师。2026年10月10日，在旧金山举行的旧金山舰队周期间，他向一名舰队周参观者讲解奥什科什联合轻型战术车的性能。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今的海上军种。活动期间",
+   "titleZh": "全体登舰！美国海军陆战队员和水兵进行参观导览",
+   "titleTrans": "ok",
+   "zhParas": [
+    "10月，在旧金山举行的旧金山舰队周期间，左侧的安德鲁·查莫罗（Andrew Chamorro）——第1维修营、第1战斗战备团、海军陆战队第1后勤大队的车辆机械师——向一名舰队周参观者讲解奥什科什联合轻型战术车的性能。",
+    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上军种的风采。",
+    "活动期间，水兵、海军陆战队员和海岸警卫队队员展示自身能力与装备，参与各类社区服务活动，并享受湾区的热情款待。",
+    "美国海军陆战队照片，由下士拍摄。"
+   ],
+   "zhFull": "10月，在旧金山举行的旧金山舰队周期间，左侧的安德鲁·查莫罗（Andrew Chamorro）——第1维修营、第1战斗战备团、海军陆战队第1后勤大队的车辆机械师——向一名舰队周参观者讲解奥什科什联合轻型战术车的性能。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上军种的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示自身能力与装备，参与各类社区服务活动，并享受湾区的热情款待。\n\n美国海军陆战队照片，由下士拍摄。",
+   "zhDone": 4,
+   "zhChunks": 4,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10004843/all-aboard-us-marines-and-sailors-conduct-ship-tours",
+   "title": "All Aboard! U.S. Marines and Sailors conduct ship tours",
+   "author": "Cpl Alan Gomez",
+   "pubDate": "2026-10-10T22:49:28+00:00",
+   "summary": "U.S. Navy Fire Controlman 1st Class Edgar Pestrana, right, and Fire Controlman Seaman Travion Bobb, both assigned to Ticonderoga-class guided-missile cruiser USS Cape St. George (CG 71), brief their roles aboard ship during a ship tour for San Francisco Fleet Week in San Francisco, Oct. 10, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines",
+   "body": "Navy Fire Controlman 1st Class Edgar Pestrana, right, and Fire Controlman Seaman Travion Bobb, both assigned to Ticonderoga-class guided-missile cruiser USS Cape St.\n\nGeorge (CG 71), brief their roles aboard ship during a ship tour for San Francisco Fleet Week in San Francisco, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nMarine Corps photo by Cpl.",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "海军火控一等军士埃德加·佩斯特拉纳（右）和火控水兵特拉维昂·鲍勃，两人均隶属于美国海军提康德罗加级导弹巡洋舰“圣乔治角”号（CG 71），于2026年10月10日在旧金山举行的旧金山舰队周期间，在舰上参观活动中介绍各自的职责。旧金山舰队周现已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今海上军种的风采。活动期间，水兵、海军陆战队员……",
+   "titleZh": "全体登舰！美国海军陆战队员和水兵开展舰艇参观活动",
+   "titleTrans": "ok",
+   "zhParas": [
+    "海军火控一等军士埃德加·佩斯特拉纳（右）和火控水兵特拉维昂·鲍勃，两人均隶属于美国海军提康德罗加级导弹巡洋舰“圣",
+    "乔治角”号（CG 71），在旧金山舰队周期间于旧金山举行的舰艇参观活动中，介绍他们在舰上的职责。10月",
+    "旧金山舰队周现已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上部队的风采。",
+    "活动期间，水兵、海军陆战队员和海岸警卫队员展示各自的能力与装备，参加各类社区服务活动，并感受湾区的热情好客。",
+    "美国海军陆战队照片，由下士拍摄。"
+   ],
+   "zhFull": "海军火控一等军士埃德加·佩斯特拉纳（右）和火控水兵特拉维昂·鲍勃，两人均隶属于美国海军提康德罗加级导弹巡洋舰“圣\n\n乔治角”号（CG 71），在旧金山舰队周期间于旧金山举行的舰艇参观活动中，介绍他们在舰上的职责。10月\n\n旧金山舰队周现已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上部队的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队员展示各自的能力与装备，参加各类社区服务活动，并感受湾区的热情好客。\n\n美国海军陆战队照片，由下士拍摄。",
+   "zhDone": 5,
+   "zhChunks": 5,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.defensenews.com/industry/techwatch/2026/10/10/us-army-kaizen-laboratories-to-establish-common-software-platform-for-classified-material/",
+   "title": "US Army, Kaizen Laboratories to establish common software platform for classified material",
+   "author": "Riley Ceder",
+   "pubDate": "2026-10-10T22:47:27+00:00",
+   "summary": "The U.S. Army recently awarded $43 million to Kaizen Laboratories to create application software for highly sensitive military material.",
+   "body": "The U.S. Army awarded $43 million to defense company Kaizen Laboratories to create application software for highly sensitive military material.\n\nThe $49 million Enterprise Agreement Indefinite Delivery, Indefinite Quantity contract, or IDIQ, specifically focuses on mission and enterprise applications, staff workflows, records and “reporting that sit above the Army’s systems of record,” a Kaizen release said.\n\n“The Army is changing how it acquires software because missions cannot wait through years of bespoke implementation,” said Nikhil Reddy, co-founder and CEO of Kaizen Labs. “This agreement provides Army organizations a more direct path to the applications essential to their critical operations.”\n\nThough the amount could increase based on demand, the remaining $6 million in the contract could be used to fund software for military readiness, personnel management, installations, logistics or operations, Reddy told Military Times.\n\nFor instance, a service member might use a Defense Department web portal under the Morale, Welfare and Recreation program to book lodging for an event.\n\nThat reservation platform includes components like data and scheduling mechanisms. But that platform that allows a service member or the Defense Department to manage a particular reservation likely hosts numerous digital properties that apply to other services and platforms soldiers use, Reddy said.\n\nIf, hypothetically, the military wanted Kaizen to revamp case management portals, the company could perform that task while addressing multiple areas of need by supplying new application software for multiple portals across the military.\n\nKaizen is no stranger to helping the Defense Department streamline important processes.\n\nIn August, the company built the online counter-unmanned aerial system marketplace that allows verified DoD buyers to purchase autonomous systems.\n\nKaizen developed the marketplace with Joint Interagency Task Force 401, which spearheads efforts to bridge the gap between government agencies and defense tech companies pushing counter-drone technology.\n\nThe biggest problem with fielding technologies is procurement, Reddy told Military Times.\n\nLegal frameworks, contract vehicles and purchasing agreements can take forever at the pace and scale that the Pentagon needs, he said.\n\nSo, Kaizen built the Airbnb equivalent for counter-UAS systems, Reddy said.\n\nAmerican companies can now log onto the marketplace, post products and receive procurement contracts from interested DoD-affiliated parties.\n\nUnder the $49 IDIQ, the Army and Kaizen’s framework agreement allows the service to order different products now and in the future.\n\nRiley Ceder is a Navy reporter at Military Times, where he covers issues directly affecting service members and their families, as well as breaking news.",
+   "channel": "defensenews",
+   "channelName": "Defense News",
+   "summaryZh": "美国陆军最近向Kaizen Laboratories授予4300万美元，用于为高度敏感的军事物资创建应用软件。",
+   "titleZh": "美国陆军与Kaizen Laboratories将为机密材料建立通用软件平台",
+   "titleTrans": "ok",
+   "zhParas": [
+    "美国陆军向防务公司Kaizen Laboratories授予4300万美元，用于为高度敏感的军事物资创建应用软件。",
+    "这份价值4900万美元的企业协议不定期交付、不定量（IDIQ）合同，具体聚焦于任务级和企业级应用、员工工作流程、记录以及“位于陆军记录系统之上的报告”，Kaizen发布的一份新闻稿称。",
+    "陆军正在改变其获取软件的方式，因为任务不能耗费数年等待定制化实施，”Kaizen Labs联合创始人兼首席执行官尼基尔·雷迪说。“该协议为陆军各组织提供了一条更直接的途径，以获取对其关键行动至关重要的应用。",
+    "雷迪对《军事时报》表示，尽管合同金额可能会根据需求增加，但合同剩余的600万美元可用于资助战备、人事管理、设施、后勤或作战方面的软件。",
+    "例如，一名军人可能会使用国防部在士气、福利与娱乐项目下的门户网站，为某项活动预订住宿。",
+    "该预订平台包含数据和调度机制等组件。但雷迪表示，这个允许军人或国防部管理特定预订的平台，很可能托管着众多数字资产，这些数字资产适用于士兵使用的其他服务和平台。",
+    "假设军方希望Kaizen改造案件管理门户，该公司可以完成这项任务，同时通过为军方多个门户提供新的应用软件来满足多个领域的需求。",
+    "Kaizen在帮助国防部简化重要流程方面并不陌生。",
+    "8月，该公司建立了在线反无人机系统交易平台，使经过核实的国防部买家能够购买自主系统。",
+    "Kaizen与联合跨机构第401特遣部队共同开发了该平台；该特遣部队牵头努力弥合政府机构与推动反无人机技术的国防科技公司之间的差距。",
+    "雷迪告诉《军事时报》，将技术投入部署的最大问题是采购。",
+    "他说，以五角大楼所需的速度和规模，法律框架、合同载体和采购协议可能要耗费极长时间。",
+    "雷迪说，因此，Kaizen为反无人机系统打造了一个相当于爱彼迎的平台。",
+    "美国公司现在可以登录该市场平台，发布产品，并从有意向的国防部关联方获得采购合同。",
+    "根据这份价值4900万美元的IDIQ合同，陆军与Kaizen的框架协议允许该军种现在和未来订购不同产品。",
+    "赖利·塞德是《军事时报》的海军记者，负责报道直接影响军人及其家属的问题以及突发新闻。"
+   ],
+   "zhFull": "美国陆军向防务公司Kaizen Laboratories授予4300万美元，用于为高度敏感的军事物资创建应用软件。\n\n这份价值4900万美元的企业协议不定期交付、不定量（IDIQ）合同，具体聚焦于任务级和企业级应用、员工工作流程、记录以及“位于陆军记录系统之上的报告”，Kaizen发布的一份新闻稿称。\n\n陆军正在改变其获取软件的方式，因为任务不能耗费数年等待定制化实施，”Kaizen Labs联合创始人兼首席执行官尼基尔·雷迪说。“该协议为陆军各组织提供了一条更直接的途径，以获取对其关键行动至关重要的应用。\n\n雷迪对《军事时报》表示，尽管合同金额可能会根据需求增加，但合同剩余的600万美元可用于资助战备、人事管理、设施、后勤或作战方面的软件。\n\n例如，一名军人可能会使用国防部在士气、福利与娱乐项目下的门户网站，为某项活动预订住宿。\n\n该预订平台包含数据和调度机制等组件。但雷迪表示，这个允许军人或国防部管理特定预订的平台，很可能托管着众多数字资产，这些数字资产适用于士兵使用的其他服务和平台。\n\n假设军方希望Kaizen改造案件管理门户，该公司可以完成这项任务，同时通过为军方多个门户提供新的应用软件来满足多个领域的需求。\n\nKaizen在帮助国防部简化重要流程方面并不陌生。\n\n8月，该公司建立了在线反无人机系统交易平台，使经过核实的国防部买家能够购买自主系统。\n\nKaizen与联合跨机构第401特遣部队共同开发了该平台；该特遣部队牵头努力弥合政府机构与推动反无人机技术的国防科技公司之间的差距。\n\n雷迪告诉《军事时报》，将技术投入部署的最大问题是采购。\n\n他说，以五角大楼所需的速度和规模，法律框架、合同载体和采购协议可能要耗费极长时间。\n\n雷迪说，因此，Kaizen为反无人机系统打造了一个相当于爱彼迎的平台。\n\n美国公司现在可以登录该市场平台，发布产品，并从有意向的国防部关联方获得采购合同。\n\n根据这份价值4900万美元的IDIQ合同，陆军与Kaizen的框架协议允许该军种现在和未来订购不同产品。\n\n赖利·塞德是《军事时报》的海军记者，负责报道直接影响军人及其家属的问题以及突发新闻。",
+   "zhDone": 16,
+   "zhChunks": 16,
+   "zhState": "ok"
+  },
+  {
+   "url": "https://www.dvidshub.net/image/10004826/sf-fleet-week-26-1st-mardiv-band-performs-fleet-fest",
+   "title": "SF Fleet Week 26: 1st MARDIV Band Performs at Fleet Fest",
+   "author": "LCpl Adrian Guerrero Martinez",
+   "pubDate": "2026-10-10T22:29:27+00:00",
+   "summary": "U.S. Marines with 1st Marine Division Band perform at Fleet Fest in San Francisco during San Francisco Fleet Week, Oct. 10, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area. (U.S. Marin",
+   "body": "Marines with 1st Marine Division Band perform at Fleet Fest in San Francisco during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nMarine Corps photo by Lance Cpl.\n\nAdrian Guerrero Martinez)",
+   "channel": "us_marines",
+   "channelName": "美国海军陆战队",
+   "summaryZh": "海军陆战队第1师军乐队的海军陆战队员于2026年10月10日旧金山舰队周期间在旧金山舰队节上演出。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上军种的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参与各类社区服务活动，并享受湾区的热情款待。（美国海军陆战队）",
+   "titleZh": "旧金山舰队周26：海军陆战队第1师军乐队在舰队节演出",
+   "titleTrans": "ok",
+   "zhParas": [
+    "海军陆战队第1师军乐队的海军陆战队员于10月旧金山舰队周期间在旧金山舰队节上演出。",
+    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今的海上力量。",
+    "活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参加各类社区服务活动，并享受湾区的热情款待。",
+    "美国海军陆战队照片，拍摄者：准下士",
+    "阿德里安·格雷罗·马丁内斯）"
+   ],
+   "zhFull": "海军陆战队第1师军乐队的海军陆战队员于10月旧金山舰队周期间在旧金山舰队节上演出。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今的海上力量。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参加各类社区服务活动，并享受湾区的热情款待。\n\n美国海军陆战队照片，拍摄者：准下士\n\n阿德里安·格雷罗·马丁内斯）",
+   "zhDone": 5,
+   "zhChunks": 5,
+   "zhState": "ok"
+  },
   {
    "url": "https://www.dvidshub.net/news/576232/uss-billings-lcs-15-returns-naval-station-mayport-following-deployment-us-southern-command",
    "title": "USS Billings (LCS 15) Returns to Naval Station Mayport Following Deployment to U.S. Southern Command",
@@ -75,9 +246,8 @@
    "body": "NAVAL STATION MAYPORT, Fla. — The Freedom-class littoral combat ship USS Billings (LCS 15) returned to Naval Station Mayport Oct. 10, 2026, following a 6-month deployment to U.S. Fourth Fleet area of operations in support of U.S. Southern Command’s (USSOUTHCOM) mission.\n\nDuring the deployment, Billings conducted sustained maritime security operations to support regional counter-illicit trafficking efforts. The crew worked alongside an embarked U.S. Coast Guard Law Enforcement Detachment and a Helicopter Maritime Strike Squadron 48 detachment, supporting multiple successful interdictions that resulted in the seizure of more than 2,500 kilograms of illicit narcotics and the apprehension of suspected traffickers.\n\n“The crew of USS Billings exemplified operational agility and dedication throughout this deployment,\" said Rear Adm. Carlos Sardiello, commander, U.S. Naval Forces Southern Command/U.S. 4th Fleet. \"Whether executing high-stakes interdictions, transporting vital drinking water in support of disaster relief efforts, or contributing to coalition efforts, these Sailors helped impose total systemic friction on narco-terrorist networks, directly supporting the defense of the homeland and the security of the Western Hemisphere.”\n\nBillings also strengthened maritime interoperability with Caribbean partners, including the Dominican Republic Navy and Jamaica Defence Force, to enhance information sharing and address shared security challenges. Additionally, the ship demonstrated its versatility by supporting humanitarian-assistance efforts following an earthquake in Venezuela in June, transporting more than 77,000 pounds of drinking water.\n\nBillings departed Naval Station Mayport on March 27, 2026.\n\nUSS Billings is the first U.S. Navy ship to bear the name, honoring the city of Billings, Montana, and the enduring service, sacrifice, and patriotism of south-central Montana and the broader Big Sky region. Sailing under the motto \"Big Sky Over Troubled Waters,\" the ship connects Montana’s proud heritage with the crew's dedication to defending freedom.\n\nCommander, Naval Surface Force Atlantic is responsible for manning, training, and equipping assigned surface forces and shore activities, ensuring a capable and combat-ready force to support U.S. national interests. The SURFLANT force consists of more than 66 warships and 34 shore commands.\n\nFor more information about SURFLANT, visit Facebook.com/SURFLANT or www.surflant.usff.navy.mil.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "自由级濒海战斗舰比林斯号（LCS 15）在完成为期6个月、支援美国南方司令部（USSOUTHCOM）任务的美国第四舰队作战区域部署后，于2026年10月10日返回梅波特海军基地。",
    "titleZh": "美国海军比林斯号（LCS 15）结束美国南方司令部部署返回梅波特海军基地",
-   "titleTrans": "ok",
+   "summaryZh": "自由级濒海战斗舰比林斯号（LCS 15）在完成为期6个月、支援美国南方司令部（USSOUTHCOM）任务的美国第四舰队作战区域部署后，于2026年10月10日返回梅波特海军基地。",
    "zhParas": [
     "佛罗里达州梅波特海军基地——自由级濒海战斗舰比林斯号（LCS 15）在完成为期6个月、支援美国南方司令部（USSOUTHCOM）任务的美国第四舰队作战区域部署后，于2026年10月10日返回梅波特海军基地。",
     "部署期间，比林斯号持续开展海上安全行动，以支持地区反非法贩运行动。舰员与随舰部署的美国海岸警卫队执法分队以及第48直升机海上打击中队分遣队协同行动，支持了多次成功拦截，缴获超过2,500公斤非法毒品，并逮捕了疑似贩运人员。",
@@ -91,7 +261,8 @@
    "zhFull": "佛罗里达州梅波特海军基地——自由级濒海战斗舰比林斯号（LCS 15）在完成为期6个月、支援美国南方司令部（USSOUTHCOM）任务的美国第四舰队作战区域部署后，于2026年10月10日返回梅波特海军基地。\n\n部署期间，比林斯号持续开展海上安全行动，以支持地区反非法贩运行动。舰员与随舰部署的美国海岸警卫队执法分队以及第48直升机海上打击中队分遣队协同行动，支持了多次成功拦截，缴获超过2,500公斤非法毒品，并逮捕了疑似贩运人员。\n\n在整个部署期间，比林斯号舰员展现了作战灵活性和奉献精神，”美国海军南方司令部/美国第四舰队司令卡洛斯·萨尔迪耶洛海军少将表示。“无论是执行高风险拦截、为救灾行动运送重要饮用水，还是为联盟行动作出贡献，这些水兵都帮助对毒品恐怖主义网络施加了全面系统性阻力，直接支持了本土防御和西半球安全。\n\n比林斯号还加强了与加勒比伙伴的海上互操作性，包括多米尼加共和国海军和牙买加国防军，以加强信息共享并应对共同安全挑战。此外，该舰还通过支援6月委内瑞拉地震后的人道主义援助行动，运送超过77,000磅饮用水，展示了其多用途能力。\n\n比林斯号于2026年3月27日驶离梅波特海军基地。\n\n比林斯号是美国海军第一艘以此名称命名的舰艇，旨在纪念蒙大拿州比林斯市，以及蒙大拿州中南部和更广泛的大天空地区持久的服役、牺牲和爱国精神。该舰以“浊浪之上的大天空”为格言航行，将蒙大拿引以为傲的传统与舰员捍卫自由的奉献精神联系在一起。\n\n美海军大西洋水面部队司令负责为所属水面部队和岸上机构提供人员配备、训练和装备，确保拥有一支有能力且具备战备状态的力量，以支持美国利益。SURFLANT部队由超过66艘军舰和34个岸上司令部组成。\n\n如需了解有关SURFLANT的更多信息，请访问Facebook.com/SURFLANT或www.surflant.usff.navy.mil。",
    "zhDone": 8,
    "zhChunks": 8,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/news/576649/hoosier-national-guard-soldiers-ready-southwest-border-mission",
@@ -102,9 +273,8 @@
    "body": "CAMP ATTERBURY - Approximately 125 Indiana National Guard Soldiers said goodbye to family, friends and loved ones during a departure ceremony at Camp Atterbury on Saturday.\n\nThe Hoosier Guardsmen from the 381st Military Police company in Plymouth will head for southern Texas with Joint Task-Force Southern Border in support of Operation Ardent Vanguard, in efforts to secure the U.S. border from unlawful mass migration, narcotics trafficking, human smuggling and trafficking, and other criminal activities.\n\n\"Our mission there is to support Customs and Border Protection. Essentially, we’re an extra set of eyes and ears on the southern border,\" said Capt. Jakob Young, commander of the 381st. “If a soldier sees something, they will communicate that via radio to CBP, stand by, and wait for them to arrive.”\n\nThe Guardsmen will assist the Department of Homeland Security and the U.S. Customs and Border Protection within narrowly defined authorities to provide unique military capabilities to protect the territorial integrity of the U.S. southern border.\n\n\"Our men and women in uniform are trained and ready to support the needs of our state and nation,\" said Indiana National Guard Maj. Gen. Justin Mann, commanding general of 81st Troop Command. “Those of us here at home have the responsibility to look after the families as their loved ones are deployed in uniform.”\n\nWhile the mobilization will require leaving friends and family for almost a year, it provides an opportunity for the unit to draw closer together as a team. “Since we’re National Guardsmen, we normally only meet together once a month for training,” said Sgt. Richard Thoma, a team leader with the 381st. “It’s a chance to get to know my fellow soldiers better.”\n\nThis mobilization is unique in another aspect as well. Many of the Soldiers are volunteers from other Indiana National Guard units with a variety of military occupational specialties. Because they will receive specialized training from CBP prior to the mission, volunteers do not require a specific MOS to be added to the roster. The company includes medics, supply specialists, mechanics and others, in addition to military police.\n\n“I think a lot of people are excited, especially soldiers coming from outside of the 381st,” said Sgt. Rosy Starrett, a team leader with the unit. “The volunteer spirit that comes from the soldiers coming from other units boosts morale. Knowing that people want to go has everyone looking forward to the mission.”\n\nTo prepare for the mission, the unit spent nearly a month training at Camp Atterbury. They will receive additional training at Fort Bliss and at the mission site.\n\n“We have been able to get back to the basics. The individual soldier tasks we all learn at basic training. Getting back to the basics has been our priority,” said Young about the company’s preparation. “We’re prepared, we’re trained, and we’re ready to go execute the mission.”\n\nThe unit will replace the 38th Military Police Company from Monticello, Indiana, which is scheduled to return to Indiana in a few weeks.\n\nThe Indiana National Guard stands ready to help protect the border and nation. For more information about Operation Ardent Vanguard or Joint Task-Force Southern Border visit https://www.dvidshub.net/unit/OpAV or https://www.northcom.mil/BorderSecurity/#joint-task-forcesouthern-border . Email at mailto:JTF-SBMediaDesk@army.mil.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "印第安纳州阿特伯里营地——约125名来自驻普利茅斯的第381宪兵连的印第安纳国民警卫队士兵于2026年10月10日星期六在阿特伯里营地举行的出发仪式上受到表彰，他们正准备部署到美国西南边境。这些印第安纳州国民警卫队士兵将部署到得克萨斯州南部，在南部边境联合特遣部队下支援“炽热先锋”行动。此次部署正与美国国土安全部及美国海关与边境保护局（CBP）协调进行。",
    "titleZh": "印第安纳国民警卫队士兵准备执行西南边境任务",
-   "titleTrans": "ok",
+   "summaryZh": "印第安纳州阿特伯里营地——约125名来自驻普利茅斯的第381宪兵连的印第安纳国民警卫队士兵于2026年10月10日星期六在阿特伯里营地举行的出发仪式上受到表彰，他们正准备部署到美国西南边境。这些印第安纳州国民警卫队士兵将部署到得克萨斯州南部，在南部边境联合特遣部队下支援“炽热先锋”行动。此次部署正与美国国土安全部及美国海关与边境保护局（CBP）协调进行。",
    "zhParas": [
     "阿特伯里营地——周六，约125名印第安纳国民警卫队士兵在阿特伯里营地举行的出发仪式上，与家人、朋友和亲人告别。",
     "来自普利茅斯第381宪兵连的印第安纳州国民警卫队队员将随南部边境联合特遣部队前往得克萨斯州南部，支援“热忱先锋行动”，努力保卫美国边境，防范非法大规模移民、毒品贩运、人口走私和贩运以及其他犯罪活动。",
@@ -122,29 +292,8 @@
    "zhFull": "阿特伯里营地——周六，约125名印第安纳国民警卫队士兵在阿特伯里营地举行的出发仪式上，与家人、朋友和亲人告别。\n\n来自普利茅斯第381宪兵连的印第安纳州国民警卫队队员将随南部边境联合特遣部队前往得克萨斯州南部，支援“热忱先锋行动”，努力保卫美国边境，防范非法大规模移民、毒品贩运、人口走私和贩运以及其他犯罪活动。\n\n我们在那里的任务是支援海关与边境保护局（CBP）。本质上，我们就是南部边境额外的一双眼睛和耳朵，”第381宪兵连指挥官雅各布·扬上尉说。“如果士兵看到什么，他们会通过无线电将情况通报给CBP，然后待命，等待他们到来。\n\n国民警卫队员将在严格界定的权限范围内协助国土安全部和美国海关与边境保护局，提供独特的军事能力，以保护美国南部边境的领土完整。\n\n我们身着军装的男女官兵训练有素，随时准备支援我们州和国家的需要，”印第安纳国民警卫队第81部队司令部司令贾斯汀·曼少将说。“我们这些留在国内的人有责任照顾那些亲人身着军装部署在外的家庭。\n\n尽管此次动员将要求他们离开朋友和家人近一年，但这也为该部队提供了一个更加紧密团结为一个团队的机会。“由于我们是国民警卫队员，我们通常每月只集中一次进行训练，”第381宪兵连的小组长理查德·托马中士说。“这是更好地了解战友的机会。\n\n这次动员在另一个方面也很独特。许多士兵是来自印第安纳州国民警卫队其他部队的志愿者，拥有各种不同的军事职业专业。由于他们将在任务前接受美国海关与边境保护局（CBP）的专门培训，志愿者加入名册不需要特定的军事职业专业（MOS）。该连除宪兵外，还包括卫生兵、补给专家、机械师及其他人员。\n\n我认为很多人都很兴奋，尤其是来自第381宪兵连以外的士兵，”该部队的组长、中士罗西·斯塔雷特说。“来自其他部队的士兵所展现的志愿精神提振了士气。知道人们想去，让每个人都期待这次任务。\n\n为准备这次任务，该部队在阿特伯里营进行了近一个月的训练。他们将在布利斯堡和任务现场接受额外训练。\n\n我们得以回归基础。这些单兵任务都是我们在基础训练中都会学到的。回归基础一直是我们的首要任务，”扬在谈到该连的准备工作时说。“我们已做好准备，已接受训练，随时准备出发执行任务。\n\n该部队将接替来自印第安纳州蒙蒂塞洛的第38宪兵连；该连计划于几周后返回印第安纳州。\n\n印第安纳州国民警卫队随时准备帮助保护边境和国家。欲了解更多关于“热忱先锋行动”或南部边境联合特遣部队的信息，请访问 https://www.dvidshub.net/unit/OpAV 或 https://www.northcom.mil/BorderSecurity/#joint-task-forcesouthern-border 。电子邮件：mailto:JTF-SBMediaDesk@army.mil。",
    "zhDone": 12,
    "zhChunks": 12,
-   "zhState": "ok"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/10004808/us-southern-command-and-panamanian-security-institutions-deliver-earthquake-relief-supplies",
-   "title": "U.S. Southern Command and Panamanian security institutions deliver earthquake relief supplies",
-   "author": "PFC Oshon Trowbridge",
-   "pubDate": "2026-10-10T21:07:29+00:00",
-   "summary": "Members of the U.S. Southern Command and Panamanian security institutions deliver supplies to support people who were affected by an earthquake at Aeropuerto Internacional de Panamá Pacífico, Panama, Oct. 10, 2026. The Department of War is supporting the Department of State-led U.S. disaster assistance to the people of Panama in the aftermath of the October 9, 2026, earthquake. (U.S. Army photo by Pfc. Oshon Trowbridge)",
-   "body": "Southern Command and Panamanian security institutions deliver supplies to support people who were affected by an earthquake at Aeropuerto Internacional de Panamá Pacífico, Panama, Oct.\n\nThe Department of War is supporting the Department of State-led U.\n\ndisaster assistance to the people of Panama in the aftermath of the October 9, 2026, earthquake.",
-   "channel": "us_dod",
-   "channelName": "美国国防部",
-   "summaryZh": "美军南方司令部成员与巴拿马安全机构于2026年10月10日在巴拿马的巴拿马太平洋国际机场运送物资，以支援受地震影响的民众。战争部正在支持由国务院主导的美国救灾援助，向2026年10月9日地震后的巴拿马民众提供帮助。（美国陆军一等兵奥申·特罗布里奇摄）",
-   "titleZh": "美军南方司令部与巴拿马安全机构运送地震救灾物资",
-   "titleTrans": "ok",
-   "zhParas": [
-    "美军南方司令部与巴拿马安全机构在巴拿马的巴拿马太平洋国际机场运送物资，以支援受地震影响的民众，10月。",
-    "战争部正在支持国务院牵头的美国",
-    "在2026年10月9日地震后向巴拿马人民提供的灾害援助。"
-   ],
-   "zhFull": "美军南方司令部与巴拿马安全机构在巴拿马的巴拿马太平洋国际机场运送物资，以支援受地震影响的民众，10月。\n\n战争部正在支持国务院牵头的美国\n\n在2026年10月9日地震后向巴拿马人民提供的灾害援助。",
-   "zhDone": 3,
-   "zhChunks": 3,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/video/1026091/us-southern-command-and-panamanian-security-institutions-load-earthquake-relief-supplies",
@@ -155,16 +304,16 @@
    "body": "Members of the U.S. Southern Command and Panamanian security institutions load supplies to support people who were affected by an earthquake at Aeropuerto Internacional de Panamá Pacífico, Panama, Oct. 10, 2026. The Department of War is supporting the Department of State-led U.S. disaster assistance to the people of Panama in the aftermath of the October 9, 2026, earthquake. (U.S. Army video by Pfc. Carolyn Dodge)",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "2026年10月10日，美军南方司令部人员和巴拿马安全机构人员在巴拿马的巴拿马太平洋国际机场装载物资，以支援受地震影响的民众。美国战争部正在支持由国务院牵头的、向巴拿马人民提供的美国灾害援助，以应对2026年10月9日地震后的局势。（美国陆军视频，由一等兵卡罗琳·道奇拍摄）",
    "titleZh": "美军南方司令部和巴拿马安全机构装载地震救援物资",
-   "titleTrans": "ok",
+   "summaryZh": "2026年10月10日，美军南方司令部人员和巴拿马安全机构人员在巴拿马的巴拿马太平洋国际机场装载物资，以支援受地震影响的民众。美国战争部正在支持由国务院牵头的、向巴拿马人民提供的美国灾害援助，以应对2026年10月9日地震后的局势。（美国陆军视频，由一等兵卡罗琳·道奇拍摄）",
    "zhParas": [
     "2026年10月10日，美军南方司令部人员和巴拿马安全机构人员在巴拿马的巴拿马太平洋国际机场装载物资，以支援受地震影响的民众。美国战争部正在支持由国务院牵头的、向巴拿马人民提供的美国灾害援助，以应对2026年10月9日地震后的局势。（美国陆军视频，由一等兵卡罗琳·道奇拍摄）"
    ],
    "zhFull": "2026年10月10日，美军南方司令部人员和巴拿马安全机构人员在巴拿马的巴拿马太平洋国际机场装载物资，以支援受地震影响的民众。美国战争部正在支持由国务院牵头的、向巴拿马人民提供的美国灾害援助，以应对2026年10月9日地震后的局势。（美国陆军视频，由一等兵卡罗琳·道奇拍摄）",
    "zhDone": 1,
    "zhChunks": 1,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/video/1026092/florida-national-guard-and-search-and-rescue-conduct-missions-following-hurricane-isaias",
@@ -175,16 +324,16 @@
    "body": "Florida Army National Guard Soldiers with Bravo Company, 1st Battalion, 185th Assault Helicopter Battalion and Search and Rescue personnel depart Tallahassee International Airport on UH-60 Black Hawk utility helicopters to survey damage and scan for anyone needing assistance following Hurricane Isaias in Tallahassee, Florida, Oct. 10, 2026. Throughout the day and across the state, the Florida National Guard will be actively engaged in missions to include search and rescue, law-enforcement support, humanitarian assistance and more. (Florida Army National Guard Video by Sgt. Marc Morgenstern, 107th MPAD)",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "佛罗里达陆军国民警卫队第185突击直升机营第1营B连的士兵以及搜救人员于2026年10月10日在佛罗里达州塔拉哈西乘坐UH-60“黑鹰”通用直升机从塔拉哈西国际机场出发，在“飓风伊萨亚斯”过后勘察损失并搜寻任何需要援助的人。全天并在全州范围内，佛罗里达国民警卫队将积极参与包括搜救、执法支援、人道主义援助等在内的各项任务。",
    "titleZh": "佛罗里达国民警卫队与搜救人员在飓风“伊萨亚斯”过后执行任务",
-   "titleTrans": "ok",
+   "summaryZh": "佛罗里达陆军国民警卫队第185突击直升机营第1营B连的士兵以及搜救人员于2026年10月10日在佛罗里达州塔拉哈西乘坐UH-60“黑鹰”通用直升机从塔拉哈西国际机场出发，在“飓风伊萨亚斯”过后勘察损失并搜寻任何需要援助的人。全天并在全州范围内，佛罗里达国民警卫队将积极参与包括搜救、执法支援、人道主义援助等在内的各项任务。",
    "zhParas": [
     "佛罗里达陆军国民警卫队第185突击直升机营第1营B连的士兵以及搜救人员于2026年10月10日在佛罗里达州塔拉哈西乘坐UH-60“黑鹰”通用直升机从塔拉哈西国际机场出发，在“飓风伊萨亚斯”过后勘察损失并搜寻任何需要援助的人。全天并在全州范围内，佛罗里达国民警卫队将积极参与包括搜救、执法支援、人道主义援助等在内的各项任务。（佛罗里达陆军国民警卫队视频，由第107移动公共事务分遣队中士马克·摩根施特恩拍摄）"
    ],
    "zhFull": "佛罗里达陆军国民警卫队第185突击直升机营第1营B连的士兵以及搜救人员于2026年10月10日在佛罗里达州塔拉哈西乘坐UH-60“黑鹰”通用直升机从塔拉哈西国际机场出发，在“飓风伊萨亚斯”过后勘察损失并搜寻任何需要援助的人。全天并在全州范围内，佛罗里达国民警卫队将积极参与包括搜救、执法支援、人道主义援助等在内的各项任务。（佛罗里达陆军国民警卫队视频，由第107移动公共事务分遣队中士马克·摩根施特恩拍摄）",
    "zhDone": 1,
    "zhChunks": 1,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/video/1026088/marines-prepare-meals-san-francisco-community-b-roll",
@@ -195,16 +344,16 @@
    "body": "U.S. Marines with 1st Combat Readiness Regiment, 1st Marine Logistics Group, prepare food at the San Francisco-Marin Food Bank in San Francisco during San Francisco Fleet Week, Oct. 7, 2026. During the event, Marines created over 570 meal bags for the community. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the bay area. (U.S. Marine Corps photo by Lance Cpl. Katherine Fohn)",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "2026年10月7日，在旧金山舰队周期间，美国海军陆战队第1后勤大队第1战备团的陆战队员在旧金山-马林食品银行准备食物。活动期间，海军陆战队员为社区制作了570多个餐食袋。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今海上军种的风采。",
    "titleZh": "海军陆战队员为旧金山社区准备餐食（B-Roll）",
-   "titleTrans": "ok",
+   "summaryZh": "2026年10月7日，在旧金山舰队周期间，美国海军陆战队第1后勤大队第1战备团的陆战队员在旧金山-马林食品银行准备食物。活动期间，海军陆战队员为社区制作了570多个餐食袋。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今海上军种的风采。",
    "zhParas": [
     "2026年10月7日，在旧金山舰队周期间，美国海军陆战队第1后勤大队第1战备团的陆战队员在旧金山-马林食品银行准备食物。活动期间，海军陆战队员为社区制作了570多个餐食袋。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今海上军种的风采。活动期间，水兵、海军陆战队员和海岸警卫队员展示各自的能力和装备，参加各种社区服务活动，并享受湾区的盛情款待。（美国海军陆战队照片，由准下士凯瑟琳·福恩拍摄）"
    ],
    "zhFull": "2026年10月7日，在旧金山舰队周期间，美国海军陆战队第1后勤大队第1战备团的陆战队员在旧金山-马林食品银行准备食物。活动期间，海军陆战队员为社区制作了570多个餐食袋。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今海上军种的风采。活动期间，水兵、海军陆战队员和海岸警卫队员展示各自的能力和装备，参加各种社区服务活动，并享受湾区的盛情款待。（美国海军陆战队照片，由准下士凯瑟琳·福恩拍摄）",
    "zhDone": 1,
    "zhChunks": 1,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/video/1026087/marines-and-sailors-man-rails-parade-ships-b-roll",
@@ -215,16 +364,16 @@
    "body": "U.S. Marines and Sailors aboard Whidbey Island-class amphibious dock landing ship USS Ashland (LSD 48), man the rails for the Parade of Ships in San Francisco Bay during San Francisco Fleet Week, Oct. 6, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness todays maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the bay area. (U.S. Marine Corps photo by Lance Cpl. Katherine Fohn)",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "2026年10月6日，在旧金山舰队周期间，美国海军陆战队队员和水兵在惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48）上列队站坡，参加旧金山湾的舰船巡游。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民得以亲身见证当今的海上力量。活动期间，水兵、海军陆战队队员和海岸警卫队队员展示其能力与装备，参加各类社区服务活动，并感受湾区的热情好客。",
    "titleZh": "海军陆战队队员和水兵列队站坡参加舰船巡游（B-Roll）",
-   "titleTrans": "ok",
+   "summaryZh": "2026年10月6日，在旧金山舰队周期间，美国海军陆战队队员和水兵在惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48）上列队站坡，参加旧金山湾的舰船巡游。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民得以亲身见证当今的海上力量。活动期间，水兵、海军陆战队队员和海岸警卫队队员展示其能力与装备，参加各类社区服务活动，并感受湾区的热情好客。",
    "zhParas": [
     "2026年10月6日，在旧金山舰队周期间，美国海军陆战队队员和水兵在惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48）上列队站坡，参加旧金山湾的舰船巡游。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民得以亲身见证当今的海上力量。活动期间，水兵、海军陆战队队员和海岸警卫队队员展示其能力与装备，参加各类社区服务活动，并感受湾区的热情好客。（美国海军陆战队准下士凯瑟琳·福恩摄）"
    ],
    "zhFull": "2026年10月6日，在旧金山舰队周期间，美国海军陆战队队员和水兵在惠德贝岛级两栖船坞登陆舰“阿什兰”号（LSD 48）上列队站坡，参加旧金山湾的舰船巡游。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民得以亲身见证当今的海上力量。活动期间，水兵、海军陆战队队员和海岸警卫队队员展示其能力与装备，参加各类社区服务活动，并感受湾区的热情好客。（美国海军陆战队准下士凯瑟琳·福恩摄）",
    "zhDone": 1,
    "zhChunks": 1,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/video/1026062/sf-fleet-week-26-1st-mardiv-band-performs-union-square-b-roll",
@@ -235,16 +384,16 @@
    "body": "U.S. Marines with 1st Marine Division Band perform at Union Square in San Francisco during San Francisco Fleet Week, Oct. 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area. (U.S. Marine Corps video by Cpl. Monserrath Mora)",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "美国海军陆战队第1师军乐队的海军陆战队员于2026年10月9日旧金山舰队周期间在旧金山联合广场演出。旧金山舰队周如今已是第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上军种。活动期间，水兵、海军陆战队员和海岸警卫队人员展示其能力和装备，参加各类社区服务活动，并享受湾区的热情款待。",
    "titleZh": "旧金山舰队周26：美国海军陆战队第1师军乐队在联合广场演出（B卷）",
-   "titleTrans": "ok",
+   "summaryZh": "美国海军陆战队第1师军乐队的海军陆战队员于2026年10月9日旧金山舰队周期间在旧金山联合广场演出。旧金山舰队周如今已是第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上军种。活动期间，水兵、海军陆战队员和海岸警卫队人员展示其能力和装备，参加各类社区服务活动，并享受湾区的热情款待。",
    "zhParas": [
     "美国海军陆战队第1师军乐队的海军陆战队员于2026年10月9日旧金山舰队周期间在旧金山联合广场演出。旧金山舰队周如今已是第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上军种。活动期间，水兵、海军陆战队员和海岸警卫队人员展示其能力和装备，参加各类社区服务活动，并享受湾区的热情款待。（美国海军陆战队视频，下士 Monserrath Mora 摄）"
    ],
    "zhFull": "美国海军陆战队第1师军乐队的海军陆战队员于2026年10月9日旧金山舰队周期间在旧金山联合广场演出。旧金山舰队周如今已是第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上军种。活动期间，水兵、海军陆战队员和海岸警卫队人员展示其能力和装备，参加各类社区服务活动，并享受湾区的热情款待。（美国海军陆战队视频，下士 Monserrath Mora 摄）",
    "zhDone": 1,
    "zhChunks": 1,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10004678/marines-dance-during-san-francisco-fleet-week",
@@ -255,9 +404,8 @@
    "body": "Marines dance in front of the Chase Center in San Francisco during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nNavy photo by Mass Communication Specialist 3rd Class Pablo Chavez)",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "2026年10月10日，海军陆战队员在旧金山舰队周期间于旧金山大通中心前跳舞。旧金山舰队周现已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今海上军种的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示自身能力与装备，参与各类社区服务活动，并享受湾区的热情款待。（美国海军照片，由 Mass Com 拍摄）",
    "titleZh": "海军陆战队员在旧金山舰队周期间跳舞",
-   "titleTrans": "ok",
+   "summaryZh": "2026年10月10日，海军陆战队员在旧金山舰队周期间于旧金山大通中心前跳舞。旧金山舰队周现已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今海上军种的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示自身能力与装备，参与各类社区服务活动，并享受湾区的热情款待。（美国海军照片，由 Mass Com 拍摄）",
    "zhParas": [
     "10月，海军陆战队员在旧金山舰队周期间于旧金山大通中心前跳舞。",
     "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民能够亲眼目睹当今海上军种的风采。",
@@ -267,7 +415,8 @@
    "zhFull": "10月，海军陆战队员在旧金山舰队周期间于旧金山大通中心前跳舞。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民能够亲眼目睹当今海上军种的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示其能力与装备，参加各种社区服务活动，并享受湾区的热情款待。\n\n美国海军照片，由三级大众传播专家巴勃罗·查韦斯拍摄）",
    "zhDone": 4,
    "zhChunks": 4,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10004677/marines-dance-with-golden-state-valkyries-mascot-during-san-francisco-fleet-week",
@@ -278,9 +427,8 @@
    "body": "Marines dance with Violet, the official mascot of the Golden State Valkyries, in front of the Chase Center in San Francisco during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nNavy photo by Mass Communication Specialist 3rd Class Pablo Chavez)",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "2026年10月10日，在旧金山舰队周期间，美国海军陆战队员在旧金山大通中心前与金州女武神队官方吉祥物维奥莱特共舞。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民能够亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示其能力和装备，参加各种社区服务活动，并享受……",
    "titleZh": "海军陆战队员在旧金山舰队周期间与金州女武神队吉祥物共舞",
-   "titleTrans": "ok",
+   "summaryZh": "2026年10月10日，在旧金山舰队周期间，美国海军陆战队员在旧金山大通中心前与金州女武神队官方吉祥物维奥莱特共舞。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民能够亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示其能力和装备，参加各种社区服务活动，并享受……",
    "zhParas": [
     "10月，在旧金山舰队周期间，海军陆战队员在旧金山大通中心前与金州女武神队官方吉祥物维奥莱特共舞。",
     "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上军种的风采。",
@@ -290,7 +438,8 @@
    "zhFull": "10月，在旧金山舰队周期间，海军陆战队员在旧金山大通中心前与金州女武神队官方吉祥物维奥莱特共舞。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上军种的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参加各种社区服务活动，并感受湾区的热情好客。\n\n美国海军照片，由三级大众传播专家巴勃罗·查韦斯拍摄）",
    "zhDone": 4,
    "zhChunks": 4,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10004675/us-sailors-marines-and-coast-guardsmen-pose-with-fleet-week-organizers-photo-during-san-francisco-fleet-week",
@@ -301,9 +450,8 @@
    "body": "Sailors, Marines, Coast Guardsmen and Fleet Week organizers pose for a photo in front of the Chase Center in San Francisco during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nNavy photo by Mass Communication Specialist 3rd Class Pablo Chavez)",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "2026年10月10日，在旧金山舰队周期间，美国水兵、海军陆战队队员、海岸警卫队队员和舰队周组织者在旧金山大通中心前合影。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民能够亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队队员和海岸警卫队队员展示自身能力与装备，参加各类社区服务活动，并乐在其中。",
    "titleZh": "美国水兵、海军陆战队队员和海岸警卫队队员在旧金山舰队周期间与舰队周组织者合影",
-   "titleTrans": "ok",
+   "summaryZh": "2026年10月10日，在旧金山舰队周期间，美国水兵、海军陆战队队员、海岸警卫队队员和舰队周组织者在旧金山大通中心前合影。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民能够亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队队员和海岸警卫队队员展示自身能力与装备，参加各类社区服务活动，并乐在其中。",
    "zhParas": [
     "10月，在旧金山舰队周期间，水兵、海军陆战队队员、海岸警卫队队员和舰队周组织者在旧金山大通中心前合影。",
     "旧金山舰队周如今已进入第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上部队的风采。",
@@ -313,7 +461,8 @@
    "zhFull": "10月，在旧金山舰队周期间，水兵、海军陆战队队员、海岸警卫队队员和舰队周组织者在旧金山大通中心前合影。\n\n旧金山舰队周如今已进入第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上部队的风采。\n\n活动期间，水兵、海军陆战队队员和海岸警卫队队员展示自身能力与装备，参加各类社区服务活动，并感受湾区的热情好客。\n\n美国海军照片，由大众传播专家三级巴勃罗·查韦斯拍摄)",
    "zhDone": 4,
    "zhChunks": 4,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10004671/navy-lieutenant-photographs-service-members-during-san-francisco-fleet-week",
@@ -324,9 +473,8 @@
    "body": "Lucia Donnelly, assigned to Expeditionary Strike Group (ESG) 3, takes a photo of service members posing for a photo in front of the Chase Center in San Francisco during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nNavy photo by Mass Communication Specialist 3rd Class Pablo Chavez)",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "美国海军上尉露西亚·唐纳利隶属于第3远征打击群（ESG 3），在2026年10月10日旧金山舰队周期间，为在旧金山大通中心前摆姿势拍照的军人拍照。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今的海上军种。活动期间，水兵、海军陆战队员和海岸警卫队队员展示其能力和装备，并参与……",
    "titleZh": "海军上尉在旧金山舰队周期间为军人拍照",
-   "titleTrans": "ok",
+   "summaryZh": "美国海军上尉露西亚·唐纳利隶属于第3远征打击群（ESG 3），在2026年10月10日旧金山舰队周期间，为在旧金山大通中心前摆姿势拍照的军人拍照。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今的海上军种。活动期间，水兵、海军陆战队员和海岸警卫队队员展示其能力和装备，并参与……",
    "zhParas": [
     "10月，在旧金山舰队周期间，隶属于第3远征打击群（ESG 3）的露西亚·唐纳利正在为在旧金山大通中心前摆姿势拍照的军人拍照。",
     "旧金山舰队周现已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上军种的风采。",
@@ -336,7 +484,8 @@
    "zhFull": "10月，在旧金山舰队周期间，隶属于第3远征打击群（ESG 3）的露西亚·唐纳利正在为在旧金山大通中心前摆姿势拍照的军人拍照。\n\n旧金山舰队周现已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上军种的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力和装备，参与各类社区服务活动，并享受湾区的热情款待。\n\n美国海军照片，由三级大众传播专家巴勃罗·查韦斯拍摄）",
    "zhDone": 4,
    "zhChunks": 4,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10004669/us-sailors-marines-and-coast-guardsmen-pose-photo-during-san-francisco-fleet-week",
@@ -347,9 +496,8 @@
    "body": "Sailors, Marines and Coast Guardsmen pose for a photo in front of the Chase Center in San Francisco during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nNavy photo by Mass Communication Specialist 3rd Class Pablo Chavez)",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "2026年10月10日，在旧金山舰队周期间，美国水兵、海军陆战队队员和海岸警卫队队员在旧金山大通中心前合影。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众得以亲眼目睹当今海上军种的风采。活动期间，水兵、海军陆战队队员和海岸警卫队队员展示各自的能力与装备，参加各种社区服务活动，并享受……的热情款待。",
    "titleZh": "美国水兵、海军陆战队队员和海岸警卫队队员在旧金山舰队周期间合影",
-   "titleTrans": "ok",
+   "summaryZh": "2026年10月10日，在旧金山舰队周期间，美国水兵、海军陆战队队员和海岸警卫队队员在旧金山大通中心前合影。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众得以亲眼目睹当今海上军种的风采。活动期间，水兵、海军陆战队队员和海岸警卫队队员展示各自的能力与装备，参加各种社区服务活动，并享受……的热情款待。",
    "zhParas": [
     "10月，在旧金山舰队周期间，水兵、海军陆战队队员和海岸警卫队队员在旧金山大通中心前合影。",
     "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众得以亲身感受当今海上部队的风采。",
@@ -359,7 +507,8 @@
    "zhFull": "10月，在旧金山舰队周期间，水兵、海军陆战队队员和海岸警卫队队员在旧金山大通中心前合影。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众得以亲身感受当今海上部队的风采。\n\n活动期间，水兵、海军陆战队队员和海岸警卫队队员展示自身能力与装备，参加各类社区服务活动，并感受湾区的热情好客。\n\n美国海军照片，由三等大众传播专家巴勃罗·查韦斯拍摄)",
    "zhDone": 4,
    "zhChunks": 4,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10004665/us-sailors-and-marines-pose-group-photo-during-san-francisco-fleet-week",
@@ -370,9 +519,8 @@
    "body": "Sailors and Marines pose for a photo in front of the Chase Center in San Francisco during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nNavy photo by Mass Communication Specialist 3rd Class Pablo Chavez)",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "2026年10月10日，美国水兵和海军陆战队员在旧金山舰队周期间，于旧金山大通中心前合影。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身目睹当今海上军种的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力和装备，参与各类社区服务活动，并享受湾区的热情接待。",
    "titleZh": "美国水兵和海军陆战队员在旧金山舰队周期间合影",
-   "titleTrans": "ok",
+   "summaryZh": "2026年10月10日，美国水兵和海军陆战队员在旧金山舰队周期间，于旧金山大通中心前合影。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身目睹当今海上军种的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力和装备，参与各类社区服务活动，并享受湾区的热情接待。",
    "zhParas": [
     "10月，在旧金山舰队周期间，水兵和海军陆战队员在旧金山大通中心前合影。",
     "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上军种的风采。",
@@ -382,7 +530,8 @@
    "zhFull": "10月，在旧金山舰队周期间，水兵和海军陆战队员在旧金山大通中心前合影。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上军种的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力和装备，参加各种社区服务活动，并感受湾区的热情款待。\n\n（美国海军照片，由三等大众传播专家巴勃罗·查韦斯拍摄）",
    "zhDone": 4,
    "zhChunks": 4,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10004663/1st-mardiv-band-performs-chinatown-night-market",
@@ -393,9 +542,8 @@
    "body": "Marines with the 1st Marine Division Band performs at the Chinatown Night Market in San Francisco during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness todays maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the bay area.\n\nMarine Corps photo by Lance Cpl.",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "美国海军陆战队第1师军乐队队员于2026年10月9日旧金山舰队周期间在旧金山唐人街夜市演出。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众得以亲身体验当今的海上服务。活动期间，水兵、海军陆战队队员和海岸警卫队队员展示其能力与装备，参加各类社区服务活动，并享受湾区的热情好客。",
    "titleZh": "海军陆战队第1师军乐队在唐人街夜市演出",
-   "titleTrans": "ok",
+   "summaryZh": "美国海军陆战队第1师军乐队队员于2026年10月9日旧金山舰队周期间在旧金山唐人街夜市演出。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众得以亲身体验当今的海上服务。活动期间，水兵、海军陆战队队员和海岸警卫队队员展示其能力与装备，参加各类社区服务活动，并享受湾区的热情好客。",
    "zhParas": [
     "海军陆战队第1师军乐队队员在旧金山舰队周期间于旧金山唐人街夜市演出，10月。",
     "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身目睹当今的海上军种。",
@@ -405,7 +553,8 @@
    "zhFull": "海军陆战队第1师军乐队队员在旧金山舰队周期间于旧金山唐人街夜市演出，10月。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身目睹当今的海上军种。\n\n活动期间，水兵、海军陆战队队员和海岸警卫队队员展示各自的能力与装备，参与各类社区服务活动，并享受湾区的热情款待。\n\n海军陆战队照片，由准下士拍摄。",
    "zhDone": 4,
    "zhChunks": 4,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10004605/navy-band-southwest-performs-during-san-francisco-fleet-week-2026",
@@ -416,9 +565,8 @@
    "body": "Navy Musician 3rd Class Jesus Espinoza, assigned to the Navy Band Southwest Brass Band, plays the trumpet during a concert at Union Square during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nNavy photo by Mass Communication Specialist 2nd Class Lordin Kelly)",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "美国海军三级乐师赫苏斯·埃斯皮诺萨隶属于海军西南乐队铜管乐队，于2026年10月9日旧金山舰队周期间在联合广场举行的一场音乐会上吹奏小号。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队员展示其能力与装备，并参与各类社区服务活动。",
    "titleZh": "海军西南乐队在2026年旧金山舰队周期间演出",
-   "titleTrans": "ok",
+   "summaryZh": "美国海军三级乐师赫苏斯·埃斯皮诺萨隶属于海军西南乐队铜管乐队，于2026年10月9日旧金山舰队周期间在联合广场举行的一场音乐会上吹奏小号。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队员展示其能力与装备，并参与各类社区服务活动。",
    "zhParas": [
     "美国海军三级乐师赫苏斯·埃斯皮诺萨隶属于海军西南乐队铜管乐队，在10月旧金山舰队周期间于联合广场举行的一场音乐会上吹奏小号。",
     "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆典，让湾区民众能够亲眼目睹当今海上部队的风采。",
@@ -428,7 +576,8 @@
    "zhFull": "美国海军三级乐师赫苏斯·埃斯皮诺萨隶属于海军西南乐队铜管乐队，在10月旧金山舰队周期间于联合广场举行的一场音乐会上吹奏小号。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆典，让湾区民众能够亲眼目睹当今海上部队的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参加各类社区服务活动，并感受湾区的热情好客。\n\n美国海军照片，由二等大众传播专家洛丁·凯利拍摄)",
    "zhDone": 4,
    "zhChunks": 4,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10004672/us-coast-guard-legend-class-cutter-uscgc-munro-wmsl-755-participates-san-francisco-fleet-week-parade-ships",
@@ -439,9 +588,8 @@
    "body": "Nash Young and Capt.\n\nCoast Guardsmen assigned to the Legend-class national security cutter USCGC Munro (WMSL 755) look out from the bridge across the San Francisco Bay towards the Golden Gate Bridge while participating in the San Francisco Fleet Week parade of ships on Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime service firsthand.\n\nDuring the event Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the bay area.\n\nCoast Guard photo by Petty Officer 3rd Class Austin Wiley)",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "美国海岸警卫队队员、少尉纳什·扬和上校亚当·迪斯克隶属于传奇级国家安全巡逻舰“门罗”号（WMSL 755）；他们在参加2026年10月9日旧金山舰队周舰船巡游时，从舰桥上越过旧金山湾眺望金门大桥。旧金山舰队周如今已是第45届，是一项历史悠久的庆祝活动，让湾区市民得以亲身目睹当今的海上服务。活动期间，水兵们，",
    "titleZh": "美国海岸警卫队传奇级国家安全巡逻舰“门罗”号（WMSL 755）参加旧金山舰队周舰船巡游",
-   "titleTrans": "ok",
+   "summaryZh": "美国海岸警卫队队员、少尉纳什·扬和上校亚当·迪斯克隶属于传奇级国家安全巡逻舰“门罗”号（WMSL 755）；他们在参加2026年10月9日旧金山舰队周舰船巡游时，从舰桥上越过旧金山湾眺望金门大桥。旧金山舰队周如今已是第45届，是一项历史悠久的庆祝活动，让湾区市民得以亲身目睹当今的海上服务。活动期间，水兵们，",
    "zhParas": [
     "纳什·扬和上校",
     "被分配到传奇级国家安全巡逻舰美国海岸警卫队“门罗”号（USCGC Munro，WMSL 755）的海岸警卫队队员，在10月参加旧金山舰队周舰船巡游时，从舰桥上眺望，越过旧金山湾，望向金门大桥。",
@@ -452,7 +600,8 @@
    "zhFull": "纳什·扬和上校\n\n被分配到传奇级国家安全巡逻舰美国海岸警卫队“门罗”号（USCGC Munro，WMSL 755）的海岸警卫队队员，在10月参加旧金山舰队周舰船巡游时，从舰桥上眺望，越过旧金山湾，望向金门大桥。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上服务。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力和装备，参加各种社区服务活动，并享受湾区的热情接待。\n\n海岸警卫队照片，由三等士官奥斯汀·威利拍摄）",
    "zhDone": 5,
    "zhChunks": 5,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10004420/sf-fleet-week-26-1stmardiv-band-performs-union-square",
@@ -463,9 +612,8 @@
    "body": "Marines with 1st Marine Division Band pose for a photograph at Union Square in San Francisco during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nMarine Corps photo by Cpl.",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "2026年10月9日，在旧金山舰队周期间，美国海军陆战队第1师乐队的海军陆战队员在旧金山联合广场合影。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民得以亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示自身能力和装备，参加各种社区服务活动，并享受湾区的热情款待。",
    "titleZh": "旧金山舰队周2026：海军陆战队第1师乐队在联合广场演出",
-   "titleTrans": "ok",
+   "summaryZh": "2026年10月9日，在旧金山舰队周期间，美国海军陆战队第1师乐队的海军陆战队员在旧金山联合广场合影。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民得以亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示自身能力和装备，参加各种社区服务活动，并享受湾区的热情款待。",
    "zhParas": [
     "10月，在旧金山舰队周期间，海军陆战队第1师乐队的海军陆战队员在旧金山联合广场合影。",
     "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民能够亲身见证当今的海上军种。",
@@ -475,7 +623,8 @@
    "zhFull": "10月，在旧金山舰队周期间，海军陆战队第1师乐队的海军陆战队员在旧金山联合广场合影。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民能够亲身见证当今的海上军种。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示他们的能力与装备，参加各种社区服务活动，并享受湾区的热情款待。\n\n美国海军陆战队照片，由下士拍摄。",
    "zhDone": 4,
    "zhChunks": 4,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10004419/sf-fleet-week-26-1st-mardiv-band-performs-chinatown-night-market",
@@ -486,9 +635,8 @@
    "body": "Marines with 1st Marine Division Band perform at Chinatown Night Market in San Francisco during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nMarine Corps photo by Lance Cpl.\n\nAdrian Guerrero Martinez)",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "2026年10月9日，美国海军陆战队第1师乐队的海军陆战队员在旧金山舰队周期间于旧金山唐人街夜市演出。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让旧金山湾区民众能够亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示其能力与装备，参加各种社区服务活动，并感受湾区的热情好客。",
    "titleZh": "旧金山舰队周26：海军陆战队第1师乐队在唐人街夜市演出",
-   "titleTrans": "ok",
+   "summaryZh": "2026年10月9日，美国海军陆战队第1师乐队的海军陆战队员在旧金山舰队周期间于旧金山唐人街夜市演出。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让旧金山湾区民众能够亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示其能力与装备，参加各种社区服务活动，并感受湾区的热情好客。",
    "zhParas": [
     "10月，海军陆战队第1师乐队的海军陆战队员在旧金山舰队周期间于旧金山唐人街夜市演出。",
     "旧金山舰队周现已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上部队的风采。",
@@ -499,7 +647,8 @@
    "zhFull": "10月，海军陆战队第1师乐队的海军陆战队员在旧金山舰队周期间于旧金山唐人街夜市演出。\n\n旧金山舰队周现已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上部队的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示其能力和装备，参加各类社区服务活动，并感受湾区的热情好客。\n\n美国海军陆战队照片，由准下士\n\n阿德里安·格雷罗·马丁内斯）",
    "zhDone": 5,
    "zhChunks": 5,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/news/576767/nmrtc-patuxent-river-and-nas-pax-river-sar-dogs-partner-combat-casualty-readiness-exercise",
@@ -510,9 +659,8 @@
    "body": "What began as a quiet foot patrol along a tree-lined trail quickly shifted into tactical friction as simulated gunfire erupted, forcing Navy Medicine personnel to treat and evacuate casualties under simulated combat conditions. Only after securing and triaging each patient did ground personnel transmit 9-line requests to call in Search and Rescue (SAR) helicopters for tactical evacuation. The dynamic trauma lane scenario served as the cornerstone of the Annual Proficiency Expeditionary eXercise (APEX), testing joint medical readiness and Tactical Combat Casualty Care (TCCC) integration.\n\nHosted by Navy Medicine Readiness and Training Command (NMRTC) Patuxent River under the leadership of Capt. Ken Radford, the APEX brought together clinic personnel and the Naval Air Station Patuxent River Search and Rescue unit (SAR Dogs) in a close operational partnership. Designed to elevate joint combat readiness, the evolution required pausing routine patient care operations for the day across NMRTC Patuxent River and its outlying components—Navy Medicine Readiness and Training Unit (NMRTU) Dahlgren, NMRTC Detachment Indian Head, and NMRTC Detachment Joint Base Andrews. This rare operational posture enabled physicians, physician assistants, nurses, independent duty corpsmen, and hospital corpsmen to dedicate uninterrupted hours to practicing life-saving skills under realistic battlefield conditions. The coordination offered Military Treatment Facility (MTF) personnel vital, rarely experienced exposure to Tactical Evacuation Care (TACEVAC) protocols and live rotary-wing patient handoffs.\n\nThe exercise featured five training areas, with five participant groups rotating through four static skill stations and a dynamic trauma lane. Operating under simulated gunfire and armed cover from a security element, teams located and treated four distinct casualties: two mannequins with significant physical trauma, a live role-player with physical trauma, and another live role-player presenting with acute mental health needs. At the static stations, personnel practiced core Tier 3 TCCC skills, including cricothyroidotomies, intravenous and intraosseous vascular access, needle decompressions, and suturing.\n\n“Designing APEX was about bridging advanced technical skill with the demands of a stressful tactical environment that mimics combat,” said Hospital Corpsman 1st Class Tyler Kelly, a Surface Force Independent Duty Corpsman who coordinated the static station curriculum and dynamic trauma lane scenarios. “We focused the static stations on advanced-level Tactical Combat Casualty Care skills, giving providers the opportunity to mentor teams through complex procedures. In the trauma lane, we demonstrate that these situations are chaotic and difficult; we are building their confidence to trust in their training even in a stressful situation. Just as importantly, we integrated an evacuation platform to address the often-overlooked transition from Tactical Field Care to Tactical Evacuation Care. The SAR team at Pax was critical in demonstrating how teams on the ground need to move patients safely and communicate effectively. By blending advanced instruction with tactical scenarios, we ensure our Sailors do not just know the medicine—they know how to execute it under fire and sustain that care through evacuation.”\n\nBuilding on a smaller-scale joint event held with the SAR Dogs in March, NMRTC Patuxent River leadership connected with Lt. Noah Becker to expand and plan the much larger scope of the APEX. The initial collaboration kicked off months of detailed work to align exercise mechanics with real-world operational tactics. On the day of the exercise, Becker led the safety brief before directing execution on the ground and across the flight timeline, ensuring communications between medical triage elements and incoming aircraft mirrored tactical operational tempo. Ground crew transmitted standard 9-line MEDEVAC requests to call in aircraft support, prompting multiple dynamic helicopter landings throughout the day. Once on the ground, the aircrew deployed SAR Medical Technicians (SMTs) to assess patient packaging, take turnover from ground corpsmen, and prepare for tactical evacuation.\n\n“The APEX event is the culmination of months of hard work and training for both the Station SAR unit and the Clinic staff,” said Cmdr. Deidre Coulson-Tucker, NAS Patuxent River Air Operations Officer and NAS Patuxent River Station SAR Officer in Charge. “This exercise allows for our SAR Medical Technicians to show the other clinic staff the breadth of their expertise and embodies the SAR motto ‘So Others May Live.’”\n\nThe success of APEX reflects a broader, deliberate strategy across the command to deliver and sustain a whole, ready Naval medical force. Operating under a dual-hatted structure, the command manages routine primary care and beneficiary health services as Naval Health Clinic Patuxent River under the Defense Health Agency, while simultaneously maintaining warfighter readiness, overseas suitability, and operational deployability as NMRTC Patuxent River under Navy Medicine. Because the vast majority of the command’s daily focus is dedicated to direct patient care as a Military Treatment Facility, high-yield training opportunities for expeditionary readiness cannot be left to chance. Instead, readiness training must be deliberately prepared, executed, and integrated into the command's operational schedule.\n\n“The APEX combat casualty readiness event is our signature culminating training event,” said Capt. Ken Radford, commanding officer of NMRTC Patuxent River. “Our Pax River officers and corpsmen used skills we’ve developed over the prior year to perform TCCC in stressful combat-related scenarios to ensure they are a ready medical force to care for those in harm’s way. A training event on this scale is not possible without incredible planning and execution. HM1 Alcius and HM1 Kelly took ownership of this training event and it would not have been possible without their dedication and support.”\n\nTo bridge clinical care with combat readiness, Capt. Ken Radford directed early Wednesday afternoon clinic closures across all sites, establishing dedicated time for all-hands readiness training. Focused on Tier 3 TCCC skills, the initiative grew from a January pilot in Medical Homeport led by Cmdr. MaryPat Tobola. Hospital Corpsman 1st Class Erlande Alcius and the Staff Education and Training department helped guide instruction from the start, expanding \"Warrior Wednesdays\" command-wide in April to establish the steady operational rhythm that culminated in APEX.\n\n“Stepping out of the clinic and into the field proved just how far our teams have come since we launched 'Warrior Wednesdays,'” said Hospital Corpsman 1st Class Erlande Alcius, leading petty officer for the Staff Education and Training department at NMRTC Patuxent River. “Building TCCC into our regular operational rhythm gave everyone a shared muscle memory. The APEX was the ultimate test of that baseline—showing that when stress and chaos are introduced, our providers and corpsmen fall back on their training without skipping a beat. None of this would have been possible without our incredible command instructors and preceptors, whose encouragement and instruction at the static stations helped ensure our personnel will be better prepared before stepping into the field.”\n\nThe APEX also served as a practical learning experience for future leaders. Observing the evolution were cadets from the Air Force Junior ROTC program at Chopticon High School, accompanied by their instructor, retired Master Sgt. Kim Hoh. Watching corpsmen and SAR aircrew navigate tactical movement, triage, and live-actor treatment offered the cadets a firsthand look at joint expeditionary medicine and military operational readiness in action. “It was a great experience seeing how medical personnel received hands-on trauma training they might not experience every day,” said Chopticon Air Force JROTC Cadet Capt. Peyton Moore. “For me, it encouraged me to continue down the medical path.”\n\nThe successful execution of the APEX was made possible through extensive coordination across Naval Air Station Patuxent River tenant commands and base installation partners. Command leadership expressed gratitude for key support from NAS Patuxent River Commanding Officer Capt. Robert Chandler, whose authorization ensured the necessary installation space and operational assets were available for the readiness evolution. Special appreciation was extended to the NAS Patuxent River Morale, Welfare, and Recreation staff, in particular Mr. Mardy Millen, for facilitating the use of the West Basin Marina for the entire event. Leadership also recognized the vital support provided by base partners, including the installation Security Department's Masters-at-Arms for supplying the rubber training rifles used throughout the tactical scenarios.",
    "channel": "us_dod",
    "channelName": "美国国防部",
-   "summaryZh": "帕塔克森特河海军医学战备与训练司令部在帕塔克森特河海军航空站实施了年度熟练远征演习（APEX）。帕塔克森特河海军医学战备与训练司令部与帕塔克森特河海军航空站搜救队（SAR Dogs）合作，检验联合战术战伤救治（TCCC）和动态后送程序。此次演习是对精心筹备和持续开展的“勇士星期三”战备训练的最终检验。APEX考验了诊所人员，涵盖……",
    "titleZh": "帕塔克森特河海军医学战备与训练司令部与帕塔克森特河海军航空站‘SAR Dogs’搜救队合作开展战斗伤员战备演习",
-   "titleTrans": "ok",
+   "summaryZh": "帕塔克森特河海军医学战备与训练司令部在帕塔克森特河海军航空站实施了年度熟练远征演习（APEX）。帕塔克森特河海军医学战备与训练司令部与帕塔克森特河海军航空站搜救队（SAR Dogs）合作，检验联合战术战伤救治（TCCC）和动态后送程序。此次演习是对精心筹备和持续开展的“勇士星期三”战备训练的最终检验。APEX考验了诊所人员，涵盖……",
    "zhParas": [
     "一场沿林荫小径进行的安静徒步巡逻，随着模拟枪声骤起，迅速转为战术摩擦，迫使海军医务人员在模拟战斗条件下救治和后送伤员。地面人员只有在确保安全并对每名伤员完成检伤分类后，才发送9行请求，呼叫搜救（SAR）直升机实施战术后送。这一动态创伤训练道想定是年度熟练远征演习（APEX）的核心，检验了联合医疗战备和战术战伤救治（TCCC）的整合。",
     "由海军医学战备与训练司令部（NMRTC）帕塔克森特河主办，在肯·拉德福德上校领导下，APEX将诊所人员与海军航空站帕塔克森特河搜救队（SAR Dogs）聚集在一起，建立紧密的行动伙伴关系。为提升联合战斗战备，此次演练要求NMRTC帕塔克森特河及其外围组成部分——海军医学战备与训练部队（NMRTU）达尔格伦、NMRTC印度头分队和NMRTC安德鲁斯联合基地分队——暂停当天日常患者护理工作。这一罕见行动姿态使医生、医师助理、护士、独立值班医务兵和医院医务兵能够投入不受干扰的数小时，在逼真战场条件下练习救命技能。此次协调为军事治疗设施（MTF）人员提供了至关重要且难得经历的战术后送救治（TACEVAC）规程接触以及旋翼机实机患者交接机会。",
@@ -530,7 +678,8 @@
    "zhFull": "一场沿林荫小径进行的安静徒步巡逻，随着模拟枪声骤起，迅速转为战术摩擦，迫使海军医务人员在模拟战斗条件下救治和后送伤员。地面人员只有在确保安全并对每名伤员完成检伤分类后，才发送9行请求，呼叫搜救（SAR）直升机实施战术后送。这一动态创伤训练道想定是年度熟练远征演习（APEX）的核心，检验了联合医疗战备和战术战伤救治（TCCC）的整合。\n\n由海军医学战备与训练司令部（NMRTC）帕塔克森特河主办，在肯·拉德福德上校领导下，APEX将诊所人员与海军航空站帕塔克森特河搜救队（SAR Dogs）聚集在一起，建立紧密的行动伙伴关系。为提升联合战斗战备，此次演练要求NMRTC帕塔克森特河及其外围组成部分——海军医学战备与训练部队（NMRTU）达尔格伦、NMRTC印度头分队和NMRTC安德鲁斯联合基地分队——暂停当天日常患者护理工作。这一罕见行动姿态使医生、医师助理、护士、独立值班医务兵和医院医务兵能够投入不受干扰的数小时，在逼真战场条件下练习救命技能。此次协调为军事治疗设施（MTF）人员提供了至关重要且难得经历的战术后送救治（TACEVAC）规程接触以及旋翼机实机患者交接机会。\n\n演习设有五个训练区域，五个参训小组轮流完成四个静态技能站和一个动态创伤训练道。在模拟枪声和安保分队武装掩护下，各队定位并救治四类不同伤员：两个有明显身体创伤的假人、一名有身体创伤的真人扮演者，以及另一名表现为急性心理健康需求的真人扮演者。在静态站，人员练习三级TCCC核心技能，包括环甲膜切开术、静脉和骨髓腔内血管通路、针刺减压和缝合。\n\n设计APEX的关键在于将高级技术技能与模拟战斗的高压战术环境需求相结合，”负责协调静态站课程和动态创伤训练道想定的水面部队独立值班医务兵、一等医院医务兵泰勒·凯利说。“我们将静态站重点放在高级战术战伤救治技能上，让施救人员有机会指导团队完成复杂操作。在创伤训练道，我们展示这些情况混乱且困难；我们正在建立他们的信心，使他们即使在高压情况下也能信任自己的训练。同样重要的是，我们整合了一个后送平台，以解决从战术现场救治到战术后送救治这一常被忽视的过渡。帕塔克森特河的SAR团队在展示地面团队如何安全转移患者并有效沟通方面至关重要。通过将高级教学与战术想定相结合，我们确保我们的水兵不仅懂医学，而且知道如何在火力下执行医学救治，并在整个后送过程中维持这种救治。\n\n在3月与SAR Dogs举行的一次较小规模联合活动基础上，NMRTC帕塔克森特河领导层与诺亚·贝克尔上尉联系，以扩大并规划规模大得多的APEX。最初的合作启动了数月细致工作，使演习机制与真实世界行动战术保持一致。演习当天，贝克尔在指导地面和整个飞行时间线执行之前主持了安全简报，确保医疗检伤分类分队与进场飞机之间的通信与战术行动节奏一致。地面人员发送标准9行医疗后送请求以呼叫飞机支援，促使全天多次动态直升机着陆。着陆后，机组人员派出搜救医疗技师（SMT），评估伤员固定情况，从地面医务兵处接管移交，并为战术后送做准备。\n\nAPEX活动是站内SAR部队和诊所工作人员数月辛勤工作和训练的成果，”海军航空站帕塔克森特河航空作战官兼海军航空站帕塔克森特河站SAR负责人、中校迪德丽·科尔森-塔克说。“这次演习让我们搜救医疗技师向其他诊所人员展示其专业技能的广度，并体现了SAR的座右铭‘为了他人能活下来’。\n\nAPEX的成功反映了该司令部一项更广泛、深思熟虑的战略：打造并维持一支完整、具备战备状态的海军医疗力量。该司令部采用双重职责架构，作为国防卫生局下属的帕塔克森特河海军健康诊所，负责日常初级保健和受益人健康服务；同时作为海军医学下属的帕塔克森特河海军医学战备与训练司令部，维持作战人员战备、海外适应性和作战部署能力。由于该司令部日常工作的绝大多数精力都用于作为军事治疗设施提供直接患者护理，远征战备方面高效益的训练机会不能听任偶然。相反，战备训练必须有意识地筹划、实施，并纳入司令部的运行日程。\n\nAPEX战斗伤员战备活动是我们标志性的收官训练活动，”帕塔克森特河海军医学战备与训练司令部指挥官肯·拉德福德上校说。“我们帕克斯河的军官和医务兵运用过去一年培养的技能，在高压战斗相关情景中实施战术战伤救治，以确保他们是一支战备医疗力量，能够救治身处险境者。如此规模的训练活动，离不开出色的筹划与执行。HM1阿尔修斯和HM1凯利主导了这次训练活动，若没有他们的奉献与支持，这次活动不可能实现。\n\n为将临床医疗与战斗战备衔接起来，肯·拉德福德上校指示周三下午所有站点诊所提前关闭，为全员战备训练留出专门时间。该举措聚焦三级战术战伤救治技能，源于1月由玛丽帕特·托博拉中校在医疗母港主导的试点。海军一等医务兵埃兰德·阿尔修斯和人员教育与训练部从一开始就协助指导教学，并于4月将“勇士星期三”推广至全司令部，建立起稳定的运行节奏，最终促成APEX。\n\n走出诊所、进入野外，证明了自我们启动‘勇士星期三’以来，各团队取得了多大进步，”帕塔克森特河海军医学战备与训练司令部人员教育与训练部主管军士、海军一等医务兵埃兰德·阿尔修斯说。“将TCCC纳入我们的日常运行节奏，让每个人都形成了共同的肌肉记忆。APEX是对这一基准的终极检验——表明当引入压力和混乱时，我们的医护人员和医务兵会依靠训练，毫不慌乱。若没有我们出色的司令部教官和带教人员，这一切都不可能实现；他们在静态训练站的鼓励和指导，帮助确保我们的人员在进入野外前准备得更充分。\n\nAPEX也为未来领导者提供了一次实践学习经历。观察此次演练的有乔普蒂康高中空军初级预备军官训练团的学员，由他们的教官、退役军士长金·霍陪同。观看医务兵和搜救机组人员完成战术移动、检伤分类和真人模拟伤员救治，让学员们亲身了解了联合远征医学和军事作战战备的实际运作。“看到医疗人员接受他们可能并非每天都能经历的实操创伤训练，这是一次很棒的经历，”乔普蒂康高中空军初级预备军官训练团学员上尉佩顿·摩尔说。“对我来说，这鼓励我继续走医学道路。\n\nAPEX的成功实施，得益于帕塔克森特河海军航空站各驻站司令部与基地设施伙伴之间的广泛协调。司令部领导感谢帕塔克森特河海军航空站指挥官罗伯特·钱德勒上校的关键支持，他的授权确保此次战备演练获得必要的设施空间和作战资产。特别感谢帕塔克森特河海军航空站士气、福利与娱乐部门工作人员，尤其是马迪·米伦先生，为整个活动使用西盆地码头提供了便利。领导层还表彰了基地伙伴提供的重要支持，包括基地安全部门的海军宪兵提供贯穿各战术想定使用的橡皮训练步枪。",
    "zhDone": 12,
    "zhChunks": 12,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10004618/pa-national-guard-soldiers-honored-during-deployment-ceremony",
@@ -896,9 +1045,8 @@
    "body": "Navy F/A-18 Super Hornet of the Flight Demonstration Squadron, the Blue Angels, flies over San Francisco Bay during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nNavy photo by Mass Communication Specialist 3rd Class Pablo Chavez)",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "美国海军“蓝天使”飞行表演中队的一架F/A-18“超级大黄蜂”于2026年10月9日旧金山舰队周期间飞越旧金山湾。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今的海上服务。活动期间，水兵、海军陆战队员和海岸警卫队队员展示其能力和装备，参加各类社区服务活动，并享受热情款待。",
    "titleZh": "旧金山舰队周舰艇巡游与飞行表演",
-   "titleTrans": "ok",
+   "summaryZh": "美国海军“蓝天使”飞行表演中队的一架F/A-18“超级大黄蜂”于2026年10月9日旧金山舰队周期间飞越旧金山湾。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今的海上服务。活动期间，水兵、海军陆战队员和海岸警卫队队员展示其能力和装备，参加各类社区服务活动，并享受热情款待。",
    "zhParas": [
     "10月，在旧金山舰队周期间，海军飞行表演中队“蓝天使”的一架F/A-18“超级大黄蜂”飞越旧金山湾。",
     "旧金山舰队周如今已是第45届，这一历史悠久的庆典让湾区民众得以亲身领略当今海上军种的风采。",
@@ -908,7 +1056,8 @@
    "zhFull": "10月，在旧金山舰队周期间，海军飞行表演中队“蓝天使”的一架F/A-18“超级大黄蜂”飞越旧金山湾。\n\n旧金山舰队周如今已是第45届，这一历史悠久的庆典让湾区民众得以亲身领略当今海上军种的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力和装备，参与各类社区服务活动，并感受湾区的好客之情。\n\n（美国海军照片，由三级大众传播专家巴勃罗·查韦斯拍摄）",
    "zhDone": 4,
    "zhChunks": 4,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/image/10003598/asia-pacific-us-ambassadors-us-pacom-commander-visit-uss-mccampbell",
@@ -946,9 +1095,8 @@
    "body": "Richard Alvarez, left, the commanding officer of the 13th Marine Expeditionary Unit, U.\n\nTurner, center, the commander of Marine Corps Forces, Pacific, and U.\n\nHarrington II, the commander of Amphibious Squadron 7, observe Hawaii while aboard Wasp-class amphibious assault ship USS Makin Island (LHD 8), Oct.\n\nThe 13th MEU is currently underway aboard the Makin Island Amphibious Ready Group in the U.\n\n3rd Fleet area of operations demonstrating the United States’ long-term commitment to a free and open Indo-Pacific.\n\nMarine Corps photo by Staff Sgt.",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "美国海军陆战队上校理查德·阿尔瓦雷斯（左），第13海军陆战队远征分队指挥官；美国海军陆战队中将罗杰·B·特纳（中），美国海军陆战队太平洋部队司令；以及美国海军上校加里·A·哈林顿二世，第7两栖中队指挥官，于2026年10月9日在黄蜂级两栖攻击舰“马金岛”号（LHD 8）上眺望夏威夷。第13海军陆战队远征分队目前正随“马金岛”号两栖戒备群在美国第3舰队区域。",
    "titleZh": "第13海军陆战队远征分队 | 特纳中将视察美国海军“马金岛”号",
-   "titleTrans": "ok",
+   "summaryZh": "美国海军陆战队上校理查德·阿尔瓦雷斯（左），第13海军陆战队远征分队指挥官；美国海军陆战队中将罗杰·B·特纳（中），美国海军陆战队太平洋部队司令；以及美国海军上校加里·A·哈林顿二世，第7两栖中队指挥官，于2026年10月9日在黄蜂级两栖攻击舰“马金岛”号（LHD 8）上眺望夏威夷。第13海军陆战队远征分队目前正随“马金岛”号两栖戒备群在美国第3舰队区域。",
    "zhParas": [
     "理查德·阿尔瓦雷斯，左侧，第13海军陆战队远征分队指挥官，美国",
     "特纳，中间，太平洋海军陆战队司令，以及美国",
@@ -960,70 +1108,47 @@
    "zhFull": "理查德·阿尔瓦雷斯，左侧，第13海军陆战队远征分队指挥官，美国\n\n特纳，中间，太平洋海军陆战队司令，以及美国\n\n哈林顿二世，第7两栖中队指挥官，10月在黄蜂级两栖攻击舰“马金岛”号（LHD 8）上观察夏威夷。\n\n第13海军陆战队远征分队目前正在马金岛两栖戒备群上航行，位于美国\n\n第3舰队作战区域内，展示美国对自由开放印太地区的长期承诺。\n\n美国海军陆战队照片，由上士拍摄。",
    "zhDone": 6,
    "zhChunks": 6,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
-   "url": "https://www.dvidshub.net/video/1026018/sf-fleet-week-26-1st-mardiv-band-performs-huntington-park",
-   "title": "SF Fleet Week 26: 1st MARDIV Band Performs at Huntington Park",
+   "url": "https://www.dvidshub.net/video/1026018/sf-fleet-week-26-1st-mardiv-band-performs-huntington-park-b-roll",
+   "title": "SF Fleet Week 26: 1st MARDIV Band Performs at Huntington Park (B-Roll)",
    "author": "Sgt Gideon Schippers",
    "pubDate": "2026-10-10T00:40:30+00:00",
    "summary": "U.S. Marines with 1st Marine Division Band perform at Huntington Park in San Francisco during San Francisco Fleet Week, Oct. 7, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today's maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment,",
    "body": "U.S. Marines with 1st Marine Division Band perform at Huntington Park in San Francisco during San Francisco Fleet Week, Oct. 7, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today's maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area. (U.S. Marine Corps video by Sgt. Gideon Schippers)",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "titleZh": "旧金山舰队周26：第1海军陆战师军乐队在亨廷顿公园演出",
-   "summaryZh": "2026年10月7日，美国海军陆战队第1海军陆战师军乐队成员在旧金山舰队周期间于旧金山的亨廷顿公园演出。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上部队。活动期间，海军水兵、海军陆战队员和海岸警卫队队员展示其能力与装备，",
+   "summaryZh": "美国海军陆战队第1海军陆战师军乐队的海军陆战队员于2026年10月7日旧金山舰队周期间，在旧金山亨廷顿公园演出。旧金山舰队周如今已是第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今的海上军种。活动期间，水兵、海军陆战队员和海岸警卫队队员展示自身能力与装备，",
+   "titleZh": "2026年旧金山舰队周：第1海军陆战师军乐队在亨廷顿公园演出（B-Roll）",
+   "titleTrans": "ok",
    "zhParas": [
-    "2026年10月7日，美国海军陆战队第1海军陆战师军乐队成员在旧金山舰队周期间于旧金山的亨廷顿公园演出。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上部队。活动期间，海军水兵、海军陆战队员和海岸警卫队队员展示其能力与装备，参加各类社区服务活动，并感受湾区的热情好客。（美国海军陆战队中士吉迪恩·希珀斯拍摄的视频）"
+    "美国海军陆战队第1海军陆战师军乐队的海军陆战队员于2026年10月7日旧金山舰队周期间，在旧金山亨廷顿公园演出。旧金山舰队周如今已是第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今的海上军种。活动期间，水兵、海军陆战队员和海岸警卫队队员展示自身能力与装备，参加各类社区服务活动，并享受湾区的热情款待。（美国海军陆战队视频，由 Gideon Schippers 中士拍摄）"
    ],
-   "zhFull": "2026年10月7日，美国海军陆战队第1海军陆战师军乐队成员在旧金山舰队周期间于旧金山的亨廷顿公园演出。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上部队。活动期间，海军水兵、海军陆战队员和海岸警卫队队员展示其能力与装备，参加各类社区服务活动，并感受湾区的热情好客。（美国海军陆战队中士吉迪恩·希珀斯拍摄的视频）",
+   "zhFull": "美国海军陆战队第1海军陆战师军乐队的海军陆战队员于2026年10月7日旧金山舰队周期间，在旧金山亨廷顿公园演出。旧金山舰队周如今已是第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身见证当今的海上军种。活动期间，水兵、海军陆战队员和海岸警卫队队员展示自身能力与装备，参加各类社区服务活动，并享受湾区的热情款待。（美国海军陆战队视频，由 Gideon Schippers 中士拍摄）",
    "zhDone": 1,
    "zhChunks": 1,
-   "zhState": "ok",
-   "zhAt": null
+   "zhState": "ok"
   },
   {
-   "url": "https://www.dvidshub.net/video/1026055/all-hands-man-rails-us-marines-and-sailors-man-rails-during-ship-parade",
-   "title": "All Hands, Man the Rails: U.S. Marines and Sailors man the rails during ship parade",
+   "url": "https://www.dvidshub.net/video/1026055/all-hands-man-rails-us-marines-and-sailors-man-rails-during-ship-parade-b-roll",
+   "title": "All Hands, Man the Rails: U.S. Marines and Sailors man the rails during ship parade (B-Roll)",
    "author": "Cpl Alan Gomez",
    "pubDate": "2026-10-10T00:36:15+00:00",
    "summary": "U.S. Marines and Sailors assigned to 1st Combat Readiness Regiment, 1st Marine Logistics Group, and Ticonderoga-class guided-missile cruiser USS Cape St. George (CG 71), man the rails for the Parade of Ships during San Francisco Fleet Week, Oct. 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s mariti",
    "body": "U.S. Marines and Sailors assigned to 1st Combat Readiness Regiment, 1st Marine Logistics Group, and Ticonderoga-class guided-missile cruiser USS Cape St. George (CG 71), man the rails for the Parade of Ships during San Francisco Fleet Week, Oct. 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area. (U.S. Marine Corps video by Cpl. Alan Gomez)",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "隶属于第1战斗战备团、海军陆战队第1后勤大队以及提康德罗加级导弹巡洋舰“圣乔治角”号（CG 71）的美国海军陆战队员和水兵，于2026年10月9日旧金山舰队周期间的舰船巡游中列队站坡。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆典，让湾区市民能够亲眼目睹当今海上军种的风采。",
-   "titleZh": "全体注意，站坡：美国海军陆战队员和水兵在舰船巡游期间列队站坡",
+   "summaryZh": "隶属于第1战斗准备团、第1海军陆战队后勤大队以及美国海军提康德罗加级导弹巡洋舰“圣乔治角”号（CG 71）的美国海军陆战队员和水兵，于2026年10月9日旧金山舰队周期间在舰船游行中站坡。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众得以亲眼目睹当今的海上军事部队。",
+   "titleZh": "全体官兵，站坡：美国海军陆战队员和水兵在舰船游行中站坡（B-Roll）",
    "titleTrans": "ok",
    "zhParas": [
-    "隶属于第1战斗战备团、海军陆战队第1后勤大队以及提康德罗加级导弹巡洋舰“圣乔治角”号（CG 71）的美国海军陆战队员和水兵，于2026年10月9日旧金山舰队周期间的舰船巡游中列队站坡。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆典，让湾区市民能够亲眼目睹当今海上军种的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参与各类社区服务活动，并感受湾区的好客之情。（美国海军陆战队下士艾伦·戈麦斯拍摄的视频）"
+    "隶属于第1战斗准备团、第1海军陆战队后勤大队以及美国海军提康德罗加级导弹巡洋舰“圣乔治角”号（CG 71）的美国海军陆战队员和水兵，于2026年10月9日旧金山舰队周期间在舰船游行中站坡。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众得以亲眼目睹当今的海上军事部队。活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参与各类社区服务活动，并享受湾区的热情好客。（美国海军陆战队下士艾伦·戈麦斯拍摄的视频）"
    ],
-   "zhFull": "隶属于第1战斗战备团、海军陆战队第1后勤大队以及提康德罗加级导弹巡洋舰“圣乔治角”号（CG 71）的美国海军陆战队员和水兵，于2026年10月9日旧金山舰队周期间的舰船巡游中列队站坡。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆典，让湾区市民能够亲眼目睹当今海上军种的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参与各类社区服务活动，并感受湾区的好客之情。（美国海军陆战队下士艾伦·戈麦斯拍摄的视频）",
+   "zhFull": "隶属于第1战斗准备团、第1海军陆战队后勤大队以及美国海军提康德罗加级导弹巡洋舰“圣乔治角”号（CG 71）的美国海军陆战队员和水兵，于2026年10月9日旧金山舰队周期间在舰船游行中站坡。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众得以亲眼目睹当今的海上军事部队。活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参与各类社区服务活动，并享受湾区的热情好客。（美国海军陆战队下士艾伦·戈麦斯拍摄的视频）",
    "zhDone": 1,
    "zhChunks": 1,
-   "zhState": "ok"
-  },
-  {
-   "url": "https://www.dvidshub.net/image/10003471/sf-fleet-week-26-1stmardiv-band-performs-hayes-valley",
-   "title": "SF Fleet Week 26: 1stMARDIV Band Performs at Hayes Valley",
-   "author": "LCpl Adrian Guerrero Martinez",
-   "pubDate": "2026-10-09T23:39:09+00:00",
-   "summary": "U.S. Marines with 1st Marine Division Band perform at Hayes Valley in San Francisco during San Francisco Fleet Week, Oct. 9, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area. (U.S. Mari",
-   "body": "Marines with 1st Marine Division Band perform at Hayes Valley in San Francisco during San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nMarine Corps photo by Lance Cpl.\n\nAdrian Guerrero Martinez)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "summaryZh": "2026年10月9日，美国海军陆战队第1师乐队成员在旧金山舰队周期间于旧金山海斯谷演出。旧金山舰队周如今已是第45届，是一项历史悠久的庆祝活动，让湾区民众能够近距离目睹当今海上部队的风采。活动期间，水兵、海军陆战队队员和海岸警卫队队员展示其能力与装备，参加各类社区服务活动，并感受湾区的热情款待。",
-   "titleZh": "旧金山舰队周26：海军陆战队第1师乐队在海斯谷演出",
-   "titleTrans": "ok",
-   "zhParas": [
-    "10月，在旧金山舰队周期间，海军陆战队第1师乐队成员在旧金山海斯谷演出。",
-    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民能够亲身领略当今海事力量的风采。",
-    "活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参加各类社区服务活动，并感受湾区的热情好客。",
-    "美国海军陆战队照片，由准下士",
-    "阿德里安·格雷罗·马丁内斯拍摄）"
-   ],
-   "zhFull": "10月，在旧金山舰队周期间，海军陆战队第1师乐队成员在旧金山海斯谷演出。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区市民能够亲身领略当今海事力量的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示各自的能力与装备，参加各类社区服务活动，并感受湾区的热情好客。\n\n美国海军陆战队照片，由准下士\n\n阿德里安·格雷罗·马丁内斯拍摄）",
-   "zhDone": 5,
-   "zhChunks": 5,
    "zhState": "ok"
   },
   {
@@ -1219,28 +1344,6 @@
    "zhAt": null
   },
   {
-   "url": "https://www.dvidshub.net/image/10003371/vmfa-231-activation-ceremony",
-   "title": "VMFA-231 Activation Ceremony",
-   "author": "LCpl Donovan Pimentel",
-   "pubDate": "2026-10-09T20:20:26+00:00",
-   "summary": "U.S. Marine Corps, Sgt. Maj. Ricardo L. Santos, from Pennsylvania, senior enlisted leader of Marine Fighter Attack Squadron 231, Marine Aircraft Group 14, 2nd Marine Aircraft Wing, marches with the colors during an activation ceremony at Marine Corps Air Station Cherry Point, North Carolina, Oct. 9, 2026. The ceremony represented the activation of the Marine Corps’ oldest flying squadron, first commissioned in 1919, and marked a milestone in 2nd Marine Aircraft Wing’s modernization for aviation.",
-   "body": "Santos, from Pennsylvania, senior enlisted leader of Marine Fighter Attack Squadron 231, Marine Aircraft Group 14, 2nd Marine Aircraft Wing, marches with the colors during an activation ceremony at Marine Corps Air Station Cherry Point, North Carolina, Oct.\n\nThe ceremony represented the activation of the Marine Corps’ oldest flying squadron, first commissioned in 1919, and marked a milestone in 2nd Marine Aircraft Wing’s modernization for aviation.\n\nMarine Corps Photo by Lance Cpl.",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "summaryZh": "美国海军陆战队来自宾夕法尼亚州的军士长里卡多·L·桑托斯，是海军陆战队第2航空联队第14航空大队第231战斗机攻击中队的高级士官领导，于2026年10月9日在北卡罗来纳州切里波因特海军陆战队航空站举行的启用仪式上护旗行进。该仪式标志着海军陆战队最古老飞行中队的启用，该中队于1919年首次组建，并标志着第2航空联队航空现代化进程中的一个里程碑。",
-   "titleZh": "VMFA-231启用仪式",
-   "titleTrans": "ok",
-   "zhParas": [
-    "来自宾夕法尼亚州的桑托斯是海军陆战队第2航空联队第14航空大队第231战斗机攻击中队的高级士官领导，于10月在北卡罗来纳州切里波因特海军陆战队航空站举行的启用仪式上护旗行进。",
-    "该仪式标志着海军陆战队历史最悠久的飞行中队的启用，该中队于1919年首次编成，同时也标志着海军陆战队第2航空联队航空现代化的一个里程碑。",
-    "海军陆战队照片，由准下士拍摄。"
-   ],
-   "zhFull": "来自宾夕法尼亚州的桑托斯是海军陆战队第2航空联队第14航空大队第231战斗机攻击中队的高级士官领导，于10月在北卡罗来纳州切里波因特海军陆战队航空站举行的启用仪式上护旗行进。\n\n该仪式标志着海军陆战队历史最悠久的飞行中队的启用，该中队于1919年首次编成，同时也标志着海军陆战队第2航空联队航空现代化的一个里程碑。\n\n海军陆战队照片，由准下士拍摄。",
-   "zhDone": 3,
-   "zhChunks": 3,
-   "zhState": "ok"
-  },
-  {
    "url": "https://www.defensenews.com/missile-defense/2026/10/09/pentagon-raytheon-sign-63b-deal-to-replenish-us-missile-interceptor-supply/",
    "title": "Pentagon, Raytheon sign $6.3B deal to replenish US missile interceptor supply",
    "author": "Zita Fletcher",
@@ -1387,9 +1490,8 @@
    "body": "LANDSTUHL, Germany — In the Emergency Department at Landstuhl Regional Medical Center, medical personnel must remain focused as they respond to patients who need urgent care. Among them is U.S. Air Force Senior Airman Ian Guarisco, a medic whose work is guided by a family tradition of military service and a lifelong interest in medicine.\n\nGuarisco’s decision to serve was influenced by the example set by both of his grandfathers who served in the military, as well as a cousin currently serving in the Marine Corps.\n\n“Both of my grandfathers served, and my cousin is currently in the Marine Corps. I have always looked up to the people who wear the uniform,” Guarisco said. “I wanted to follow in their footsteps, be part of something bigger than myself, and make a real difference .\"\n\nWhile his grandfathers gave him a blueprint for military service, his interest in medicine began at home. His mother spent 20 years as an intensive care nurse, and his father works as an emergency medicine nurse practitioner. Growing up around health care professionals gave Guarisco an early appreciation for the work involved in caring for others.\n\n“Seeing the difference, they made every day sparked my own curiosity,” Guarisco said. “I knew early on that medicine was the only path for me.”\n\nThe example set by his family also shaped his understanding of service, sacrifice, and the importance of supporting others.\n\nToday, Guarisco applies those lessons in the LRMC Emergency Department. The medical center treats service members and other eligible patients from across Europe, Africa, and the Middle East, presenting medical personnel with a wide range of cases and challenges.\n\nFor Guarisco, the work means helping patients through some of the most difficult moments.\n\n“ There is something incredibly meaningful about being there for people when they are sick and vulnerable,” Guarisco said. “Just being able to help them feel a little better is the most rewarding part of my job.”\n\nHe said his family is incredibly proud that I’ve found a way to combine our family's two greatest passions: serving the country and caring for others .\n\nHis dedication to patient care has also earned recognition from his colleagues.\n\nSgt. Jonathan Baczynski, a noncommissioned officer in LRMC’s Emergency Department, said Guarisco consistently demonstrates professionalism and technical skills.\n\n\"He is always on top of everything that needs to be done,” Baczynski said. \"Anytime he works with an ill patient, he does it exceptionally well,” Baczynski said. “He is simply an outstanding technician and service member.\"\n\nFor Guarisco, military service and medicine are closely connected. The values he learned from his family continue to guide him as he cares for patients and supports the LRMC mission, carrying forward a legacy of service that began generations before him.",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "summaryZh": "在兰德斯图尔地区医疗中心急诊科，医务人员在响应需要紧急护理的患者时必须保持专注。他们当中就有美国空军上等兵伊恩·瓜里斯科，他是一名医疗兵，其工作受家族从军传统和对医学的终身兴趣指引。瓜里斯科决定服役，是受到他两位祖父树立的榜样的影响。瓜里斯科决定服役，是受到他两位祖父树立的榜样的影响。",
    "titleZh": "我为何服役：空军上等兵传承家族服役与关爱他人的传统",
-   "titleTrans": "ok",
+   "summaryZh": "在兰德斯图尔地区医疗中心急诊科，医务人员在响应需要紧急护理的患者时必须保持专注。他们当中就有美国空军上等兵伊恩·瓜里斯科，他是一名医疗兵，其工作受家族从军传统和对医学的终身兴趣指引。瓜里斯科决定服役，是受到他两位祖父树立的榜样的影响。瓜里斯科决定服役，是受到他两位祖父树立的榜样的影响。",
    "zhParas": [
     "德国兰德斯图尔——在兰德斯图尔地区医疗中心急诊科，医务人员在救治需要紧急护理的患者时必须保持专注。他们当中就有美国空军上等兵伊恩·瓜里斯科，他是一名医疗兵，其工作受家族从军传统和对医学的终身兴趣指引。",
     "瓜里斯科决定服役，受到他两位曾在军队服役的祖父以及一位目前正在海军陆战队服役的表亲的榜样影响。",
@@ -1409,7 +1511,8 @@
    "zhFull": "德国兰德斯图尔——在兰德斯图尔地区医疗中心急诊科，医务人员在救治需要紧急护理的患者时必须保持专注。他们当中就有美国空军上等兵伊恩·瓜里斯科，他是一名医疗兵，其工作受家族从军传统和对医学的终身兴趣指引。\n\n瓜里斯科决定服役，受到他两位曾在军队服役的祖父以及一位目前正在海军陆战队服役的表亲的榜样影响。\n\n我的两位祖父都曾服役，我的表亲目前也在海军陆战队。我一直敬仰穿军装的人，”瓜里斯科说。“我想追随他们的脚步，成为比自己更宏大事业的一部分，并真正带来改变。\n\n祖父们为他提供了从军的蓝图，而他对医学的兴趣则始于家庭。他的母亲当了20年重症监护护士，父亲则是一名急诊医学高级执业护士。在医护人员身边长大，使瓜里斯科很早就体会到照顾他人所涉及的工作。\n\n看到他们每天带来的改变，激发了我自己的好奇心，”瓜里斯科说。“我很早就知道，医学是我唯一的道路。\n\n家人树立的榜样也塑造了他对服役、牺牲以及支持他人的重要性的理解。\n\n如今，瓜里斯科在LRMC急诊科运用这些经验。该医疗中心收治来自欧洲、非洲和中东各地的军人及其他符合资格的患者，这使医务人员面对各种各样的病例和挑战。\n\n对瓜里斯科而言，这项工作意味着帮助患者度过一些最艰难的时刻。\n\n当人们生病、脆弱时，能陪伴在他们身边，这件事有着极其深刻的意义，”瓜里斯科说。“只要能帮他们感觉稍微好一点，就是我工作中最有成就感的部分。\n\n他说，他的家人为我能找到一种把我们家庭最热爱的两件事结合起来的方式而感到无比自豪：报效国家和关爱他人。\n\n他对患者护理的奉献也赢得了同事们的认可。\n\nLRMC急诊科的一名士官乔纳森·巴琴斯基中士表示，瓜里斯科始终展现出专业素养和技术能力。\n\n他总是掌控着一切需要完成的事，”巴琴斯基说。“每当他照料患病患者时，都做得极其出色，”巴琴斯基说。“他简直就是一名杰出的医疗技师和军人。\n\n对瓜里斯科来说，军旅服役与医学密不可分。他从家人身上学到的价值观，继续指引他照护患者并支持LRMC的使命，延续着始于他之前数代人的服役传承。",
    "zhDone": 14,
    "zhChunks": 14,
-   "zhState": "ok"
+   "zhState": "ok",
+   "zhAt": null
   },
   {
    "url": "https://www.dvidshub.net/news/576655/ncng-state-partnership-program-director-receives-national-army-medal-republic-moldova",
@@ -1485,26 +1588,26 @@
    "zhAt": null
   },
   {
-   "url": "https://www.dvidshub.net/image/10003011/2026-mcas-cherry-point-mass-casualty-exercise",
+   "url": "https://www.dvidshub.net/image/10003016/2026-mcas-cherry-point-mass-casualty-exercise",
    "title": "2026 MCAS Cherry Point Mass Casualty Exercise",
    "author": "LCpl Sorayma Garcia",
-   "pubDate": "2026-10-09T19:19:12+00:00",
-   "summary": "U.S. Marines assigned to Aircraft Rescue and Fire Fighting with Headquarters and Headquarters Squadron, Marine Corps Air Station Cherry Point, Cherry Point Fire and Emergencies Services, New Bern Fire Department, Township 7 Fire Department, Coastal Carolina Regional Airport personnel and other local first responders receive exercise instructions prior to a mass casualty exercise at the Coastal Carolina Airport in New Bern, North Carolina, Oct. 8, 2026. The triannual mass casualty exercise with M",
-   "body": "Marines assigned to Aircraft Rescue and Fire Fighting with Headquarters and Headquarters Squadron, Marine Corps Air Station Cherry Point, Cherry Point Fire and Emergencies Services, New Bern Fire Department, Township 7 Fire Department, Coastal Carolina Regional Airport personnel and other local first responders receive exercise instructions prior to a mass casualty exercise at the Coastal Carolina Airport in New Bern, North Carolina, Oct.\n\nThe triannual mass casualty exercise with MCAS Cherry Point Marines, Coastal Carolina Regional Airport personnel and local first responders reinforce emergency response capabilities to maintain the highest level of public safety.\n\nMarine Corps video by Lance Cpl.",
+   "pubDate": "2026-10-09T19:12:12+00:00",
+   "summary": "U.S. Marine expeditionary firefighting and rescue specialists with Headquarters and Headquarters Squadron, Marine Corps Air Station Cherry Point, assemble a stretcher during a mass casualty exercise at Coastal Carolina Regional Airport, New Bern, North Carolina, Oct. 8, 2026. The triannual mass casualty exercise with MCAS Cherry Point Marines, Coastal Carolina Regional Airport personnel and local first responders reinforce emergency response capabilities to maintain the highest level of public s",
+   "body": "Marine expeditionary firefighting and rescue specialists with Headquarters and Headquarters Squadron, Marine Corps Air Station Cherry Point, assemble a stretcher during a mass casualty exercise at Coastal Carolina Regional Airport, New Bern, North Carolina, Oct.\n\nThe triannual mass casualty exercise with MCAS Cherry Point Marines, Coastal Carolina Regional Airport personnel and local first responders reinforce emergency response capabilities to maintain the highest level of public safety.\n\nMarine Corps video by Lance Cpl.",
    "channel": "us_marines",
    "channelName": "美国海军陆战队",
-   "titleZh": "2026年海军陆战队切里波因特航空站大规模伤亡演习",
-   "summaryZh": "隶属于海军陆战队切里波因特航空站司令部与司令部中队航空救援与消防部门的海军陆战队员，以及切里波因特消防与应急服务处、新伯尔尼消防局、第7镇消防局、卡罗来纳海岸地区机场人员和其他当地第一响应人员，于2026年10月8日在北卡罗来纳州新伯尔尼的卡罗来纳海岸机场举行的大规模伤亡演习前接受演习指示。此次三年一度的大规模伤亡演习与M",
+   "summaryZh": "美国海军陆战队远征消防与救援专业人员，隶属于海军陆战队樱桃点航空站司令部与司令部中队，于2026年10月8日在北卡罗来纳州新伯尔尼的卡罗来纳海岸地区机场举行的大规模伤亡演习中组装担架。与海军陆战队樱桃点航空站海军陆战队员、卡罗来纳海岸地区机场人员和当地应急响应人员共同举行的三年一度大规模伤亡演习，旨在增强应急响应能力，以保持最高水平的公共安全。",
+   "titleZh": "2026年海军陆战队樱桃点航空站大规模伤亡演习",
+   "titleTrans": "ok",
    "zhParas": [
-    "隶属于海军陆战队切里波因特航空站司令部与司令部中队航空救援与消防部门的海军陆战队员，以及切里波因特消防与应急服务处、新伯尔尼消防局、第7镇消防局、卡罗来纳海岸地区机场人员和其他当地第一响应人员，于10月在北卡罗来纳州新伯尔尼的卡罗来纳海岸机场举行的大规模伤亡演习前接受演习指示。",
-    "此次每年三次的大规模伤亡演习由海军陆战队切里波因特航空站的海军陆战队员、卡罗来纳海岸地区机场人员和当地第一响应人员共同参与，旨在加强应急响应能力，以维持最高水平的公共安全。",
-    "海军陆战队视频，由准下士拍摄。"
+    "10月，隶属于海军陆战队樱桃点航空站司令部与司令部中队的海军陆战队远征消防与救援专业人员，在北卡罗来纳州新伯尔尼的卡罗来纳海岸地区机场举行的大规模伤亡演习中组装担架。",
+    "与海军陆战队樱桃点航空站海军陆战队员、卡罗来纳海岸地区机场人员及当地一线应急响应人员共同开展的每年三次大规模伤亡演习，旨在强化应急响应能力，以维持最高水平的公共安全。",
+    "由准下士拍摄的海军陆战队视频。"
    ],
-   "zhFull": "隶属于海军陆战队切里波因特航空站司令部与司令部中队航空救援与消防部门的海军陆战队员，以及切里波因特消防与应急服务处、新伯尔尼消防局、第7镇消防局、卡罗来纳海岸地区机场人员和其他当地第一响应人员，于10月在北卡罗来纳州新伯尔尼的卡罗来纳海岸机场举行的大规模伤亡演习前接受演习指示。\n\n此次每年三次的大规模伤亡演习由海军陆战队切里波因特航空站的海军陆战队员、卡罗来纳海岸地区机场人员和当地第一响应人员共同参与，旨在加强应急响应能力，以维持最高水平的公共安全。\n\n海军陆战队视频，由准下士拍摄。",
+   "zhFull": "10月，隶属于海军陆战队樱桃点航空站司令部与司令部中队的海军陆战队远征消防与救援专业人员，在北卡罗来纳州新伯尔尼的卡罗来纳海岸地区机场举行的大规模伤亡演习中组装担架。\n\n与海军陆战队樱桃点航空站海军陆战队员、卡罗来纳海岸地区机场人员及当地一线应急响应人员共同开展的每年三次大规模伤亡演习，旨在强化应急响应能力，以维持最高水平的公共安全。\n\n由准下士拍摄的海军陆战队视频。",
    "zhDone": 3,
    "zhChunks": 3,
-   "zhState": "ok",
-   "zhAt": null
+   "zhState": "ok"
   },
   {
    "url": "https://www.dvidshub.net/news/576750/carrier-air-wing-9-completes-10-month-combat-deployment",
@@ -2086,26 +2189,6 @@
    "zhAt": null
   },
   {
-   "url": "https://www.dvidshub.net/video/1026006/barnes-flyover-ep-18-combat-readiness-exercise",
-   "title": "The Barnes Flyover - Ep. 18 - Combat Readiness Exercise",
-   "author": "Jerry Hewitt",
-   "pubDate": "2026-10-09T16:10:54+00:00",
-   "summary": "In the 18th episode of the Barnes Flyover, hosts Melanie Casineau and Jay Hewitt from the 104th Fighter Wing Public Affairs team recap base and community events from September, highlight upcoming events, and sit down with 104th Fighter Wing Technical Sgt. Cody Fongemie from the 104th Security Forces Squadron to discuss the wing's recent combat readiness exercise. Links to all relevant stories and",
-   "body": "In the 18th episode of the Barnes Flyover, hosts Melanie Casineau and Jay Hewitt from the 104th Fighter Wing Public Affairs team recap base and community events from September, highlight upcoming events, and sit down with 104th Fighter Wing Technical Sgt. Cody Fongemie from the 104th Security Forces Squadron to discuss the wing's recent combat readiness exercise. Links to all relevant stories and photos can be found at the 104FW DVIDS page here - https://www.dvidshub.n.... Follow the wing on social media to stay up-to-date with the latest information. facebook.com/104FW @104fw Copyright (c) 104th Fighter Wing Massachusetts Air National Guard. All rights reserved. This funded Air Force podcast is an authorized publication for members of the U.S military services. Contents of the Barnes Flyover are not necessarily the official views of, or endorsed by, the U.S Government, the Department of Defense, the Department of the Air Force, or the Air National Guard.",
-   "channel": "us_dod",
-   "channelName": "美国国防部",
-   "titleZh": "《巴恩斯飞越》 - 第18集 - 作战战备演习",
-   "summaryZh": "在《巴恩斯飞越》第18集中，来自第104战斗机联队公共事务团队的主持人梅兰妮·卡西诺和杰伊·休伊特回顾了9月的基地和社区活动，重点介绍了即将举行的活动，并与第104战斗机联队第104安全部队中队的技术中士科迪·丰热米坐下来交谈，讨论该联队近期的作战战备演习。所有相关报道和",
-   "zhParas": [
-    "在《巴恩斯飞越》第18集中，来自第104战斗机联队公共事务团队的主持人梅兰妮·卡西诺和杰伊·休伊特回顾了9月的基地和社区活动，重点介绍了即将举行的活动，并与第104战斗机联队第104安全部队中队的技术中士科迪·丰热米坐下来交谈，讨论该联队近期的作战战备演习。所有相关报道和照片的链接可在第104战斗机联队国防视觉信息分发服务页面找到——https://www.dvidshub.n.... 在社交媒体上关注该联队，以了解最新信息。facebook.com/104FW @104fw 版权所有 (c) 第104战斗机联队马萨诸塞州空军国民警卫队。保留所有权利。本空军资助的播客是面向美国军队各军种人员的授权出版物。《巴恩斯飞越》的内容不一定代表美国政府、国防部、空军部或空军国民警卫队的官方观点，也不一定得到这些机构的认可。"
-   ],
-   "zhFull": "在《巴恩斯飞越》第18集中，来自第104战斗机联队公共事务团队的主持人梅兰妮·卡西诺和杰伊·休伊特回顾了9月的基地和社区活动，重点介绍了即将举行的活动，并与第104战斗机联队第104安全部队中队的技术中士科迪·丰热米坐下来交谈，讨论该联队近期的作战战备演习。所有相关报道和照片的链接可在第104战斗机联队国防视觉信息分发服务页面找到——https://www.dvidshub.n.... 在社交媒体上关注该联队，以了解最新信息。facebook.com/104FW @104fw 版权所有 (c) 第104战斗机联队马萨诸塞州空军国民警卫队。保留所有权利。本空军资助的播客是面向美国军队各军种人员的授权出版物。《巴恩斯飞越》的内容不一定代表美国政府、国防部、空军部或空军国民警卫队的官方观点，也不一定得到这些机构的认可。",
-   "zhDone": 1,
-   "zhChunks": 1,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
    "url": "https://www.defensenews.com/news/your-army/2026/10/09/us-army-corps-of-engineers-failed-to-explain-drop-in-environmental-mitigation-work-watchdog/",
    "title": "US Army Corps of Engineers failed to explain drop in environmental mitigation work: Watchdog",
    "author": "Zita Fletcher",
@@ -2628,76 +2711,6 @@
    "zhFull": "2026年10月8日，作为旧金山舰队周活动的一部分，美国海军陆战队第1陆战师军乐队队员和美国海军西南乐队的水兵在旧金山海军陆战队纪念剧院举行的2026年“缅怀阵亡将士”音乐会上演出。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众得以亲身领略当今海上军种的风采。活动期间，水兵、海军陆战队员和海岸警卫队员展示自身能力与装备，参加各类社区服务活动，并感受湾区的热情款待。（美国海军陆战队吉迪恩·希珀斯中士 摄）",
    "zhDone": 1,
    "zhChunks": 1,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
-   "url": "https://www.dvidshub.net/image/10002322/marine-corps-major-connects-with-community-during-san-francisco-fleet-week",
-   "title": "Marine Corps major connects with community during San Francisco Fleet Week",
-   "author": "PO3 Pablo Chavez",
-   "pubDate": "2026-10-09T07:02:16+00:00",
-   "summary": "U.S. Marine Corps Maj. Kadrick Johnson Jr, left, executive officer of 1st Maintenance Battalion, 1st Combat Readiness Regiment, speaks to San Francisco community members during “Hoops with the Troops” as part of San Francisco Fleet Week, Oct. 8, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilit",
-   "body": "Kadrick Johnson Jr, left, executive officer of 1st Maintenance Battalion, 1st Combat Readiness Regiment, speaks to San Francisco community members during “Hoops with the Troops” as part of San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nNavy photo by Mass Communication Specialist 3rd Class Pablo Chavez)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "titleZh": "海军陆战队少校在旧金山舰队周期间与社区互动",
-   "summaryZh": "美国海军陆战队少校小卡德里克·约翰逊（左），第1战备团第1维修营执行官，于2026年10月8日旧金山舰队周期间，在“与军人打篮球”活动中向旧金山社区成员讲话。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区居民得以亲身领略当今海上部队的风采。活动期间，水兵、海军陆战队员和海岸警卫队队员展示他们的能力。",
-   "zhParas": [
-    "第1战备团第1维修营执行官小卡德里克·约翰逊（左）于10月旧金山舰队周期间，在“与军人打篮球”活动中向旧金山社区成员讲话。",
-    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上军种的风采。",
-    "活动期间，水兵、海军陆战队队员和海岸警卫队队员展示其能力与装备，参加各类社区服务活动，并享受湾区的热情款待。",
-    "（美国海军照片，由海军三等大众传播专家巴勃罗·查韦斯拍摄）"
-   ],
-   "zhFull": "第1战备团第1维修营执行官小卡德里克·约翰逊（左）于10月旧金山舰队周期间，在“与军人打篮球”活动中向旧金山社区成员讲话。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲身领略当今海上军种的风采。\n\n活动期间，水兵、海军陆战队队员和海岸警卫队队员展示其能力与装备，参加各类社区服务活动，并享受湾区的热情款待。\n\n（美国海军照片，由海军三等大众传播专家巴勃罗·查韦斯拍摄）",
-   "zhDone": 4,
-   "zhChunks": 4,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
-   "url": "https://www.dvidshub.net/image/10002323/sailor-connects-with-san-francisco-community-through-basketball-during-san-francisco-fleet-week",
-   "title": "Sailor connects with San Francisco community through basketball during San Francisco Fleet Week",
-   "author": "PO3 Pablo Chavez",
-   "pubDate": "2026-10-09T07:01:12+00:00",
-   "summary": "U.S. Navy Seamen Fredreka Jones, assigned to Navy Amphibious Construction Battalion (ACB 1), plays basketball with members of the San Francisco community during “Hoops with the Troops” as part of San Francisco Fleet Week, Oct. 8, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand. During the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipmen",
-   "body": "Navy Seamen Fredreka Jones, assigned to Navy Amphibious Construction Battalion (ACB 1), plays basketball with members of the San Francisco community during “Hoops with the Troops” as part of San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nNavy photo by Mass Communication Specialist 3rd Class Pablo Chavez)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "titleZh": "在旧金山舰队周期间，海军水兵通过篮球与旧金山社区建立联系",
-   "summaryZh": "隶属于海军两栖建筑营（ACB 1）的美国海军水兵弗雷德丽卡·琼斯，在2026年10月8日旧金山舰队周期间举行的“与部队打篮球”（Hoops with the Troops）活动中，与旧金山社区居民一起打篮球。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区居民能够亲身见证当今的海上部队。活动期间，海军水兵、海军陆战队员和海岸警卫队人员展示其能力和装备。",
-   "zhParas": [
-    "隶属于海军两栖建筑营（ACB 1）的海军水兵弗雷德丽卡·琼斯，在10月旧金山舰队周期间举行的“与部队打篮球”（Hoops with the Troops）活动中，与旧金山社区居民一起打篮球。",
-    "旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上服务力量。",
-    "活动期间，水兵、海军陆战队员和海岸警卫队人员展示各自的能力与装备，参与各类社区服务活动，并享受湾区的热情好客。",
-    "（美国海军照片，由三级大众传播专家巴勃罗·查韦斯拍摄）"
-   ],
-   "zhFull": "隶属于海军两栖建筑营（ACB 1）的海军水兵弗雷德丽卡·琼斯，在10月旧金山舰队周期间举行的“与部队打篮球”（Hoops with the Troops）活动中，与旧金山社区居民一起打篮球。\n\n旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众能够亲眼目睹当今的海上服务力量。\n\n活动期间，水兵、海军陆战队员和海岸警卫队人员展示各自的能力与装备，参与各类社区服务活动，并享受湾区的热情好客。\n\n（美国海军照片，由三级大众传播专家巴勃罗·查韦斯拍摄）",
-   "zhDone": 4,
-   "zhChunks": 4,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
-   "url": "https://www.dvidshub.net/image/10002324/service-members-connects-with-san-francisco-community-through-basketball-during-san-francisco-fleet-week",
-   "title": "Service members connects with San Francisco community through basketball during San Francisco Fleet Week",
-   "author": "PO3 Pablo Chavez",
-   "pubDate": "2026-10-09T07:00:18+00:00",
-   "summary": "U.S. Marine Corps Cpl. Makayla Decklever, left, and U.S. Navy Religious Program Specialist Seaman Apprentice Kaila Nihei, both assigned to 1st Maintenance Battalion, 1st Combat Readiness Regiment, play basketball with members of the San Francisco community during “Hoops with the Troops” as part of San Francisco Fleet Week, Oct. 8, 2026. San Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firs",
-   "body": "Makayla Decklever, left, and U.\n\nNavy Religious Program Specialist Seaman Apprentice Kaila Nihei, both assigned to 1st Maintenance Battalion, 1st Combat Readiness Regiment, play basketball with members of the San Francisco community during “Hoops with the Troops” as part of San Francisco Fleet Week, Oct.\n\nSan Francisco Fleet Week, now in its 45th iteration, is a time-honored celebration that allows citizens of the Bay Area to witness today’s maritime services firsthand.\n\nDuring the event, Sailors, Marines, and Coast Guardsmen showcase their capabilities and equipment, participate in various community service events, and enjoy the hospitality of the Bay Area.\n\nNavy photo by Mass Communication Specialist 3rd Class Pablo Chavez)",
-   "channel": "us_marines",
-   "channelName": "美国海军陆战队",
-   "titleZh": "军人在旧金山舰队周期间通过篮球与旧金山社区互动",
-   "summaryZh": "美国海军陆战队下士玛凯拉·德克莱弗（左）和美国海军宗教项目专家学徒水兵凯拉·尼黑均隶属于第1战斗战备团第1维修营，他们在2026年10月8日旧金山舰队周期间参加“与部队同场投篮”活动，与旧金山社区成员一起打篮球。旧金山舰队周如今已举办至第45届，是一项历史悠久的庆祝活动，让湾区民众得以亲身领略当今海上部队。",
-   "zhParas": [
-    "玛凯拉·德克莱弗（左）和U.",
-    "美国海军宗教事务专家二等兵 Kaila Nihei（两人均隶属于第1战备团第1维修营）在10月旧金山舰队周期间参加“与部队打篮球”活动，与旧金山社区居民一起打篮球。",
-    "旧金山舰队周如今已迎来第45届，这一历史悠久的庆祝活动让湾区民众能够亲身领略当今海上部队的风采。",
-    "活动期间，水兵、海军陆战队员和海岸警卫队队员展示其能力与装备，参加各类社区服务活动，并享受湾区的热情好客。",
-    "海军照片，由大众传播专家三等兵巴勃罗·查韦斯拍摄）"
-   ],
-   "zhFull": "玛凯拉·德克莱弗（左）和U.\n\n美国海军宗教事务专家二等兵 Kaila Nihei（两人均隶属于第1战备团第1维修营）在10月旧金山舰队周期间参加“与部队打篮球”活动，与旧金山社区居民一起打篮球。\n\n旧金山舰队周如今已迎来第45届，这一历史悠久的庆祝活动让湾区民众能够亲身领略当今海上部队的风采。\n\n活动期间，水兵、海军陆战队员和海岸警卫队队员展示其能力与装备，参加各类社区服务活动，并享受湾区的热情好客。\n\n海军照片，由大众传播专家三等兵巴勃罗·查韦斯拍摄）",
-   "zhDone": 5,
-   "zhChunks": 5,
    "zhState": "ok",
    "zhAt": null
   },
@@ -9018,31 +9031,6 @@
    "zhFull": "据防务科技企业安杜里尔公司周二宣布，为助力华盛顿方面提升海上防御能力，该公司将投入37亿美元在马里兰州建设一座新造船厂，用于生产美国海军弗吉尼亚级潜艇所需的关键零部件。\n\n据这家国防初创企业透露，美国海军随后向安杜里尔公司授予了一份价值高达29亿美元的合同，用于生产潜艇零部件；合同款项的支付直接与生产成果挂钩，且该企业需承担大部分执行风险。\n\n这笔总额高达66亿美元的投资及相关合同，是在俄罗斯入侵乌克兰以及中东地区冲突发生后，美国及其盟友为扩大武器生产而推行的更广泛举措的一部分。\n\n这座被命名为“Arsenal-2”的新工厂将建在巴尔的摩县，预计将在本世纪末投入运营，它不仅能创造3,100个直接就业岗位，还能为超过11,000个间接就业岗位提供支撑。\n\n对于这笔29亿美元的政府合同，Anduril公司的首席战略官克里斯蒂安·布罗斯表示：‘实际上，政府购买的是我们通过已投入建设的工厂所生产出的产品。’\n\n布罗斯表示，Anduril公司目前正在加利福尼亚州建设一座工厂，用于生产弗吉尼亚级潜艇所需的鱼雷发射管等关键部件，以此帮助解决美国工业基地面临的严重产能短缺问题。\n\n一旦位于巴尔的摩的造船厂投入运营，该公司计划进一步拓展业务，开始生产更大的潜艇模块及船体结构部件。\n\n弗吉尼亚级潜艇的航行速度可超过25节，属于美国海军最新一代核动力攻击型潜艇，专为反潜作战、对陆攻击以及执行监视任务而设计。\n\n通用动力公司的电动船分部与亨廷顿·英格尔斯工业公司共同负责这些潜艇的建造工作。\n\n由帕尔默·拉克利于2017年创立的安杜里尔是一家国防企业，以其为美国军方及其盟友研发的自主系统、无人机以及相关软件而闻名。\n\n不过，这家初创企业已不再仅专注于无人机业务，而是将业务范围拓展到了海上及水下系统，以及用于连接军事传感器、武器及其他系统的指挥控制软件领域。\n\n在俄亥俄州投入10亿美元建设的“阿森纳-1”工厂已于今年开始生产自主作战无人机，而此次在马里兰州建设的新型工厂则将进一步加大潜艇零部件的产能，相关投资总额高达66亿美元，用于为海军的弗吉尼亚级潜艇制造关键部件。",
    "zhDone": 12,
    "zhChunks": 12,
-   "zhState": "ok",
-   "zhAt": null
-  },
-  {
-   "url": "https://www.defensenews.com/global/europe/2026/10/06/lithuania-says-it-would-pay-the-cost-if-us-establishes-military-base/",
-   "title": "Lithuania says it would pay the cost if US establishes military base",
-   "author": "Andrius Sytas, Reuters",
-   "pubDate": "2026-10-06T09:41:07+00:00",
-   "summary": "Lithuania is ready to pay the cost to set up a permanent U.S. military base if Washington should agree to establish one there, the prime minister said.",
-   "body": "VILNIUS — Lithuania is ready to pay the cost to set up a permanent U.S. military base if Washington should agree to establish one there, Prime Minister Mindaugas Sinkevicius said on Tuesday.\n\nOn Monday, U.S. President Donald Trump said he would consider Lithuania’s request for a permanent base: “They are friends of mine, they are great people, so we will certainly look at it.”\n\nLithuania, a member of the EU and NATO, borders Russia and Moscow’s close ally Belarus. The United States has kept an armored battalion of almost 1,000 troops there since 2019, in overlapping rotations, meaning the troops arrive and leave every few months.\n\nSinkevicius said he proposed turning this into a permanent presence at a meeting with Trump’s envoy John Coale last month in Vilnius.\n\n“I’m glad that this idea is being taken seriously... This is a critically important guarantee of deterrence and security,” Sinkevicius wrote on Facebook.\n\n“Our partners only need to make the political decision to permanently station troops, and Lithuania is ready to cover the costs involved.”",
-   "channel": "defensenews",
-   "channelName": "Defense News",
-   "titleZh": "立陶宛称若美军在该国设基地，愿承担相关建设费用",
-   "summaryZh": "立陶宛总理表示，如果华盛顿方面同意在该国设立永久性美军基地，立陶宛愿意承担相关的建设费用。",
-   "zhParas": [
-    "维尔纽斯——立陶宛总理明达乌加斯·辛克维丘斯周二表示，如果华盛顿方面同意在该国设立永久性美军基地，立陶宛愿意承担相关建设费用。",
-    "周一，美国总统唐纳德·特朗普表示会考虑立陶宛建立永久性美军基地的请求，他称：‘他们是我的朋友，都是很棒的人，所以我们肯定会研究这个提议。’",
-    "作为欧盟与北约成员国，立陶宛与俄罗斯及莫斯科的亲密盟友白俄罗斯接壤。自2019年起，美国一直在该国驻扎一支约1000人的装甲营，通过轮换方式驻扎，这意味着这些部队每隔数月就会更换一批。",
-    "辛凯维丘斯表示，上个月在维尔纽斯与特朗普的特使约翰·科尔会面时，他提议将美军驻留转变为永久性存在。",
-    "辛凯维丘斯在脸书上写道：‘我很高兴这一提议能得到认真对待……这是保障威慑力与安全至关重要的举措。’",
-    "只要我们的合作伙伴做出在立陶宛永久驻军的政治决定，立陶宛就愿意承担由此产生的所有费用。"
-   ],
-   "zhFull": "维尔纽斯——立陶宛总理明达乌加斯·辛克维丘斯周二表示，如果华盛顿方面同意在该国设立永久性美军基地，立陶宛愿意承担相关建设费用。\n\n周一，美国总统唐纳德·特朗普表示会考虑立陶宛建立永久性美军基地的请求，他称：‘他们是我的朋友，都是很棒的人，所以我们肯定会研究这个提议。’\n\n作为欧盟与北约成员国，立陶宛与俄罗斯及莫斯科的亲密盟友白俄罗斯接壤。自2019年起，美国一直在该国驻扎一支约1000人的装甲营，通过轮换方式驻扎，这意味着这些部队每隔数月就会更换一批。\n\n辛凯维丘斯表示，上个月在维尔纽斯与特朗普的特使约翰·科尔会面时，他提议将美军驻留转变为永久性存在。\n\n辛凯维丘斯在脸书上写道：‘我很高兴这一提议能得到认真对待……这是保障威慑力与安全至关重要的举措。’\n\n只要我们的合作伙伴做出在立陶宛永久驻军的政治决定，立陶宛就愿意承担由此产生的所有费用。",
-   "zhDone": 6,
-   "zhChunks": 6,
    "zhState": "ok",
    "zhAt": null
   },
